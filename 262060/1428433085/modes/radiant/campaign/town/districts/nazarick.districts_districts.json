@@ -1,0 +1,31 @@
+{
+    "enabled" : true,
+    "buildings": [
+        {
+            "name": "nazarick",
+            "render_data": {
+                "sprite_paths": [
+                    "fx/town_district_nazarick/town_district_nazarick.sprite.skel",
+                    "fx/purchase_district/purchase_district.sprite.skel"
+                ],
+                "not_built_animation": "idle",
+                "built_animation": "built",
+                "purchased_animation": "purchased",
+                "town_priority": 11337
+            },
+            "currency_cost": [
+                { "type": "gold", "amount": 750 },
+                { "type": "portrait", "amount": 35 },
+                { "type": "blueprint", "amount": 1 }
+            ],
+            "buff_list": [
+                {
+                    "type": "DistrictHeroBuffData",
+                    "name": "hero_buff0",
+                    "hero_type_tags": [ "nazarick" ],
+                    "buff_list": [ "AINZ_NZR_DMGL_HM", "AINZ_NZR_DMGH_HM", "AINZ_NZR_Healing_Recieved", "AINZ_NZR_Stress_Healing_Recieved" ]
+                }
+            ]
+        }
+    ]
+}

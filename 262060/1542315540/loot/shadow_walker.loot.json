@@ -1,0 +1,79 @@
+{
+   "loot_tables" :
+   [
+         {
+         "id" : "SHADOW_WALKER_LOOT_TABLE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 20, "data" : { }},
+            { "type" : "item", "chances" : 40, "data" : { "type" : "gem", "id" : "sw_jade_chess_piece", "amount" : 1 }},
+			{ "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "sw_smoke_bomb", "amount" : 1 }},
+            { "type" : "item", "chances" : 30, "data" : { "type" : "gem", "id" : "jade", "amount" : 2 }},
+            { "type" : "item", "chances" : 25, "data" : { "type" : "gem", "id" : "sw_jade_chess_piece", "amount" : 3 }},
+            { "type" : "item", "chances" : 15, "data" : { "type" : "gem", "id" : "sw_jade_chess_piece", "amount" : 8 }},
+            { "type" : "trinket", "chances" : 6, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "ancestral_shambler" }}
+         ]
+      },
+	  {
+         "id" : "Random_Shadow_Smoke_Bombs_Loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "sw_smoke_bomb", "amount" : 1 }}
+			
+         ]
+	  },
+      {
+         "id" : "SW_Herbs_of_the_Wild",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 20, "data" : { }},
+			 { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 1 }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "HERBS_MAIN" }}
+         ]
+    },
+   {
+         "id" : "SW_Herbs_of_the_Wild_Camp",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 1 }},
+			{ "type" : "table", "chances" : 10, "data" : { "table" : "HERBS_MAIN" }}
+         ]
+    },
+	{
+         "id" : "SW_Spider_Hunter_check",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 94, "data" : { }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 1 }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "sw_spider_hunter" }}
+         ]
+    },
+	{
+         "id" : "SW_camping_tooltip_passthrough",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }}	
+         ]
+      }	  
+   ]
+}

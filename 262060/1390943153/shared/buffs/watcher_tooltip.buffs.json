@@ -1,0 +1,862 @@
+{
+   "buffs":
+   [
+   {
+         "id" : "watcher_tooltip_magic",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_magic",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_BypassRiposte",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_bypassRP",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_guarding",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_guarding",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	{
+         "id" : "watcher_tooltip_clear",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_clear",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Swiftstep",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Swiftstep",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+		{
+         "id" : "watcher_tooltip_stun_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_stun_a",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_stun_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_stun_b",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_stun_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_stun_c",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_stun_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_stun_d",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_stun_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_stun_e",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "watcher_tooltip_Push_Miss_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_Miss_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Push_Miss_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_Miss_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Push_Miss_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_Miss_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Push_Miss_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_Miss_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Push_Miss_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_Miss_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Push_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_a",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Push_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_b",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Push_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_c",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Push_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_d",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Push_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Push_e",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Giantkiller_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Giantkiller_a",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Giantkiller_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Giantkiller_b",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Giantkiller_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Giantkiller_c",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Giantkiller_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Giantkiller_d",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Giantkiller_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Giantkiller_e",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Preparation_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Preparation_a",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Preparation_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Preparation_b",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Preparation_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Preparation_c",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Preparation_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Preparation_d",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Preparation_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Preparation_e",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_rank4_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_4a",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_rank4_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_4b",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_rank4_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_4c",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_rank4_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_4d",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_rank4_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_4e",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_uses_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_uses_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_uses_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_uses_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_uses_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_debuff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_daggerDE_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_debuff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_daggerDE_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_debuff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_daggerDE_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_debuff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_daggerDE_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_debuff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_daggerDE_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_dagger_blight_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_blight_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_blight_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_blight_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_blight_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_blight_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_blight_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_blight_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_dagger_blight_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_dagger_blight_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  {
+         "id" : "watcher_tooltip_counter",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_counter_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter_a",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_counter_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter_b",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_counter_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter_c",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_counter_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter_d",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_counter_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_counter_e",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Estus",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Estus_a",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+	  {
+         "id" : "TRINKET_calamity_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "calamity_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "watcher_tooltip_Stealth_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Stealth_a",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Stealth_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Stealth_b",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Stealth_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Stealth_c",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Stealth_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Stealth_d",
+         "amount" : 1,
+		  "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "watcher_tooltip_Stealth_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "watcher_tooltip_Stealth_e",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	
+	
+	  
+	
+	   
+
+	   
+	
+	 
+	 
+   ]
+}

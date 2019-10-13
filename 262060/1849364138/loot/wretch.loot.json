@@ -1,0 +1,625 @@
+{
+   "loot_tables" :
+   [
+   {
+         "id" : "WRETCH_T",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+			
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "wretch_Cat", "amount" : 1 }},
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "wretch_Cane", "amount" : 1 }},
+			{ "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "wretch_Sack", "amount" : 1 }},
+			{ "type" : "item", "chances" : 3, "data" : { "type" : "trinket", "id" : "wretch_Snort", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "trinket", "id" : "wretch_Ratking", "amount" : 1 }}  
+         ]
+      },
+	  {
+         "id" : "WRETCH_T",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 0, "data" : { }},
+			
+			{ "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "wretch_Cat", "amount" : 1 }},
+			{ "type" : "item", "chances" : 5, "data" : { "type" : "trinket", "id" : "wretch_Cane", "amount" : 1 }},
+			{ "type" : "item", "chances" : 3, "data" : { "type" : "trinket", "id" : "wretch_Sack", "amount" : 1 }},
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "wretch_Snort", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "trinket", "id" : "wretch_Ratking", "amount" : 1 }}  
+         ]
+      },
+	  {
+         "id" : "WRETCH_T",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "wretch_Cat", "amount" : 1 }},
+			
+			{ "type" : "item", "chances" : 6, "data" : { "type" : "trinket", "id" : "wretch_Cane", "amount" : 1 }},
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "wretch_Sack", "amount" : 1 }},
+			{ "type" : "item", "chances" : 5, "data" : { "type" : "trinket", "id" : "wretch_Snort", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "wretch_Ratking", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_T",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+         { "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "wretch_Cat", "amount" : 1 }},
+         
+         { "type" : "item", "chances" : 5, "data" : { "type" : "trinket", "id" : "wretch_Cane", "amount" : 1 }},
+         { "type" : "item", "chances" : 3, "data" : { "type" : "trinket", "id" : "wretch_Sack", "amount" : 1 }},
+         { "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "wretch_Snort", "amount" : 1 }},
+         { "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "wretch_Ratking", "amount" : 1 }}
+         ]
+      },
+	  {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+			{ "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}	
+         ]
+      },
+	  {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+			{ "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+			{ "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}	
+         ]
+      },
+	  {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+			{ "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+	  {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+			{ "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "cove",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "weald",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "farmstead",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "THING_SHARDS" }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "farmstead",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "THING_SHARDS" }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "farmstead",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "THING_SHARDS" }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "farmstead",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "THING_SHARDS" }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "town",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "town",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "town",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "town",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "ship",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 1,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "FCURE" }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 3,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 0, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 3, "data" : { "table" : "FCURE" }} 
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 5,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 6, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "FCURE" }}
+         ]
+      },
+     {
+         "id" : "WRETCH_CAMP",
+         "difficulty" : 6,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+         { "type" : "table", "chances" : 8, "data" : { "table" : "WRETCH_T" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "P" }},
+         { "type" : "table", "chances" : 1, "data" : { "table" : "JOURNALONLY" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CH" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+         { "type" : "table", "chances" : 5, "data" : { "table" : "S" }},
+         { "type" : "table", "chances" : 2, "data" : { "table" : "CT" }},
+         { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "firewood", "amount" : 1 }},
+         { "type" : "table", "chances" : 4, "data" : { "table" : "FCURE" }}
+         ]
+      },
+	  {
+         "id" : "wr_blight_tooltip",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }}	
+         ]
+      }
+	 
+   
+   ]
+}

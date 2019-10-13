@@ -1,0 +1,149 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+		{ 
+			"id" : "CampingSkill_littlepiglet_AAA",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  5
+				}
+			],
+			"hero_classes" : ["littlepiglet"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_littlepiglet_BBB",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.05
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				}
+			],
+			"hero_classes" : ["littlepiglet"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_littlepiglet_CCC",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.05
+				}
+			],
+			"hero_classes" : ["littlepiglet"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_littlepiglet_DDD",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  5
+				}
+			],
+			"hero_classes" : ["littlepiglet"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+	] 
+}

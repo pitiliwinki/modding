@@ -1,0 +1,27 @@
+{
+   "darkness_bonuses" :
+   [
+      {
+         "key" : "battle",
+         "data" :
+         [
+            { "darkness" : 0, "chance" : 0.75, "codes" : [ "B", "B" ] },
+            { "darkness" : 1, "chance" : 0.75, "codes" : [ "B" ] },
+            { "darkness" : 25, "chance" : 0.5, "codes" : [ "B" ] },
+            { "darkness" : 51, "chance" : 0.25, "codes" : [ "B" ] },
+            { "darkness" : 76, "chance" : 0, "codes" : [ "B" ] }
+         ]
+      },
+      {
+         "key" : "chest",
+         "data" :
+         [
+            { "darkness" : 0, "chance" : 0.95, "codes" : [ "A" ] },
+            { "darkness" : 1, "chance" : 0.75, "codes" : [ "A" ] },
+            { "darkness" : 25, "chance" : 0.5, "codes" : [ "A" ] },
+            { "darkness" : 51, "chance" : 0.25, "codes" : [ "A" ] },
+            { "darkness" : 76, "chance" : 0, "codes" : [ "A" ] }
+         ]
+      }
+   ]
+}

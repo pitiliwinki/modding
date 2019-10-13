@@ -1,0 +1,76 @@
+{
+	"currencies":
+	[
+		{
+			"id": "gold",
+			"is_heirloom": false			
+		},
+		{
+			"id": "bust",
+			"is_heirloom": true			
+		},
+		{
+			"id": "portrait",
+			"is_heirloom": true			
+		},
+		{
+			"id": "deed",
+			"is_heirloom": true			
+		},
+		{
+			"id": "crest",
+			"is_heirloom": true			
+		}
+	],
+	
+	"quest_fail_keep_rates":
+	[
+		{ 
+			"type": "gold",
+			"rate": 1.0
+		},
+		{ 
+			"type": "trinket",
+			"rate": 1.0
+		},
+		{ 
+			"type": "heirloom",
+			"rate": 1.0
+		},
+		{ 
+			"type": "provision",
+			"rate": 0.25
+		},
+		{ 
+			"type": "jewellery",
+			"rate": 1.0
+		},
+		{ 
+			"type": "gem",
+			"rate": 1.0
+		},
+		{ 
+			"type": "supply",
+			"rate": 0.25
+		},
+		{ 
+			"type": "quest_item",
+			"rate": 0.0
+		},
+		{ 
+			"type": "journal_page",
+			"rate": 1.0
+		}
+	],
+	
+	"hero_activity_cost_multiplier_table":
+	[
+		1.0,
+		1.0,
+		1.0,
+		1.50,
+		1.50,
+		2.0,
+		2.0
+	]
+}

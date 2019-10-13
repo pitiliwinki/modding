@@ -1,0 +1,620 @@
+{
+   "trees":
+   [
+      {
+         "id" : "librarian.weapon",
+         "is_instanced" : true,
+         "tags" : ["weapon", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+           {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.weapon", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 4000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.weapon", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 8000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.weapon", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.armour",
+         "is_instanced" : true,
+         "tags" : ["armour", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.armour", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 4000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.armour", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 8000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.armour", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.beat_back",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.beat_back", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.beat_back", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.beat_back", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.beat_back", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.mark_skill",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.mark_skill", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.mark_skill", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.mark_skill", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.mark_skill", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.forbidden_chant",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.forbidden_chant", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.forbidden_chant", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.forbidden_chant", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.forbidden_chant", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.quick_plan",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.quick_plan", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.quick_plan", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.quick_plan", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.quick_plan", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.six",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.six", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.six", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.six", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.six", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.lib_protect_me",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.lib_protect_me", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.lib_protect_me", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.lib_protect_me", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.lib_protect_me", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "librarian.stress_heal",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.stress_heal", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.stress_heal", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.stress_heal", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 3000 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "librarian.stress_heal", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      }
+]
+}

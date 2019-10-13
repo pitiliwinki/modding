@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="koreanb">
+  
+	<entry id="hero_class_name_grove_tender"><![CDATA[꽃밭지기]]></entry>
+	
+	
+	<entry id="action_verbose_body_blacksmith_grove_tender"><![CDATA[비단옷과 나무 지팡이는 싸우기에는 적합하지 않아보입니다. 하지만 지팡이에서 나오는 초자연적인 의지가 제 주인을 보호하고 있는 것은 확실합니다. ...제가 잘못 본걸까요? 지팡이 근처에서 아이와 비슷한 옷을 입은 여인이 보였던 거 같은데...]]></entry>
+	
+	
+	<entry id="action_verbose_body_guild_grove_tender"><![CDATA[꽃밭지기는 초자연적인 치유 능력을 가진 아이입니다. 체력이나 완력은 어른들보다 약하지만, 손에 쥔 금붕어마냥 적의 손아귀에서 빠져나가는건 잘합니다. 불행인지 다행인지는 모르겠지만 이 되바라진 꼬맹이의 다른 한 손에는 날카로운 호미가 들려져있다는 사실은 다들 외면하는 것 같군요.]]></entry>
+	
+	<entry id="action_verbose_body_camping_trainer_grove_tender"><![CDATA[꽃밭지기는 이국의 허브를 영약과 섞어서 효능을 높이거나, 어디서 구했는지 모를 민트잎을 다른 영웅들의 베개에 채워주기도 합니다. 때때로는 잠이 안 온다며 동화책을 읽어달라고 조르기도 합니다. 아유, 귀엽기도 하지... 하지만 아이가 자신의 지팡이를 올려다보면서 무어라 중얼거릴 때는 하나도 안 귀엽네요.]]></entry>
+	
+	<entry id="str_incompatible_party_flagellant_hate"><![CDATA[스스로 개죽음 당하려는 멍청이랑은 안 가요!]]></entry>
+	<entry id="str_incompatible_party_flagellant_hate"><![CDATA[그 도리깨로 절 때리지 말라는 법은 없잖아요?]]></entry>
+	<entry id="str_incompatible_party_flagellant_hate"><![CDATA[무한으로 즐겨요. 탈모빡대가리.]]></entry>
+	<entry id="str_incompatible_party_flagellant_hate"><![CDATA[사창가 아니면 길바닥에서나 어울릴 꼬라지네.]]></entry>
+	<entry id="str_incompatible_party_flagellant_hate"><![CDATA[목숨 귀한 줄 알아! 고통이 어쩌고 어째?!]]></entry>
+	
+	<entry id="str_incompatible_party_member_flagellant_hate"><![CDATA[꼬맹이 주제에 감히...]]></entry>
+	<entry id="str_incompatible_party_member_flagellant_hate"><![CDATA[고통을 두려워하는 자를 내 곁에 두지 마라.]]></entry>
+	<entry id="str_incompatible_party_member_flagellant_hate"><![CDATA[건방진 것.]]></entry>
+	<entry id="str_incompatible_party_member_flagellant_hate"><![CDATA[아무도 이 아이를 매질하지 않는 것이냐?!]]></entry>
+	<entry id="str_incompatible_party_member_flagellant_hate"><![CDATA[할 말은 그것 뿐이냐?]]></entry>
+	
+	<entry id="grove_tender_weapon_0"><![CDATA[장난감 솟대 지팡이]]></entry>
+	<entry id="grove_tender_weapon_1"><![CDATA[그럴싸한 솟대 지팡이]]></entry>
+	<entry id="grove_tender_weapon_2"><![CDATA[색동 솟대 지팡이]]></entry>
+	<entry id="grove_tender_weapon_3"><![CDATA[영혼빛 솟대 지팡이]]></entry>
+	<entry id="grove_tender_weapon_4"><![CDATA["신목의 가지"]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.weapon"><![CDATA[솟대 지팡이]]></entry>
+	
+	<entry id="grove_tender_armour_0"><![CDATA[튿어진 저고리와 방한모]]></entry>
+	<entry id="grove_tender_armour_1"><![CDATA[개털을 누빈 저고리와 방한모]]></entry>
+	<entry id="grove_tender_armour_2"><![CDATA[곱게 다린 저고리와 방한모]]></entry>
+	<entry id="grove_tender_armour_3"><![CDATA[오색빛 저고리와 방한모]]></entry>
+	<entry id="grove_tender_armour_4"><![CDATA["꽃망울의 속삭임"]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.armour"><![CDATA[저고리와 방한모]]></entry>
+	
+	<entry id="str_inventory_title_trinketgrove_tender_toytrowel"><![CDATA[장난감 모종삽]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_woodenbowl"><![CDATA[나무로 만든 물접시]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_gracefulnambawi"><![CDATA[옥구슬장식 남바위]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_goldenfish"><![CDATA[금붕어 노리개]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_favsnack"><![CDATA[제일 좋아했던 과자]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_evil_seed"><![CDATA[싹이 튼 수레멸망악심꽃의 씨앗]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_birthdaypresent"><![CDATA[생일선물]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_momskeepsake"><![CDATA[엄마의 애장품]]></entry>
+	<entry id="str_inventory_set_title_cc_grove_tender"><![CDATA["저엉말 멋지네, 생일 하루 전날에 일가 몰살이라니."]]></entry>
+	<entry id="str_inventory_title_trinketgrove_tender_fadedlamp"><![CDATA[창백한 호롱불]]></entry>
+	
+	<entry id="combat_skill_name_grove_tender_homi_strike"><![CDATA[호미질]]></entry>
+	<entry id="combat_skill_name_grove_tender_absorbing_light"><![CDATA[영혼을 흡수하는 빛]]></entry>
+	<entry id="combat_skill_name_grove_tender_laxifications_hug"><![CDATA[능소화의 포옹]]></entry>
+	<entry id="combat_skill_name_grove_tender_diluted_elixir"><![CDATA[희석한 영약]]></entry>
+	<entry id="combat_skill_name_grove_tender_lotus_shield"><![CDATA[연꽃 방패]]></entry>
+	<entry id="combat_skill_name_grove_tender_lanterns_console"><![CDATA[청사초롱의 위로]]></entry>
+	<entry id="combat_skill_name_grove_tender_root_powder"><![CDATA[투구꽃 뿌리의 가루]]></entry>
+	<entry id="combat_skill_name_grove_tender_move"><![CDATA[이동]]></entry>
+	
+	<entry id="upgrade_tree_name_grove_tender.homi_strike"><![CDATA[호미질]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.absorbing_light"><![CDATA[영혼을 흡수하는 빛]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.laxifications_hug"><![CDATA[능소화의 포옹]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.diluted_elixir"><![CDATA[희석한 영약]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.lotus_shield"><![CDATA[연꽃 방패]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.lanterns_console"><![CDATA[청사초롱의 위로]]></entry>
+	<entry id="upgrade_tree_name_grove_tender.root_powder"><![CDATA[투구꽃뿌리의 가루]]></entry>
+	
+	<entry id="camping_skill_name_herb_in_elixir"><![CDATA[허브를 탄 영약]]></entry>
+	<entry id="camping_skill_name_mint_pillow"><![CDATA[베개 속에 민트잎]]></entry>
+	<entry id="camping_skill_name_read_me"><![CDATA[동화책 읽어주세요]]></entry>
+	<entry id="camping_skill_name_foresee"><![CDATA[솟대의 위험예지]]></entry>
+	
+	<entry id="str_bark_herb_in_elixir"><![CDATA[휴,한 방울도 안 흘리고 잘 섞었어.]]></entry>
+	<entry id="str_bark_herb_in_elixir"><![CDATA[꽃감관님이 주신거니까, 조심스럽게 섞어야해.]]></entry>
+	<entry id="str_bark_herb_in_elixir"><![CDATA[으음,월계수잎을 더 넣는게 좋을까?]]></entry>
+	
+	<entry id="str_bark_mint_pillow"><![CDATA[아로마오일도 몇 방울 뿌려야지.]]></entry>
+	<entry id="str_bark_mint_pillow"><![CDATA[(베개를 툭툭 두드린다.)]]></entry>
+	<entry id="str_bark_mint_pillow"><![CDATA[라벤더도 조금 넣으면... 좋은 꿈을 꿀 수 있을거에요.]]></entry>
+	
+	<entry id="str_bark_read_me"><![CDATA[(나른한 하품)]]></entry>
+	<entry id="str_bark_read_me"><![CDATA[목소리 좋네요.]]></entry>
+	<entry id="str_bark_read_me"><![CDATA[(꾸벅꾸벅 졸기 시작한다.)]]></entry>
+	
+	<entry id="str_bark_read_me"><![CDATA[...어디보자.]]></entry>
+	<entry id="abomination+str_bark_read_me"><![CDATA[책을 미리 챙겨온거니?]]></entry>
+	<entry id="antiquarian+str_bark_read_me"><![CDATA[으, 놀라운 준비성이군. ...이리줘 봐.]]></entry>
+	<entry id="arbalest+str_bark_read_me"><![CDATA[네가 원한다면야. 어디보자, 옛날 옛적에...]]></entry>
+	<entry id="bounty_hunter+str_bark_read_me"><![CDATA[...(헛기침)]]></entry>
+	<entry id="crusader+str_bark_read_me"><![CDATA[...어째 익숙한 기분이로군.]]></entry>
+	<entry id="flagellant+str_bark_read_me"><![CDATA[귀찮게 굴기는...]]></entry>
+	<entry id="grave_robber+str_bark_read_me"><![CDATA[허이구, 그 책은 또 어디서 났어?]]></entry>
+	<entry id="hellion+str_bark_read_me"><![CDATA[...진심이냐?]]></entry>
+	<entry id="highwayman+str_bark_read_me"><![CDATA[...귀찮은 꼬맹이 녀석. 줘 봐.]]></entry>
+	<entry id="houndmaster+str_bark_read_me"><![CDATA[뭐, 못할 거 없지. 얘야.]]></entry>
+	<entry id="jester+str_bark_read_me"><![CDATA[만약에 재미없으면 이야기 맘대로 바꿔도 되지?]]></entry>
+	<entry id="leper+str_bark_read_me"><![CDATA[...얘야, 두렵지는 않은거니?]]></entry>
+	<entry id="man_at_arms+str_bark_read_me"><![CDATA[응? ...아.]]></entry>
+	<entry id="musketeer+str_bark_read_me"><![CDATA[못할 거 없지. 책 줘봐.]]></entry>
+	<entry id="occultist+str_bark_read_me"><![CDATA[하는 수 없지. 이리 줘 보려무나.]]></entry>
+	<entry id="plague_doctor+str_bark_read_me"><![CDATA[내가 여기까지 와서 애나 돌보게 되다니. 으.]]></entry>
+	<entry id="shieldbreaker+str_bark_read_me"><![CDATA[그 눈을 보니 거절할 수 없겠구나.]]></entry>
+	<entry id="vestal+str_bark_read_me"><![CDATA[사실, 성경 말고 다른걸 읽고 싶었단다. 재밌겠는걸!]]></entry>
+	
+	<entry id="butcher_bird+str_bark_read_me"><![CDATA[좋아, 책 이리 줘 보렴.]]></entry>	
+	
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[불침번에서 저 빼주실거죠? 그럼 먼저 잘게요.]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[제가 만난 어른 중에서 제일 좋은 사람들이네요. 아직까지는요.]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[다들 무섭지도 않아요?]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[늦게까지 안 자면 키 안 큰다고 엄마가 그랬어요. 히히.]]></entry>
+		
+	<entry id="str_bark_foresee"><![CDATA[죽음의 별, 낯빛이 생기를 잃고, 손아귀에서 힘이 빠지리라..]]></entry>
+	<entry id="str_bark_foresee"><![CDATA[심연이 네 영혼을 부르나니, 절망과 분노 속에서 영원히 잠드리라...]]></entry>
+	<entry id="str_bark_foresee"><![CDATA[네 육체는 들짐승의 양식이 되며, 네 영혼은 그믐달의 것이 되리라....]]></entry>
+	
+	<entry id="grove_tender+str_bark_encourage"><![CDATA[어린애인 저도 잘 버티고 있잖아요. 잘 할 수 있을거에요.]]></entry>
+	<entry id="grove_tender+str_bark_encourage"><![CDATA[가장 나쁜 순간이 지나면, 반드시 좋은 일이 온대요.]]></entry>
+	<entry id="grove_tender+str_bark_encourage"><![CDATA[가장 잘할 필요는 없어요. 할 수 있다는게 중요한거지.]]></entry>
+
+	<entry id="grove_tender+str_bark_first_aid"><![CDATA[전투 때 제 실력 보셨잖아요? 이 정도는 얼마든지 해요.]]></entry>
+	<entry id="grove_tender+str_bark_first_aid"><![CDATA[갖고 있던 약초를 섞어서 발랐어요. 더 나아질거에요.]]></entry>
+	
+	<entry id="grove_tender+str_bark_pep_talk"><![CDATA[누구나 나아질 기회가 있대요.]]></entry>
+	<entry id="grove_tender+str_bark_pep_talk"><![CDATA[어느 한 단면만 보고 판단하기에는, 삶은 너무 다채롭고 종잡기 어려워요.]]></entry>
+	<entry id="grove_tender+str_bark_pep_talk"><![CDATA[자기자신 다운게 제일 중요해요.]]></entry>
+	
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[아이... 어른들 사이에 가려져서 잘 안 보이잖아.]]></entry>
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[진짜 여기에 그 씨앗이 있을까...]]></entry>
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[이 동네가 싫어질거 같아. 음습해.]]></entry>
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[다들 강해보인다. 내가 잘 끼어들어갈 수 있을까?]]></entry>
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[아이씨... 마차 운전 좀 똑바로 하지.]]></entry>
+	<entry id="grove_tender+str_stagecoach_idle"><![CDATA[공기도 탁하고, 식물도 변변찮고... 벌써부터 암담하네.]]></entry>
+	
+	<entry id="grove_tender+str_gambling_committed"><![CDATA[어, 이 보드게임 재밌겠다!]]></entry>
+	<entry id="grove_tender+str_gambling_committed"><![CDATA[나랑 부루마블 할 사람?]]></entry>
+	<entry id="grove_tender+str_gambling_committed"><![CDATA[카드쌓기도 괜찮은거 같아.]]></entry>
+	<entry id="grove_tender+str_gambling_committed"><![CDATA[조금 졸린데... 구석에서 잠깐 자야겠다.]]></entry>
+	
+	<entry id="grove_tender+str_disease_treatment_committed"><![CDATA[선생님, 딸기약 주세요. 네? 호박약이라구요?]]></entry>
+	<entry id="grove_tender+str_disease_treatment_committed"><![CDATA[여긴 뭔 약을 쓰길래 냄새가 이래?]]></entry>
+	<entry id="grove_tender+str_disease_treatment_committed"><![CDATA[병원 꼬라지 봐. 기가 막히네.]]></entry>
+	
+	<entry id="grove_tender+str_meditation_committed"><![CDATA[들이쉬고, 내쉬고. 배운대로 해봐야겠어.]]></entry>
+	<entry id="grove_tender+str_meditation_committed"><![CDATA[삶과 죽음, 사랑과 탄생.]]></entry>
+	<entry id="grove_tender+str_meditation_committed"><![CDATA[아저씨. 만약 제가 명상하다가 잠들면 깨워주셔야해요. 알았죠?]]></entry>
+	
+	<entry id="grove_tender+str_prayer_committed"><![CDATA[신이 엄마랑 연결해줄지도 몰라.]]></entry>
+	<entry id="grove_tender+str_prayer_committed"><![CDATA[민들레 홀씨처럼 조용하네. 마음에 들어.]]></entry>
+	<entry id="grove_tender+str_prayer_committed"><![CDATA[음... 엄마. 만약 내 기도 듣고 있으면... 사랑해요. 보고 싶어요.]]></entry>	
+		
+	<entry id="grove_tender+str_roster_list_low_stress_bark"><![CDATA[어디 양지바른데 없나? 낮잠 좀 자게.]]></entry>
+	<entry id="grove_tender+str_roster_list_low_stress_bark"><![CDATA[여기 주변에 꽃밭이 있음 참 좋을텐데.]]></entry>
+	<entry id="grove_tender+str_roster_list_low_stress_bark"><![CDATA[빨리 그 씨앗을 찾아야 하는데... 걱정되네.]]></entry>
+	
+	<entry id="grove_tender+str_roster_list_medium_stress_bark"><![CDATA[꽃감관님은 지금 나 이러는거 아시나?]]></entry>
+	<entry id="grove_tender+str_roster_list_medium_stress_bark"><![CDATA[엄마 보고 싶다.]]></entry>
+	<entry id="grove_tender+str_roster_list_medium_stress_bark"><![CDATA[아, 단거 땡기는데... 뭐 없나.]]></entry>
+	
+	<entry id="grove_tender+str_roster_list_high_stress_bark"><![CDATA[지금 폭발하기 직전이니까 가까이 오지마.]]></entry>
+	<entry id="grove_tender+str_roster_list_high_stress_bark"><![CDATA[...저 좀 내버려두세요.]]></entry>	
+	<entry id="grove_tender+str_roster_list_high_stress_bark"><![CDATA[아 싫어요. 저리 가요.]]></entry>
+	
+	<entry id="grove_tender+str_quest_too_hard"><![CDATA[어... 그러니까, 다음에 가면 안 돼요?]]></entry>
+	<entry id="grove_tender+str_quest_too_hard"><![CDATA[저긴 그 씨앗이 없을거에요. 다른데 가요.]]></entry>
+	<entry id="grove_tender+str_quest_too_hard"><![CDATA[이거 아동학대인거 아세요?]]></entry>
+	<entry id="grove_tender+str_quest_too_hard"><![CDATA[(어른들 눈치를 본다.)꼭 가야해요?]]></entry>
+	
+	<entry id="grove_tender+str_quest_too_easy"><![CDATA[다 둘러본데잖아요. 저긴 없었어요.]]></entry>
+	<entry id="grove_tender+str_quest_too_easy"><![CDATA[저기는 열한살 먹은 어린애한테도 시시하다구요.]]></entry>
+	<entry id="grove_tender+str_quest_too_easy"><![CDATA[이럴거면 저 그냥 낮잠자러 갈래요.]]></entry>
+	<entry id="grove_tender+str_quest_too_easy"><![CDATA[더 위험한 곳에 그 씨앗이 있을거에요. 거기로 보내줘요!]]></entry>
+	
+	<entry id="grove_tender+str_bark_startmoving"><![CDATA[좋아, 어른들 보폭에 맞춰서 하나, 둘, 하나, 둘...]]></entry>
+	<entry id="grove_tender+str_bark_startmoving"><![CDATA[얼마나 더 걸어야해요?]]></entry>
+	<entry id="grove_tender+str_bark_startmoving"><![CDATA[발 안 아파요. 괜찮아요.]]></entry>
+	<entry id="grove_tender+str_bark_startmoving"><![CDATA[빨리 끝내고 가요. 꾸물댈 시간 없으니까요.]]></entry>
+	
+	<entry id="grove_tender+str_bark_stopmoving"><![CDATA[잠깐만요!]]></entry>
+	<entry id="grove_tender+str_bark_stopmoving"><![CDATA[으... 발 저려.]]></entry>
+	<entry id="grove_tender+str_bark_stopmoving"><![CDATA[뭐 있어요? 왜 가다 멈춰요?]]></entry>
+	<entry id="grove_tender+str_bark_stopmoving"><![CDATA[불길한 느낌이 드는데... 혹시 뭐 잘못되었어요?]]></entry>
+	
+	<entry id="grove_tender+str_bark_backingup"><![CDATA[윽, 뒤에 사람 있어요!]]></entry>
+	<entry id="grove_tender+str_bark_backingup"><![CDATA[조심 좀 해요! 발 밟히잖아요.]]></entry>
+	<entry id="grove_tender+str_bark_backingup"><![CDATA[이 길이 아닌가벼.]]></entry>
+	<entry id="grove_tender+str_bark_backingup"><![CDATA[그냥 다들 뒤돌아서 걸으면 안 돼요?]]></entry>
+	
+	<entry id="grove_tender+str_prisoner_damage_cauldron_full"><![CDATA[으아아악! 엄마아아아!!!]]></entry>
+	<entry id="grove_tender+str_prisoner_damage_cauldron_full"><![CDATA[나, 나나나, 나는... 작아서 먹을 것도 없을거에요.]]></entry>
+	<entry id="grove_tender+str_prisoner_damage_cauldron_full"><![CDATA[내가... 내가 스튜라니!]]></entry>
+	<entry id="grove_tender+str_prisoner_damage_cauldron_full"><![CDATA[빨리 꺼내줘요!]]></entry>
+	
+	<entry id="grove_tender+str_control_before_turn_siren"><![CDATA[우리 엄마 괴롭히지마!]]></entry>
+	<entry id="grove_tender+str_control_before_turn_siren"><![CDATA[이제 언니가 내 새 엄마야? 만세!!!]]></entry>
+	<entry id="grove_tender+str_control_before_turn_siren"><![CDATA[엄마아... 쟤네가 나 괴롭혀!]]></entry>
+	
+	<entry id="grove_tender+str_control_return_siren"><![CDATA[새엄마는 개뿔. 존나 못생겼네.]]></entry>
+	<entry id="grove_tender+str_control_return_siren"><![CDATA[...어? 열받네?]]></entry>
+	<entry id="grove_tender+str_control_return_siren"><![CDATA[저기, 혹시 제가 뭐 잘못한 거 있었나요?]]></entry>
+	
+	<entry id="grove_tender+str_prisoner_damage_drowned_anchored"><![CDATA[끄아아악! 엄마아아아!!!]]></entry>
+	<entry id="grove_tender+str_prisoner_damage_drowned_anchored"><![CDATA[어푸,어푸, 꼬르르륵...]]></entry>
+	<entry id="grove_tender+str_prisoner_damage_drowned_anchored"><![CDATA[우웨엑, 누가 수경재배를 바닷물로 해?!]]></entry>
+	
+	<entry id="grove_tender+str_heart_attack"><![CDATA[모, 못 견디겠어... 엄마.]]></entry>
+	<entry id="grove_tender+str_heart_attack"><![CDATA[그 씨앗을 찾기 전까진... 안돼.]]></entry>
+	<entry id="grove_tender+str_heart_attack"><![CDATA[꽃감관님... 임무 실패인거 같아요....]]></entry>
+	
+	<entry id="grove_tender+str_bark_deathsdoor"><![CDATA[고백하건데, 아까 맨 앞에 서신 분한테 가운뎃손가락 날렸었어요...]]></entry>
+	<entry id="grove_tender+str_bark_deathsdoor"><![CDATA[꽃봉오리가 시들어가...]]></entry>
+	<entry id="grove_tender+str_bark_deathsdoor"><![CDATA[잎사귀가 떨어지고, 뿌리가 흙 속에 녹아 사라지고 있어...]]></entry>
+	
+	<entry id="grove_tender+str_bark_deathsdoor_ally"><![CDATA[힘내요! 제발 버텨줘요!!]]></entry>
+	<entry id="grove_tender+str_bark_deathsdoor_ally"><![CDATA[제발, 제발... 제발 죽지 마요!]]></entry>
+	<entry id="grove_tender+str_bark_deathsdoor_ally"><![CDATA[으아악! 아까 욕한거 미안하니까 죽지만 말아요!!!]]></entry>
+	
+	<entry id="grove_tender+str_monster_attack_unholy_curse"><![CDATA[거짓말. 거짓말이야... 꽃감관님이 날 내치신다고?]]></entry>
+	<entry id="grove_tender+str_monster_attack_unholy_curse"><![CDATA[제발 부탁이에요. 그 꽃을 보면 안 돼요!!!]]></entry>
+	
+	<entry id="grove_tender+str_bark_curiogood"><![CDATA[이거 좋은거에요?]]></entry>
+	<entry id="grove_tender+str_bark_curiogood"><![CDATA[그 씨앗만큼은 아니지만, 분명 좋은거네요.]]></entry>
+	<entry id="grove_tender+str_bark_curiogood"><![CDATA[가주가 이걸 보면 좋아할까요?]]></entry>
+	
+	<entry id="grove_tender+str_bark_curiomeh"><![CDATA[낭낭하네요. 이만 총총...]]></entry>
+	<entry id="grove_tender+str_bark_curiomeh"><![CDATA[이거 상자 놓은 사람 아빠 태권도 노란띠였음 좋겠다.]]></entry>
+	<entry id="grove_tender+str_bark_curiomeh"><![CDATA[뭐지? 골동품 과시인가?]]></entry>
+
+	<entry id="grove_tender+str_bark_curiobad"><![CDATA[아이고 난!]]></entry>
+	<entry id="grove_tender+str_bark_curiobad"><![CDATA[이거 만든 사람은 절라게 개씹창인생일 것임에 분명해...]]></entry>
+	<entry id="grove_tender+str_bark_curiobad"><![CDATA[아 세상 참 흉흉하여라.]]></entry>
+	
+   <entry id="grove_tender+str_night_ambush_bark_0"><![CDATA[야습이에요! 놈들이 왔어요!]]></entry>
+   <entry id="grove_tender+str_night_ambush_bark_1"><![CDATA[일어나요! 얼른! 적이에요!!!]]></entry>
+   <entry id="grove_tender+str_night_ambush_bark_2"><![CDATA[(찬물 끼얹는 소리)]]></entry>
+   <entry id="grove_tender+str_night_ambush_bark_3"><![CDATA[기습이다! 기습이에요!! 싸울 채비해요!]]></entry>
+   
+   <entry id="grove_tender+str_critbyhero"><![CDATA[피, 어린애한테 발리는 수준 알만하네.]]></entry>
+   <entry id="grove_tender+str_critbyhero"><![CDATA[그래, 가서 니 못생긴 엄마한테 일러라!!]]></entry>
+   <entry id="grove_tender+str_critbyhero"><![CDATA[자연이 그대를 거부하리라!]]></entry>
+   
+  	<entry id="grove_tender+str_afflicted_fearful"><![CDATA[엄마한테 보내줘!!]]></entry>
+	<entry id="grove_tender+str_afflicted_fearful"><![CDATA[이제 꽃같은건 다 질렸어, 엄마한테 보내줘!]]></entry>
+	<entry id="grove_tender+str_bark_stress_fearful"><![CDATA[엄마 보고 싶어. 아빤 아무래도 좋아.]]></entry>
+	<entry id="grove_tender+str_bark_stress_fearful"><![CDATA[저,저, 저는 그냥 어린애에요...]]></entry>
+	<entry id="grove_tender+str_change_pos_back_fearful"><![CDATA[전 갑옷도 없고 칼도 없어요...]]></entry>
+	<entry id="grove_tender+str_change_pos_back_fearful"><![CDATA[저는 그냥 한낱 어린애에요. 부탁이에요...]]></entry>
+	<entry id="grove_tender+str_ignore_command_fearful"><![CDATA[못해요! 너무 무섭단 말이에요.]]></entry>
+	<entry id="grove_tender+str_ignore_command_fearful"><![CDATA[(고개를 세차게 가로젓는다.)]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_fearful"><![CDATA[배 안 고파요. 턱만 달달 떨리지.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_fearful"><![CDATA[괴물들에겐 저같은건 한입거리겠죠?]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_fearful"><![CDATA[엄마? 어딨어요?]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_fearful"><![CDATA[피냄새를 숨겨야해. 놈들이 와.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_fearful"><![CDATA[봤지? 난 그냥 힘없는 어린애야!]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_fearful"><![CDATA[지팡이 들 힘도 없어요.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_fearful"><![CDATA[저 지킬 생각이 아예 없는거죠?!]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_fearful"><![CDATA[나같은건 그냥 짐덩이라는거지?]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_fearful"><![CDATA[빨리 집에 안 가고 뭐해?!]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_fearful"><![CDATA[어른들을 못 믿겠어. 나라도 살아야 해.]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_fearful"><![CDATA[내가 왜 이런 한심한 인간들이랑 왔지.]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_fearful"><![CDATA[이제 영지로 달려가면 되는거죠?]]></entry>
+	<entry id="grove_tender+str_block_move_fearful"><![CDATA[히이익!]]></entry>
+	<entry id="grove_tender+str_block_move_fearful"><![CDATA[제, 제가 뭘 한다구요...?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_performer_fearful"><![CDATA[혹시라도 망치면 어쩌지?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_performer_fearful"><![CDATA[...먼저 자도 돼요?]]></entry>
+	
+	<entry id="grove_tender+str_afflicted_paranoid"><![CDATA[왜 어른들이 번번히 내 삶을 망치려 드는거지?!]]></entry>
+	<entry id="grove_tender+str_afflicted_paranoid"><![CDATA[나힌테서 꺼져. 이 아동성애자야!]]></entry>
+	<entry id="grove_tender+str_afflicted_paranoid"><![CDATA[니 눈엔 내가 그렇게 천진난만하게 뵈냐?]]></entry>
+	<entry id="grove_tender+str_bark_stress_paranoid"><![CDATA[씨앗 하나가 사라졌어. 누구야?]]></entry>
+	<entry id="grove_tender+str_bark_stress_paranoid"><![CDATA[눈 깔아.]]></entry>
+	<entry id="grove_tender+str_bark_stress_paranoid"><![CDATA[헛소리 하지 말아줄래? 꽃은 나쁜 말을 싫어하거든.]]></entry>
+	<entry id="grove_tender+str_change_pos_back_paranoid"><![CDATA[저리가, 니네들 목숨 따위는 얼마든지 거둘 수 있는 꽃이라고!]]></entry>
+	<entry id="grove_tender+str_change_pos_back_paranoid"><![CDATA[꺼져! 잎사귀 하나라도 다쳤다간 니 목을 그을거야.]]></entry>
+	<entry id="grove_tender+str_ignore_command_paranoid"><![CDATA[내가 왜?]]></entry>
+	<entry id="grove_tender+str_ignore_command_paranoid"><![CDATA[꼬맹이는 말 안드뤄.]]></entry>
+	<entry id="grove_tender+str_random_command_paranoid"><![CDATA[너희들 이런거 못하잖아.]]></entry>
+	<entry id="grove_tender+str_random_command_paranoid"><![CDATA[내가 너희보다 훨씬 더 쓸모있어. 잘 봐.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_paranoid"><![CDATA[다들 나같은건 그냥 버리고 싶겠지.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_paranoid"><![CDATA[아동방임죄라고 알아?]]></entry>
+	<entry id="grove_tender+str_block_camping_meal_paranoid"><![CDATA[화분 앞에서 담배 피우는 꼴이네. 안 먹어.]]></entry>
+	<entry id="grove_tender+str_block_camping_meal_paranoid"><![CDATA[이걸 지금 음식이라고...]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_paranoid"><![CDATA['짜증나는 애새끼같으니'라고 중얼거리는거 다 들었거든요.]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_paranoid"><![CDATA[이 귀한 물건을 쓰라니, 양심도 없기는.]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_paranoid"><![CDATA[예에? 뭐요? 누가 그래요?]]></entry>
+    <entry id="grove_tender+str_comment_self_hit_paranoid"><![CDATA[차라리 분토를 먹고 말지.]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_paranoid"><![CDATA[차라리 화분에 파묻히는게 낫겠다.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_paranoid"><![CDATA[애가 그럴수도 있지 시발들아!]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_paranoid"><![CDATA[니들은 뭐 태어나면서부터 어른이었어?]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_paranoid"><![CDATA[기껏 귀한 꽃 써서 목숨 부지해줬더니만, 이따위식으로 갚아?]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_paranoid"><![CDATA[내가 왜, 왜, 왜!!! 왜 어른을 또 믿었을까!]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_paranoid"><![CDATA[무시하지 말란 말야!]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_paranoid"><![CDATA[너 진짜 싫어!]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_paranoid"><![CDATA[개질알 시작한다 또.]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_paranoid"><![CDATA[나같은거 빨리 죽었음 하는거지?]]></entry>
+	<entry id="grove_tender+str_block_move_paranoid"><![CDATA[건드리지마!]]></entry>
+	<entry id="grove_tender+str_block_move_paranoid"><![CDATA[빨리 도로 뒈져버리라는거지?]]></entry>
+	<entry id="grove_tender+str_block_item_paranoid"><![CDATA[니 닮아서 못생겼어. 싫어.]]></entry>
+	<entry id="grove_tender+str_block_item_paranoid"><![CDATA[니 닮아서 냄새나네. 꺼져.]]></entry>
+	<entry id="grove_tender+str_block_heal_paranoid"><![CDATA[다시 죽었으면 소원이 없겠네.]]></entry>
+	<entry id="grove_tender+str_block_heal_paranoid"><![CDATA[다 시든 나무에 영양제 주는거 본 적 있어?]]></entry>
+	<entry id="grove_tender+str_block_buff_paranoid"><![CDATA[니 멍청한 개소리 안 들을거야.]]></entry>
+	<entry id="grove_tender+str_block_buff_paranoid"><![CDATA[텃밭에 농약치는 꼴이야.]]></entry>
+   
+  	<entry id="grove_tender+str_afflicted_masochistic"><![CDATA[이제 다 괜찮아. 나같은 나쁜 씨앗은 다 죽었어!]]></entry>
+	<entry id="grove_tender+str_afflicted_masochistic"><![CDATA[죽고 싶다. 진짜로. 진심으로.]]></entry>
+	<entry id="grove_tender+str_bark_stress_masochistic"><![CDATA[꽃밭으로 얼른 돌아가고 싶어.]]></entry>
+	<entry id="grove_tender+str_bark_stress_masochistic"><![CDATA[나랑 같이 꽃감관님 뵈러 갈 사람.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_masochistic"><![CDATA[다 됐고, 할락궁이한테 과자나 얻어먹게 빨리 찔러.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_masochistic"><![CDATA[차라리 다른 시동들에게 구박받는게 낫겠어.]]></entry>
+	<entry id="grove_tender+str_random_command_masochistic"><![CDATA[한 방에 훅 갈만한 거 없나?]]></entry>
+	<entry id="grove_tender+str_random_command_masochistic"><![CDATA[뭘 해야 잘 죽었다고 소문날까.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_masochistic"><![CDATA[죽기 전에 먹었던 과자가 떠올라.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_masochistic"><![CDATA[뭣하면 니가 내 목 조를래?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_masochistic"><![CDATA[내 서열을 깨달을 수 있도록 욕이나 좀 해주세요.]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_masochistic"><![CDATA[아이를 처벌하는데는 매가 최고라던데.]]></entry>
+	<entry id="grove_tender+str_mark_self_masochistic"><![CDATA[종아리라도 때릴래요? 아니면 손바닥?]]></entry>
+	<entry id="grove_tender+str_mark_self_masochistic"><![CDATA[됐고, 애들 처벌은 그냥 개 패듯 패는게 제일이래요.]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_masochistic"><![CDATA[뭐해. 얼른 안 치고?]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_masochistic"><![CDATA[나쁜 애는 두들겨 패야 속이 다 시원하지 않겠어?]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_masochistic"><![CDATA[나같은거... 착해질 수 없겠지.]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_masochistic"><![CDATA[엄마도 날 기다리고 있을거야.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_masochistic"><![CDATA[난 멍청이인가봐.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_masochistic"><![CDATA[쓸모도 없고, 예쁜 구석도 없고... 누가 날 이뻐하겠어.]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_masochistic"><![CDATA[더 손쉬운 사냥감이 눈 앞에 있잖아. 왜 저런담.]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_masochistic"><![CDATA[빨리, 얼른 내 목을 쳐!]]></entry>
+	<entry id="grove_tender+str_block_move_masochistic"><![CDATA[안 가요. 안 간다구요.]]></entry>
+	<entry id="grove_tender+str_block_move_masochistic"><![CDATA[여기서 가만히 기다리면 누군가가 날 죽이러 오겠지?]]></entry>
+	<entry id="grove_tender+str_block_item_masochistic"><![CDATA[더 힘세고 유능한 사람에게 써줘요.]]></entry>
+	<entry id="grove_tender+str_block_item_masochistic"><![CDATA[...됐어.]]></entry>
+	<entry id="grove_tender+str_block_heal_masochistic"><![CDATA[내가 알아서 할테니까 신경꺼요.]]></entry>
+	<entry id="grove_tender+str_block_heal_masochistic"><![CDATA[내 상처는 내가 돌볼테니까, 어른들 먼저 해요.]]></entry>
+	<entry id="grove_tender+str_block_buff_masochistic"><![CDATA[내가 강해져봤자 어른들만 하겠어?]]></entry>
+	<entry id="grove_tender+str_block_buff_masochistic"><![CDATA[나보다 강하고 빠른 어른들이 있잖아요.]]></entry>
+	
+	<entry id="grove_tender+str_afflicted_abusive"><![CDATA[니 아빠는 대양인이야!]]></entry>
+	<entry id="grove_tender+str_afflicted_abusive"><![CDATA[니 아빠는 스와인이야!]]></entry>
+	<entry id="grove_tender+str_afflicted_abusive"><![CDATA[이런 것들이 영웅이라니 세상 좋아졌네!]]></entry>
+	<entry id="grove_tender+str_afflicted_abusive"><![CDATA[버섯인간만큼 냄새나는 녀석아!]]></entry>
+	<entry id="grove_tender+str_afflicted_abusive"><![CDATA[웬 멍청이가 우리 이모를 아동성애자 칭챙총이라고 불러서 화분으로 만들었어.]]></entry>
+	<entry id="grove_tender+str_bark_stress_abusive"><![CDATA[덤벼라, 이 아둔한 아동성애자야!]]></entry>
+	<entry id="grove_tender+str_bark_stress_abusive"><![CDATA[덤벼라, 이 고지식한 고자야!]]></entry>
+	<entry id="grove_tender+str_bark_stress_abusive"><![CDATA[덤벼라, 이 탈탈 털린 탈모야!]]></entry>
+	<entry id="grove_tender+str_random_command_abusive"><![CDATA[지금 내가 애라고 무시하는거야?]]></entry>
+	<entry id="grove_tender+str_random_command_abusive"><![CDATA[으, 너네들 머리도 잘라다가 수경재배해야겠다.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_abusive"><![CDATA[어른은 아이보다 더 강하고 유능한거 아녔어? 왜들 이렇게 한심해?]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_abusive"><![CDATA[내가 이 모양 이 꼬라지가 된걸 꽃감관님이 아시면 너흴 다 죽이실거야!]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_performer_abusive"><![CDATA[아저씨 이마에 고양이 그려도 돼요?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_performer_abusive"><![CDATA[이닦고 발닦고 잠이나 자.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_abusive"><![CDATA[이 탈모야.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_abusive"><![CDATA[이 모쏠아.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_abusive"><![CDATA[여자친구도 없는게 까불어.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_abusive"><![CDATA[오늘 영지 밖에 나갔어?]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_abusive"><![CDATA[가장 착한 아이를 이런 곳으로 보내기에는 너무 아까웠나보지?]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_abusive"><![CDATA[되살아난 소감? 네 얼굴이 지옥보다 더하다는거?]]></entry>
+	<entry id="grove_tender+str_block_move_abusive"><![CDATA[빵꾸똥꾸 말은 안드뤄.]]></entry>
+	<entry id="grove_tender+str_block_move_abusive"><![CDATA[두 글자로 대답할게. 엿이나, 먹어.]]></entry>
+	
+	<entry id="grove_tender+str_afflicted_selfish"><![CDATA[아빠가 그 아줌마를 괴롭히지만 않았더도 내가 이 꼴을 안 당했어!]]></entry>
+	<entry id="grove_tender+str_afflicted_selfish"><![CDATA[엄마 보고 싶어. 아빤 아무래도 좋아.]]></entry>
+	<entry id="grove_tender+str_afflicted_selfish"><![CDATA[니네가 잡초보다 나은 점 열 가지만 대 봐.]]></entry>
+	<entry id="grove_tender+str_bark_stress_selfish"><![CDATA[이제 꽃같은건 다 질렸어! 엄마한테 보내줘!]]></entry>
+	<entry id="grove_tender+str_bark_stress_selfish"><![CDATA[자연이 그대를 거부하리라!]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_selfish"><![CDATA[니 불알 두 쪽 흙 속에 파묻을거야."]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_selfish"><![CDATA[모쏠 주제에. 어린애보다 못한 놈을 내가 어떻게 믿어.]]></entry>
+	<entry id="grove_tender+str_change_pos_back_selfish"><![CDATA[니 얼굴이 지옥보다도 더 해.]]></entry>
+	<entry id="grove_tender+str_change_pos_back_selfish"><![CDATA[내 목숨 내가 보존하겠다는데 뭐.]]></entry>
+	<entry id="grove_tender+str_ignore_command_selfish"><![CDATA[아무 생각도 없지?]]></entry>
+	<entry id="grove_tender+str_ignore_command_selfish"><![CDATA[뭐야 그 태도는. 애한테 할 말이 아니잖아?]]></entry>
+	<entry id="grove_tender+str_random_command_selfish"><![CDATA[니넨 엄마 없지? 난 있는데!]]></entry>
+	<entry id="grove_tender+str_random_command_selfish"><![CDATA[니가 숨겨놓은 식량 내가 다 먹었어. 어쩔래.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_selfish"><![CDATA[화분에 물 주고 있잖아. 기다려.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_selfish"><![CDATA[반말하지 마. 내가 너보다 백살은 더 먹었을걸?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_selfish"><![CDATA[아야야 해달라고? 입에서 아야야 소리 나오게 해줘?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_selfish"><![CDATA[씨감자 심게 견고한 무쇠덩어리 가지고 와.]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_selfish"><![CDATA[내가 다친걸 알면, 누군가가 날 동정하겠지?]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_selfish"><![CDATA[애 하나 제대로 간수 못하는 놈들이라고 이를거야!!]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_selfish"><![CDATA[난 어쩌고? 손가락이나 빨라고?]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_selfish"><![CDATA[무기도 허접한거 쓰는 주제에.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_selfish"><![CDATA[벌침이 그것보다 더 위협적이겠다.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_selfish"><![CDATA[지랄 옆차기 하고 자빠졌네.]]></entry>
+
+	<entry id="grove_tender+str_afflicted_depressed"><![CDATA[그래, 그 애들 말이 맞았어...]]></entry>
+	<entry id="grove_tender+str_afflicted_depressed"><![CDATA[나, 나는... 난. 산 것도 죽은 것도 아니야.]]></entry>
+	<entry id="grove_tender+str_afflicted_depressed"><![CDATA[엄마가 날 보면 뭐라고 할까.]]></entry>
+	<entry id="grove_tender+str_bark_stress_depressed"><![CDATA[다시 죽었으면 소원이 없겠네.]]></entry>
+	<entry id="grove_tender+str_bark_stress_depressed"><![CDATA[난 도로 살아나서도 골칫덩이 취급을 못 피하는구나.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_depressed"><![CDATA[꽃감관님에게 갈거야. 얼른 쳐.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_depressed"><![CDATA[엄마한테 보내줘! 그 칼로 날 찌르란 말야!]]></entry>
+	<entry id="grove_tender+str_change_pos_back_depressed"><![CDATA[쓸모없는 애새끼는 화분에 물이나 줄게. 잘해봐.]]></entry>
+	<entry id="grove_tender+str_change_pos_back_depressed"><![CDATA[전 버리고 가세요. 행운을 빌어요.]]></entry>
+	<entry id="grove_tender+str_ignore_command_depressed"><![CDATA[이제 꽃같은건 다 질렸어! 엄마한테 보내줘!]]></entry>
+	<entry id="grove_tender+str_ignore_command_depressed"><![CDATA[날붙이도 모자랄 판에 식물이 무슨 도움이 된다고...하하.]]></entry>
+	<entry id="grove_tender+str_random_command_depressed"><![CDATA[엄마? 거기 엄마에요?]]></entry>
+	<entry id="grove_tender+str_random_command_depressed"><![CDATA[꽃감관님, 저 좀 데려가주세요!]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_depressed"><![CDATA[썩은 사과 한 알이 주변의 과일을 망친다. 그래, 질리도록 들었어.]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_depressed"><![CDATA[내가 아무리 좋은 일을 해도, 결국 난 나쁜 사람의 자식이야.]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_depressed"><![CDATA[(물통을 엎고만다.) ...죄송해요.]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_depressed"><![CDATA[(숟가락을 놓친다.) ...음. 그게...]]></entry>
+	<entry id="grove_tender+str_attack_self_depressed"><![CDATA[엄마가 가슴에 구멍이 났을 때 이렇게 아팠을까?]]></entry>
+	<entry id="grove_tender+str_attack_self_depressed"><![CDATA[누군가 엄마를 뜯어먹었을 때 이런 기분이었구나!]]></entry>
+	<entry id="grove_tender+str_block_item_depressed"><![CDATA[저보다는 더 크고 강한 어른을 더 챙기세요.]]></entry>
+	<entry id="grove_tender+str_block_item_depressed"><![CDATA[그만! 저에겐 과분한 물건이에요.]]></entry>
+	<entry id="grove_tender+str_block_heal_depressed"><![CDATA[절 살려서 뭐하실건데요? 희망고문이요?]]></entry>
+	<entry id="grove_tender+str_block_heal_depressed"><![CDATA[아뇨... 더 강한 어른에게만 써줘요.]]></entry>
+	<entry id="grove_tender+str_block_buff_depressed"><![CDATA[관두세요. 저보다는 다른 사람이 더 잘 어울려요.]]></entry>
+	<entry id="grove_tender+str_block_buff_depressed"><![CDATA[꽃나무는 이미 시들었어요. 소용 없다구요.]]></entry>
+	<entry id="grove_tender+str_mark_self_depressed"><![CDATA[이 몸뚱이에서 벗어나도록 해줘요!]]></entry>
+	<entry id="grove_tender+str_mark_self_depressed"><![CDATA[갑갑해, 어서 떼어내란 말이에요!!]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_depressed"><![CDATA[정말로 내가 임무를 성공하길 원했더라면, 어른의 몸을 주셨어야죠!]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_depressed"><![CDATA[왜 나한테는 오색꽃을 주시지 않았는지 알겠어...]]></entry>
+
+	<entry id="grove_tender+str_afflicted_irrational"><![CDATA[씨감자 심게 견고한 무쇠덩어리 가지고 와.]]></entry>
+	<entry id="grove_tender+str_afflicted_irrational"><![CDATA[여기서부터 저기까지 싹 파내!]]></entry>
+	<entry id="grove_tender+str_afflicted_irrational"><![CDATA[물 떠와, 버들잎 하나 띄워서.]]></entry>
+	<entry id="grove_tender+str_bark_stress_irrational"><![CDATA[사과꽃 색깔 좀 봐요! 흰나비애벌레가 우글거리네!]]></entry>
+	<entry id="grove_tender+str_bark_stress_irrational"><![CDATA[내가 여기서 제일 어른이니까 생일잔치를 열어야겠어.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_irrational"><![CDATA[민트가 제철이야. 돼지 오줌보에 넣어서 술을 담아야겠어.]]></entry>
+	<entry id="grove_tender+str_change_pos_fwd_irrational"><![CDATA[빈자들에게 고깃국 한 그릇씩. 오늘은 내 생일이야!]]></entry>
+	<entry id="grove_tender+str_change_pos_back_irrational"><![CDATA[엄마, 나 청포도가 먹고 싶어요!]]></entry>
+	<entry id="grove_tender+str_change_pos_back_irrational"><![CDATA[아빠한테는 비밀이야. 알면 나를 매질하겠지.]]></entry>
+	<entry id="grove_tender+str_ignore_command_irrational"><![CDATA[으깬 수박을 몸에 문질러! 구더기가 네 몸을 파먹도록 말이야.]]></entry>
+	<entry id="grove_tender+str_ignore_command_irrational"><![CDATA[탁주에 설탕 좀 낭낭하게 타와. 당장.]]></entry>
+	<entry id="grove_tender+str_random_command_irrational"><![CDATA[꽈리열매 안에 혀를 집어넣어봐. 간지러울거야.]]></entry>
+	<entry id="grove_tender+str_random_command_irrational"><![CDATA[바닥에 쿵쿵 울리는대로 춤을 춰요. 지금요!]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_irrational"><![CDATA[사과 속을 파내! 벌레가 살 집을 만들거야!]]></entry>
+	<entry id="grove_tender+str_bark_stress_camp_irrational"><![CDATA[우리가 떠나면, 흙이 슬퍼할텐데!]]></entry>
+	<entry id="grove_tender+str_mark_self_irrational"><![CDATA[야, 촌뜨기. 가서 양파 흙이나 털어.]]></entry>
+	<entry id="grove_tender+str_mark_self_irrational"><![CDATA[너 호박 자를 줄 알아? 손모가지 날아가길 빌게!]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_irrational"><![CDATA[아저씨 이마에 고양이 그릴래요. 이리 줘요.]]></entry>
+	<entry id="grove_tender+str_block_combat_retreat_irrational"><![CDATA[강아지 코에 뽀뽀하고 싶어요. 부탁이에요.]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_irrational"><![CDATA[니 오줌보를 채취하고 싶어. 좋은 향수가 될거야.]]></entry>
+	<entry id="grove_tender+str_comment_self_hit_irrational"><![CDATA[돼지고기 먹고 싶다. 촉촉하게 잘 삶은걸로다가.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_irrational"><![CDATA[반짝반짝 작은별. 알흠답게 비추네.]]></entry>
+	<entry id="grove_tender+str_comment_self_missed_irrational"><![CDATA[삿갓 삿갓 김삿갓. 서울서 내려온 김삿갓.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_irrational"><![CDATA[엄청 커다란 모기가 내 발을 물었어!]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_hit_irrational"><![CDATA[아무 생각없이 발을 긁어. 모기가 물었잖아.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_irrational"><![CDATA[할머니, 할머니, 나 사과 한 알만.]]></entry>
+	<entry id="grove_tender+str_comment_ally_attack_missed_irrational"><![CDATA[앞사람 척추가 지렁이처럼 춤을 추네? 헤헤헤!]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_irrational"><![CDATA[아저씨. 내 엄마가 되어줘!]]></entry>
+	<entry id="grove_tender+str_comment_ally_hit_irrational"><![CDATA[언니, 내 아빠 될 생각 없어?]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_irrational"><![CDATA[그러지 말고 생선 좀 구워줘. 달달하게.]]></entry>
+	<entry id="grove_tender+str_comment_ally_missed_irrational"><![CDATA[이쑤시개로 눈을 긁으면 더 잘 보일거야.]]></entry>
+	<entry id="grove_tender+str_block_move_irrational"><![CDATA[아니야. 우리 엄만 서역국에 가셨어. 곧 돌아오실거라고!]]></entry>
+	<entry id="grove_tender+str_block_move_irrational"><![CDATA[바보야, 서역국이 아니라 하늘나라겠지!]]></entry>
+	<entry id="grove_tender+str_block_item_irrational"><![CDATA[옆집 애인가봐. 귀엽기도 하지.]]></entry>
+	<entry id="grove_tender+str_block_item_irrational"><![CDATA[와, 고양이다. 높이높이!]]></entry>
+	<entry id="grove_tender+str_block_heal_irrational"><![CDATA[마당쇠는 맨날 가위만 먹어. 나사못도 맛있는데.]]></entry>
+	<entry id="grove_tender+str_block_heal_irrational"><![CDATA[김치냉장고에 식혜가 있었네. 그냥 냉장고에는 없었다네.]]></entry>
+	<entry id="grove_tender+str_block_buff_irrational"><![CDATA[대신 내 나무그릇을 칭찬해주세요.]]></entry>
+	<entry id="grove_tender+str_block_buff_irrational"><![CDATA[악어이빨에 꽃잎 붙여주세요.]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_irrational"><![CDATA[엄청 매운 닭고기 국수가 있다면, 먹을래요?]]></entry>
+	<entry id="grove_tender+str_block_camping_skill_target_irrational"><![CDATA[고춧가루에 소주면 어떤 병이던 다 나아!]]></entry>
+   
+   <entry id="grove_tender+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[시들고, 바스라져서... 죽어가는구나.]]></entry>
+   <entry id="grove_tender+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[...죽기 전에 사과나무 심는다는 소린 안 할게요.]]></entry>
+   <entry id="grove_tender+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[다들 왜 그런 눈으로 봐요? 까칠한 애는 보기도 싫다는거죠?]]></entry>
+   <entry id="grove_tender+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[괜히 되살아났어...]]></entry>
+   <entry id="grove_tender+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[우리가 꽃보다도 더 짧게 스치는 존재였던거야....]]></entry>
+   
+   <entry id="grove_tender+str_virtued_stalwart"><![CDATA[걱정하지마! 궁상 떨지도 말고!]]></entry>
+	<entry id="grove_tender+str_virtued_stalwart"><![CDATA[걱정은 개나 줘!]]></entry>
+	<entry id="grove_tender+str_stress_heal_self_stalwart"><![CDATA[가슴 쫙 피고, 어깨도 쫙 피라고!]]></entry>
+	<entry id="grove_tender+str_stress_heal_self_stalwart"><![CDATA[보면 견적이 딱 나와.넌 살아나갈거야!]]></entry>
+	
+	<entry id="grove_tender+str_virtued_courageous"><![CDATA[내가 이렇게까지 수고하는데, 만약 죽으면 퇴비로 써버릴거야!]]></entry>
+	<entry id="grove_tender+str_virtued_courageous"><![CDATA[죽지만 마. 할 수 있는만큼만 해.]]></entry>
+	<entry id="grove_tender+str_stress_heal_party_courageous"><![CDATA[할락궁이. 널 용서한걸 후회하지 않아.]]></entry>
+	<entry id="grove_tender+str_stress_heal_party_courageous"><![CDATA[할락궁이가 내게 이 지팡이를 준 이유를 알 거 같아.]]></entry>
+
+	<entry id="grove_tender+str_virtued_focused"><![CDATA[잠드는 고목과 설산의 솜다리꽃이 축복하기를.]]></entry>
+	<entry id="grove_tender+str_virtued_focused"><![CDATA[쓰레기통 안에서도 장미는 피어나는 법이야.]]></entry>
+	<entry id="grove_tender+str_buff_random_party_member_focused"><![CDATA[영원한 건 없으니, 지금 이 순간을 중요시해.]]></entry>
+	<entry id="grove_tender+str_buff_random_party_member_focused"><![CDATA[한 송이라도 꽃은 꽃이야. 너처럼.]]></entry>
+	
+	<entry id="grove_tender+str_virtued_powerful"><![CDATA[꽃은 지면 다시 피고, 피었다가 다시 지는 법이야.]]></entry>
+	<entry id="grove_tender+str_virtued_powerful"><![CDATA[그래 뭐. 저 놈들도 꽃상여는 탈 수는 있겠지.(웃음)]]></entry>
+	<entry id="grove_tender+str_buff_party_powerful"><![CDATA[이 오래된 향신료가 16시간동안이나 널 강력하게 만들어줄거야!]]></entry>
+	<entry id="grove_tender+str_buff_party_powerful"><![CDATA[가장 낮은 덤불부터, 가장 높이 뻗은 가지까지 생명이 피어나리라.]]></entry>
+		
+	<entry id="grove_tender+str_virtued_vigorous"><![CDATA[다 털어버리자고!]]></entry>
+	<entry id="grove_tender+str_virtued_vigorous"><![CDATA[웃자란 잡초를 솎아내고, 수확을 맺을 때야!]]></entry>
+	<entry id="grove_tender+str_heal_self_vigorous"><![CDATA[우리들이 너를 쓰러뜨리길 기대해 얼간아.]]></entry>
+	<entry id="grove_tender+str_heal_self_vigorous"><![CDATA[삶과 죽음, 그리고 사랑과 탄생.]]></entry>
+	
+	<entry id="town_event_title_idle_resolve_level_grove_tender"><![CDATA[찰나의 기적]]></entry>
+	<entry id="town_event_description_idle_resolve_level_grove_tender"><![CDATA[기이한 일이 벌어졌습니다. 영지 외곽에 무수히 많은 꽃이 피어나서 절경을 만들어내고, 그 향기가 영웅들의 마음을 달래주고 있습니다.]]></entry>
+		
+	<entry id="str_incompatible_party_member_grove_tender_limit"><![CDATA[넌 빠져!]]></entry>
+	<entry id="str_incompatible_party_member_grove_tender_limit"><![CDATA[쟤가 먼저 임무를 완수하면 어쩌지?]]></entry>
+	<entry id="str_incompatible_party_member_grove_tender_limit"><![CDATA[내가 먼저 씨앗을 찾아낼거야!]]></entry>
+	<entry id="str_incompatible_party_member_grove_tender_limit"><![CDATA[마빡을 콱 찍어버리기 전에 그냥...]]></entry>
+	<entry id="str_incompatible_party_member_grove_tender_limit"><![CDATA[꺼지라고!!! 씨앗을 찾는건 나야!]]></entry>	
+	
+	<entry id="grove_tender+str_monster_user_selected_targets_kill_pill"><![CDATA[너였구나! 그 씨앗을 틔우려고 했던 작자가!!!]]></entry>
+	<entry id="grove_tender+str_monster_user_selected_targets_kill_pill"><![CDATA[그 꽃 때문에 한 번 더 죽으라고....?]]></entry>
+	<entry id="grove_tender+str_monster_user_selected_targets_kill_pill"><![CDATA[내가 왜 저 나쁜놈 때문에 또 죽어야 하는건데요? 싫어요!!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_diluted_elixir"><![CDATA[희석한 영약]]></entry>
+	<entry id="buff_rule_data_tooltip_absorbing_light"><![CDATA[영혼을 흡수하는 빛]]></entry>
+	<entry id="buff_rule_data_tooltip_blight"><![CDATA[{colour_start|blight}중독{colour_end}]]></entry>
+	
+	<entry id="grove_tender+str_override_invalid_rejection"><![CDATA[거긴 싫어요.]]></entry>
+	<entry id="grove_tender+str_override_invalid_rejection"><![CDATA[왜 날 여기로 보낼려고 해?]]></entry>
+	<entry id="grove_tender+str_override_invalid_rejection"><![CDATA[이거 아동학대인거 알아?]]></entry>
+	<entry id="grove_tender+str_override_invalid_rejection"><![CDATA[아, 역겨워.]]></entry>
+	<entry id="grove_tender+str_override_invalid_rejection"><![CDATA[정상인이면 어린애를 여기로 안 보내.]]></entry>
+	
+	 <entry id="grove_tender+str_override_bar_invalid_rejection"><![CDATA[아니, 이런데서 나같은 애 하나 때문에 우유를 갖다 놓겠냐고.]]></entry>
+    <entry id="grove_tender+str_override_bar_invalid_rejection"><![CDATA[...제정신 아니지?]]></entry>
+    <entry id="grove_tender+str_override_bar_invalid_rejection"><![CDATA[야 저기 저 술독 보여? 저거 니 아빠 담가놓은거야.]]></entry>
+
+    <entry id="grove_tender+str_override_brothel_invalid_rejection"><![CDATA[꽃 좋아해? 그럼 땅 속에서 꽃뿌리랑 같이 있는 것도 좋아하겠네?]]></entry>
+    <entry id="grove_tender+str_override_brothel_invalid_rejection"><![CDATA[정신병을 이상성욕이라고 불러주니까 좋냐?]]></entry>
+    <entry id="grove_tender+str_override_brothel_invalid_rejection"><![CDATA[야 이 증신병자야!]]></entry>
+
+    <entry id="grove_tender+str_flagellation_rejection"><![CDATA[가주님을 키우신 선조님의 노고가 저엉말 굉장했겠네요.]]></entry>
+    <entry id="grove_tender+str_flagellation_rejection"><![CDATA[싫어. 안해.]]></entry>
+    <entry id="grove_tender+str_flagellation_rejection"><![CDATA[그만.]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Trinket_Tooltip"><![CDATA[원정대에게: 피해량 +66%% / 3 {colour_start|red}체력 피해{colour_end} ({colour_start|guard}보호{colour_end}하고 있을 때)]]></entry>
+	<entry id="buff_rule_data_tooltip_lanterns_console"><![CDATA[청사초롱의 위로]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[기술 밝기 증가량 %+d%%]]></entry>
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[안뜰]]></entry>
+	<entry id="trinket_friendly_skill_additional_effects"><![CDATA[아군 대상 기술에]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Healdot_Tooltip_1"><![CDATA[턴당 1 {colour_start|healhp}회복{colour_end}, 2턴 지속]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Healdot_Tooltip_2"><![CDATA[턴당 1-2 {colour_start|healhp}회복{colour_end}, 2턴 지속]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Healdot_Tooltip_3"><![CDATA[턴당 2 {colour_start|healhp}회복{colour_end}, 2턴 지속]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Healdot_Tooltip_4"><![CDATA[턴당 2-3 {colour_start|healhp}회복{colour_end}, 2턴 지속]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_Grove_Tender_Healdot_Tooltip_5"><![CDATA[턴당 3 {colour_start|healhp}회복{colour_end}, 2턴 지속]]></entry>
+	
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[(급히 가방을 뒤진다.)]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[치료해줘... 잠깐, 내가 치료사잖아.]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[어린애를 이 악물고 때리다니...]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[울면 지는거야... (울먹거린다.)]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[이런 개ㅆ....씨발라먹을!]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[으아악, 엄마....]]></entry>
+	<entry id="grove_tender+str_bark_bigwound"><![CDATA[칫...니 아빠가 니 엄마를 그렇게 팼나봐?]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[정신 차려요. 곧 치료해드릴게요!]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[와, 방금 그거... 죽진 않을거죠?]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[당한만큼 갚아줘요!]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[흉터 남겠는데요 이거.]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[어디보자, 아직 영약은 충분하네.]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[약 준비되기 전에 죽으면 안 돼요. 알았죠?]]></entry>
+	<entry id="grove_tender+str_bark_bigwound_ally"><![CDATA[만약 죽으면 우리 엄마한테 안부나 전해주세요.]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[피, 피잖아. 피. 피. 피. 피.. 싫어....]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[아아아아악! 피잖아!! 당장 이 빌어먹을 상처 싸매줘요!]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[하다못해 닦을 손수건이라도 주면 안돼요?]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[그래, 애한테 줄 붕대따윈 없다는거지?]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[붕대 좀 주시겠어요?]]></entry>
+	<entry id="grove_tender+str_bark_bleeddot"><![CDATA[쯧, 적어도 피살이꽃은 줬어야지.]]></entry>
+	
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[구더기랑 거미만 없었어도 참 좋았을텐데.]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[저만 사육장 갈 때마다 삼겹살 먹고 싶어지는건가요?]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[여기 옛주인은 식물 기르는 법도 몰랐나봐. 우웩.]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[괴물들도 우리처럼 캠프를 차릴까요?]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[꽃점 봐드릴까요?]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[꿈에서 엄마를 봤으면 좋겠는데.]]></entry>
+	<entry id="grove_tender+str_bark_companionship"><![CDATA[자장가 굳이 안 불러주셔도 돼요.]]></entry>
+	
+	<entry id="grove_tender+str_wave_spawn_mash"><![CDATA[누가 이따위식으로 꿈을 꾸는지 원.]]></entry>
+	<entry id="grove_tender+str_wave_spawn_mash"><![CDATA[모가지를 따다가 텃밭에 묻어주마!]]></entry>
+	<entry id="grove_tender+str_wave_spawn_mash"><![CDATA[못생긴 놈들이 한바가지로 몰려오네.]]></entry>
+	<entry id="grove_tender+str_wave_spawn_mash"><![CDATA[내가 드디어 돌았나봐. 별들이 이상해.]]></entry>
+	<entry id="grove_tender+str_wave_spawn_mash"><![CDATA[이 놈들은 적당히를 모르나봐....]]></entry>
+	
+	<entry id="grove_tender+str_combat_wastingtime"><![CDATA[...제가 호미로 찍어버릴까요? 시간낭비하기 싫은데.]]></entry>
+	<entry id="grove_tender+str_combat_wastingtime"><![CDATA[쟤네도 우리랑 더 놀고 싶어하는거 같진 않아요.]]></entry>
+	<entry id="grove_tender+str_combat_wastingtime"><![CDATA[저것들이 증원군을 부르기 전에 빨리 해치워요!]]></entry>
+	<entry id="grove_tender+str_combat_wastingtime"><![CDATA[뭘 꾸물거리는거람.]]></entry>
+	
+	<entry id="str_combat_knockback"><![CDATA[머, 머리 아파. 토할 거 같아...!]]></entry>
+	<entry id="str_combat_knockback"><![CDATA[차암 고맙네! 네 밥그릇도 그따위식으로 때렸음 좋겠어.]]></entry>
+	<entry id="str_combat_knockback"><![CDATA[으... 머리야.]]></entry>
+	<entry id="str_combat_knockback"><![CDATA[으아악, 넘어진다!]]></entry>
+	<entry id="str_combat_knockback"><![CDATA[말도 안돼... 도깨비인가?]]></entry>
+	<entry id="str_combat_knockback"><![CDATA[지금 밀쳤겠다?!]]></entry>
+	
+	  </language>
+
+</root>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

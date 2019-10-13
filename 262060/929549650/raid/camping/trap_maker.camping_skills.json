@@ -1,0 +1,299 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+
+
+		{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.15 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				}
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+
+		{
+
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  10
+				}							
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+
+
+		{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.25
+				}
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{ 
+			"id" : "trap_maker_campskill1",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.35 },
+                    			"type": "health_damage_max_health_percent",
+                    			"sub_type" : "",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    			"type": "stress_heal_amount",
+                    			"sub_type" : "",
+					"amount" :  20
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    			"type": "stress_heal_amount",
+                    			"sub_type" : "",
+					"amount" :  5
+				}	
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		{ 
+			"id" : "trap_maker_campskill2",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    			"type": "stress_heal_amount",
+                    			"sub_type" : "",
+					"amount" :  10
+				}
+				
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+		{		 
+			"id" : "trap_maker_campskill3",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuffRanged",
+					"amount" :  0.20
+				},
+                		{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuffRanged",
+					"amount" :  0.20
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.00 },
+                    			"type": "stress_damage_amount",
+                    			"sub_type" : "",
+					"amount" :  5
+				}									
+
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+
+		{		 
+			"id" : "trap_maker_campskill4",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    			"type": "buff",
+					"sub_type" : "campingPartySurprise",
+					"amount" : -0.05
+
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                   			"type": "reduce_ambush_chance",
+                    			"sub_type" : "",
+					"amount" : 1.5
+				}
+			],
+			"hero_classes" : ["trap_maker" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		}
+
+
+
+
+	] 
+}

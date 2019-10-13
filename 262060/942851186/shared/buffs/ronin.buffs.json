@@ -1,0 +1,63 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "RON_MISS2CRITCHANCE25",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+	{
+         "id" : "RON_hpbelow_DMGH40_20",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.20,
+            "string" : ""
+         }
+      },
+
+
+	{
+         "id" : "RON_hpbelow_DMGH40_25",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+      },
+
+	{
+         "id" : "RON_hpbelow_DMGH40_30",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.30,
+            "string" : ""
+         }
+      }
+
+   ]
+}

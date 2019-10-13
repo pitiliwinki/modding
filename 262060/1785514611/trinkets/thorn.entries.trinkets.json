@@ -1,0 +1,205 @@
+{
+   "entries":
+   [
+      {
+         "id" : "thorn_headband",
+         "buffs" : 
+         [
+			"DEF5",
+			"DEBUFFRESIST15"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "thorn_potpourri",
+         "buffs" : 
+         [
+            "TRINKET_HEALDONE_B3",
+			"PROT-10"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "thorn_maingauche",
+         "buffs" : 
+         [
+            "ACC-20",
+			"T_Maingauche_Riposte"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+            "T_Miss_Bleed"
+        ]
+      },
+      {
+         "id" : "thorn_fencers_precepts",
+         "buffs" : 
+         [
+            "T_Fencer_Bleed_Duration",
+			"BLEEDSKILL20",
+			"T_Fencer_ToolTip",
+			"MAXHP-15"
+
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+            "T_Clear_Riposte"
+        ]
+      },
+      {
+         "id" : "thorn_signet_ring",
+         "buffs" : 
+         [
+			"DMGL10",
+			"DMGH10",
+            "SPD2",
+			"T_Signet_ToolTip",
+			"T_Signet_StressHeal_Debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "", 
+		 "friendly_skill_additional_effects":
+		[
+            "T_Signet_Riposte_StressHeal"
+        ],
+         "attack_skill_additional_effects":
+        [
+            "T_Signet_Riposte_StressHeal"
+        ]
+      },
+
+	  {
+		"id" : "thorn_rose_emblem",
+		"buffs" : 
+         [
+            "T_RoseEmblem_Guard",
+            "MAXHP15",
+            "STRESSDMG10"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+		 "set_id" : "cc_thorn",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },	
+	  {
+		"id" : "thorn_rapier_guard",
+		"buffs" : 
+         [
+			"T_RapierGuard_Pierce",
+			"DEF10",
+			"SPD-2"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "set_id" : "cc_thorn",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },
+	  
+	  {
+		"id" : "thorn_bell",
+		"buffs" : 
+         [
+			"ACC10",
+			"DMGH-20",
+			"DMGL-20"
+
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "comet",
+         "shard" : 90,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		[
+            "T_Block"
+        ]
+      },
+
+      {
+         "id" : "thorn_head",
+         "buffs" : 
+         [
+			"T_Head_RiposteL",
+			"T_Head_RiposteH",
+			"T_Head_Crit",
+			"STRESSDMG20"
+         ],
+         "hero_class_requirements":
+         [	 
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+		 "id" : "thorn_black_obi",
+		 "buffs": 
+		 [
+			"T_Obi_RiposteL",
+			"T_Obi_RiposteH",
+			"SPDFIRSTROUND8",
+			"T_Obi_Dodge_First",
+			"T_Obi_Dodge"
+			
+		 ],
+		 "hero_class_requirements": [
+			"thorn"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship"
+	  }
+   ]
+}

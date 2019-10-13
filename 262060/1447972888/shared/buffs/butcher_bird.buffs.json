@@ -1,0 +1,433 @@
+{
+	"buffs":
+	[
+	        {
+			 "id"  : "on_crit_stressresist",
+			 "stat_type" : "stress_dmg_received_percent",
+			 "stat_sub_type" : "",
+			 "amount" : -0.16,
+			 "duration" : 2,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+             }
+            },
+	        {
+		     "id"  : "Skewer_DebuffPROT_1",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "protection_rating",
+			 "amount" : -0.07,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffPROT_2",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "protection_rating",
+			 "amount" : -0.09,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffPROT_3",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "protection_rating",
+			 "amount" : -0.11,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffPROT_4",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "protection_rating",
+			 "amount" : -0.13,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffPROT_5",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "protection_rating",
+			 "amount" : -0.15,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffACC_1",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			 "amount" : -0.02,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+	  	     "id"  : "Skewer_DebuffACC_2",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			 "amount" : -0.04,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffACC_3",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			 "amount" : -0.06,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffACC_4",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			 "amount" : -0.08,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	        },
+	        {
+		     "id"  : "Skewer_DebuffACC_5",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			 "amount" : -0.1,
+			 "duration" : 3,
+			 "remove_if_not_active" : false,
+			 "rule_type" : "always",
+			 "is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			 }
+	         },
+	         {
+			"id" : "EYEGLASS_ACC_BUFF",
+			 "stat_type" : "combat_stat_add",
+			 "stat_sub_type" : "attack_rating",
+			"amount" : 0.02,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "EYEGLASS_TRAPRESIST_BUFF",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "trap",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "SEWINGBOX_BLEEDRESIST",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "bleed",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "SEWINGBOX_BLEEDCHANCE",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "HANDKERCHIEF_BLEEDRESIST",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "bleed",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "HANDKERCHIEF_DEBUFFRESIST",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "debuff",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "TIGERCLAW_STRESSDMG",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "debuff",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "TIGERCLAW_lightbelow_CRITBUFF",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "lightbelow",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 50,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "TIGERCLAW_man_DMGH",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : "man"
+			}
+			},
+			{
+			"id" : "TIGERCLAW_man_DMGL",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "monsterType",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : "man"
+			}
+			},
+			{
+			"id" : "SILKSKIRT_lightbelow_PARTYSURPRISE",
+			"stat_type" : "party_surprise_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "lightbelow",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 50,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "SILKSKIRT_lightbelow_SCOUTING",
+			"stat_type" : "scouting_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "lightbelow",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 50,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "SILKSKIRT_lightbelow_SPD_BUFF",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 3,
+			"remove_if_not_active" : false,
+			"rule_type" : "lightbelow",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 50,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "CHARMCANDY_FOODHALF",
+			"stat_type" : "food_consumption_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "CHARMCANDY_STRESSRESIST",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "BAMBOO_DMG_in_rank_DMGL",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.35,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "BAMBOO_DMG_in_rank_DMGH",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.35,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "BAMBOO_in_rank_STRESS",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+			},
+			{
+			"id" : "BAMBOO_in_rank_DEF",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : -0.04,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			 "rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+			}
+			
+		]	
+}   
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 

@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+ <language id="schinese">
+ 
+<!-- Pet Trinket Mod By SoulSmile and Dem22. Most Art by Kaxen. Chinese (S) by 小凯先生 -->
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_pet_patrol"><![CDATA[萌宠偷猎组织]]></entry>
+	<entry id="buff_rule_data_tooltip_pet_patrol"><![CDATA[萌宠偷猎组织]]></entry>
+	
+<!--Pet Catcher--> 
+    <entry id="str_monstername_brigand_pet_catcher_A"><![CDATA[初级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_B"><![CDATA[中级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_C"><![CDATA[高级萌宠偷猎者]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_D"><![CDATA[首席萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_E"><![CDATA[萌宠偷猎执行官]]></entry>
+	<!--Actual Death Effect Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_F"><![CDATA[初级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_G"><![CDATA[中级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_H"><![CDATA[高级萌宠偷猎者]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_I"><![CDATA[首席萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_J"><![CDATA[萌宠偷猎执行官]]></entry>
+	<!--Roaming Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_K"><![CDATA[初级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_L"><![CDATA[中级萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_M"><![CDATA[高级萌宠偷猎者]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_N"><![CDATA[首席萌宠偷猎者]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_O"><![CDATA[萌宠偷猎执行官]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_pole"><![CDATA[兽夹攻击]]></entry>
+    <entry id="str_monster_skill_pet_catch_cage"><![CDATA[恐惧兽笼]]></entry>
+	<entry id="str_monster_skill_pet_catch_stun"><![CDATA[棍棒控制]]></entry>
+	<entry id="str_monster_skill_pet_catch_backup"><![CDATA[呼叫支援]]></entry>
+	<entry id="str_monster_skill_pet_catch_flee"><![CDATA[喘口气]]></entry>
+	
+<!--Per Catcher Assistant--> 
+    <entry id="str_monstername_brigand_pet_assistant_A"><![CDATA[初级萌宠偷猎者助理]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_B"><![CDATA[中级萌宠偷猎者助理]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_C"><![CDATA[高级萌宠偷猎者助理]]></entry>
+	<entry id="str_monstername_brigand_pet_assistant_D"><![CDATA[首席萌宠偷猎者助理]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_E"><![CDATA[萌宠偷猎执行官助理]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_stab"><![CDATA[长枪戳击]]></entry>
+    <entry id="str_monster_skill_pet_catch_position"><![CDATA[扰乱攻势]]></entry>
+	<entry id="str_monster_skill_pet_catch_potion"><![CDATA[紧急救治]]></entry>
+	
+<!--Trained Hound--> 
+    <entry id="str_monstername_trained_dog_A"><![CDATA[受训的护卫犬]]></entry>
+    <entry id="str_monstername_trained_dog_B"><![CDATA[坚守的护卫犬]]></entry>
+    <entry id="str_monstername_trained_dog_C"><![CDATA[敏捷的护卫犬]]></entry>
+	<entry id="str_monstername_trained_dog_D"><![CDATA[听话的护卫犬]]></entry>
+    <entry id="str_monstername_trained_dog_E"><![CDATA[凶猛的护卫犬]]></entry>
+	
+	<entry id="str_monster_skill_trained_chomp"><![CDATA[恶犬啃噬]]></entry>
+    <entry id="str_monster_skill_trained_bite"><![CDATA[恶犬扰袭]]></entry>
+	<entry id="str_monster_skill_trained_guard"><![CDATA[守护主人]]></entry>
+	
+<!--Trained Crab--> 
+    <entry id="str_monstername_trained_fishman_crabby_A"><![CDATA[幼年帝王蟹]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_B"><![CDATA[守卫帝王蟹]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_C"><![CDATA[坚盾帝王蟹]]></entry>
+	<entry id="str_monstername_trained_fishman_crabby_D"><![CDATA[壁垒帝王蟹]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_E"><![CDATA[装甲帝王蟹]]></entry>
+	
+	<entry id="str_monster_skill_crab_tide"><![CDATA[潮水高涨]]></entry>
+    <entry id="str_monster_skill_crab_grip"><![CDATA[蟹钳夹击]]></entry>
+	<entry id="str_monster_skill_crab_shell"><![CDATA[坚硬外壳]]></entry>
+	<entry id="str_monster_skill_crab_counter"><![CDATA[蟹钳猛击]]></entry>
+	
+<!--Trained Lochness Monster--> 
+    <entry id="str_monstername_trained_carrion_eater_big_A"><![CDATA[幼年的尼斯湖吞噬怪]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_B"><![CDATA[成长的尼斯湖吞噬怪]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_C"><![CDATA[成熟的尼斯湖吞噬怪]]></entry>
+	<entry id="str_monstername_trained_carrion_eater_big_D"><![CDATA[危险的尼斯湖吞噬怪]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_E"><![CDATA[恐怖的尼斯湖吞噬怪]]></entry>
+	
+	<entry id="str_monster_skill_lochness_slap"><![CDATA[抱脸吞噬]]></entry>
+    <entry id="str_monster_skill_lochness_acid"><![CDATA[强酸吞噬]]></entry>
+	<entry id="str_monster_skill_lochness_spit"><![CDATA[酸性唾液]]></entry>
+	<entry id="str_monster_skill_lochness_kill"><![CDATA[卑劣自爆]]></entry>
+	
+<!--Pets Supply Items, tooltips, barks -->
+	<!--Crab Meat -->
+	<entry id="str_inventory_title_supplycrab_meat"><![CDATA[帝王蟹肉]]></entry>
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA[帝王蟹肉]]></entry>
+	<entry id="str_inventory_description_supplycrab_meat"><![CDATA[一种罕见的美味。尝一口可以稍微减轻队伍{colour_start|stress}压力{colour_end}并减少压力所受量！]]></entry>
+	<!--Generic Crab Barks -->
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[新鲜的蟹肉！]]></entry>	
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*敲碎蟹钳*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[这是帝王蟹的肉吗？]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[珍贵的美味！]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*微笑*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[太美味了！]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[我对海鲜过敏！]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[我们有柠檬吗？]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*咀嚼*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*打嗝*]]></entry>
+	<!--Class Crab Barks -->
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[我的猎犬喜欢螃蟹！]]></entry>
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[给你，小子！]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[物超所值！]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[酒馆也许会以一个公平的价格来作交换。]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[我一点也不介意。]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[*看起来很生气*]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[螃蟹肉有治疗的功效。]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[噢！]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[我的男子气概不会被否认！]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[我曾经在莫尼科市吃过螃蟹。]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*看起来很惊讶*]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*看起来不错*]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[是时候来一场真正的巨星表演了！]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[一个很棒的开胃菜！]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[味道有点奇怪，但我很喜欢。]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[它有一种奇怪的气味，有点像鱼腥味。]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[我希望能在仪式上用到它，但它不会保持新鲜太久。]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[我们应该要多获得一些？这样可以赚一大笔钱！]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[我不需要肉。]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[我是素食主义者！]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[我以前的船员们都很喜欢蓝蟹！]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[来自大海的美食，令人耳目一新！]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA["大海的馈赠"]]></entry>
+
+	<entry id="buff_rule_data_tooltip_crab_meat_fx"><![CDATA[大海的馈赠]]></entry>
+
+	
+<!--Pet Quirk Names and custom tips-->
+	<entry id="str_quirk_name_PETS_quirk_1"><![CDATA[拘捕恐惧症]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_2"><![CDATA[萌宠偷猎组织克星]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_3"><![CDATA[尼斯湖水怪恐惧症]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_4"><![CDATA[尼斯湖水怪克星]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_lochness_slap"><![CDATA[抱脸吞噬]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_1_x"><![CDATA[{colour_start|pet_a}对被束缚在兽笼的畏惧使你很难进行战斗。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_2_x"><![CDATA[{colour_start|pet_a}对萌宠偷猎组织的愤怒激发了潜在的力量。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_3_x"><![CDATA[{colour_start|pet_a}你会惊恐地发现有一些传说是真实存在的！{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_4_x"><![CDATA[{colour_start|pet_a}你发现了这个传说中的怪物最致命的弱点！{colour_end}]]></entry>
+	
+<!--Quirk Triggered in Battle Barks-->
+	<entry id="pets_bark_trigger_1"><![CDATA[*恐惧* 他们会把我们都关在笼子里！赶紧跑！]]></entry>
+	<entry id="pets_bark_trigger_2"><![CDATA[我要杀了这些萌宠偷猎组织的懦夫们！]]></entry>
+	<entry id="pets_bark_trigger_3"><![CDATA[这是！！这个怪物会摧毁我们！]]></entry>
+	<entry id="pets_bark_trigger_4"><![CDATA[我似乎发现了这个怪物不为人知的弱点？！]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_trained_carrion_eater_big"><![CDATA[尼斯湖水怪]]></entry>
+	
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_a"><![CDATA[萌宠(小型)]]></entry>
+	<entry id="trinket_rarity_pet_b"><![CDATA[萌宠(中型)]]></entry>
+	<entry id="trinket_rarity_pet_c"><![CDATA[萌宠(大型)]]></entry>
+	<entry id="trinket_rarity_pet_f"><![CDATA[萌宠食物]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined1"><![CDATA[{colour_start|pet_a}"挑剔的食客"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined2"><![CDATA[{colour_start|pet_a}"随和的食客"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined3"><![CDATA[{colour_start|pet_a}"贪婪的食客"{colour_end}]]></entry>
+	
+<!-- Pet Food -->
+	<entry id="str_inventory_title_trinketSoulPetsFood1"><![CDATA[袋装饲料]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood2"><![CDATA[美味饼干]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood3"><![CDATA[新鲜野味]]></entry>
+    
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[蜘蛛]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[蜘蛛]]></entry>
+
+<!--Fix Missing Effect String-->	
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[击杀时：]]></entry>
+	<entry id="tray_icon_tooltip_buff_duration_quest_complete_format"><![CDATA[%s (任务完成)]]></entry>
+	
+	<entry id="buff_stat_tooltip_cure_poison_chance"><![CDATA[%+d%% 所受{colour_start|blight}毒蚀{colour_end}治愈几率]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[治愈{colour_start|blight}毒蚀{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[治愈{colour_start|bleed}出血{colour_end}]]></entry>
+	
+<!-- Pet Names -->
+	<entry id="str_inventory_title_trinketSoulPets1"><![CDATA[小猪"瓦德尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets2"><![CDATA[喜鹊"埃德加"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets3"><![CDATA[仙人掌"卡科特"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets4"><![CDATA[蟑螂"彭尼"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets5"><![CDATA[母鸡"阿琳"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets6"><![CDATA[哀鸠"迪克西"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets7"><![CDATA[波斯猫"费提"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets8"><![CDATA[棕熊"格雷西"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets9"><![CDATA[猎熊犬"莱卡"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets10"><![CDATA[浣熊"欧文"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets11"><![CDATA[小丑鱼"埃塞尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets12"><![CDATA[壁虎"洛拉"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets13"><![CDATA[乌龟"弗兰克"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets14"><![CDATA[鼹鼠"挖挖"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets15"><![CDATA[猫鼬"金杰"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets16"><![CDATA[鱿鱼"佐薇"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets17"><![CDATA[乌鸦"昆西"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets18"><![CDATA[野兔"拉奎尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets19"><![CDATA[猫头鹰"阿加莎"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets20"><![CDATA[穿山甲"沃登"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets21"><![CDATA[蜘蛛"斯廷"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets22"><![CDATA[牛蛙"贝贝"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets23"><![CDATA[金丝雀"鲁比"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets24"><![CDATA[鸭嘴兽"科斯莫"]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets25"><![CDATA[老鼠"奥托"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets26"><![CDATA[雏鹰"阿特拉斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets27"><![CDATA[麻雀"坎图斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets28"><![CDATA[羔羊"霍斯蒂亚"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets29"><![CDATA[猎犬"和子"]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets30"><![CDATA[柯基"杰登"]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets31"><![CDATA[柴犬"阿穆"]]></entry>		
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_x"><![CDATA[击杀怪物：队伍 -2 {colour_start|stress}压力{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_b_x"><![CDATA[{colour_start|notable}"幸存者本能"{colour_end}：击杀怪物：队伍 +10%% {colour_start|disease}疾病{colour_end}抗性 (2回合)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_c_x"><![CDATA[{colour_start|blight}"剧毒强化剂"{colour_end}：+10%% {colour_start|blight}毒蚀{colour_end}几率]]></entry>
+	
+  <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_x"><![CDATA[{colour_start|yellow}"喜鹊吉报"{colour_end}：友方技能目标：-3 {colour_start|stress}压力{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_b_x"><![CDATA[{colour_start|notable}"幸运羽衣"{colour_end}：友方技能目标：治愈{colour_start|bleed}出血{colour_end} (75%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_c_x"><![CDATA[友方技能：自身 -2 {colour_start|stress}压力{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_d_x"><![CDATA[命中时：{colour_start|mark}标记{colour_end}目标 (2回合)(120%% 基础)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_e_x"><![CDATA[击杀怪物：+3%% {colour_start|white}历练值{colour_end} (一场任务)]]></entry>
+   
+
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_x"><![CDATA[{colour_start|pop_text_crit_damage}"幸运兔子"{colour_end}：友方技能：+6 {colour_start|pop_text_crit_damage}暴击{colour_end} (2回合)(75%%几率)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_b_x"><![CDATA[友方技能：-25%% {colour_start|stress}压力{colour_end}所受量 (2回合)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_c_x"><![CDATA[击杀时：队伍 +2 {colour_start|blue}速度{colour_end} (2回合)(75%%几率)]]></entry> 
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ALRA_pet_tooltip_x"><![CDATA[{colour_start|surprised}"金丝雀的警告"{colour_end}：-20%% 队伍{colour_start|surprised}惊慌{colour_end}几率]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_x"><![CDATA[{colour_start|bleed}"利爪攻击"{colour_end}：被击中时：使对方{colour_start|bleed}出血{colour_end} 1 点/回合 持续3回合 (125%% 基础)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_b_x"><![CDATA[被击中时：使对方{colour_start|bleed}血流如注{colour_end} 4 点/回合 持续2回合 (10%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_c_x"><![CDATA[击杀时：队伍：-3 {colour_start|stress}压力{colour_end} (75%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_d_x"><![CDATA[{colour_start|stun}"振翼而飞"{colour_end}：被击中时：+12%% {colour_start|stun}眩晕{colour_end}抗性 (2回合)(150%% 基础)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_x"><![CDATA[{colour_start|move}"长舌拖拽"{colour_end}：35%% 几率{colour_start|move}拉前{colour_end} 1]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}"长舌舔舐"{colour_end}：击杀时：75%% 几率 +3 {colour_start|healhp}生命{colour_end}]]></entry>	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_x"><![CDATA[{colour_start|debuff}"泥浆飞溅"{colour_end}：命中时：-10%% 精准 (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}"泔水大餐"{colour_end}：击杀怪物：自身 +3 {colour_start|healhp}生命{colour_end} (60%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_c_x"><![CDATA[击杀怪物：队伍 -4 {colour_start|stress}压力{colour_end} (60%%几率)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_x"><![CDATA[{colour_start|stun}"闻鸡起舞"{colour_end}：友方技能：清除{colour_start|stress}恐惧{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_b_x"><![CDATA[击杀怪物：+50%% {colour_start|healhp}治疗{colour_end}技能 (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_c_x"><![CDATA[友方技能：队伍其他英雄：-3 {colour_start|stress}压力{colour_end}]]></entry>
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_x"><![CDATA[{colour_start|healhp}"新生"{colour_end}：友方技能：{colour_start|healhp}治疗{colour_end}队伍 0-2 生命]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_b_x"><![CDATA[{colour_start|debuff}"刺耳尖叫"{colour_end}：被击中时：使对方 -3 {colour_start|debuff}闪避{colour_end} (2回合)]]></entry>
+	
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_x"><![CDATA[{colour_start|green}"尖刺防护"{colour_end}：被击中时：20%% {colour_start|blue}伤害反弹{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_b_x"><![CDATA[{colour_start|attacktype}"尖刺穿刺"{colour_end}：被击中时：几率使{colour_start|bleed}对方出血{colour_end} 1 点/回合 持续2回合]]></entry>
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_c_x"><![CDATA[攻击命中后：{colour_start|green}"抚摸仙人掌"{colour_end}：几率使{colour_start|bleed}自身出血{colour_end} 1 点/回合 持续2回合]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_x"><![CDATA[{colour_start|yellow}"猫爪"{colour_end}：命中时：几率造成{colour_start|bleed}出血{colour_end} 1 点/回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_b_x"><![CDATA[命中时：10%% 几率造成{colour_start|bleed}血流如注{colour_end} 3 点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_c_x"><![CDATA[击杀时：{colour_start|debuff}减益对方队伍{colour_end}：-2 速度 (1回合)(115%% 基础)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_d_x"><![CDATA[{colour_start|debuff}减益目标：{colour_end}-10%% {colour_start|bleed}出血{colour_end}抗性 (2回合)(150%% 基础)]]></entry>
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_x"><![CDATA[{colour_start|stun}"棕熊拥抱"{colour_end}：命中时：几率造成{colour_start|stun}晕眩{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}"棕熊利爪"{colour_end}：被击中时：几率使对方{colour_start|bleed}出血{colour_end} 1 点/回合 持续3回合]]></entry>
+	 <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_c_x"><![CDATA[{colour_start|buff}"棕熊防御"{colour_end}：被击中时：+4 {colour_start|buff}防御{colour_end} 2回合 (75%%几率)]]></entry>
+	   <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_d_x"><![CDATA[{colour_start|notable}"棕熊压制"{colour_end}：{colour_start|notable}突破{colour_end}：造成自身{colour_start|stun}晕眩{colour_end}]]></entry>
+	    
+	   
+	 <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_x"><![CDATA[{colour_start|buff}"淘气的哺乳动物"{colour_end}：击杀时：队伍其他英雄：-4 {colour_start|stress}压力{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_b_x"><![CDATA[{colour_start|scouting}"浣熊侦察兵"{colour_end}：+7%% {colour_start|scouting}侦查及怪物惊慌几率{colour_end}]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_c_x"><![CDATA[{colour_start|trap}"夜间清道夫"{colour_end}：击杀时：+15%% {colour_start|trap}伤害{colour_end} (2回合) (当{colour_start|notable}火炬亮度{colour_end}低于71时)]]></entry>
+	  
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_x"><![CDATA[{colour_start|surprised}"炼金物种"{colour_end}：未命中时：-3 {colour_start|stress}压力{colour_end}]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_b_x"><![CDATA[被击中时：自身几率 +5 {colour_start|buff}防御{colour_end} (2回合)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_x"><![CDATA[{colour_start|bleed}"血的味道"{colour_end}：击杀怪物：+35%% {colour_start|bleed}出血量{colour_end}几率 (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"初恋"{colour_end}：+15%% {colour_start|green}治疗{colour_end}技能]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_x"><![CDATA[{colour_start|blue}"疗养院"{colour_end}：+20%% {colour_start|stress}压力{colour_end}治愈量 (当{colour_start|notable}火炬亮度{colour_end}高于80时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_b_x"><![CDATA[{colour_start|notable}"泡沫清洗"{colour_end}：击杀怪物：清除队伍{colour_start|stress}恐惧{colour_end}]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_x"><![CDATA[{colour_start|healhp}"和声治疗"{colour_end}：+50%% {colour_start|healhp}治疗{colour_end}技能]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"雨燕之歌"{colour_end}：被击中时：+2 {colour_start|buff}速度{colour_end} (2回合)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_x"><![CDATA[{colour_start|blight}"壁虎耐性"{colour_end}：被击中时：+12%% {colour_start|blight}毒蚀{colour_end}抗性 (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"断尾技能"{colour_end}：击杀怪物：+12 闪避 (1回合)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_x"><![CDATA[英雄被击中时：-3 {colour_start|stress}压力{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"海龟防御"{colour_end}：击杀时：队伍 +4 {colour_start|buff}防御{colour_end} (2回合)(75%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}"龟壳守护"{colour_end}：友方技能：获得 1 次{colour_start|yellow}加护{colour_end} (33%%几率)]]></entry>
+	
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_x"><![CDATA[第一回合时：+25%% {colour_start|stun}晕眩{colour_end}抗性]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_b_x"><![CDATA[{colour_start|surprised}"前肢拍打"{colour_end}：被击中时：使对方{colour_start|stun}晕眩{colour_end} (115%% 基础)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_c_x"><![CDATA[被击中时：使对方{colour_start|bleed}出血{colour_end} 1 点/回合 持续3回合 (130%% 基础)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_x"><![CDATA[{colour_start|stun}"触手缠结"{colour_end}：击杀怪物：{colour_start|move}扰乱{colour_end}敌方队伍 (107%% 基础)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_b_x"><![CDATA[击杀怪物：{colour_start|stun}晕眩{colour_end}敌方队伍 (117%% 基础)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_x"><![CDATA[{colour_start|bleed}"鼠咬"{colour_end}：被击中时：使对方{colour_start|bleed}出血{colour_end} 2 点/回合 持续3回合 (120%% 基础)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_b_x"><![CDATA[{colour_start|move}"杂耍老鼠"{colour_end}：+12%% {colour_start|move}位移{colour_end}抗性]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_c_x"><![CDATA[{colour_start|stress}"啮齿动物"{colour_end}：击杀时：队伍 -2 {colour_start|stress}压力{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_x"><![CDATA[{colour_start|blue}"乌鸦盛宴"{colour_end}：友方技能：清除{colour_start|stress}恐惧{colour_end} (75%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_b_x"><![CDATA[击杀怪物：队伍 +20%% {colour_start|stress}压力{colour_end}治疗所受量 (持续2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_c_x"><![CDATA[被击中时：{colour_start|debuff}减益{colour_end}敌方：-4 暴击 (持续2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SHIE_pet_tooltip_x"><![CDATA[{colour_start|stun}"猫鼬戏法"{colour_end}：+15%% 伤害 (对野兽、蜘蛛)]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_x"><![CDATA[{colour_start|healhp}"神圣疗伤"{colour_end}：友方技能：{colour_start|healhp}治疗{colour_end} 0-4]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}"神圣方舟"{colour_end}：被击中时：+4 {colour_start|yellow}暴击{colour_end} (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_c_x"><![CDATA[{colour_start|harmful}"祭祀礼物"{colour_end}：被击中时：自身 -2 {colour_start|harmful}生命{colour_end}，队伍 -2 {colour_start|stress}压力{colour_end}]]></entry>
+	
+
+	 <entry id="buff_stat_tooltip_upgrade_discount_SHAD_pet_tooltip_x"><![CDATA[{colour_start|stealth}"暗影蛛网"{colour_end}：队伍其他英雄：{colour_start|stealth}潜行{colour_end} 1 回合 (25%%几率)]]></entry>
+	 
+	 
+	 <entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_x"><![CDATA[{colour_start|harmful}"猎犬犬吠"{colour_end}：被击中时：对方 -2 {colour_start|harmful}速度{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"猎犬耐力"{colour_end}：被击中时：+10 {colour_start|stun}晕眩{colour_end}抗性 (2回合)]]></entry>
+	 
+	 
+  
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_x"><![CDATA[{colour_start|yellow}"穿山甲之盔"{colour_end}：17%% 几率获得 1 次 {colour_start|yellow}加护{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_b_x"><![CDATA[被击中时：+5%% {colour_start|yellow}防御{colour_end} (2回合)(150%% 基础)]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_c_x"><![CDATA[击杀时：队伍：+7 精准 (1回合)]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_x"><![CDATA[{colour_start|yellow}"有趣的焦点"{colour_end}：践踏：+3 {colour_start|buff}暴击{colour_end}/+7 {colour_start|buff}精准{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_b_x"><![CDATA[{colour_start|mark}"柯基的目标"{colour_end}：攻击时：{colour_start|mark}标记{colour_end}目标 (50%%几率) (2回合)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_c_x"><![CDATA[{colour_start|guard}"抓住他们"{colour_end}：被击中时：+25%% 伤害(对{colour_start|mark}标记{colour_end}) (2回合)]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_d_x"><![CDATA[{colour_start|stress}-15%% 压力{colour_end}造成量 (当{colour_start|notable}火炬亮度{colour_end}在30-70时)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_x"><![CDATA[{colour_start|surprised}"鸟之哀歌"{colour_end}：击杀怪物：队伍 -3 {colour_start|stress}压力{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}"灵感疗法"{colour_end}：击杀怪物：{colour_start|green}治疗{colour_end} 2 点/回合 持续2回合 (20%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}"治愈旋律"{colour_end}：击杀怪物：队伍 +4 {colour_start|green}生命{colour_end} (5%%几率)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_d_x"><![CDATA[{colour_start|stress}"神之干预"{colour_end}：击杀怪物：{colour_start|green}治愈{colour_end}队伍{colour_start|bleed}出血{colour_end} (20%%几率)]]></entry>
+	
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_x"><![CDATA[{colour_start|debuff}"犬类啃咬"{colour_end}：攻击时：{colour_start|debuff}-3 闪避/-3 防御{colour_end} (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_b_x"><![CDATA[{colour_start|harmful}"疯狂捕食"{colour_end}：击杀时：{colour_start|harmful}+20%% 伤害/+2 暴击{colour_end} (2回合)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_c_x"><![CDATA[{colour_start|stress}"饱腹"{colour_end}：击杀时：队伍 -2 {colour_start|stress}压力{colour_end}]]></entry>
+	
+	
+	<!--Pets Plots Caretaker Goal, Quest Titles and Descriptions, Failure, Success, Post event wrap-up-->
+
+
+	<!--Town Event：Start Pet Catcher Quest Chain -->
+    <entry id="town_event_title_first_pets_event_A"><![CDATA[击败萌宠偷猎组织]]></entry>
+    <entry id="town_event_description_first_pets_event_A"><![CDATA[萌宠偷猎组织在兽窑、荒野和海湾捕获动物进行训练和实验！兽窑是最先发现偷猎痕迹的地方。击败偷猎组织，你将获得忠诚的萌宠伙伴！]]></entry>
+	<entry id="town_event_info_first_pets_event_A"><![CDATA[除了剧情任务之外，{colour_start|pet_a}萌宠偷猎组织{colour_end}会在兽窑、荒野和海湾的任何地牢内小几率出现。必须时刻保持警惕！]]></entry>
+
+	<!--Warrens 1--> 		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_1"><![CDATA[击败藏于兽窑的初级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_1"><![CDATA[{?hero_names}%s 前往兽窑，打败了初级萌宠偷猎者。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_1"><![CDATA[击败藏于兽窑的初级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xwarrens_1_tip"><![CDATA[萌宠偷猎组织残忍地训练动物们并试图让它们服从命令！]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_failure"><![CDATA[{?hero_names}%s 死在初级萌宠偷猎者的手里。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_success"><![CDATA[{?hero_names}%s 从初级萌宠偷猎者的手里解救了一只动物，然而萌宠偷猎者趁机逃脱了！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_1"><![CDATA[初级萌宠偷猎者被打败了]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_1"><![CDATA[短期内，兽窑的动物将是安全的...]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_1"><![CDATA[击败藏于兽窑的初级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_1"><![CDATA[击败初级萌宠偷猎者和他的小队，解救任何被捕获的动物。{colour_start|yellow} 注意：{colour_end}此任务会开启{colour_start|pet_a}萌宠救援{colour_end}冒险历程，你可以从中获得忠实的{colour_start|pet_a}萌宠伙伴{colour_end}。下次任务地点在海湾，但行动之前你必须先打败首领。]]></entry>
+	
+	 
+	<!--Warrens 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_2"><![CDATA[阻止藏于兽窑的高级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_2"><![CDATA[{?hero_names}%s 搜索兽窑，阻止了高级萌宠偷猎者。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_2"><![CDATA[阻止藏于兽窑的高级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xwarrens_2_tip"><![CDATA[这次萌宠偷猎组织潜伏得更加隐蔽了，搜索范围太大，你必须在必要情况下才用上你的补给。]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_failure"><![CDATA[{?hero_names}%s 死在高级萌宠偷猎者的手里。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_success"><![CDATA[{?hero_names}%s 从高级萌宠偷猎者的手里解救了一只动物，然而萌宠偷猎者趁机逃脱了！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_2"><![CDATA[高级萌宠偷猎者被打败了]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_2"><![CDATA[高级萌宠偷猎者暂时放弃了对兽窑的偷猎活动。]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_2"><![CDATA[阻止藏于兽窑的高级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_2"><![CDATA[一名更有经验的{colour_start|pet_a}高级萌宠偷猎者{colour_end}已被派往该地区继续进行偷猎活动。快拦住他！]]></entry>
+	
+	<!--Warrens 3-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_3"><![CDATA[战胜藏于兽窑的萌宠偷猎执行官]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_3"><![CDATA[{?hero_names}%s 搜索兽窑，阻止了萌宠偷猎执行官。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_3"><![CDATA[战胜藏于兽窑的萌宠偷猎执行官]]></entry>
+	<entry id="str_plot_pets_xwarrens_3_tip"><![CDATA[你所选择的路径决定了你是否能在这个扭曲的地方生存下来。祝你好运！]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_failure"><![CDATA[{?hero_names}%s 死在萌宠偷猎执行官的手里。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_success"><![CDATA[{?hero_names}%s 从高级萌宠偷猎者的手里解救了一只动物，然而萌宠偷猎者趁机逃往海湾了！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_3"><![CDATA[萌宠偷猎执行官被打败了]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_3"><![CDATA[萌宠偷猎执行官被打败了，不过被他逃到了海湾！]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_3"><![CDATA[战胜藏于兽窑的萌宠偷猎执行官]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_3"><![CDATA[{colour_start|pet_a}萌宠偷猎执行官{colour_end}是这场偷猎的幕后黑手！他隐藏在兽窑深处继续他的偷猎恶行！你必须战胜他！购买所有可以携带的绷带、解毒剂、药草、鸦片酊、铲子和食物。]]></entry>
+	
+		<!--Warrens 4 -->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_4"><![CDATA[探索奇异的隧道]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_4"><![CDATA[{?hero_names}%s 探索了萌宠向你展示的隧道。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_4"><![CDATA[探索奇异的隧道]]></entry>
+	<entry id="str_plot_pets_xwarrens_4_tip"><![CDATA[兽窑里的这条奇异隧道萦绕着一种平静、治愈的气氛。]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_failure"><![CDATA[{?hero_names}%s 迷失在奇异的隧道里。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_success"><![CDATA[{?hero_names}%s 找到了一条能治愈负面怪癖的奇异隧道！这是萌宠们的报恩吗？({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_4"><![CDATA[探索奇异的隧道]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_4"><![CDATA[成功探索了奇异的隧道！]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_4"><![CDATA[探索奇异的隧道]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_4"><![CDATA[一只萌宠嘴里叼着火炬，似乎很想让你跟随它。在它不停地轻推、纠缠着你之后，你决定跟它走...直到到达一个奇异的隧道入口...]]></entry>
+	
+	
+
+	
+	 <!--Weald 1-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_1"><![CDATA[跟踪逃往荒野的初级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_1"><![CDATA[{?hero_names}%s 跟踪初级萌宠偷猎者深入荒野。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_1"><![CDATA[跟踪逃往荒野的初级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xweald_1_tip"><![CDATA[初级萌宠偷猎者助理会负责进行治疗，最好先除掉他！]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_failure"><![CDATA[{?hero_names}%s 丧命于逃往荒野的初级萌宠偷猎者手中。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_success"><![CDATA[{?hero_names}%s 杀死了初级萌宠偷猎者！他永远也不会再伤害动物了。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_1"><![CDATA[跟踪逃往荒野的初级萌宠偷猎者]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_1"><![CDATA[你终于打败了初级萌宠偷猎者！]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_1"><![CDATA[跟踪逃往荒野的初级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_1"><![CDATA[你把{colour_start|pet_a}初级萌宠偷猎者{colour_end}困在荒野扭曲的路径上。这次他逃不掉了！击败他并解救另一只被捕的动物！]]></entry>
+	
+	<!--Weald 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_2"><![CDATA[了结逃往荒野的高级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_2"><![CDATA[{?hero_names}%s 沿着荒野的小路寻找高级萌宠偷猎者。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_2"><![CDATA[了结逃往荒野的高级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xweald_2_tip"><![CDATA[不要迷失在荒野曲折的道路上！注意！高级萌宠偷猎者很可能设置了陷阱！]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_failure"><![CDATA[{?hero_names}%s 丧命于逃往荒野的高级萌宠偷猎者手中。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_success"><![CDATA[{?hero_names}%s 了结了高级萌宠偷猎者。希望萌宠偷猎组织会因此结束他们的恶行！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_2"><![CDATA[了结逃往荒野的高级萌宠偷猎者]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_2"><![CDATA[高级萌宠偷猎者和他的小队在荒野中被打败了。]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_2"><![CDATA[了结逃往荒野的高级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_2"><![CDATA[{colour_start|pet_a}高级萌宠偷猎者{colour_end}在荒野迷宫般的地方做最后的抵抗。结束他对动物的恶行...直到永远。]]></entry>
+	
+	<!--Weald 3 -->		 
+	<entry id="str_caretaker_goal_plot_pets_xweald_3"><![CDATA[击溃逃往荒野的萌宠偷猎执行官]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_3"><![CDATA[{?hero_names}%s 来到了荒野，希望击溃萌宠偷猎执行官。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_3"><![CDATA[击溃逃往荒野的萌宠偷猎执行官]]></entry>
+	<entry id="str_plot_pets_xweald_3_tip"><![CDATA[结束萌宠偷猎组织的恶行！尽管其他一些能力较差的偷猎者还在这片土地上游荡，但如果你成功了，这将是一个杰出的功劳！]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_failure"><![CDATA[{?hero_names}%s 丧命于逃往荒野的萌宠偷猎执行官手中。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_success"><![CDATA[{?hero_names}%s 击溃了逃往荒野的萌宠偷猎执行官。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_3"><![CDATA[击溃逃往荒野的萌宠偷猎执行官]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_3"><![CDATA[你击溃了萌宠偷猎执行官。]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_3"><![CDATA[击溃逃往荒野的萌宠偷猎执行官]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_3"><![CDATA[与{colour_start|pet_a}萌宠偷猎执行官{colour_end}进行最后的决战。虽然战斗将会很困难...但是为了解救所有的动物，我们必须将其击溃！购买所有可以携带的绷带、解毒剂、药草、鸦片酊、铲子和食物。 祝你好运！]]></entry>
+	
+	<!--Cove 1 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_1"><![CDATA[搜索逃往海湾的初级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_1"><![CDATA[{?hero_names}%s 冒险进入海湾搜索初级萌宠偷猎者。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_1"><![CDATA[搜索逃往海湾的初级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xcove_1_tip"><![CDATA[受到萌宠偷猎者训练的动物已经被无情地投入于战斗之中！]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_failure"><![CDATA[{?hero_names}%s 在海湾试图击败初级萌宠偷猎者时被杀。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_success"><![CDATA[{?hero_names}%s 设法击败了逃往海湾的初级萌宠偷猎者，但是又被他逃跑了！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_1"><![CDATA[搜索逃往海湾的初级萌宠偷猎者]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_1"><![CDATA[初级萌宠偷猎者逃到了海湾，与其进行第二次战斗！]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_1"><![CDATA[搜索逃往海湾的初级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_1"><![CDATA[{colour_start|pet_a}初级萌宠偷猎者{colour_end}--这个懦夫，逃到海湾并集结了更多的组织人员。抓住并击败他！]]></entry>
+	
+	<!--Cove 2 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_2"><![CDATA[质问逃往海湾的高级萌宠偷猎者]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_2"><![CDATA[{?hero_names}%s 冒险进入海湾质问高级萌宠偷猎者。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_2"><![CDATA[质问逃往海湾的高级萌宠偷猎者]]></entry>
+	<entry id="str_plot_pets_xcove_2_tip"><![CDATA[高级萌宠偷猎者躲藏在海湾地势复杂的区域，搜查工作进展艰难。]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_failure"><![CDATA[{?hero_names}%s 在海湾试图击败高级萌宠偷猎者时被杀。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_success"><![CDATA[{?hero_names}%s 追上了逃往海湾的高级萌宠偷猎者，同时解救了一只萌宠，但是这个懦夫又一次逃往南方。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_2"><![CDATA[质问逃往海湾的高级萌宠偷猎者]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_2"><![CDATA[高级萌宠偷猎者被当面质问。]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_2"><![CDATA[质问逃往海湾的高级萌宠偷猎者]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_2"><![CDATA[{colour_start|pet_a}高级萌宠偷猎者{colour_end}试图在海湾扭曲的洞穴里让你迷失方向。为你的队伍提供充足的补给，鼓起你所有的勇气！]]></entry>
+	
+	<!--Cove 3 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_3"><![CDATA[追捕逃往海湾的萌宠偷猎执行官]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_3"><![CDATA[{?hero_names}%s 冒险进入海湾追捕萌宠偷猎执行官。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_3"><![CDATA[追捕逃往海湾的萌宠偷猎执行官]]></entry>
+	<entry id="str_plot_pets_xcove_3_tip"><![CDATA[萌宠偷猎执行官躲藏的地点有明显的地理优势：洞窟又长又乱，你极有可能在找到他之前就用光补给！]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_failure"><![CDATA[{?hero_names}%s 在海湾试图击败萌宠偷猎执行官时被杀。({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_success"><![CDATA[{?hero_names}%s 找到并打败了萌宠偷猎执行官，他像懦夫一样逃离了海湾！({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_3"><![CDATA[追捕逃往海湾的萌宠偷猎执行官]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_3"><![CDATA[追捕上了逃往海湾的萌宠偷猎执行官]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_3"><![CDATA[追捕逃往海湾的萌宠偷猎执行官]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_3"><![CDATA[{colour_start|pet_a}萌宠偷猎执行官{colour_end}隐藏在一个复杂的洞窟之内，并试图让你迷失其中！购买所有可以携带的绷带、解毒剂、药草、鸦片酊、铲子和食物。]]></entry>
+	
+<!-- Phase 2 Strings -->
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_e"><![CDATA[萌宠(元素)]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined5"><![CDATA[{colour_start|pet_a}"元素湮灭"{colour_end}]]></entry>
+ 
+<!-- Pet Names Phase 2 -->
+	<entry id="str_inventory_title_trinketSoulPets32"><![CDATA[珍岛犬"塞奇"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets33"><![CDATA[兰花螳螂"贝拉"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets34"><![CDATA[赤狐"维洛斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets35"><![CDATA[珊瑚蛇"奥萝拉"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets36"><![CDATA[骷髅狼"白牙"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets37"><![CDATA[秃鹰"斯镐特"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets38"><![CDATA[蜗牛"洛奇"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets39"><![CDATA[博美犬"巴迪"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets40"><![CDATA[变色龙"颇尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets41"><![CDATA[美洲狮"普西"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets42"><![CDATA[刺猬"希卡"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets43"><![CDATA[仓鸮"阿德里尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets44"><![CDATA[水元素"格伊希斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets45"><![CDATA[火元素"伊格尼斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets46"><![CDATA[凤凰"皮克尔皮"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets47"><![CDATA[母狼"厄科"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets48"><![CDATA[飞袋鼠"西比尔"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets49"><![CDATA[美洲獾"阿耳特弥斯"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets50"><![CDATA[铜牛"小玩意"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets51"><![CDATA[独角兽"佩内洛普"]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets52"><![CDATA[约克夏"桑卡图斯"]]></entry>
+	
+	<!--Fang Summons Skills Names-->
+	<entry id="str_monstername_petsskeleton_common_B"><![CDATA[方的随从]]></entry>
+	<entry id="str_monster_skill_fang_summon_cudgel"><![CDATA[随从棍击]]></entry>
+    <entry id="str_monster_skill_fang_summon_cudgel_weak"><![CDATA[弱气棍击]]></entry>
+	
+	<!--New False Rule-->
+	<entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[无视]]></entry>
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_x"><![CDATA[{colour_start|notable}"顽皮的小狗"{colour_end}：友方技能：{colour_start|stress}压力 -5{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}"舔舐伤口"{colour_end}：友方技能：目标 {colour_start|healhp}+2 生命{colour_end} (33%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}"轻舔脸颊"{colour_end}：击杀怪物：自身 {colour_start|healhp}+2 生命{colour_end} (33%%几率)]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}"热血沸腾"{colour_end}：在位置2时：{colour_start|bleed}+50%% 出血持续时间{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_x"><![CDATA[{colour_start|pet_a}"采花大盗"{colour_end}：第一回合时：+50%% {colour_start|healhp}治疗技能{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_b_x"><![CDATA[{colour_start|mark}"螳螂标记"{colour_end}：被击中时：{colour_start|mark}标记对方{colour_end} (65%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_c_x"><![CDATA[{colour_start|notable}"静若止水"{colour_end}：友方技能：{colour_start|stress}-3 压力{colour_end} (75%%几率)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}"肉食新娘"{colour_end}：击杀怪物：{colour_start|healhp}治疗{colour_end} 队伍 2 点/回合 持续2回合 (20%%几率)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_x"><![CDATA[{colour_start|stealth}"反爪"{colour_end}：被击中时：几率使对方 +4%% {colour_start|buff}所受暴击几率{colour_end} (2回合)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_b_x"><![CDATA[{colour_start|notable}"狡猾的狐狸"{colour_end}：未命中时：+5 {colour_start|notable}精准{colour_end} (2回合)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}"鸡舍"{colour_end}：+25%% 伤害 (对{colour_start|bleed}出血{colour_end})]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}"奸诈的狐狸"{colour_end}：{colour_start|yellow}在位置2时{colour_end}：击杀怪物：队伍其他英雄 {colour_start|stress}-3 压力{colour_end} (65%%几率)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_x"><![CDATA[{colour_start|notable}"先攻"{colour_end}：第一回合时：+10 {colour_start|notable}暴击{colour_end} 几率]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_b_x"><![CDATA[{colour_start|green}"蜕皮"{colour_end}：被击中时：{colour_start|green}转移{colour_end} {colour_start|bleed}出血{colour_end} 和 {colour_start|blight}毒蚀{colour_end} ]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_c_x"><![CDATA[{colour_start|knockback}"迷人的食客"{colour_end}：{colour_start|stress}血盆大口：每次击杀怪物{colour_end}：队伍 {colour_start|stress}-2 压力{colour_end} (75%%几率)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_d_x"><![CDATA[{colour_start|pop_text_crit_damage}"最后一击"{colour_end}：{colour_start|deathdoor}濒死状态{colour_end}：+20 {colour_start|notable}暴击{colour_end}几率]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_x"><![CDATA[{colour_start|notable}"冰冷骨骼"{colour_end}：被击中时：队伍 +5 {colour_start|buff}防御{colour_end} (2回合)(50%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}"死亡嚎叫"{colour_end}：击杀怪物：33%% 几率 {colour_start|knockback}召唤骷髅{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_c_x"><![CDATA[{colour_start|notable}"幸存者本能"{colour_end}：跳过回合时：队伍 +10%% {colour_start|disease}疾病抗性{colour_end} (2回合)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_x"><![CDATA[{colour_start|yellow}"雄鹰精神"{colour_end}：{colour_start|stress}+50%% 压力治疗{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_b_x"><![CDATA[{colour_start|blue}"秃鹰羽毛"{colour_end}：友方技能：{colour_start|bleed}治愈出血{colour_end} (25%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_c_x"><![CDATA[{colour_start|debuff}"狩猎标记"{colour_end}：命中时：{colour_start|mark}标记目标{colour_end} (50%%几率)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_d_x"><![CDATA[{colour_start|move}"啄击眼睛"{colour_end}：被击中时：使对方：-5 {colour_start|debuff}精准{colour_end} (2回合)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_x"><![CDATA[{colour_start|stun}"对数螺线"{colour_end}：+15%% 伤害 (对 {colour_start|stun}眩晕{colour_end})]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"壳爆弹"{colour_end}：被击中时：队伍其他英雄：+10%% {colour_start|buff}伤害{colour_end} (2回合)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_c_x"><![CDATA[{colour_start|move}"钙质壳"{colour_end}：击杀时：队伍 +30%% {colour_start|move}伤害反弹{colour_end} (1回合) (75%%几率)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_d_x"><![CDATA[{colour_start|stress}"应力壳"{colour_end}：{colour_start|trap}秘仪屏障{colour_end}：队伍其他英雄 {colour_start|stress}-3 压力{colour_end} (50%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_t_x"><![CDATA[+30%% {colour_start|move}伤害反弹{colour_end}]]></entry>	
+	
+   	<entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_x"><![CDATA[{colour_start|mortaldebuff}"活泼的博美"{colour_end}：{colour_start|stress}-25%% 压力所受量{colour_end} (对血裔)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_b_x"><![CDATA[{colour_start|pop_text_crit_damage}"领地意识"{colour_end}：命中时：{colour_start|mark}标记目标{colour_end} (40%%几率)(2回合)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_c_x"><![CDATA[{colour_start|notable}"宠物乐园"{colour_end}：20%% 伤害 (对 {colour_start|mark}标记{colour_end})]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_d_x"><![CDATA[{colour_start|knockback}"趣味玩伴"{colour_end}：+3 {colour_start|deathdoor}致死{colour_end} 抗性]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_x"><![CDATA[{colour_start|notable}"立体视觉"{colour_end}：暴击时：+100%% {colour_start|stress}压力治疗{colour_end} (荒野)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_b_x"><![CDATA[{colour_start|green}"卷曲长尾"{colour_end}：击杀时：+25%% {colour_start|notable}伤害{colour_end} (2回合) (兽窑)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_c_x"><![CDATA[{colour_start|buff}"弹道投射"{colour_end}：击杀时：+5%% {colour_start|buff}暴击{colour_end} (2回合) (废墟)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_d_x"><![CDATA[{colour_start|stealth}"海湾隐士"{colour_end}：击杀时：{colour_start|stealth}潜行{colour_end} (2回合) (海湾)]]></entry>
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_x"><![CDATA[{colour_start|stress}"静怡姿态"{colour_end}：+20%% {colour_start|stress}压力治疗{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}"疏油针刺"：{colour_end}友方技能：15%% 几率{colour_start|disease}治愈疾病{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_c_x"><![CDATA[{colour_start|stealth}"夜行食客"{colour_end}：击杀怪物：队伍其他英雄 {colour_start|healhp}治疗 0-3 点生命{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_d_x"><![CDATA[{colour_start|notable}"防卫卷"{colour_end}：+10%% {colour_start|blight}毒蚀抗性{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_x"><![CDATA[{colour_start|stun}"尖锐狮爪"{colour_end}：+10%% {colour_start|bleed}出血{colour_end} 几率]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}"猫咪乱抓"{colour_end}：+40%% {colour_start|bleed}出血{colour_end} 效果]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_c_x"><![CDATA[{colour_start|virtue}"猫咪呜声"{colour_end}：击杀怪物：队伍其他英雄{colour_start|stress} 压力 -2{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_d_x"><![CDATA[{colour_start|riposte}"雌性猎手"{colour_end}：被击中时：启动 {colour_start|riposte}反击{colour_end} (1回合)(40%%几率)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_x"><![CDATA[{colour_start|notable}"镇静的夜枭"{colour_end}：{colour_start|healhp}月之泪珠{colour_end}：{colour_start|stress}压力 -5{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"尖利之声"{colour_end}：无法标记{colour_start|stun}1 回合{colour_end} (15%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_c_x"><![CDATA[{colour_start|blue}"蜘蛛猎人"{colour_end}：+15 精准/+5 暴击 (对 {colour_start|blue}蜘蛛{colour_end})]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_d_x"><![CDATA[{colour_start|buff}"分心颤振"{colour_end}：+5 {colour_start|buff}闪避{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_x"><![CDATA[{colour_start|scouting}"潮湿"{colour_end}：+10%% {colour_start|debuff}减益{colour_end} 几率 (当 {colour_start|torch_centre}火炬亮度低于 51{colour_end}时)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}"水炮"{colour_end}：命中时：造成{colour_start|knockback}2 点水元素伤害{colour_end} (50%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_c_x"><![CDATA[{colour_start|miasma}"无法捉摸"{colour_end}：被击中时：几率使对方 -3 {colour_start|debuff}精准{colour_end} 和 -5 {colour_start|move}位移抗性{colour_end} (2回合)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_d_x"><![CDATA[{colour_start|virtue}"清爽喷雾"{colour_end}：击杀怪物：队伍其他英雄 {colour_start|stress}压力 -2{colour_end}]]></entry>
+   
+
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_f_x"><![CDATA[{colour_start|notable}"减压桑拿"{colour_end}：击杀时：自身 {colour_start|stress}-2 压力{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_g_x"><![CDATA[{colour_start|yellow}"高温"{colour_end}：+4 {colour_start|yellow}暴击{colour_end} 几率 (当 {colour_start|yellow}火炬亮度高于 79{colour_end}时)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_h_x"><![CDATA[{colour_start|debuff}"熔化护甲"{colour_end}：被击中时：几率使对方 -5 {colour_start|debuff}防御{colour_end} (2回合)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_i_x"><![CDATA[{colour_start|bleed}"雷火"{colour_end}：命中时：+4 {colour_start|bleed}所受暴击几率{colour_end} (2回合)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_q_x"><![CDATA[{colour_start|notable}"元素附和"{colour_end}：秘法师需要额外的食物补给以避免施法造成的疲劳]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_x"><![CDATA[{colour_start|notable}"光芒四射"{colour_end}：在位置1时：-20%% {colour_start|stress}压力所受量{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"闪耀光辉"{colour_end}：友方技能：+5 {colour_start|yellow}火炬亮度{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}"活力再生"{colour_end}：击杀怪物：队伍其他英雄 {colour_start|healhp}治疗 0-2 点生命{colour_end} (33%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}"凤凰之火"{colour_end}：濒死状态：被击中时：{colour_start|healhp}+50%% 生命{colour_end} (50%%几率)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_e_x"><![CDATA[{colour_start|pop_text_crit_damage}"旭日东升"{colour_end}：被击中时：队伍 {colour_start|stress}-20 压力{colour_end} 和 {colour_start|yellow}+100 火炬亮度{colour_end} (5%%几率)]]></entry>
+   
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_x"><![CDATA[{colour_start|notable}"狩猎能手"{colour_end}：-40%% {colour_start|stress}压力所受量{colour_end} (对野兽)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_b_x"><![CDATA[{colour_start|move}"狼爪"{colour_end}：+3 {colour_start|buff}暴击{colour_end} 几率]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}"啃咬"{colour_end}：命中时：{colour_start|bleed}出血{colour_end} 1 点/回合 持续 3 回合 (120%% 基础)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_d_x"><![CDATA[{colour_start|surprised}"振奋狼嚎"{colour_end}：友方技能：治愈 {colour_start|stress}恐惧{colour_end} (33%%几率)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_x"><![CDATA[{colour_start|healhp}"高压治疗"{colour_end}：当 {colour_start|stress}压力{colour_end} 大于 99：击杀时：{colour_start|healhp}治疗队伍 1-3 点生命{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"命中注定"{colour_end}：命中时：{colour_start|stun}眩晕{colour_end} (115%% 基础)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_c_x"><![CDATA[{colour_start|notable}"甜蜜的滑翔机"{colour_end}：被击中时：队伍 +25%% {colour_start|stress}压力治疗所受量{colour_end} (2回合)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_d_x"><![CDATA[{colour_start|pet_a}"未来的真相"{colour_end}：友方技能：15%% 几率获得 {colour_start|yellow}1 个额外回合{colour_end}]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_x"><![CDATA[{colour_start|notable}"觅食者"{colour_end}：+25%% {colour_start|healhp}治疗技能{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"攻击性"{colour_end}：+20%% {colour_start|stun}眩晕抗性{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_c_x"><![CDATA[{colour_start|trap}"挖掘爪子"{colour_end}：命中时：{colour_start|bleed}出血{colour_end} 2 点/回合 持续 2 回合 (120%% 基础)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_d_x"><![CDATA[(禁用技能：{colour_start|blight}摧残灵魂{colour_end})]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_e_x"><![CDATA[{colour_start|specificclass}"獾族"{colour_end}：{colour_start|specificclass}硬化皮肤{colour_end}：{colour_start|stress}-4 压力{colour_end} (40%%几率)]]></entry>
+   
+   
+   
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_x"><![CDATA[{colour_start|green}"好斗的守卫"{colour_end}：+25%% {colour_start|stress}压力治疗{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_b_x"><![CDATA[{colour_start|notable}"铜牛踩踏"{colour_end}：当生命低于 51%%：+7 {colour_start|notable}暴击{colour_end} 几率]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_c_x"><![CDATA[{colour_start|notable}"临界践踏"{colour_end}：当生命低于 16%%：+12 {colour_start|notable}暴击{colour_end} 几率]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_d_x"><![CDATA[{colour_start|blight}"眩晕回声"{colour_end}：被击中时：几率使对方 {colour_start|stun}眩晕{colour_end} (对 {colour_start|stress}邪秽{colour_end} 以外)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_e_x"><![CDATA[{colour_start|guard}"金属表皮"{colour_end}：击杀时：{colour_start|guard}守护队伍其他英雄{colour_end} (1回合)]]></entry>
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_x"><![CDATA[{colour_start|yellow}"萌犬助威"{colour_end}：+100%% {colour_start|stress}压力治疗{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_b_x"><![CDATA[{colour_start|buff}"忠诚的伙伴"{colour_end}：+12%% {colour_start|stun}眩晕{colour_end} 几率]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}"激烈撕咬"{colour_end}：{colour_start|notable}严惩管教{colour_end}：几率使对方 {colour_start|bleed}出血 2 点/回合{colour_end} 持续 2 回合]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_d_x"><![CDATA[{colour_start|blight}"圣餐"{colour_end}：击杀时：几率 {colour_start|healhp}治疗队伍 0-4 点生命{colour_end}]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_x"><![CDATA[{colour_start|yellow}"独角兽啦啦队"{colour_end}：被击中时：队伍 {colour_start|stress}-2 压力{colour_end} (50%% 率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_b_x"><![CDATA[{colour_start|stun}"纯洁与优雅"{colour_end}：击杀时：{colour_start|healhp}治疗队伍 1-2 点生命{colour_end} (40%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_c_x"><![CDATA[{colour_start|buff}"螺旋状角"{colour_end}：命中时：造成 {colour_start|buff}1-2 点魔法伤害{colour_end} (65%%几率)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_d_x"><![CDATA[{colour_start|disease}"魔法治疗"{colour_end}：友方技能：{colour_start|disease}治愈疾病{colour_end} (1%%几率)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_e_x"><![CDATA[{colour_start|stress}真稀奇！这只独角兽居然可以和任何英雄一起旅行。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_f_x"><![CDATA[{colour_start|stress}独角兽可能拥有我们尚未发现的{colour_end}{colour_start|yellow} 额外能力！{colour_end}]]></entry>
+   
+ </language>  
+ </root>
+

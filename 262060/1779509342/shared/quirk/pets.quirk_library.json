@@ -1,0 +1,108 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "PETS_quirk_1",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+			"PETS_quirk_2"		 
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"PETS_quirk_stress",
+			"PETS_quirk_accuracy",
+			"PETS_quirk_crit_1",
+			"PETS_quirk_tip_1"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+      {
+         "id" : "PETS_quirk_2",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+			"PETS_quirk_1"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"PETS_quirk_damage_low",
+			"PETS_quirk_damage_high",
+			"PETS_quirk_crit_2",
+			"PETS_quirk_speed",
+			"PETS_quirk_tip_2"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      } ,
+	  {
+         "id" : "PETS_quirk_3",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+			"PETS_quirk_4"		 
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"LOCH_fabled_fear",
+			"PETS_quirk_tip_3"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+      {
+         "id" : "PETS_quirk_4",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+			"PETS_quirk_3"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"LOCH_quirk_damage_low",
+			"LOCH_quirk_damage_high",
+			"PETS_quirk_tip_4"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      } 
+	
+   ]
+}

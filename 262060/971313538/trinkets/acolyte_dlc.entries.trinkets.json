@@ -1,0 +1,72 @@
+{
+   "entries":
+   [
+	 {
+         "id" : "aco_moon_shard",
+         "buffs" : 
+         [
+			"trinket_aco_moon_shard_crit",
+			"trinket_aco_moon_shard_stressheal",
+			"TRINKET_DMGL_D2",
+			"TRINKET_DMGH_D2",
+			"aco_tooltip_torch"
+         ],
+         "hero_class_requirements":
+         [
+			"acolyte"
+         ],
+         "rarity" : "comet",
+         "shard" : 50,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "kill_performer_additional_effects":
+         [
+             "Aco CoM Use Torch"
+         ],
+         "friendly_skill_additional_effects":
+         [
+             "Aco CoM Stress Heal",
+             "Aco CoM Reduce Torch"
+         ]
+     },
+	 {
+         "id" : "aco_crown_ash",
+         "buffs" : 
+         [
+			"TRINKET_MAXHP_B4",
+			"TRINKET_STUNRESIST_B2",
+			"TRINKET_DEATHBLOWRESIST_D3",
+			"TRINKET_DEBUFFRESIST_D2",
+			"trinket_aco_deathblow"
+         ],
+         "hero_class_requirements":
+         [
+			"acolyte"
+         ],
+         "set_id" : "aco_set_cc",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+     },
+	 {
+         "id" : "aco_arrow",
+         "buffs" : 
+         [
+			"trinket_aco_DMGL_ranged",
+			"trinket_aco_DMGH_ranged",
+			"TRINKET_rangedonly_ACC_B1",
+			"trinket_aco_stressed_dark"
+         ],
+         "hero_class_requirements":
+         [
+			"acolyte"
+         ],
+         "set_id" : "aco_set_cc",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+     }
+   ]
+}

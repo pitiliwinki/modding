@@ -1,0 +1,77 @@
+{
+   "loot_tables" :
+   [
+   
+         {
+         "id" : "king_crab_loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [   
+            { "type" : "nothing", "chances" : 25, "data" : { }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "supply", "id" : "laudanum", "amount" : 2 }},
+			{ "type" : "item", "chances" : 60, "data" : { "type" : "supply", "id" : "crab_meat", "amount" : 1 }},
+			{ "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "crab_meat", "amount" : 2 }}
+         ]
+      },
+	  {
+         "id" : "king_crab_loot_b",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [   
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 50, "data" : { "type" : "provision", "id" : "", "amount" : 4 }},
+			{ "type" : "item", "chances" : 30, "data" : { "type" : "provision", "id" : "", "amount" : 6 }},
+			{ "type" : "item", "chances" : 20, "data" : { "type" : "provision", "id" : "", "amount" : 8 }}
+         ]
+      },
+   
+      {
+         "id" : "pet_catcher_freedom_loot_main",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "trinket", "chances" : 19, "data" : { "rarity" : "pet_c" }},
+            { "type" : "trinket", "chances" : 44, "data" : { "rarity" : "pet_b" }},
+			{ "type" : "trinket", "chances" : 31, "data" : { "rarity" : "pet_a" }},
+			{ "type" : "trinket", "chances" : 3, "data" : { "rarity" : "pet_b", "amount" : 2 }},
+			{ "type" : "trinket", "chances" : 3, "data" : { "rarity" : "pet_a", "amount" : 2 }}
+         ]
+      },
+	  {
+         "id" : "pet_catcher_freedom_loot_bonus",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 91, "data" : { }},
+			{ "type" : "trinket", "chances" : 3, "data" : { "rarity" : "pet_c" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "pet_b" }},
+			{ "type" : "trinket", "chances" : 3, "data" : { "rarity" : "pet_a" }}
+         ]
+      },
+	  {
+         "id" : "pet_catcher_freedom_elemental",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 66, "data" : { }},
+			{ "type" : "trinket", "chances" : 33, "data" : { "rarity" : "pet_e" }}
+         ]
+      },
+	  {
+         "id" : "pet_catcher_food_loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 40, "data" : { }},
+			{ "type" : "trinket", "chances" : 60, "data" : { "rarity" : "pet_f", "amount" : 1 }}
+         ]
+      }
+   ]
+}

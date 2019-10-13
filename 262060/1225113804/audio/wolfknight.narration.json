@@ -1,0 +1,48 @@
+{
+    "filters": [],
+    "entries": [
+        {
+            "id": "virtue",
+            "tone": "good",
+            "chance": 1.0,
+            "audio_events": [
+			    {
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/good/wolfknight_virtue",
+                    "chance": 1.0,
+                    "priority": 6,
+                    "max_raid_occurrences": 2,
+                    "max_town_visit_occurrences": 2,
+                    "max_campaign_occurrences": 2,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "redeemed"
+                    ]
+                }
+				]
+		},	
+        {
+            "id": "afflicted",
+            "tone": "bad",
+            "chance": 1.0,
+            "audio_events": [
+
+				{
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/bad/wolfknight_afflict",
+                    "chance": 1.0,
+                    "priority": 6,
+                    "max_raid_occurrences": 2,
+                    "max_town_visit_occurrences": 2,
+                    "max_campaign_occurrences": 2,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["consumed"]
+                }
+			]
+        }
+            ]
+}

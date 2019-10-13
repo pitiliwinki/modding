@@ -1,0 +1,305 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+
+
+		{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "remove_poison",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "SPAR_Herbs_of_the_Wild_Camp",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["spartan"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+
+		{
+
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}						
+			],
+			"hero_classes" : ["spartan"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+
+		{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.15
+				}
+			],
+			"hero_classes" : ["spartan" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+		{ 
+			"id" : "candle_for_artemis",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",					
+					"amount" :  0.04
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "SPAR_Herbs_of_the_Wild_Camp",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["spartan"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1250 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+
+		{ 
+			"id" : "night_watch",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "reduce_ambush_chance",
+                    "sub_type" : "",
+					"amount" : 1.0
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  7
+				}
+			],
+			"hero_classes" : ["spartan"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1250 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+
+		{ 
+			"id" : "repack_the_supplies",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",					
+					"amount" :  3
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "SPAR_Herbs_of_the_Wild_Camp",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["spartan"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1250 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},	
+
+		{ 
+			"id" : "hearty_meal",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.8 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.8 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  3
+				}
+			],
+			"hero_classes" : ["spartan"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1500 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		}
+
+
+
+	] 
+}

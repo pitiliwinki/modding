@@ -1,0 +1,14 @@
+{
+   "quirk_act_outs":
+   [
+      {
+         "quirk_id" : "acolyte_disease_2",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 5},
+            { "id": "mark_self", "data": { "number_value": 0.0,"string_value": "Aco_Heal_Self_ActOut" }, "chance": 1}
+         ],
+         "reaction_act_outs": []
+      }
+   ]
+}

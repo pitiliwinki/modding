@@ -1,0 +1,138 @@
+{
+    "events": [
+        {
+            "id": "sunlight_recruits",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 3,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 25,
+                "dead_heroes": 0,
+                "hero_level_counts": [
+                    {
+                        "level": 3,
+                        "count": 4
+                    }
+                ],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "quirked_recruit",
+                    "string_data": "wos_quirk_2, warrior_of_light, photomania,lygophobia ",
+                    "number_data": 4.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "wos_quirk_1, early_riser, photomania, fear_of_unholy ",
+                    "number_data": 2.0
+                }
+           
+            ]
+        },
+		{
+            "id": "sunlight_chosen",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 20,
+            "is_unique": true,
+            "requirements": {
+                "minimum_week": 45,
+                "dead_heroes": 0,
+                "hero_level_counts": [
+                    {
+                        "level": 6,
+                        "count": 3
+                    }
+                ],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "quirked_recruit",
+                    "string_data": "wos_quirk_3, warrior_of_light, early_riser, photomania ",
+                    "number_data": 6.0
+                }
+           
+            ]
+        },
+		{
+            "id": "TooS_Radiance",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 5,
+            "is_unique": true,
+            "requirements": {
+                "minimum_week": 20,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+            "data": [
+                
+                 {
+                    "type": "embark_party_buff",
+                    "string_data": "EVENT_ToS_Burnrate",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "EVENT_ToS_Resolve",
+                    "number_data": 0.0
+                }
+                
+            ]
+        },
+		{
+            "id": "TooS_Procession",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 10,
+            "is_unique": true,
+            "requirements": {
+                "minimum_week": 23,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+            "data": [
+                
+                 {
+                    "type": "embark_party_buff",
+                    "string_data": "EVENT_procession_QuirkEvolution_1",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_Sunlight_resolve_xp",
+                    "number_data": 0.0
+                }
+                
+            ]
+        }
+		
+		
+		
+      ] 
+}

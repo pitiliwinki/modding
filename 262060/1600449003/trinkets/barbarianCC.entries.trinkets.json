@@ -1,0 +1,43 @@
+{
+   "entries":
+   [
+	   {
+         "id" : "cc_barb_1",
+         "buffs" : 
+         [
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "set_id" : "cc_barb_combined12",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "kill_all_monsters_additional_effects":
+        [
+            "BARB_Trinket_Stun_Group"
+        ]
+      },
+      {
+         "id" : "cc_barb_2",
+         "buffs" : 
+         [
+			"BARB_TRINKET_VAMP_CRIT",
+			"BARB_TRINKET_VAMP_DAMAGE_LOW",
+			"BARB_TRINKET_VAMP_DAMAGE_HIGH",
+			"BARB_LIGHT_BELOW_SPD_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "set_id" : "cc_barb_combined12",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      }
+   ]
+}

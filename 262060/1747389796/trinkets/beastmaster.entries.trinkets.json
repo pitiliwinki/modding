@@ -1,0 +1,239 @@
+{
+   "entries":
+   [
+	  {
+		 "id" : "BM_Sunward",
+		 "buffs" :
+		 [
+"BM_SUNWARD_TOOLTIP_1",
+"BM_SUNWARD_TOOLTIP_2"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"beastmaster"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+"was_hit_additional_effects":
+         [
+"BM Sunward heal check",
+"BM Sunward cooldown check",
+"BM Sunward when hit",
+"BM Sunward tooltip",
+"BM Sunward cure"
+]
+	  },
+	 {
+         "id" : "BM_Mantis",
+         "buffs" : 
+         [	
+			"BM_Blight_while_Stealthed",
+			"BM_Blight_v_Bleeding",
+			"BM_Blight_received_COM"
+         ],
+         "hero_class_requirements":
+         [
+			"beastmaster"
+         ],
+         "rarity" :"comet",
+         "shard" : 150,
+		 "origin_dungeon" : "",
+         "limit" : 1,
+		 "attack_skill_additional_effects":
+        [
+			"BM Blight Onhit"
+        ]	
+     },
+	{
+         "id" : "BM_Tooth",
+         "buffs" : 
+         [
+"BEAST_MASTER_CORPSE_NO_DAMAGEL",
+"BEAST_MASTER_CORPSE_NO_DAMAGEH",
+"BEAST_MASTER_HEAL_CORPSE_TRINKET",
+"BM_Head_TT",
+"BM_HEAD_BLOOM",
+"BM_CC_BLEED_RESIST"	
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "crimson_court",
+         "price" : 50000,
+		 "set_id": "cc_beastmaster",
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+"friendly_skill_additional_effects":
+[
+"Beastmaster head ripo"
+],
+ "attack_skill_additional_effects":
+        [
+			"Beastmaster ferocity buff",
+			"Beastmaster head ripo",
+			"Beastmaster head heal",
+			"Beastmaster corpse kill head"
+        ]
+      },
+	  {
+         "id" : "BM_Ink",
+         "buffs" : 
+         [
+            "BM_CC_BLEED_RESIST_2",
+			"BM_CC_BLEED_DURATION",
+			"BM_CC_BLEED_REC"
+             
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+		 "set_id": "cc_beastmaster",
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "BM_Head",
+         "buffs" : 
+         [
+"BM_HEAD_STEALTH_1",
+"BM_HEAD_STEALTH_2",
+"BM_HEAD_STEALTH_3",
+"BM_HEAD_STEALTH_4",
+"TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"	
+             
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+},
+	  {
+         "id" : "BM_Eagle",
+         "buffs" : 
+         [	"TRINKET_BM_Eagle_DMGH",
+			"TRINKET_BM_Eagle_DODGE",
+			"TRINKET_BM_Eagle_SPD",
+			
+            "TRINKET_BM_Eagle_MOVEREC"
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+       {
+         "id" : "BM_Claw",
+         "buffs" : 
+         [
+            "TRINKET_BM_ignore_protection",
+			"TRINKET_BM_DMGH_-10",
+			"TRINKET_BM_DMGL_-10"
+             
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 2,
+         "origin_dungeon" : "cove"
+      },
+	  {
+         "id" : "BM_Rat",
+         "buffs" : 
+         [
+            "TRINKET_BM_Rats_Traps",
+			"TRINKET_BM_Rats_SPD"
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "very_common",
+         "price" : 7500,
+         "limit" : 2,
+         "origin_dungeon" : "crypts"
+      },
+	  {
+         "id" : "BM_Teeth",
+         "buffs" : 
+         [
+			"TRINKET_BM_Bleed_1",
+            "TRINKET_BM_HealFood",
+            "TRINKET_BM_ConsumeFood"
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "BM_Seed",
+         "buffs" : 
+         [
+            "TRINKET_BM_Plant",
+			"TRINKET_BM_Plant_DMGL",
+			"TRINKET_BM_Plant_DMGH",
+			"TRINKET_BM_Plant_heal_from_vegies",
+			"TRINKET_BM_Plant_TT",
+			"TRINKET_BM_Plant_TT_2",
+			"TRINKET_BM_Seed",
+            "TRINKET_BM_Seed_res1",
+			"TRINKET_BM_Seed_res2",
+			"TRINKET_BM_Seed_res3",
+			"TRINKET_BM_Seed_res4",
+			"TRINKET_BM_Seed_resTT"
+
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+		
+      },
+	  {
+         "id" : "BM_Feather",
+         "buffs" : 
+         [
+            "TRINKET_BM_weald_Scout",
+			"TRINKET_BM_in_corridor_STRESSDMG_B"
+         ],
+         "hero_class_requirements":
+         [
+             "beastmaster"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 2,
+         "origin_dungeon" : "weald"
+      }
+       
+     
+       
+
+   ]
+
+}
+

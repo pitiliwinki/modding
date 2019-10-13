@@ -1,0 +1,1721 @@
+{
+    "monster_brains": [
+        {
+            "id": "plowhorse_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "paw_ground",
+                    "amount": 0
+                    
+                },
+                {
+                    "combat_skill_id": "rearing_stomp",
+                    "amount": 1
+                    
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "rearing_stomp"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "scream"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "paw_ground",
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0,
+                        "combat_skill_id": "stumble",
+                        "performer_rounds_in_rank_min": 1,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                }, 
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "trample",
+                        "performer_rounds_in_rank_min": 0,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+             
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "plowhorse_B",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "paw_ground",
+                    "amount": 0
+                    
+                },
+                {
+                    "combat_skill_id": "rearing_stomp",
+                    "amount": 1
+                    
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "rearing_stomp"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "scream"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "paw_ground",
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0,
+                        "combat_skill_id": "stumble",
+                        "performer_rounds_in_rank_min": 1,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                }, 
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "trample",
+                        "performer_rounds_in_rank_min": 0,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+             
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "plowhorse_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "paw_ground",
+                    "amount": 0
+                    
+                },
+                {
+                    "combat_skill_id": "rearing_stomp",
+                    "amount": 1
+                    
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "rearing_stomp"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "scream"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "paw_ground",
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0,
+                        "combat_skill_id": "stumble",
+                        "performer_rounds_in_rank_min": 1,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999,
+                        "performer_health_ratio_min": 0.35,
+                        "performer_health_ratio_max": 1.00
+                    }
+                }, 
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "trample",
+                        "performer_rounds_in_rank_min": 0,
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 999
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "rearing_stomp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "cocoon_A",
+            "skill_cooldowns": [     ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "xform_to_farmhand",
+                        "performing_turn_min": 3,
+                        "performing_turn_max": 999
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "murmurs"
+                    }
+                }
+
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "xform_to_farmhand",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "gatekeeper",
+            "skill_cooldowns": [     ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "miller_A",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "harvest",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "winters_breath",
+                    "amount": 6
+                },
+                {
+                    "combat_skill_id": "summon_farmers",
+                    "amount": 8
+                },
+                {
+                    "combat_skill_id": "summon_scarecrow",
+                    "amount": 7
+                }, {
+                    "combat_skill_id": "summon_revenant",
+                    "amount": 5
+                },
+                {
+                    "combat_skill_id": "sadness",
+                    "amount": 5
+                }
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                    "base_chance": 100000.0,
+                    "combat_skill_id": "harvest",
+                    "target_stress_min": 50.0,
+                    "target_stress_heroes_min": 1,
+                    "performer_health_ratio_max": 0.70
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "grind_the_grist"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "summon_farmers",
+                        "monsters_min": 1,
+                        "monsters_max": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "summon_revenant",
+                        "monsters_min": 1,
+                        "monsters_max": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "summon_scarecrow",
+                        "monsters_min": 1,
+                        "monsters_max": 2
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -1000000.0,
+                        "combat_skill_id": "summon_farmers",
+                        "ally_base_class_id": "farmer"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": 
+                    {
+                        "base_chance": 100000.0,
+                        "combat_skill_id": "winters_breath",
+                        "ally_base_class_id": "farmer",
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 0
+                    }
+                }
+             
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                    "base_chance": 10000000000000.0,
+                    "specific_combat_skill_id": "harvest",
+                    "is_exclusive_desire": false,
+                    "is_enemy_target_desire": true,
+                    "is_friendly_target_desire": false,
+                    "is_greater_comparison": true,
+                    "can_target_not_overstressed": true,
+                    "can_target_afflicted": true,
+                    "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": 
+                        {
+                            "base_chance": 100000000.0,
+                            "specific_combat_skill_id": "winters_breath",
+                            "is_exclusive_desire": true,
+                            "ally_base_class_id": "farmer",
+                            "is_enemy_target_desire": false,
+                            "is_friendly_target_desire": true
+                        }
+                },
+                {
+                    "type": "trinket_target",
+                    "data": 
+                        {
+                            "base_chance": 100000000.0,
+                            "specific_combat_skill_id": "sadness",
+                            "is_exclusive_desire": true,
+                            "trinket_id": "com_mildredslocket",
+                            "is_enemy_target_desire": true,
+                            "is_friendly_target_desire": false
+                        }
+                }                
+            ],
+            "bonus_initiative_desires": 
+            [
+                {
+                    "type": "trinket",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "combat_skill_id_override": "sadness",
+                        "trinket_id": "com_mildredslocket",
+                        "is_cooldown_enabled": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "farmer_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "pause_from_labour",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+             
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "sowing_seeds"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "farmer_attack"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": -1000000.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_min": 0.51,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_max": 0.50
+                    }
+                }
+            ],
+            "target_selection_desires": [
+               
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "farmer_attack",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "farmer_B",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "pause_from_labour",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+             
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "sowing_seeds"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "farmer_attack"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": -1000000.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_min": 0.51,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_max": 0.50
+                    }
+                }
+            ],
+            "target_selection_desires": [
+               
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "farmer_attack",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "farmer_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "pause_from_labour",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+             
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "sowing_seeds"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "farmer_attack"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": -1000000.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_min": 0.61,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "pause_from_labour",
+                        "performer_health_ratio_max": 0.60
+                    }
+                }
+            ],
+            "target_selection_desires": [
+               
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "farmer_attack",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "foreman_A",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "hasten_sowing",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "many_hands",
+                    "amount": 2
+                }
+                
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "no_tresspassers"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "many_hands"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "hasten_sowing",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "farmer",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "hasten_sowing",
+                        "ally_base_class_id": "farmer",
+                        "ally_count_min": 1,
+                        "ally_count_max": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "scarecrow_A",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "the_wonders",
+                    "amount": 2
+                }
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_wonders"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "insistent_grasp"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "insistent_grasp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "scarecrow_B",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "the_wonders",
+                    "amount": 2
+                }
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_wonders"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "insistent_grasp"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "insistent_grasp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "scarecrow_C",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "the_wonders",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "root_down",
+                    "amount": 6
+                }, {
+                    "combat_skill_id": "ashen_breeze",
+                    "amount": 3
+                }
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_wonders"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "root_down"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "ashen_breeze",
+                        "monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "insistent_grasp"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "insistent_grasp",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "revenant_A",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "nothing_is_right"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "nothing_is_right",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "revenant_B",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "nothing_is_right"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "nothing_is_right",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "revenant_C",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "nothing_is_right"
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "nothing_is_right",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "spire",
+            "skill_cooldowns": [  
+                {
+                    "combat_skill_id": "initial_sprouts",
+                    "amount": 9999
+                },
+                {
+                    "combat_skill_id": "spawn_sprout",
+                    "amount": 1
+                }
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "slow_the_sands",
+                        "monsters_min": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 7.0,
+                        "combat_skill_id": "spawn_sprout",
+                        "monsters_max": 3
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000.0,
+                        "combat_skill_id": "xform_to_galaxy",
+                        "performer_health_ratio_max": 0.20
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -100000.0,
+                        "combat_skill_id": "sprout_to_seedling_grey",
+                        "ally_base_class_id": "seedling_grey"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -100000.0,
+                        "combat_skill_id": "sprout_to_seed_grey",
+                        "ally_base_class_id": "seedling_grey"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -100000.0,
+                        "combat_skill_id": "sprout_to_seed_grey",
+                        "ally_base_class_id": "seed_grey"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -100000.0,
+                        "combat_skill_id": "sprout_to_seedling_grey",
+                        "ally_base_class_id": "seed_grey"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sprout_to_seedling_grey",
+                        "ally_base_class_id": "sprout"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sprout_to_seedling_red",
+                        "ally_base_class_id": "sprout"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sprout_to_seedling_black",
+                        "ally_base_class_id": "sprout"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sprout_to_seedling_purple",
+                        "ally_base_class_id": "sprout"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "sprout_to_seedling_yellow",
+                        "ally_base_class_id": "sprout"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "grow_seed_grey",
+                        "ally_base_class_id": "seedling_grey"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "grow_seed_red",
+                        "ally_base_class_id": "seedling_red"
+                    }
+                },
+                 {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "grow_seed_yellow",
+                        "ally_base_class_id": "seedling_yellow"
+                    }
+                }, {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "grow_seed_purple",
+                        "ally_base_class_id": "seedling_purple"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "grow_seed_black",
+                        "ally_base_class_id": "seedling_black"
+                    }
+                }
+               
+                
+            ],
+            "target_selection_desires": [
+
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "sprout_to_seedling_grey",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "sprout",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "sprout_to_seedling_red",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "sprout",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "sprout_to_seedling_black",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "sprout",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "sprout_to_seedling_purple",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "sprout",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "sprout_to_seedling_yellow",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "sprout",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 25000000.0,
+                        "specific_combat_skill_id": "grow_seed_grey",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_grey",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 50000000.0,
+                        "specific_combat_skill_id": "grow_seed_red",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_red",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 30000000.0,
+                        "specific_combat_skill_id": "grow_seed_blue",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_blue",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 30000000.0,
+                        "specific_combat_skill_id": "grow_seed_yellow",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_yellow",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 30000000.0,
+                        "specific_combat_skill_id": "grow_seed_purple",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_purple",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 30000000.0,
+                        "specific_combat_skill_id": "grow_seed_black",
+                        "is_exclusive_desire": true,
+                        "ally_base_class_id": "seedling_black",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "initial_sprouts"
+                    }
+                },
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "spawn_sprout",
+                        "monsters_max": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "seed",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": ""
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "seedling",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": ""
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "sprout",
+            "skill_cooldowns": [  
+              
+               ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": ""
+                    }
+                }
+                
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+                
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "galaxy",
+            "skill_cooldowns": [ 
+                {
+                    "combat_skill_id": "rend_the_warp",
+                    "amount": 1
+                }
+              
+                ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "rend_the_warp"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_husking"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "thing_A",
+            "skill_cooldowns": 
+            [
+                {
+                    "combat_skill_id": "consume_self_once",
+                    "amount": 9999
+                },
+                {
+                    "combat_skill_id": "emit_globule_stun",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "emit_globule_debuff",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "emit_globule_combatnerf",
+                    "amount": 1
+                }
+
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data":
+                    {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "phase_gnaw",
+                        "first_initiative_only" : false
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data":
+                    {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "tainting_touch",
+                        "first_initiative_only" : false
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data":
+                    {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "emit_globule_stun",
+                        "stunned_heroes_max": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data":
+                    {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "emit_globule_debuff"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data":
+                    {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "emit_globule_combatnerf"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+               {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "emit_globule_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 0.0,
+                        "specific_combat_skill_id": "phase_gnaw",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": false
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 0.0,
+                        "can_target_stunned": false,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "emit_globule_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "stun",
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 100.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                }                
+            ],
+            "bonus_initiative_desires": 
+            [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "round_min": 2,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "combat_skill_id_override": "consume_self_once",
+                        "health_ratio_threshold": 0.15,                        
+                        "ignore_if_stun": true,
+                        "is_cooldown_enabled": true,
+                        "is_valid_if_stunned": false
+                    }
+                },
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": 
+                    {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "round_min": 3,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "combat_skill_id_override": "consume_self",
+                        "health_ratio_threshold": 0.01,
+                        "is_under_threshold": false,
+                        "ignore_if_stun": true,
+                        "is_valid_if_stunned": false
+                    }
+                }
+            ]
+        }               
+    ]
+}

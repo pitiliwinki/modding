@@ -1,0 +1,79 @@
+{
+	"loot_tables":
+	[
+		{
+			"id": "sels_mini_boss",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "trinket",
+					"chances": 0,
+					"data": {
+						"rarity": "very_common"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 0,
+					"data": {
+						"rarity": "common"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 0,
+					"data": {
+						"rarity": "uncommon"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 0,
+					"data": {
+						"rarity": "rare"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 59,
+					"data": {
+						"rarity": "very_rare"
+					}
+				}, {
+					"type": "table",
+					"chances": 10,
+					"data": {
+						"table": "sels_enchanted"
+					}
+				}, {
+					"type": "table",
+					"chances": 10,
+					"data": {
+						"table": "sels_all_spells"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 10,
+					"data": {
+						"rarity": "collector"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 5,
+					"data": {
+						"rarity": "ancestral"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 5,
+					"data": {
+						"rarity": "ancestral_shambler"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 1,
+					"data": {
+						"rarity": "sels_lost_relic"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,442 @@
+{
+   "buffs":
+   [
+	   {
+         "id" : "duchess_fencing_sword_dmg_l",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_sword_dmg_h",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_sword_ripostedmg_l",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_sword_ripostedmg_h",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_sword_riposte_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_sword_riposte_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_set_bonus",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "human"
+         }
+	   },
+	   {
+         "id" : "fencing_helm_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "fencing_helm_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "duchess_fencing_helm_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "human"
+         }
+	   },
+	   {
+         "id" : "duchess_fencing_helm_acc",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+	   },
+	   {
+         "id" : "duchess_head_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_head_crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_head_crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.25,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_head_boss_crit_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "baron"
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_head_boss_crit_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crocodile"
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_head_boss_crit_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "countess"
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_head_boss_crit_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "statue_head"
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_head_boss_crit_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "viscount"
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_bosses_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "duchess_bosses_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "duchess_deed_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+	   },
+	   {
+         "id" : "duchess_deed_debuff_chance",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+	   },
+	   {
+         "id" : "duchess_set_bonus_dmg_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+	   },
+	   {
+         "id" : "duchess_set_bonus_dmg_h",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+	   },
+	  {
+         "id" : "duchess_set_bonus_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+	   },
+	   {
+         "id" : "duchess_letter_prot_buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_vampire",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_letter_stress_buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_vampire",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	   },
+	   {
+         "id" : "duchess_vintage_resto_received",
+         "stat_type" : "hp_heal_dot_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_vampire",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+	   },
+	   {
+         "id" : "duchess_resto_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "duchess_resto_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "duchess_set_speed_bonus",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "the_blood"
+         }
+	   },
+	   {
+         "id" : "duchess_set_heal_received",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "the_blood"
+         }
+	   },
+	   {
+         "id" : "duchess_resto_tooltip2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "duchess_resto_tooltip2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "duchess_CC_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "duchess_CC_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "duchess_damage_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "duchess_damage_tooltip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	   
+	   	  
+	]
+}

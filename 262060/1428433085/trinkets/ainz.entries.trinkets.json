@@ -1,0 +1,207 @@
+{
+   "entries":
+   [
+      {
+         "id" : "ainz_minor_healing_potion",
+         "buffs" : 
+         [
+            "MHP_Healing_Recieved",
+			"MHP_Stress_Healing_Recieved"
+         ],
+         "hero_class_requirements":
+         [
+            "ainz"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "ainz_mirror_remote_viewing",
+         "buffs" : 
+         [
+            "MRV_ACC",
+            "MRV_Healing_Recieved"
+         ],
+         "hero_class_requirements":
+         [
+            "ainz"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "ainz_ultimate_shooting_star_super",
+         "buffs" : 
+         [
+            "USSS_ARMOURPIERCING_BUFF",
+            "USSS_Crit"			
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },	  
+	  {
+         "id" : "ainz_amaterasu_tsukuyomi",
+         "buffs" : 
+         [
+            "AT_DMGL_BUFF_UHL",
+            "AT_DMGH_BUFF_UHL",
+			"AT_SPD_BUFF_UHL",
+			"AT_Crit_UHL",
+			"AT_DEF_DEBUFF",
+			"AT_PROT_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ainz_female_sensei_iron_fist_wraith",
+         "buffs" : 
+         [
+            "FSIFW_DMGL_MELEE_BUFF",
+            "FSIFW_DMGH_MELEE_BUFF",
+			"FSIFW_ARMOURPIERCING_BUFF",
+			"FSIFW_PROT_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ainz_houyi_bow",
+         "buffs" : 
+         [
+            "HB_ACC",
+			"HB_Crit"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ainz_suck_blood_eat_flesh",
+         "buffs" : 
+         [
+            "SBEF_DMGL_BUFF",
+            "SBEF_DMGH_BUFF",
+			"SBEF_ACC",
+			"SBEF_SPD_DEBUFF",
+			"SBEF_DEF_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ainz_takemikazuchi_mk_8",
+         "buffs" : 
+         [
+            "TMK8_ARMOURPIERCING_BUFF",
+            "TMK8_DMGL_BUFF",
+			"TMK8_DMGH_BUFF"			
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ainz_avarice_generosity",
+         "buffs" : 
+         [
+			"AC_DEATHRESIST_BUFF",
+			"AC_DEBUFF_RESIST_BUFF",
+			"AC_STUN_RESIST_BUFF",
+			"AC_MOVE_RESIST_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "ainz"
+         ],
+         "set_id" : "cc_ainz",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "ainz_depiction_nature_society",
+         "buffs" : 
+         [
+            "DNS_DEF_BUFF",
+			"DNS_PROT_BUFF",
+			"DNS_DMGL_BUFF",
+			"DNS_DMGH_BUFF",
+			"DNS_ARMOURPIERCING_BUFF",
+			"DNS_Crit",
+			"DNS_ACC",
+			"DNS_SPD_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "ainz"
+         ],
+         "set_id" : "cc_ainz",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+        "id" : "com_ainz_accursed_orb",
+        "buffs" : 
+        [
+           "AINZ_AO_DEATHRESIST_BUFF",
+		   "AINZ_AO_DMGL_BUFF_HM",
+           "AINZ_AO_DMGH_BUFF_HM",
+           "AINZ_AO_CRIT_BUFF",
+           "AINZ_AO_DMGL_BUFF",
+		   "AINZ_AO_DMGH_BUFF",
+		   "AINZ_AO_DMGL_DEBUFF",
+		   "AINZ_AO_DMGH_DEBUFF",
+		   "AINZ_AO_SPD_BUFF",
+		   "AINZ_AO_SPD_DEBUFF"
+        ],
+        "hero_class_requirements":
+        [
+           "ainz"
+        ],
+        "rarity" : "comet",
+        "shard" : 160,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "attack_skill_additional_effects":
+        [
+            "Ainz Blight Hit"
+        ]
+     }	  
+   ]
+}

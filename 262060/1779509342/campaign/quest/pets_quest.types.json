@@ -1,0 +1,219 @@
+{
+    "goals": [
+	    {
+            "id": "pets_explore_warrens_A",
+            "type": "kill_monster",
+			"starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                 "monster_class_ids": [
+                    "brigand_pet_catcher_A"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "pets_explore_cove_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                 "monster_class_ids": [
+                    "brigand_pet_catcher_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "pets_explore_weald_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_pet_catcher_F"
+                ],
+                "amount": 1
+            }
+        },
+
+        {
+            "id": "pets_explore_warrens_C",
+            "type": "kill_monster",
+			"starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_pet_catcher_C"
+                ],
+                "amount": 1
+            }  
+        },
+		{
+            "id": "pets_explore_cove_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_pet_catcher_C"
+                ],
+                "amount": 1
+            }
+		},
+        {
+            "id": "pets_explore_weald_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                 "monster_class_ids": [
+                    "brigand_pet_catcher_H"
+                ],
+                "amount": 1
+            }
+        },
+  
+		{
+            "id": "pets_explore_warrens_E",
+            "type": "kill_monster",
+			"starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+             "data": {
+                 "monster_class_ids": [
+                    "brigand_pet_catcher_E"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "pets_explore_cove_E",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                 "monster_class_ids": [
+                    "brigand_pet_catcher_E"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "pets_explore_weald_E",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_pet_catcher_J"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "pets_explore_warrens_T",
+            "type": "explore_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "amount": 0,
+                "percentage": 0.60
+            }
+        }
+
+
+
+ ],
+	"town_progression_goal_ids": [ ],
+	
+	  "types": [
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "weald",
+                    "goals": [
+                        ["pets_explore_weald_A"]
+                    ]
+                },
+                                {
+                    "dungeon": "weald",
+                    "goals": [
+                        ["pets_explore_weald_C"]
+                    ]
+                },
+				                {
+                    "dungeon": "weald",
+                    "goals": [
+                        ["pets_explore_weald_E"]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "cove",
+                    "goals": [
+                        [
+                            "pets_explore_cove_A"
+                        ]
+                    ]
+                },
+				                {
+                    "dungeon": "cove",
+                    "goals": [
+                        [
+                            "pets_explore_cove_C"
+                        ]
+                    ]
+                },
+				                {
+                    "dungeon": "cove",
+                    "goals": [
+                        [
+                            "pets_explore_cove_E"
+                        ]
+                    ]
+                }
+            ]
+        },
+
+		 {
+            "id": "kill_boss",
+            "goal_lists": [
+         
+				    {
+                    "dungeon": "warrens",
+                    "goals": [
+                        ["pets_explore_warrens_A"]
+                    ]
+                },
+				{
+                    "dungeon": "warrens",
+                    "goals": [
+                        ["pets_explore_warrens_C"]
+                    ]
+                },
+				{
+                    "dungeon": "warrens",
+                    "goals": [
+                        ["pets_explore_warrens_E"]
+                    ]
+                }
+                
+            ]
+        }
+    ]
+}

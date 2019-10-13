@@ -1,0 +1,473 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "TRINKET_ph_mantis_description",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_mantis_description",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_ph_mantis_description2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_mantis_description2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_ph_trick_description",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_trick_description",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TRINKET_ph_glove_description",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_glove_description",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_forward1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_forward1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_forward2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_forward2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_back1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_back1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_destealth_x2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_destealth_x2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_destealth_x3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_destealth_x3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_destealth_x4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_destealth_x4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_continue_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_continue",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_continue_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_continue",
+         "amount" : -0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_continue_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_continue",
+         "amount" : -0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_continue_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_continue",
+         "amount" : -0.26,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_continue_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_continue",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_nocorpse",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_nocorpse",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_clear",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_clear",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_clear_dd",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_clear_dd",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_chakram",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_chakram",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_kunai",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_kunai",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_dance",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_dance",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_dance2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_dance2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_phantom",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_phantom",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_heal_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_heal",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_heal_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_heal",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_heal_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_heal",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_2",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_3",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_3",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_4",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_4",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_w_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_1",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_w_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_2",
+         "amount" : -1.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_w_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_2",
+         "amount" : -1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_w_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_3",
+         "amount" : -1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_tooltip_corrode_w_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ph_tooltip_corrosion_3",
+         "amount" : -1.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	]
+}

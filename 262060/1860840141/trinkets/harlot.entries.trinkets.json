@@ -1,0 +1,111 @@
+{
+   "entries":
+   [
+   	  {
+         "id" : "collector_harlot",
+         "buffs" : 
+         [
+			"HARL_trinket_bleed_chance",
+			"HARL_trinket_stress_heal_rec",
+			"HARL_trinket_stress_damage"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+   
+	  {
+         "id" : "lipstick_harl",
+         "buffs" : 
+         [
+			"HARL_trinket_lip_death_resist",
+			"HARL_trinket_lip_debuff_resist"
+         ],
+         "hero_class_requirements":
+         [
+		 "harlot"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "puff_harl",
+         "buffs" : 
+         [
+			"HARL_trinket_puff_dodge",
+			"HARL_trinket_puff_move_down"
+         ],
+         "hero_class_requirements":
+         [
+		 "harlot"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "notes_harl",
+         "buffs" : 
+         [
+			"HARL_trinket_notes_blight",
+			"HARL_trinket_notes_speed",
+			"HARL_trinket_notes_damage_low",
+			"HARL_trinket_notes_damage_high"
+         ],
+         "hero_class_requirements":
+         [
+		 "harlot"
+         ],
+         "rarity" : "uncommon",
+         "price" : 1100,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "perfume_harl",
+         "buffs" : 
+         [
+			"HARL_trinket_perfume_stress",
+			"HARL_trinket_perfume_virtue",
+			"HARL_trinket_perfume_crit"
+         ],
+         "hero_class_requirements":
+         [
+		 "harlot"
+         ],
+         "rarity" : "rare",
+         "price" : 2200,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "book_harl",
+         "buffs" : 
+         [
+			"HARL_trinket_book_low",
+			"HARL_trinket_book_high",
+			"HARL_trinket_book_crits",
+			"HARL_trinket_book_defense"
+         ],
+		 "kill_performer_additional_effects":
+         [
+			"HARL_trinket_black"
+         ],
+         "hero_class_requirements":
+         [
+		 "harlot"
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+   ]
+}

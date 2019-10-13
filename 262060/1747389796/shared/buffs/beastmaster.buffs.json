@@ -1,0 +1,2961 @@
+{
+   "buffs":
+   [
+{
+         "id" : "BM_FARM_ANTI_CRIT2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_FARM_ANTI_CRIT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farm"
+         }
+      },
+{
+         "id" : "BM_FARM_ANTI_CRIT",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farm"
+         },
+"has_description": false
+      },
+ {
+         "id" : "BM_BEAST_CRIT_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+ {
+         "id" : "BM_BEAST_CRIT_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+ {
+         "id" : "BM_BEAST_CRIT_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+ {
+         "id" : "BM_BEAST_CRIT_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+ {
+         "id" : "BM_BEAST_CRIT_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+ {
+         "id" : "BM_CC_BLEED_RESIST_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ {
+         "id" : "BM_CC_BLEED_REC",
+         "stat_type" : "hp_dot_bleed_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ {
+         "id" : "BM_CC_BLEED_DURATION",
+         "stat_type" : "hp_dot_bleed_duration_percent",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  {
+         "id" : "BM_CC_BLEED_RESIST",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  {
+         "id" : "BM_HEAD_STEALTH_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  {
+         "id" : "BM_HEAD_STEALTH_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  {
+         "id" : "BM_HEAD_STEALTH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+  {
+         "id" : "BM_HEAD_STEALTH_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BM_HEAD_FEROCITY_BUFF",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 0.33,
+		 "duration": 1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BM_ferocity"
+         },
+"has_description" : false
+      },
+{
+         "id" : "BM_ACTOR_DOT_EFFECT_VISUAL",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "fx_actor_dot_BM",
+         "amount" : 1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"fx": "actor_dot_BB_kill_1_onset",
+"has_description": false
+      },
+{
+         "id" : "BM_COM_SPIDER_RIPOSTE",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM Blight Onhit",
+         "amount" : 1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "BM_stealth_anti_spam",
+         "stat_type" : "stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration": 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "BM_speed_conti",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 100,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false
+      },
+{
+         "id" : "BM_endless_cooldown",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "stress",
+         "amount" : 1,
+"duration": 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farm"
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_plant_corpse",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 22,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BM_plant_corpse_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 22,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BM_plant_corpse_darkwraith",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -22,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "wall"
+         },
+"has_description": false
+      },
+      {
+         "id" : "BM_Move_combat_end",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 18,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "asd"
+         }
+      },
+{
+         "id" : "BM_RIPOSTE_STEAL",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_Steal",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_KILL_BUFF",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_kill_buff",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_N_KILL_DEBUFF",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_NOT_kill_debuff",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_K_LIMIT_LAST",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_kill_limit_LAST",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_K_LIMIT_2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_kill_limit_2",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_K_LIMIT_3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_kill_limit_3",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_NK_LIMIT_LAST",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_NOT_kill_limit_LAST",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_NK_LIMIT_2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_NOT_kill_limit_2",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_NK_LIMIT_3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_NOT_kill_limit_3",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_HEAL_1",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_heal_1",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_HEAL_2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_heal_2",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_HEAL_3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_heal_3",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_HEAL_4",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_heal_4",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_RIPOSTE_HEAL_5",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "BM_riposte_Actor_heal_5",
+         "amount" : 1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "BM_Actor_kill_buff",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 10,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+      {
+         "id" : "BM_Actor_not_kill_debuff",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : -12,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "BM_Actor_NOT_kill_limit_1",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 3.75,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+      {
+         "id" : "BM_Actor_NOT_kill_limit_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 3,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+      {
+         "id" : "BM_Actor_NOT_kill_limit_3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 2.4,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+      {
+         "id" : "BM_Actor_kill_limit_1",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : -3.75,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "BM_Actor_kill_limit_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : -3,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "BM_Actor_kill_limit_3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : -2.4,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "BM_Actor_NOT_kill_limit_LAST",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : 30,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+      {
+         "id" : "BM_Actor_kill_limit_LAST",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "camp_skill_multi_target",
+         "amount" : -30,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+		 {
+         "id" : "BEAST_MASTER_HEAL_CORPSE",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+           "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BEAST_MASTER_HEAL_CORPSE_TRINKET",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+           "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BEAST_MASTER_CORPSE_NO_DAMAGEL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BEAST_MASTER_CORPSE_NO_DAMAGEH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         },
+"has_description": false
+      },
+{
+         "id" : "BEAST_MASTER_CORPSE_BUFFS",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         },
+"has_description" : false
+      },
+		 {
+         "id" : "BM_Foodstack",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false
+      },
+	  {
+         "id" : "BM_BLEEDBUFF_Stack",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	{
+         "id" : "BM_tooltip_Stealth_Miss",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Stealth_Miss",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "FOOD_TOOLTIP",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "FOOD",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Ferocity_corpse",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 5.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+	  
+	  {
+         "id" : "BM_CRITBUFF_BLEED_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+		 "duration" : 2,
+		 "duration_type" : "before_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         },
+		 "has_description" : true,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_CRIT_District_bleed",
+         "stat_type" : "hp_dot_bleed",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration": 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "BM_District_bleed_add",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BM_cuts"
+         },
+"has_description": false
+      },
+{
+         "id" : "BM_District_bleed_add2",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BM"
+         },
+"has_description": false
+      },
+	  {
+         "id" : "BM_familiar_DMGH_Bleeding_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_familiar_DMGL_Bleeding_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_familiar_DMGH_Bleeding_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_familiar_DMGL_Bleeding_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_familiar_DMGH_Bleeding_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_familiar_DMGL_Bleeding_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+        {
+         "id" : "BM_CRITBUFF_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true,
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "BM_corpse_HEALDEBUFF",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+	  {
+         "id" : "BM_corpse_HEALDEBUFF_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "food",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+	  
+     {
+         "id" : "BM_Human_BLEEDBUFF_1",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	  {
+         "id" : "BM_Human_BLEEDBUFF_2",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	  {
+         "id" : "BM_Human_BLEEDBUFF_3",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	  {
+         "id" : "BM_Human_BLEEDBUFF_4",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	  {
+         "id" : "BM_Human_BLEEDBUFF_5",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"
+         }
+      },
+	  {
+         "id" : "BM_DisableTag_Self",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description" : false	 
+      },
+	  {
+         "id" : "BM_tooltip_cooldownC",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_cooldownC",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_cooldownB",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_cooldownB",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_cooldownA",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_cooldownA",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_cooldownX",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_cooldownX",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "BM_tooltip_counter",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_counter_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_counter_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_counter_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_counter_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_counter_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_counter_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_Stack",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_Stack",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Corpse_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_Corpse_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_summon_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Flower",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_summon_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_2",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_4",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_5",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_Stress_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_Stress_1",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_Stress_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_Stress_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_tooltip_Aura_Stress_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_tooltip_summon_Familiar_Stress_3",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "BM_damage_reflect1",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+       {
+         "id" : "BM_damage_reflect2",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_damage_reflect3",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_damage_reflect4",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+       {
+         "id" : "BM_damage_reflect5",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_DMGH_buff_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_DMGL_buff_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_ACC_buff_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_ACC_buff_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_ACC_buff_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_ACC_buff_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.17,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Prey_stealthed_ACC_buff_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Leap_stealthed_CRT_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.20 ,    
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "BM_Leap_stealthed_CRT_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.22 ,    
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "BM_Leap_stealthed_CRT_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.25 ,    
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "BM_Leap_stealthed_CRT_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.27 ,    
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "BM_Leap_stealthed_CRT_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.30 ,    
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "CAMPING_BM_SCOUT",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_CAMPING_stealthed_DMGH_buff_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.30,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_CAMPING_stealthed_DMGL_buff_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_Beast_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+		  "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	   {
+         "id" : "CAMPING_Beast_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+		  "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "CAMPING_BM_PartySurprise",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_monsters_surprised",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.00,
+		  "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_Healing_Food",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 1.00,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "CAMPING_Food_consumed",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.00,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      }, {
+         "id" : "CAMPING_ACC_Firstround",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_DMGL_Firstround",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "CAMPING_BM_BleedAmount",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "ITEM_BM_shroom_VIRTUE_D",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "ITEM_BM_saturating_Foodconsumed",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : -1.0,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "ITEM_BM_Saturating_NOSTARVEDMG",
+         "stat_type" : "starving_damage_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "ITEM_BM_shroom_VIRTUE_B",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "ITEM_BM_totem_Default",
+         "stat_type" : "tag",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         },
+		  "fx": "bat_aura"
+      },
+{
+         "id" : "ITEM_BM_totem_Default_1",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "BM_IMAGINE"
+         },
+		 "has_description" : false
+      },
+{
+         "id" : "ITEM_BM_totem_Default_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "ITEM_BM_totem_Default_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "ITEM_BM_totem_Default_4",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+ {
+         "id" : "ITEM_BM_totem_Default_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ITEM_BM_totem_Default",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "ITEM_BM_totem_Cove_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         }
+      },
+	  {
+         "id" : "ITEM_BM_totem_Cove_2",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         } 
+      },
+	  {
+         "id" : "ITEM_BM_totem_Warrens_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		  "fx": "bat_aura"
+      },
+	  {
+         "id" : "ITEM_BM_totem_Warrens_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         } 
+      },
+	  {
+         "id" : "ITEM_BM_totem_Weald_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		  "fx": "bat_aura"
+      },
+	  {
+         "id" : "ITEM_BM_totem_Weald_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.25,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         } 
+      },
+	  {
+         "id" : "ITEM_BM_totem_Crypts_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+		  "fx": "bat_aura"
+      },
+ {
+         "id" : "ITEM_BM_totem_Crypts_2",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+"has_description" : false
+      },
+ {
+         "id" : "ITEM_BM_totem_Crypts_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ITEM_BM_totem_Crypts",
+         "amount" : 0.2,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_weald_Scout",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Plant_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_Trinket_Plant",
+         "amount" : 2.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Plant_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_Trinket_Plant_2",
+         "amount" : 2.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Seed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Seed_res1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_BM_Seed_res2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_BM_Seed_res3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+{
+         "id" : "TRINKET_BM_Seed_res4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "summon_vegetation"
+         },
+"has_description" : false
+      },
+	  {
+         "id" : "TRINKET_BM_Seed_resTT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SEED_BEASTMASTER",
+         "amount" : 333,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "TRINKET_BM_Plant",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 100,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cycle_of_life"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_BM_Plant_heal_from_vegies",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+{
+         "id" : "TRINKET_BM_Plant_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 10.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+{
+         "id" : "TRINKET_BM_Plant_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 10.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "summon_vegetation"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_BM_ignore_protection",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_DMGH_-10",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_DMGL_-10",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Bleed_1",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_HealFood",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_ConsumeFood",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_in_corridor_STRESSDMG_B",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_corridor",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Rats_Traps",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crypts"
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Rats_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Eagle_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_Trinket_eagle",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Eagle_DMGH",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Eagle_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		  "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Eagle_DODGE",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		  "has_description": true
+      },
+	  {
+         "id" : "TRINKET_BM_Eagle_MOVEREC",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_wasting_immune",
+         "stat_type" : "quirk_evolution_death_immune",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Bleed_Chance",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_BleedRes",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Bleed_Duration",
+         "stat_type" : "hp_dot_bleed_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Bleed_DurationRec",
+         "stat_type" : "hp_dot_bleed_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Bleed_AmountRec",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.70,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Set_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Set_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "TRINKET_BM_Set_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_Blight_while_Stealthed",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_stealthed",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Blight_v_Bleeding",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_Blight_received_COM",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_Blight_while_Bleeding",
+         "stat_type" : "hp_dot_poison",
+         "stat_sub_type" : "",
+         "duration" : 1,
+         "amount" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "BM_Blight_while_Bleeding_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_Blight_while_Bleeding_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+{
+         "id" : "BM_RIPOSTE_HEAD",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Beastmaster corpse kill head",
+         "amount" : -1,
+"duration" : 1,
+"duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description": false,
+"is_clear_debuff_valid" : false 
+      },
+{
+         "id" : "BM_Head_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_Head_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BM_HEAD_BLOOM",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "plant_heal"
+         }
+      },
+     {
+         "id" : "BM_SUNWARD_1",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -100,
+"duration" : 2,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "BM_SUNWARD_2",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 100,
+"duration" : 2,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "BM_SUNWARD_3",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 100,
+"duration" : 2,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "rangedonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "BM_SUNWARD_CURE_BLE",
+         "stat_type" : "cure_bleed_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 4,
+"duration" : 1,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_CURE_POI",
+         "stat_type" : "cure_poison_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 4,
+"duration" : 1,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_RES",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 5,
+		 "duration" : 1,
+		 "duration_type" : "before_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "BM_SUNWARD_HP",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+"duration" : 1,
+"duration_type" : "before_turn",
+         "remove_if_not_active" : true,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.40,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_CHECK",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+"duration" : 1,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : false,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_TOOLTIP_REGEN",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_SALAMANDER_REGEN",
+         "amount" : 10,
+"duration" : 2,
+"duration_type" : "after_turn",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+"has_description" : true,
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_TOOLTIP_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_SALAMANDER_TT",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+{
+         "id" : "BM_SUNWARD_TOOLTIP_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BM_SALAMANDER_TT2",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      } 
+   ]
+}

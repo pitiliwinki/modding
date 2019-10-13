@@ -1,0 +1,335 @@
+{
+	"configuration" :
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+		{
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "remove_poison",
+                    "sub_type" : "",
+					"amount" :  0
+				}
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.15
+				}
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "envenom",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "CAMP_ENVENOM1",
+					"amount" :  0.30
+				},
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "CAMP_ENVENOM2",
+					"amount" :  0.30
+				}
+				
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1000 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "companionship",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingACCBuff",
+					"amount" :  0.10
+				},
+				{
+					"selection" : "individual",
+					"requirements" : ["Abysswalker"],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "CAMP_ABYSSWALKER_RESPITE",
+					"amount" :  -0.20
+				},
+				{
+					"selection" : "individual",
+					"requirements" : ["Abysswalker"],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "CAMP_ABYSSWALKER_INVIGORATION",
+					"amount" :  0.20
+				}
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 2000 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "lurker",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingPartySurprise",
+					"amount" : -0.20
+
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "reduce_ambush_chance",
+                    "sub_type" : "",
+					"amount" : 1.0
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "ignore_stealth",
+					"amount" : 1.0
+
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "TRINKET_AMBUSH_BUFF",
+					"amount" : 0.25
+
+				}
+				
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 2000 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		},
+		{
+			"id" : "wisdom",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.35 }, 
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",					
+					"amount" :  0.10
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.35 }, 
+					"type" : "buff",
+					"sub_type" : "campingACCBuff",					
+					"amount" :  0.10
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.35 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuff",					
+					"amount" :  0.10
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 0.35 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuff",					
+					"amount" :  0.10
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 0.35 }, 
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",					
+					"amount" :  3.0
+				}
+			],
+			"hero_classes" : ["lordblade"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 2000 }
+					],
+					"prerequisite_requirements" :
+					[
+
+					]
+				}
+			]
+		}
+	]
+}

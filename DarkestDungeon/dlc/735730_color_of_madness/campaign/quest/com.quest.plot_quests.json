@@ -1,0 +1,1712 @@
+{
+	"plot_quests": [
+		{
+			"id": "plot_color_of_madness_test",
+			"plot_quest_dependency": "",
+			"is_enabled": false,
+			"has_achievement": false,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+				"type": "explore",
+				"dungeon": "farm",
+				"torch_setting" : "default",
+				"raid_rules_override": "default",
+				"difficulty": 1,
+                "length": 1,
+				"map_name": "com_map_curio_test",
+				"goal_ids": [
+                    "explore_all_rooms" 
+				],
+				"completion_reward": {
+					"resolve_xp": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 5000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 12
+							},
+                            "2": {
+                                "id": "",
+                                "type":"shard",
+                                "amount":5
+                            }
+						}
+					}
+				}
+			},
+
+			"additional_trinket_completion_rewards": [
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": false,
+			"has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+                },
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+				}
+			],
+			"can_continue_exploring_after_completing_quest": false
+		},
+		{
+			"id": "plot_color_of_madness_test_transition",
+            "plot_quest_dependency": "",
+			"is_enabled": false,
+			"highest_hero_resolve_level_dependency": 5,
+			"has_achievement": false,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+                "wave_params": {
+                    "curio_groups":[
+                        {
+                            "name":"all",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+
+                            ]
+                        },
+                        {
+                            "name":"all_but_mildred",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"provisions",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2"
+                            ]
+                        },                        
+                        {
+                            "name":"heal_single",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal"
+                            ]
+                        }, 
+                        {
+                            "name":"heal_party",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"camping",
+                            "curios":[
+                                "com_fireplace"
+                            ]
+                        },                        
+                        {
+                            "name":"treasure",
+                            "curios":[
+                                "com_treasure"
+                            ]
+                        }, 
+                        {
+                            "name":"random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal"
+                            ]
+                        },
+                        {
+                            "name":"very_random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                
+                                "com_party_health_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"restorative",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",                                
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"things",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure"                             
+                            ]
+                        },
+                        {
+                            "name":"treasure_and_stress",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",
+								"com_hero_stress_heal",                                
+                                "com_party_stress_heal"                             
+                            ]
+                        },
+                        {
+                            "name":"secret_sauce",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                
+                                "com_party_health_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace",
+                                "com_provisionbox_1",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_provisionbox_2",
+                                "com_treasure",                                
+                                "com_treasure"                                 
+                            ]
+                        }
+                    ],
+                    "background_groups":[
+                        {
+                            "name":"recurring_pool_even",
+                            "backgrounds":[
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }, 
+                        {
+                            "name":"recurring_pool_odd",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_7"
+                            ]
+                        },
+                        {
+                            "name":"recurring_pool_all",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }
+                    ],
+                    "intro_wave_groups": [
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[1, 1], "curio":"com_fireplace", "type" : "boss", "background":"farm.room_wall.windmill_7"}
+                            ]
+                        }
+                    ],                    
+                    "recurring_wave_groups":[
+                       {
+                            "wave_infos" : [
+                                {"killRange":[1, 1], "curio":"things", "type" : "space"}
+                            ]
+                        },
+                        {
+                            "wave_infos" : [
+                                {"killRange":[1, 1], "curio":"things", "type" : "miniboss"}
+                            ]
+                        }
+                    ],
+                    "space_miniboss_chance":0.75,
+                    "threshold_shard_reward_multiplier":1.2,
+                    "single_shard_rewards":[1, 1],
+                    "double_shard_rewards":[2, 3],
+                    "boss_shard_rewards":[4, 5]
+                },
+				"type": "wave",
+				"torch_setting" : "wave_farm",
+				"raid_rules_override": "wave",
+				"dungeon": "farm",
+				"difficulty": 6,
+                "length": 1,
+                "goal_ids": [
+                    "survive_endless"
+				],
+				"completion_reward": {
+					"resolve_xp": 0,
+					"resolve_xp_per_wave_kill": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 0
+							}
+						}
+					}
+				},
+                "threshold_rewards":{
+                    "0" : {
+                        "resolve_xp": 8,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 9000
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 20
+                                }
+                            }
+                        }
+                    },
+                    "1" : {
+                        "resolve_xp": 12,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 16000
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":1, "rarity":"rare" }
+                                }
+                            }
+                        }
+                    },
+                    "2" : {
+                        "resolve_xp": 16,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 24000
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    },
+                    "3" : {
+                        "resolve_xp": 20,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 40000
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 45
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    }
+                }
+			},
+			"additional_trinket_completion_rewards": [
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+            "has_provision_warnings": false,
+            "has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+				},
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+				}
+			],
+            "can_continue_exploring_after_completing_quest": false,
+            "length_description_override_id" : "endless"
+		},
+        {
+			"id": "plot_color_of_madness_0",
+			"plot_quest_dependency": "plot_tutorial_crypts",
+			"has_achievement": true,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+                "wave_params": {
+                    "intro_wave_groups": [
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[20, 20], "curioNames":[], "background":"farm.room_wall.windmill_1"}
+                            ]
+                        }
+                    ],
+                    "single_shard_rewards":[1, 1],
+                    "double_shard_rewards":[2, 3],
+                    "boss_shard_rewards":[4, 5]
+                },
+				"type": "wave",
+				"torch_setting" : "wave_farm",
+				"raid_rules_override": "wave",
+				"dungeon": "farm",
+				"difficulty": 1,
+                "length": 1,
+				"goal_ids": [
+                    "survive_short"
+				],
+				"completion_reward": {
+					"resolve_xp": 2,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 3000
+							},
+                            "1": {
+                                "id": "",
+                                "type":"shard",
+                                "amount":12
+                            }
+						}
+					},
+					"other_dungeon_xp":
+					{
+						"crypts": 0,
+						"cove": 0,
+						"weald": 0,
+						"warrens": 0
+					},
+                    "max_times_dungeon_xp_awarded":6
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "common",
+					"amount": 2
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+            "has_provision_warnings": false,
+            "has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+				},
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+                },
+                {
+                    "item_type": "provision",
+                    "item_id": ""
+                }
+			],
+            "can_continue_exploring_after_completing_quest": false
+		},
+		{
+			"id": "plot_color_of_madness_1",
+			"plot_quest_dependency": "plot_color_of_madness_0",
+			"has_achievement": true,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+                "wave_params": {
+ 					"curio_groups":[
+                        {
+                            "name":"preMiller",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_fireplace",
+                                "com_fireplace"                            
+                            ]
+                        }
+                    ],                	
+                    "intro_wave_groups": [
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[8, 12], "curio":"com_treasure", "background":"farm.room_wall.windmill_1"},
+                                {"killRange":[7, 9], "curio":"com_hero_health_heal", "type":"space"},
+                                {"killRange":[8, 12], "curio":"preMiller", "background":"farm.room_wall.windmill_2"},
+                                {"killRange":[1, 1], "curio":"com_treasure", "background":"farm.room_wall.windmill_4", "type":"boss"}
+                            ]
+                        }
+                    ],
+                    "single_shard_rewards":[1, 1],
+                    "double_shard_rewards":[2, 3],
+                    "boss_shard_rewards":[4, 5]
+                },
+				"type": "wave",
+				"torch_setting" : "wave_farm",
+				"raid_rules_override": "wave",
+				"dungeon": "farm",
+				"difficulty": 3,
+                "length": 2,
+				"goal_ids": [
+                    "kill_miller"
+				],
+				"completion_reward": {
+					"resolve_xp": 6,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+                            "1": {
+                                "id": "",
+                                "type":"shard",
+                                "amount":30
+                            },
+                            "2": {
+                                "id": "crest",
+                                "type":"heirloom",
+                                "amount":12
+                            }                            
+						}
+					},
+					"other_dungeon_xp":
+					{
+						"crypts": 0,
+						"cove": 0,
+						"weald": 0,
+						"warrens": 0
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "rare",
+					"amount": 2
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+            "has_provision_warnings": false,
+            "has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+				},
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+				}
+            ],
+			"can_continue_exploring_after_completing_quest": false,
+            "next_quest_select_tutorial_id" : "miller_killed",
+            "next_return_to_town_tutorial_id" : "shard_stage_coach"
+		},
+		{
+			"id": "plot_color_of_madness_2",
+			"plot_quest_dependency": "plot_color_of_madness_1",
+			"is_enabled": true,
+			"has_achievement": true,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+                "wave_params": {
+                    "curio_groups":[
+                        {
+                            "name":"all",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+
+                            ]
+                        },
+                        {
+                            "name":"all_but_mildred",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"provisions",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2"
+                            ]
+                        },                        
+                        {
+                            "name":"heal_single",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal"
+                            ]
+                        }, 
+                        {
+                            "name":"heal_party",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"camping",
+                            "curios":[
+                                "com_fireplace"
+                            ]
+                        },                        
+                        {
+                            "name":"treasure",
+                            "curios":[
+                                "com_treasure"
+                            ]
+                        }, 
+                        {
+                            "name":"random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal"
+                            ]
+                        },
+                        {
+                            "name":"very_random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                
+                                "com_party_health_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"restorative",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",                                
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"things",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "",
+                                "",
+                                "",
+                                ""                                                                                                                             
+                            ]
+                        },
+                        {
+                            "name":"treasure_and_stress",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",
+								"com_hero_stress_heal",                                
+                                "com_party_stress_heal"                             
+                            ]
+                        },
+                        {
+                            "name":"secret_sauce",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                                               
+                                "com_provisionbox_1",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_provisionbox_2",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace",
+                                "",
+                                "",
+                                "",
+                                ""                            
+                            ]
+                        }
+                    ],
+                    "background_groups":[
+                        {
+                            "name":"recurring_pool_even",
+                            "backgrounds":[
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }, 
+                        {
+                            "name":"recurring_pool_odd",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_7"
+                            ]
+                        },
+                        {
+                            "name":"recurring_pool_all",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }
+                    ],
+                    "intro_wave_groups": [
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[8, 11], "curio":"heal_single",  "background" : "farm.room_wall.windmill_1"},
+                                {"killRange":[8, 11], "curio":"com_party_health_heal", "background" : "farm.room_wall.windmill_2"},
+                                {"killRange":[6,  9], "curio":"com_millerwife_curio",              "type" : "space"}
+                            ]
+                        },
+                        {
+                            "wave_infos" : [
+                                {"killRange":[8, 11], "curio":"com_fireplace",         "background" : "farm.room_wall.windmill_3"},
+                                {"killRange":[6,  9], "curio":"com_party_health_heal", "type" : "space"},
+                                {"killRange":[1,  1], "curio":"treasure_and_stress",   "background" : "farm.room_wall.windmill_4", "type" : "boss"}
+                            ]
+                        },
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[6,  9], "curio":"com_party_health_heal", "type" : "space"},
+                                {"killRange":[8, 11], "curio":"treasure_and_stress",   "background" : "farm.room_wall.windmill_5"},
+                                {"killRange":[6,  9], "curio":"com_fireplace",         "type" : "space"},
+                                {"killRange":[1,  1], "curio":"com_party_health_heal", "background" : "farm.room_wall.windmill_7", "type" : "boss"}
+                            ]
+                        }
+                    ],                    
+                    "recurring_wave_groups":[
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 12],  "curio":"things", "type" : "space"},
+                                {"killRange":[9, 14], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 12],  "curio":"", "type" : "space"},
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },
+                       {
+                            "wave_infos" : [
+                                {"killRange":[9, 14], "curio":"",            "background" : "recurring_pool_all"},                                
+                                {"killRange":[7, 12],  "curio":"things", "type" : "space"},
+                                {"killRange":[7, 12],  "curio":"secret_sauce", "type" : "space"},
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 12],  "curio":"things", "type" : "space"},
+                                {"killRange":[7, 12],  "curio":"", "type" : "space"},
+                                {"killRange":[9, 14], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        }                       
+                    ],
+                    "space_miniboss_chance":0.75,
+                    "threshold_shard_reward_multiplier":1.2,
+                    "single_shard_rewards":[1, 1],
+                    "double_shard_rewards":[2, 3],
+                    "boss_shard_rewards":[4, 5]
+                },
+				"type": "wave",
+				"torch_setting" : "wave_farm",
+				"raid_rules_override": "wave",
+				"dungeon": "farm",
+				"difficulty": 6,
+                "length": 3,
+                "goal_ids": [
+                    "survive_endless"
+				],
+                "use_default_progression_goals" : false,
+				"completion_reward": {
+					"resolve_xp": 0,
+					"resolve_xp_per_wave_kill": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 0
+							}
+						}
+					}
+				},
+                "threshold_rewards":{
+                    "0" : {
+                        "resolve_xp": 8,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 9000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 9
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 20
+                                }                               
+                            }
+                        }                        
+                    },
+                    "1" : {
+                        "resolve_xp": 12,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 16000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 15
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":1, "rarity":"rare" }
+                                }
+                            }
+                        }
+                    },
+                    "2" : {
+                        "resolve_xp": 16,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 24000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 24
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                },
+                                "1": {
+                                    "id": "memory",
+                                    "type": "heirloom",
+                                    "amount": 1
+                                }
+                            }
+                        },                        
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    },
+                    "3" : {
+                        "resolve_xp": 20,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 40000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 30
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 45
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    }
+                },
+                "completion_threshold":2
+			},
+			"additional_trinket_completion_rewards": [
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+            "has_provision_warnings": false,
+            "has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+				},
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+				}
+			],
+            "can_continue_exploring_after_completing_quest": false,
+            "length_description_override_id" : "endless",
+            "death_override":
+            {
+                "status" : "in_time_and_space"
+            },
+            "regenerate_quests_on_non_town_progression": true,
+            "potential_quest_modifiers": ["endlight_a","endlight_b","endlight_c","endlight_d"]
+		},
+		{
+			"id": "plot_color_of_madness_support_test",
+			"is_enabled": false,
+			"has_achievement": false,
+			"dungeon_level": 0,
+            "is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+                "counted_in_generation":false,
+                "wave_params": {
+                    "curio_groups":[
+                        {
+                            "name":"all",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+
+                            ]
+                        },
+                        {
+                            "name":"all_but_mildred",
+                            "curios":[
+								"com_provisionbox_1",
+								"com_provisionbox_2",
+								"com_hero_health_heal",
+								"com_hero_stress_heal",
+								"com_party_health_heal",
+								"com_party_stress_heal",
+								"com_treasure",
+								"com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"provisions",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2"
+                            ]
+                        },                        
+                        {
+                            "name":"heal_single",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal"
+                            ]
+                        }, 
+                        {
+                            "name":"heal_party",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"camping",
+                            "curios":[
+                                "com_fireplace"
+                            ]
+                        },                        
+                        {
+                            "name":"treasure",
+                            "curios":[
+                                "com_treasure"
+                            ]
+                        }, 
+                        {
+                            "name":"random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_stress_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal"
+                            ]
+                        },
+                        {
+                            "name":"very_random_heal",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                
+                                "com_party_health_heal",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"restorative",
+                            "curios":[
+                                "com_party_health_heal",
+                                "com_party_stress_heal",                                
+                                "com_fireplace"
+                            ]
+                        },
+                        {
+                            "name":"things",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "com_treasure",
+                                "",
+                                "",
+                                "",
+                                ""                                                                                                                             
+                            ]
+                        },
+                        {
+                            "name":"treasure_and_stress",
+                            "curios":[
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_treasure",
+								"com_hero_stress_heal",                                
+                                "com_party_stress_heal"                             
+                            ]
+                        },
+                        {
+                            "name":"secret_sauce",
+                            "curios":[
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",
+                                "com_hero_health_heal",                                
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",
+                                "com_hero_stress_heal",                                                                                               
+                                "com_provisionbox_1",
+                                "com_provisionbox_1",
+                                "com_provisionbox_2",
+                                "com_provisionbox_2",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_treasure",                                
+                                "com_treasure",
+                                "com_party_health_heal",
+                                "com_party_stress_heal",
+                                "com_fireplace",
+                                "",
+                                "",
+                                "",
+                                ""                            
+                            ]
+                        }
+                    ],
+                    "background_groups":[
+                        {
+                            "name":"recurring_pool_even",
+                            "backgrounds":[
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }, 
+                        {
+                            "name":"recurring_pool_odd",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_7"
+                            ]
+                        },
+                        {
+                            "name":"recurring_pool_all",
+                            "backgrounds":[
+                                
+                                "farm.room_wall.windmill_1",
+                                "farm.room_wall.windmill_2",
+                                "farm.room_wall.windmill_3",
+                                "farm.room_wall.windmill_4",
+                                "farm.room_wall.windmill_5",
+                                "farm.room_wall.windmill_6"
+                            ]
+                        }
+                    ],
+                    "intro_wave_groups": [
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[8, 11], "curio":"heal_single",  "background" : "farm.room_wall.windmill_1"},
+                                {"killRange":[8, 11], "curio":"com_party_health_heal", "background" : "farm.room_wall.windmill_2"},
+                                {"killRange":[6,  9], "curio":"com_millerwife_curio",              "type" : "space"}
+                            ]
+                        },
+                        {
+                            "wave_infos" : [
+                                {"killRange":[8, 11], "curio":"com_fireplace",         "background" : "farm.room_wall.windmill_3"},
+                                {"killRange":[6,  9], "curio":"com_party_health_heal", "type" : "space"},
+                                {"killRange":[1,  1], "curio":"treasure_and_stress",   "background" : "farm.room_wall.windmill_4", "type" : "boss"}
+                            ]
+                        },
+                        { 
+                            "wave_infos" : [
+                                {"killRange":[6,  9], "curio":"com_party_health_heal", "type" : "space"},
+                                {"killRange":[8, 11], "curio":"treasure_and_stress",   "background" : "farm.room_wall.windmill_5"},
+                                {"killRange":[6,  9], "curio":"com_fireplace",         "type" : "space"},
+                                {"killRange":[1,  1], "curio":"com_party_health_heal", "background" : "farm.room_wall.windmill_7", "type" : "boss"}
+                            ]
+                        }
+                    ],                    
+                    "recurring_wave_groups":[
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"", "type" : "space"},
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },                        
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"things",            "background" : "recurring_pool_all"},                                
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },                        
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"", "type" : "space"},
+                                {"killRange":[7, 11],  "curio":"secret_sauce", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"things",            "background" : "recurring_pool_all"},                                
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },
+                       {
+                            "wave_infos" : [
+                                {"killRange":[9, 13], "curio":"things",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"secret_sauce", "type" : "space"},
+                                {"killRange":[7, 11],  "curio":"", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},                                                               
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        },
+                       {
+                            "wave_infos" : [
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},                                
+                                {"killRange":[9, 13], "curio":"secret_sauce", "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"", "type" : "space"},
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},
+                                {"killRange":[9, 13], "curio":"secret_sauce",            "background" : "recurring_pool_all"},
+                                {"killRange":[7, 11],  "curio":"things", "type" : "space"},                                                               
+                                {"killRange":[1,  1], "curio":"restorative", "type" : "miniboss"}
+                            ]
+                        }                                                
+                    ],
+                    "space_miniboss_chance":0.75,
+                    "threshold_shard_reward_multiplier":1.2,
+                    "single_shard_rewards":[1, 1],
+                    "double_shard_rewards":[2, 3],
+                    "boss_shard_rewards":[4, 5]
+                },
+				"type": "wave",
+				"torch_setting" : "wave_farm",
+				"raid_rules_override": "wave",
+				"dungeon": "farm",
+				"difficulty": 6,
+                "length": 3,
+                "goal_ids": [
+                    "survive_endless"
+				],
+                "use_default_progression_goals" : false,
+				"completion_reward": {
+					"resolve_xp": 0,
+					"resolve_xp_per_wave_kill": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 0
+							}
+						}
+					}
+				},
+                "threshold_rewards":{
+                    "0" : {
+                        "resolve_xp": 8,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 9000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 9
+                                }
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 20
+                                }                               
+                            }
+                        }                        
+                    },
+                    "1" : {
+                        "resolve_xp": 12,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 16000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 15
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":1, "rarity":"rare" }
+                                }
+                            }
+                        }
+                    },
+                    "2" : {
+                        "resolve_xp": 16,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 24000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 24
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 25
+                                },
+                                "1": {
+                                    "id": "memory",
+                                    "type": "heirloom",
+                                    "amount": 1
+                                }
+                            }
+                        },                        
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    },
+                    "3" : {
+                        "resolve_xp": 20,
+                        "items_definition": {
+                            "system_config_type": "quest_rewards",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "gold",
+                                    "amount": 40000
+                                },
+                                "1": {
+                                    "id": "crest",
+                                    "type": "heirloom",
+                                    "amount": 30
+                                }                                
+                            }
+                        },
+                        "threshold_loot":{
+                            "system_config_type": "threshold",
+                            "items": {
+                                "0": {
+                                    "id": "",
+                                    "type": "shard",
+                                    "amount": 45
+                                }
+                            }
+                        },
+                        "additional_threshold_trinket_rewards":{
+                            "0": {
+                                "chance_of_loot":1.0,
+                                "rarity_table":{
+                                    "0": { "chance":2, "rarity":"rare" },
+                                    "1": { "chance":2, "rarity":"very_rare" },
+                                    "2": { "chance":1, "rarity":"ancestral" }
+                                }
+                            }
+                        }
+                    }
+                }
+			},
+			"additional_trinket_completion_rewards": [
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+            "has_provision_warnings": false,
+            "has_difficulty_bark": false,
+			"has_explore_music": false,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"disabled_provisions":
+			[
+				{
+					"item_type": "supply",
+					"item_id": "torch"
+				},
+                {
+					"item_type": "supply",
+					"item_id": "firewood"
+				}
+			],
+            "can_continue_exploring_after_completing_quest": false,
+            "length_description_override_id" : "endless",
+            "death_override":
+            {
+                "status" : "in_time_and_space"
+            }
+		}
+	]
+}

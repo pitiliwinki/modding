@@ -1,0 +1,123 @@
+{
+    "props": [
+        {
+            "name": "poison_cloud",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/poison_cloud/poison_cloud.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ "Blight 1", "Stress 2" ],
+                "audio_path" : "/props/traps/poison_cloud"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Blight 2", "Stress 2" ],
+                    "graphics_file": "props/shared/traps/poison_cloud/poison_cloud.skel"
+                },
+                {
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Blight 3", "Stress 2" ],
+                    "graphics_file": "props/shared/traps/poison_cloud/poison_cloud.skel"
+                }
+            ]
+        },
+        {
+            "name": "spikes",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/spikes/spikes.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ "Stress 2" ],
+                "health": -0.25,
+                "audio_path" : "/props/traps/spikes"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 3,
+                    "health": -0.28,
+                    "graphics_file": "props/shared/traps/spikes/spikes.skel"
+                },
+                {
+                    "level": 5,
+                    "health": -0.30,
+                    "graphics_file": "props/shared/traps/spikes/spikes.skel"
+                }
+            ]
+        },
+        {
+            "name": "spikes_ambush",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/spikes/spikes.skel",
+                "success_effects": [ ],
+                "fail_effects": [ ],
+                "generate_ambush": "trap",
+                "health": 0.0,
+                "audio_path": "/props/traps/spikes"
+            }
+        },
+        {
+            "name": "blade_wheel",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/blade_wheel/blade_wheel.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ "Bleed 1", "Stress 2" ],
+                "health": -0.10,
+                "audio_path": "/props/traps/blade_wheel"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Bleed 2", "Stress 2" ],
+                    "graphics_file": "props/shared/traps/blade_wheel/blade_wheel.skel"
+                },
+                {
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Bleed 3", "Stress 2" ],
+                    "graphics_file": "props/shared/traps/blade_wheel/blade_wheel.skel"
+                }
+            ]
+        },
+        {
+            "name": "lurker",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/lurker/lurker.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ "Lurker Trap Debuff 1", "Stress 2" ],
+                "health": -0.10,
+                "audio_path": "/props/traps/lurker"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Lurker Trap Debuff 3", "Stress 2" ],
+                    "graphics_file": "props/shared/traps/lurker/lurker.skel"
+                },
+                {
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ "Lurker Trap Debuff 5", "Stress 3" ],
+                    "graphics_file": "props/shared/traps/lurker/lurker.skel"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+   "buffs":
+   [
+    {
+         "id" : "Tooltip_Praise_ScalingA",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Lightscale_praiseA",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+
+      },
+	   {
+         "id" : "Tooltip_Praise_ScalingB",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Lightscale_praiseB",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+
+      },
+    {
+         "id" : "Tooltip_Praise_ScalingC",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Lightscale_praiseC",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+
+      },
+   {
+         "id" : "wos_tooltip_clear",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "wos_tooltip_clear",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   
+  
+       {
+         "id" : "wos_tooltip_free_action",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "free_roll",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	{
+         "id" : "wos_tooltip_rank_damage",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "rank_damage",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	 {
+         "id" : "wos_tooltip_parry_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "parry_1",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	 {
+         "id" : "wos_tooltip_parry_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "parry_2",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_tooltip_parry_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "parry_3",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_tooltip_parry_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "parry_4",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_tooltip_parry_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "parry_5",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_stressheal_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stressheal_1",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	 {
+         "id" : "wos_stressheal_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stressheal_2",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_stressheal_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stressheal_3",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_stressheal_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stressheal_4",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "wos_stressheal_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stressheal_5",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      }
+	 
+	  
+	 
+	 
+   ]
+}

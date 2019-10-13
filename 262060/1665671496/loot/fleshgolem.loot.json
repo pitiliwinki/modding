@@ -1,0 +1,123 @@
+{
+   "loot_tables" :
+   [
+       {
+         "id" : "FleshTrinketsCP",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "flesh" }}
+         ]
+      }, 
+	  {
+         "id" : "FleshTrinketsWR",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "flesh" }}
+         ]
+      },
+	  {
+         "id" : "FleshTrinketsWD",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "flesh" }}
+         ]
+      },
+	  {
+         "id" : "FleshTrinketsCV",
+         "difficulty" : 5,
+         "dungeon" : "coves",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "flesh" }}
+         ]
+      },
+	  {
+         "id" : "fleshgolemlostpartCP",
+         "difficulty" : 5,
+         "dungeon" : "crypts",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fleshgolem" }}
+         ]
+      },
+  {
+         "id" : "fleshgolemlostpartWR",
+         "difficulty" : 5,
+         "dungeon" : "warrens",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fleshgolem" }}
+         ]
+      },
+	   {
+         "id" : "fleshgolemlostpartWD",
+         "difficulty" : 5,
+         "dungeon" : "weald",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fleshgolem" }}
+         ]
+      },
+	   {
+         "id" : "fleshgolemlostpartCV",
+         "difficulty" : 5,
+         "dungeon" : "cove",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 79, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fleshgolem" }}
+         ]
+      },
+	   {
+         "id" : "Protean_Shell",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fgafflicted" }}
+         ]
+      },
+	  {
+         "id" : "FleshGolemSpecialTrinkets",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "nothing", "chances" : 150, "data" : { }},
+			{ "type" : "trinket", "chances" : 120, "data" : { "rarity" : "flesh" }},
+			{ "type" : "trinket", "chances" : 150, "data" : { "rarity" : "fleshcommon" }},
+			{ "type" : "trinket", "chances" : 100, "data" : { "rarity" : "fleshuncommon" }},
+			{ "type" : "trinket", "chances" : 75, "data" : { "rarity" : "fleshrare" }},
+			{ "type" : "trinket", "chances" : 50, "data" : { "rarity" : "fleshveryrare" }},
+			{ "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fgcrimson" }},
+			{ "type" : "trinket", "chances" : 10, "data" : { "rarity" : "fgcc" }},
+			{ "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fgrefracted" }},
+			{ "type" : "trinket", "chances" : 1, "data" : { "rarity" : "fgafflicted" }},
+			{ "type" : "trinket", "chances" : 18, "data" : { "rarity" : "fleshgolem" }}
+         ]
+		 },
+	  {
+         "id" : "Rotloot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			{ "type" : "item", "chances" : 15, "data" : { "type" : "estate", "id" : "Flesh_RotI", "amount" : 1 }},
+			{ "type" : "trinket", "chances" : 1, "data" : { "rarity" : "flesh" }}
+         ]
+      }
+   ]
+}

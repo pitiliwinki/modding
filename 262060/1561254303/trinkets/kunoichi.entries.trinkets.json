@@ -1,0 +1,215 @@
+{
+   "entries":
+   [
+      {
+         "id" : "kunoichi_red_slayer_ring",
+         "buffs" : 
+         [
+            "TRINKET_BLEEDSKILL_B2",
+            "TRINKET_BLEEDRESIST_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "kunoichi_blight_edged_pendant",
+         "buffs" : 
+         [
+            "TRINKET_BLIGHTSKILL_B2",
+            "TRINKET_BLIGHTRESIST_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "kunoichi_shadow_crystal",
+         "buffs" : 
+         [
+            "TRINKET_STUNSKILL_B3",
+            "TRINKET_MOVESKILL_B3",
+            "TRINKET_SPD_D3"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "kunoichi_dark_shadow_cloak",
+         "buffs" : 
+         [
+            "TRINKET_DEF_B3",
+            "TRINKET_meleeonly_ACC_B2",
+            "TRINKET_STRESSDMG_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      }, 
+	  
+      {
+         "id" : "kunoichi_blight_dagger",
+         "buffs" : 
+         [
+            "TRINKET_DMGL_B2",
+            "TRINKET_DMGH_B2",
+            "TRINKET_BLIGHTSKILL_B3",
+            "TRINKET_CRIT_B3",
+			"TRINKET_STRESSDMG_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "kunoichi_collector_chiyome",
+         "buffs" : 
+         [
+			"ninja_dmgL",
+            "ninja_dmgH",
+			"ninja_crit",
+			"TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+		    "kunoichi"
+         ],
+		 "set_id" : "ninja_collector_set",
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Kun Aegis"
+         ]
+      },
+	  
+	  {
+         "id" : "kunoichi_collector_hanzo",
+         "buffs" : 
+         [
+            "ninja_stealth_dmgL",
+            "ninja_stealth_dmgH",
+			"ninja_stealth_crit",
+			"TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+		    "kunoichi"
+         ],
+		 "set_id" : "ninja_collector_set",
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Kun Stealth"
+         ]
+      },
+	  
+	  {
+         "id" : "kunoichi_ninja_scroll",
+         "buffs" : 
+         [
+            "TRINKET_ninja_DMGL_D1",
+            "TRINKET_ninja_DMGH_D1",
+			"TRINKET_ninja_MAXHP_BUFF",
+            "TRINKET_ninja_STRESSDMG_BUFF",
+			"TRINKET_ninja_HEALRECVD_BUFF",
+			"TRINKET_ninja_DODGE_BUFF",
+			"TRINKET_ninja_PARTYSURPRISE_BUFF",
+			"TRINKET_ninja_SPD_BUFF",
+			"TRINKET_ninja_PROT_BUFF",
+			"TRINKET_ninja_RESOLVE_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"		 
+         ],
+		 "set_id" : "ninja_shambler_set",
+         "rarity" : "ancestral_shambler",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "kunoichi_ninjutsu",
+         "buffs" : 
+         [
+            "ninja_assasin_dmgL",
+            "ninja_assasin_dmgH",
+			"ninja_vanish_crit",
+            "ninja_tricks_B1",
+			"ninja_BLIGHT_BUFF",
+			"ninja_stress_heal",
+			"ninja_execute_dmgL",
+			"ninja_execute_dmgH",
+			"ninja_bleed_D3",
+			"ninja_deathblow",
+			"TRINKET_ninja_RESOLVE_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "kunoichi"		 
+         ],
+		 "set_id" : "ninja_shambler_set",
+         "rarity" : "ancestral_shambler",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+			"id" : "kunoichi_kitsune_mask",
+			"buffs" : 
+			[
+				"TRINKET_Sunward_Dodge",
+				"TRINKET_Sunward_Dodge_Debuff"
+			],
+			"hero_class_requirements":
+			[
+			"kunoichi"
+			],
+			"rarity" : "sakura",
+			"price" : 30000,
+			"limit" : 1,
+			"origin_dungeon" : "",
+			"attack_skill_additional_effects":
+        [
+          "Kun Blight Sunward",
+		  "Disorient 3",
+		  "Kun Self  Blight Sunward"
+        ]
+		}
+   ]
+}

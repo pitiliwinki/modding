@@ -1,0 +1,25 @@
+{
+   "loot_tables" :
+   [
+   {
+         "id" : "sels_hollow",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "table", "chances" : 90, "data" : { "table" : "A" }},
+            { "type" : "table", "chances" : 10, "data" : { "table" : "T_SUNLIGHT_TOOL" }}  
+         ]
+      },{
+         "id" : "sels_invader",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            
+			{ "type" : "table", "chances" : 9, "data" : { "table" : "T_SUNLIGHT_LEVELED" }},
+			{ "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }}	
+         ]
+      }
+   ]
+}

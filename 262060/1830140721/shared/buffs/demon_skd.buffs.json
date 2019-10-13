@@ -1,0 +1,526 @@
+{
+   "buffs":
+   [
+         {
+            "id" : "TRINKET_demon_skd_cuirass_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "protection_rating",
+            "amount" : 0.50,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.99,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_cuirass_B2",
+            "stat_type" : "damage_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.50,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_cuirass_B3",
+            "stat_type" : "hp_heal_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_cuirass_B4",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "defense_rating",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_dovu_B1",
+            "stat_type" : "stun_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.30,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_dovu_B2",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "stun",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_dovu_B3",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_DMGL",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_DMGH",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_BOSSDMGL",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "target_hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.60,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_BOSSDMGH",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "target_hpabove",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.60,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_B1",
+            "stat_type" : "damage_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_furnace_B2",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_heartstopper_DMGL",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "meleeonly",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_heartstopper_DMGH",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "meleeonly",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_heartstopper_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.10,
+            "remove_if_not_active" : false,
+            "rule_type" : "meleeonly",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_heartstopper_B2",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.3,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_heartstopper_B3",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_DMGL_StressA",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.30,
+            "remove_if_not_active" : false,
+            "rule_type" : "stress_above",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 100,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_DMGH_StressA",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.30,
+            "remove_if_not_active" : false,
+            "rule_type" : "stress_above",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 100,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_DMGL_StressB",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "stress_below",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 100,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_DMGH_StressB",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "stress_below",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 100,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_B1",
+            "stat_type" : "stress_heal_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_hexpants_B2",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_irontoes_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 3,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.50,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_irontoes_B2",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 6,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.25,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_irontoes_B3",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "move",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_irontoes_B4",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "stun",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_promise_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : -0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_promise_B2",
+            "stat_type" : "hp_heal_received_percent",
+            "stat_sub_type" : "",
+            "amount" : -0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_promise_B3",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : -0.1,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_shimyzo_B1",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "bleed",
+            "amount" : -0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_shimyzo_B2",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "poison",
+            "amount" : -0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_shimyzo_B3",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.10,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_shimyzo_B4",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 1.00,
+            "remove_if_not_active" : false,
+            "rule_type" : "hpbelow",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0.20,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_solarium_DMGL",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : -0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_solarium_DMGH",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : -0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_solarium_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_skd_solarium_B2",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "stun",
+            "amount" : -0.40,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "on_crit_heal_solarium",
+            "stat_type" : "upgrade_discount",
+            "stat_sub_type" : "solarium_heal",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         }
+   ]
+}
+

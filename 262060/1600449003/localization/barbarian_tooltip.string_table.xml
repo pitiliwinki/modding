@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  
+   <!--Estate Item Tutorial Info-->
+   <entry id="tutorial_popup_the_keg_description"><![CDATA[{colour_start|barb_light_brown}Kegs of Ale can be tapped in combat to provide everyone a drink! The overall effects depend on the brew quality. Chance to {colour_start|healhp}Increase +HP Received{colour_end} and {colour_start|notable}+Crit Chance{colour_end}, but {colour_start|move}-Move  Resist{colour_end} and {colour_start|stun}-Stun Resist{colour_end} for 3 Rounds. Can be stored in town.{colour_end}]]></entry>
+    <entry id="tutorial_popup_the_keg_title"><![CDATA[Kegs of Ale]]></entry>
+	
+ <!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_BARB_Herbs_of_the_Wild_Camp"><![CDATA[Search for Herbs]]></entry>
+  
+    <!--Eye Wide Open No Specific Description-->
+	<entry id="buff_rule_data_tooltip_siren_song"><![CDATA[{colour_start|barb_light_brown}Siren Song{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_my_hero"><![CDATA[{colour_start|barb_light_brown}My Hero{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_my_hero"><![CDATA[{colour_start|barb_light_brown}My Hero{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_indomitable_strength"><![CDATA[{colour_start|barb_light_brown}Indomitable Kick{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_reckless_rage"><![CDATA[{colour_start|barb_light_brown}Reckless Rage{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_steady_stab"><![CDATA[{colour_start|barb_light_brown}Steady Stab{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_wild_swing"><![CDATA[{colour_start|barb_light_brown}Wild Swing{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_BARB_eyes_wide_open"><![CDATA[{colour_start|barb_light_brown}You see truth! {colour_start|move}Immune{colour_end} to enchantress seductions{colour_end}]]></entry>
+	<entry id="str_quirk_description_BARB_eyes_wide_open_positive"><![CDATA[{colour_start|barb_light_brown}You see truth! {colour_start|move}Immune{colour_end} to enchantress seductions{colour_end}]]></entry>
+  
+  <!--Blood Buffs Tooltips MATCHES SPARTAN AND CLAIRs base-->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
+	
+	<!--Kick the Corpse-->
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpses]]></entry>
+	
+  	<!--SKILLS ToolTip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_bfocus_tooltip_x"><![CDATA[{colour_start|barb_light_brown}Anger can unleash erratic power!{colour_end}]]></entry>
+	<!--SKILLS ToolTip Kick -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_kick_tooltip_x"><![CDATA[{colour_start|barb_light_brown}Kick the vanguard and provoke {colour_end}{colour_start|riposte}Enraged Counterstrike{colour_end}]]></entry>
+	<!--SKILLS ToolTip Kick B -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_kick_tooltip_xb"><![CDATA[{colour_start|riposte}Enraged{colour_end}: +2 CRIT]]></entry>
+	<!--SKILLS ToolTip Stab -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_stab_tooltip_x"><![CDATA[{colour_start|barb_light_brown}High accuracy, low damage, bonus versus Marked{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Rage -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_rage_tooltip_x"><![CDATA[{colour_start|barb_light_brown}Low accuracy, medium damage, with a chance to Bleed{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Swing -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_swing_tooltip_x"><![CDATA[{colour_start|barb_light_brown}A powerful swing with risks{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Guard -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_guard_tooltip_x"><![CDATA[{colour_start|barb_light_brown}For a short time, protect an ally{colour_end}]]></entry>
+	  	<!--SKILLS ToolTip Ale -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_ale_tooltip_x"><![CDATA[{colour_start|barb_light_brown}Drinking brings risks and rewards{colour_end}]]></entry>
+  
+	<!--Scaling-->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_crt_scaling_type"><![CDATA[Below 50%% HP: 1%% {colour_start|stress}CRIT{colour_end} per 10%% missing HP]]></entry>
+	
+	<!--Torchlight-->
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[{colour_start|stun}Torches Burn{colour_end} 10%% Faster ]]></entry>
+	
+	<!--When Hit-->
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[{colour_start|stress}When Hit:{colour_end}]]></entry>
+	
+	<!--Block Stun Skills -->	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Disabled]]></entry>
+	
+	<!--Block Heal Skills -->	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Heal{colour_end} Disabled]]></entry>
+	
+	<!--ON Monster Skill Group? -->	
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[x]]></entry>
+	
+	<!--Riposte Stun Theoretical Tip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_X"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(80%% base){colour_end} when {colour_start|riposte}Enraged{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_0"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(75%% base){colour_end} when {colour_start|riposte}Enraged{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_1"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(85%% base){colour_end} when {colour_start|riposte}Enraged{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_2"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(95%% base){colour_end} when {colour_start|riposte}Enraged {colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_3"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(105%% base){colour_end} when {colour_start|riposte}Enraged{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_4"><![CDATA[Chance to {colour_start|stun}Stun {colour_end}{colour_start|stress}(115%% base){colour_end} when {colour_start|riposte}Enraged{colour_end}]]></entry>
+	
+<!--Festivity Custom Tooptip NOT WORKING on camp skills -->
+	<entry id="buff_stat_tooltip_upgrade_discount_festive_1"><![CDATA[If not religious -8 or -12 {colour_start|stress}Stress{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_festive_2"><![CDATA[If religious -4, -6 or +6 {colour_start|stress}Stress{colour_end}]]></entry>
+	
+<!--Move to Front Custom Tooltip -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_moveoverride_tip"><![CDATA[{colour_start|move}Move{colour_end} to Front]]></entry>
+	
+<!--Enraged Tray Tooltip (working finally OMG!! -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_Barb_Enraged_Tray_tip_pass"><![CDATA[{colour_start|riposte}Enraged{colour_end} ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Barb_Enraged_Tray_tip_pass2"><![CDATA[{colour_start|riposte}Enraged{colour_end} +2 CRIT]]></entry>
+	
+<!--Cooldown Custom Tooltip -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 4 rds{colour_end}
+	{colour_start|mark}Mark{colour_end} Self & Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}
+	{colour_start|mark}Mark{colour_end} Self & Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 2 rd{colour_end}
+	{colour_start|mark}Mark{colour_end} Self & Target]]></entry>
+	
+<!--Cooldown Custom Skill Description -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldown_tooltip_1"><![CDATA[2 Round {colour_start|notable}Cooldown{colour_end}]]></entry>
+	
+ </language>
+ 
+   <language id="schinese">
+  
+   <!--Estate Item Tutorial Info-->
+   <entry id="tutorial_popup_the_keg_description"><![CDATA[{colour_start|barb_light_brown}在战斗中来上几杯由小镇酒吧酿制的啤酒吧!不同酿造质量的啤酒会带来独一无二的效果。增加{colour_start|healhp}生命值治愈量{colour_end}和{colour_start|notable}暴击几率{colour_end},降低{colour_start|move}位移抗性{colour_end}和{colour_start|stun}眩晕抗性{colour_end}(持续3回合).啤酒桶可以储存于小镇.{colour_end}]]></entry>
+    <entry id="tutorial_popup_the_keg_title"><![CDATA[啤酒桶]]></entry>
+	
+ <!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_BARB_Herbs_of_the_Wild_Camp"><![CDATA[寻找草药]]></entry>
+  
+    <!--Eye Wide Open No Specific Description-->
+	<entry id="buff_rule_data_tooltip_siren_song"><![CDATA[{colour_start|barb_light_brown}塞壬之歌{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_my_hero"><![CDATA[{colour_start|barb_light_brown}我的英雄{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_my_hero"><![CDATA[{colour_start|barb_light_brown}我的英雄{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_indomitable_strength"><![CDATA[{colour_start|barb_light_brown}傲气踢击{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_reckless_rage"><![CDATA[{colour_start|barb_light_brown}鲁莽怒击{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_steady_stab"><![CDATA[{colour_start|barb_light_brown}稳健切击{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_wild_swing"><![CDATA[{colour_start|barb_light_brown}肆意挥舞{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_BARB_eyes_wide_open"><![CDATA[{colour_start|barb_light_brown}你目击了真相! {colour_start|move}免疫{colour_end} 诱惑{colour_end}]]></entry>
+	<entry id="str_quirk_description_BARB_eyes_wide_open_positive"><![CDATA[{colour_start|barb_light_brown}你目击了真相! {colour_start|move}免疫{colour_end} 诱惑{colour_end}]]></entry>
+  
+  <!--Blood Buffs Tooltips MATCHES SPARTAN AND CLAIRs base-->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}出血{colour_end}持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}出血{colour_end}效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|bleed}出血{colour_end}效果]]></entry>
+	
+	<!--Kick the Corpse-->
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[尸体]]></entry>
+	
+  	<!--SKILLS ToolTip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_bfocus_tooltip_x"><![CDATA[{colour_start|barb_light_brown}愤怒会释放不稳定的力量!{colour_end}]]></entry>
+	<!--SKILLS ToolTip Kick -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_kick_tooltip_x"><![CDATA[{colour_start|barb_light_brown}一脚踢退前卫并启动 {colour_end}{colour_start|riposte}反击{colour_end} 、 {colour_start|riposte}暴怒{colour_end}]]></entry>
+	<!--SKILLS ToolTip Kick B -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_kick_tooltip_xb"><![CDATA[{colour_start|riposte}暴怒{colour_end}: +2 暴击]]></entry>
+	<!--SKILLS ToolTip Stab -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_stab_tooltip_x"><![CDATA[{colour_start|barb_light_brown}高精准、低伤害、对标记有加成{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Rage -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_rage_tooltip_x"><![CDATA[{colour_start|barb_light_brown}低精准、中伤害、几率造成出血{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Swing -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_swing_tooltip_x"><![CDATA[{colour_start|barb_light_brown}充满风险的强力挥舞{colour_end}]]></entry>
+	 <!--SKILLS ToolTip Guard -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_guard_tooltip_x"><![CDATA[{colour_start|barb_light_brown}在短时间内保护队友{colour_end}]]></entry>
+	  	<!--SKILLS ToolTip Ale -->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_ale_tooltip_x"><![CDATA[{colour_start|barb_light_brown}饮酒会带来风险和回报{colour_end}]]></entry>
+  
+	<!--Scaling-->
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_crt_scaling_type"><![CDATA[生命低于 50%% 时: + 1%% {colour_start|stress}暴击{colour_end} (每损失 10%% 生命)]]></entry>
+	
+	<!--Torchlight-->
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[+ 10%% {colour_start|stun}火把燃烧{colour_end} 速度]]></entry>
+	
+	<!--When Hit-->
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[{colour_start|stress}被击中时:{colour_end}]]></entry>
+	
+	<!--Block Stun Skills -->	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[禁用{colour_start|stun}眩晕{colour_end}技能]]></entry>
+	
+	<!--Block Heal Skills -->	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[禁用{colour_start|healhp}治疗{colour_end}技能]]></entry>
+	
+	<!--ON Monster Skill Group? -->	
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[x]]></entry>
+	
+	<!--Riposte Stun Theoretical Tip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_X"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(80%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_0"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(75%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_1"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(85%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_2"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(95%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_3"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(105%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_stunriposte_4"><![CDATA[{colour_start|stun}眩晕 {colour_end}{colour_start|stress}(115%%概率){colour_end} ({colour_start|riposte}暴怒{colour_end}时)]]></entry>
+	
+<!--Festivity Custom Tooptip NOT WORKING on camp skills -->
+	<entry id="buff_stat_tooltip_upgrade_discount_festive_1"><![CDATA[如果没有信仰: -8 or -12 {colour_start|stress}压力{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_festive_2"><![CDATA[如果有信仰: -4, -6 or +6 {colour_start|stress}压力{colour_end}]]></entry>
+	
+<!--Move to Front Custom Tooltip -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_moveoverride_tip"><![CDATA[{colour_start|move}前进{colour_end}3]]></entry>
+	
+<!--Enraged Tray Tooltip (working finally OMG!! -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_Barb_Enraged_Tray_tip_pass"><![CDATA[{colour_start|riposte}暴怒{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Barb_Enraged_Tray_tip_pass2"><![CDATA[{colour_start|riposte}暴怒{colour_end}: +2 暴击]]></entry>
+	
+<!--Cooldown Custom Tooltip -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownX"><![CDATA[{colour_start|notable}冷却{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownA"><![CDATA[{colour_start|notable}冷却: (4回合){colour_end}
+	{colour_start|mark}标记{colour_end} 自身和目标]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownB"><![CDATA[{colour_start|notable}冷却: (3回合){colour_end}
+	{colour_start|mark}标记{colour_end} 自身和目标]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldownC"><![CDATA[{colour_start|notable}冷却: (2回合){colour_end}
+	{colour_start|mark}标记{colour_end} 自身和目标]]></entry>
+	
+<!--Cooldown Custom Skill Description -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_barb_tooltip_cooldown_tooltip_1"><![CDATA[2回合{colour_start|notable}冷却{colour_end}]]></entry>
+	
+  </language>
+</root>
+
+

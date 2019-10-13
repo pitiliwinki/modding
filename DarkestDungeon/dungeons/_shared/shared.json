@@ -1,0 +1,135 @@
+{
+    "prisoner_spawn_data": {
+        "hero_spawn_difficulty_table": [
+            {
+                "key": 1,
+                "data": 
+                [
+                    {
+                        "chance": 1,
+                        "value": {
+                            "level": 5,
+                            "hero_type_tags": [ ],
+                            "starting_positive_quirks": {
+                                "min": 2,
+                                "max": 2
+                            },
+                            "starting_negative_quirks": {
+                                "min": 0,
+                                "max": 0
+                            },
+                            "starting_camping_skills": {
+                                "min": 2,
+                                "max": 2
+                            },
+                            "starting_shared_camping_skills": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "starting_combat_skills": {
+                                "min": 7,
+                                "max": 7
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "key": 3,
+                "data": [
+                    {
+                        "chance": 1,
+                        "value": {
+                            "level": 3,
+                            "hero_type_tags": [ ],
+                            "starting_positive_quirks": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_negative_quirks": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_camping_skills": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_shared_camping_skills": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "starting_combat_skills": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "key": 5,
+                "data": [
+                    {
+                        "chance": 1,
+                        "value": {
+                            "level": 5,
+                            "hero_type_tags": [ ],
+                            "starting_positive_quirks": {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "starting_negative_quirks": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_camping_skills": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_shared_camping_skills": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "starting_combat_skills": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "key": 6,
+                "data":[
+                    {
+                        "chance": 1,
+                        "value": {
+                            "level": 5,
+                            "hero_type_tags": [ ],
+                            "starting_positive_quirks": {
+                                "min": 2,
+                                "max": 3
+                            },
+                            "starting_negative_quirks": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_camping_skills": {
+                                "min": 1,
+                                "max": 2
+                            },
+                            "starting_shared_camping_skills": {
+                                "min": 1,
+                                "max": 3
+                            },
+                            "starting_combat_skills": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

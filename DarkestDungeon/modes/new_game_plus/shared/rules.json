@@ -1,0 +1,510 @@
+{
+    "cutoffAlwaysMiss": 0.00,
+    "cutoffAlwaysHit": 0.95,
+    "exessCritMult": 0.0,
+    "excessCritMax": 0.20,
+    "player_crit_multiplier_table": [
+        {
+            "chance": 1,
+            "value": 1.5
+        }
+    ],
+    "monster_crit_multiplier_table": [
+        {
+            "chance": 1,
+            "value": 1.5
+        }
+    ],
+    "monster_crit": {
+        "stress_chance": 1.0,
+        "stress_damage": 10,
+        "companion_stress_chance": 0.55,
+        "companion_stress_damage": 5
+    },
+    "player_crit": {
+        "relief_chance": 1.0,
+        "stress_relief": 3,
+        "companion_relief_chance": 0.25,
+        "companion_stress_relief": 3
+    },
+    "playerCritBarkChance": 0.75,
+    "combat_retreat_chance": 0.70,
+    "combat_retreat_bonus_chance_per_attempt": 0.05,
+    "combat_retreat_stress": 25.0,
+
+    "passed_turn_stress_dmg": 7.0,
+    "deaths_door_self_stress_chance": 1.0,
+    "deaths_door_companion_stress_chance": 0.33,
+    "deaths_door_self_stress_dmg": 9.0,
+    "deaths_door_companion_stress_dmg": 5.0,
+    "deaths_door_self_stress_chance_repeat": 1.0,
+    "deaths_door_companion_stress_chance_repeat": 0.33,
+    "deaths_door_self_stress_dmg_repeat": 5.0,
+    "deaths_door_companion_stress_dmg_repeat": 3.0,
+    "stress_dmg_buff_min": 0.2,
+    "hallway_stress": {
+        "hallway_per_tile_stress_damage_fwd": 3.0,
+        "hallway_per_tile_stress_damage_chance_fwd": 0.33,
+        "hallway_per_tile_stress_damage_backing_up": 6.0,
+        "hallway_per_tile_stress_damage_chance_backing_up": 0.55
+    },
+    "killing_blow_relief_chance": 0.5,
+    "killing_blow_stress_relief": 3.0,
+    "effectiveDifficultyMin": 0.0,
+    "effectiveDifficultyMax": 6.0,
+    "effectiveDifficultyDungeonStartingStress": [
+        0.0,
+        25.0,
+        35.0,
+        45.0,
+        55.0,
+        65.0,
+        75.0
+    ],
+    "effectiveDifficultyStressDmgModifiers": [
+        0.0,
+        0.25,
+        0.50,
+        0.75,
+        1.00,
+        1.25,
+        1.50
+    ],
+    "effectiveDifficultyBarkStress": 4.0,
+    "base_affliction_history_WF": 4,
+    "affliction_history_increment": [
+        0,
+        2,
+        3,
+        4
+    ],
+    "base_virtue_history_WF": 4,
+    "affliction_base_onset_chance": 0.75,
+    "affliction_critical_success_chance": 0.25,
+    "affliction_min_chance": 0.05,
+    "affliction_max_chance": 0.99,
+    "stress_affliction_resisted": 45.0,
+    "stress_affliction_critically_resisted": 45.0,
+    "stress_affliction_deactivated": 0.0,
+    "effectiveDifficultyAfflictionOnsetModifiers": [
+        0.0,
+        0.05,
+        0.10,
+        0.15,
+        0.20,
+        0.25,
+        0.33
+    ],
+    "affliction_severity_table": [
+        {
+            "chance": 50,
+            "value": 1
+        }
+    ],    
+    "deactivation_chance_small": 0.1,
+    "deactivation_chance_med": 0.1,
+    "masterBarkChance": 0.50,
+    "curioTriggerChance_low": 0.15,
+    "curioTriggerChance_med": 0.25,
+    "curioTriggerChance_high": 0.50,
+    "quirks_fated_miss2hitconvertchance": 0.10,
+    "quirks_max_positive": 5,
+    "quirks_max_negative": 5,
+    "quirks_max_diseases": 3,
+    "quirks_max_locked_positive": 3,
+    "quirks_max_locked_negative": 3,
+    "quirk_negative_locked_after_turn_count": 2,
+    "quirk_chance_to_lock_negative": 0.25,
+    "negStress0Success": 0.30,
+    "negStress100Success": 0.50,
+    "posStress0Success": 0.50,
+    "posStress100Success": 0.40,
+    "negStress0Failure": 0.40,
+    "negStress100Failure": 0.70,
+    "posStress0Failure": 0.40,
+    "posStress100Failure": 0.25,
+    "disease_after_quest_min_resolve_level": 2,
+    "disease_after_quest_min_chance": 0.05,
+    "disease_max_chance": 0.32,
+    "disease_hero_disease_resist_weight": 0.33,
+    "effect_crit_roll_mod": -0.2,
+    "effect_crit_disease_resist_roll_mod": 0.2,
+
+    "dotHallwayStepRatio": 0.50,
+    "tile_light_loss": [
+        {
+            "key": "clear",
+            "data": 1.0
+        },
+        {
+            "key": "dim",
+            "data": 7.0
+        },
+        {
+            "key": "dark",
+            "data": 7.0
+        }
+    ],
+    "corridor_return_content": [
+        {
+            "key": "ac_battle",
+            "data": {
+                "base_chance": 0.075,
+                "base_dark_mod_table": {
+                    "lowest_excluded": true,
+                    "range_table": [
+                        {
+                            "range": {
+                                "lower": 75.0,
+                                "upper": 3.402823e38
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 50.0,
+                                "upper": 75.0
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 25.0,
+                                "upper": 50.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": 0.0,
+                                "upper": 25.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": -3.402823e38,
+                                "upper": 0.0
+                            },
+                            "value": 0.05
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "key": "ac_hunger",
+            "data": {
+                "base_chance": 0.075,
+                "base_dark_mod_table": {
+                    "lowest_excluded": true,
+                    "range_table": [
+                        {
+                            "range": {
+                                "lower": 75.0,
+                                "upper": 3.402823e38
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 50.0,
+                                "upper": 75.0
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 25.0,
+                                "upper": 50.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": 0.0,
+                                "upper": 25.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": -3.402823e38,
+                                "upper": 0.0
+                            },
+                            "value": 0.05
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "key": "ac_trap",
+            "data": {
+                "base_chance": 0.055,
+                "base_dark_mod_table": {
+                    "lowest_excluded": true,
+                    "range_table": [
+                        {
+                            "range": {
+                                "lower": 75.0,
+                                "upper": 3.402823e38
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 50.0,
+                                "upper": 75.0
+                            },
+                            "value": 0.0
+                        },
+                        {
+                            "range": {
+                                "lower": 25.0,
+                                "upper": 50.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": 0.0,
+                                "upper": 25.0
+                            },
+                            "value": 0.025
+                        },
+                        {
+                            "range": {
+                                "lower": -3.402823e38,
+                                "upper": 0.0
+                            },
+                            "value": 0.05
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "darkness": {
+        "lowest_excluded": true,
+        "range_table": [
+            {
+                "range": {
+                    "lower": 75.0,
+                    "upper": 3.402823e38
+                },
+                "value": {
+                    "stress_chance_increase": 0,
+                    "stress_damage_increase": 0,
+                    "monster_attack_increase": 0,
+                    "monster_damage_increase": 0,
+                    "monster_crit_increase": 0,
+                    "loot_increase_gold": 0,
+                    "loot_increase_treasure_draws": 0,
+                    "player_crit_increase": 0,
+                    "player_def_increase": 2.5,
+                    "player_scouting_increase": 15.0,
+                    "monsters_surprised_increase": 25.0,
+                    "heroes_surprised_increase": 0.0
+                }
+            },
+            {
+                "range": {
+                    "lower": 50,
+                    "upper": 75
+                },
+                "value": {
+                    "stress_chance_increase": 5.0,
+                    "stress_damage_increase": 10.0,
+                    "monster_attack_increase": 0.0,
+                    "monster_damage_increase": 0.0,
+                    "monster_crit_increase": 1.0,
+                    "loot_increase_gold": 0.0,
+                    "loot_increase_treasure_draws": 0.0,
+                    "player_crit_increase": 0.0,
+                    "player_def_increase": 0.0,
+                    "player_scouting_increase": 7.5,
+                    "monsters_surprised_increase": 15.0,
+                    "heroes_surprised_increase": 0.0
+                }
+            },
+            {
+                "range": { "lower": 25, "upper": 50 },
+                "value": {
+                    "stress_chance_increase": 15.0,
+                    "stress_damage_increase": 25.0,
+                    "monster_attack_increase": 5.0,
+                    "monster_damage_increase": 10.0,
+                    "monster_crit_increase": 2.5,
+                    "loot_increase_gold": 10.0,
+                    "loot_increase_treasure_draws": 4.0,
+                    "player_crit_increase": 1.0,
+                    "player_def_increase": 0.0,
+                    "player_scouting_increase": 0.0,
+                    "monsters_surprised_increase": 5.0,
+                    "heroes_surprised_increase": 15.0
+                }
+            },
+
+            {
+
+                "range": { "lower": 0, "upper": 25 },
+                "value": {
+                    "stress_chance_increase": 30.0,
+                    "stress_damage_increase": 35.0,
+                    "monster_attack_increase": 10.0,
+                    "monster_damage_increase": 17.5,
+                    "monster_crit_increase": 3.5,
+                    "loot_increase_gold": 20.0,
+                    "loot_increase_treasure_draws": 8.0,
+                    "player_crit_increase": 2.5,
+                    "player_def_increase": 0.0,
+                    "player_scouting_increase": 0.0,
+                    "monsters_surprised_increase": 0.0,
+                    "heroes_surprised_increase": 25.0
+                }
+            },
+            {
+                "range": {
+                    "lower": -3.402823e38,
+                    "upper": 0
+                },
+                "value": {
+                    "stress_chance_increase": 40.0,
+                    "stress_damage_increase": 50.0,
+                    "monster_attack_increase": 12.5,
+                    "monster_damage_increase": 30.0,
+                    "monster_crit_increase": 6.0,
+                    "loot_increase_gold": 30.0,
+                    "loot_increase_treasure_draws": 12.0,
+                    "player_crit_increase": 3.0,
+                    "player_def_increase": 0.0,
+                    "player_scouting_increase": 0.0,
+                    "monsters_surprised_increase": 0.0,
+                    "heroes_surprised_increase": 40.0
+                }
+            }
+        ]
+    },
+    "provision_hp_heal": 0.05,
+    "hallway_hunger_HPrestore": 0.05,
+    "hallway_hunger_starve_HPdmg": 0.20,
+    "meals_table": [
+        {
+            "type": "none",
+            "rations_per": 0,
+            "healing": -0.20,
+            "stress": 15
+
+        },
+        {
+            "type": "half",
+            "rations_per": 0.5,
+            "healing": 0,
+            "stress": 0
+        },
+
+        {
+            "type": "full",
+            "rations_per": 1.0,
+            "healing": 0.10,
+            "stress": 0
+        },
+        {
+            "type": "feast",
+            "rations_per": 2.0,
+            "healing": 0.25,
+            "stress": -10
+        }
+    ],
+    "camp_restore_torch": 100,
+    "ambush_torch_reduction": -100,
+    "camp_relieve_stress": 0,
+    "max_number_of_camping_skills": 3,
+    "camp_start_camping_points": 12,
+    "camp_rest_point_threshold": 6,
+    "camp_rest_number_of_hero_threshold": 1,
+    "scouting_enter_dungeon_scout_chance": 0.0,
+    "scouting_enter_dungeon_quest_item_scout_chance": 0.0,
+    "scouting_chance_scout_treasure": 0.0,
+    "scouting_crit_success": 0.50,
+    "scouting_chance_base": 0.25,
+    "death_party_stress_chance": 0.80,
+    "death_party_stress_damage": 15,
+    "deathblow_chance": 1.0,
+    "m_ForwardAcceleration": 1600.0,
+    "m_ReverseAcceleration": 800.0,
+    "m_MaxForwardSpeed": 400.0,
+    "m_MaxReverseSpeed": 200.0,
+    "m_Deceleration": 1600.0,
+    "m_InteractionAreaPixelWidth": 470.0,
+    "m_InteractionAreaPixelHeight": 400.0,
+    "max_provisions_before_full": 4,
+    "surprise_corridor_party_base_chance": 0.10,
+    "surprise_corridor_monsters_base_chance": 0.10,
+    "surprise_room_party_base_chance": 0.10,
+    "surprise_room_monsters_base_chance": 0.10,
+    "surprise_known_corridor_party_base_chance": -1.00,
+    "surprise_known_corridor_monsters_base_chance": 0.25,
+    "surprise_known_room_party_base_chance": -1.00,
+    "surprise_known_room_monsters_base_chance": 0.25,    
+    "surprise_ambush_party_base_chance": 1.0,
+    "surprise_ambush_monsters_base_chance": 0.0,
+    "surprise_max_party_surprised_chance": 0.65,
+    "surprise_max_monsters_surprised_chance": 0.65,
+    "ambush_camping_base_chance": 0.33,
+    "trap_scout_disarm_bonus": 0.40,
+    "stall_party_size_threshold": 3,
+    "stall_enemy_size_threshold": 2,
+    "stall_number_of_invalidating_skills_threshold": 2,
+    "stall_round_stress_effect_threshold": 3,
+    "stall_round_summon_effect_threshold": 4,
+    "stall_round_reset_threshold": 4,
+    "stall_extra_round_size_threshold": 2,
+    "stall_extra_round_size_amount": 1,
+    "stall_stress_effect_name": "stall_stress",
+    "stall_round_accelerated_only_consecutive_increment": 5,
+    "stall_round_accelerated_only_increment": 1,    
+    "consecutive_miss_reduction_acc_buff": 0.04,
+    "min_hero_count_for_escape": 3,
+    "dismissed_hero_stress_penalties": [
+        {
+            "upper_level": 4,
+            "stress_penalty": 5.0
+        },
+        {
+            "upper_level": 12,
+            "stress_penalty": 10.0
+        },
+        {
+            "upper_level": 1000000,
+            "stress_penalty": 20.0
+        }
+    ],
+    "new_game_plus_week_limit": 86,
+    "new_game_plus_hero_death_limit": 12,
+    "new_game_plus_monster_max_hp_modifier": 0.20,
+    "new_game_plus_monster_crit_modifier": 0.030,
+    "min_available_activity_slots_for_crier": 12,
+    "difficulty_trap_base": [
+        0.0,
+        0.0,
+        0.0,
+        0.25,
+        0.25,
+        0.45,
+        0.55
+    ],
+    "trinkets_equipped_warning_min_percent" : 0.5,
+    "trinkets_equipped_warning_dungeon_min_difficulty" : 3,
+    "the_blood_item_health_damage_percent" : 0.33,
+    "health_damage_blocks_max" : 2,
+    "heal_buff_percent_min" : 0.0,
+    "heal_buff_percent_max" : 2.0,
+    "stun_onset_buffs" : [ ],
+    "stun_onset_buff_consecutive_applies": false,
+    "stun_recovery_buffs" : [ "STUNRECOVERYBUFF" ],
+    "stun_recovery_buff_consecutive_applies": true,
+    "stun_ends_turn": true,
+    "initiative_base": 8    
+}

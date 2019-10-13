@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="schinese">
+<!--Art by Kahvipannu. Class by dem22 --> 
+<!---Class name and specific people names--->
+	<entry id="hero_class_name_shadow_walker"><![CDATA[暗影行者]]></entry>
+	<entry id="hero_name_hunter"><![CDATA[亨特]]></entry>
+	<entry id="hero_name_scorpion"><![CDATA[斯科皮恩]]></entry>
+	
+<!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_SW_Herbs_of_the_Wild_Camp"><![CDATA[寻找草药]]></entry>
+  
+<!--Come Unto Your Maker --> 		
+	<entry id="shadow_walker+str_monster_user_selected_targets_kill_pill"><![CDATA[最终,暗影将会吞噬我们所有人.]]></entry>
+	
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[蜘蛛]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[蜘蛛]]></entry>
+	<entry id="buff_rule_data_tooltip_vampire"><![CDATA[血裔]]></entry>
+	
+<!---SW riposte--->
+    <entry id="buff_rule_data_tooltip_SW_riposte"><![CDATA[{colour_start|riposte}反击{colour_end}]]></entry>
+	
+<!--Trinkets -->
+	<entry id="str_inventory_title_trinketsw1"><![CDATA[美好记忆的水晶挂饰]]></entry>
+    <entry id="str_inventory_title_trinketsw2"><![CDATA[诗集]]></entry>
+    <entry id="str_inventory_title_trinketsw3"><![CDATA[沉重的锁链]]></entry>
+    <entry id="str_inventory_title_trinketsw4"><![CDATA[黑暗熏香]]></entry>
+    <entry id="str_inventory_title_trinketsw5"><![CDATA[暗杀契约]]></entry>
+    <entry id="str_inventory_title_trinketswset1"><![CDATA[伊里奥最后的靴子]]></entry>
+    <entry id="str_inventory_title_trinketswset2"><![CDATA[伊里奥最后的手套]]></entry>
+    <entry id="str_inventory_set_title_swset_combined12"><![CDATA["伊里奥的复仇"]]></entry>
+	<entry id="str_inventory_title_trinketsw3b_chain"><![CDATA[祝福的锁链]]></entry>
+	<entry id="str_inventory_title_trinketsw_shadow_ring"><![CDATA[暗影行者的戒指]]></entry>
+	<entry id="str_inventory_title_trinketsw_watcher_poison"><![CDATA[失窃的裂缝监视者毒药]]></entry>
+	
+<!--Shadow Walker COM + CC Trinkets + Collectors Head --> 
+	<entry id="str_inventory_title_trinketcom_shadow_walker_1"><![CDATA["渴望永恒"]]></entry>
+    <entry id="str_inventory_title_trinketcollector_shadow_walker"><![CDATA[伊里奥的头]]></entry>
+    <entry id="str_inventory_title_trinketcc_shadow_walker_1"><![CDATA[大师面罩]]></entry>
+    <entry id="str_inventory_title_trinketcc_shadow_walker_2"><![CDATA[大师剃刀护腕]]></entry>
+    <entry id="str_inventory_set_title_cc_shadow_walker_combined12"><![CDATA["启迪之路"]]></entry>
+	<entry id="buff_rule_data_tooltip_smoke_bomb"><![CDATA["烟雾弹"]]></entry>
+	 <entry id="str_inventory_set_title_sw_chain_label"><![CDATA[{colour_start|white}一条受女祭司祝福的古老锁链{colour_end}]]></entry>
+	
+<!---Quirks--->
+	<entry id="str_quirk_name_skilled_toxicologist"><![CDATA[用毒高手]]></entry>
+	<entry id="str_quirk_name_toxin_hypersensitive"><![CDATA[毒素过敏]]></entry>
+
+<!---Poison Buffs Tooltips--->
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}毒蚀{colour_end}持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% 所受{colour_start|blight}毒蚀{colour_end}持续时间]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}毒蚀{colour_end}效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|blight}毒蚀{colour_end}效果]]></entry>
+	
+<!---Combat Skills--->
+	<entry id="combat_skill_name_shadow_walker_ken_jutsu"><![CDATA[剑术(武士刀刺)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_blood_boil"><![CDATA[热血沸腾]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kiai_jutsu"><![CDATA[气合术(链条缠绕)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kuji_kiri"><![CDATA[九字切(手刀)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_venom_tipped_shurikens"><![CDATA[淬毒手里剑]]></entry>
+    <entry id="combat_skill_name_shadow_walker_pressure_point"><![CDATA[暗中标记]]></entry>
+    <entry id="combat_skill_name_shadow_walker_shadow_slide"><![CDATA[暗影移动]]></entry>
+    <entry id="combat_skill_name_shadow_walker_move"><![CDATA[移动]]></entry>
+<!---Upgrade Tree--->
+    <entry id="upgrade_tree_name_shadow_walker.ken_jutsu"><![CDATA[剑术]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.blood_boil"><![CDATA[血液沸腾]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kiai_jutsu"><![CDATA[气合术]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kuji_kiri"><![CDATA[九字切]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.venom_tipped_shurikens"><![CDATA[淬毒手里剑]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.pressure_point"><![CDATA[暗中标记]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.shadow_slide"><![CDATA[暗影移动]]></entry>
+<!---Weapson Armor grid--->  		
+	<entry id="shadow_walker_weapon_0"><![CDATA[铁制忍者双刀]]></entry>
+	<entry id="shadow_walker_weapon_1"><![CDATA[银制忍者双刀]]></entry>
+    <entry id="shadow_walker_weapon_2"><![CDATA[碳钢忍者双刀]]></entry>
+    <entry id="shadow_walker_weapon_3"><![CDATA[金钢忍者双刀]]></entry>
+    <entry id="shadow_walker_weapon_4"><![CDATA["幽冥双煞"]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.weapon"><![CDATA[忍者武具]]></entry>
+    <entry id="shadow_walker_armour_0"><![CDATA[初级忍者装束]]></entry>
+    <entry id="shadow_walker_armour_1"><![CDATA[中级忍者装束]]></entry> 
+    <entry id="shadow_walker_armour_2"><![CDATA[高级忍者装束]]></entry>
+    <entry id="shadow_walker_armour_3"><![CDATA[大师忍者装束]]></entry>
+    <entry id="shadow_walker_armour_4"><![CDATA[“隐”]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.armour"><![CDATA[忍者装束]]></entry>
+	
+<!--Smoke Bomb buffs, tooltips, barks SUPER BUGGY -->
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[投掷烟幕弹!]]></entry>
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[黑暗会支援我们!]]></entry>
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[混乱会帮助我们!]]></entry>
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[轰隆!]]></entry>
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[看!他们在跳舞!]]></entry>
+	<entry id="shadow_walker+bark_sw_smoke_bomb"><![CDATA[这会暴露藏匿的生物!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_sw_critreceived"><![CDATA[所受暴击几率]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_sm_accuracy"><![CDATA[精准]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb_fx"><![CDATA[速度]]></entry>
+	
+	
+	<entry id="str_inventory_title_supplysw_smoke_bomb"><![CDATA[烟雾弹]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb"><![CDATA[烟雾弹]]></entry>
+	<entry id="str_inventory_description_supplysw_smoke_bomb"><![CDATA[打碎玻璃球来制造混乱]]></entry>
+<!--Chess Piece Gem Item --> 
+	<entry id="str_inventory_title_gemsw_jade_chess_piece"><![CDATA[玉器棋子]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_jade_chess_piece"><![CDATA[玉器棋子]]></entry>
+	<entry id="str_inventory_description_gemsw_jade_chess_piece"><![CDATA[收藏家会用黄金来交换这个雕刻精美的古代象棋棋子。]]></entry>	
+		
+<!--Town Event --> 
+	<entry id="town_event_title_first_shadow_walker"><![CDATA[逼近的暗影]]></entry>
+    <entry id="town_event_description_first_shadow_walker"><![CDATA["一个自阴影中出现且背着双武士刀的男人，他脚步轻盈、目光如炬，行动如舞者一般优雅。"]]></entry>
+    <entry id="shadow_walker+str_bark_deathsdoor"><![CDATA[我的影子终于来找我了吗？]]></entry>
+		
+<!---Descriptions--->
+	<entry id="action_verbose_body_blacksmith_shadow_walker"><![CDATA[在黑暗中行走的忍者武士。带着他的武士刀、手里剑和锁链。]]></entry>
+	<entry id="action_verbose_body_guild_shadow_walker"><![CDATA[人们悄声谈论着暗影行者，他们是喜欢寻宝和冥想的刺客。]]></entry>
+	<entry id="action_verbose_body_camping_trainer_shadow_walker"><![CDATA[暗影行者作为一名受过广泛的训练的草药医生: 研究植物学和药用植物以及其他用途。这让暗影行者可以找到野生药草来帮助团队。]]></entry>
+		
+<!--Camping Skills --> 		
+		<entry id="camping_skill_name_first_aid"><![CDATA[处理伤口]]></entry>
+		<entry id="camping_skill_name_encourage"><![CDATA[鼓舞]]></entry>
+		<entry id="camping_skill_name_pep_talk"><![CDATA[打气谈话]]></entry>
+		<entry id="camping_skill_name_dark_meditation"><![CDATA[黑暗冥想]]></entry>
+		<entry id="camping_skill_name_sabotage"><![CDATA[蓄意毁坏]]></entry>
+		<entry id="camping_skill_name_guerilla_warfare"><![CDATA[游击战]]></entry>
+		<entry id="camping_skill_name_assassination"><![CDATA[暗杀]]></entry>
+		
+<!--Barks --> 	
+		<entry id="shadow_walker+str_bark_first_aid"><![CDATA[我能治愈这些伤口.]]></entry>		
+		
+		<entry id="shadow_walker+str_bark_encourage"><![CDATA[今晚黑暗会保护我们!]]></entry>
+
+		<entry id="shadow_walker+str_bark_pep_talk"><![CDATA[不要绝望.]]></entry>
+
+		<entry id="shadow_walker+str_bark_dark_meditation"><![CDATA[冥想状态有助于治疗.]]></entry>
+
+		<entry id="shadow_walker+str_bark_sabotage"><![CDATA[我要混合一种更强的毒药.]]></entry>
+	
+		<entry id="shadow_walker+str_bark_guerilla_warfare"><![CDATA[我可以轻松地进行侦察. 这些信息可能有助于我们的旅行.]]></entry>
+
+		<entry id="shadow_walker+str_bark_assassination"><![CDATA[我会把注意力集中在能造成最大伤害的位置上.]]></entry>
+		
+<!--Camping Skills --> 			
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[决不.]]></entry>
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[没关系]]></entry>
+	
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[这个伤口需要护理]]></entry>
+
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[我不怕你!]]></entry>
+ 	     <entry id="shadow_walker+str_critbyhero"><![CDATA[坐以待毙吧.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[别想攻击我.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[黑夜会把你带走.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[撕裂吧!]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[你身上有玉器吗?]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[吾即暗影!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_fearful"><![CDATA[我们应该躲起来!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_paranoid"><![CDATA[你背叛了我!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_masochistic"><![CDATA[疼痛的感觉真好.]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_abusive"><![CDATA[你不值得我浪费时间!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_selfish"><![CDATA[我的儿童房被偷了.]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_depressed"><![CDATA[我的观察告诉我,我们注定要失败!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_irrational"><![CDATA[我们都应该生活在阴影之中!]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_stalwart"><![CDATA[阴影将为我们提供掩护.]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_courageous"><![CDATA[我们可以一起攀登高峰!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_focused"><![CDATA[欺骗是有用的]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_powerful"><![CDATA[我会分散他们的注意力]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_prosperous"><![CDATA[我们将驱散这群野兽!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_vigorous"><![CDATA[击昏并逃跑!]]></entry>
+		 
+	     <entry id="shadow_walker+str_stress_heal_self_stalwart"><![CDATA[我们要避开开阔的战场.]]></entry>
+	   
+	     <entry id="shadow_walker+str_stress_heal_party_courageous"><![CDATA[复仇是属于我的]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_random_party_member_focused"><![CDATA[我是个有名的剑客!]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[我要把毒药灌进他们的嘴里!]]></entry>
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[我们会逃脱追捕者的.]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[我的间谍技术很高超!]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[我可以预见死亡.]]></entry>
+		      
+	     <entry id="shadow_walker+str_bark_stress_fearful"><![CDATA[我们的计划落空了!]]></entry>
+	     
+	     <entry id="shadow_walker+str_bark_stress_paranoid"><![CDATA[我的隐蔽技能没有生效!]]></entry>
+
+
+
+	     <entry id="shadow_walker+str_bark_stress_masochistic"><![CDATA[我要用毒液刺透我的皮肤!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[黑夜,我受够你了!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[加快脚步!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[移动时不要绊倒!]]></entry>
+	   
+	     <entry id="shadow_walker+str_bark_stress_selfish"><![CDATA[他只会对付我,把那些给我.]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[我能回家吗?]]></entry>
+	  
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[我杀了多少人?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[你听说过伊里奥吗?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[我们为什么不抓一只鸡当晚餐?]]></entry>
+	
+	 
+
+	     <entry id="shadow_walker+str_change_pos_back_fearful"><![CDATA[我会移动到这里...]]></entry>
+	     <entry id="shadow_walker+str_change_pos_back_paranoid"><![CDATA[别回头看!]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_fwd_masochistic"><![CDATA[你不懂我的理念]]></entry>
+	     <entry id="shadow_walker+str_change_pos_fwd_irrational"><![CDATA[力量的定义是什么?]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_back_irrational"><![CDATA[你有听到鸡叫声吗?]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_depressed"><![CDATA[我永远没法拥有一个清晰的头脑.]]></entry>
+
+	     <entry id="shadow_walker+str_change_pos_back_depressed"><![CDATA[我的体能没有提高.]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_selfish"><![CDATA[我必须控制自己的思想.]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_back_selfish"><![CDATA[我好像不够敏捷.]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_ignore_command_fearful"><![CDATA[我的主人说我还不够强壮!]]></entry>
+	
+	     <entry id="shadow_walker+str_ignore_command_paranoid"><![CDATA[你认识我的主人吗?]]></entry>
+	 
+	     <entry id="shadow_walker+str_ignore_command_selfish"><![CDATA[这些棋子是我的收入来源.]]></entry>
+	    
+	     <entry id="shadow_walker+str_ignore_command_depressed"><![CDATA[我的主人最终还是去世了.]]></entry>
+	   
+	     <entry id="shadow_walker+str_ignore_command_irrational"><![CDATA[我听到咯咯咯的叫声!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_random_command_paranoid"><![CDATA[你想愚弄我吗?]]></entry>
+	    
+	     <entry id="shadow_walker+str_random_command_masochistic"><![CDATA[我是一棵小草!]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_abusive"><![CDATA[荣誉堕落的武士!]]></entry>
+	
+	     <entry id="shadow_walker+str_random_command_selfish"><![CDATA[力量是一朵成长的花,一首可爱的诗.]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_depressed"><![CDATA[枯燥无味.]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_irrational"><![CDATA[*咯咯咯*.]]></entry>
+	
+		 
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_fearful"><![CDATA[被暴风雨摧毁了...]]></entry>
+		     
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[你能打破它吗?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[你能把它折弯吗?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[你有听到风声吗?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[你对我的主人了解多少?]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_bark_stress_camp_masochistic"><![CDATA[我不会帮忙的.]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_abusive"><![CDATA[你不知道真正的力量!]]></entry>
+	   
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_selfish"><![CDATA[不要被打倒.]]></entry>
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_depressed"><![CDATA[今晚我很悲伤.]]></entry>
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_irrational"><![CDATA[它还在追捕我,那只...鸟!]]></entry>
+		 
+	   
+	     <entry id="shadow_walker+str_mark_self_masochistic"><![CDATA[看着我!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_depressed"><![CDATA[带我走!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_irrational"><![CDATA[我很害怕!]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_attack_friendly_paranoid"><![CDATA[你有带着玉器吗?]]></entry>
+	
+	     <entry id="shadow_walker+str_attack_friendly_abusive"><![CDATA[你有一条通往觉悟的道路.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_friendly_irrational"><![CDATA[我的头脑和智力都很敏锐.]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_masochistic"><![CDATA[这应该能让我清醒.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_self_depressed"><![CDATA[我听不见自己的想法.]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_irrational"><![CDATA[极强的理解力反而会带来痛苦.]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_block_combat_retreat_paranoid"><![CDATA[等等,我们跑不动了!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_depressed"><![CDATA[我们应该坚持到底...]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_masochistic"><![CDATA[我愿意为集体而死!]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_combat_retreat_irrational"><![CDATA[如果我们撤退,我就不能为团体而死了!]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_fearful"><![CDATA[我还没成大师.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_paranoid"><![CDATA[我必须为自己赢得战斗.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_hit_selfish"><![CDATA[这是什么意思?]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_masochistic"><![CDATA[古老的观念没有任何意义!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_self_hit_irrational"><![CDATA[我很擅长泡茶.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_missed_fearful"><![CDATA[我们该如何结交新朋友?]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_paranoid"><![CDATA[我无法达到最高水平的训练.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_masochistic"><![CDATA[我的自我发展是排在第一位的!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_comment_self_missed_irrational"><![CDATA[我没有影子.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_selfish"><![CDATA[你能感觉到吗?]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_abusive"><![CDATA[更高层次的思考!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_irrational"><![CDATA[和谐已逝.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_fearful"><![CDATA[我没有自由!]]></entry>
+	 
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[人性不灭!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_abusive"><![CDATA[你的攻击失败了!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_selfish"><![CDATA[我就是未来!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_irrational"><![CDATA[你已成为过去!]]></entry>
+	   
+	  
+	     <entry id="shadow_walker+str_comment_ally_hit_fearful"><![CDATA[不战而胜!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_paranoid"><![CDATA[担心点.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_hit_masochistic"><![CDATA[聚精会神!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_abusive"><![CDATA[训练的好处是显而易见的.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_irrational"><![CDATA[我能读懂你的心思.]]></entry>
+	     
+	     <entry id="shadow_walker+str_comment_ally_missed_fearful"><![CDATA[没有反应是最好的反应.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[我的能力正在衰退.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_missed_irrational"><![CDATA[嘘,你太好了!]]></entry>
+		 
+	  
+	     <entry id="shadow_walker+str_block_move_fearful"><![CDATA[我被诅咒了.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_paranoid"><![CDATA[这正是他们想要的.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_masochistic"><![CDATA[我更喜欢呆在这里.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_abusive"><![CDATA[还不是时候.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_irrational"><![CDATA[别碰那个瓶子!!]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_item_paranoid"><![CDATA[不要透露我们的计划.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_item_masochistic"><![CDATA[*瞪着你*]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_item_depressed"><![CDATA[阴影越来越大.]]></entry>
+	
+	     <entry id="shadow_walker+str_block_item_irrational"><![CDATA[我不想那样!!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_heal_paranoid"><![CDATA[环境变暗了吗?]]></entry>
+	  
+	 
+	     <entry id="shadow_walker+str_block_heal_masochistic"><![CDATA[我应该流血赎罪.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_heal_depressed"><![CDATA[不,让阴影带走我吧.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_heal_irrational"><![CDATA[黑暗.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_buff_paranoid"><![CDATA[你还不认识我,是吗?]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_buff_masochist"><![CDATA[我选择死亡.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_depressed"><![CDATA[别想保护我.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_irrational"><![CDATA[留到下次吧.]]></entry>
+		 
+	     <entry id="shadow_walker+str_monster_attack_unholy_smite"><![CDATA[你想从我们这里得到什么?]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_judgement"><![CDATA[不要评判我!]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_curse"><![CDATA[不,把脸转过去.]]></entry>
+	     <entry id="shadow_walker+str_bark_hobby"><![CDATA[这里只有一滴毒液...]]></entry>
+		
+	</language>
+
+</root>

@@ -1,0 +1,27 @@
+{
+    "props": [
+        {
+            "name": "mist",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/courtyard/obstacles/mist/mist.skel",
+                "audio_path": "/props/obstacles/mist",
+                "teleport": true,
+                "interaction_type": "torch_obstacle"
+            }
+        },
+        {
+            "name": "pillar",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/courtyard/obstacles/pillar/pillar.skel",
+                "audio_path": "/props/obstacles/pillar"
+                
+            }
+        }
+    ]
+}

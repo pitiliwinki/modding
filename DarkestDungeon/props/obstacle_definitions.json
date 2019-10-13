@@ -1,0 +1,59 @@
+{
+    "props": [
+        {
+            "name": "thorny_thicket",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/shared/obstacles/thorny_thicket/thorny_thicket.skel",
+                "audio_path": "/props/obstacles/thorny_thicket"
+            }
+        },
+        {
+            "name": "rubble",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/shared/obstacles/rubble/rubble.skel",
+                "audio_path": "/props/obstacles/rubble"
+            }
+        },
+        {
+            "name": "shipwreck",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/shared/obstacles/shipwreck/shipwreck.skel",
+                "audio_path": "/props/obstacles/shipwreck"
+            }
+        },
+        {
+            "name": "ancestor",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/shared/obstacles/ancestor_ghost/ancestor_ghost.skel",
+                "success_effects": [ ],
+                "fail_effects": [ ],
+                "health": 0.0,
+                "torchlight": 0.0,
+                "ancestor_talk": true,
+                "audio_path": "/props/obstacles/ancestor"
+            }
+        },
+        {
+            "name": "town_rubble",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "obstacle"
+                },
+                "graphics_file": "props/shared/obstacles/town_rubble/town_rubble.skel",
+                "audio_path": "/props/obstacles/town_rubble"
+            }
+        }
+    ]
+}

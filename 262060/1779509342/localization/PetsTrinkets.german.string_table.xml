@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <language id="german">
+ 
+<!-- Pet Trinket Mod By SoulSmile and Dem22. Most Art by Kaxen. German by Kranot and BunZ. -->
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_pet_patrol"><![CDATA[Tierfänger]]></entry>
+	<entry id="buff_rule_data_tooltip_pet_patrol"><![CDATA[Tierfänger]]></entry>
+	
+<!--Pet Catcher--> 
+    <entry id="str_monstername_brigand_pet_catcher_A"><![CDATA[Tierfänger Lehrling]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_B"><![CDATA[Tierfänger Geselle]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_C"><![CDATA[Meister Tierfänger]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_D"><![CDATA[Vorarbeiter Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_E"><![CDATA[Vorgesetzter Tierfänger]]></entry>
+	<!--Actual Death Effect Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_F"><![CDATA[Tierfänger Lehrling]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_G"><![CDATA[Tierfänger Geselle]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_H"><![CDATA[Meister Tierfänger]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_I"><![CDATA[Vorarbeiter Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_J"><![CDATA[Vorgesetzter Tierfänger]]></entry>
+	<!--Roaming Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_K"><![CDATA[Tierfänger Lehrling]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_L"><![CDATA[Tierfänger Geselle]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_M"><![CDATA[Meister Tierfänger]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_N"><![CDATA[Vorarbeiter Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_O"><![CDATA[Vorgesetzter Tierfänger]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_pole"><![CDATA[Stangenhieb]]></entry>
+    <entry id="str_monster_skill_pet_catch_cage"><![CDATA[Fürchte den Käfig]]></entry>
+	<entry id="str_monster_skill_pet_catch_stun"><![CDATA[Greifende Kontrolle]]></entry>
+	<entry id="str_monster_skill_pet_catch_backup"><![CDATA[Rufe Verstärkung]]></entry>
+	<entry id="str_monster_skill_pet_catch_flee"><![CDATA[Verschnaufpause]]></entry>
+	
+<!--Per Catcher Assistant--> 
+    <entry id="str_monstername_brigand_pet_assistant_A"><![CDATA[Lerhlings Assistenten Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_B"><![CDATA[Gesellen Assistenten Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_C"><![CDATA[Meisterassistenten Tierfänger]]></entry>
+	<entry id="str_monstername_brigand_pet_assistant_D"><![CDATA[Vorarbeiter Assistenten Tierfänger]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_E"><![CDATA[Vorgesetzter Assistenten Tierfänger]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_stab"><![CDATA[Stabstich]]></entry>
+    <entry id="str_monster_skill_pet_catch_position"><![CDATA[Startposition]]></entry>
+	<entry id="str_monster_skill_pet_catch_potion"><![CDATA[Notrationen]]></entry>
+	
+<!--Trained Hound--> 
+    <entry id="str_monstername_trained_dog_A"><![CDATA[Welpe im Training]]></entry>
+    <entry id="str_monstername_trained_dog_B"><![CDATA[Wachhund]]></entry>
+    <entry id="str_monstername_trained_dog_C"><![CDATA[Wohlerzogener Wachhund]]></entry>
+	<entry id="str_monstername_trained_dog_D"><![CDATA[Gehorsamer Wachhund]]></entry>
+    <entry id="str_monstername_trained_dog_E"><![CDATA[Gnadenloser Wachhund]]></entry>
+	
+	<entry id="str_monster_skill_trained_chomp"><![CDATA[Hundebiss]]></entry>
+    <entry id="str_monster_skill_trained_bite"><![CDATA[Hetzjagt]]></entry>
+	<entry id="str_monster_skill_trained_guard"><![CDATA[Bewache den Meister]]></entry>
+	
+<!--Trained Crab--> 
+    <entry id="str_monstername_trained_fishman_crabby_A"><![CDATA[Königskrabben Jungtier]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_B"><![CDATA[Königskrabben Protektor]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_C"><![CDATA[Schild Königskrabbe]]></entry>
+	<entry id="str_monstername_trained_fishman_crabby_D"><![CDATA[Königskrabben Wächter]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_E"><![CDATA[Gepanzerte Königskrabbe]]></entry>
+	
+	<entry id="str_monster_skill_crab_tide"><![CDATA[Flut]]></entry>
+    <entry id="str_monster_skill_crab_grip"><![CDATA[Scherengriff]]></entry>
+	<entry id="str_monster_skill_crab_shell"><![CDATA[Harter Panzer]]></entry>
+	<entry id="str_monster_skill_crab_counter"><![CDATA[Brechende Schere]]></entry>
+	
+<!--Trained Lochness Monster--> 
+    <entry id="str_monstername_trained_carrion_eater_big_A"><![CDATA[Nessie vom See Jungtier]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_B"><![CDATA[Heranwachsendes Nessie vom See]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_C"><![CDATA[Wütendes Nessie vom See]]></entry>
+	<entry id="str_monstername_trained_carrion_eater_big_D"><![CDATA[Gefährliches Nessie vom See]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_E"><![CDATA[Monströses Nessie vom See]]></entry>
+	
+	<entry id="str_monster_skill_lochness_slap"><![CDATA[Face Hugger]]></entry>
+    <entry id="str_monster_skill_lochness_acid"><![CDATA[Säurefresser]]></entry>
+	<entry id="str_monster_skill_lochness_spit"><![CDATA[Säure Spucker]]></entry>
+	<entry id="str_monster_skill_lochness_kill"><![CDATA[Wiederliche Explosion]]></entry>
+	
+<!--Pets Supply Items, tooltips, barks -->
+	<!--Crab Meat -->
+	<entry id="str_inventory_title_supplycrab_meat"><![CDATA[Königskrabbenfleisch]]></entry>
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA[Königskrabbenfleisch]]></entry>
+	<entry id="str_inventory_description_supplycrab_meat"><![CDATA[Eine seltene Delikatesse. Der Geschmack baut{colour_start|stress}Stress{colour_end} ab und stimmt positiv!]]></entry>
+	<!--Generic Crab Barks -->
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[Krabbenfleisch!]]></entry>	<entry id="bark_pets_supply_crab_meat"><![CDATA[*Bricht die Schere auf*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[Ist das Königskrabbe?]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[So Zart!]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*Lächelt*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[So Leicht.]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[Ich bin allergisch gegen Meeresfrüchte!]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[Haben wir zitronen?]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*Isst*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*Rülps*]]></entry>
+	<!--Class Crab Barks -->
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[Sie liebt Krabben!]]></entry>
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[Hier mein Mädchen!]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[Es ist Köstlicher als wertvoll]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[Der Wirt würde hierfür ein gutes sümmchen zahlen.]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[Ich bin nicht wählerisch]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[*Genervter blick*]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[Krabbe hat heilende Wirkungn.]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[Ohm.]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[Ich fühle mich angespornt!]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[Ich aß einst Krabbe in der stadt von Monico.]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*Blickt verwundert*]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*sieht sich nach Agatha um*]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[Wahrlich Meisterhaft zuberitet!]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[Ein wundervoller Apperettiv!]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[Ein wenig Seltsam doch es schmeckt.]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[Es hat einen komischen gerucch, irgendwie fischig.]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[Ich würde es lieber in einem Ritual verwenden. Doch leider bleibt es nicht lange frisch.]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[Villeicht sollten wir mehr finden.Für einen stattlichen Profit.]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[Ich brauche kein Fleisch.]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[Ich bin generell Vegetarier!]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[Meine alte Mannschaft mochte blaue Krabbe!]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[Essen vom meer, welch eine erfrischende abwechslung!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA["Königskrabben Buff"]]></entry>
+
+	<entry id="buff_rule_data_tooltip_crab_meat_fx"><![CDATA[Königskrabben Buff]]></entry>
+
+	
+<!--Pet Quirk Names and custom tips-->
+	<entry id="str_quirk_name_PETS_quirk_1"><![CDATA[Angst vor den Tierfängern]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_2"><![CDATA[Tierfänger Gegner]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_3"><![CDATA[Angst vor dem Nessie vom See]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_4"><![CDATA[Jäger des Nessie vom See]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_lochness_slap"><![CDATA[Gesicht Hugger]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_1_x"><![CDATA[{colour_start|pet_a}Es ist schwer zu kämpfen wenn du den käfig fürchtest.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_2_x"><![CDATA[{colour_start|pet_a}Zorn auf die Tierfänger gibt euch kraft.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_3_x"><![CDATA[{colour_start|pet_a}Die warheit über die legenden versetzt dich in entsetzen!{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_4_x"><![CDATA[{colour_start|pet_a}Du hast einen schwachpunkt in der mythischen kreatur entdeckt!{colour_end}]]></entry>
+	
+<!--Quirk Triggered in Battle Barks-->
+	<entry id="pets_bark_trigger_1"><![CDATA[*Panisch* Sie weden uns einperren! Wir sollten fliehen!]]></entry>
+	<entry id="pets_bark_trigger_2"><![CDATA[Ich werde mich rächen an diesen Tierfänger-Feiglingen.!]]></entry>
+	<entry id="pets_bark_trigger_3"><![CDATA[Dieses... Dieses monster wird uns zerstören!]]></entry>
+	<entry id="pets_bark_trigger_4"><![CDATA[Ich habe einsicht in seine schwächen!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_trained_carrion_eater_big"><![CDATA[Nessie vom See]]></entry>
+	
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_a"><![CDATA[Haustier (klein)]]></entry>
+	<entry id="trinket_rarity_pet_b"><![CDATA[Haustier (mittel) ]]></entry>
+	<entry id="trinket_rarity_pet_c"><![CDATA[Haustier (groß)]]></entry>
+	<entry id="trinket_rarity_pet_f"><![CDATA[Haustier Vorräte]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined1"><![CDATA[{colour_start|pet_a}"Wählerischer Esser"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined2"><![CDATA[{colour_start|pet_a}"Entspannter Esser"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined3"><![CDATA[{colour_start|pet_a}"Allesfresser"{colour_end}]]></entry>
+	
+<!-- Pet Food -->
+	<entry id="str_inventory_title_trinketSoulPetsFood1"><![CDATA[Leckerlies und gutes essen!]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood2"><![CDATA[Naschereien und Leckerlies!]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood3"><![CDATA[Freude des Allesfressers!]]></entry>
+    
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[Spinne]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[Spinne]]></entry>
+
+<!--Fix Missing Effect String-->	
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[on kill: ]]></entry>
+	<entry id="tray_icon_tooltip_buff_duration_quest_complete_format"><![CDATA[%s (Quest Abgeschlossen)]]></entry>
+	
+	<entry id="buff_stat_tooltip_cure_poison_chance"><![CDATA[%+d%% {colour_start|blight}Poiston{colour_end} Heilen Chance]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Klar {colour_start|stress}Grusel{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Heilen {colour_start|blight}Poiston{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Heilen {colour_start|bleed}Bluten{colour_end}]]></entry>
+	
+<!-- Pet Names -->
+	<entry id="str_inventory_title_trinketSoulPets1"><![CDATA["Waddle" (Mini-Schwein)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets2"><![CDATA["Edgar" (Elster)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets3"><![CDATA["Cactar" (Kaktus)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets4"><![CDATA["Penny" (Schabe)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets5"><![CDATA["Arlene" (Huhn)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets6"><![CDATA["Dixie" (Carolinataube)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets7"><![CDATA["Fattie" (Katze)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets8"><![CDATA["Gracie" (Braunbär)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets9"><![CDATA["Laika" (Coonhound)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets10"><![CDATA["Irving" (Waschbär)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets11"><![CDATA["Ethel" (Clownfisch)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets12"><![CDATA["Lola" (Gecko)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets13"><![CDATA["Frank" (Schildkröte)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets14"><![CDATA["Dig Dug" (Maulwurf)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets15"><![CDATA["Ginger" (Manguste)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets16"><![CDATA["Zoey" (Tintenfisch)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets17"><![CDATA["Quincy" (Krähe)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets18"><![CDATA["Raquelle" (Hase)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets19"><![CDATA["Agatha" (Eule)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets20"><![CDATA["Warden" (Armadillo)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets21"><![CDATA["Sting" (Spinne)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets22"><![CDATA["Baba" (Bullenfrosch)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets23"><![CDATA["Ruby" (Rotkardinal)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets24"><![CDATA["Cosmo" (Fleisch-Schnabeltier)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets25"><![CDATA["Ottovordemgentschenfelde" (Ratte)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets26"><![CDATA["Atlas" (Falkenhuhn)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets27"><![CDATA["Cantus" (Schwalbe)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets28"><![CDATA["Hostia" (Lamm)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets29"><![CDATA["Hae-Nuri" (Afghanen Hund)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets30"><![CDATA["Jaden" (Corgi)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets31"><![CDATA["Ayumu" (Shiba Inu)]]></entry>		
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_x"><![CDATA[bei Monster tod: Gruppe {colour_start|stress}-2 Stress{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_b_x"><![CDATA[{colour_start|notable}Überlebensinstinkt:{colour_end} bei Monster tod: Gruppe {colour_start|disease}Disease Widerstehen{colour_end} +10%% (2 rds)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_c_x"><![CDATA[{colour_start|blight}Pesthauch Boost:{colour_end} +10%% {colour_start|blight}Poiston Chance{colour_end}]]></entry>
+	
+  <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_x"><![CDATA[{colour_start|yellow}Zeichen der Elster:{colour_end} Freundliches Skill Ziel: {colour_start|stress}Stress{colour_end} -3]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_b_x"><![CDATA[{colour_start|notable}Erbäute den lappen: {colour_end}Freundliches Skill Ziel: {colour_start|bleed}Heilen Bluten{colour_end} (+75%% chance) ]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_c_x"><![CDATA[Freundliche Skill nutzung: {colour_start|stress}Stress{colour_end} -2 Self]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_d_x"><![CDATA[Bei Angriffstreffer: {colour_start|mark}Mark Target{colour_end} (2 rds)(120%% base)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_e_x"><![CDATA[Bei Monster tod: +3%% {colour_start|white}Resolve XP Self{colour_end} (Quest End) ]]></entry>
+   
+
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_x"><![CDATA[{colour_start|pop_text_crit_damage}Glückshase:{colour_end} Freundlicher Skill: +6 {colour_start|pop_text_crit_damage}Crit Chance{colour_end} (2 rds)(75%% Chance)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_b_x"><![CDATA[Freundlicher Skill: -25%% {colour_start|stress}Stress Received{colour_end} (2 rds)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_c_x"><![CDATA[Bei Kill: +2 {colour_start|blue} Gruppen Geschwindigkeit {colour_end} (2 rds)(75%% Chance)]]></entry> 
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ALRA_pet_tooltip_x"><![CDATA[{colour_start|surprised}Cardinals Warnung:{colour_end} -20%% Gruppe {colour_start|surprised}Surprised{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_x"><![CDATA[{colour_start|bleed}Klauenangriff:{colour_end} Wenn getroffen: {colour_start|bleed}Bluten{colour_end} 1 pt/rd for 3 rds (125%% base)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_b_x"><![CDATA[Wenn getroffen: {colour_start|bleed}Kritisch Bluten{colour_end} 4 pts/2 rds(10%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_c_x"><![CDATA[Bei Kill: Party: -3 {colour_start|stress}Stress{colour_end} (75%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_d_x"><![CDATA[{colour_start|stun}Flutter:{colour_end} Wenn getroffen: +12%% {colour_start|stun}Stun Widerstehen{colour_end} 2 rds (150%% base)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_x"><![CDATA[{colour_start|move}Zungenzug:{colour_end} 35%% Chance {colour_start|move}Pull{colour_end} 1]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}Ablecken:{colour_end} On Kill: 75%% Chance {colour_start|healhp}+3 HP{colour_end}]]></entry>	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_x"><![CDATA[{colour_start|debuff}Schlammwurf:{colour_end} Bei Angriffstreffer: -10%% Accuracy (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}Schweinefraß:{colour_end} Auf Monster Kill: {colour_start|healhp}+3 HP Self{colour_end} (60%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_c_x"><![CDATA[Auf Monster Kill: {colour_start|stress}-4 Party Stress{colour_end} (60%% Chance)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_x"><![CDATA[{colour_start|stun}Hühnertanz:{colour_end} Auf Freundlicher Fähigkeit: {colour_start|stress}Klar Grusel{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_b_x"><![CDATA[Auf Monster Kill: +50%% {colour_start|healhp}Healing Skills{colour_end} (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_c_x"><![CDATA[Auf Freundlicher Fähigkeit: Gruppe Andere: {colour_start|stress}Stress -3{colour_end}]]></entry>
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_x"><![CDATA[{colour_start|healhp}Neues Lben:{colour_end} Friendly Skill: {colour_start|healhp}Party Heal 0-2{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_b_x"><![CDATA[{colour_start|debuff}Durchdringender Schrei:{colour_end} Wenn getroffen: Enemies -3 {colour_start|debuff}Dodge{colour_end} (2 rds)]]></entry>
+	
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_x"><![CDATA[{colour_start|green}Kaktus Verteidigung:{colour_end} Wenn getroffen: 20%% {colour_start|blue}Damage Reflection{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_b_x"><![CDATA[{colour_start|attacktype}Nadelstich:{colour_end} Wenn getroffen: Chance zu {colour_start|bleed}Gegenblutung{colour_end} 1 pt/rd for 2 rds]]></entry>
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_c_x"><![CDATA[
+Nach einem Angriffstreffer: {colour_start|green}Pet the Cactus:{colour_end} Chance zu {colour_start|bleed}
+Selbstblutung{colour_end} 1 pt/rd for 2 rds]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_x"><![CDATA[{colour_start|yellow}Katzenklauen:{colour_end} Bei Angriffstreffer: Chance zu {colour_start|bleed}Bluten{colour_end} 1 pt/2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_b_x"><![CDATA[Bei Angriffstreffer: 10%% Chance zu {colour_start|bleed}Kritisch Bluten{colour_end} 3 pts/3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_c_x"><![CDATA[On Kill: {colour_start|debuff}
+Deindliche Gruppe Schwächen:{colour_end} -2 SPD (1 rd)(115%% base)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_d_x"><![CDATA[{colour_start|debuff}Debuff-Ziel:{colour_end} -10%% {colour_start|bleed}Bluten Widerstehen{colour_end} (2 rds)(150%% base)]]></entry>
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_x"><![CDATA[{colour_start|stun}Bärenumarmung:{colour_end} Bei Angriffstreffer: Chance zu {colour_start|stun}Stun{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}Bärenklaue:{colour_end} Wenn getroffen: Chance zu {colour_start|bleed}Bluten{colour_end} 1 pt/Rnd for 3 rds]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_c_x"><![CDATA[{colour_start|buff}Bärenverteidigung:{colour_end} Wenn getroffen: +4 {colour_start|buff}PROT{colour_end} 2 rds (75%% Chance)]]></entry>
+	   <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_d_x"><![CDATA[{colour_start|notable}Bärenfessel:{colour_end} On {colour_start|notable}Breakthru Skill:{colour_end} {colour_start|stun}Betäuben Sie Selbst{colour_end}]]></entry>
+	    
+	   
+	 <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_x"><![CDATA[{colour_start|buff}Frecher Säuger:{colour_end} On Kill: Gruppe Andere: {colour_start|stress}-4 Stress{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_b_x"><![CDATA[{colour_start|scouting}Wachbärvorhut:{colour_end} +7%% {colour_start|scouting}Scouting & 
+Zufallsmonster überrascht{colour_end}]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_c_x"><![CDATA[{colour_start|trap}Nocturnal Scavenger:{colour_end} On Kill: +15%%  {colour_start|trap}Beschädigung{colour_end} Fackel Unten 71 (2 Rds)]]></entry>
+	  
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_x"><![CDATA[{colour_start|surprised}Alchemische Vielfalt:{colour_end} Auf Fräulein: -3 {colour_start|stress}Stress{colour_end}]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_b_x"><![CDATA[Wenn getroffen: 
+Chance auf +5 {colour_start|buff}PROT{colour_end} 
+auf selbst (2 rds)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_x"><![CDATA[{colour_start|bleed}Geschmack von Blut:{colour_end} Auf Monster Kill: 35%% {colour_start|bleed}Bluten Amount{colour_end} 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Welpenliebe: {colour_end}+15%% {colour_start|green}Heilfähigkeiten{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_x"><![CDATA[{colour_start|blue}Saniquarium:{colour_end} +20%% {colour_start|stress}Stress Heilen{colour_end} if {colour_start|notable}Fackel{colour_end} 
+über 80%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_b_x"><![CDATA[{colour_start|notable}Blasenreinigung:{colour_end} Auf Monster Kill: {colour_start|stress}Klar Party Grusel{colour_end} ]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_x"><![CDATA[{colour_start|healhp}Harmonische Heilung:{colour_end} +50%% {colour_start|healhp}Heilfähigkeit{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Flinke Melodie:{colour_end} Wenn getroffen: +2 {colour_start|buff}Geschwindigkeit{colour_end} (2 rds)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_x"><![CDATA[{colour_start|blight}Gecko Widerstand:{colour_end} Wenn getroffen: +12%% {colour_start|blight}Poiston{colour_end} Widerstehen (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Schwanztechnik:{colour_end} Auf Monster Kill: +12 Ausweichen (1 Rd)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_x"><![CDATA[Held Wurde Getroffen: {colour_start|stress}-3 Stress{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Schildkrötenabwehr:{colour_end} On Kill: {colour_start|buff}Party PROT +4{colour_end} (2 rds)(75%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}
+Schildkrötenpanzer:{colour_end} Auf Freundlicher Fähigkeit: {colour_start|yellow}1 Self Block{colour_end} (33%% Chance)]]></entry>
+	
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_x"><![CDATA[Nur erste Runde: +25%% {colour_start|stun}Stun Widerstehen{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_b_x"><![CDATA[{colour_start|surprised}Schaufelschlag:{colour_end} Wenn getroffen: {colour_start|stun}Counter Stun{colour_end} (115%% base)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_c_x"><![CDATA[Wenn getroffen: {colour_start|bleed}Umgehe Blutung{colour_end} 1 pt rd/3 rds (130%% base)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_x"><![CDATA[{colour_start|stun}Tentakelknoten:{colour_end} Auf Monster Kill: {colour_start|move}Shuffle Enemies{colour_end} (107%% base)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_b_x"><![CDATA[Auf Monster Kill: {colour_start|stun}Stun Enemies{colour_end} (117%% base)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_x"><![CDATA[{colour_start|bleed}Rattenbiss:{colour_end} Wenn getroffen: {colour_start|bleed}Bluten{colour_end} 2 pt/rd for 3 rds (120%% base)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_b_x"><![CDATA[{colour_start|move}Rattenbalance:{colour_end} +12%% {colour_start|move}Move Widerstehen{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_c_x"><![CDATA[{colour_start|stress}Widerspenstiger Nager:{colour_end} On Kill: {colour_start|stress}-2 Party Stress{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_x"><![CDATA[{colour_start|blue}Krähenschmaus:{colour_end} Auf Freundlicher Fähigkeit: {colour_start|stress}Klar Grusel{colour_end} (75%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_b_x"><![CDATA[Auf Monster Kill: +20%% {colour_start|stress}Party Stress Heal{colour_end} Received zum 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_c_x"><![CDATA[Wenn getroffen: {colour_start|debuff}Debuff Enemy Party:{colour_end} -4 CRIT zum 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SHIE_pet_tooltip_x"><![CDATA[{colour_start|stun}Mangusten Tricks:{colour_end} +15%% DMG gegen Bestien und Spinnen]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_x"><![CDATA[{colour_start|healhp}Himmlische Heilung:{colour_end} Friendly Skill: {colour_start|healhp}Heilen 0-4{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}Himmlisches Gefäß:{colour_end} Wenn getroffen: +4 {colour_start|yellow}CRIT Chance{colour_end} (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_c_x"><![CDATA[{colour_start|harmful}Opfergeschenk:{colour_end} Wenn getroffen: {colour_start|harmful}-2 HP Selbst{colour_end} Zuschüsse {colour_start|stress}-2 Gruppenstress{colour_end}]]></entry>
+	
+
+	 <entry id="buff_stat_tooltip_upgrade_discount_SHAD_pet_tooltip_x"><![CDATA[{colour_start|stealth}Schattenwelle:{colour_end} Andere Helden: {colour_start|stealth}Stealth{colour_end} 1 rd (25%% Chance)]]></entry>
+	 
+	 
+	 <entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_x"><![CDATA[{colour_start|harmful}Hündisches Knurren:{colour_end} Wenn getroffen: -2 {colour_start|harmful}SPD{colour_end} Enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Hunde Ausdauer:{colour_end} Wenn getroffen: +10 {colour_start|stun}Stun Widerstehen{colour_end} (2 Rds)]]></entry>
+	 
+	 
+  
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_x"><![CDATA[{colour_start|yellow}Armadillo Rüstung:{colour_end} 17%% Chance 1 {colour_start|yellow}Block{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_b_x"><![CDATA[Wenn getroffen: +5%% {colour_start|yellow}PROT{colour_end} (2 rds)(150%% base)]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_c_x"><![CDATA[On Kill: Gruppe: +7 ACC (1 rd)]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_x"><![CDATA[{colour_start|yellow}Verspielter Fokus:{colour_end} Trample: +3  {colour_start|buff}CRIT{colour_end}/+7 {colour_start|buff}ACC{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_b_x"><![CDATA[{colour_start|mark}Corgi Ziel:{colour_end} On Hit: {colour_start|mark}Mark Target{colour_end} (50%% Chance) (2 rds)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_c_x"><![CDATA[{colour_start|guard}Schnapp sie:{colour_end} Wenn getroffen: +25%% Damage {colour_start|mark}Markiert{colour_end} (2 rds)]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_d_x"><![CDATA[{colour_start|stress}-15%% Stress{colour_end} When {colour_start|notable}Fackelschein 30-70%%{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_x"><![CDATA[{colour_start|surprised}Trauernder Vogelgesang:{colour_end} Auf Monster Kill: -3 {colour_start|stress}Stress{colour_end} Party]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}Inspirierte Heilung:{colour_end} Auf Monster Kill: 2 HP/rd zum 2 rds (20%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}Melodische Heilung: {colour_end}Auf Monster Kill: +4 Party HP (5%% Chance)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_d_x"><![CDATA[{colour_start|stress}Himmlischer eingriff:{colour_end} Auf Monster Kill: {colour_start|bleed}Party Heilen Bluten{colour_end} (20%% Chance)]]></entry>
+	
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_x"><![CDATA[{colour_start|debuff}Hundebiss:{colour_end} On Hit: {colour_start|debuff}-3 Dodge/-3 PROT{colour_end} (2 Rds) ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_b_x"><![CDATA[{colour_start|harmful}Futterwahn:{colour_end} On Kill: {colour_start|harmful}+20%% Damage/+2 CRIT{colour_end} (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_c_x"><![CDATA[{colour_start|stress}Voller magen:{colour_end} On Kill: {colour_start|stress}-2 Party Stress{colour_end}]]></entry>
+	
+	
+	<!--Pets Plots Caretaker Goal, Quest Titles and Descriptions, Failure, Success, Post event wrap-up-->
+
+
+	<!--Town Event: Start Pet Catcher Quest Chain -->
+    <entry id="town_event_title_first_pets_event_A"><![CDATA[Besiege die Tierfänger]]></entry>
+    <entry id="town_event_description_first_pets_event_A"><![CDATA[Die Tierfänger Fangen Tiere im Labyrinth, Dem wald und der Bucht Zum Trainieren und Testen. Wenn du eine Patroullie Besiegst könnte eines der befreiten tiere deiner begleiter werden! Suche zuerst im Labyrinth.]]></entry>
+	<entry id="town_event_info_first_pets_event_A"><![CDATA[Abgesehen von Plotquests, findest du die {colour_start|pet_a}Tierfänger{colour_end} mit einer geringen warscheinlichkeit im Labyrinth dem wald oder der bucht. Sei auf der hut!]]></entry>
+
+	<!--Warrens 1--> 		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_1"><![CDATA[Besiege den Lehrlings Tierfänger im Wald]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_1"><![CDATA[{?hero_names}%s Reise zum Labyrint um die Tierfänger zu besiegen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_1"><![CDATA[Besiege den Lehrlings Tierfänger im Labyrinth]]></entry>
+	<entry id="str_plot_pets_xwarrens_1_tip"><![CDATA[Die Tierfänger haben auf Grausame weise tieren gehorsam antrainiert!]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_failure"><![CDATA[{?hero_names}%s wurde von Lerhlings Tierfänger getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_success"><![CDATA[{?hero_names}%s befreite ein tier vom Lehrlings Tierfänger, aber der Tierfänger entkahm! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_1"><![CDATA[Der Lehrlings Tierfänger Wurde besiegt]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_1"><![CDATA[Tiere im Labyrint sind sicher aber nur für eine weile ...]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_1"><![CDATA[Besige den Lehrlings Tierfänger]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_1"><![CDATA[Besige den Lehrlings Tierfänger und seine Truppe um die Tiere zu retten. {colour_start|yellow}Hinweis:{colour_end} Dies Quest startet die{colour_start|pet_a}Haustier{colour_end} Abenteuersequenz, In der du {colour_start|pet_a}Pet Trinkets{colour_end} verdienst. Siehe die nächste quest in der Bucht, Allerdings müssen mehrere bosse besiegt werden.]]></entry>
+	
+	 
+	<!--Warrens 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_2"><![CDATA[Besiege den Gesellen Tierfänger im Labyrinth]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_2"><![CDATA[{?hero_names}%s Reise zum Labyrint um die Tierfänger zu besiegen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_2"><![CDATA[Besiege den Gesellen Tierfänger im Labyrinth]]></entry>
+	<entry id="str_plot_pets_xwarrens_2_tip"><![CDATA[Diesemal ist das zu erkundende gebiet wesentlich größer. Kaufe alles was du tragen kannst.]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_failure"><![CDATA[{?hero_names}%s wurde von Gesellen Tierfänger getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_success"><![CDATA[{?hero_names}%s befreite ein tier vom Gesellen Tierfänger, aber der Tierfänger entkahm. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_2"><![CDATA[Besige den Gesellen Tierfänger]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_2"><![CDATA[Der Gesellen Tierfänger wird hier nichtmehr jagen.]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_2"><![CDATA[Stoppe den Gesellen Tierfänger im Labyrinth]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_2"><![CDATA[Ein erfahrener {colour_start|pet_a}Gesellen Tierfänger{colour_end} Wurde ausgesand um das werk fortzuführen. Halte ihn auf!]]></entry>
+	
+	<!--Warrens 3-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_3"><![CDATA[Besiege den Vorgesetzten Tierfänger im Labyrinth]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_3"><![CDATA[{?hero_names}%s Reise zum Labyrint um die Tierfänger zu besiegen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_3"><![CDATA[Besiege den Vorgesetzten Tierfänger]]></entry>
+	<entry id="str_plot_pets_xwarrens_3_tip"><![CDATA[Die Wege die du wählst könnten den unterschied zwischen leben und tod ausmachen. Viel Glück!]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_failure"><![CDATA[{?hero_names}%s wurde von Vorgesetzten Tierfänger im Labyrinth getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_success"><![CDATA[{?hero_names}%s befreite ein tier vom Vorgesetzten Tierfänger, aber der Tierfänger entkahm in die Bucht! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_3"><![CDATA[Vanquish the Executive Pet Catcher]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_3"><![CDATA[Die Helden konfrontierten die Vorgesetzter Tierfänger, wer entkam in die Bucht!]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_3"><![CDATA[Besiege den Vorgesetzten Tierfänger]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_3"><![CDATA[Der {colour_start|pet_a}Vorgesetzte Tierfänger{colour_end} leitet die gesamte aktion! Er hat sich tief im labyrinth versteckt, aber ihr müsst ihn finden! Kaufe alles was du tragen kannst.]]></entry>
+	
+		<!--Warrens 4 -->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_4"><![CDATA[Erforsche den seltsamen Tunnel]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_4"><![CDATA[{?hero_names}%s Erforschte den tunnel den die haustiere offengeleft haben. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_4"><![CDATA[Erforsche den Seltsamen tunnel.]]></entry>
+	<entry id="str_plot_pets_xwarrens_4_tip"><![CDATA[Dieser Tunnel hat eine ruihige heilende auststrahlung aber seid trozdem auf der hut.]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_failure"><![CDATA[{?hero_names}%s Ist Im seltsamen Tunnel gestorben. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_success"><![CDATA[{?hero_names}%s Erforschte den Seltsamen tunnel und ist wie neu gebohren! Ist das der dank der Tiere? ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_4"><![CDATA[Erforsche den Seltsamen tunnel]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_4"><![CDATA[Die helden haben den Seltsamen Tunnel erforscht!]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_4"><![CDATA[Erforsche den Seltsamen tunnel]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_4"><![CDATA[Eines der {colour_start|pet_a}Haustiere{colour_end}, trägt eine fackel im maul und will scheinbar das die helden folgen ... Es lässt nicht von euch ab und ihr folgt ... Bis ihr den seltsamen tunnel erreicht ... ]]></entry>
+	
+	
+
+	
+	 <!--Weald 1-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_1"><![CDATA[Folge dem Lehrlings Tierfänger in den Wald]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_1"><![CDATA[{?hero_names}% Jagte den Lehrlings Tierfänger tief in den Wald. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_1"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="str_plot_pets_xweald_1_tip"><![CDATA[Da der Tierfängerassistent heilt ist es eine gute ide ihn zuerst zu töten!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_failure"><![CDATA[{?hero_names}% Wurde vom Tierfänger im Wald Besiegt. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_success"><![CDATA[{?hero_names}%s Tötete den Lehrlings Tierfänger. Er wird keinem Tier mehr leid zufgen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_1"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_1"><![CDATA[Ihr habt endlich den Lehrlings Tierfänger Besiegt!]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_1"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_1"><![CDATA[Ihr habt den {colour_start|pet_a}Lehrlings Tierfänger{colour_end} In den verwundenen pfaden des waldes gefunden. Töte ihn und befreie die Tiere!]]></entry>
+	
+	<!--Weald 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_2"><![CDATA[Töte den Meister Tierfänger im Wald.]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_2"><![CDATA[{?hero_names}%s Folgte dem weg in den wald um den Meister Tierfänger zu finden ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_2"><![CDATA[Töte den Meister Tierfänger im Wald]]></entry>
+	<entry id="str_plot_pets_xweald_2_tip"><![CDATA[Verlauft euch nicht. Die Tierfänger haben viele fallen gelegt!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_failure"><![CDATA[{?hero_names}%s Wurde vom Meister Tierfänger getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_success"><![CDATA[{?hero_names}%s Hat den Meister Tierfänger getötet. Hoffentlich ist das das ende der Tierfänger! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_2"><![CDATA[Töte den Meister Tierfänger im Wald]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_2"><![CDATA[Der Meister Tierfänger hat sich im wald verschanzt.]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_2"><![CDATA[Töte den Meister Tierfänger im Wald]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_2"><![CDATA[Der {colour_start|pet_a}Meister Tierfänger{colour_end} Hat sich in den windungen des waldes versteckt. Beende seine untaten frimmer.]]></entry>
+	
+	<!--Weald 3 -->		 
+	<entry id="str_caretaker_goal_plot_pets_xweald_3"><![CDATA[Jage den Vorgesetzten Tierjäger im wald]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_3"><![CDATA[{?hero_names}%s Reiste in den wald um den Vorgesetzten Tierfänger zu stellen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_3"><![CDATA[Jage den Vorgesetzten Tierjäger]]></entry>
+	<entry id="str_plot_pets_xweald_3_tip"><![CDATA[Beende die schreckensherrschaft der Tierfänger. Solltet ihr siegen werdet ihr helden des Tierreichs sein!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_failure"><![CDATA[{?hero_names}%s Wurde vom Vorgesetzten Tierfänger Vernichtet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_success"><![CDATA[{?hero_names}%s Vernichtete den Vorgesetzten Tierfänger. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_3"><![CDATA[Jage den Vorgesetzten Tierjäger im wald]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_3"><![CDATA[Ihr habt den Vorgesetzten Tierfänger getötet.]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_3"><![CDATA[Jage den Vorgesetzten Tierjäger im wald]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_3"><![CDATA[Der {colour_start|pet_a}Vorgesetzte Tierfänger{colour_end} Hat sich hier verschanzt. Kauf alles was du tragen kannst. Diese mission wird nicht leicht!]]></entry>
+	
+	<!--Cove 1 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_1"><![CDATA[Folge dem Lehrlings Tierfänger in die bucht.]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_1"><![CDATA[{?hero_names}%s reiste los um die Tierfänger in der bucht zu stellen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_1"><![CDATA[Besiege den Lehrlings Tierfänger]]></entry>
+	<entry id="str_plot_pets_xcove_1_tip"><![CDATA[Die Tierfänger haben ruhelos trainiert um ihre wilderei zu betreiben!]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_failure"><![CDATA[{?hero_names}%s Wurde in der bucht vom Lehrlings Tierfänger getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_success"><![CDATA[{?hero_names}%s Besieget den Lehrlings Tierfänger welcher aber entkahm! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_1"><![CDATA[Besiege den Lehrlings Tierfänger]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_1"><![CDATA[Der Lehrlings Tierfänger wurde erneu aufgespur und in der bucht gestellt.]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_1"><![CDATA[Besiege den Lehrlings Tierfänger]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_1"><![CDATA[Der {colour_start|pet_a}Lehrlings Tierfänger{colour_end} -- Der feigling -- ist entkommen und hat verstärkung gesammelt. Vernichte ihn!]]></entry>
+	
+	<!--Cove 2 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_2"><![CDATA[Konfrontiere den Meister Tierfänger in der Bucht]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_2"><![CDATA[{?hero_names}%s Ist in die bucht gereist um den Meister Tierfänger zu stellen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_2"><![CDATA[Konfrontiere den Meister Tierfänger in der Bucht]]></entry>
+	<entry id="str_plot_pets_xcove_2_tip"><![CDATA[Dieser teil der Bucht ist tiefer als erwartet. Die suche erweist sich als schwerer als gedacht.]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_failure"><![CDATA[{?hero_names}%s Wurde bei der jagt auf den Meister Tierfänger Getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_success"><![CDATA[{?hero_names}%s Hat den Meister Tierfänger eingeholt und besiegt. Leider ist der misterkl nach sden geflohen. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_2"><![CDATA[Konfrontiere den Meister Tierfänger in der Bucht]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_2"><![CDATA[Der Meister Tierfänger wurde Konfrontiert]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_2"><![CDATA[Konfrontiere den Meister Tierfänger in der Bucht]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_2"><![CDATA[Der {colour_start|pet_a}Meister Tierfänger{colour_end} Versucht un in den tieferen gängen abzuschtteln. Versorge dein team und sammelt euren mut!]]></entry>
+	
+	<!--Cove 3 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_3"><![CDATA[Jage den Vorgesetzten Tierjäger in der Bucht]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_3"><![CDATA[{?hero_names}% ging in die Bucht um den Vorsitzenden Tierfänger zu finden. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_3"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="str_plot_pets_xcove_3_tip"><![CDATA[Der Tierfänger hat einen vorteil, Die Bucht hat lange und verwirrende tunnel, Bring alles mit was du tragen kannst!]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_failure"><![CDATA[{?hero_names}%s Wurde vom Vorsitzenden Tierfänger Getötet. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_success"><![CDATA[{?hero_names}%s Fand und verschäuchte den Vorgesetzten Tierfänger aus der Bucht! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_3"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_3"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_3"><![CDATA[Folge dem Lehrlings Tierfänger]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_3"><![CDATA[Der {colour_start|pet_a}Vorgesetzte Tierfänger{colour_end} Hat versucht euch in der Bucht abzuhängen. Er versteckt sich tief in den Hölen. Kaufe Alles was du tragen kannst.]]></entry>
+	
+
+<!-- Phase 2 Strings -->
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_e"><![CDATA[Haustier (Elemental)]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined5"><![CDATA[{colour_start|pet_a}"Elemental Vernichtung"{colour_end}]]></entry>
+ 
+<!-- Pet Names Phase 2 -->
+	<entry id="str_inventory_title_trinketSoulPets32"><![CDATA["Sage" (Bulgae)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets33"><![CDATA["Bella" (Orchideen Gottesanbeterin)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets34"><![CDATA["Velox" (Rotfuchs)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets35"><![CDATA["Aurora" (Korallenschlange)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets36"><![CDATA["White Fang" (Skeletwolf)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets37"><![CDATA["Scout" (Weißkopfseeadler)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets38"><![CDATA["Rocky" (Schnecke)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets39"><![CDATA["Buddy" (Deuscher Spitz)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets40"><![CDATA["Pallium" (Chameleon)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets41"><![CDATA["Pussi" (Puma)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets42"><![CDATA["Heka" (Igel)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets43"><![CDATA["A'driel" (Schäuneneule)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets44"><![CDATA["Geysis" (Wasser Elemenargeist)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets45"><![CDATA["Ignis" (Feuer Elementargeist)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets46"><![CDATA["Picklepee" (Phönix)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets47"><![CDATA["Echo" (Wolf)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets48"><![CDATA["Sybil" (Kurzkopfgleitbeutler)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets49"><![CDATA["Artemis" (Dachs)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets50"><![CDATA["Gizmo" (Bronze Bulle)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets51"><![CDATA["Penelope" (Junges Einhorn)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets52"><![CDATA["Sanctus" (Yorkshire Terrier)]]></entry>
+	
+	<!--Fang Summons Skills Names-->
+	<entry id="str_monstername_petsskeleton_common_B"><![CDATA[Fang's Diener]]></entry>
+	<entry id="str_monster_skill_fang_summon_cudgel"><![CDATA[Fang's Diener Cudgel]]></entry>
+    <entry id="str_monster_skill_fang_summon_cudgel_weak"><![CDATA[Fang's Diener Schwacher Cudgel]]></entry>
+	
+	<!--New False Rule-->
+	<entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[
+Außer]]></entry>
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_x"><![CDATA[{colour_start|notable}Verspielter Welpe:{colour_end} Auf freundlicher Fähigkeit: {colour_start|stress}Stress -5{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}Leck die wunde:{colour_end} Auf freundlicher Fähigkeit: Ziel {colour_start|healhp}+2 HP{colour_end} (33%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}Gesichtlecken:{colour_end} Auf Monster Kill: Self {colour_start|healhp}+2 HP{colour_end} (33%% Chance)]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}Feuer im Blut:{colour_end} 
+Ab Rang 2: {colour_start|bleed}+50%% Blutungsdauer{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_x"><![CDATA[{colour_start|pet_a}Orchideen Booster:{colour_end} +50%% {colour_start|healhp}Heilfähigkeiten{colour_end} In der ersten Runde]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_b_x"><![CDATA[{colour_start|mark}Gottesanbeter Zeichen:{colour_end} Auf getroffen werden: {colour_start|mark}Mark Attacker{colour_end} (65%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_c_x"><![CDATA[{colour_start|notable}Immitiere ruhe:{colour_end} Auf freundlicher Fähigkeit: {colour_start|stress}-3 Stress{colour_end} (75%% Chance)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}Fleischfressende schönheit:{colour_end} Auf Monster Kill: Gruppe {colour_start|healhp}Heilen 2 pts/rd {colour_end} for 2 rds (20%% Chance)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_x"><![CDATA[{colour_start|stealth}Konterkralle:{colour_end} Auf getroffen werden: Chance Angreifer: +4%% {colour_start|buff}CRITs Empfangen{colour_end} (2 rds)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_b_x"><![CDATA[{colour_start|notable}Schlauer Fuchs:{colour_end} Angriffsfräulein: +5 {colour_start|notable}ACC{colour_end} (2 rds)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}In der Hennenhütte:{colour_end} +25%% Beschädigung vs. {colour_start|bleed}Blutening Ziels{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}Wilder Fuchs:{colour_end} Auf Monster Kill from {colour_start|yellow}Rang 2:{colour_end} Andere Helden {colour_start|stress}-3 Stress{colour_end} (65%% Chance)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_x"><![CDATA[{colour_start|notable}Erstschlag:{colour_end} Nur erste Runde: +10 {colour_start|notable}CRIT{colour_end} Chance]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_b_x"><![CDATA[{colour_start|green}Häuten:{colour_end} Auf getroffen werden: {colour_start|green}Transfer{colour_end} {colour_start|bleed}Bluten{colour_end} + {colour_start|blight}Vereiteln{colour_end} ]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_c_x"><![CDATA[{colour_start|knockback}Mesmerizing Eater:{colour_end} {colour_start|stress}Fraß bei jedem Kill
+:{colour_end} Gruppe {colour_start|stress}-2 Stress{colour_end} (75%% Chance)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_d_x"><![CDATA[{colour_start|pop_text_crit_Beschädigung}Finalschlag:{colour_end} On {colour_start|deathdoor}Die Tür des Todes:{colour_end} +20 {colour_start|notable}CRIT{colour_end} Chance]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_x"><![CDATA[{colour_start|notable}Selettkühle:{colour_end} Auf getroffen werden: Gruppe +5 {colour_start|buff}PROT{colour_end} (2 rds)(50%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}Todesheulen:{colour_end} Auf Monster Kill: 33%% Chance {colour_start|knockback}Beschwörung Skeleton{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_c_x"><![CDATA[{colour_start|notable}Überlebenstrieb:{colour_end} NOT USED: Gruppe {colour_start|disease}Krankheit widerstehen
+{colour_end} +10%% (2 rds)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_x"><![CDATA[{colour_start|yellow}Adlergeist:{colour_end} {colour_start|stress}+50%% Stress Heilening{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_b_x"><![CDATA[{colour_start|blue}Adlerfeder:{colour_end} Auf freundlicher Fähigkeit: {colour_start|bleed}Heilen Bluten{colour_end} (25%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_c_x"><![CDATA[{colour_start|debuff}Ziel Ergreifen:{colour_end} Bei Treffer: {colour_start|mark}Mark Ziel{colour_end} (50%% Chance)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_d_x"><![CDATA[{colour_start|move}Blenden:{colour_end} Auf getroffen werden: Angreifer: -5 {colour_start|debuff}ACC{colour_end} (2 rds)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_x"><![CDATA[{colour_start|stun}Logarythmische Spirale:{colour_end} +15%% Beschädigung vs. {colour_start|stun}Fassungslos{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Panzerverstärker:{colour_end} Auf getroffen werden: Andere Helden: +10%% {colour_start|buff}Beschädigung{colour_end} (2 rds)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_c_x"><![CDATA[{colour_start|move}Kalziumpanzer:{colour_end} On Kill: Gruppe +30%% {colour_start|move}Beschädigung Reflexion{colour_end} (1 rd) (75%% Chance)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_d_x"><![CDATA[{colour_start|stress}Stress Shell:{colour_end} On {colour_start|trap}Esotherische Barriere:{colour_end} Andere Helden {colour_start|stress}-3 Stress{colour_end} (50%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_t_x"><![CDATA[+30%% {colour_start|move}Beschädigung Reflexion{colour_end}]]></entry>	
+	
+   	<entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_x"><![CDATA[{colour_start|mortaldebuff}Aufmerksamer Spitz:{colour_end} {colour_start|stress}-25%% Stress{colour_end} von den Vampiren]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_b_x"><![CDATA[{colour_start|pop_text_crit_Beschädigung}Revier Markieren:{colour_end} Bei Treffer: {colour_start|mark}Mark Ziel{colour_end} (40%% Chance)(2 rds)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_c_x"><![CDATA[{colour_start|notable}Welpen Rennen:{colour_end} 20%% DMG vs. {colour_start|mark}Markiert{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_d_x"><![CDATA[{colour_start|knockback}Spielgefährte:{colour_end} +3 {colour_start|deathdoor}Todesstoß{colour_end} Resist]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_x"><![CDATA[{colour_start|notable}Stereoskopische sicht:{colour_end} In Weald: On CRIT: +100%% {colour_start|stress}Stress Heilened{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_b_x"><![CDATA[{colour_start|green}Greifschwanz:{colour_end} In Warrens: On Kill: +25%% {colour_start|notable}Beschädigung{colour_end} (2 rds)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_c_x"><![CDATA[{colour_start|buff}Bassistische Projektion:{colour_end} In Ruins: On Kill: +5%% {colour_start|buff}CRIT{colour_end} (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_d_x"><![CDATA[{colour_start|stealth}Buchtversteck:{colour_end} In Cove: On Kill: {colour_start|stealth}Verstohlen{colour_end} (2 rds)]]></entry>
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_x"><![CDATA[{colour_start|stress}Beruhigende präsenz:{colour_end} +20%% {colour_start|stress}Stress Heilening{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}Gesalbte Feder: {colour_end}Auf freundlicher Fähigkeit: 15%% {colour_start|disease}Krankheit heilen{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_c_x"><![CDATA[{colour_start|stealth}Nachtaktiver fraß{colour_end} Auf Monster Kill: Andere Helden {colour_start|healhp}Heilen 0-3 HP{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_d_x"><![CDATA[{colour_start|notable}Verteidigungsball:{colour_end} +10%% {colour_start|blight}Vereiteln Resist{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_x"><![CDATA[{colour_start|stun}Pumaklaue:{colour_end} +10%% {colour_start|bleed}Bluten{colour_end} Chance]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}Böse mitze:{colour_end} +40%% {colour_start|bleed}Bluten{colour_end} Amount]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_c_x"><![CDATA[{colour_start|virtue}Gute mitze:{colour_end} Auf Monster Kill: Andere Helden{colour_start|stress} Stress -2{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_d_x"><![CDATA[{colour_start|riposte}Jäger:{colour_end} Wenn getroffen: Aktivieren Sie colour_start|riposte}Riposte{colour_end} (1 rd)(40%% Chance)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_x"><![CDATA[{colour_start|notable}Beruhigende Eule:{colour_end} {colour_start|healhp}Lemurentränen:{colour_end} Fügt hinzu
+ {colour_start|stress}Stress -5{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Durchdringender ruf:{colour_end} Ziel Loses {colour_start|stun}1 Wende{colour_end} (15%% chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_c_x"><![CDATA[{colour_start|blue}Spinnenjäger:{colour_end} +15 ACC/+5 CRIT vs. {colour_start|blue}Spiders{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_d_x"><![CDATA[{colour_start|buff}Ablenkendes flattern:{colour_end} +5 {colour_start|buff}Ausweichen{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_x"><![CDATA[{colour_start|scouting}Nässe:{colour_end} +10%% {colour_start|debuff}Debuff{colour_end} Chance wenn
+ {colour_start|torch_centre}Fackel Unten 51{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}Wasserkanone:{colour_end} Bei Treffer: {colour_start|knockback}2 Water Beschädigung{colour_end} (50%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_c_x"><![CDATA[{colour_start|miasma}Rutsche:{colour_end} Wenn getroffen: Chance zu kontern -3 {colour_start|debuff}ACC{colour_end} & -5 {colour_start|move}Move Resist{colour_end} (2 rds)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_d_x"><![CDATA[{colour_start|virtue}Erfrischende Gischt:{colour_end} Auf Monster Kill: Andere Helden {colour_start|stress}Stress -2{colour_end}]]></entry>
+   
+
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_f_x"><![CDATA[{colour_start|notable}Sauna Detox:{colour_end} On Kill: Self {colour_start|stress}-2 Stress{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_g_x"><![CDATA[{colour_start|yellow}Hochhitze:{colour_end} +4 {colour_start|yellow}CRIT{colour_end} Chance wenn {colour_start|yellow}Fackel oben 79{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_h_x"><![CDATA[{colour_start|debuff}Rüstung schmelzen:{colour_end} Auf getroffen werden: Chance Angreifer nimmt -5 {colour_start|debuff}PROT{colour_end} (2 rds)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_i_x"><![CDATA[{colour_start|bleed}Feuerstrahl:{colour_end} Bei Treffer: Chance of +4 {colour_start|bleed}CRITs Empfangen{colour_end} (2 rds)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_q_x"><![CDATA[{colour_start|notable}Mit Elementargeistern:{colour_end} 
+Arkanist benötigt zusätzliches Essen, um Zaubermüdung zu vermeiden]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_x"><![CDATA[{colour_start|notable}Strahlend:{colour_end} Im Rang 1: -20%% {colour_start|stress}Stress Empfangen{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Schimmernd:{colour_end} Auf freundlicher Fähigkeit: +5 {colour_start|yellow}Fackelschein{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}Energie erneuern:{colour_end} Auf Monster Kill: Andere Helden {colour_start|healhp}Heilen 0-2{colour_end} (33%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}Phönix Feuer:{colour_end} Vor der Tür des Todes: Auf getroffen werden: {colour_start|healhp}+50%% HP{colour_end} (50%% Chance)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_e_x"><![CDATA[{colour_start|pop_text_crit_Beschädigung}Sonnenaufgang:{colour_end} Auf getroffen werden: Gruppe {colour_start|stress}-20 Stress{colour_end} & {colour_start|yellow}+100 Fackelschein{colour_end} (5%% Chance)]]></entry>
+   
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_x"><![CDATA[{colour_start|notable}Schleichjäger:{colour_end} -40%% {colour_start|stress}Stress Empfangen{colour_end} von den Tieren]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_b_x"><![CDATA[{colour_start|move}Wolfskiefer:{colour_end} +3 {colour_start|buff}CRIT{colour_end} Chance]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}Wolfsbiss:{colour_end} Bei Treffer: {colour_start|bleed}Bluten{colour_end} 1 pt/rd for 3 rds (120%% Chance)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_d_x"><![CDATA[{colour_start|surprised}Inspirierendes heulen:{colour_end} Auf freundlicher Fähigkeit: Klar {colour_start|stress}Grusel{colour_end} (33%% Chance)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_x"><![CDATA[{colour_start|healhp}Hochdruckheilung:{colour_end} If {colour_start|stress}Stress{colour_end} Über 99: On Kill: {colour_start|healhp}1-3 HP Gruppe Heilen{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Verdammnissprophezeiung:{colour_end} Bei Angriffstreffer: {colour_start|stun}Stun{colour_end} (115%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_c_x"><![CDATA[{colour_start|notable}Gleiter:{colour_end} Auf getroffen werden: +25%% {colour_start|stress}Gruppe Stress Heilening Empfangen{colour_end} (2 rds)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_d_x"><![CDATA[{colour_start|pet_a}Warheit der zukunft:{colour_end} Auf freundlicher Fähigkeit: 15%% Chance {colour_start|yellow}1 Extra drehen{colour_end}]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_x"><![CDATA[{colour_start|notable}Sammler:{colour_end} +25%% {colour_start|healhp}Heilening Skills{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Agressionsverhalten:{colour_end} +20%% {colour_start|stun}Stun Resist{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_c_x"><![CDATA[{colour_start|trap}Grabende klauen:{colour_end} Bei Treffer: {colour_start|bleed}Bluten{colour_end} 2 pts/rd for 2 rds (120%% Chance)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_d_x"><![CDATA[(Außer Fähigkeit: {colour_start|blight}Verdirb die seele{colour_end})]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_e_x"><![CDATA[{colour_start|specificclass}Tierischer clan:{colour_end} On {colour_start|specificclass}Barkskin:{colour_end} {colour_start|stress}-4 Stress{colour_end} (40%% Chance)]]></entry>
+   
+   
+   
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_x"><![CDATA[{colour_start|green}Agressiver Beschützer:{colour_end} +25%% {colour_start|stress}Stress Heilened{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_b_x"><![CDATA[{colour_start|notable}Bullen hufe:{colour_end} If HP Below 51%%: +7 {colour_start|notable}CRIT{colour_end} Chance]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_c_x"><![CDATA[{colour_start|notable}Intensivers trampeln:{colour_end} Wenn die Gesundheit unten 16%%: +12 {colour_start|notable}CRIT{colour_end} Chance]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_d_x"><![CDATA[{colour_start|blight}Übler rauch:{colour_end} Auf getroffen werden: Chance zu {colour_start|stun}Stun Attacker{colour_end} ({colour_start|stress}Unheilig{colour_end} sind immun)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_e_x"><![CDATA[{colour_start|guard}Metallschuppen:{colour_end} On Kill: {colour_start|guard}Guard Andere Helden{colour_end} (1 rd)]]></entry>
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_x"><![CDATA[{colour_start|yellow}Hundsfreude:{colour_end} +100%% {colour_start|stress}Stress Heilened{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_b_x"><![CDATA[{colour_start|buff}Treuer begleiter:{colour_end} +12%% {colour_start|stun}Betäuben{colour_end} Chance]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}Fieser biss:{colour_end} On Skill: {colour_start|notable}Chastise:{colour_end} Chance {colour_start|bleed}Bluten 2 pts/rd{colour_end} for 2 rds]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_d_x"><![CDATA[{colour_start|blight}Heilige segnung:{colour_end} On Kill: Chance to {colour_start|healhp}Heilen 0-4 HP{colour_end} Gruppe]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_x"><![CDATA[{colour_start|yellow}Einhornfreude:{colour_end} Auf getroffen werden: Gruppe {colour_start|stress}-2 Stress{colour_end} (50%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_b_x"><![CDATA[{colour_start|stun}Reinheit und Grazie:{colour_end} On Kill: {colour_start|healhp}Heilen Gruppe 1-2{colour_end} (40%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_c_x"><![CDATA[{colour_start|buff}Spiral Horn:{colour_end} Bei Angriffstreffer: {colour_start|buff}1-2 Magical Beschädigung{colour_end} (65%% Chance)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_d_x"><![CDATA[{colour_start|disease}Verzauberte Heilung:{colour_end} Auf freundlicher Fähigkeit: {colour_start|disease}Cure Disease{colour_end} (1%% Chance)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_e_x"><![CDATA[{colour_start|stress}Extrem selten, Dieses Einhorn kann mit jedem helden reisen.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_f_x"><![CDATA[{colour_start|stress}Einhörner sind recht unerforscht und können{colour_end}{colour_start|yellow} zusätzliche effekte haben!{colour_end}]]></entry>
+ </language>  
+ </root>
+

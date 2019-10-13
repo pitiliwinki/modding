@@ -1,0 +1,161 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "discount_coupon",
+         "buffs" : 
+         [
+            "FURY_TRINKET_RESOLVE_ORDER_BONUS",
+			"FURY_TRINKET_RESOLVE_STUNRESIST",
+			"FURY_TRINKET_RESOLVE_BLEEDRESIST"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+         "rarity" : "rare",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "pendant_of_valor",
+         "buffs" : 
+         [
+            "TRINKET_STRESSDMG_B1",
+            "TRINKET_MAXHP_B1",
+			"FURY_TRINKET_ORDER_DEF",
+			"FURY_TRINKET_ORDER_CRITDEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+		 "set_id" : "fury_trinket_order_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "ring_of_bravery",
+         "buffs" : 
+         [
+			"TRINKET_STRESSDMG_B1",
+			"TRINKET_PROT_B2",
+		 	"FURY_TRINKET_ORDER_DEF",
+			"TRINKET_DMGH_D2",
+			"TRINKET_DMGL_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+		 "set_id" : "fury_trinket_order_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "pauldrons_of_malicious_intent",
+         "buffs" : 
+         [
+		 	"FURY_TRINKET_CHAOS_DEATHBLOWRESIST",
+		 	"FURY_TRINKET_CHAOS_CRIT",
+			"FURY_TRINKET_CHAOS_ACC",
+			"FURY_TRINKET_CHAOS_DEFDEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+		 "set_id" : "fury_trinket_chaos_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "enmity_gauntlets",
+         "buffs" : 
+         [
+		    "FURY_TRINKET_CHAOS_DEATHBLOWRESIST",
+		    "TRINKET_DMGH_B1",
+			"TRINKET_DMGL_B1",
+			"FURY_TRINKET_CHAOS_ACC",
+			"FURY_TRINKET_CHAOS_MAXHP_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+		 "set_id" : "fury_trinket_chaos_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_gem_of_abundance",
+         "buffs" : 
+         [
+            "FURY_CC_STUNRESIST",
+			"FURY_CC_DODGE",
+            "FURY_CC_PROT",
+            "FURY_CC_DEATHB_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+         "set_id" : "fury_trinket_crimson_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_crown_of_delirium",
+         "buffs" : 
+         [
+			"FURY_CC_BLEEDRESIST",
+			"FURY_CC_DMGH",
+            "FURY_CC_DMGL",
+            "FURY_CC_CRIT",
+			"FURY_CC_VIRTUE_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+         "set_id" : "fury_trinket_crimson_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "com_imbued_blade",
+         "buffs" : 
+         [
+            "FURY_COM_DMGH",
+            "FURY_COM_DMGL",
+			"FURY_COM_DEF",
+            "FURY_COM_CRIT"
+         ],
+         "hero_class_requirements":
+         [
+            "fury"
+         ],
+         "rarity" : "comet",
+         "shard" : 180,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+         [
+             "Imbued Power"
+         ]
+      }
+   ]
+}

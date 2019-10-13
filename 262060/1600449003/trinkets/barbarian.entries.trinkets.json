@@ -1,0 +1,251 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "collector_barb",
+         "buffs" : 
+         [
+			"BARB_CRIT_E",
+			"BARB_TRINKET_BLEEDSKILL10",
+			"BARB_TRINKET_STUNSKILL10",
+			"BARB_TRINKET_STRESSDMG20"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 16500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "barb1",
+         "buffs" : 
+         [
+			"BARB_CRIT_A",
+			"BARB_Poison_Chance_A",
+			"BARB_DEATHBLOW_LOW"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "rarity" : "common",
+         "price" : 8000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "barb2",
+         "buffs" : 
+         [
+			"BARB_speed",
+			"BARB_ACC_BUFF_A",
+			"BARB_crit_received_1"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "rarity" : "uncommon",
+         "price" : 11000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "barb3",
+         "buffs" : 
+         [ 
+			"BARB_CRIT_D",
+			"BARB_stun_lower"
+         ],
+         "hero_class_requirements":
+         [
+		 "barbarian"
+         ],
+		 "set_id" : "barb_ale_label",
+         "rarity" : "rare",
+         "price" : 22000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+        [
+            "BARB_Stressheal",
+			"BARB_Addiction_1",
+			"BARB_Trinket_Drink_SideEffect_PercentRoll",
+			"BARB_Trinket_Drink_SideEffect_Stun"
+        ]
+      },
+      {
+         "id" : "barb4",
+         "buffs" : 
+         [
+			"BARB_fastfirstround8",
+			"BARB_buff_StunResist_0"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "rarity" : "rare",
+         "price" : 19950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		  "attack_skill_additional_effects":
+        [
+            "BARB_Self_Mark_Chance"
+        ]
+      },
+      {    
+         "id" : "barb5",
+         "buffs" : 
+         [
+			"BARB_STUNSKILL_1",
+			"BARB_MOVECHANCE_1",
+			"BARB_TRINKET_VAMP_STUN",
+			"BARB_LIGHT_BELOW_SPD_BUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+        [
+            "BARB_Stun_Damage_0"
+        ]
+      },
+	        {    
+         "id" : "barb6",
+         "buffs" : 
+         [
+			"BARB_BLOCK_STUN",
+			"BARB_trinket_low",
+			"BARB_trinket_high",
+			"BARB_TRINKET_HEALPERCENT_BUFF_3",
+			"BARB_crit_received_1"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+		 "set_id" : "barb_ale_label2",
+         "rarity" : "rare",
+         "price" : 19950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+        [
+            "BARB_Addiction_2",
+			"BARB_Trinket_Drink_SideEffect_PercentRoll",
+			"BARB_Trinket_Drink_SideEffect_Stun"
+        ]
+      },
+	  {    
+         "id" : "barb7",
+         "buffs" : 
+         [
+			
+			"BARB_TRINKET_lightbelow_ACC",
+			"BARB_TRINKET_lightbelow_ACC2",
+			"BARB_TRINKET_PARTYSURPRISE_BUFF",
+			"BARB_TRINKET_HEALRECVD_BUFF_3"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+		 "set_id" : "barb_ale_label3",
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+        [
+           "BARB_growing_StunResist_1",
+		   "BARB_TRINKET_ABSORB_LIGHT" 
+        ],
+		"friendly_skill_additional_effects":
+        [
+            "BARB_Addiction_4",
+			"BARB_Trinket_Drink_SideEffect_PercentRoll",
+			"BARB_Trinket_Drink_SideEffect_Stun"
+        ]
+      },
+	  {    
+         "id" : "barb8",
+         "buffs" : 
+         [
+			"BARB_BLOCK_HEAL",
+			"BARB_RESTRICT_KICK_buff_rule_1",
+			"BARB_RESTRICT_KICK_buff_rule_2",
+			"BARB_RESTRICT_KICK_buff_rule_3",
+			"BARB_RESTRICT_KICK_buff_rule_4",
+			"BARB_spider_damage_1",
+			"BARB_spider_damage_2"			
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+		 "set_id" : "barb_ale_label4",
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+		  "BARB_Fangs_Heal_1",
+		  "BARB_Fangs_Heal_2",
+		  "BARB_Fangs_Heal_3"
+        ]
+      },
+      {
+         "id" : "barbset1",
+         "buffs" : 
+         [
+			"BARB_TRINKET_BLEED_CHANCE",
+			"BARB_TRINKET_MAN_CRIT"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "set_id" : "barb_combined12",
+         "rarity" : "very_rare",
+         "price" : 27650,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+            "BARB_Extra_Bleed"
+         ]
+      },  
+      {
+         "id" : "barbset2",
+         "buffs" : 
+         [
+			"BARB_TRINKET_BEAST_CRIT",
+			"BARB_bleed_lower",
+			"BARB_PROTECT_DOWN"
+         ],
+         "hero_class_requirements":
+         [
+            "barbarian"
+         ],
+         "set_id" : "barb_combined12",
+         "rarity" : "very_rare",
+         "price" : 27650,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+        [
+         "BARB_ANGER_RISES"   
+        ]
+      }
+
+   ]
+}

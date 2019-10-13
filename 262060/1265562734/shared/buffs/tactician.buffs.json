@@ -1,0 +1,933 @@
+{
+   "buffs":
+   [
+ {
+         "id" : "Commandtooltip",
+         "stat_type" : "activity_side_effect_chance",
+         "stat_sub_type" : "Commandtip",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RetreatDodge1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatDodge2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatDodge3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatDodge4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.22,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatDodge5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatPROT1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatPROT2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatPROT3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatPROT4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.22,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatPROT5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	   {
+         "id" : "RetreatDMGL1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGL2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.12,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGL3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGL4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGL5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGH1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGH2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.12,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGH3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGH4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "RetreatDMGH5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	   {
+         "id" : "RetreatCRIT1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.01,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatCRIT2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.02,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatCRIT3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.03,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatCRIT4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.04,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "RetreatCRIT5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.5,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+		 	   {
+         "id" : "AdvanceDodge1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceDodge2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.12,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceDodge3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceDodge4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceDodge5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvancePROT1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvancePROT2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.12,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvancePROT3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvancePROT4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvancePROT5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	   {
+         "id" : "AdvanceDMGL1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGL2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGL3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGL4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.22,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGL5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGH1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGH2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.17,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGH3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGH4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.22,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	  	   {
+         "id" : "AdvanceDMGH5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  	   {
+         "id" : "AdvanceCRIT1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceCRIT2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceCRIT3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceCRIT4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "AdvanceCRIT5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+      {
+         "id" : "Studyspddebuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }	
+   },
+	  	   {
+         "id" : "TacticianMove1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+	  	   {
+         "id" : "TacticianMove2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },   
+	  	   {
+         "id" : "TacticianMove3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },   
+	  	   {
+         "id" : "TacticianMove4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+	  	   {
+         "id" : "TacticianMove5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+	  	   {
+         "id" : "TacticianStun1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+	  	   {
+         "id" : "TacticianStun2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },   
+	  	   {
+         "id" : "TacticianStun3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },   
+	  	   {
+         "id" : "TacticianStun4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 },
+	  	   {
+         "id" : "TacticianStun5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,		 
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+		 }   		 
+   ]
+}

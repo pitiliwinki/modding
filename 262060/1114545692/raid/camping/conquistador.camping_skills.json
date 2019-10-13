@@ -1,0 +1,314 @@
+{
+  "configuration": {
+    "class_specific_number_of_classes_threshold": 4
+  },
+  "skills": [
+    {
+      "id": "encourage",
+      "level": 0,
+      "cost": 2,
+      "use_limit": 1,
+      "effects": [
+        {
+          "selection": "individual",
+          "requirements": [],
+          "chance": {
+            "code": "a",
+            "amount": 1.0
+          },
+          "type": "stress_heal_amount",
+          "sub_type": "",
+          "amount": 15
+        }
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    },
+    {
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.15
+				}
+			],
+			"hero_classes" : ["conquistador"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+    },
+    {
+      "id": "first_aid",
+      "level": 0,
+      "cost": 2,
+      "use_limit": 1,
+      "effects": [
+        {
+          "selection": "individual",
+          "requirements": [],
+          "chance": {
+            "code": "a",
+            "amount": 1.0
+          },
+          "type": "health_heal_max_health_percent",
+          "sub_type": "",
+          "amount": 0.15
+        },
+        {
+          "selection": "individual",
+          "requirements": [],
+          "chance": {
+            "code": "b",
+            "amount": 1.0
+          },
+          "type": "remove_bleeding",
+          "sub_type": "",
+          "amount": 0
+        },
+        {
+          "selection": "individual",
+          "requirements": [],
+          "chance": {
+            "code": "c",
+            "amount": 1.0
+          },
+          "type": "remove_poison",
+          "sub_type": "",
+          "amount": 0
+        }
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    },
+    {
+      "id": "c_prayer",
+      "level": 0,
+      "cost": 2,
+      "use_limit": 1,
+      "effects": [
+         {
+          "selection": "self",
+          "requirements": [],
+          "chance": {
+            "code": "a",
+            "amount": 1.0
+          },
+          "type": "stress_heal_amount",
+          "sub_type": "",
+          "amount": 12
+        },
+		{ 
+		 "selection" : "self",
+		 "requirements" : [],
+		 "chance" : { "code" : "b", "amount": 1.0 }, 
+		 "type" : "buff",
+		 "sub_type" : "campingStressResistBuff",
+		 "amount" :  -0.20
+		}
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    },
+    {
+      "id": "search_treasure",
+      "level": 0,
+      "cost": 3,
+      "use_limit": 1,
+      "effects": 
+	 [
+            {
+			"selection" : "self",
+			"requirements" : [],
+			"chance" : { "code" : "a", "amount": 1.0 },
+			"type": "loot",
+			"sub_type": "T_ANTIQ_CAMP",
+			"amount": 1
+			},
+            {
+			"selection" : "self",
+			"requirements" : [],
+			"chance" : { "code" : "b", "amount": 1.0 },
+			"type": "loot",
+			"sub_type": "T_ANTIQ_CAMP",
+			"amount": 1
+			},
+			{
+			"selection" : "self",
+			"requirements" : [],
+			"chance" : { "code" : "d", "amount": 1.0 },
+			"type": "buff",
+			"sub_type": "RESOLVECHECK-15",
+			"amount": -0.20
+            }
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    },
+    {
+      "id": "mission_fervor",
+      "level": 0,
+      "cost": 4,
+      "use_limit": 1,
+      "effects": [
+       		    { 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingSPDBuffParty",
+					"amount" :  3
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+                {
+                    "selection": "party_other",
+                    "requirements": ["religious"],
+                    "chance": { "code" : "c", "amount": 1.0},
+                    "type": "stress_heal_amount",
+                    "sub_type": "",
+                    "amount": 15
+                }				
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    },
+	{
+      "id": "pike_and_shot_tactics",
+      "level": 0,
+      "cost": 5,
+      "use_limit": 1,
+      "effects": 
+	  [
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingACCBuffRanged",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingCRITBuffMelee",
+					"amount" :  0.1
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "conmoveresist4",
+					"amount" :  0.3
+				}	
+      ],
+      "hero_classes": [
+        "conquistador"
+      ],
+      "upgrade_requirements": [
+        {
+          "code": "0",
+          "currency_cost": [
+            {
+              "type": "gold",
+              "amount": 1750
+            }
+          ],
+          "prerequisite_requirements": []
+        }
+      ]
+    }
+  ]
+}

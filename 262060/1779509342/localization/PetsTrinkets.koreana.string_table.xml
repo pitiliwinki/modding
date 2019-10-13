@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <language id="koreana">
+ 
+<!-- Pet Trinket Mod By SoulSmile and Dem22. Most Art by Kaxen. Korean(A) by 아몰라묻지마 -->
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_pet_patrol"><![CDATA[밀렵꾼 순찰대]]></entry>
+	<entry id="buff_rule_data_tooltip_pet_patrol"><![CDATA[밀렵꾼 순찰대]]></entry>
+	
+<!--Pet Catcher--> 
+    <entry id="str_monstername_brigand_pet_catcher_A"><![CDATA[수습 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_B"><![CDATA[초보 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_C"><![CDATA[중견 밀렵꾼]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_D"><![CDATA[간부 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_E"><![CDATA[대장 밀렵꾼]]></entry>
+	<!--Actual Death Effect Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_F"><![CDATA[수습 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_G"><![CDATA[초보 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_H"><![CDATA[중견 밀렵꾼]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_I"><![CDATA[간부 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_J"><![CDATA[대장 밀렵꾼]]></entry>
+	<!--Roaming Version--> 
+	<entry id="str_monstername_brigand_pet_catcher_K"><![CDATA[수습 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_L"><![CDATA[초보 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_M"><![CDATA[중견 밀렵꾼]]></entry>
+	<entry id="str_monstername_brigand_pet_catcher_N"><![CDATA[간부 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_catcher_O"><![CDATA[대장 밀렵꾼]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_pole"><![CDATA[장대 공격]]></entry>
+    <entry id="str_monster_skill_pet_catch_cage"><![CDATA[우리 속의 공포]]></entry>
+	<entry id="str_monster_skill_pet_catch_stun"><![CDATA[제압]]></entry>
+	<entry id="str_monster_skill_pet_catch_backup"><![CDATA[지원요청]]></entry>
+	<entry id="str_monster_skill_pet_catch_flee"><![CDATA[숨고르기]]></entry>
+	
+<!--Per Catcher Assistant--> 
+    <entry id="str_monstername_brigand_pet_assistant_A"><![CDATA[수습 보조 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_B"><![CDATA[초보 보조 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_C"><![CDATA[중견 보조 밀렵꾼]]></entry>
+	<entry id="str_monstername_brigand_pet_assistant_D"><![CDATA[작전관 보조 밀렵꾼]]></entry>
+    <entry id="str_monstername_brigand_pet_assistant_E"><![CDATA[행보관 보조 밀렵꾼]]></entry>
+	
+	<entry id="str_monster_skill_pet_catch_stab"><![CDATA[창대 찌르기]]></entry>
+    <entry id="str_monster_skill_pet_catch_position"><![CDATA[창대 저지]]></entry>
+	<entry id="str_monster_skill_pet_catch_potion"><![CDATA[밀렵꾼 순찰대 비상식량]]></entry>
+	
+<!--Trained Hound--> 
+    <entry id="str_monstername_trained_dog_A"><![CDATA[훈련중인 강아지]]></entry>
+    <entry id="str_monstername_trained_dog_B"><![CDATA[방범용 경비견]]></entry>
+    <entry id="str_monstername_trained_dog_C"><![CDATA[잘 훈련된 싸움개]]></entry>
+	<entry id="str_monstername_trained_dog_D"><![CDATA[충성스런 사냥개]]></entry>
+    <entry id="str_monstername_trained_dog_E"><![CDATA[흉포한 도사견]]></entry>
+	
+	<entry id="str_monster_skill_trained_chomp"><![CDATA[물어뜯기]]></entry>
+    <entry id="str_monster_skill_trained_bite"><![CDATA[끈질긴 공격]]></entry>
+	<entry id="str_monster_skill_trained_guard"><![CDATA[주인님을 지켜라]]></entry>
+	
+<!--Trained Crab--> 
+    <entry id="str_monstername_trained_fishman_crabby_A"><![CDATA[새끼 킹 크랩]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_B"><![CDATA[성체 킹 크랩]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_C"><![CDATA[경비용 킹 크랩]]></entry>
+	<entry id="str_monstername_trained_fishman_crabby_D"><![CDATA[방어용 킹 크랩]]></entry>
+    <entry id="str_monstername_trained_fishman_crabby_E"><![CDATA[중장갑 킹 크랩]]></entry>
+	
+	<entry id="str_monster_skill_crab_tide"><![CDATA[밀물]]></entry>
+    <entry id="str_monster_skill_crab_grip"><![CDATA[집게발 잡기]]></entry>
+	<entry id="str_monster_skill_crab_shell"><![CDATA[단단한 외피]]></entry>
+	<entry id="str_monster_skill_crab_counter"><![CDATA[집게발 부수기]]></entry>
+	
+<!--Trained Lochness Monster--> 
+    <entry id="str_monstername_trained_carrion_eater_big_A"><![CDATA[유체 스퀴들링]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_B"><![CDATA[아성체 로치네스]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_C"><![CDATA[화가난 로치네스]]></entry>
+	<entry id="str_monstername_trained_carrion_eater_big_D"><![CDATA[위험한 로치네스]]></entry>
+    <entry id="str_monstername_trained_carrion_eater_big_E"><![CDATA[괴수 로치네스]]></entry>
+	
+	<entry id="str_monster_skill_lochness_slap"><![CDATA[페이스허거]]></entry>
+    <entry id="str_monster_skill_lochness_acid"><![CDATA[독성 흡착]]></entry>
+	<entry id="str_monster_skill_lochness_spit"><![CDATA[독소 뱉기]]></entry>
+	<entry id="str_monster_skill_lochness_kill"><![CDATA[역겨운 폭발]]></entry>
+	
+<!--Pets Supply Items, tooltips, barks -->
+	<!--Crab Meat -->
+	<entry id="str_inventory_title_supplycrab_meat"><![CDATA[킹 크랩 고기]]></entry>
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA[킹 크랩 고기]]></entry>
+	<entry id="str_inventory_description_supplycrab_meat"><![CDATA[매우 희귀한 음식입니다. 약간의 {colour_start|stress}스트레스{colour_end} 를 회복시키고 긍정적인 생각을 부여합니다!]]></entry>
+	<!--Generic Crab Barks -->
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[게살이다!]]></entry>	
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*집게발을 집는다*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[이게 킹크랩이야?]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[맛있어!]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*웃음*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[정말 부드럽군.]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[난 해산물 알레르기가 있는데!]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[누구 레몬 가진사람?]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*쩝쩝거림*]]></entry>
+	<entry id="bark_pets_supply_crab_meat"><![CDATA[*꺼-억*]]></entry>
+	<!--Class Crab Barks -->
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[내 개가 아주 마음에 드나본데!]]></entry>
+	<entry id="houndmaster+str_bark_pets_supply_crab_meat"><![CDATA[자, 간식이다. 앉아!]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[귀중품도 좋지만, 이것도 정말 맛있는데.]]></entry>
+	<entry id="antiquarian+str_bark_pets_supply_crab_meat"><![CDATA[선술집에 가져가면 적당한 금액에 살지도 몰라.]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[나, 난 하나도 안징그러워...]]></entry>
+	<entry id="grave_robber+bark_pets_supply_crab_meat"><![CDATA[*얼굴 찡그림*]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[게에게는 치유력이 있다지.]]></entry>
+	<entry id="shadow_walker+bark_pets_supply_crab_meat"><![CDATA[옴.]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[나의 남자다움은 이정도로 죽지않는다!]]></entry>
+	<entry id="spartan+bark_pets_supply_crab_meat"><![CDATA[나도 한때 모니코시에서 가져온 게가 있었지.]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*놀란 표정*]]></entry>
+	<entry id="barbarian+bark_pets_supply_crab_meat"><![CDATA[*아가사를 찾아헤맴*]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[이제야 게 맛을 알겠네!]]></entry>
+	<entry id="jester+bark_pets_supply_crab_meat"><![CDATA[정말 멋진 에피타이저야!]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[좀 낯설지만, 마음에 드는군.]]></entry>
+	<entry id="vestal+bark_pets_supply_crab_meat"><![CDATA[이상한 냄새가 나. 비린내...]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[게는 의식용으로나 적당하지. 신선함이 그렇게 오래가진 않으니까.]]></entry>
+	<entry id="occultist+bark_pets_supply_crab_meat"><![CDATA[이걸 더 찾아보는게 어떨까? 꽤나 이득을 볼 수 있을 것 같은데.]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[난 고기따윈 필요없어.]]></entry>
+	<entry id="alraune+bark_pets_supply_crab_meat"><![CDATA[난 채식주의자란말이야!]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[내 옛 승무원들도 파란 게를 즐겨먹었었지!]]></entry>
+	<entry id="picaroon+bark_pets_supply_crab_meat"><![CDATA[바다에서 난 음식이라, 어디서 파도소리가 들려오는 것만 같아!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_crab_meat"><![CDATA["킹 크랩 버프"]]></entry>
+
+	<entry id="buff_rule_data_tooltip_crab_meat_fx"><![CDATA[킹 크랩 버프]]></entry>
+
+	
+<!--Pet Quirk Names and custom tips-->
+	<entry id="str_quirk_name_PETS_quirk_1"><![CDATA[밀렵꾼 순찰대의 공포]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_2"><![CDATA[밀렵꾼 순찰대의 적수]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_3"><![CDATA[로치네스 괴수의 공포]]></entry>
+	<entry id="str_quirk_name_PETS_quirk_4"><![CDATA[로치네스 사냥꾼]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_lochness_slap"><![CDATA[페이스허거]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_1_x"><![CDATA[{colour_start|pet_a}우리에 같힌 동물꼴이 되어 싸우기 어려워집니다.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_2_x"><![CDATA[{colour_start|pet_a}밀렵꾼 순찰대에 대한 분노가 힘을 주고있습니다.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_3_x"><![CDATA[{colour_start|pet_a}전설이 사실이라는 것을 알게되어 소름이 끼쳐옵니다!{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PETS_quirk_tip_4_x"><![CDATA[{colour_start|pet_a}이 전설적인 생명체의 약점을 발견했습니다!{colour_end}]]></entry>
+	
+<!--Quirk Triggered in Battle Barks-->
+	<entry id="pets_bark_trigger_1"><![CDATA[*겁에질림* 우리 모두를 가둬버릴거야! 도망쳐야해!]]></entry>
+	<entry id="pets_bark_trigger_2"><![CDATA[겁쟁이같은 밀렵꾼 순찰대 놈들에게 복수하겠다!]]></entry>
+	<entry id="pets_bark_trigger_3"><![CDATA[이... 이 괴물이 우리 모두를 파멸시킬거야!]]></entry>
+	<entry id="pets_bark_trigger_4"><![CDATA[난 보았다. 이 소문만 무성하던 괴물에 대한 약점을!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_trained_carrion_eater_big"><![CDATA[로치네스 괴수]]></entry>
+	
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_a"><![CDATA[애완동물 (소형)]]></entry>
+	<entry id="trinket_rarity_pet_b"><![CDATA[애완동물 (중형) ]]></entry>
+	<entry id="trinket_rarity_pet_c"><![CDATA[애완동물 (대형)]]></entry>
+	<entry id="trinket_rarity_pet_f"><![CDATA[애완동물 보급품]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined1"><![CDATA[{colour_start|pet_a}"까다로운 포식자"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined2"><![CDATA[{colour_start|pet_a}"태평스런 포식자"{colour_end}]]></entry>
+	<entry id="str_inventory_set_title_petset_combined3"><![CDATA[{colour_start|pet_a}"게걸스런 포식자"{colour_end}]]></entry>
+	
+<!-- Pet Food -->
+	<entry id="str_inventory_title_trinketSoulPetsFood1"><![CDATA[행복하고 맛있는 한 입!]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood2"><![CDATA[갉아먹고, 갈아먹고!]]></entry>
+	<entry id="str_inventory_title_trinketSoulPetsFood3"><![CDATA[잡식동물의 기쁨!]]></entry>
+    
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[거미]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[Spider]]></entry>
+
+<!--Fix Missing Effect String-->	
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[적을 죽였을 때 ]]></entry>
+	<entry id="tray_icon_tooltip_buff_duration_quest_complete_format"><![CDATA[%s (Quest Completed)]]></entry>
+	
+	<entry id="buff_stat_tooltip_cure_poison_chance"><![CDATA[%+d%% {colour_start|blight}중독{colour_end} Cure Chance]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}중독{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}출혈{colour_end}]]></entry>
+	
+<!-- Pet Names -->
+	<entry id="str_inventory_title_trinketSoulPets1"><![CDATA["와들" (미니어처 돼지)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets2"><![CDATA["에드거" (까지)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets3"><![CDATA["캇타르" (선인장)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets4"><![CDATA["페니" (바퀴벌레)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets5"><![CDATA["알렌" (닭)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets6"><![CDATA["딕시" (구슬피 우는 비둘기)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets7"><![CDATA["패티" (고양이)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets8"><![CDATA["그레이시" (갈색 곰)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets9"><![CDATA["라이카" (쿤하운드)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets10"><![CDATA["어빙" (라쿤)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets11"><![CDATA["에델" (흰동가리)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets12"><![CDATA["롤라" (도마뱀붙이)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets13"><![CDATA["프랭크" (거북이)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets14"><![CDATA["디그더그" (두더지)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets15"><![CDATA["진저" (몽구스)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets16"><![CDATA["조이" (오징어)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets17"><![CDATA["퀸시" (까마귀)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets18"><![CDATA["라퀠레" (토끼)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets19"><![CDATA["아가사" (부엉이)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets20"><![CDATA["워든" (아르마딜로)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets21"><![CDATA["스팅" (거미)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets22"><![CDATA["바바" (황소개구리)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets23"><![CDATA["루비" (홍관조)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets24"><![CDATA["코스모" (오리너구리)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets25"><![CDATA["오토보르템겐츠첸펠트" (쥐)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets26"><![CDATA["아틀라스" (새끼 송골매)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets27"><![CDATA["칸투스" (참새)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets28"><![CDATA["호스티아" (새끼 양)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets29"><![CDATA["카즈코" (아프칸하운드)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets30"><![CDATA["자덴" (코기)]]></entry>	
+	<entry id="str_inventory_title_trinketSoulPets31"><![CDATA["아유무" (시바견)]]></entry>		
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_x"><![CDATA[괴물을 처치하면 파티원 {colour_start|stress} 스트레스{colour_end} -2]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_b_x"><![CDATA[{colour_start|notable}생존본능:{colour_end} 괴물을 처치하면 파티원 {colour_start|disease}질병 저항{colour_end} +10%% (2 차례)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ABOM_pet_tooltip_c_x"><![CDATA[{colour_start|blight}중독 강화:{colour_end} +10%% {colour_start|blight}중독 확률{colour_end}]]></entry>
+	
+  <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_x"><![CDATA[{colour_start|yellow}까치의 표식:{colour_end} 아군 기술 받을 때 {colour_start|stress}스트레스{colour_end} -3]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_b_x"><![CDATA[{colour_start|notable}천조각 수집: {colour_end}아군 기술 받을 때 {colour_start|bleed}출혈 치유{colour_end} (+75%% 확률) ]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_c_x"><![CDATA[아군 기술 사용하면 자신에게 {colour_start|stress}스트레스{colour_end} -2]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_d_x"><![CDATA[명중했을 때 {colour_start|mark}대상 표식{colour_end} (2 차례)(120%% 기본)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ANTI_pet_tooltip_e_x"><![CDATA[괴물을 처치하면 +3%% {colour_start|white}받는 경험치{colour_end} (퀘스트 종료) ]]></entry>
+   
+
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_x"><![CDATA[{colour_start|pop_text_crit_damage}행운의 토끼:{colour_end} 아군 기술에 {colour_start|pop_text_crit_damage}치명타 확률 +6{colour_end} (2 차례)(75%% 확률)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_b_x"><![CDATA[아군 기술에 -25%% {colour_start|stress}받는 스트레스{colour_end} (2 차례)]]></entry> 
+	<entry id="buff_stat_tooltip_upgrade_discount_ARBA_pet_tooltip_c_x"><![CDATA[적을 죽였을 때 {colour_start|blue} 파티원 속도 +2 {colour_end} (2 차례)(75%% 확률)]]></entry> 
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ALRA_pet_tooltip_x"><![CDATA[{colour_start|surprised}카나리아의 경고:{colour_end} -20%% 파티원 {colour_start|surprised}기습{colour_end} 받을 확률]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_x"><![CDATA[{colour_start|bleed}발톱 공격:{colour_end} 영웅 피격 시 {colour_start|bleed}출혈{colour_end} 차례 당 1 포인트/3 차례 (기본 125%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_b_x"><![CDATA[영웅 피격 시 {colour_start|bleed}치명적인 출혈{colour_end} 4 포인트/2 차례(10%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_c_x"><![CDATA[적을 죽였을 때 파티원에게  {colour_start|stress}스트레스{colour_end} -3 (75%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BARB_pet_tooltip_d_x"><![CDATA[{colour_start|stun}날개 펴기:{colour_end} 영웅 피격 시 +12%% {colour_start|stun}기절 저항{colour_end} 2 차례 (기본 150%%)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_x"><![CDATA[{colour_start|move}혓바닥 채찍:{colour_end} 35%% 확률로 {colour_start|move}당겨오기{colour_end} 1]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_BLOA_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}혓바닥 핥기:{colour_end} 적을 죽였을 때 75%% 확률로 {colour_start|healhp}회복 +3{colour_end}]]></entry>	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_x"><![CDATA[{colour_start|debuff}진흙 던지기:{colour_end} 명중했을 때 -10%% 명중률 (2 차례)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}꿀꿀이죽:{colour_end} 괴물을 처치하면 {colour_start|healhp}자기 회복 +3{colour_end} (60%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BOUN_pet_tooltip_c_x"><![CDATA[괴물을 처치하면 {colour_start|stress}파티원 스트레스 -4{colour_end} (60%% 확률)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_x"><![CDATA[{colour_start|stun}꼬꼬 댄스:{colour_end} 아군 기술에 {colour_start|stress}공포 제거{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_b_x"><![CDATA[괴물을 처치하면 +50%% {colour_start|healhp}치유 기술{colour_end} (2 차례)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CRUS_pet_tooltip_c_x"><![CDATA[아군 기술에 다른 파티원: {colour_start|stress}스트레스 -3 {colour_end}]]></entry>
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_x"><![CDATA[{colour_start|healhp}새로운 생명:{colour_end} 아군 기술에 {colour_start|healhp}파티원 치유 0-2{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_FALC_pet_tooltip_b_x"><![CDATA[{colour_start|debuff}날카로운 외침:{colour_end} 영웅 피격 시 적에게 {colour_start|debuff}회피 -3{colour_end} (2 차례)]]></entry>
+	
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_x"><![CDATA[{colour_start|green}가시 방어:{colour_end} 영웅 피격 시 20%% {colour_start|blue}피해 반사{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_b_x"><![CDATA[{colour_start|attacktype}가시 관통:{colour_end} 영웅 피격 시 일정 확률로 {colour_start|bleed}역 출혈{colour_end} 차례 당 1 포인드/2 차례]]></entry>
+	 <entry id="buff_stat_tooltip_upgrade_discount_FLAG_pet_tooltip_c_x"><![CDATA[공격 성공 이후 {colour_start|green}하필이면 선인장을...:{colour_end} 일정 확률로 {colour_start|bleed}자가-출혈{colour_end} 차례 당 1 포인드/2 차례]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_x"><![CDATA[{colour_start|yellow}냥냥 발톱:{colour_end} 명중했을 때 확률로 {colour_start|bleed}출혈{colour_end} 1 포인트/2 차례]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_b_x"><![CDATA[명중했을 때 10%% 확률로 {colour_start|bleed}치명적인 출혈{colour_end} 3 포인트/3 차례]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_c_x"><![CDATA[적을 죽였을 때 {colour_start|debuff}적 파티 약화{colour_end} -2 속도 (1 차례)(기본 115%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GRAV_pet_tooltip_d_x"><![CDATA[{colour_start|debuff}대상 약화 시{colour_end} -10%% {colour_start|bleed}출혈 저항{colour_end} (2 차례)(기본 150%%)]]></entry>
+	
+	 <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_x"><![CDATA[{colour_start|stun}베어 허그:{colour_end} 명중했을 때 일정 확률로 {colour_start|stun}기절{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}곰 발톱:{colour_end} 영웅 피격 시 확률로 {colour_start|bleed}출혈{colour_end} 턴 당 1 포인트/3 차례]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_c_x"><![CDATA[{colour_start|buff}곰의 보호:{colour_end} 영웅 피격 시 {colour_start|buff}방어{colour_end} +4 2 차례 (75%% 확률)]]></entry>
+	   <entry id="buff_stat_tooltip_upgrade_discount_HELL_pet_tooltip_d_x"><![CDATA[{colour_start|notable}곰 누르기:{colour_end} {colour_start|notable}돌파 기술에{colour_end} {colour_start|stun}자가 기절{colour_end}]]></entry>
+	    
+	   
+	 <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_x"><![CDATA[{colour_start|buff}재롱부리기:{colour_end} 적을 죽였을 때 다른 파티원에게 {colour_start|stress}스트레스 -4{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_b_x"><![CDATA[{colour_start|scouting}라쿤 순찰병:{colour_end} +7%% {colour_start|scouting}정찰 & 일정 확률로 적 기습{colour_end} 받을 확률]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HIGH_pet_tooltip_c_x"><![CDATA[{colour_start|trap}야행성 청소부:{colour_end} 적을 죽였을 때 횃불 71 이하면 +15%% {colour_start|trap}피해{colour_end} (2 차례)]]></entry>
+	  
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_x"><![CDATA[{colour_start|surprised}화학적 다양성:{colour_end} 공격이 빗나가면 {colour_start|stress}스트레스 -3{colour_end}]]></entry>
+	  <entry id="buff_stat_tooltip_upgrade_discount_HOMU_pet_tooltip_b_x"><![CDATA[영웅 피격 시 확률로 자신에게 {colour_start|buff}방어{colour_end} +5 (2 차례)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_x"><![CDATA[{colour_start|bleed}피의 맛:{colour_end} 괴물을 처치하면 35%% {colour_start|bleed}출혈량{colour_end} 2 차례]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HOUN_pet_tooltip_b_x"><![CDATA[{colour_start|stun}강아지 사랑: {colour_end}+15%% {colour_start|green}치유 기술{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_x"><![CDATA[{colour_start|blue}광란의 수족관:{colour_end} {colour_start|notable}횃불{colour_end} 80%% 이상일 때 +20%% {colour_start|stress}스트레스 회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_JEST_pet_tooltip_b_x"><![CDATA[{colour_start|notable}정화 거품:{colour_end} 괴물을 처치하면 {colour_start|stress}파티 공포 제거{colour_end} ]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_x"><![CDATA[{colour_start|healhp}조화의 치유:{colour_end} +50%% {colour_start|healhp}치유 기술{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LAMI_pet_tooltip_b_x"><![CDATA[{colour_start|buff}긴박한 노래:{colour_end} 영웅 피격 시 {colour_start|buff}속도 +2{colour_end} (2 차례)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_x"><![CDATA[{colour_start|blight}도마뱀붙이 저항력:{colour_end} 영웅 피격 시 {colour_start|blight}중독{colour_end} 저항 +12%% (2 차례)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_LEPE_pet_tooltip_b_x"><![CDATA[{colour_start|buff}화려한 꼬리:{colour_end} 괴물을 처치하면 회피 +12 (1 차례)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_x"><![CDATA[영웅 피격 시 {colour_start|stress}스트레스  -3{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}거북이 방어태세:{colour_end} 적을 죽였을 때 {colour_start|buff}파티원 방어 +4{colour_end} (2 차례)(75%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MANA_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}거북이 등딱지:{colour_end} 아군 기술에 {colour_start|yellow}자기 차단 1{colour_end} (25%% 확률)]]></entry>
+	
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_x"><![CDATA[첫 번째 차례에만 +25%% {colour_start|stun}기절 저항{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_b_x"><![CDATA[{colour_start|surprised}앞다리 반격:{colour_end} 영웅 피격 시 {colour_start|stun}역 기절{colour_end} (기본 115%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_MUSK_pet_tooltip_c_x"><![CDATA[영웅 피격 시 {colour_start|bleed}역 출혈{colour_end} 턴 당 1 포인트/3 차례 (기본 130%%)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_x"><![CDATA[{colour_start|stun}촉수 얽메기:{colour_end} 괴물을 처치하면 {colour_start|move}적 뒤섞기{colour_end} (기본 107%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OCCU_pet_tooltip_b_x"><![CDATA[괴물을 처치하면 {colour_start|stun}적 기절{colour_end} (117%% 기본)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_x"><![CDATA[{colour_start|bleed}쥐 깨물기:{colour_end} 영웅 피격 시 {colour_start|bleed}출혈{colour_end} 턴 당 2 포인트/3 차례 (기본 120%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_b_x"><![CDATA[{colour_start|move}쥐의 균형감각:{colour_end} +12%% {colour_start|move}이동 저항{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PICA_pet_tooltip_c_x"><![CDATA[{colour_start|stress}설치류 충격회복력:{colour_end} 적을 죽였을 때 {colour_start|stress}파티원 스트레스 -2{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_x"><![CDATA[{colour_start|blue}까마귀 만찬:{colour_end} 아군 기술에 {colour_start|stress}공포 제거{colour_end} (75%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_b_x"><![CDATA[괴물을 처치하면 받는 {colour_start|stress}파티원 스트레스 회복{colour_end} +20%%/2 차례]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PLAG_pet_tooltip_c_x"><![CDATA[영웅 피격 시 {colour_start|debuff}적 파티 약화{colour_end} 치명타 -4/2 차례]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SHIE_pet_tooltip_x"><![CDATA[{colour_start|stun}몽구스는 또 속지않아:{colour_end} 짐승과 거미에게 +15%% 피해]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_x"><![CDATA[{colour_start|healhp}천상의 치유:{colour_end} 아군 기술에 {colour_start|healhp}치유 0-4{colour_end} ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}천상의 용기:{colour_end} 영웅 피격 시 {colour_start|yellow}치명타 확률{colour_end} +4 (2 차례)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SERA_pet_tooltip_c_x"><![CDATA[{colour_start|harmful}희생의 선물:{colour_end} 영웅 피격 시 {colour_start|harmful}자가 체력 -2{colour_end}/{colour_start|stress}파티원 스트레스 -2{colour_end} 부여]]></entry>
+	
+
+	 <entry id="buff_stat_tooltip_upgrade_discount_SHAD_pet_tooltip_x"><![CDATA[{colour_start|stealth}그림자 짜기:{colour_end} 다른 영웅에게 {colour_start|stealth}은신{colour_end} 1 차례 (25%% 확률)]]></entry>
+	 
+	 
+	 <entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_x"><![CDATA[{colour_start|harmful}섬뜩한 위협:{colour_end} 영웅 피격 시 적 {colour_start|harmful}속도 -2{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SIST_pet_tooltip_b_x"><![CDATA[{colour_start|stun}하운드의 체력:{colour_end} 영웅 피격 시 {colour_start|stun}기절 저항{colour_end} +10 (2 차례)]]></entry>
+	 
+	 
+  
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_x"><![CDATA[{colour_start|yellow}아르마딜로 갑피:{colour_end} 17%% 확률로 1 {colour_start|yellow}차단{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_b_x"><![CDATA[영웅 피격 시 +5%% {colour_start|yellow}방어{colour_end} (2 차례)(기본 150%%)]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SPAR_pet_tooltip_c_x"><![CDATA[적을 죽였을 때 파티원에게 명중률 +7 (1 차례)]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_x"><![CDATA[{colour_start|yellow}장난감 집중:{colour_end} 짓밟기:  {colour_start|buff}치명타{colour_end} +3/{colour_start|buff}명중률{colour_end} +7]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_b_x"><![CDATA[{colour_start|mark}코기의 목표:{colour_end} 명중했을 때{colour_start|mark}대상 표식{colour_end} (50%% 확률) (2 차례)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_c_x"><![CDATA[{colour_start|guard}물어와!:{colour_end} 영웅 피격 시 {colour_start|mark}표식 대상{colour_end} 피해 +25%% (2 차례)]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_THRA_pet_tooltip_d_x"><![CDATA[{colour_start|notable}횃불이 30-70%%{colour_end}일 때{colour_start|stress}스트레스 -15%%{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_x"><![CDATA[{colour_start|surprised}구슬픈 지저귐:{colour_end} 괴물을 처치하면 파티에 {colour_start|stress}스트레스 -3{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}장송곡:{colour_end} 괴물을 처치하면 턴 당 2 회복/2 차례 (20%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}치유의 선율: {colour_end}괴물을 처치하면 파티원 회복 +4 (5%% 확률)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VEST_pet_tooltip_d_x"><![CDATA[{colour_start|stress}신성한 중재:{colour_end} 괴물을 처치하면 {colour_start|bleed}파티원 출혈 제거{colour_end} (20%% 확률)]]></entry>
+	
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_x"><![CDATA[{colour_start|debuff}꿰뚫어 물기:{colour_end} 명중했을 때 {colour_start|debuff}-3 회피/-3 방어{colour_end} (2 차례) ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_b_x"><![CDATA[{colour_start|harmful}광분:{colour_end} 적을 죽였을 때 {colour_start|harmful}피해 +20%%/치명타 +2{colour_end} (2 차례)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WRAI_pet_tooltip_c_x"><![CDATA[{colour_start|stress}만복:{colour_end} 적을 죽였을 때 {colour_start|stress}파티원 스트레스 -2{colour_end}]]></entry>
+	
+	
+	<!--Pets Plots Caretaker Goal, Quest Titles and Descriptions, Failure, Success, Post event wrap-up-->
+
+
+	<!--Town Event: Start Pet Catcher Quest Chain -->
+    <entry id="town_event_title_first_pets_event_A"><![CDATA[밀렵꾼 순찰대 토벌]]></entry>
+    <entry id="town_event_description_first_pets_event_A"><![CDATA[밀렵꾼 순찰대가 삼림지대와 사육장, 해안 만에서 훈련 및 실험을 위해 동물들을 사냥하고있습니다. 순출대를 무찌르면 충직한 동반자가 될 수 있는 동물들을 우리 영지로 데려올 수 있을 것입니다! 먼저 삼림지대를 살퍄보는게 좋을 것 같습니다.]]></entry>
+	<entry id="town_event_info_first_pets_event_A"><![CDATA[플롯 퀘스트 이외에도, {colour_start|pet_a}밀렵꾼 순찰대{colour_end}는 삼림지대, 사육장, 해안 만 던전에서 적은 확률오 출몰할 수 있습니다. 그러니 경계하세요!]]></entry>
+
+	<!--Warrens 1--> 		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_1"><![CDATA[수습 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_1"><![CDATA[{?hero_names}%s 영웅은 밀렵꾼 순찰대를 토벌하기 위해 사육장으로 향했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_1"><![CDATA[수습 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="str_plot_pets_xwarrens_1_tip"><![CDATA[밀렵꾼 순찰대는 동물들을 더욱 잔인해지고 자신들의 명령을 따르도록 훈련하였습니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_failure"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼과의 싸움에서 죽었습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_1_success"><![CDATA[{?hero_names}%s 수습 밀렵꾼으로부터 동물들을 해방시켰지만, 밀렵꾼은 도망치고 말았습니다! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_1"><![CDATA[수습 밀렵꾼 토벌]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_1"><![CDATA[사육장의 동물들은 이제 안전할 것입니다. 아주 잠시동안이지만...]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_1"><![CDATA[수습 밀렵꾼 패배]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_1"><![CDATA[붙잡혀있는 동물들을 풀어주기 위해 수습 밀렵꾼과 그의 부하들을 토벌하십시오. {colour_start|yellow}경고:{colour_end} 이 임무는 {colour_start|pet_a}애완동물{colour_end} 모험 체인을 시작합니다. 이를 통해 {colour_start|pet_a}애완동물 장신구{colour_end}를 획득할 수 있습니다. 해안 만에서 두 번째 탐헙을 찾을 수 있으며, 그 전에 먼저 다른 보스를 물리쳐야 할 수도 있습니다.]]></entry>
+	
+	 
+	<!--Warrens 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_2"><![CDATA[중견 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_2"><![CDATA[{?hero_names}%s 영웅은 중견 밀렵꾼을 토벌하기 위해 사육장으로 향했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_2"><![CDATA[중견 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="str_plot_pets_xwarrens_2_tip"><![CDATA[이번 원정지는 탐사 지역이 훨씬 넓으니, 꼭 필요한 경우에만 보급품을 사용하십시오.]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_failure"><![CDATA[{?hero_names}%s 영웅은 중견 밀렵꾼을 토벌 하려다 돌아오지 못했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_2_success"><![CDATA[{?hero_names}%s 사육장에서 또 다른 동물들을 해방시켰지만, 중견 밀렵꾼 은 도망치고 말았습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_2"><![CDATA[중견 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_2"><![CDATA[중견 밀렵꾼이 이번 주는 사육장의 동물을 사냥하지 않을 것입니다.]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_2"><![CDATA[중견 밀렵꾼 토벌을 위한 사육장 원정]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_2"><![CDATA[보다 경험이 많은 {colour_start|pet_a}중견 밀렵꾼{colour_end}이 이 지역에서 밀렵꾼 순찰대일을 지속하기 위해 파견되었습니다. 그를 막아야 합니다!]]></entry>
+	
+	<!--Warrens 3-->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_3"><![CDATA[대장 밀렵꾼 체포를 위한 사육장 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_3"><![CDATA[{?hero_names}%s 영웅은 사육장을 탐험하였으며, 대장 밀렵꾼을 물리쳤습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="str_plot_pets_xwarrens_3_tip"><![CDATA[당신이 선택한 길은 이 뒤틀린 원정지에서 살아남기 위한 결정적인 차이점이 될 것입니다. 행운을 빕니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_failure"><![CDATA[{?hero_names}%s 영웅은 사육장에서 대장 밀렵꾼에게 패배하고 말았습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_3_success"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼과 맞서싸웠으며, 그는 해안 만으로 도망쳤습니다! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_3"><![CDATA[영웅은 대장 밀렵꾼과 맞서싸웠으며, 그는 해안 만으로 도망쳤습니다!]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_3"><![CDATA[{colour_start|pet_a}대장 밀렵꾼{colour_end}이 무차별적인 밀렵 작전을 시작하고있습니다! 그는 사육장 깊은 곳에 숨어있으며, 우린 그를 체포해야만 합니다! 들고갈 수 있을 만큼 모든 붕대와 해독제, 약초, 아편, 삽, 음식을 챙기세요!]]></entry>
+	
+		<!--Warrens 4 -->		
+	<entry id="str_caretaker_goal_plot_pets_xwarrens_4"><![CDATA[이상한 공터 탐색]]></entry>
+	<entry id="str_embarked_on_plot_pets_xwarrens_4"><![CDATA[{?hero_names}%s 영웅은 동물들이 안내한 공터를 탐색하러 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xwarrens_4"><![CDATA[이상한 공터 탐색]]></entry>
+	<entry id="str_plot_pets_xwarrens_4_tip"><![CDATA[사육장 한 가운데 있는 이 공터는 이상하리만치 평온합니다.]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_failure"><![CDATA[{?hero_names}%s 영웅은 공터에서 돌아오지 못했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xwarrens_4_success"><![CDATA[{?hero_names}%s 영웅은 부정적인 기벽을 치유해주는 이상한 공터를 탐색했습니다! 동물들이 은혜를 갚은 것일까요? ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xwarrens_4"><![CDATA[이상한 공터 탐색]]></entry>
+	<entry id="town_event_description_plot_end_pets_xwarrens_4"><![CDATA[영웅은 이상한 공터를 탐색했습니다!]]></entry>
+	<entry id="town_quest_name_plot_pets_xwarrens_4"><![CDATA[이상한 공터 탐색]]></entry>
+	<entry id="town_quest_description_plot_pets_xwarrens_4"><![CDATA[얼마전에 구출한 동물 한 마리가 입에 횃불을 문체, 간절한 눈빛으로 당신을 바라봅니다. 마치 자신을 따라오라는 것 같습니다... 몇 번 무시해도, 녀석은 자신을 따라올 때 까지 당신을 귀찮게 할 참입니다. 결국 당신은 녀석의 뒤를 따라 탐색을 나서기로 결정했습니다. 따라가는 게 가능할 때 까지...]]></entry>
+	
+	
+
+	
+	 <!--Weald 1-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_1"><![CDATA[수습 밀렵꾼 추적을 위한 삼림지대 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_1"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼을 쫓아 삼림지대 깊은 곳으로 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="str_plot_pets_xweald_1_tip"><![CDATA[보조 밀렵꾼은 아군을 치유할 수 있으니 그를 먼저 처치하는 것이 좋습니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_failure"><![CDATA[{?hero_names}%s 영웅은 삼림지대에서 수습 밀렵꾼을 추적하다 패배했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_1_success"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼을 죽였습니다! 그는 이제 다른 동물을 해칠 수 없을 것입니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_1"><![CDATA[드디어 수습 밀렵꾼을 붙잡았습니다!]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_1"><![CDATA[삼림지대의 구불구불한 미로 속으로 {colour_start|pet_a}수습 밀렵꾼{colour_end} 을 몰아넣는데 성공했습니다. 이번엔 탈출할 수 없을 것입니다! 가서 놈을 물리치고, 우리를 도와줄 다른 동물들을 해방시켜야 합니다!]]></entry>
+	
+	<!--Weald 2-->		
+	<entry id="str_caretaker_goal_plot_pets_xweald_2"><![CDATA[중견 밀렵꾼 토벌을 위한 삼림지대 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_2"><![CDATA[{?hero_names}%s 영웅은 중견 밀렵꾼을 토벌하기 위해 삼림지대의 길을 따라 들어갔습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_2"><![CDATA[중견 밀렵꾼 토벌을 위한 삼림지대 원정]]></entry>
+	<entry id="str_plot_pets_xweald_2_tip"><![CDATA[이 미로같은 숲에서 길을 잃지 않도록 조심하세요! 밀렵꾼들이 함정을 파놓았을 수도 있습니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_failure"><![CDATA[{?hero_names}%s 영웅은 중견 밀렵꾼을 추적하던 중 살해당했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_2_success"><![CDATA[{?hero_names}%s 중견 밀렵꾼을 토벌하였습니다. 부디 이 일로 밀렵꾼 순찰대가 완전히 와해되었으면 좋겠네요! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_2"><![CDATA[중견 밀렵꾼 토벌을 위한 삼림지대 원정]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_2"><![CDATA[중견 밀렵꾼과 그의 부하들은 삼림지대에서 패배했습니다.]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_2"><![CDATA[중견 밀렵꾼 토벌을 위한 삼림지대 원정]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_2"><![CDATA[{colour_start|pet_a}중견 밀렵꾼{colour_end}이 삼람지대의 미로 구석에 몰려 숨어있습니다. 놈의 밀렵행위에 종지부를 찍어야 할 때입니다... 영원히...]]></entry>
+	
+	<!--Weald 3 -->		 
+	<entry id="str_caretaker_goal_plot_pets_xweald_3"><![CDATA[대장 밀렵꾼 체포를 위한 삼림지대 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xweald_3"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼을 체포하기 위해 삼림지대로 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xweald_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="str_plot_pets_xweald_3_tip"><![CDATA[밀렵꾼 순찰대의 세력을 완전히 끝낼 시간입니다! 비록 잔당들을 완전히 박멸하긴 어렵겠지만, 그것 만으로도 큰 일을 해낸 셈입니다!...성공한다면 말이죠!]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_failure"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼에게 전멸했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xweald_3_success"><![CDATA[{?hero_names}%s 대장 밀렵꾼을 체포했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xweald_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_event_description_plot_end_pets_xweald_3"><![CDATA[우리는 대장 밀렵꾼을 체포하는데 성공했습니다.]]></entry>
+	<entry id="town_quest_name_plot_pets_xweald_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_quest_description_plot_pets_xweald_3"><![CDATA[{colour_start|pet_a}대장 밀렵꾼{colour_end}이 이 곳에서 마지막 저항을 위해 기다리고 있습니다. 쉽지 않을 테지만... 동물들을 위해 그를 잡아야만 합니다! 들고갈 수 있을 만큼 모든 붕대와 해독제, 약초, 아편, 삽, 음식을 챙기세요!]]></entry>
+	
+	<!--Cove 1 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_1"><![CDATA[수습 밀렵꾼 추적을 위한 해안 만 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_1"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼을 잡기 위해 해안 만으로 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="str_plot_pets_xcove_1_tip"><![CDATA[밀렵꾼들의 동물들은 무자비한 전투 훈련을 받았습니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_failure"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼을 추적하려다 해안만에서 죽고말았습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_1_success"><![CDATA[{?hero_names}%s 영웅은 수습 밀렵꾼을 물리쳤지만, 그는 또 다시 도망치고 말았습니다! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_1"><![CDATA[수습 밀렵꾼을 해안 만 까지 추적하였으며, 두 번째 싸움을 벌였습니다.]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_1"><![CDATA[수습 밀렵꾼 추적]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_1"><![CDATA[{colour_start|pet_a}수습 밀렵꾼{colour_end}이 해안 만으로 탈출하여 새로운 병력들을 모았습니다. 그를 제압해야만 합니다!]]></entry>
+	
+	<!--Cove 2 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_2"><![CDATA[중견 밀렵꾼 토벌을 위한 해안 만 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_2"><![CDATA[{?hero_names}%s 영웅은 중견 밀렵꾼 토벌을 위해 해안 만으로 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_2"><![CDATA[중견 밀렵꾼 토벌을 위한 해안 만 원정]]></entry>
+	<entry id="str_plot_pets_xcove_2_tip"><![CDATA[이 곳은 다른 해안 만 동굴들 보다 훨씬 더 깊습니다. 중견 밀렵꾼을 찾기란 쉽지 않을 것입니다.]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_failure"><![CDATA[{?hero_names}%s 영웅은 해안 만에서 중견 밀렵꾼을 추적하던 중 살해당했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_2_success"><![CDATA[{?hero_names}%s 영웅이 해안 만에서 중견 밀렵꾼을 제압하고 동물들을 해방시켰지만, 이 겁쟁이는 다시 남쪽으로 도망쳤습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_2"><![CDATA[중견 밀렵꾼 토벌을 위한 해안 만 원정]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_2"><![CDATA[중견 밀렵꾼은 토벌되었습니다.]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_2"><![CDATA[중견 밀렵꾼 토벌을 위한 해안 만 원정]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_2"><![CDATA[{colour_start|pet_a}중견 밀렵꾼{colour_end}이 해안 만의 뒤틀린 동굴 속에서 영웅들을 노리고 있습니다. 파티의 보급 상황을 점검하고, 용기를 가져야 할 때입니다!]]></entry>
+	
+	<!--Cove 3 -->		
+	<entry id="str_caretaker_goal_plot_pets_xcove_3"><![CDATA[대장 밀렵꾼 체포를 위한 해안 만 원정]]></entry>
+	<entry id="str_embarked_on_plot_pets_xcove_3"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼을 체포하기 위해 해안 만으로 원정을 떠났습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_quest_progress_plot_pets_xcove_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="str_plot_pets_xcove_3_tip"><![CDATA[밀렵꾼들에겐 뚜렷한 이점이 있습니다. 동굴은 길고 혼란스러우며, 당신이 그를 찾기도 전에 물자가 떨어질 수도 있습니다!]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_failure"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼을 추적하던 중 살해당했습니다. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_plot_pets_xcove_3_success"><![CDATA[{?hero_names}%s 영웅은 대장 밀렵꾼을 발견하고 전투를 벌였으나, 놈은 겁쟁이처럼 또 다시 해안 만에서 도망쳤습니다! ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="town_event_title_plot_end_pets_xcove_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_event_description_plot_end_pets_xcove_3"><![CDATA[대장 밀렵꾼 추적]]></entry>
+	<entry id="town_quest_name_plot_pets_xcove_3"><![CDATA[대장 밀렵꾼 체포]]></entry>
+	<entry id="town_quest_description_plot_pets_xcove_3"><![CDATA[{colour_start|pet_a}대장 밀렵꾼{colour_end}이 우리의 눈을 피해 해안 만 깊은 곳으로 피신했습니다. 그는 복잡한 동굴 속 깊은 곳에 숨어있습니다. 들고갈 수 있을 만큼 모든 붕대와 해독제, 약초, 아편, 삽, 음식을 챙기세요!]]></entry>
+	
+<!-- Phase 2 Strings -->
+<!-- Rarities -->
+	<entry id="trinket_rarity_pet_e"><![CDATA[애완동물 (원소)]]></entry>
+	
+<!-- Trinket Sets Label -->	
+	<entry id="str_inventory_set_title_petset_combined5"><![CDATA[{colour_start|pet_a}"원소 소멸"{colour_end}]]></entry>
+ 
+<!-- Pet Names Phase 2 -->
+	<entry id="str_inventory_title_trinketSoulPets32"><![CDATA["세이지" (불개)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets33"><![CDATA["벨라" (난초 사마귀)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets34"><![CDATA["벨록스" (붉은 여우)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets35"><![CDATA["오로라" (산호뱀)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets36"><![CDATA["화이트 팽" (해골 늑대)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets37"><![CDATA["스카우트" (흰머리 독수리)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets38"><![CDATA["록키" (달팽이)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets39"><![CDATA["버디" (포메라니안)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets40"><![CDATA["팔리움" (카멜레온)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets41"><![CDATA["푸씨" (퓨마)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets42"><![CDATA["헤카" (고슴도치)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets43"><![CDATA["아드리엘" (가면 올빼미)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets44"><![CDATA["가이시스" (물 원소정령)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets45"><![CDATA["이그니스" (화염 원소정령)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets46"><![CDATA["피클피" (불사조)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets47"><![CDATA["에코" (늑대)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets48"><![CDATA["시빌" (슈가글라이더)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets49"><![CDATA["아르테미스" (오소리)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets50"><![CDATA["기즈모" (청동 황소)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets51"><![CDATA["페넬로페" (성장기 유니콘)]]></entry>
+	<entry id="str_inventory_title_trinketSoulPets52"><![CDATA["상투스" (요크셔테리어)]]></entry>
+	
+	<!--Fang Summons Skills Names-->
+	<entry id="str_monstername_petsskeleton_common_B"><![CDATA[팽의 하수인]]></entry>
+	<entry id="str_monster_skill_fang_summon_cudgel"><![CDATA[팽의 하수인 곤봉치기]]></entry>
+    <entry id="str_monster_skill_fang_summon_cudgel_weak"><![CDATA[팽의 하수인 나약한 곤봉치기]]></entry>
+	
+	<!--New False Rule-->
+	<entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[제외]]></entry>
+	
+<!--Pet Trinket ToolTips Skill Names-->
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_x"><![CDATA[{colour_start|notable}강아지 애교{colour_end} 아군 기술에 {colour_start|stress}스트레스 -5{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_b_x"><![CDATA[{colour_start|healhp}상처핥기:{colour_end} 아군 기술의 대상에게 {colour_start|healhp}체력 +2{colour_end} (33%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_c_x"><![CDATA[{colour_start|healhp}얼굴핥기:{colour_end} 괴물을 처치하면 자신에게 {colour_start|healhp}체력 +2{colour_end} (33%% 확률)]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_BUTC_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}핏줄속에 흐르는 불:{colour_end} 랭크2 로부터 {colour_start|bleed}출혈 지속시간 +50%%{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_x"><![CDATA[{colour_start|pet_a}난초 촉진제:첫 턴에만 {colour_end} {colour_start|healhp}치유 기술{colour_end} +50%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_b_x"><![CDATA[{colour_start|mark}사마귀의 표적:{colour_end} 영웅 피격시 {colour_start|mark}공격자 표식{colour_end} (65%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_c_x"><![CDATA[{colour_start|notable}침착한 포식자:{colour_end} 아군 기술에 {colour_start|stress}스트레스 -3{colour_end} (75%% 확률)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_GROV_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}육식의 미학:{colour_end} 괴물을 처치하면 파티에 {colour_start|healhp}턴 당 2 포인트 회복 {colour_end} 2턴 지속 (20%% 확률)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_x"><![CDATA[{colour_start|stealth}발톱 반격:{colour_end} 영웅 피격시 일정 확률로 공격자에게 {colour_start|buff}받는 치명타{colour_end} +4%% (2 턴)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_b_x"><![CDATA[{colour_start|notable}교활한 여우:{colour_end} 빗나갔을 때 {colour_start|notable}명중률{colour_end} +5 (2 턴)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}닭장속의 여우:{colour_end} {colour_start|bleed}출혈중인 적{colour_end} 대상일 때 피해 +25%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_THOR_pet_tooltip_d_x"><![CDATA[{colour_start|yellow}음흉한 여우:{colour_end} 괴물을 처치하면 {colour_start|yellow}랭크 2{colour_end} 로부터 다른 영웅들에게 {colour_start|stress}스트레스 -3{colour_end} (65%% 확률)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_x"><![CDATA[{colour_start|notable}첫 번째 타격:{colour_end} 첫 턴에만: {colour_start|notable}치명타{colour_end} 확률 +10]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_b_x"><![CDATA[{colour_start|green}털갈이:{colour_end} 영웅 피격시 {colour_start|green}옮기기{colour_end} {colour_start|bleed}출혈{colour_end} + {colour_start|blight}중독{colour_end} ]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_c_x"><![CDATA[{colour_start|knockback}최면 포식자:{colour_end} {colour_start|stress}성찬: 적을 죽일 때 마다 {colour_end} 파티 {colour_start|stress}스트레스 -2{colour_end} (75%% 확률)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SNAK_pet_tooltip_d_x"><![CDATA[{colour_start|pop_text_crit_damage}마지막 타격:{colour_end} {colour_start|deathdoor}죽음의 문턱{colour_end} 상태일 때 {colour_start|notable}치명타{colour_end} 확률 +20]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_x"><![CDATA[{colour_start|notable}저승의 냉기:{colour_end} 영웅 피격시 파티에 {colour_start|buff}방어력{colour_end} +5 (2 턴)(50%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}죽음의 울음소리:{colour_end} 괴물을 처치하면 33%% 확률로 {colour_start|knockback}해골 소환{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARB_pet_tooltip_c_x"><![CDATA[{colour_start|notable}생존 본능:{colour_end} NOT USED: 파티에 {colour_start|disease}질병 저항{colour_end} +10%% (2 턴)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_x"><![CDATA[{colour_start|yellow}독수리의 영혼:{colour_end} {colour_start|stress}스트레스 회복 +50%%{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_b_x"><![CDATA[{colour_start|blue}독수리 깃털:{colour_end} 아군 기술에 {colour_start|bleed}출혈 회복{colour_end} (25%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_c_x"><![CDATA[{colour_start|debuff}강습 목표:{colour_end} 명중했을 때 {colour_start|mark}대상 표식{colour_end} (50%% 확률)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SEER_pet_tooltip_d_x"><![CDATA[{colour_start|move}눈알 공격:{colour_end} 영웅 피격시 공격자에게 {colour_start|debuff}명중률{colour_end} -5 (2 턴)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_x"><![CDATA[{colour_start|stun}대수의 나선:{colour_end} {colour_start|stun}기절{colour_end} 대상일 때 피해 +15%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_b_x"><![CDATA[{colour_start|buff}껍질 증폭기:{colour_end} 영웅 피격시 다른 영웅들에게 {colour_start|buff}피해량{colour_end} +10%% (2 턴)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_c_x"><![CDATA[{colour_start|move}칼슘 껍질:{colour_end} 적을 죽였을 때 파티에 {colour_start|move}피해 반사{colour_end} +30%% (1 턴) (75%% 확률)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_d_x"><![CDATA[{colour_start|stress}스트레스 껍질:{colour_end} {colour_start|trap}소수의 방벽{colour_end}에 다른 영웅들에게 {colour_start|stress}스트레스 -3{colour_end} (50%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ENIG_pet_tooltip_t_x"><![CDATA[{colour_start|move}피해 반사{colour_end} +30%%]]></entry>	
+	
+   	<entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_x"><![CDATA[{colour_start|mortaldebuff}포메라니안의 활력:{colour_end} 흡혈귀로부터 오는 {colour_start|stress}스트레스{colour_end} -25%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_b_x"><![CDATA[{colour_start|pop_text_crit_damage}영역 표시:{colour_end} 명중했을 때 {colour_start|mark}대상 표식{colour_end} (40%% 확률)(2 턴)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_c_x"><![CDATA[{colour_start|notable}강아지 발광:{colour_end} {colour_start|mark}표식{colour_end} 대상에게 피해량 20%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WERE_pet_tooltip_d_x"><![CDATA[{colour_start|knockback}놀이 파트너:{colour_end} {colour_start|deathdoor}죽음의 일격{colour_end} 저항 +3]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_x"><![CDATA[{colour_start|notable} 입체 시야:{colour_end} 삼림지대 일 때 치명타에 {colour_start|stress}스트레스 회복{colour_end} +100%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_b_x"><![CDATA[{colour_start|green} 섬세한 꼬리:{colour_end} 사육장에서 적을 죽였을 때 {colour_start|notable}피해량{colour_end} +25%% (2 턴)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_c_x"><![CDATA[{colour_start|buff}탄도학 예측:{colour_end} 폐허에서 적을 죽였을 때 {colour_start|buff}치명타{colour_end} +5%% (2 턴)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_PHAN_pet_tooltip_d_x"><![CDATA[{colour_start|stealth}해안만 변색:{colour_end} 해안만에서 적을 죽였을 때 {colour_start|stealth}은신{colour_end} (2 턴)]]></entry>
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_x"><![CDATA[{colour_start|stress}침착한 존재:{colour_end}  {colour_start|stress}스트레스 회복{colour_end} +20%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_b_x"><![CDATA[{colour_start|yellow}신성한 깃털: {colour_end}아군 기술에 {colour_start|disease}질병 치료{colour_end} 15%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_c_x"><![CDATA[{colour_start|stealth}야행성 동물:{colour_end} 괴물을 처치하면 다른 영웅들에게 {colour_start|healhp}체력 회복 0-3{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_APOT_pet_tooltip_d_x"><![CDATA[{colour_start|notable}방어적인 태세:{colour_end} +10%% {colour_start|blight}중독 저항{colour_end}]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_x"><![CDATA[{colour_start|stun}퓨마의 발톱:{colour_end} {colour_start|bleed}출혈{colour_end} 확률 +10%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_b_x"><![CDATA[{colour_start|bleed}냥이는 할퀼 수 있어!:{colour_end}  {colour_start|bleed}출혈{colour_end} 피해량 +40%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_c_x"><![CDATA[{colour_start|virtue}냥이는 갸르릉 거릴 수 있어!:{colour_end} 괴물을 처치하면 다른 영웅들에게{colour_start|stress} 스트레스 -2{colour_end}]]></entry>
+     <entry id="buff_stat_tooltip_upgrade_discount_HARL_pet_tooltip_d_x"><![CDATA[{colour_start|riposte}어미 사냥꾼:{colour_end} 영웅 피격 시 {colour_start|riposte}반격{colour_end} 활성화 (1 턴)(40%% 확률)]]></entry>
+
+   	<entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_x"><![CDATA[{colour_start|notable}평온한 올빼미:{colour_end} {colour_start|healhp}달빛의 눈물:{colour_end} {colour_start|stress}스트레스 -5{colour_end} 추가]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_b_x"><![CDATA[{colour_start|stun}날카로운 울음소리:{colour_end} 대상의 행동력 중 {colour_start|stun}1 턴{colour_end} 제거 (15%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_c_x"><![CDATA[{colour_start|blue}거미 사냥꾼:{colour_end} {colour_start|blue}거미{colour_end}가 대상일 때 적중률 +15/치명타 +5]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_NIGH_pet_tooltip_d_x"><![CDATA[{colour_start|buff}교란시키는 날개짓:{colour_end} {colour_start|buff}회피{colour_end} +5]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_x"><![CDATA[{colour_start|scouting}축축함:{colour_end} {colour_start|torch_centre}횃불이 51 이하{colour_end}일 때 {colour_start|debuff}디버프{colour_end}확률 +10%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_b_x"><![CDATA[{colour_start|knockback}물대포:{colour_end} 명중했을 때 {colour_start|knockback}2 물 피해{colour_end} (50%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_c_x"><![CDATA[{colour_start|miasma}미끌거리고, 미끄러지는:{colour_end} 영웅 피격 시 확률적으로 반격하여 {colour_start|debuff}명중률{colour_end} -3  & {colour_start|move}이동 저항{colour_end} -5(2 턴)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_d_x"><![CDATA[{colour_start|virtue}생기를 주는 물뿌리기:{colour_end} 괴물을 처치하면 다른 영웅들에게 {colour_start|stress}스트레스{colour_end} -2]]></entry>
+   
+
+    <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_f_x"><![CDATA[{colour_start|notable}사우나 디톡스:{colour_end} 적을 죽였을 때 자신에게 {colour_start|stress}스트레스{colour_end} -2]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_g_x"><![CDATA[{colour_start|yellow}강한 열기:{colour_end} {colour_start|yellow}횃불이 79 이상{colour_end}일 때 {colour_start|yellow}치명타{colour_end} 확률 +4]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_h_x"><![CDATA[{colour_start|debuff}갑옷 녹이기:{colour_end} 영웅 피격시 일정 확률로 공격자의 {colour_start|debuff}방어{colour_end} -5 (2 턴)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_i_x"><![CDATA[{colour_start|bleed}불의 광선:{colour_end} 명중했을 때 일정 확률로 {colour_start|bleed}받는 치명타{colour_end} +4 (2 턴)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_ARCA_pet_tooltip_q_x"><![CDATA[{colour_start|notable}원소정령 동행:{colour_end} 비전술사는 주문으로인한 피로를 막기위해 여분의 음식을 필요로 함]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_x"><![CDATA[{colour_start|notable}밝은 빛:{colour_end} 랭크1 일 때 {colour_start|stress}받는 스트레스{colour_end} -20%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_b_x"><![CDATA[{colour_start|stun}아른거리는 빛:{colour_end} 아군 기술에 {colour_start|yellow}횃불 밝기{colour_end} +5]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_c_x"><![CDATA[{colour_start|yellow}활력 충전:{colour_end} 괴물을 처치하면 다른 영웅들에게 {colour_start|healhp}체력 회복 0-2{colour_end} (33%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_d_x"><![CDATA[{colour_start|bleed}불사조의 불:{colour_end} 죽음의 문턱에서 영웅 피격시 {colour_start|healhp}체력{colour_end} +50%% (50%% 확률)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_WARR_pet_tooltip_e_x"><![CDATA[{colour_start|pop_text_crit_damage}떠오르는 여명:{colour_end} 영웅 피격시 파티에 {colour_start|stress}스트레스{colour_end} -20 & {colour_start|yellow}횃불 밝기{colour_end} +100(5%% 확률)]]></entry>
+   
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_x"><![CDATA[{colour_start|notable}먹이 사냥꾼:{colour_end} 야수 유형 적들로부터 {colour_start|stress}받는 스트레스{colour_end} -40%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_b_x"><![CDATA[{colour_start|move}늑대의 턱:{colour_end} {colour_start|buff}치명타{colour_end}확률 +3]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}늑대의 이빨:{colour_end} 명중했을 때 3턴 동안 턴당 1 {colour_start|bleed}출혈{colour_end} (120%% 확률)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_MONK_pet_tooltip_d_x"><![CDATA[{colour_start|surprised}정신을 깨우는 울음소리:{colour_end} 아군 기술에 {colour_start|stress}공포{colour_end} 제거 (33%% 확률)]]></entry>
+   
+   	<entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_x"><![CDATA[{colour_start|healhp}고압 치유:{colour_end} {colour_start|stress}스트레스{colour_end}가 99 이상인 상태에서 적을 죽였을 때 {colour_start|healhp}파티 체력 회복 1-3{colour_end}]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_b_x"><![CDATA[{colour_start|stun}파멸의 예언:{colour_end} 공격이 명중하면 {colour_start|stun}기절{colour_end} (115%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_c_x"><![CDATA[{colour_start|notable}귀여운 글라이더:{colour_end} 영웅 피격시 {colour_start|stress}파티가 받는 스트레스 회복{colour_end} +25%%(2 턴)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SOOT_pet_tooltip_d_x"><![CDATA[{colour_start|pet_a}진실된 미래:{colour_end} 아군 기술에 15%% 확률로 {colour_start|yellow}1 턴 추가{colour_end}]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_x"><![CDATA[{colour_start|notable}약탈자:{colour_end} {colour_start|healhp}회복 기술{colour_end} +25%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_b_x"><![CDATA[{colour_start|buff}막나가는 습성:{colour_end} {colour_start|stun}기절 저항{colour_end} +20%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_c_x"><![CDATA[{colour_start|trap}땅파기 발톱:{colour_end} 명중했을 때 2턴 동안 턴당 2 {colour_start|bleed}출혈{colour_end} (120%% 확률)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_d_x"><![CDATA[(스킬 제외: {colour_start|blight}중독된 영혼{colour_end})]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_DRYA_pet_tooltip_e_x"><![CDATA[{colour_start|specificclass}오소리 무리:{colour_end} {colour_start|specificclass}나무껍질{colour_end}에 {colour_start|stress}스트레스{colour_end} -4 (40%% 확률)]]></entry>
+   
+   
+   
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_x"><![CDATA[{colour_start|green}완벽한 보호자:{colour_end} {colour_start|stress}스트레스 회복{colour_end} +25%%]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_b_x"><![CDATA[{colour_start|notable}황소 짓밟기:{colour_end} 체력이 51%% 미만일 때 {colour_start|notable}치명타{colour_end}확률 +7]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_c_x"><![CDATA[{colour_start|notable}치명적인 황소 짓밟기:{colour_end} 체력이 16%% 미만일 때 {colour_start|notable}치명타{colour_end}확률 +12]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_d_x"><![CDATA[{colour_start|blight}유독한 증기:{colour_end} 영웅 피격시 일정 확률로 {colour_start|stun}공격자 기절{colour_end} ({colour_start|stress}불경{colour_end}은 면역)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HOLL_pet_tooltip_e_x"><![CDATA[{colour_start|guard}황동 천칭:{colour_end} 적을 죽였을 때 {colour_start|guard}다른 영웅들에게 보호{colour_end} (1 턴)]]></entry>
+	
+	
+	  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_x"><![CDATA[{colour_start|yellow}멍멍이 응원가:{colour_end} {colour_start|stress}스트레스 회복{colour_end} +100%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_b_x"><![CDATA[{colour_start|buff}헌신적인 동반자:{colour_end} {colour_start|stun}기절{colour_end}확률 +12%%]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_c_x"><![CDATA[{colour_start|bleed}거침없는 물기:{colour_end} 기술에 일정 확률로 {colour_start|notable}꾸짖기:{colour_end} 2턴 동안 턴당 2 {colour_start|bleed}출혈{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_EXOR_pet_tooltip_d_x"><![CDATA[{colour_start|blight}성찬식 소비:{colour_end} 적을 죽였을 때 일정 확률로 바티에 {colour_start|healhp}체력 회복 0-4{colour_end}]]></entry>
+   
+   
+      	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_x"><![CDATA[{colour_start|yellow}유니콘의 격려:{colour_end} 영웅 피격시 파티에 {colour_start|stress}스트레스{colour_end} -2 (50%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_b_x"><![CDATA[{colour_start|stun}순결과 정화:{colour_end} 적을 죽였을 때 {colour_start|healhp}파티 회복 1-2{colour_end} (40%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_c_x"><![CDATA[{colour_start|buff}나선형 뿔:{colour_end} 공격이 적중했을 때 {colour_start|buff}마법 피해 1-2{colour_end} (65%% 확률)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_d_x"><![CDATA[{colour_start|disease}마법의 치유:{colour_end} 아군 기술에 {colour_start|disease}질병 치료{colour_end} (1%% 확률)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_e_x"><![CDATA[{colour_start|stress}극도로 드문 경우로, 이 유니콘은 어떤 영웅과도 함께 동행할 수 있습니다.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_UNIC_pet_tooltip_f_x"><![CDATA[{colour_start|stress}완전히 이해될 수는 없으나, 이 유니콘은 {colour_end} {colour_start|yellow}추가 효과{colour_end} {colour_start|stress}를 가질 수 있습니다!{colour_end}]]></entry>
+  
+	</language>  
+ </root>

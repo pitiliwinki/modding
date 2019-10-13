@@ -1,0 +1,37 @@
+{
+   "quirks":
+   [
+     {
+         "id" : "flesh_rot",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+		 "is_flavor_description_valid_in_tray_icon" : true,
+         "random_chance" : 0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+           "flesh_RotDB",
+		   "flesh_RotBD",
+		   "flesh_RotTT",
+		   "flesh_RotST",
+		   "flesh_RotTT3",
+		   "flesh_RotHP",
+		   "flesh_RotFD",
+		   "flesh_RotFDH"
+         ],
+         "can_modify_in_activity" : false,
+		 "can_remove_with_camping_skill" : false,
+		 "slot_size" : 3,
+         "can_be_replaced_by_new_quirk" : false
+      }
+   ]
+}

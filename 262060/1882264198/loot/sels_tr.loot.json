@@ -1,0 +1,543 @@
+{
+	"loot_tables":
+	[
+		{
+			"id": "sels_tr_enchanted_items",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[	{
+					"type": "nothing",
+					"chances": 0,
+					"data": {}
+				}, 
+				{
+					"type": "item",
+					"chances": 1,
+					"data": {
+						"type": "estate",
+						"id": "sels_tr_uniden_weapon",
+						"amount": 1
+					}
+				}, 
+				{
+					"type": "item",
+					"chances": 0,
+					"data": {
+						"type": "estate",
+						"id": "sels_tr_uniden_equip",
+						"amount": 1
+					}
+				}
+			]
+		},{
+			"id": "sels_tr_enchanted_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "nothing",
+					"chances": 0,
+					"data": {}
+				}, {
+					"type": "trinket",
+					"chances": 1,
+					"data": {
+						"rarity": "sels_enchanted"
+					}
+				}
+				
+			]
+		},{
+			"id": "sels_tr_contagion_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_contagion", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_corrupting_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_corrupting", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_heavy_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_heavy", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_ms_craft_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_ms_craft", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_sharp_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_sharp", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_venom_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_venom", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_sunlit_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_sunlit", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_blazing_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_blazing", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_unstable_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_unstable", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_outburst_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_outburst", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_pestilence_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_pestilence", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_righteous_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_righteous", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_fear_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_fear", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_moonlit_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_moonlit", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_bloodthirst_trinkets",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_bloodthirst", "amount" : 1 }}		
+			]
+		},{
+			"id": "sels_tr_enchanted_weapon",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_bloodthirst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_bloodthirst", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_moonlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_moonlit", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_fear", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_fear", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_righteous", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_righteous", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_pestilence", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_pestilence", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_outburst", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_outburst", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_unstable", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_unstable", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_blazing", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_blazing", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_sunlit", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_sunlit", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_venom", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_venom", "amount" : 1 }},	
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_sharp", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_sharp", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_ms_craft", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_ms_craft", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_heavy", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_heavy", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_corrupting", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_corrupting", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_halberd_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_axe_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_pistol_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_throwing_knives_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_sword_contagion", "amount" : 1 }},		
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_crossbow_contagion", "amount" : 1 }}					
+			]
+		},{
+			"id": "sels_tr_enchanted_equipment",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[
+				{
+					"type": "nothing",
+					"chances": 0,
+					"data": {}
+				},{
+					"type": "table",
+					"chances": 1,
+					"data": {
+						"table": "sels_tr_enchanted_table"
+					}
+				}		
+			]
+		}, {
+			"id": "sels_tr_lost_shipment_loot",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "nothing",
+					"chances": 0,
+					"data": {}
+				},{
+					"type": "table",
+					"chances": 4,
+					"data": {
+						"table": "sels_tr_enchanted_items"
+					}
+				},{
+					"type": "table",
+					"chances": 5,
+					"data": {
+						"table": "G"
+					}
+				},{
+					"type": "table",
+					"chances": 1,
+					"data": {
+						"table": "sels_tr_enchanted_trinkets"
+					}
+				}
+			]
+		}, {
+			"id": "sels_tr_enchanted_items_05",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "nothing",
+					"chances": 95,
+					"data": {}
+				},{
+					"type": "table",
+					"chances": 5,
+					"data": {
+						"table": "sels_tr_enchanted_items"
+					}
+				}
+			]
+		},{
+			"id": "sels_tr_lost_relic_table",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "table",
+					"chances": 1,
+					"data": {
+						"table": "sels_tr_enchanted_table"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 10000,
+					"data": {
+						"rarity": "sels_lost_relic"
+					}
+				}
+			]
+		},{
+			"id": "sels_tr_enchanted_table",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "table",
+					"chances": 1,
+					"data": {
+						"table": "sels_tr_collector_table"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 10000,
+					"data": {
+						"rarity": "sels_enchanted"
+					}
+				}
+			]
+		},{
+			"id": "sels_tr_collector_table",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "table",
+					"chances": 1,
+					"data": {
+						"table": "sels_tr_ancestral_table"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 10000,
+					"data": {
+						"rarity": "collector"
+					}
+				}
+			]
+		},{
+			"id": "sels_tr_ancestral_table",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "trinket",
+					"chances": 1,
+					"data": {
+						"rarity": "very_rare"
+					}
+				}, {
+					"type": "trinket",
+					"chances": 10000,
+					"data": {
+						"rarity": "ancestral"
+					}
+				}
+			]
+		}, {
+			"id": "sels_tr_test_drop",
+			"difficulty": 0,
+			"dungeon": "",
+			"entries":
+			[{
+					"type": "nothing",
+					"chances": 0,
+					"data": {}
+				},{
+					"type": "table",
+					"chances": 0,
+					"data": {
+						"table": "sels_tr_enchanted_items"
+					}
+				},{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_davy_own", "amount" : 1 }},
+				{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "sels_tr_tribal_fury", "amount" : 1 }}
+				
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

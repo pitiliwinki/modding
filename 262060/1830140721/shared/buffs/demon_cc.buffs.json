@@ -1,0 +1,375 @@
+{
+   "buffs":
+   [
+         {
+            "id" : "TRINKET_demon_twopiece_wailing_B1",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_wailing_B2",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "max_hp",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_wailing_DMGL",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_wailing_DMGH",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_wailing_B3",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "disease",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_litany_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.08,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_litany_B2",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "bleed",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_litany_B3",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "stun",
+            "amount" : -0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_litany_B4",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "debuff",
+            "amount" : -0.40,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpbracer_B2",
+            "stat_type" : "monsters_surprise_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.2,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpbracer_B1",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : 0.08,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpbracer_B3",
+            "stat_type" : "crit_received_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.10,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpbracer_B4",
+            "stat_type" : "stress_on_miss",
+            "stat_sub_type" : "",
+            "amount" : 25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpwaist_B1",
+            "stat_type" : "damage_reflect_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.25,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpwaist_B2",
+            "stat_type" : "ignore_stealth",
+            "stat_sub_type" : "",
+            "amount" : 0,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpwaist_B3",
+            "stat_type" : "scouting_chance",
+            "stat_sub_type" : "",
+            "amount" : 0.20,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_krelpwaist_B4",
+            "stat_type" : "hp_heal_received_percent",
+            "stat_sub_type" : "",
+            "amount" : -0.40,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_littlethief_B1",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "disease",
+            "amount" : -0.40,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_littlethief_B2",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "crit_chance",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_littlethief_B3",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "max_hp",
+            "amount" : -0.10,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_slanderous_B1",
+            "stat_type" : "resistance",
+            "stat_sub_type" : "debuff",
+            "amount" : -0.40,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_slanderous_B2",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "attack_rating",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "TRINKET_demon_twopiece_slanderous_B3",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : 0.15,
+            "remove_if_not_active" : false,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "iv_onhit_B1",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_low",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "duration" : 5,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "iv_onhit_B2",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "damage_high",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "duration" : 5,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "iv_onhit_B3",
+            "stat_type" : "combat_stat_multiply",
+            "stat_sub_type" : "protection_rating",
+            "amount" : 0.05,
+            "remove_if_not_active" : false,
+            "duration" : 5,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "iv_onhit_B4",
+            "stat_type" : "combat_stat_add",
+            "stat_sub_type" : "speed_rating",
+            "amount" : 1,
+            "remove_if_not_active" : false,
+            "duration" : 5,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         },
+         {
+            "id" : "iv_onhit_B5",
+            "stat_type" : "stress_dmg_received_percent",
+            "stat_sub_type" : "",
+            "amount" : -0.05,
+            "remove_if_not_active" : false,
+            "duration" : 5,
+            "rule_type" : "always",
+            "is_false_rule" : false,
+            "rule_data" : {
+               "float" : 0,
+               "string" : ""
+            }
+         }
+   ]
+}
+

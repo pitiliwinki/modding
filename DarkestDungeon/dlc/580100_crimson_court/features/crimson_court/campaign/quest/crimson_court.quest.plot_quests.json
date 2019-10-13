@@ -1,0 +1,350 @@
+{
+	"plot_quests": [
+		{
+			"id": "plot_crimson_court_0",
+			"plot_quest_dependency": "",
+			"has_achievement": true,
+			"dungeon_level": 0,
+            "is_started_by_event": true,
+            "post_raid_video" : "cc_part1",
+			"quest": {
+				"is_plot_quest": true,
+				"type": "inventory_activate",
+				"dungeon": "courtyard",
+				"difficulty": 1,
+                "length": 1,
+                "torch_setting" : "bloodlight",
+                "raid_rules_override": "cc",
+				"map_name": "cc_map_intro",
+				"goal_ids": [
+					"inventory_activate_hive"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 5000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 12
+							},
+							"2": {
+							"id": "crimson_court_invitation_A",
+							"type": "estate_currency",
+							"amount": 1
+							}							
+						}
+					}
+				}
+			},
+
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "crimson_court",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+            "has_provision_warnings": true,
+			"suggested_minimum_resolve_level": 1,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_crimson_court_1",
+			"plot_quest_dependency": "plot_crimson_court_0",
+			"estate_inventory_dependency": {
+				"consume_on_attempt": true,
+				"items_definition": {
+					"items": {
+						"0": {
+							"id": "crimson_court_invitation_A",
+							"type": "estate_currency",
+							"amount": 1
+						}
+					}
+				}
+			},
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+                "dungeon": "courtyard",
+                "torch_setting" : "bloodlight",
+                "raid_rules_override": "cc",
+				"difficulty": 3,
+				"length": 5,
+				"map_name": "cc_map_baron",
+				"goal_ids": [
+					"kill_baron_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "cc_boss_baron",
+								"type": "trinket",
+								"amount": 1
+							},
+							"2": {
+							"id": "crimson_court_invitation_B",
+							"type": "estate_currency",
+							"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "crimson_court",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "remove_vampire",
+			"infestation_sequence_element_id_on_complete": "infestation_2_0"
+		},
+		{
+			"id": "plot_crimson_court_2",
+			"plot_quest_dependency": "plot_crimson_court_1",
+			"estate_inventory_dependency": {
+				"consume_on_attempt": true,
+				"items_definition": {
+					"items": {
+						"0": {
+							"id": "crimson_court_invitation_B",
+							"type": "estate_currency",
+							"amount": 1
+						}
+					}
+				}
+			},
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+                "dungeon": "courtyard",
+                "torch_setting" : "bloodlight",
+                "raid_rules_override": "cc",
+				"difficulty": 5,
+				"length": 5,
+				"map_name": "cc_map_viscount",
+				"goal_ids": [
+					"kill_viscount_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 12,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 25000
+							},
+							"1": {
+								"id": "cc_boss_viscount",
+								"type": "trinket",
+								"amount": 1
+							},
+							"2": {
+							"id": "crimson_court_invitation_C",
+							"type": "estate_currency",
+							"amount": 1
+							}							
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "crimson_court",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "remove_vampire",
+			"infestation_sequence_element_id_on_complete": "infestation_3_0"
+		},
+		{
+			"id": "plot_crimson_court_3",
+			"plot_quest_dependency": "plot_crimson_court_2",
+			"estate_inventory_dependency": {
+				"consume_on_attempt": true,
+				"items_definition": {
+					"items": {
+						"0": {
+							"id": "crimson_court_invitation_C",
+							"type": "estate_currency",
+							"amount": 1
+						}
+					}
+				}
+			},
+            "pre_raid_video" : "cc_part2",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+                "dungeon": "courtyard",
+                "torch_setting" : "bloodlight",
+                "raid_rules_override": "cc",
+				"difficulty": 6,
+				"length": 5,
+				"map_name": "cc_map_countess",
+				"goal_ids": [
+					"kill_countess_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 33000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 96
+							},
+							"2": {
+								"id": "cc_boss_countess",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "crimson_court",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+            "is_roster_stress_cleared_on_completion": false,
+            "is_persistent_through_campaign" :  true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"infestation_sequence_element_id_on_complete": "infestation_4"
+		}
+	]
+}

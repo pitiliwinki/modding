@@ -1,0 +1,378 @@
+{
+   "buffs":
+   [     
+      {
+         "id" : "second_crit_supr_deb",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "demoralize"         
+         }
+      },
+      {
+         "id" : "second_dp_dmg",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dp_hdmg",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+
+      {
+         "id" : "second_dp_stress_dmg1",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 20,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dp_stress_hdmg1",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 20,
+            "string" : ""         
+         }
+      },
+       {
+         "id" : "second_dp_stress_dmg2",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 40,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dp_stress_hdmg2",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 40,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dp_stress_dmg3",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dp_stress_hdmg3",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""         
+         }
+      },
+         {
+         "id" : "second_dp_stress_crit1",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 20,
+            "string" : ""         
+         }
+      },
+      
+       {
+         "id" : "second_dp_stress_crit2",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 40,
+            "string" : ""         
+         }
+      },
+      
+      {
+         "id" : "second_dp_stress_crit3",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""         
+         }
+      },
+
+      {
+         "id" : "second_Rstress_crit",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_lessCrit",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_clear_debuff_valid": false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_stress1",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 70,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_stress2",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_stress3",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 80,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_stress4",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 85,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_stress5",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 90,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_ACC_not_human",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "man"         
+         }
+      },
+      {
+         "id" : "second_double_stress",         
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_super_stress",         
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dmg_vs_horr_test",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_stressabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_dmg_vs_horr_high",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_stressabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+       {
+         "id" : "second_ACC_Always_horror",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_stressabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_count_dmgH",         
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_count_speed",         
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_rip_count_stunR",         
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      }
+      
+
+
+
+   ]
+}

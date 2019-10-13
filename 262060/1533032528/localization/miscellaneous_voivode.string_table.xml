@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Strigo Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Increase{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+  </language>
+  <language id="french">
+
+  	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Strigo Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Increase{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+  </language>
+  <language id="russian">
+ 
+   <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% снятие {colour_start|stress}стресса{colour_end} от критических попаданий]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% урона от {colour_start|blight}яда{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% продолжительность {colour_start|bleed}кровотечения{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Получена продолжительность {colour_start|bleed}кровотечения{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% урона от {colour_start|bleed}кровотечения{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% получено урона от {colour_start|bleed}кровотечения{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% продолжительность {colour_start|stress}ужаса{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% получена продолжительность {colour_start|stress}ужаса{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% стресс от {colour_start|stress}ужаса{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% получено стресса от {colour_start|stress}ужаса{colour_end}]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s пр. не %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Другие враги:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Снятие {colour_start|stress}ужаса{colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d ОЗ/раунд (%d раундов)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Суккуб]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Стая мышей]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Обращение в стригоя]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Игра теней]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Пожирание душ]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Подчинись!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Вдохновляющий крик]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Стригой]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Человек]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Стригой]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[Как стригой:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Скорость горения факела{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Усиливающие освещение{colour_end} способности]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Снижающие освещение{colour_end} способности]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Факел]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% снятие {colour_start|stress}стресса{colour_end} если ничем не занят.]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s пр. {colour_start|stealth}Незаметность{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Факел]]></entry>
+	
+  </language>
+   <language id="polish">
+  
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% wyleczonego {colour_start|stress}stresu{colour_end} podczas trafienia Krytycznego]]></entry>
+  	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|blight}zarazy{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% czasu otrzymanej {colour_start|blight}zarazy{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% zadawanej {colour_start|blight}zarazy{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% otrzymywanej {colour_start|blight}zarazy{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|bleed}krwawienia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% czasu otrzymanego {colour_start|bleed}krwawienia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% zadawanego {colour_start|bleed}krwawienia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% otrzymywanego {colour_start|bleed}krwawienia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% czasu otrzymanej {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% zadawanej {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% otrzymywanej {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|stress}przerażenia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% czasu otrzymanego {colour_start|stress}przerażenia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% zadawanego {colour_start|stress}przerażenia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% otrzymanego {colour_start|stress}przerażenia{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|move}wymieszania{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% czasu otrzymanego {colour_start|move}wymieszania{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% czasu{colour_start|guard} ochrony{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% czasu otrzymanej {colour_start|guard}ochrony{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[%+d%% czasu trwania {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[%+d%% czasu otrzymywanej {colour_start|healhp}regeneracji{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% zadawanej {colour_start|healhp}regeneracji{colour_end}]]></entry>
+	
+	
+	<!---HPBelow/Above--->
+	 <entry id="buff_rule_tooltip_hpbelow"><![CDATA[{?string1}%s jeśli PZ poniżej {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_hpbelow_false"><![CDATA[{?string1}%s jeśli PZ nie są poniżej {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[{?string1}%s jeśli PZ celu są powyżej {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove_false"><![CDATA[{?string1}%s jeśli PZ celu nie są powyżej {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s jeśli PZ celu są poniżej {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow_false"><![CDATA[{?string1}%s jeśli PZ celu nie są poniżej {?decimal1}%d%%]]></entry>
+	 <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s kontra, nie %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Inni Wrogowie:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[usuwa {colour_start|stress}przerażenie {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d PZ na rnd. (%d rnd.)]]></entry>
+	<entry id="camping_skill_effect_loot_succ_horror_tooltip"><![CDATA[{colour_start|stress}przerażenie{colour_end} 1 pkt./rnd. przez 40 rnd.]]></entry>
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Sukkub]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Chmara Nietoperzy]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transformacja w Strzygonia]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Gra Cieni]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Absorpcja Dusz]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Słuchaj się Mnie!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspirujący Okrzyk]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strzygoń]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Człowiek]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strzygoń]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[jako strzygoń:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% tempa wypalenia {colour_start|quirk_positive}pochodni{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% do zwiększania {colour_start|quirk_positive}pochodni{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% do zmniejszania {colour_start|quirk_positive}pochodni{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Pochodnia]]></entry>
+	
+
+
+	<entry id="str_skill_mode_info_vv_transformed"><![CDATA[jako utajona:]]></entry>
+	<entry id="str_skill_mode_info_succubus"><![CDATA[jako ujawniona:]]></entry>
+	<entry id="actor_mode_name_succubus"><![CDATA[Ujawniona]]></entry>
+	<entry id="actor_mode_name_vv_transformed"><![CDATA[Utajona]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% wyleczenia {colour_start|stress}stresu{colour_end} podczas bezczynności w mieście]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s kontra {colour_start|stealth}ukryty{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Pochodnia]]></entry>
+  </language>
+  <language id="czech">
+  
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Strigo Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Increase{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+  </language>
+  <language id="italian">
+   
+ <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Strigo Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Increase{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+  </language>
+   <language id="schinese">
+ 
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}压力{colour_end}治疗造成量 (因暴击)]]></entry>
+   
+    <!---Durations and amount change--->
+ 
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|blight}毒蚀{colour_end}效果]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}出血{colour_end}持续时间]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% 所受{colour_start|bleed}出血{colour_end}持续时间]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}出血{colour_end}效果]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|bleed}出血{colour_end}效果]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}恐惧{colour_end}持续时间]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% 所受{colour_start|stress}恐惧{colour_end}持续时间]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}恐惧{colour_end}效果]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|stress}恐惧{colour_end}效果]]></entry>
+   
+   
+     <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+   
+    <!-- Skill tooltips -->
+    <entry id="effect_tooltip_target_group_other"><![CDATA[其他敌人:]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
+    <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[每回合%d生命 (%d回合)]]></entry>
+   
+   
+   
+    <!-- Skill Name tooltips -->
+    <entry id="buff_rule_data_tooltip_succubus"><![CDATA[魅魔]]></entry>
+    <entry id="buff_rule_data_tooltip_bats"><![CDATA[嗜血群蝠]]></entry>
+    <entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[斯特里戈伊变身]]></entry>
+    <entry id="buff_rule_data_tooltip_darkform"><![CDATA[影子戏法]]></entry>
+    <entry id="buff_rule_data_tooltip_souleater"><![CDATA[灵魂盛宴]]></entry>
+    <entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[服从我！]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[激励呐喊]]></entry>
+ 
+    <entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+   
+    <!-- Mode tooltips -->
+    <entry id="buff_rule_data_tooltip_strigo"><![CDATA[斯特里戈伊]]></entry>
+    <entry id="buff_rule_data_tooltip_human"><![CDATA[人类]]></entry>
+    <entry id="actor_mode_name_strigo"><![CDATA[斯特里戈伊]]></entry>
+    <entry id="str_skill_mode_info_strigo"><![CDATA[化身斯特里戈伊时:]]></entry>
+   
+    <!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% 亮度减少速率]]></entry>
+    <entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% 亮度增加量]]></entry>
+    <entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% 亮度减少量]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[火把]]></entry>
+   
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}压力{colour_end}治疗 (闲置于小镇时)]]></entry>
+   
+    <!-- Stealth -->
+    <entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s (对{colour_start|stealth}潜行{colour_end})]]></entry>
+   
+   
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[火把]]></entry>
+   
+  </language>
+ <language id="german">
+  
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress-Schaden{colour_end} geheilt bei kritischem Treffer]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Gifthauch{colour_end} erhalten]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% Dauer an {colour_start|bleed}Bluten{colour_end} ]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Dauer an {colour_start|bleed}Bluten{colour_end} erhalten]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% Menge an {colour_start|bleed}Bluten{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Menge an {colour_start|bleed}Bluten{colour_end} erhalten]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% Dauer an{colour_start|stress}Grauen{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Dauer an {colour_start|stress}Grauen{colour_end} erhalten]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% Menge an {colour_start|stress}Grauen{colour_end} ]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Menge an{colour_start|stress}Grauen{colour_end}]]></entry>
+   
+   
+	 <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s gegen nicht %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Andere Gegner:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Hebt {colour_start|stress}Grauen{colour_end} auf]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d LP per Runde (%d rds)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Sukkubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Fledermausschwarm]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Verwandlung in einen Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Schattenspiel]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Seelenschmaus]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Gehorche!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Begeisternder Schlachtruf]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Sterblicher]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[Als Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Fackelbrennrate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Lichtstärke erhöht sich{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Lichtstärke verringert sich{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stressheilung{colour_end} wenn untätig im Dorf für Woche]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Getarnt{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Fackel]]></entry>
+	
+  </language>
+   <language id="koreana">
+  
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[치명타로 {colour_start|stress}스트레스{colour_end}회복 %+d%%]]></entry>
+  	
+	<!---Durations and amount change--->
+  
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[받는 {colour_start|blight}중독{colour_end} 피해 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 지속 시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 지속 시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[{colour_start|stress}공포{colour_end} 지속 시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[받는 {colour_start|stress}공포{colour_end} 지속 시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[{colour_start|stress}공포{colour_end} 피해 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[받는 {colour_start|stress}공포{colour_end} 피해 %+d%%]]></entry>
+   
+   
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs %d%% 제외]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[다른 적들:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}공포{colour_end} 제거]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[턴당 체력 %d (%d 턴마다)]]></entry>
+	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[서큐버스]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[박쥐떼]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[스트리고이 형태]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[그림자 기생]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[영혼의 연회]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[복종하라!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[고무시키는 울음소리]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[스트리고이]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[인간]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[스트리고이]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[스트리고이:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 지속{colour_end} %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 증가{colour_end} 기술의 증가량 %+d%% ]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 감소{colour_end} 기술의 감소량 %+d%%]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[영지에서 아무것도 안하고 보내는 {colour_start|stress}스트레스{colour_end} 회복량 %+d%%]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}은신{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>
+	
+  </language>
+    <language id="spanish">
+  
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+  	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+	
+	
+	<!---HPBelow/Above--->
+	 <entry id="buff_rule_tooltip_hpbelow"><![CDATA[{?string1}%s if HP below {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_hpbelow_false"><![CDATA[{?string1}%s if HP not below {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[{?string1}%s if Target HP above {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove_false"><![CDATA[{?string1}%s if Target HP not above {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if Target HP below {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow_false"><![CDATA[{?string1}%s if Target HP not below {?decimal1}%d%%]]></entry>
+	 <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+	<entry id="camping_skill_effect_loot_succ_horror_tooltip"><![CDATA[{colour_start|stress}Horror{colour_end} 1 pt/rd for 40 rds]]></entry>
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Strigo Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+
+
+	
+	
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	
+  </language>
+</root>

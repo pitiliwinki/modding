@@ -1,0 +1,52 @@
+{
+    "events": [
+        {
+            "id": "idle_resolve_level_falconer",
+            "base_chance": 0.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "town_event_resolve_level_falconer",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "idle_resolve_level",
+                    "string_data": "falconer",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "bonus_recruit_falconer",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "falconer",
+                    "number_data": 2.0
+                }
+            ]
+        }
+    ]
+}

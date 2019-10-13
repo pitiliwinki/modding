@@ -1,0 +1,52 @@
+{
+    "events": [
+        {
+            "id": "idle_resolve_level_conquistador",
+            "base_chance": 15.0,
+            "per_not_rolled_additional_chance": 5.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 8,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "town_event_resolve_level_conquistador",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "idle_resolve_level",
+                    "string_data": "conquistador",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "bonus_recruit_conquistador",
+            "base_chance": 20.0,
+            "per_not_rolled_additional_chance": 6.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "conquistador",
+                    "number_data": 2.0
+                }
+            ]
+        }
+    ]
+}

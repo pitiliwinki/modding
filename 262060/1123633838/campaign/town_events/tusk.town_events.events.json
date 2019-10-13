@@ -1,0 +1,29 @@
+{
+    "events": [
+        {
+            "id": "vengeful",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 5,
+            "requirements": {
+                "minimum_week": 8,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "town_event_vengeful",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "idle_resolve_level",
+                    "string_data": "tusk",
+                    "number_data": 1.0
+                }
+            ]
+        }
+ 
+    ]
+}

@@ -1,0 +1,1005 @@
+{
+   "buffs":
+   [
+   
+  
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sunlight_giantslayer",
+         "amount" : 1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Size2_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Size2_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterSize",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Unholy_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Unholy_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Eldr_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_Sunlight_Longswords_Eldr_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_fanatic",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "fanatic"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_fanatic",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "fanatic"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_siren",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "siren"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_siren",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "siren"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_crew",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "drowned_captain"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_crew",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "drowned_captain"
+         },
+		 "has_description": false
+      },
+	  
+	  {
+         "id" : "sun_trinket_dmgH_vs_cannon",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "brigand_cannon"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_cannon",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "brigand_cannon"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_hag",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hag"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_hag",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "hag"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_prophet",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "prophet"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_prophet",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "prophet"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_necromancer",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "necromancer"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_necromancer",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "necromancer"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_king",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "swine_prince"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_king",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "swine_prince"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_flesh",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "formless_melee"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_flesh",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "formless_melee"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_flesh_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "formless_weak"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_flesh_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "formless_melee"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_crow",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crow"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_crow",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crow"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_collector",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "collector"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_collector",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "collector"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_MiniCove",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "drowned_pirate"
+         },
+		 "has_description": false
+      },
+	  
+	  {
+         "id" : "sun_trinket_dmgH_vs_MiniCove",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "drowned_pirate"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_MiniWeald",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "virago_hateful"
+         },
+		 "has_description": false
+      },
+	   
+      {
+         "id" : "sun_trinket_dmgL_vs_MiniWeald",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "virago_hateful"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_MiniWarrens",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "swine_skiver"
+         },
+		 "has_description": false
+      },
+	    {
+         "id" : "sun_trinket_dmgL_vs_MiniWarrens",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "swine_skiver"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgH_vs_MiniCrypts",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "skeleton_bearer"
+         },
+		 "has_description": false
+      },
+	    {
+         "id" : "sun_trinket_dmgL_vs_MiniCrypts",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "skeleton_bearer"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_shambler",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shambler"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_shambler",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shambler"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_shambler_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shambler_tentacle"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_shambler_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shambler_tentacle"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "sun_trinket_dmgL_vs_shuffler",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shuffler"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_shuffler",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shuffler"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "sun_trinket_dmgL_vs_Vulf",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "brigand_sapper"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_Vulf",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "brigand_sapper"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_Sleeper",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spire"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_Sleeper",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spire"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_Sleeper_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "galaxy"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_Sleeper_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "galaxy"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_Miller",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "miller"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_Miller",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "miller"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_Thing",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "thing"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_Thing",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "thing"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_crocodile",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crocodile"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_crocodile",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crocodile"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_baron",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "baron"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_baron",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "baron"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_viscount",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "viscount"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_viscount",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "viscount"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_countess",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "viscount"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_countess",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "viscount"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_statue",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "statue_head"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_statue",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "statue_head"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_crocodile_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "com_crocodile"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_crocodile_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "com_crocodile"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_cyst",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cyst"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_cyst",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cyst"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "sun_trinket_dmgL_vs_cosmic",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cosmic"
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "sun_trinket_dmgH_vs_cosmic",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cosmic"
+         },
+		 "has_description": false
+      }
+	 
+   ]
+}

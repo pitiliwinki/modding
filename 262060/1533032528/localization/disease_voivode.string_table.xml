@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+ 
+
+	<!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Darkbrood]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Darkspawn]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Darkspawn - Frenzy]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The Night grows inside me.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}We are the night!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WHAT IS HAPPENING TO ME!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE HUNGER CALLS ME!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master orders DEATH!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}By the gods ... what have I become?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}What ... what the hell happened?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The light ... that light burns my eyes and weakens me!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Turn off that light! please turn it OFF!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Divine Healing is less efficient.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}	
+Evolves to: {colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Divine Healing is less efficient.
+-50% {colour_start|stress}Horror{colour_end} Amount received.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"DEVOID OF LIGHT, THEIR TRUE NATURE IS REVEALED"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I don't need to eat, I don't need to rest ... and I don't need YOU!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Everything I eat comes out as vomit. My appetite seems to be changing ... I do not know what happens to me.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Put that food away. Just by seeing it, my guts turn upside down.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need something that contains life!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Do you want to know what can quench my hunger?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I've... I've changed...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I find your soul more palatable.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need lifes for the master, i need lifes for the master...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My stomach bites me demanding a new soul to steal!.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I feel like my heart stops beating...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}My eyes see in the shadows as if it were the clearest day.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can hear the darkness running through my veins.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My body dies ... but nevertheless I feel more alive than ever!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Kneel before the master and he will be lenient with you.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The master calls me, he has promised me eternal life!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}You will serve me as sustenance.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can smell how life emanates from your bodies.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will devour who dares to cross my way!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I'M NOT AFRAID OF DEATH. DEATH IS AFRAID OF ME!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I'm one with the shadows of the night!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Behold the TRUE POWER!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness licks my wounds!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Is that all?...HAHAHA{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE MASTER HAS MADE ME INVINCIBLE!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I am the one you need to fear in the dark!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What is the night a sanguine colour, my brothers!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness, my friend, embrace me.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I don't need your tricks anymore!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}There's no life to restore in this body!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REMOVE YOUR HANDS FROM ME!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(inhuman hiss).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I CAN'T CONTROL THIS EUPHORY!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I ONLY OBEY THE VOICE OF THE MASTER!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I HAVE LOST CONTROL! I HAVE TOTALLY LOST CONTROL!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I NEED LIFEFORCE AND I NEED IT NOW!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I feel the darkness coming from this place!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What precious unholy thing...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What pitiful creature, bound to your light!{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will take your head to the teacher as a gift!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Die, you worm!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master will reward me for such a magnificent combat!{colour_end}]]></entry>
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REPLACE ME{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Your mortal body makes you weak!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}You should drink from the eternal chalice. BE ONE OF US!{colour_end}]]></entry>
+	
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The object talks to me. I cannot persist.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I cannot resist this UNHOLY PLEASURE!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Such precious power, coming from this artifact!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I .. neeed. I need to feast!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}This endless hunger grows inside me!{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Praise the Night"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[A ravaging influence extends through the Hamlet, gaining adepts who seek refuge in the night and their subsistence in the living. In the light of the full moon can be seen this wicked flock to the feet of his Shepherd.]]></entry>
+  
+  </language>
+   <language id="german">
+ 
+
+	<!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Kind der Nacht{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Jäger der Nacht{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Jäger der Nacht- Raserei{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Kind der Nacht]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Jäger der Nacht]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Jäger der Nacht- Raserei]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} ist dem Bund mit der Nacht eingegangen .]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} ist dem Pakt mit der Nacht eingegangen.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} hat seine Treue zur Nacht bewiesen.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Die Nacht lebt in mir.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WIR sind die NACHT!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WAS PASSIERT MIT MIR!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}DER HUNGER BEFIEHLT ES MIR!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(unmenschliches Schreien){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Der Meister will TOD sehen!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Bei den Göttern... Was habe ich getan?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}W... Was ist gerade passiert?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Das Licht... Es brennt und schwächt mich!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Macht das Licht aus! Bitte, es BRENNT!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Göttlicher Beistand ist weniger effizient.
+{colour_start|voivode_colour}"Vom Licht verstoßen, sich der Dunkelheit angeschlossen."{colour_end}	
+Wird zu: {colour_start|voivode_colour}Jäger der Nacht{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Göttlicher Beistand ist weniger effizient.
+-50% Menge {colour_start|stress}Grauen{colour_end} erhalten.
+{colour_start|voivode_colour}"Vom Licht verstoßen, sich der Dunkelheit angeschlossen."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"SO GANZ OHNE LICHT IST IHRE WAHRE NATUR OFFENBART"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Jäger der Nacht - Raserei{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Jäger der Nacht{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Jäger der Nacht{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Ich brauche nicht zu essen, ich brauche nicht zu ruhn', aber ich brauche DICH!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Alles, was ich esse, schmeckt nach Erbrochenem. Mein Appetit scheint sich zu ändern...seltsam.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Packt das Essen weg. Bei bloßem Anblick dreht sich schon mein Magen um.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ich will etwas Lebendes!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Willst du wissen, was meinen Hunger stillt?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich... habe mich verändert...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich finde deine Seele appetitanregender.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich brauche Seelen für den Meister... Seelen für den Meister...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Mein Magen knurrt schon im Befehl, eine neue Seele für ihn zu finden!.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Ich fühle mich so als würde mein Herz bersten...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Ich sehe in der tiefsten Nacht wie am hellichten Tag.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich fühle, wie die Finsternis durch meine Adern fließt.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Mein Körper zerfällt... trotzdem fühle ich mich lebendiger als je zuvor!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Verbeugt euch vor meinem Meister und er wird Gnade zeigen.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Der Meister ruft mich, er versprach mir ewiges Leben!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Du wirst mir als Reserve dienen.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich rieche, wie das Leben aus euren Körpern fließt.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich verschlinge alles und jeden, der mich aufhält!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ICH HABE KEINE ANGST VOR DEM TOD... ER HAT ANGST VOR MIR!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich bin Eins mit den Schatten!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(unmenschliche Schreie){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Erblickt die WAHRE KRAFT!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Finsternis leckt meine Wunden!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ist das alles?...HAHAHA{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}DER MEISTER HAT MICH UNSTERBLICH GEMACHT!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich bin es, den du in der Finsternis fürchten solltest!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}In welchem Blutrot erstrahlt heute der Mond, meine Brüder?{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Dunkelheit, mein Freund, verschlinge mich.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Deine Tricks brauche ich nicht mehr!.{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}In diesem Körper gibt es nichts Lebendiges zu heilen!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}HÄNDE WEG VON MIR!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(unmenschliches Hissen).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich kann diese Euphorie nicht stoppen!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ICH GEHORCHE NUR DEM MEISTER!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ICH HABE KONTROLLE VERLOREN! VOLKOMMEN!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ICH BRAUCHE LEBENSKRAFT UND ICH BRAUCHE SIE JETZT!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich fühle, wie die Finsternis aus diesem Platz austritt!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Was für ein wervolles Unheiliges...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Mitleiderregendes Wesen des Lichts!{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich werde deinen Schädel dem Lehrer schenken!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Stirb, du Wurm!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Der Meister wird mich sicher für einen herausragenden Kampf loben!{colour_end}]]></entry>
+	
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ERSETZT MICH{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Dein sterblicher Körper macht dich schwach!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ihr solltet wirklich vom Kelch der Jugend trinken. WERDET EINER VON UNS!{colour_end}]]></entry>
+	
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Dieser Gegenstand spricht zu mir. Was für ein beharrliches Wesen.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich kann nicht diesem ketzerischem Vergnügen wiederstehen!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Ich muss diese ketzerische Kraft beherrschen!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Solch eine besondere Kraft, die dieses Artefakt ausstrahlt!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ich muss diese ketzerische Kraft beherrschen!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ich muss diese ketzerische Kraft beherrschen!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Ich .. muusss. Ich muss speisen!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Dieser endlose Hunger wächst in mir!{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Lämmer der Nacht"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[Verheerende Ereignisse breiten sich über das Dorf aus, die Schüler, welche sich der Nacht untergeben und die Lebenden bloß noch als Versorgung ansehen, aufnehmen. In dem Licht des Vollmonds kann die verfluchte Herde zu Füßen ihres unheiligen Hirten gesehen werden.]]></entry>
+   </language>
+  <language id="french">
+
+ <!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Darkbrood]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Darkspawn]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Darkspawn - Frenzy]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The Night grows inside me.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}We are the night!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WHAT IS HAPPENING TO ME!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE HUNGER CALLS ME!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master orders DEATH!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}By the gods ... what have I become?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}What ... what the hell happened?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The light ... that light burns my eyes and weakens me!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Turn off that light! please turn it OFF!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Divine Healing is less efficient.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}	
+Evolves to: {colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Divine Healing is less efficient.
+-50% {colour_start|stress}Horror{colour_end} Amount received.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"DEVOID OF LIGHT, THEIR TRUE NATURE IS REVEALED"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I don't need to eat, I don't need to rest ... and I don't need YOU!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}everything I eat as I vomit. My appetite seems to be changing ... I do not know what happens to me.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Put that food away. Just by seeing it, my guts turn upside down.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need something that contains life!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Do you want to know what can quench my hunger?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I've... I've changed...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I fin your soul more palatable.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need lifes for the master, i need lifes for the master ...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My stomach bites me demanding a new soul to steal!.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I feel like my heart stops beating...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}my eyes see in the shadows as if it were the clearest day.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can hear the darkness running through my veins.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My body dies ... but nevertheless I feel more alive than ever!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Kneel before the master and he will be lenient with you.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The master calls me, he has promised me eternal life!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}You will serve me as sustenance.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can smell how life emanates from your bodies.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will devour who dares to cross my way!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I'M NOT AFRAID OF DEATH. DEATH IS AFRAID OF ME!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Im one with the shadows of the night!{colour_end}]]></entry>
+     <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Behold the TRUE POWER!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness licks my wounds!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Is that all?...HAHAHA{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE MASTER HAS MADE ME INVINCIBLE!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I am the one you need to fear in the dark!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What is the night's colour sanguine my brothers!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness, my friend, embrace me.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I don't need your tricks anymore!.{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}There's no life to restore in this body!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REMOVE YOUR HANDS FROM ME!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(inhuman hiss).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I CAN'T CONTROL THIS EUPHORY!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I ONLY OBEY THE VOICE OF THE MASTER!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I HAVE LOST CONTROL! I HAVE TOTALLY LOST CONTROL!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I NEED LIFEFORCE AND I NEED IT NOW!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I feel the darkness coming from this place!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What precious unholy thing...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Pitifull Creature bound to your light{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will take your head to the teacher as a gift!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Die, you worm!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master will reward me for such a magnificent combat!{colour_end}]]></entry>
+	
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REPLACE ME{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Your mortal body makes you weak!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}you should drink from the eternal chalice. BE ONE OF US!{colour_end}]]></entry>
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The Object talks to me. I cannot persist.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I cannot resist this UNHOL YPLEASURE!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Such precious power, coming from this artifact{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I .. neeed. I need to feast !{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}The endless Hunger grows inside me{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Praise the Night"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[A ravaging influence extends through the Hamlet, gaining adepts who seek refuge in the night and their subsistence in the living. In the light of the full moon can be seen this wicked flock to the feet of his Shepherd.]]></entry>
+  </language>
+  <language id="russian">
+ 
+    <!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Дитя тьмы{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Порождение тьмы{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Порождение тьмы - Ярость{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Дитя тьмы]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Порождение тьмы]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Порождение тьмы - Ярость]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} становится преданным слугой ночи.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} становится истинным слугой ночи.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} становится яростным слугой ночи.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ночь растёт во мне.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Мы и есть ночь!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ЧТО СО МНОЙ ПРОИСХОДИТ!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ГОЛОД ПОДЧИНЯЕТ МЕНЯ!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ГРАУУУУУУР!!!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ПОВЕЛИТЕЛЬ ТРЕБУЕТ СМЕРТИ!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}О боги... во что я превратился?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Что... что, чёрт возьми, произошло?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Этот свет... свет ослепляет меня!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Уберите свет! Пожалуйста, уберите его!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Божье исцеление менее эффективно.
+{colour_start|voivode_colour}"Отвергнут Светом, обласкан Тьмой."{colour_end}	
+Перерастает в: {colour_start|voivode_colour}Порождение тьмы{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Божье исцеление менее эффективно.
+Влияние {colour_start|stress}ужаса{colour_end} снижено на 50%%
+{colour_start|voivode_colour}"Отвергнут светом, обласкан Тьмой."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"ЛИШЕННАЯ СВЕТА, ПРОЯВЛЯЕТСЯ ИСТИННАЯ СУЩНОСТЬ!"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Порождение тьмы - Ярость{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Порождение тьмы{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Дитя тьмы{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Мне нужны ни отдых, ни еда... мне даже не нужны вы ВСЕ!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Я тут же исторгаю всё что чъем. Кажется мои пристрастия в еде изменились... Даже не знаю что со мной происходит.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Убери это хрючево. От одного взгялда меня начинает тошнить.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Мне нужна чья-то жизнь!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Хочешь знать, чем можно утолить мой голод?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я ... я изменился ...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Какая аппетитная жизнь.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я должен принести жертву повелителю... я должен... жертву...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Желудок стонет, просит кушать!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Кажется, моё сердце перестаёт биться...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Мои глаза видят смотрят сквозь ночь, будто стоит ясный день.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Тьма струится по моим венам.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Мое тело умирает ... но я чувствую себя как никогда живым!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Преклоните колени перед повелителем, и он будет к вам снисходителен.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Повелитель зовёт меня, он обещает мне вечную жизнь!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Вы послужите мне пищей.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я чую как жизнь уходит из ваших тел.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я разорву любого кто встанет на моём пути!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я НЕ БОЮСЬ СМЕРТИ! СМЕРТЬ БОИТСЯ МЕНЯ!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я единое целое с ночными тенями!{colour_end}]]></entry>
+     <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}РРРРРРааааР!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Узрите ИСТИННУЮ МОЩЬ!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Тьма позаботится о моих ранах!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}И что, это всё?...ХАХАХАХа{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ПОВЕЛИТЕЛЬ ДАЁТ МНЕ НЕУЯЗВИМОСТЬ!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я единственный кого стоит бояться в ночи!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Как спокойна эта ночь, братья мои.{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Тьма, прошу, обними меня.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Мне не нужны твои уловки!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}В этом теле не осталось ничего живого!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}УБЕРИ СВОИ РУКИ!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ШшШшШшШСссс.{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}НЕ МОГУ СДЕРЖАТЬ РАДОСТИ!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я ПОДЧИНЯЮСЬ ЛИШЬ ГОЛОСУ МАСТЕРА!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я ТЕРЯЮ КОНТРОЛЬ! Я ПОЛНОСТЬЮ ТЕРЯЮ КОНТРОЛЬ!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}МНЕ НУЖНЫ ЖИЗНЕННЫЕ СИЛЫ!! СЕЙЧАС ЖЕ!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я чувствую как тьма распространяется от этого места!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Какая прекрасная и порочная вещица...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Жалкое существо, привязанное к вашему свету.{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я преподнесу твою голову учителю!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Сдохни, ничтожество!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Повелитель вознаградит меня за такую замечательную битву!{colour_end}]]></entry>
+	
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}ВЕРНИ МЕНЯ!{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Смертное тело делает тебя слабым!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Тебе необходимо испить из вечного кубка. БУДЬ С НАМИ!{colour_end}]]></entry>
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Эта вещь говорит со мной. Я не могу устоять.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я не могу стоять перед этим ПОРОЧНЫМ НАСЛАЖДЕНИЕМ!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Я должен обуздать сию ужасную силу{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Сколь сладостна сила, исходящая от этого артефакта...{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Я должен обуздать сию ужасную силу{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Я должен обуздать сию ужасную силу{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Я... дооолжеееен... Я должен насытиться!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Нескончаемый голод гложет меня изнутри{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Во славу ночи"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[Разрушительная сила распространяет своё влияние в окрестностях, привлекая тех , кто ищет убежище в ночи и пропитания среди живых. В свете полной луны можно увидеть как нечестивая толпа следует за своим Пастырем.]]></entry>
+  </language>
+   <language id="polish">
+  
+   <!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Wyląg Mroku{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Nastanie Mroku{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Nastanie Mroku - Furia{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Wyląg Mroku]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Nastanie Mroku]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Nastanie Mroku - Furia]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} pogłębił swoje oddanie nocy.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} pogłębił swoje oddanie nocy.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} pogłębił swoje oddanie nocy.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ciemność rozrasta się we mnie.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MY JESTEŚMY NOCĄ!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}CO SIĘ ZE MNĄ DZIEJE!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}GŁÓD MNIE WOŁA!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}YHAAAAAAAAAAARG!!(nieludzki krzyk){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MISTRZOWIE PRAGNĄ ŚMIERCI!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Bogowie ... czym się stałem?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Co ... co się stało?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Światło ... to światło wypala mi oczy i osłabia mnie!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Zgaś to świato! Proszę ZGAŚ to światło!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Boża Łaska jest mniej skuteczna.
+{colour_start|voivode_colour}"Odrzucony przez Światło, przyjęty przez Noc."{colour_end}	
+Ewoluuje w: {colour_start|voivode_colour}Nastanie Mroku{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Boża Łaska jest mniej skuteczna.
+-50% otrzymanego {colour_start|stress}przerażenia{colour_end}.
+{colour_start|voivode_colour}"Odrzucony przez Światło, przyjęty przez Noc."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"POZBAWIONY ŚWIATŁA, PRAWDZIWA NATURA ZOSTAŁA UJAWNIONA"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Nastanie Mroku - Furia{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Nastanie Mroku{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Wyląg Mroku{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Nie potrzebuję jedzenia, nie potrzebuję odpoczynku ... i nie potrzebuję CIEBIE!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Wszystko co zjem zwymiotuję. Mój apetyt wydaje się zmieniać ... Nie wiem co się ze mną dzieje!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Odłóż to jedzenie. Przewraca mi się w żołądku na sam widok.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Potrzebuję czegoś, co zawiera życie!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Czy chcesz wiedzieć, co może zaspokoić mój głód?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ja się... Ja się zmieniłem...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}TWOJA DUSZA WYDAJE SIĘ BYĆ BARDZIEJ APETYCZNA!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MUSZĘ ŻYĆ DLA MISTRZA, MUSZĘ ŻYĆ DLA MISTRZA, MUSZĘ ŻYĆ DLA MISTRZA...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MÓJ ŻOŁĄDEK DOMAGA SIĘ NOWEJ DUSZY.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Czuję jak moje serce przestaje bić...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}moje oczy widzą w cieniu, jakby to był najczystszy dzień.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Mogę usłyszeć ciemność płynącą w moich żyłach.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Moje ciało umiera... ale niemniej jednak czuję się bardziej żywy niż kiedykolwiek!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Ukłoń się mistrzowi, a on będzie dla ciebie wyrozumiały.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Mistrz mnie woła, obiecał mi wieczne życie.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Będziesz służyć mi jako pokarm.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Czuję, jak życie emanuje z twojego ciała.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}POŻRĘ KAŻDEGO KTO WEJDZIE MI W DROGĘ!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}NIE OBAWIAM SIĘ ŚMIERCI. TO ŚMIERĆ OBAWIA SIĘ MNIE!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}JESTEM JEDNYM Z CIENI NOCY{colour_end}]]></entry>
+     <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}YHAAAAAAAAAARGH!!(nieludzki krzyk){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}POZNAJ PRAWDZIWĄ MOC!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MROK LIŻE MI RANY!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}TO WSZYSTKO?... HAHAHA{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MISTRZ UCZYNIŁ MNIE NIEZWYCIĘŻONYM!{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}NIEPOTRZEBUJĘ WIĘCEJ TWOICH SZTUCZEK!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}W TYM CIELE NIE OSTAŁA SIĘ KRZTA ŻYCIA!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WEŹ ZE MNIE SWOJE RĘCE{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(nieludzkie syczenie).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}NIE MOGĘ KONTROLOWAĆ TEJ EUFORII!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SŁUCHAM SIĘ TYLKO GŁOSU MISTRZA!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}STRACIŁEM KONTROLĘ. ZUPEŁNIE STRACIŁEM KONTROLĘ!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}POTRZEBUJĘ SIŁY ŻYCIOWEJ, POTRZEBUJE JEJ TERAZ!!{colour_end}]]></entry>
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}POTRZEBUJĘ SIŁY ŻYCIOWEJ, POTRZEBUJE JEJ TERAZ!!{colour_end}]]></entry>
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}MROK MNIE WOŁA{colour_end}]]></entry>
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SŁYSZĘ GŁOSY SZEPCZĄCE MI W GŁOWIĘ{colour_end}]]></entry>
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}JA... JA MUSZĘ... JA MUSZĘ TO ZROBIĆ!{colour_end}]]></entry>
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Chwalmy Noc"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[Niszczący wpływ rozciąga się na osadzie, w ten sposób zdobywa uczniów którzy chcą chronić się w objęciach nocy w celu utrzymania się przy życiu.  W świetle pełni księżyca można zobaczyć tę nikczemną trzodę u stóp ich pasterza.]]></entry>
+	
+  </language>
+  <language id="czech">
+  
+   <!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[Darkbrood]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[Darkspawn]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[Darkspawn - Frenzy]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} has deepened his devotion to the night.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The Night grows inside me.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}We are the night!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}WHAT IS HAPPENING TO ME!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE HUNGER CALLS ME!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master orders DEATH!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}By the gods ... what have I become?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}What ... what the hell happened?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The light ... that light burns my eyes and weakens me!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Turn off that light! please turn it OFF!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[Divine Healing is less efficient.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}	
+Evolves to: {colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[Divine Healing is less efficient.
+-50% {colour_start|stress}Horror{colour_end} Amount received.
+{colour_start|voivode_colour}"Repelled by the Light, embraced by the Night."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"DEVOID OF LIGHT, THEIR TRUE NATURE IS REVEALED"{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I don't need to eat, I don't need to rest ... and I don't need YOU!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}everything I eat as I vomit. My appetite seems to be changing ... I do not know what happens to me.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Put that food away. Just by seeing it, my guts turn upside down.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need something that contains life!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Do you want to know what can quench my hunger?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I've... I've changed...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I fin your soul more palatable.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need lifes for the master, i need lifes for the master ...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My stomach bites me demanding a new soul to steal!.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I feel like my heart stops beating...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}my eyes see in the shadows as if it were the clearest day.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can hear the darkness running through my veins.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}My body dies ... but nevertheless I feel more alive than ever!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}Kneel before the master and he will be lenient with you.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}The master calls me, he has promised me eternal life!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}You will serve me as sustenance.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I can smell how life emanates from your bodies.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will devour who dares to cross my way!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I'M NOT AFRAID OF DEATH. DEATH IS AFRAID OF ME!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Im one with the shadows of the night!{colour_end}]]></entry>
+     <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(inhuman scream){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Behold the TRUE POWER!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness licks my wounds!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Is that all?...HAHAHA{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}THE MASTER HAS MADE ME INVINCIBLE!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I am the one you need to fear in the dark!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What is the night's colour sanguine my brothers!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Darkness, my friend, embrace me.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I don't need your tricks anymore!.{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}There's no life to restore in this body!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REMOVE YOUR HANDS FROM ME!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(inhuman hiss).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I CAN'T CONTROL THIS EUPHORY!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I ONLY OBEY THE VOICE OF THE MASTER!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I HAVE LOST CONTROL! I HAVE TOTALLY LOST CONTROL!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I NEED LIFEFORCE AND I NEED IT NOW!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I feel the darkness coming from this place!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}What precious unholy thing...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Pitifull Creature bound to your light{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I will take your head to the teacher as a gift!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Die, you worm!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The master will reward me for such a magnificent combat!{colour_end}]]></entry>
+	
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}REPLACE ME{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Your mortal body makes you weak!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}you should drink from the eternal chalice. BE ONE OF US!{colour_end}]]></entry>
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}The Object talks to me. I cannot persist.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I cannot resist this UNHOL YPLEASURE!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}Such precious power, coming from this artifact{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}I need to harness this unholy power{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}I .. neeed. I need to feast !{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}The endless Hunger grows inside me{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["Praise the Night"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[A ravaging influence extends through the Hamlet, gaining adepts who seek refuge in the night and their subsistence in the living. In the light of the full moon can be seen this wicked flock to the feet of his Shepherd.]]></entry>
+  </language>
+  <language id="schinese">
+	
+    <!--Quirk-->   
+    <entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}暗裔初生者{colour_end}]]></entry>
+    <entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}暗裔后代{colour_end}]]></entry>
+    <entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}暗裔后代 - 狂暴{colour_end}]]></entry>
+   
+    <entry id="str_ui_entering_VV_quirk_1"><![CDATA[暗裔初生者]]></entry>
+    <entry id="str_ui_entering_VV_quirk_2"><![CDATA[暗裔后代]]></entry>
+    <entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[暗裔后代 - 狂暴]]></entry>
+   
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 加深了对暗夜的热爱]]></entry>
+    <entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 加深了对暗夜的热爱]]></entry>
+    <entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 加深了对暗夜的热爱]]></entry>
+    <entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}暗夜在我的心中愈发漆黑{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}暮色狩猎！{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我到底变成什么了！？{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}永恒的饥渴呼吁我！{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(非人的尖叫声){colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}造主已下达血祭！{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}天啊…我到底变成了什么？{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}见鬼，发生什么事情了？{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}光…那光灼伤了我的眼睛，使我变得虚弱！{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}把火光弄熄！求求你！{colour_end}]]></entry>
+   
+    <entry id="str_quirk_description_VV_quirk_1"><![CDATA[圣职者队友治愈效果降低
+{colour_start|voivode_colour}「被圣光所驱逐，被夜晚所拥抱」{colour_end} 
+进化为: {colour_start|voivode_colour}暗裔后代{colour_end}]]></entry>
+    <entry id="str_quirk_description_VV_quirk_2"><![CDATA[圣职者队友治愈效果降低
+-50% 所受{colour_start|stress}恐惧{colour_end}效果
+{colour_start|voivode_colour}「被圣光所驱逐，被夜晚所拥抱」{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}「没有光，他们的真面目将会显露」{colour_end}]]></entry>
+   
+    <entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}暗裔后代 - 狂暴{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}暗裔后代{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}暗裔初生者{colour_end}]]></entry>
+   
+    <!--Act Outs-->
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}我不需要进食，不需要睡眠…也不需要你！{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}我吃什么也会吐出来。我的胃口好像变了…我到底发生什么事{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}把食物都拿走。光是看到，我的肠子就要开始翻江倒海{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}我需要一些富含生命的东西！{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}你想知道什么可以解缓我的饥饿感？{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我…我已经变造了…{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我觉得你的灵魂更可口{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我要为造主捕获生命，我要为造主捕获…{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我的胃正在撕咬着我，在渴求一个鲜活的灵魂！{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}我觉得我的心脏停止跳动了…{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}我的眼睛即使在黑暗之中也能清晰看到一切{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我能听见黑暗之血在我的血管里流淌{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我的肉身死了…但是我却觉得自己比以往任何时候都更有活力！{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}跪在造主面前，祂便会对你仁慈{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}造主说了，祂许诺我永生！{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}你将服从于我{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我能闻到这鲜活的生命气息{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}谁敢阻拦我，我就吃了他！{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我不怕死，死亡怕我！{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我是夜晚的阴影！{colour_end}]]></entry>
+     <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}RAWRR!!(非人的尖叫声){colour_end}]]></entry>
+    <entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}见证这无敌的力量！{colour_end}]]></entry>
+    <entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}黑暗治疗我的伤口！{colour_end}]]></entry>
+    <entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}就这样而已？…哈哈哈{colour_end}]]></entry>
+    <entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}造主已让我化为无敌之躯！{colour_end}]]></entry>
+    <entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我是你在黑暗中需要害怕的人！{colour_end}]]></entry>
+    <entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}黑夜是什么颜色？是血红色！我的弟兄们！{colour_end}]]></entry>
+    <entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}黑暗，我的挚友，拥抱我{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我不再需要你这种把戏了！{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}在这个身体里没有生命力可以恢复！！{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}把你的手从我身上移开，不要碰我高贵的身体！{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}SHHHHHHHHH!!(非人的嘶嘶声){colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我无法控制这种情绪！{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我只服从造主的声音！！{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我控制不了自己！我完全失控了！{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我需要生命力！现在我需要它！！{colour_end}]]></entry>
+   
+    <!--Comments-->
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我感觉到黑暗来自这里！{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}何等宝贵的不洁之物…{colour_end}]]></entry>
+    <entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}被光束缚的可怜生物{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我会把你的头作为礼物送给造主！{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}死吧，虫子！{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}造主会因这场精彩的战斗奖励我！{colour_end}]]></entry>
+   
+    <entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}黑暗可以令你更强大！{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}你的凡躯就是你的弱点！{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}你该接受永恒圣杯的祝福，成为我等的一员！{colour_end}]]></entry>
+    <!--Curio Trigger-->
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}这物件在跟我喋喋不休，我忍不了{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我无法抗拒这种不洁的愉悦！{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}我需要利用这种不洁的力量{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}这件圣器散发着多么宝贵的力量{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}我需要利用这种不洁的力量{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}我需要利用这种不洁的力量{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}我…要…我需要进食！{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}永恒饥饿在我体内疯狂滋长{colour_end}]]></entry>
+   
+    <!--Event-->
+    <entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA[「赞美暗夜」]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[一股毁灭性的存在扩散于小镇，那些受到夜之庇护并藏身于活者之中的存在。在圆月的光芒下，可以看见这群邪恶的羊围堵在牧羊人的脚前。]]></entry>
+ </language>
+ <language id="koreana">
+ 
+
+	<!--Quirk-->	
+	<entry id="str_quirk_name_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}어둠의 무리{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}어둠의 자손{colour_end}]]></entry>
+	<entry id="str_quirk_name_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠의 자손 - 광란{colour_end}]]></entry>
+	
+	<entry id="str_ui_entering_VV_quirk_1"><![CDATA[어둠의 무리]]></entry>
+	<entry id="str_ui_entering_VV_quirk_2"><![CDATA[어둠의 자손]]></entry>
+	<entry id="str_ui_entering_VV_quirk_Rage"><![CDATA[어둠의 자손 - 광란]]></entry>
+	
+    <entry id="str_roster_quirk_transition_VV_quirk_1"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 영웅은 밤에 대한 헌신이 깊어졌습니다.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_2"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 영웅은 밤에 대한 헌신이 깊어졌습니다.]]></entry>
+	<entry id="str_roster_quirk_transition_VV_quirk_Rage"><![CDATA[{colour_start|notable}{?hero_name}%s{colour_end} 영웅은 밤에 대한 헌신이 깊어졌습니다.]]></entry>
+	<entry id="quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}내 안의 밤이 자라난다.{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}우리가 밤이다!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}나한테 무슨일이 일어난 거야!?{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}허기가 날 부른다!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}으랴!!(인간같지 않은 비명){colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}주인님이 죽음을 명하신다!{colour_end}]]></entry>
+	<entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}신이시여 ... 내가 어떻게 된 거지?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}무 .. 무슨 일이야?{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}빛 ... 빛이 내 눈을 태우고 약해지게 만들고 있어!{colour_end}]]></entry>
+    <entry id="quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}불 좀 꺼! 제발 좀 끄라고!{colour_end}]]></entry>
+	
+	<entry id="str_quirk_description_VV_quirk_1"><![CDATA[신성한 회복의 힘이 약해짐.
+{colour_start|voivode_colour}"빛이 물러나니 밤이 자리를 꿰차노라."{colour_end}	
+진화: {colour_start|voivode_colour}밤의 자손{colour_end}]]></entry>
+	<entry id="str_quirk_description_VV_quirk_2"><![CDATA[신성한 회복의 힘이 약해짐.
+받는 {colour_start|stress}공포{colour_end} 피해 -50%%
+{colour_start|voivode_colour}"빛이 물러나니 밤이 자리를 꿰차노라."{colour_end}]]></entry>
+<entry id="str_quirk_description_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}"빛이 사라지자, 그들의 진정한 본성이 깨어났다."{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠의 자손 - 광란{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}어둠의 자손{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}어둠의 무리{colour_end}]]></entry>
+	
+	<!--Act Outs-->
+	<entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}난 먹지도, 자지도 않는다 ... 너도 필요 없다!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}먹은걸 다 토해냈다. 식성이 바뀐거 같은데 ... 나에게 무슨일이 벌어지는지 모르겠다.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}음식 저리 치워. 이것 좀 봐, 내장이 뒤틀리고 있어.{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}살아 숨쉬는걸 줘!{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}내가 무엇으로 허기를 해결하는지 정말 알고 싶어?{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}나는... 나는 변했다...{colour_end}]]></entry>
+	<entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}네 영혼이 끌리는군.{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}주인님을 위한 생명이 필요해, 주인님을 위한 생명이 필요해...{colour_end}]]></entry>
+    <entry id="str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}내 배가 새로운 영혼이 필요하다고 요동치고 있다!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}내 심장이 때때로 멈추는거 같은데...{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}맑은 날 보는 것 처럼 어둠 속도 다 볼 수 있어.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠이 내 속을 헤집는게 들린다.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}내 육신이 죽었다 ... 하지만 이렇게 살아있는 느낌은 처음이야!{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}주인님께 무릎 꿇으면 관대하게 봐주실 것이다.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}주인님께서 날 부르신다, 그는 불멸을 약속하셨다!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}너가 날 배부르게 해 줄 것이다.{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}네 몸뚱이에서 생명이 어떻게 뿜어져 나오는지 알려줄 수 있다.{colour_end}]]></entry>
+	<entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}감히 내 앞을 막으면 삼켜버리겠다!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}난 죽음이 두렵지 않아. 죽음이 날 두려워 해야지!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}난 밤의 끝자락과 하나가 된다!{colour_end}]]></entry>
+    <entry id="str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}으아아!!(인간같지 않은 비명){colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}진정한 힘을 목도해라!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠이 내 상처를 햝아준다!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이게 전부냐?...하하하!{colour_end}]]></entry>
+	<entry id="str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}주인님께서 날 무적으로 만드셨다!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠속에서 날 두려워 해라!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}생생한 밤의 현장이라네, 형제들이여!{colour_end}]]></entry>
+	<entry id="str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠, 내 친구여, 날 안아주게.{colour_end}]]></entry>
+	<entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}네놈의 속임수 따위는 필요 없다!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이 육체에 되살릴 생명이란 없다!!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}나에게서 손 떼라!{colour_end}]]></entry>
+    <entry id="str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}샤아아아아악!!(인간같지 않은 위협소리).{colour_end}]]></entry>
+	<entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이 희열을 참을 수 없도다!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}난 주인님의 명령에만 따른다!!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}참을 수 없다! 도저히 참을 수 없다!{colour_end}]]></entry>
+    <entry id="str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}생명의 힘이 당장 필요하다!!{colour_end}]]></entry>
+	
+	<!--Comments-->
+	<entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어둠이 이곳에서 흘러나오는게 느껴진다!{colour_end}]]></entry>
+    <entry id="str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이 얼마나 불경하고 귀한지...{colour_end}]]></entry>
+	<entry id="str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}어떤 가여운것이 빛 따위에 묶여 사는지!{colour_end}]]></entry>
+	<entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}선생에게 네 머리를 선물로 드리지!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}죽어라, 벌레같은 놈!{colour_end}]]></entry>
+    <entry id="str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이런 장렬한 전투라면 주인님께서 포상을 내려주실거야!{colour_end}]]></entry>
+	<entry id="str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}날 대신해라{colour_end}]]></entry>
+	<entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}네 필멸의 육체가 널 약하게 하고 있다!{colour_end}]]></entry>
+    <entry id="str_comment_ally_missed_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}영원의 성배를 마셔라. 우리와 하나가 되라!{colour_end}]]></entry>
+	
+	<!--Curio Trigger-->
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}물건이 내게 말을 건다. 고집부릴 수 없군.{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이 불경한 기쁨을 거부할 수 없다!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}이 불경한 힘에 고삐를 채워야겠다!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}귀중한 힘이 이 유물에서 흘러나온다!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}이 불경한 힘에 고삐를 채워야겠다!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}이 불경한 힘에 고삐를 채워야겠다!{colour_end}]]></entry>
+	<entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}나 .. 필요하다. 연회가 필요해!{colour_end}]]></entry>
+    <entry id="trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}끝없는 허기가 내 안에서 자라난다!{colour_end}]]></entry>
+	
+	<!--Event-->
+	<entry id="town_event_title_bonus_recruit_of_Darkness"><![CDATA["밤을 찬양하라"]]></entry>
+    <entry id="town_event_description_bonus_recruit_of_Darkness"><![CDATA[엄청난 힘이 영지를 유린하고 지나간다, 밤에 근근이 살아가는 이들이 점점 많아지고 있다. 보름달이 비출 때 이 역겨운 무리의 목자가 나타날 것이다.]]></entry>
+  
+  </language>
+
+</root>

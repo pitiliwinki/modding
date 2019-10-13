@@ -1,0 +1,330 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "BARB_tooltip_kick_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_kick_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BARB_tooltip_kick_tooltip_xb",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_kick_tooltip_xb",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	  
+	 {
+         "id" : "BARB_tooltip_stab_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_stab_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	 
+	 {
+         "id" : "BARB_tooltip_rage_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_rage_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BARB_tooltip_swing_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_swing_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BARB_tooltip_guard_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_guard_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	 
+	 {
+         "id" : "BARB_tooltip_ale_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_ale_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	 
+	 {
+         "id" : "BARB_tooltip_bfocus_tooltip_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_bfocus_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BARB_tooltip_crit_HP_scaling",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BARB_crt_scaling_type",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_X",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_X",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_0",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_0",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_1",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_2",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_3",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_stunriposte_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "stunriposte_4",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "barb_tooltip_cooldownC",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_cooldownC",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_cooldownB",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_cooldownB",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_cooldownA",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_cooldownA",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_tooltip_cooldownX",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_cooldownX",
+         "amount" : -1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+	  },
+	  {
+         "id" : "Barb_Enraged_Tray_tip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Barb_Enraged_Tray_tip_pass",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+	  },
+	  {
+         "id" : "Barb_Enraged_Tray_tip2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Barb_Enraged_Tray_tip_pass2",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+	  },
+      {
+         "id" : "barb_tooltip_moveoverride_x",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_moveoverride_tip",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "barb_cooldown_tooltip_1_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "barb_tooltip_cooldown_tooltip_1",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+	  }
+	 
+   ]
+}
+
+

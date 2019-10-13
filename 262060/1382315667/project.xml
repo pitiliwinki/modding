@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/MyDarkestDungeonMod/HypnotistClassMod/</ModDataPath>
+	<Title>Hypnotist Class Mod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>new class</Tags>
+		<Tags>class mod</Tags>
+		<Tags>stun</Tags>
+		<Tags>support</Tags>
+		<Tags>hypnotist</Tags>
+	</Tags>
+	<ItemDescription>
+[h1]What is this mod?[/h1]
+This mod is intended to add a new non-damaging class to the game, while also trying to experiment with all of the mechanics to see what happens. This is not meant to be ground-breaking, but it is meant to be fun. I lack Spine, so I can&apos;t do too much about the animation, and I&apos;m not amazing enough to know what to do about the audio. My apologies that is a problem for you.
+	
+[h1]Combat Skills[/h1]
+1. Back Off - Attack the enemies with a pathetically weak smack to make them go backwards.
+2. Focus - Increase your chance of inflicting stuns, debuffs, and healing.
+3. Stay - Stun an enemy for 1 turn.
+4. Protection Placebo - Force an ally to guard you, heal them, and mark yourself
+5. Illusion - stress heal. Can&apos;t heal self.
+6. Lower Guard - Decrease PROT heavily for a long period. Only used 1 time per battle.
+7. Trance - Multi-turn stun. Once per battle.
+	
+[h1]Camping Skills[/h1]
+1. Distraction - The hypnotist forces an ally to humiliate themselves for the satisfaction of everyone else. All but that person receives stress alleviation.
+2. Protection - The hypnotist makes an ally stay close to protect them from danger. The chosen ally gets extra PROT, and the hypnotist gets stress alleviation.
+3. Strengthen - The hypnotist brainwashes an ally into a state where they gain immense strength. The chosen ally gets double damage, higher CRIT and ACC, but only with melee attacks, ranged loses ACC and does no damage, overall resistances are lowered, a chunk of health is taken away, and it takes a lot of time.
+4. Sweet Dreams - The hypnotist puts everyone to sleep. Everyone receives immense stress alleviation at the cost of time.
+	
+[h1]Trinkets[/h1]
+1. Pen - common - scouting chance up
+2. Card Deck - common - stress heal up.
+3. Soft Blanket - uncommon - stress heal up, debuff chance down
+4. Pocket Watch - uncommon - stun chance up, healing down
+5. Photograph - rare - healing up, stun chance down
+6. Mind Number - rare - debuff chance up, stress heal down.
+7. Journal - very rare - gets more use out of abilities with added effects. Deathblow resist lowers heavily.
+	
+[h1]Why use an enemy model?[/h1]
+Personal preference. I liked this character model the most, so I decided to use that as a base, to see if I could do it. A lot of this is me testing myself to see if I can do it.
+	
+[h1]Things worthy of note[/h1]
+- They were supposed to work like the siren with one of their abilities, but testing it was a pain because it kept crashing the game, forcing me to start a new save file. The move was replaced with something less interesting...
+- All of the sprites I made custom for the class were made using GIMP and/or Inkscape. That might be why some of the sprites look a little too... clean? Some of the spritework isn&apos;t perfect for the art-style of Darkest Dungeon, but hopefully that isn&apos;t too distracting.
+- For some reason that I don&apos;t quite understand, the sprite always starts as either defend or afflicted upon starting a dungeon. I don&apos;t know why, and removing old files I thought were useless caused an odd graphical glitch. If you look through the files, you can see an excess of the same sprite that is unused. I left it in to keep the glitch from happening.
+- I REALLY want to make this character as balanced as I can get on the first try. Here&apos;s what I did to try to balance it.
+--- Back Off still feels basically useless, but I added a debuff to it make it feel less useless. I felt like I should have at least 1 combat skill to attack the enemies with. Maybe not my best decision.
+--- Focus Originally only buffed the chance of stun and debuff.
+--- Stay never really changed throughout the mod&apos;s development
+--- Placebo was intended to be a consistently decent heal for 1 ally, at the cost of the healed ally being more likely to be attacked. Marking the ally also increased the damage they get from certain attacks, which in some situations proved to be a bad combo. I settled on the hypnotist being marked, while also being guarded by the one they heal. I think this turned out pretty good.
+--- Illusion was always meant to be a stress heal, but the amount was shifted over and over. I thought about the idea of a virtue chance increase, but that didn&apos;t strike me as a great idea, as it would likely be overpowered with no downside.
+--- Lower Guard was originally the siren type attack, and was called Join Me. When I thought of an alternative, I settled on a protection debuff that lasts the whole match, or at least a very long period. Sometimes there are enemies with high PROT that just won&apos;t die because the shield buff from protecting allies is in effect. This is supposed to deal with that annoying problem. 
+--- Trance was always meant to be a multi-turn stun. I&apos;m surprised it worked! I mostly just wanted to experiment with it and figure out how to balance it. If there&apos;s any ability I worry is out of balance, this is it.
+- As for camping skills...
+--- Distraction didn&apos;t change too much.
+--- Protection didn&apos;t change much.
+--- Strengthen was heavily experimental. I wanted to figure out a way to balance something like double damage, increased accuracy and crit chance to 1 character. I tried increasing stress by 100, but it wound up being more harm than good because of the affliction, causing everything to fall apart. The time set to do it is also high because it&apos;s powerful, but prevents doing most anything else. In the end, I chose to lower ranged ability damage and accuracy to pathetic levels, status effect resistence is lowered, and the hero takes 40% overall HP damage. It&apos;s difficult for me to figure out if I screwed up and made it game-breaking or if it&apos;s balanced. For obvious reasons, don&apos;t go up against the siren like this. I learned that the painful way.
+--- Sweet Dreams was always intended to use the whole night. I didn&apos;t know how much stress to make it heal, but considering it doesn&apos;t prevent night-time ambush, and takes the whole night, meaning no ability to prevent ambush can be used, I think 50 is about right.
+	- Strings of text that are usually generic for everybody were added to the character to make them stand out more, and to see if it&apos;d work. I&apos;m glad it did! I was able to add a lot of character dialogue outside of the afflictions this way. My favorite string that I wrote for the character is &quot;Why are we in the creepy mental asylum again?&quot;, which is a line if you commit them to getting negative quirks removed. Hopefully the dialogue I wrote isn&apos;t too lame or cringy, which it probably is since I&apos;m not a great writer.
+	- I was originally going to apply what I wanted the character&apos;s face/eye to look like, but it didn&apos;t fit the aesthetic at all, no matter how much I tried. You can find it by digging around the files in the &apos;heroes&apos; folder.
+	- I wanted the Journal trinket to work differently but the code kept disagreeing with me. both healing skills were meant to have a damage up for one and a defense up for the other. However, the code refused to let me do this in a way that the ability would only activate with the trinket in hand. Focus&apos; secondary was supposed to be an ACC buff, but that never happened, and is the only ability unaffected by the trinket. Since the trinket basically guarantees that you&apos;ll debuff enemies, I had to counteract it somehow, as I felt it was overpowering in that state.
+
+[h1]Disclaimer[/h1]
+This class mod is not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible for damages that may result from using this mod. “Darkest Dungeon” and the Darkest Dungeon logo are trademarks of Red Hook Studios Inc. All content in the game is Copyright Red Hook Studios Inc. All rights reserved.
+	
+Just to make sure it works properly, and DOESN&apos;T break something in a valuable save file, I&apos;d try out a new save file with the mod first so it doesn&apos;t corrupt something.</ItemDescription>
+	<PublishedFileId>1382315667</PublishedFileId>
+</project>
+

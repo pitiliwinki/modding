@@ -1,0 +1,81 @@
+{
+    "monster_brains": [
+        
+        {
+            "id": "pyrezeal",
+            "skill_cooldowns": 
+            [
+			{
+					"combat_skill_id": "pyremock",
+					"amount": 2
+			}
+
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "pyreburn"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "pyreanguish"
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 9.0,
+                        "combat_skill_id": "pyreburn",
+                        "performing_turn": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 6.0,
+                        "combat_skill_id": "pyremock"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 100.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+	]
+}

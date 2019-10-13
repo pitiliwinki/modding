@@ -1,0 +1,447 @@
+{
+   "buffs":
+   [     
+      {
+         "id" : "second_crit_rest_buff_1",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      }, 
+      {
+         "id" : "second_crit_rest_buff_2",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_crit_rest_buff_3",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_crit_rest_buff_4",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+      {
+         "id" : "second_crit_rest_buff_5",         
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""         
+         }
+      },
+
+      {
+         "id" : "seconds_curse",
+         "stat_type" : "stress_dmg_received_percent",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "seconds_desesperation",
+         "stat_type" : "stress_dmg_received_percent",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 50,
+            "string" : ""
+         }
+      },
+
+
+      {
+         "id" : "seconds_blessing_1",
+         "stat_type" : "stress_heal_percent",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 40,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_blessing_2",
+         "stat_type" : "stress_heal_percent",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_blessing_3",
+         "stat_type" : "stress_heal_percent",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_blessing_4",
+         "stat_type" : "stress_heal_percent",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 70,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_blessing_5",
+         "stat_type" : "stress_heal_percent",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 80,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_bless_1",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 40,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_bless_2",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_bless_3",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_bless_4",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 70,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_bless_5",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 80,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "seconds_desesperationH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "seconds_desesperationL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data": {
+            "float": 50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stun_rest_def1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stun_rest_def2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stun_rest_def3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stun_rest_def4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stun_rest_def5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_stress_debuff",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "second_Rstress_buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "SECOND_TRAIT_DCRIT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.7,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_TRAIT_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_TRAIT_DMG",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_STRESS_DMG",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_TRAIT_HP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_TRAIT_MOVER",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SECOND_STRESS_SELF_HEAL",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -3,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "meditation"
+         }
+      },
+       {
+         "id" : "SECOND_STRESS_SELF_DMG",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+
+   ]
+}

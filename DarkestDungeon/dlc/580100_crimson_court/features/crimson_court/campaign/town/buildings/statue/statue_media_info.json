@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "name": "crimson_court",
+            "label": "str_media_crimson_court",
+            "label_backdrop": "campaign/town/buildings/statue/video_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_plot_quest_backdrop.png",
+            "regex_filter" : "fanatic|plot_crimson_court_.*",
+            "sort_priority": 6000
+        }
+    ],
+    "videos": [
+        {
+            "name": "cc_part1",
+            "video_name": "cc_part1",
+            "category": "crimson_court",
+            "show_only_if_previously_viewed": true,
+            "access_only_if_previously_viewed": true
+        },
+        {
+            "name": "cc_part2",
+            "video_name": "cc_part2",
+            "category": "crimson_court",
+            "show_only_if_previously_viewed": true,
+            "access_only_if_previously_viewed": true
+        }
+    ]
+}

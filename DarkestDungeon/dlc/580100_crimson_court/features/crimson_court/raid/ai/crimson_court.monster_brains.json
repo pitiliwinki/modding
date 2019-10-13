@@ -1,0 +1,2603 @@
+{
+    "monster_brains": [
+        {
+            "id": "tick_zombie_A",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "gather_the_blood"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "predigestion"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "tick_zombie_C",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "gather_the_blood"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "predigestion"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "steward_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "enraging_slight",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "infallible_servant",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "refined_palate",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "infallible_servant",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "gibbering_entourage",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "enraging_slight"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "infallible_servant",
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 1,
+                        "monsters_min": 2,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.33
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.33
+                    }
+                },
+                {
+                    "type": "stun_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "refined_palate",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "choice_cut"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "refined_palate",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "steward_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "enraging_slight",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "infallible_servant",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "refined_palate",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "infallible_servant",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "gibbering_entourage",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "enraging_slight"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "infallible_servant",
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 1,
+                        "monsters_min": 2,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.55
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 5.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.33
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "refined_palate"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "choice_cut"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "gibbering_entourage",
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 2,
+                        "monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "refined_palate",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "castellan_A",
+            "ignore_desires_on_single_valid_skill": false,
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "enraging_slight"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "elusive_exit",
+                        "performing_turn_min": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "elusive_exit",
+                        "performing_turn_min": 3
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 10.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true,
+                        "valid_ranks": "43"
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "castellan_C",
+            "ignore_desires_on_single_valid_skill": false,
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "enraging_slight"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "elusive_exit",
+                        "performing_turn_min": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "elusive_exit",
+                        "performing_turn_min": 3
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 10.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true,
+                        "valid_ranks": "43"
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "enraging_slight",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "sycophant_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "maddening_whine",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "deafening_whine",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "stun_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "maddening_whine",
+                        "non_stunned_heroes_min" : 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.3
+                    }
+                },
+                {
+                    "type": "stun_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "deafening_whine",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "bombing_run"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "deafening_whine",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "maddening_whine",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "sycophant_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "maddening_whine",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "deafening_whine",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "maddening_whine"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 4.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 6.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.3
+                    }
+                },
+                {
+                    "type": "stun_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "deafening_whine",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "bombing_run"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "deafening_whine",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "maddening_whine",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "courtesan_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 5
+                },
+                {
+                    "combat_skill_id": "midnight_minuet",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "careless_whispers",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "rebuff_slap"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "careless_whispers"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "midnight_minuet",
+                        "monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "damsel_in_distress",
+                        "monsters_min": 2,
+                        "monsters_max": 4,
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "renewed_appetite"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "expose_the_vein"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 9.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 9.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "renewed_appetite",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "rebuff_slap",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "courtesan_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "midnight_minuet",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "careless_whispers",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "rebuff_slap"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 12.0,
+                        "combat_skill_id": "careless_whispers"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 24.0,
+                        "combat_skill_id": "midnight_minuet",
+                        "monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 12.0,
+                        "combat_skill_id": "damsel_in_distress",
+                        "monsters_min": 2,
+                        "monsters_max": 4,
+                        "guarded_monsters_min": 0,
+                        "guarded_monsters_max": 0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 12.0,
+                        "combat_skill_id": "renewed_appetite"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 12.0,
+                        "combat_skill_id": "expose_the_vein"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 36.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.6
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 8.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 36.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 6.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 5.0,
+                        "specific_combat_skill_id": "renewed_appetite",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "rebuff_slap",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "esquire_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "the_hunger_human",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "skewering_repartee",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "rib_cracker"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "needling_execration"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "piercing_foreleg"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "skewering_repartee"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 8.0,
+                        "specific_combat_skill_id": "rib_cracker",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "needling_execration",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "needling_execration",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "esquire_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "the_hunger_beast",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "the_hunger_human",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "skewering_repartee",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "rib_cracker"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "needling_execration"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "piercing_foreleg"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3.0,
+                        "combat_skill_id": "skewering_repartee"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_human",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_human"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "the_hunger_beast",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.5
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "the_hunger_beast"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 8.0,
+                        "specific_combat_skill_id": "rib_cracker",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "stress_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "needling_execration",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": true,
+                        "can_target_not_overstressed": true,
+                        "can_target_afflicted": true,
+                        "can_target_virtued": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "needling_execration",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "crocodile_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "submerge",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "angry_hive",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "angry_hive"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "teeth_rake"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "move_from_left",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "move_from_right",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "submerge",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "submerge_nuke"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "chevalier_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "buried_blast",
+                    "amount": 3
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_blast"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_skewer"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "chevalier_C",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "buried_blast",
+                    "amount": 3
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_blast"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_skewer"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "baron",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "intro_change_to_curtain",
+                    "amount": 9999
+                },
+                {
+                    "combat_skill_id": "baron_hunger",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "change_to_curtain_1-3",
+                    "amount": 9999
+                },
+                {
+                    "combat_skill_id": "change_to_curtain_2-3",
+                    "amount": 9999
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0,
+                        "combat_skill_id": "intro_change_to_curtain"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "necessary_discipline"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 0.50,
+                        "combat_skill_id": "forced_enthusiasm",
+                        "ally_base_class_id": "sycophant"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 0.50,
+                        "combat_skill_id": "forced_enthusiasm",
+                        "ally_base_class_id": "tick_zombie"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 0.50,
+                        "combat_skill_id": "forced_enthusiasm",
+                        "ally_base_class_id": "esquire"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 0.50,
+                        "combat_skill_id": "forced_enthusiasm",
+                        "ally_base_class_id": "chevalier"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "crowd_pleaser"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "baron_hunger",
+                        "performer_health_ratio_min": 0.01,
+                        "performer_health_ratio_max": 0.55
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "forced_enthusiasm",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "curtain",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1000000.0,
+                        "specific_combat_skill_id": "baron_cocoon_buff",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "curtain",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "intro_change_to_curtain"
+                    }
+                },
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "change_to_curtain_2-3",
+                        "health_ratio_threshold": 0.66,
+                        "is_under_threshold": true
+                    }
+                },
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "change_to_curtain_1-3",
+                        "health_ratio_threshold": 0.33,
+                        "is_under_threshold": true
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cocoon_baron_H",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "hatch_cocoons_A"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "combat_skill_id_override": "hatch_cocoons_A",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 3,
+                        "ally_count_max": 3,
+                        "monsters_min": 4,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "combat_skill_id_override": "hatch_cocoons_A",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 2,
+                        "ally_count_max": 2,
+                        "monsters_min": 3,
+                        "monsters_max": 3
+                    }
+                },
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "combat_skill_id_override": "hatch_cocoons_A",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 1,
+                        "ally_count_max": 1,
+                        "monsters_min": 2,
+                        "monsters_max": 3
+                    }
+                },
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "combat_skill_id_override": "hatch_cocoons_A",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 0,
+                        "ally_count_max": 0,
+                        "monsters_min": 1,
+                        "monsters_max": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cocoon_baron_I",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "hatch_cocoons_B"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "combat_skill_id_override": "hatch_cocoons_B",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 3,
+                        "ally_count_max": 3,
+                        "performing_turn_min": 2,
+                        "performing_turn_max": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cocoon_baron_J",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "hatch_cocoons_C"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "combat_skill_id_override": "hatch_cocoons_C",
+                        "ally_base_class_id": "curtain",
+                        "ally_count_min": 3,
+                        "ally_count_max": 3,
+                        "performing_turn_min": 2,
+                        "performing_turn_max": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cocoon_E",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "cocoon_F",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "cocoon_G",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "fanatic_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "sentence_rendered",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "righteous_condemnation",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "holy_stake",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "brand_tainted",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "beat_down",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "crush_tainted",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "fill_ally_captor_empty_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "can_target_deaths_door": false,
+                        "can_target_last_hero": false,
+                        "first_initiative_only": true
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "righteous_condemnation",
+                        "ally_base_class_id": "pyre_full"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 25.0,
+                        "combat_skill_id": "brand_tainted"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "holy_stake"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "beat_down"
+                    }
+                },
+                {
+                    "type": "ally_hp_ratio_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "crush_tainted",
+                        "ally_base_class_id": "pyre_empty",
+                        "hp_ratio_min": 0.0,
+                        "hp_ratio_max": 0.375
+                    }
+                },
+                {
+                    "type": "ally_dead_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "crush_tainted",
+                        "ally_base_class_id": "pyre_empty"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "combat_skill_id": "crush_tainted",
+                        "ally_base_class_id": "pyre_full"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "fill_ally_captor_empty_target",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "specific_combat_skill_id": "sentence_rendered",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "can_target_deaths_door": false,
+                        "can_target_last_hero": false
+                    }
+                },
+                {
+                    "type": "vampire_target",
+                    "data": {
+                        "base_chance": 12.0,
+                        "specific_combat_skill_id": "sentence_rendered",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "can_target_deaths_door": false,
+                        "can_target_last_hero": false
+                    }
+                },
+                {
+                    "type": "vampire_target",
+                    "data": {
+                        "base_chance": 6.0,
+                        "specific_combat_skill_id": "brand_tainted",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "vampire_target",
+                    "data": {
+                        "base_chance": 12.0,
+                        "specific_combat_skill_id": "holy_stake",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 12.0,
+                        "specific_combat_skill_id": "holy_stake",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "pyre_empty",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [],
+            "target_selection_desires": [],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "pyre_full",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [],
+            "target_selection_desires": [],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "countess_D",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "pheromonal_delirium",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "life_feeds_on_life",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 30.0,
+                        "combat_skill_id": "life_feeds_on_life",
+                        "non_actor_dot_heroes_min": 1,
+                        "non_actor_dot_heroes_max": 4,
+                        "performer_health_ratio_min": 0.10,
+                        "performer_health_ratio_max": 1.00
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 15.0,
+                        "combat_skill_id": "pheromonal_delirium"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "claw_swipe_normal"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 188.0,
+                        "combat_skill_id": "transform_to_weak"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "actor_dot_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "life_feeds_on_life",
+                        "actor_dot_entry_id": "egg",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "actor_dot_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": false,
+                        "combat_skill_id_override": "life_feeds_on_life",
+                        "count_heroes": true,
+                        "count_monsters": true,
+                        "actor_dot_entry_id": "egg",
+                        "actor_dot_count_min": 0,
+                        "actor_dot_count_max": 1,
+                        "heroes_min": 2,
+                        "heroes_max": 4,
+                        "performer_health_ratio_min": 0.10,
+                        "performer_health_ratio_max": 1.00
+                    }
+                }
+            ]
+        },
+        {
+            "id": "countess_E",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "fan_flutter",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 15.0,
+                        "combat_skill_id": "fan_flutter"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 45.0,
+                        "combat_skill_id": "transform_to_berserk"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "countess_F",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "feed_berserk",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "clear_the_court",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "be_silent",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": -1000000000000.0,
+                        "combat_skill_id": "transform_to_normal",
+                        "performer_health_ratio_min": 0.00,
+                        "performer_health_ratio_max": 0.09
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 150.0,
+                        "combat_skill_id": "transform_to_normal"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "claw_swipe_berserk"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 13.0,
+                        "combat_skill_id": "be_silent"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 28.0,
+                        "combat_skill_id": "feed_berserk"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "clear_the_court"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "be_silent",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "viscount",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "feed_on_emaciated",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "feed_on_average",
+                    "amount": 3
+                },
+                {
+                    "combat_skill_id": "feed_on_bloated",
+                    "amount": 4
+                },
+                {
+                    "combat_skill_id": "served_rare",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "fine_pairing",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "hungry_eyes",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 25.0,
+                        "first_initiative_only": true,
+                        "combat_skill_id": "feed_on_emaciated",
+                        "ally_base_class_id": "body_emaciated"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 75.0,
+                        "first_initiative_only": true,
+                        "combat_skill_id": "feed_on_average",
+                        "ally_base_class_id": "body_average"
+                    }
+                },
+                {
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 250.0,
+                        "first_initiative_only": true,
+                        "combat_skill_id": "feed_on_bloated",
+                        "ally_base_class_id": "body_bloated"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "served_rare"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 15.0,
+                        "combat_skill_id": "fine_pairing"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 7.0,
+                        "combat_skill_id": "hungry_eyes"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "feed_on_average",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "body_average",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "feed_on_emaciated",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "body_emaciated",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "feed_on_bloated",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "body_bloated",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "statue_head_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "head_prep",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "head_spew",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "head_prep"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "head_spew"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "",
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "ally_base_class_id": "statue_shield",
+                        "ally_count_min": 0,
+                        "ally_count_max": 0,
+                        "ignore_if_stun": false
+                    }
+                },
+                {
+                    "type": "ally_actor_class_count",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "",
+                        "decrement_combat_skill_id_override_cooldown": true,
+                        "ally_base_class_id": "statue_shield",
+                        "ally_count_min": 0,
+                        "ally_count_max": 0,
+                        "ignore_if_stun": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "statue_shield_A",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shield_launch"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shield_smash"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+    ]
+}

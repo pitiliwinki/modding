@@ -1,0 +1,573 @@
+{
+    "filters": [],
+    "entries": 
+    [
+        {
+            "id": "kill_monster",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "",
+                    "chance": 1,
+                    "priority": 4,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "curtain"
+                    ]
+				},
+				{
+					"queue_only_on_empty": true,
+					"queue_while_audio_playing": false,
+					"audio_event": "/vo/crimson_court/fanatic_victory",
+					"chance": 1,
+					"priority": 3,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"fanatic"
+					]
+				}
+            ]
+        },
+        {
+            "id": "curio",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "",
+                    "chance": 1,
+                    "priority": 2,
+                    "max_raid_occurrences": 2,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 2,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["cc_hive_quest_quest_activate_with"]
+                },
+				{
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/crimson_court/courtyard_cleanse_03",
+                    "chance": 1,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 1,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["cc_hive_quest_quest_activate_with"]
+                }
+            ]
+        },
+		{
+			"id": "loading_screen_start",
+			"audio_events": [{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/loading_00",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_0"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/loading_01",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_1"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/loading_02",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_2"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/loading_fanatic",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"fanatic"
+					],
+                    "statue_label" : "fanatic"
+				}
+			]
+		},
+		{
+            "id": "recruit_hero",
+            "audio_events": [
+				{
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/town_recruit_flagellant",
+                    "chance": 1,
+                    "priority": 2,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 1,
+                    "max_campaign_occurrences": 1,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+                        "flagellant"
+                    ]
+                }
+            ]
+        },
+		{
+            "id": "enter_quest_select",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": false,
+                    "queue_while_audio_playing": true,
+                    "audio_event": "/vo/crimson_court/fanatic_quest_select",
+                    "chance": 1,
+                    "priority": 0,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 1,
+                    "max_campaign_occurrences": 1,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": [
+						"infestation_1_1"
+						]
+                }
+            ]
+        },
+		{
+			"id": "quest_start",
+			"audio_events": [
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/fanatic_start",
+					"chance": 1,
+					"priority": 1,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"fanatic"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/courtyard_cleanse",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"plot_crimson_court_0"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq00_starting_room",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_1"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq01_starting_room",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_2"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq02_starting_room",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"plot_crimson_court_3"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/courtyard_statue_start",
+					"chance": 1,
+					"priority": 0,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"kill_statue",
+						"courtyard"
+					]
+				}
+			]
+		},
+		{
+			"id": "combat_start",
+			"audio_events": [			
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/courtyard_crocodile",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"crocodile"
+					]
+				},
+					{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/courtyard_crocodile",
+					"chance": 0.5,
+					"priority": 1,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"crocodile"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/fanatic_spawn",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 1,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"fanatic"
+					]
+				},
+					{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/fanatic_spawn",
+					"chance": 0.5,
+					"priority": 1,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"fanatic"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq01_viscount_appear",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"viscount"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq00_baron_appear",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"baron"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/ccq02_countess_appear",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"countess"
+					]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/courtyard_statue_appear",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"statue_head"
+					]
+				}
+			]
+		},
+		{
+			"id": "kill_monster",
+			"audio_events": [{
+					"queue_only_on_empty": true,
+					"queue_while_audio_playing": false,
+					"audio_event": "/vo/crimson_court/ccq00_baron_killed",
+					"chance": 1,
+					"priority": 3,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"baron"
+					]
+				},
+				{
+					"queue_only_on_empty": true,
+					"queue_while_audio_playing": false,
+					"audio_event": "/vo/crimson_court/ccq01_viscount_killed",
+					"chance": 1,
+					"priority": 3,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"viscount"
+					]
+				},
+				{
+					"queue_only_on_empty": true,
+					"queue_while_audio_playing": false,
+					"audio_event": "/vo/crimson_court/ccq02_countess_killed",
+					"chance": 1,
+					"priority": 3,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"countess"
+					]
+				},
+				{
+					"queue_only_on_empty": true,
+					"queue_while_audio_playing": false,
+					"audio_event": "/vo/crimson_court/courtyard_statue_killed",
+					"chance": 1,
+					"priority": 3,
+					"max_raid_occurrences": 1,
+					"max_town_visit_occurrences": 0,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": false,
+					"tags": [
+						"statue_head"
+					]
+				}
+			]
+		},
+		{
+			"id": "town_visit_start",
+			"audio_events": [{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_parasitic_swarm",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": [
+						"infestation_intro"
+						]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_CCQ_01_return",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["return_from_CCQ1"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_flagellant",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["first_flagellant"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_fanatic",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["fanatic_intro"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_curse_cleared",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["remove_vampire"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_countess_defeat",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["countess_dead"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_infestation_repeat",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["infestation_repeat"]
+				},
+				{
+					"queue_only_on_empty": false,
+					"queue_while_audio_playing": true,
+					"audio_event": "/vo/crimson_court/town_flagellant_first",
+					"chance": 1,
+					"priority": 2,
+					"max_raid_occurrences": 0,
+					"max_town_visit_occurrences": 1,
+					"max_campaign_occurrences": 0,
+					"filter": "",
+					"check_all_tags": true,
+					"tags": ["bonus_recruit_flagellant"]
+				}
+				
+			]
+		}
+    ]
+}

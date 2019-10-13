@@ -1,0 +1,102 @@
+{
+    "monster_brains": [
+        {
+            "id": "test_second",
+            "skill_cooldowns": 
+            [
+                {
+                    "combat_skill_id": "test",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "next_initiative_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+
+
+
+
+        {
+            "id": "default_second",
+            "skill_cooldowns": 
+            [
+
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "preferred_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "heal_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "hp_ratio_threshold": 0.5
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 100.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+
+    ]
+}

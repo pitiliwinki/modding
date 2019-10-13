@@ -1,0 +1,111 @@
+{
+   "entries":
+   [
+      {
+         "id" : "cataphract_miracle_pelvis",
+         "buffs" : 
+         [
+            "miracle_pelvis_buff_move",
+			"miracle_pelvis_buff_acc"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cataphract_withered_apple",
+         "buffs" : 
+         [
+            "withered_apple_buff_dodge",
+			"withered_apple_buff_crit"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cataphract_haunted_cubes",
+         "buffs" : 
+         [
+            "haunted_cubes_maulus_stress"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "rare",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+			"cataphract_on_crit_flat_heal"
+		 ]
+      },
+	  {
+         "id" : "cataphract_conterstrike",
+         "buffs" : 
+         [
+            "conterstrike_buff_hp",
+            "conterstrike_buff_dodge",
+            "conterstrike_maulus_spd"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cataphract_skull_of_knowledge",
+         "buffs" : 
+         [
+            "skull_of_knowledge_buff_healing",
+            "skull_of_knowledge_maulus_dmgL",
+			"skull_of_knowledge_maulus_dmgH"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "uncommon",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cataphract_scorched_saddle",
+         "buffs" : 
+         [
+            "scorched_saddle_buff_dmgL",
+            "scorched_saddle_buff_dmgH",
+            "scorched_saddle_buff_spd",
+			"scorched_saddle_buff_move",
+			"scorched_saddle_buff_prot",
+			"scorched_saddle_maulus_stress",
+			"scorched_saddle_maulus_bleed"
+         ],
+         "hero_class_requirements":
+         [
+            "cataphract"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      }
+   ]
+}

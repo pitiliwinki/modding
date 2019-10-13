@@ -1,0 +1,620 @@
+{
+   "trees":
+   [
+      {
+         "id" : "shadow_walker.weapon",
+         "is_instanced" : true,
+         "tags" : ["weapon", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.weapon", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.weapon", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 5777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.weapon", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.armour",
+         "is_instanced" : true,
+         "tags" : ["armour", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.armour", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.armour", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 5777 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.armour", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.ken_jutsu",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.ken_jutsu", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.ken_jutsu", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.ken_jutsu", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.ken_jutsu", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.venom_tipped_shurikens",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.venom_tipped_shurikens", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.venom_tipped_shurikens", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1450 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.venom_tipped_shurikens", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.venom_tipped_shurikens", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.kiai_jutsu",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kiai_jutsu", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kiai_jutsu", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1450 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kiai_jutsu", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kiai_jutsu", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.blood_boil",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.blood_boil", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.blood_boil", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1450 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.blood_boil", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.blood_boil", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.pressure_point",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.pressure_point", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.pressure_point", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.pressure_point", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.pressure_point", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.kuji_kiri",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 777 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 350 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kuji_kiri", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kuji_kiri", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1450 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kuji_kiri", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.kuji_kiri", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      },
+      {
+         "id" : "shadow_walker.shadow_slide",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.shadow_slide", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 750 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.shadow_slide", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1250 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.shadow_slide", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "shadow_walker.shadow_slide", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 5
+            }
+         ]
+      }
+]
+}

@@ -1,0 +1,22 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "enigma_manifest",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_potential", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_endurance", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_efficiency", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_evasion", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_protection", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_speed", "amount" : 1 }},
+			{ "type" : "item", "chances" : 10, "data" : { "type" : "estate", "id" : "fragment_of_precision", "amount" : 1 }},
+			{ "type" : "item", "chances" : 6, "data" : { "type" : "estate", "id" : "fragment_of_vitality", "amount" : 1 }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "enigmatic" }}
+         ]
+      }
+   ]
+}

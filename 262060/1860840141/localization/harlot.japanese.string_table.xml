@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="japanese">
+  	<!--Original Character Art by Vucovix. Sounds/Writing by EbonyBetty. Coding/Writing by Dem22. -->
+	
+	<!--On Kill: -->
+		<entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	
+	<!--Kiss Custom Tooltip -->	
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_A_buff_x"><![CDATA[-26%% {colour_start|stress}Stress{colour_end} (90%% base)(2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_B_buff_x"><![CDATA[-28%% {colour_start|stress}Stress{colour_end} (95%% base)(2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_C_buff_x"><![CDATA[-30%% {colour_start|stress}Stress{colour_end} (100%% base)(2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_D_buff_x"><![CDATA[-32%% {colour_start|stress}Stress{colour_end} (105%% base)(2 Rds)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_E_buff_x"><![CDATA[-34%% {colour_start|stress} Stress{colour_end} (115%% base)(2 Rds)]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_label_1_buff_x"><![CDATA[{colour_start|harlot}Kiss Can:{colour_end} {colour_start|buff}Buff Party:{colour_end}]]></entry>
+	
+	<!--First HARL Subtitle -->
+	<entry id="str_vo_bad_harlot_recruitment_0"><![CDATA[Ah, here we find a sanguine romantic who speaks of hedonism and recklessness unknown even to myself.]]></entry>
+	
+	<!--Party Names -->
+	<entry id="party_name_222500"><![CDATA[Shady Ladies]]></entry>
+	<entry id="party_name_222501"><![CDATA[Blessed Among Women]]></entry>
+	<entry id="party_name_222502"><![CDATA[Wayfaring Strangers]]></entry>
+	<entry id="party_name_222503"><![CDATA[Dem Marionettes]]></entry>
+	<entry id="party_name_222504"><![CDATA[Sisters of Sin]]></entry>
+	<entry id="party_name_222505"><![CDATA[Tantric Magic]]></entry>
+	<entry id="party_name_222506"><![CDATA[Predatory Instinct]]></entry>
+	<entry id="party_name_222507"><![CDATA[Reckless Hunters]]></entry>
+	<entry id="party_name_222508"><![CDATA[THOT Squad]]></entry>
+	<entry id="party_name_222509"><![CDATA[Protect the Prince]]></entry>
+	<entry id="party_name_222510"><![CDATA[Sinful Wolverines]]></entry>
+	<entry id="party_name_222511"><![CDATA[Devoted Widows]]></entry>
+	<entry id="party_name_222512"><![CDATA[Bloody Valentine]]></entry>
+	<entry id="party_name_222513"><![CDATA[Tarnished Courage]]></entry>
+	<entry id="party_name_222514"><![CDATA[Nearly Blind Angels]]></entry>
+	<entry id="party_name_222515"><![CDATA[Prettiest]]></entry>
+	<entry id="party_name_222516"><![CDATA[Totally Spies]]></entry>
+	<entry id="party_name_222517"><![CDATA[Flash of the Hunters]]></entry>
+	<entry id="party_name_222518"><![CDATA[Phantom of the Opera]]></entry>
+	<entry id="party_name_222519"><![CDATA[Dancing Couples]]></entry>
+	<entry id="party_name_222520"><![CDATA[Red Vitality]]></entry>
+	<entry id="party_name_222521"><![CDATA[Beauties & the Beasts]]></entry>
+	<entry id="party_name_222522"><![CDATA[Mary + the Apostles]]></entry>
+	<entry id="party_name_222523"><![CDATA[Shades of Luxury]]></entry>
+	
+	<!--Come Unto Your Maker --> 		
+	<entry id="harlot+str_monster_user_selected_targets_kill_pill"><![CDATA[Well, I've had some great rolls in the hay!]]></entry>
+	
+	 <!--Town Descriptions--> 
+	<entry id="action_verbose_body_guild_harlot"><![CDATA[The Harlot is attractive, seductive, cunning, and personable. She trades her skills, body, and companionship for gold and is proud to be an independent contractor. In battle, she can rely on her fan-blades and supports the party with buffs that may change a battle's dynamic. It's easy for clients to fall in love with her, but for her it's strictly business.]]></entry>
+    <entry id="action_verbose_body_blacksmith_harlot"><![CDATA[The Harlot's unique fan-blades are her weapon of choice. Quite deadly when used as a slashing weapon, they can also be used as a projectile weapon. They need regular sharpening and care. The Harlot enjoys flirting with the Blacksmith, who is easily embarrassed by the Harlot's immodest dress.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_harlot"><![CDATA[The Harlot is adapatable and can go from entertaining royalty to roughing it in the wild, however, she has acquired a taste for the finer things in life, including fine cognac and a feather bed. When camping she can relieve stress, protect others from diseases, and offer her suggestive encouragements.]]></entry>
+	
+	<!---Blood Buffs Tooltips--->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
+	
+	<!--Healing DOT missing tooltip--> 
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+	
+	<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[Spider]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[Spider]]></entry>
+	<entry id="buff_rule_data_tooltip_vampire"><![CDATA[Bloodsuckers]]></entry>
+	
+	<!--Cooldown Custom Tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_tooltip_cooldownX_pass"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_cooldown_tooltip_1_buff_pass"><![CDATA[2-Round {colour_start|notable}Cooldown{colour_end}]]></entry>
+	
+	<!--Merged high low marked Tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_A_buff_x"><![CDATA[+69%% DMG vs. {colour_start|mark}Marked{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_B_buff_x"><![CDATA[+79%% DMG vs. {colour_start|mark}Marked{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_C_buff_x"><![CDATA[+89%% DMG vs. {colour_start|mark}Marked{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_D_buff_x"><![CDATA[+99%% DMG vs. {colour_start|mark}Marked{colour_end} (2 Rds)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_E_buff_x"><![CDATA[+109%% DMG vs. {colour_start|mark}Marked{colour_end} (2 Rds)]]></entry>
+		
+		<!--Merged healing penalty tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_A_buff_x"><![CDATA[-50%% {colour_start|healhp}Healing{colour_end}, {colour_start|healhp}Healing Received{colour_end}, {colour_start|stress}Stress Healing{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_B_buff_x"><![CDATA[-47%% {colour_start|healhp}Healing{colour_end}, {colour_start|healhp}Healing Received{colour_end}, {colour_start|stress}Stress Healing{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_C_buff_x"><![CDATA[-45%% {colour_start|healhp}Healing{colour_end}, {colour_start|healhp}Healing Received{colour_end}, {colour_start|stress}Stress Healing{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_D_buff_x"><![CDATA[-43%% {colour_start|healhp}Healing{colour_end}, {colour_start|healhp}Healing Received{colour_end}, {colour_start|stress}Stress Healing{colour_end} (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_E_buff_x"><![CDATA[-40%% {colour_start|healhp}Healing{colour_end}, {colour_start|healhp}Healing Received{colour_end}, {colour_start|stress}Stress Healing{colour_end} (2 Rds)]]></entry>
+	
+	<!--Free Action tooltip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_action_tip_1_buff_x"><![CDATA[{colour_start|harlot}Encouragement:{colour_end} Inspires {colour_start|notable}1 Extra Turn{colour_end}]]></entry>
+	
+	<!--Spider Hunter Tooltips tooltip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_A_buff_x"><![CDATA[+7 ACC vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_B_buff_x"><![CDATA[+9 ACC vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_C_buff_x"><![CDATA[+11 ACC vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_D_buff_x"><![CDATA[+13 ACC vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_E_buff_x"><![CDATA[+15 ACC vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_tip_buff_x"><![CDATA[{colour_start|harlot}Pheromones Affect Party Until{colour_end} {colour_start|notable}End of Battle{colour_end}]]></entry>
+	
+	<!--HARL Quirk 1-->
+	<entry id="str_quirk_name_HARL_quirk_1"><![CDATA[Love Struck]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_quirk_tip_x"><![CDATA[{colour_start|harlot}When a client can’t distinguish between illusion & reality.{colour_end}]]></entry>
+	<entry id="HARL_bark_love"><![CDATA[I ... I think I'm falling in Love!]]></entry>
+	
+	<!--HARL Quirk 2-->
+	<entry id="str_quirk_name_HARL_quirk_2"><![CDATA[second if needed]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_quirk_2_custom_x"><![CDATA[{colour_start|notable}description 2{colour_end}]]></entry>
+	<entry id="HARL_bark_trigger_2"><![CDATA[bark 2 ...]]></entry>
+	
+	<!--HARL Disease Cooties-->
+	<entry id="str_quirk_name_HARL_cooties"><![CDATA[Cooties]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_cooties_tooltip_x"><![CDATA[{colour_start|harlot}Odd side effect from a sexual partner.{colour_end}]]></entry>
+	<entry id="HARL_bark_cooties"><![CDATA[You gave me cooties!]]></entry>
+	
+	<!--HARL Disease Warts-->
+	<entry id="str_quirk_name_HARL_warts"><![CDATA[Genital Warts]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_warts_tooltip_x"><![CDATA[{colour_start|harlot}Nothing about this is pleasant!{colour_end}]]></entry>
+		<entry id="HARL_bark_warts"><![CDATA[I don't feel very well.]]></entry>
+		
+	<!--HARL Party Restrictions-->
+	<entry id="str_incompatible_party_snake_charmer_phobia"><![CDATA[I'm sorry, I won't travel with snakes!]]></entry>
+	<entry id="str_incompatible_party_snake_charmer_phobia"><![CDATA[I'm not going anywhere with those serpents!]]></entry>
+
+	<entry id="str_incompatible_party_member_snake_charmer_phobia"><![CDATA[With THOSE fangs? No, no, no!]]></entry>
+	<entry id="str_incompatible_party_member_snake_charmer_phobia"><![CDATA[Not even for double the fee!]]></entry>
+	
+  
+	<!--Armor and Weapons -->  
+    <entry id="harlot_weapon_0"><![CDATA[Copper & Mulberry Silk Fan]]></entry>
+    <entry id="harlot_weapon_1"><![CDATA[Nickel & Tasar Silk Fan]]></entry>
+    <entry id="harlot_weapon_2"><![CDATA[Red Brass & Eri Silk Fan]]></entry>
+    <entry id="harlot_weapon_3"><![CDATA[Bronze & Anaphe Silk Fan]]></entry>
+    <entry id="harlot_weapon_4"><![CDATA["Femme Fatale"]]></entry>
+    <entry id="upgrade_tree_name_harlot.weapon"><![CDATA[Fan]]></entry>
+
+    <entry id="harlot_armour_0"><![CDATA[Stained Bodice]]></entry>
+    <entry id="harlot_armour_1"><![CDATA[Cleaned Bodice]]></entry>
+    <entry id="harlot_armour_2"><![CDATA[Lace Bodice]]></entry>
+    <entry id="harlot_armour_3"><![CDATA[Silk Bodice]]></entry>
+    <entry id="harlot_armour_4"><![CDATA["Birth of Venus"]]></entry>
+    <entry id="upgrade_tree_name_harlot.armour"><![CDATA[Bodice]]></entry>
+	
+	<!--Class Name and other names --> 
+	<entry id="hero_class_name_harlot"><![CDATA[Harlot]]></entry>
+	<entry id="hero_name_delilah"><![CDATA[Delilah]]></entry>
+		<entry id="hero_name_delilah"><![CDATA[Harlette]]></entry>
+	<entry id="hero_name_nellgyyn"><![CDATA[Nell Gyyn]]></entry>
+	<entry id="hero_name_sallysalisbury"><![CDATA[Sally Salisbury]]></entry>
+	<entry id="hero_name_francoisedefoix"><![CDATA[Françoise de Foix]]></entry>
+	<entry id="hero_name_dianedepoitiers"><![CDATA[Diane de Poitiers]]></entry>
+	<entry id="hero_name_marietouchet"><![CDATA[Marie Touchet]]></entry>
+	<entry id="hero_name_gwynndolin"><![CDATA[Gwynndolin]]></entry>
+		
+	<!--Skill Names --> 
+    <entry id="combat_skill_name_harlot_hands_off"><![CDATA[Hands Off!]]></entry>
+    <entry id="combat_skill_name_harlot_silk_steel"><![CDATA[Silk Hiding Steel]]></entry>
+    <entry id="combat_skill_name_harlot_kiss_death"><![CDATA[Kiss of Death]]></entry>
+    <entry id="combat_skill_name_harlot_heart_gold"><![CDATA[Heart of Gold]]></entry>
+    <entry id="combat_skill_name_harlot_flashing_goods"><![CDATA[Flashin' the Goods]]></entry>
+    <entry id="combat_skill_name_harlot_prowl"><![CDATA[On the Prowl]]></entry>
+    <entry id="combat_skill_name_harlot_hold_close"><![CDATA[Hold Me Close]]></entry>
+    <entry id="combat_skill_name_harlot_move"><![CDATA[Move]]></entry>
+	
+    <entry id="upgrade_tree_name_harlot.hands_off"><![CDATA[Hands Off!]]></entry>
+    <entry id="upgrade_tree_name_harlot.silk_steel"><![CDATA[Silk Hiding Steel]]></entry>
+    <entry id="upgrade_tree_name_harlot.kiss_death"><![CDATA[Kiss of Death]]></entry>
+    <entry id="upgrade_tree_name_harlot.heart_gold"><![CDATA[Heart of Gold]]></entry>
+    <entry id="upgrade_tree_name_harlot.flashing_goods"><![CDATA[Flashin' the Goods]]></entry>
+    <entry id="upgrade_tree_name_harlot.prowl"><![CDATA[On the Prowl]]></entry>
+    <entry id="upgrade_tree_name_harlot.hold_close"><![CDATA[Hold Me Close]]></entry>
+	
+	<!--Camping Skill Names -->
+    <entry id="camping_skill_name_harl_1"><![CDATA[Always Use Protection]]></entry>
+    <entry id="camping_skill_name_harl_2"><![CDATA[Wanton Whispers]]></entry>
+    <entry id="camping_skill_name_harl_3"><![CDATA[Powder My Nose]]></entry>
+    <entry id="camping_skill_name_harl_4"><![CDATA[Working Girl]]></entry>
+	
+		<!-- Trinkets -->
+	<entry id="str_inventory_title_trinketcollector_harlot"><![CDATA[Delilah’s Head]]></entry>
+	<entry id="str_inventory_title_trinketlipstick_harl"><![CDATA[Lipstick]]></entry>
+	<entry id="str_inventory_title_trinketpuff_harl"><![CDATA[Mirror & Powder Puff]]></entry>
+	<entry id="str_inventory_title_trinketnotes_harl"><![CDATA[Sultry Love Notes]]></entry>
+	<entry id="str_inventory_title_trinketperfume_harl"><![CDATA[Expensive Perfume]]></entry>
+	<entry id="str_inventory_title_trinketbook_harl"><![CDATA[Little Black Book]]></entry>
+	<entry id="str_inventory_title_trinketveil_harl"><![CDATA[Wedding Veil]]></entry>
+	<entry id="str_inventory_title_trinketportrait_harl"><![CDATA[Portrait from the Past]]></entry>
+	<entry id="str_inventory_set_title_cc_harl_combined"><![CDATA["Forgive me, but true love cannot overcome cold feet."]]></entry>
+	<entry id="str_inventory_title_trinketboots_harl"><![CDATA[Kinky Crystal Boots]]></entry>
+	<entry id="str_inventory_title_trinketpainting_harl"><![CDATA[Tea Set & Geisha Fan]]></entry>
+	
+	<!--SI Trinket Custom -->
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_si_tooltip_x"><![CDATA[{colour_start|stun}Geisha Training:{colour_end} Skill: {colour_start|bleed}Silk Hiding Steel:{colour_end} Chance to {colour_start|stun}Stun{colour_end}]]></entry>
+	
+	<!--Trinket custom line -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_portrait_custom_A_x"><![CDATA[When Hit: {colour_start|stun}Counter Slow{colour_end} -3 SPD (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_portrait_custom_B_x"><![CDATA[On Kill: Clear {colour_start|mark}Party Marks{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_boots_custom_A_x"><![CDATA[On Kill: {colour_start|buff}Buff Party:{colour_end} +3 CRIT (2 Rds)]]></entry>
+	
+	<!--Fix Missing Effect String-->	
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: ]]></entry>
+	 <entry id="buff_rule_data_tooltip_heart_gold"><![CDATA[Heart of Gold]]></entry>
+
+	<!--Camping Skill Barks -->
+    <entry id="str_bark_harl_1"><![CDATA[I never leave home without one.]]></entry>
+    <entry id="str_bark_harl_1"><![CDATA[I can help you put it on.]]></entry>
+    <entry id="str_bark_harl_1"><![CDATA[We’re not doing IT without one.]]></entry>
+	
+	<entry id="str_bark_harl_2"><![CDATA[Do you come ... here often?]]></entry>
+    <entry id="str_bark_harl_2"><![CDATA[Is that a trinket in your pocket? or are you just happy to see me?]]></entry>
+    <entry id="str_bark_harl_2"><![CDATA[Want to see a new trick I learned?]]></entry>
+ 
+	<entry id="str_bark_harl_3"><![CDATA[*Gasp* So ... BIG!]]></entry>
+    <entry id="str_bark_harl_3"><![CDATA[Add ‘nother gold and I’ll use my mouth.]]></entry>
+    <entry id="str_bark_harl_3"><![CDATA[Let’s go have some 'alone'time, hee hee!
+]]></entry>
+ <entry id="str_bark_harl_3"><![CDATA[Five gold and I’m yours for the night.]]></entry>
+	
+	<entry id="str_bark_harl_4"><![CDATA[Let me put myself together.]]></entry>
+    <entry id="str_bark_harl_4"><![CDATA[I must touch-up my makeup.]]></entry>
+    <entry id="str_bark_harl_4"><![CDATA[Excuse me, my hair needs to be fixed!]]></entry>
+	
+	<!-- Final Dungeon -->
+    <entry id="harlot+str_monster_user_selected_targets_kill_pill"><![CDATA[All those Johns, to meet my end like this? *sigh*]]></entry>  
+	
+	<!-- Town Events -->
+    <entry id="town_event_title_first_harlot"><![CDATA[Beautiful, But Deadly!]]></entry>
+    <entry id="town_event_description_first_harlot"><![CDATA[This attractive Harlot seems coifed and confident as she enters the Hamlet. She is seductive and witty and is eager accept gold for an unforgettable night. She can inspire lust in a hardened man or a lonely woman. ]]></entry>
+	<entry id="town_event_title_bonus_recruit_harlot"><![CDATA[Passion For Sale]]></entry>
+    <entry id="town_event_description_bonus_recruit_harlot"><![CDATA[For the right price, this Harlot is willing to show you a good time.]]></entry>
+
+<!-- HARL eating crab meat -->
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[The smell ... it resembles another smell I know.]]></entry>
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[Tasty! And good for the libido!]]></entry>
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[A fine treat! This should relax me.]]></entry>
+
+<!-- HARL drinking from keg -->
+<entry id="harlot+barb_ale_item_1"><![CDATA[Worse than Brothel Booze!]]></entry>
+<entry id="harlot+barb_ale_item_1"><![CDATA[Utterly revolting!]]></entry>
+<entry id="harlot+barb_ale_item_2"><![CDATA[I prefer Cognac.]]></entry>
+<entry id="harlot+barb_ale_item_2"><![CDATA[If there's nothing better!]]></entry>
+<entry id="harlot+barb_ale_item_3"><![CDATA[This isn't too bad.]]></entry>
+<entry id="harlot+barb_ale_item_3"><![CDATA[I've had worse!!]]></entry>
+	
+<!-- From String Exporter 1-470 -->
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[This is not enjoyable bondage!]]></entry>
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[You must get me out of this pot!]]></entry>
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[I can enjoy pain, but this is ridiculous!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[She is even more beautiful than me!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[Now I serve another mistress!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[Seduction is a powerful weapon.]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[Sorry, I can't work for a madame!]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[I'm better an an independent operator!]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[It's best if I work for myself only.]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[I had a client who enjoyed chains.]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[We haven't established a safeword yet!]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[I wish I could enjoy this!]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[A refreshing heal.]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[I know your desires!]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[I am refreshed!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[It's all too much for me!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[My heart longs for my lost love!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[The end of my clients happiness! They better not go to Rita!]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[I've had a lot of adventures!]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[I never recovered after I lost him …]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[Flesh is weak!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[Rita is going to get my client base!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[You will miss the soft touch of my body!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[One last roll in the hay?]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[It was too much pain!]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[I'll pinch my nipples 'til it hurts.]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[The final pain is for me.]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[You weren't the best, that's for sure!]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[You’re a terrible lover!]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[You don't know anything about women!]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[It was work, but I enjoyed it!]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[Is this my last time to replenish the course?]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[My heart skips a beat!]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[My broken heart never recovered.]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[Is this the last embrace?]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[Was it wrong to leave him at the alter?]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[I should have never eaten raw fish!]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[All people are prositutes]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[Rita is always up to something!]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[It can be a lousy profession.]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[A soft breathe on your neck …]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[Am I not young enough, pretty enough, bold enough?]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[My crime will be discovered!]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[You will only use me, you don’t really care for me.]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[I'm not sure. Is that even legal?]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[I want it harder!]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[I can take it all!]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[Give me more! Give me more!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[You don’t know how to handle a woman!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[With your face, you'll have to pay extra!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[That is NOT going to satisfy any partner!]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[I am skilled at superficiality!]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[What about my pleasiure? My needs?]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[By the Light, go faster!]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[My clients don't care for me, just want I do for them.]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[It's not how I wanted my life to go!]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[My body will fail me some day.]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[I should have become a baker!]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[Why didn't I listen to my mother?]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[Do you think I could be a profesional dancer]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[Hooking made me who I am!]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[The craft of seduction is powerful.]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[Great courtesans in history were very knowledgeable.]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[Courage means loving yourself.]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[We shall overcome, and I will love again!]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[My bed has seen bigger monsters than this!]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[Concentrate on the task only, turn off your feelings.]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[It's just a job like any other.]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[Being a woman is a joyous state!]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[I can make you feel wonderful.]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[There's nothing to fear from enjoying your body!]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[Most people sell sex, I just happen to charge for it!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[Sex can make your feel alive!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[After this, you can join me in my bed!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[Blood will pump and you will pump and I will pump!]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[I remember that one client. ...]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[You need a great mind for great seduction.]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[A climatic rush of adrenaline!]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[Let me show you how to relax a bit …]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[I can show you all a good time!]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[A kiss and a wink can get you far!]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[Hey there sailor, buy me a drink? (winks)]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[Flesh wants what it wants.]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[I can stoke unknown desires!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[This will make your body surge with power!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[I know how to bring peace and harmoney to a a body!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[Love is all we need!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[My work makes me vigorous!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[I can go all night, darling!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[We can get started again in just a minute!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[We may end our run here!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[You won't feel my mouth there again!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[You better not have genital warts!]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[If they find out it was me …]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[Are you with the authorities?]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[Don't you think I'm beautiful?]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[Pain can be plesaureable!]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[The tip of the whip is what I crave.]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[Pleasure and pain are very similar.]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[That's what you have to work with? ]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[I will not lighten your burden again!]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[You can't afford my time!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Focus on my needs!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Hey! At least I'm not an astrologer, such a joke!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Lie back and think of the Light!]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[I lost my love and I shall never find another.]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[I had to whore my body out to stay alive.]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[How wonderful my life was when you were in the world …]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[Beauty is fleeting, but dumb is forever!]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[Rita is probably strealing my clients as we speak.]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[If I get wounded I may lose my beauty.]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[What is there is no end to the hooking up?]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[What I never feel true love again?]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[I must hide!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[We should run. Are you listening? We should run now!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[Do you hear that? Let me back!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[Are they coming for me??]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[Let me through this instant!]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[I can take a whipping!]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[Hit me instead!]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[Let me get a better look!]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[Should I move up here?]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[I need to take point position.]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[Should I move back here?]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[It doesn't matter where I stand, we may all die yet!]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[Make way, surely, I'll catch something if I stay up front.]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[In front or in back, it matters not.]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[Is it immoral to sell love?]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[Love or Lust? Am I a just a Liar?]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[Is my soul doomed?]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[I can't get my purity back.]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[I can only stay in the position so long …]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[I need to survive, I don't care about the rest of you.]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[Let me see! I can figure this out best.]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[I've learned  how to be charming and clever.]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[Hands off my body!]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[I need to step back for a moment.]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[Let me gather my thoughts, I need a moment.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[I won't do that for you.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[Not unless you've been tested.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[We ware not doing that without protection!]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[I'm not sorry, but that's not in my scope of work.]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[Aren't I the best you've ever had?]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[Are you getting tired of me already?]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Can you Please finish, I am getting tired of this!]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Don't take all night, I do have other clients.]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Listen you need to pay for additional time, I'm not your girlfriend.]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[Am I losing my beauty?]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[Time will turn my body's beauty!]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[What's love got to do with it?]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[I'm sick of  youtelling me what to do mother!]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[Do nuns fall in love?]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[Rita always was trying to take me love.]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[I don't want to be forced to do this, rather I choose my clients!]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[I don't mind men, and I don't mind women either!]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[Will on old trick do me harm?]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[I trade my body for money.]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[I'll do what I want, when I want to. It's not up to you!]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[I needp ain to feel alive.]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[A cucumber could give me more pleasure!]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[I bet you are a terrible lover!]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[I won't kiss you there, sorry buddy.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[It's my body I will do as I please with it.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[I can'[t risk getting pregnant.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[I do need supplies, perfurm, lipstick and more.]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[Flesh, flesh, and more flesh, but what about my soul?]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[All this hooking, and I barely make it.]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[I understand what people need, and I don't judge.]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[Slice them with my fan-blades]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[My mother knew I would end up a bad seed!]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[Protect me!]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[Things aren't going well? Can't you see that?]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[You better have the gold to pay up.]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[Nothing is free, nothing at all.]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[What if they come back? *looks around nervously*]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[Is this Rita's doing?]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[I'd prefer a nice hotel to this campsite! Have you smelled yourselves lately? I have!]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[I can take it, but can you give it?]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[You're starting to annot me.]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[I should have stayed in a brothel, adventuring is hard work!]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[You couldn't PAY me to kiss you.]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[You think that's a special performance? What a joke!]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[I'm not your girlfriend, wife or mother!]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[I need some alone time. Let's reevulate our relationship.]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[I have a terrible headache!]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[I'm sorry, not tonight.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[There is no cheer here.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[I'm not sure we'll make until morning.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[I had a good man once…]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[A little flour, a little sugar, a little vanilla.]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[Sex, lies, and gold are all you need to succeed!]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[Are we being followed? I've got guys that can't take no for an answer.]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[Bring me the pain! Bring me the please!]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[I will suffer!]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[I'm a lady and a tramp!]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[Might as well be me.]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[I'll let them take me, it's no bother.]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[Come for me, ravish me!]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[Just try to catch me!]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[My mother always knew when I was lying.]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[Come for me boys, I dare you!]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[You want me. Don't deny it!]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[You wanna feel them?]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[I am open at all sorts fun activities!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[You will enjoy this!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[A little pain can be a little pleasure!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[There more to it then just sticking it in!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[You should really practice more on your technique!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[Take a look at my fans!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[My nails can scratch!]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Hey listen up! You should defend me first! Are you listening?]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Me! ME! It should be about me!]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Hardened lives make it hard to feel.]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[Why did my life take this path?]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[I should be ashamed, but I'm not!]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[I will slash my own wrists!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[Mom, I'm so sorry if I let you down!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[So much kissing, but no love!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[Will I see my love in the netherworld?]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[We are staying here and finishing this!]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[I will stay and fight!]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[I'm not leaving, I don't care what happens!]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[No. I am not a coward.]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[They will just find us later, so vote stay and fight on!]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[Running away won't solve anything, trust me.]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[Stay here. Take the pain!]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[I need to feel steel on my skin.]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[The pain reminds me who I am.]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[You won't share my bed tonight!]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[Sorry hun, that's not going to happen.]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[Excuse me? I don't beelive running away will help!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[I can't let my fear overcome me!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[I need to snap out of it!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[What if a client comes for me?]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[Oh gods! Is that crow's feet?]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[Am I not beautiful enough? AM I NOT BEAUTIFUL ENOUGH?!!]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[Rita can barely wrangle a garden snake…]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[ You only want to see my beauty tarnished!]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[Is this how you get off, you deviant? ]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[I'll play my role well!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[Well I suppose I must pleasure myself!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[Harder! Harder!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[The beauty in being black and blue!]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[I've been bad…I deserve this…]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[It's just a love touch.]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[How sweet, is that for me?]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[They evaded my charms!!]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[I'm losing my touch!]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[I missed the mark!]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[I can't slip up! One wrong move!]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[I'm all washed up…]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[They've found an opening!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[Hit me like you mean it!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[Your mistress demands you hit her!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[You toy with my pleasure, fiend!]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Was that a love note that just flew by?]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Blowing me a kiss?]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Trying to get a girl's attention?]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[Gone limp already!?]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[I expected you to last longer!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[I'm not finished with you yet!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[I bet you are a terrible lover!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[You couldn't satify a dead fish!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[Impotent on the battefield and in bed!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[Let me blow you a kiss!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[I've smudged some lipstick on your face.]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[Have you been seeing Rita?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[Eeeek. Spiders, stomp them!!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[I don't want to die here!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[What happened you?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[Maybe we should retreat?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[That was supposed to hit!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[Who are you trying to impress?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[Are you trying to dissappoint me again?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[Can't shoot straight, eh?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[What an imbecile!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[Psh! Let me show you how it's done!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[Must I do everything myself?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[Hah! This isn't the first time I've been let down!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[D-don't steal my luck!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[They always come back with vengence!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[N-now you've made it angry!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[Promise you'll do the same to me!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[You're getting me hot underneath the collar!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[I want to see blood! Hit it again!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[I guess you're not as much as a limp lamb as I thought!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[I doubt you can do that again!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[Finally found your vigor again, hmm?]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[That's a paying customer!]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[I wouldn't throw them out of bed!]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[Not so rough!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[They've got it in for you!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[Let me hide behind you!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[You can only be lucky for so long!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[You won't last much longer!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[Are you trying to make it attack me too?!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[I think I might faint!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[I think they fancy you!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[True love flew your way!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[Love cuts deeper than the sharpest knife!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[I'm staying right where I am!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[It's too dangerous to move!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[I'm a lady in waiting!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[You aren't a copper, I'm not moving!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[And do what? DIE?!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[I won't do a thing you say!]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[And miss the sweet pleasure of pain?]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[No! I need a little spanking!]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[I refuse! Not until I see blood!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[I'm not moving a muscle!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[You want to boss me around? Pay me!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[Touch me again and I'll gut you!]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[What on earth are you trying to give me?]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[I think not!]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[Keep that away from me!]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[No! I like the pain I'm feeling!]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[Oooh? Something to enhance my pleasure?]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[Will you punish me if I don't accept?]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[Don't waste this on a woman like me…]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[I just want to stare at my locket…]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[I'm already a fallen woman…]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[That's not my perfume!]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[I only accept love notes.]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[That's not a sheep-skin jimmy!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[I'm getting out of here!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[Even a whore knows when it's time to bow out!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[Shall we retreat?]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[Why are you behind me?!]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[The coppers are here!]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[Don't mind me, just running away!]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[Don't blame me for looking out for myself!]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[It's a dog eat dog world, sweetheart.]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[A whore has to look out for herself!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[My blood is feeling good and hot!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[Oooh! That's got my blood pumping!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[Why don't you come a little closer…]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[How about YOU give 'em a kiss!]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[I bet you don't have the stones to face them!]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[I'm surrounded by such deviants! ]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[All dressed up and nowhere to go…]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[(sigh) Mother was right…]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[What have I done with my life?]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[Shall we dance?]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[You're stepping on my skirt!]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[Stop looking at my backside!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[You put your bare hand on that?!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[Even I know not to touh that!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[It's a wonder you havn't gotten syphilis yet...]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[You didn't pay me enough last time! Mine!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[That's a gift for me, I presume? ]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[That better be payment for I did for you last night!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[Oh, how long and sharp!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[I can think of a few uses for that, hee hee!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[Oooh? Is it dangerous?]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[Is that where my love notes went?]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[We should all probably wash our hands after this.]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[Did I miss place my little black book?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[Oh! Even the dungeon loves me!]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[What a lovely feeling, no?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[Ah! They're excited to meet us!]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[I never do think things through…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[I need to look more before I leap…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[Sigh, I deserved that…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[Hmm…must've been the wind…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[Is that a suitor at the door?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[There is often pain my profession.]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[Are you trying to kiss me?!]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[I am NOT your paramour! Hands off!]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[Keep your hands where I can see them!]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[I will not deny myself such pleasure!]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[Stop! I'm so c-close! (shivers)]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[Oh, don't kill the mood!]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[I don't want to be touched…]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[I doubt you can heal my heart…]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[No, I should be punished for leaving him…]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[I haven't told you my rates, yet!]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[Exhibition costs extra.]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[Not in the middle of battle, you deviant! ]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[Are you trying to kiss me?!]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[I am NOT your paramour! Hands off!]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[Keep your hands where I can see them!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[I've already got my blood flowing!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[No! That's not the pleasure I need!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[That doesn't feel right!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[Don't you dare pity me!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[You're not helping!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[I don't need your charity! ]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[I haven't told you my rates, yet!]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[Exhibition costs extra.]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[Not in the middle of battle, you deviant! ]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[Oof! That wasn't a love tap.]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[Not every whore likes it rough, you know!]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[That's one way to get the blood flowing…]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[It's rude to waste time on the battlefield and the bedroom.]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[I like to take my time too, but this is ridiculous…]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[Hurry up, love! More nasties want to join!]]></entry>
+<entry id="harlot+str_monster_attack_unholy_smite"><![CDATA[My heart feels so heavy and alone!]]></entry>
+<entry id="harlot+str_monster_attack_unholy_curse"><![CDATA[Can I only experience love but never give it?]]></entry>
+<entry id="harlot+str_monster_attack_unholy_judgement"><![CDATA[He died waiting for me at the alter!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[Don't let him light it!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[Hurry before he lights it again!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[We must stop him before he lights the fuse!]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Private dance when we get back to the Hamlet?]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Don't tell anyone, but you're one of my favorite customers.]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Let me take your mind off of this horrid mission.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[…and here's a kiss to make it better.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[Lay your head on my bosom. You'll feel much better.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[Let me know if I'm putting on too much pressure.]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[I know what'll give you some pep in your step! (giggles)]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[Come dance with me by the fire!]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[A nice bath is waiting for us when we get back to the Hamlet.]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[At least I lived life with few regrets!]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[I m-might be a little in over my head.]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[Not the "bang" I was expecting to go out on!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[I'm not in the mood!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[I'm off the clock!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[I said, NO!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[Quit starring at me!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[I said, NO!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[You remind me of a copper!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[Come closer, I'm holding a knife.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[Your Misstress is displeased.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[As your Mistress, I doubt you can handle it!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[I wouldn't touch you for all the money in the world!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[You've got the face only mother could love.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[Upon consideration, I've just raised my rates. ]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[Upon consideration, I've just raised my rates. ]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[I doubt you have much in that coin-purse of yours.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[Not even if you were the last person on earth.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[I'm not feeling it, sweetheart…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[I have a headache…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[I've got too much on my mind…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[Not until you write me a love letter.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[I can smell Rita on you!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[I don't give discounts.]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[I said, NO!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[Keep your hands where I can see them!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[Hands off the goods!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[No! You're too gentle!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[You could never satisfy me!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[I'm too much for you!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[Not until you pay me first!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[I'll slice your hand off with my fan!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[Don't even think about it!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[Not in mood, love…]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[I want to be alone right now…]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[Do you think he's moved on?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[You have a jimmy?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[Are you asking me to dance?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[You should get that sore checked out…]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[Stew, again? I'll pass…]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[Who cooked this?]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[I'm not eating that!]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[I'm hungry for something else, hehe…]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[Food won't satisfy me!]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[My "hunger" is insatiable! ]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[I lost my appetite…]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[Not hungry…]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[You can have my ration…]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[Where’s the potatotes?!]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[Aren't you hungry for something else? (winks)]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[I'm watching my figure!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Care to RISE to the occasion?]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Now say, "Yes, Mistress!"]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Am I distracting you? Hee hee!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[The most fun I've had with my clothes on!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Aw, is it your first time? (snickers)]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Over so soon?]]></entry>
+
+  </language>
+
+</root>
+

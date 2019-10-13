@@ -1,0 +1,621 @@
+{
+   "trees":
+   [
+      {
+         "id" : "apothecary.weapon",
+         "is_instanced" : true,
+         "tags" : ["weapon", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 900 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.weapon", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2100 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.weapon", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.weapon", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.weapon", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.armour",
+         "is_instanced" : true,
+         "tags" : ["armour", "first_level_not_upgrade"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 900 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1500 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.armour", "requirement_code" : "0" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2100 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.armour", "requirement_code" : "1" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 2700 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.armour", "requirement_code" : "2" },
+                  { "tree_id" : "blacksmith.armour", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.firecracker",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.firecracker", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.firecracker", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.firecracker", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.firecracker", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.soothing_vapours",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.soothing_vapours", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.soothing_vapours", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.soothing_vapours", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.soothing_vapours", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.blinding_gas",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.blinding_gas", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.blinding_gas", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.blinding_gas", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.blinding_gas", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.incision",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.incision", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.incision", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.incision", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.incision", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.battlefield_medicine",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.battlefield_medicine", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.battlefield_medicine", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.battlefield_medicine", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.battlefield_medicine", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.toxic_tincture",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.toxic_tincture", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.toxic_tincture", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.toxic_tincture", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.toxic_tincture", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      },
+      {
+         "id" : "apothecary.health_tonic",
+         "is_instanced" : true,
+         "tags" : ["combat_skill"],
+         "requirements" : 
+         [
+            {
+               "code" : "0",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 1000 }
+               ],
+               "prerequisite_requirements" :
+               [
+               ],
+               "prerequisite_resolve_level" : 0
+            },
+            {
+               "code" : "1",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 600 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.health_tonic", "requirement_code" : "0" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
+               ],
+               "prerequisite_resolve_level" : 1
+            },
+            {
+               "code" : "2",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 725 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.health_tonic", "requirement_code" : "1" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
+               ],
+               "prerequisite_resolve_level" : 2
+            },
+            {
+               "code" : "3",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 850 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.health_tonic", "requirement_code" : "2" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
+               ],
+               "prerequisite_resolve_level" : 3
+            },
+            {
+               "code" : "4",
+               "currency_cost" : 
+               [
+                  { "type" : "gold", "amount" : 975 }
+               ],
+               "prerequisite_requirements" :
+               [
+                  { "tree_id" : "apothecary.health_tonic", "requirement_code" : "3" },
+                  { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
+               ],
+               "prerequisite_resolve_level" : 4
+            }
+         ]
+      }
+]
+}
+

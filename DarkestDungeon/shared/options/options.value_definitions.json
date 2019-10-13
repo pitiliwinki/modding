@@ -1,0 +1,47 @@
+{
+    "value_definitions":
+    [
+        {
+            "id": "resolution",
+            "data":
+            {
+                "range":
+                [
+                    [ 1280, 720 ],
+                    [ 1366, 768 ],
+                    [ 1600, 900 ],                                        
+                    [ 1920, 1080 ],
+                    [ 2560, 1440 ],
+                    [ 3840, 2160 ]
+                ]
+            }
+        },
+        {
+            "id": "volume",
+            "data": {
+                "min": 0,
+                "max": 100,
+                "delta": 5
+            }
+        },
+        {
+            "id": "gamma",
+            "data":
+            {
+                "min": 1,
+                "max": 10,
+                "delta": 1
+            }
+        },
+
+        {
+            "id": "extra_bark_time",
+            "data":
+            {
+                "min": 0,
+                "max": 200,
+                "delta":  25
+            }
+        }
+    ]
+}

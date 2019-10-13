@@ -1,0 +1,537 @@
+{
+    "filters": [],
+    "entries": [
+        {
+            "id": "heal",
+            "tone": "good",
+            "chance": 0.1,
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_deaths_door_01",
+                    "chance": 0.25,
+                    "priority": 2,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "all_tags": ["deaths_door"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_deaths_door_02",
+                    "chance": 0.25,
+                    "priority": 2,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "all_tags": ["deaths_door"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_deaths_door_03",
+                    "chance": 0.25,
+                    "priority": 2,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "all_tags": ["deaths_door"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_deaths_door_04",
+                    "chance": 0.25,
+                    "priority": 2,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "all_tags": ["deaths_door"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_crit_01",
+                    "chance": 0.25,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door"],
+                    "all_tags": ["crit"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_crit_02",
+                    "chance": 0.25,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door"],
+                    "all_tags": ["crit"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_crit_03",
+                    "chance": 0.25,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door"],
+                    "all_tags": ["crit"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_crit_04",
+                    "chance": 0.25,
+                    "priority": 1,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "clear_queue_tags" : ["deaths_door"],
+                    "all_tags": ["crit"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_01",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door","crit"],
+                    "all_tags": ["basic"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_02",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door","crit"],
+                    "all_tags": ["basic"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_03",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door","crit"],
+                    "all_tags": ["basic"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/heal_04",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 0,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "clear_queue_tags" : ["deaths_door","crit"],
+                    "all_tags": ["basic"],
+                    "single_tags": ["hero_skill","hero_skill_multi_target","camp_skill","camp_skill_multi_target"]
+                }
+            ]
+        },
+        {
+            "id": "buff",
+            "tone": "good",
+            "chance": 0.05,
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_buffed_01",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_buffed_02",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_buffed_03",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_buffed_04",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                }
+            ]
+        },
+		{
+            "id": "debuff",
+            "tone": "bad",
+            "chance": 0.05,
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_debuffed_01",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_debuffed_02",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_debuffed_03",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_debuffed_04",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["hero","battle"]
+                }
+            ]
+        },
+		{
+            "id": "inventory_full",
+            "tone": "bad",
+            "chance": 0.7,
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/inventory_full_01",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/inventory_full_02",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/inventory_full_03",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/inventory_full_04",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                }
+            ]
+        },
+		{
+            "id": "stress_dot_applied",
+            "tone": "bad",
+            "chance": 0.7,
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_horror_dot_01",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_horror_dot_02",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_horror_dot_03",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/hero_horror_dot_04",
+                    "chance": 0.25,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": []
+                }
+            ]
+        },
+		{
+            "id": "combat_start",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/shambler_spawn_01",
+                    "chance": 0.9,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": false,
+                    "tags": ["shambler"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/shambler_spawn_02",
+                    "chance": 0.9,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": false,
+                    "tags": ["shambler"]
+                }
+            ]
+        },
+		{
+            "id": "kill_monster",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/shambler_kill_01",
+                    "chance": 0.9,
+                    "priority": 3,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["shambler"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/shambler_kill_02",
+                    "chance": 0.9,
+                    "priority": 3,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["shambler"]
+                }
+            ]
+        },
+		{
+            "id": "combat_start",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/collector_spawn_01",
+                    "chance": 0.9,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["collector"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/collector_spawn_02",
+                    "chance": 0.9,
+                    "priority": 0,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["collector"]
+                }
+            ]
+        },
+		{
+            "id": "kill_monster",
+            "audio_events": [
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/collector_kill_01",
+                    "chance": 0.9,
+                    "priority": 3,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["collector"]
+                },
+                {
+                    "queue_only_on_empty": true,
+                    "queue_while_audio_playing": false,
+                    "audio_event": "/vo/crimson_court/shared/collector_kill_02",
+                    "chance": 0.9,
+                    "priority": 3,
+                    "max_raid_occurrences": 1,
+                    "max_town_visit_occurrences": 0,
+                    "max_campaign_occurrences": 0,
+                    "filter": "",
+                    "check_all_tags": true,
+                    "tags": ["collector"]
+                }
+            ]
+        }
+    ]
+}

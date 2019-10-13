@@ -1,0 +1,94 @@
+{
+    "monster_brains": [
+        {
+            "id": "haloparidol_1",
+            "skill_cooldowns": 
+			[
+			],
+            "skill_selection_desires": [
+                {
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "red_door",
+                        "performing_turn": 1
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "red_door",
+                        "performing_turn": 2
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "red_door",
+                        "performing_turn": 3
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "black_door",
+                        "performing_turn": 4
+                    }
+                },
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "grey_door",
+                        "performing_turn": 5
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+		{
+            "id": "haloparidol_2",
+            "skill_cooldowns": 
+			[
+			],
+            "skill_selection_desires": [
+				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+                        "combat_skill_id": "white_door",
+                        "performing_turn": 1
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+    ]
+}

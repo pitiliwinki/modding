@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "id": "executioner_arrival",
+            "base_chance": 3.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 5,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "executioner",
+                    "number_data": 1.0
+                }
+            ]
+        }
+    ]
+}

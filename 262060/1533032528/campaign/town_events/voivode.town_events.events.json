@@ -1,0 +1,147 @@
+{
+    "events": [
+        {
+            "id": "first_voivode",
+            "base_chance": 20.0,
+            "per_not_rolled_additional_chance": 20.0,
+            "cooldown": 0,
+            "is_unique" : true,
+            "priority":"higher",            
+            "requirements": {
+                "minimum_week": 3,
+                "dead_heroes": 0,
+                "hero_level_counts": [ ],
+                "upgrades_purchased": [ ],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [ ],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "voivode",
+                    "number_data": 1.0
+                }
+            ]
+        },
+		 {
+            "id": "idle_resolve_level_voivode",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "town_event_idle_resolve_level_voivode",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "idle_resolve_level",
+                    "string_data": "voivode",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "bonus_recruit_voivode",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 8,
+            "requirements": {
+                "minimum_week": 16,
+                "dead_heroes": 0,
+                "hero_level_counts": [ ],
+                "upgrades_purchased": [ ],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [ ],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "voivode",
+                    "number_data": 4.0
+                }
+            ]
+        },
+		{
+            "id": "lock_brothel_voivode",
+            "base_chance": 3.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 30,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "bad",
+            "sprite": "town_event_lock_brothel_voivode",
+            "sprite_attachment": "tavern",
+            "data": [
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_1",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_2",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_3",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "activity_lock",
+                    "string_data": "brothel",
+                    "number_data": 0.0
+                }
+            ]
+        },
+		{
+            "id": "bonus_recruit_of_Darkness",
+            "base_chance": 4.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 6,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 20,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "bad",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_1, hatred_of_man, nocturnal, lurker, sensitive_to_light, dark_temptation, faithless",
+                    "number_data": 3.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_1, slayer_of_man, night_owl, phengophobia, faithless, paranormania",
+                    "number_data": 4.0
+                }
+            ]
+        }
+    ]
+}

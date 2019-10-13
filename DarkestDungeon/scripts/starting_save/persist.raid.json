@@ -1,0 +1,142 @@
+{
+    "version": 40993,
+    "data": {
+        "raid_instance": {
+            "id": "tutorial",
+            "is_plot_quest": true,
+            "type": "explore",
+            "dungeon": "weald",
+            "difficulty": 1,
+            "length": 1,
+            "goal_ids": [
+                "tutorial_final_room"
+            ],
+            "completion_reward": {
+                "resolve_xp": 2,
+                "items_definition": {
+                    "system_config_type": "quest_rewards",
+                    "items": {
+                        "0": {
+                            "id": "",
+                            "type": "gold",
+                            "amount": 5000
+                        },
+                        "1": {
+                            "id": "crest",
+                            "type": "heirloom",
+                            "amount": 0
+                        },
+                        "2": {
+                            "id": "deed",
+                            "type": "heirloom",
+                            "amount": 0
+                        }
+                    }
+                }
+            },
+            "explore_room": {
+                "explored_room_count": 1,
+                "target_room_count": 8
+            },
+            "town_progression_goals":
+            {
+                
+            }
+        },
+        "in_area": "rooA",
+        "start_elapsed_time": 0,
+        "areatile": 0,
+        "last_room_id": "rooA",
+        "in_doorway": {
+            "area_to": "none",
+            "tile_to": 0,
+            "implied": true
+        },
+        "party": {
+            "torchlight": 100,
+            "IsMovingLeft()": false,
+            "retreat_room": "rooA",
+            "heroes": [ 1, 2 ],
+            "start_heroes_size": 4,
+            "scoutChance_all": 0.33,
+            "scoutModifier_all": 0,
+            "inventory": {
+                "system_config_type": "raid",
+                "items": {
+                    "0": {
+                        "id": "",
+                        "type": "provision",
+                        "amount": 2
+                    }
+                },
+                "hunger_room_buffer": 2
+            }
+        },
+        "stat_database": {
+            "UNDEFINED": {
+                "count": 0,
+                "entries": {}
+            },
+            "ROOM_VISITED": {
+                "count": 1,
+                "entries": {
+                    "0": {
+                        "value": 1,
+                        "time_stamp": 0,
+                        "count": 1,
+                        "parameters": {
+                            "0": {
+                                "type": 8,
+                                "data_type": 6,
+                                "data": "rooA"
+                            }
+                        }
+                    }
+                }
+            },
+            "BATTLE_COMPLETED": {
+                "count": 0,
+                "entries": {}
+            },
+            "HALLWAY_STEP_COMPLETED": {
+                "count": 0,
+                "entries": {}
+            },
+            "MONSTER_DEFEATED": {
+                "count": 0,
+                "entries": {}
+            },
+            "AMBUSHED": {
+                "count": 0,
+                "entries": {}
+            },
+            "CURIO_INVESTIGATED": {
+                "count": 0,
+                "entries": {}
+            }
+        },
+        "camp": {
+            "phase": 0,
+            "camping_skill_points": 0
+        },
+        "inbattle": false,
+        "loot":
+        {
+            "queue": { },
+            "queue_items":
+            {
+                "system_config_type": "loot",
+                "items": { }
+            },
+            "result":
+            {
+                "type": "none",
+                "inventory_system":
+                {
+                    "system_config_type": "loot",
+                    "items": { }
+                }
+            }
+        }
+    }
+}

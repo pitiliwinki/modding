@@ -1,0 +1,1491 @@
+{
+	"buffs": [{
+			"id": "SC_C_BlightResist_Buff",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": 0.10,
+			"duration_type": "quest_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "has_item_id",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "antivenom"
+			}
+		},
+
+		{
+			"id": "SC_C_Crit_Buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.10,
+			"duration_type": "combat_end",
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_C_Speed_Buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 5,
+			"duration_type": "combat_end",
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_C_Stress_Buff",
+			"stat_type": "stress_dmg_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"duration_type": "combat_end",
+			"duration": 2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_C_RandomCrit_Buff",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "crit_chance",
+			"amount": 0.05,
+			"duration_type": "combat_end",
+			"duration": 4,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_C_Stress_Heal_buff",
+			"stat_type": "stress_heal_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.10,
+			"duration_type": "round",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "in_camp",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_C_CT_blight",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": 0.10,
+			"duration_type": "combat_end",
+			"duration": 4,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "calming_toxin"
+			}
+		},
+
+		{
+			"id": "SC_MB_blight_debuff_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_MB_blight_debuff_2",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.23,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_MB_blight_debuff_3",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.26,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_MB_blight_debuff_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_MB_blight_debuff_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.33,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+
+		{
+			"id": "RT_prot_R1_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R2_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R3_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R4_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+
+		{
+			"id": "RT_prot_R1_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R2_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R3_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R4_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+
+		{
+			"id": "RT_prot_R1_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.20,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R2_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.20,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R3_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.20,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R4_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.20,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+
+		{
+			"id": "RT_prot_R1_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.22,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R2_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.22,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R3_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.22,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R4_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.22,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+
+		{
+			"id": "RT_prot_R1_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.25,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R2_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.25,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R3_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.25,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+		{
+			"id": "RT_prot_R4_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.25,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			},
+			"remove_on_battle_complete" : true
+		},
+
+		{
+			"id": "SC_RT_ToolTip_1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_blight_1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"fx": "snekriposte"
+		},
+		{
+			"id": "SC_RT_ToolTip_2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_blight_2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"fx": "snekriposte"
+		},	
+		{
+			"id": "SC_RT_ToolTip_3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_blight_3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"fx": "snekriposte"
+		},	
+		{
+			"id": "SC_RT_ToolTip_4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_blight_4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"fx": "snekriposte"
+		},	
+		{
+			"id": "SC_RT_ToolTip_5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_blight_5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"fx": "snekriposte"
+		},			
+		{
+			"id": "SC_RT_Prot_ToolTip_1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_prot",
+			"amount": -0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_RT_Prot_ToolTip_2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_prot",
+			"amount": -0.12,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Prot_ToolTip_3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_prot",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Prot_ToolTip_4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_prot",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Prot_ToolTip_5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_prot",
+			"amount": -0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},		
+		
+		
+		{
+			"id": "SC_VC_ToolTip_A",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "VC_A",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_VC_ToolTip_B",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "VC_B",
+			"amount": -0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+
+		{
+			"id": "SC_CT_ToolTip_1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_CT_ToolTip_2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_CT_ToolTip_3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_CT_ToolTip_4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_CT_ToolTip_5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "CT_blight_90_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_blight_90",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "CT_blight_100A_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_blight_100A",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "CT_blight_100B_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_blight_100B",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "CT_blight_110_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "CT_blight_110",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+
+		{
+			"id": "SC_VC_DMGL_1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.40,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DMGH_1",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.40,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_Heal_1",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.40,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StressHeal_1",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.40,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+
+		{
+			"id": "SC_VC_DMGL_2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.35,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DMGH_2",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.35,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_Heal_2",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.35,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StressHeal_2",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.35,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+
+		{
+			"id": "SC_VC_DMGL_3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.30,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DMGH_3",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.30,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_Heal_3",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.30,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StressHeal_3",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.30,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+
+		{
+			"id": "SC_VC_DMGL_4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.25,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DMGH_4",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.25,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_Heal_4",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.25,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StressHeal_4",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.25,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+
+		{
+			"id": "SC_VC_DMGL_5",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DMGH_5",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_Heal_5",
+			"stat_type": "hp_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StressHeal_5",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+
+		{
+			"id": "SC_VC_PoisChance",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_BleedChance",
+			"stat_type": "bleed_chance",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_StunChance",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_DebChance",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+		{
+			"id": "SC_VC_MoveChance",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": -0.20,
+			"duration": 2,
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"is_clear_debuff_valid": false
+		},
+	
+	
+		{
+			"id": "SC_T_ancient_knowledge_BlightedDMGL",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "poisoned"
+			}
+		},
+		{
+			"id": "SC_T_ancient_knowledge_BlightedDMGH",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "poisoned"
+			}
+		},
+		
+		{
+			"id": "SC_T_fabric_strap_RiposteDMGL",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_fabric_strap_RiposteDMGH",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "riposte",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+        {
+			"id" : "SC_T_fabric_strap_StressHeal",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+            "float" : 0,
+            "string" : ""
+			}
+		},
+
+		{
+			"id": "SC_T_reptilian_plates_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "reptilian_plates",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_reptilian_plates_MinDMG",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "meleeonly",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_reptilian_plates_Prot",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_T_vision_pendant_constrictionDMGL",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "constriction"
+			}
+		},
+		{
+			"id": "SC_T_vision_pendant_constrictionDMGH",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "constriction"
+			}
+		},
+		{
+			"id": "SC_T_vision_pendant_Speed",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 3,
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_vision_pendant_Stun",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_T_melody_StressHeal",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_melody_Dodge",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": 0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_T_masters_correspondance_BlightDuration",
+			"stat_type": "hp_dot_poison_duration_percent",
+			"stat_sub_type": "",
+			"amount": 0.50,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_T_head_BlightChance",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": 0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_head_BlightDamage",
+			"stat_type": "hp_dot_poison_amount_percent",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_T_shinobue_stressheal",
+			"stat_type": "stress_heal_percent",
+			"stat_sub_type": "",
+			"amount": 0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_PoisChance",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 1,
+			"duration_type" : "after_turn",
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_BleedChance",
+			"stat_type": "bleed_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 1,
+			"duration_type" : "after_turn",
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_StunChance",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 1,
+			"duration_type" : "after_turn",
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_DebChance",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 1,
+			"duration_type" : "after_turn",
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_MoveChance",
+			"stat_type": "move_chance",
+			"stat_sub_type": "",
+			"amount": 0.15,
+			"duration": 1,
+			"duration_type" : "after_turn",
+			"remove_on_battle_complete": true,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_T_shinobue_ToolTip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "shinobue",
+			"amount": 0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
+	]
+}

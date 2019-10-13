@@ -1,0 +1,94 @@
+{
+   "entries":
+   [
+	 {
+         "id" : "ww_cape",
+         "buffs" : 
+         [
+			"TRINKET_BLEEDSKILL_B2",
+			"TRINKET_DEBUFFSKILL_B2",
+			"TRINKET_ww_cape_acc",
+			"TRINKET_ww_cape_dmgL",
+			"TRINKET_ww_cape_dmgH"
+         ],
+         "hero_class_requirements":
+         [
+			"werewolf"
+         ],
+         "set_id" : "werewolf_set_cc",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+     },
+	 {
+         "id" : "ww_poster",
+         "buffs" : 
+         [
+			"TRINKET_SCOUTING_B2",
+			"TRINKET_ww_poster_crit",
+			"TRINKET_STRESSDMG_D2",
+			"TRINKET_ww_poster_dodge"
+         ],
+         "hero_class_requirements":
+         [
+			"werewolf"
+         ],
+         "set_id" : "werewolf_set_cc",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+     },
+	 {
+         "id" : "ww_claws",
+         "buffs" : 
+         [
+			"TRINKET_ww_claws_bleed_amount",
+			"TRINKET_ww_claws_bleed_duration",
+			"TRINKET_ww_claws_stress"
+         ],
+         "hero_class_requirements":
+         [
+			"werewolf"
+         ],
+         "set_id" : "ww_claws",
+         "rarity" : "comet",
+         "shard" : 60,
+         "limit" : 1,
+         "origin_dungeon" : ""
+     },
+	 {
+         "id" : "ww_muzzle",
+         "buffs" : 
+         [
+			"TRINKET_ww_muzzle_tooltip",
+			"TRINKET_ww_muzzle_food_consumed",
+			"TRINKET_ww_muzzle_food_heal",
+			"TRINKET_ww_muzzle_food_destress_camp",
+			"TRINKET_ww_muzzle_starve_dmg",
+			"TRINKET_ww_muzzle_starve_stress",
+			"TRINKET_ww_muzzle_starve_stress_camp"
+         ],
+         "hero_class_requirements":
+         [
+         "werewolf",
+		 "abomination"
+         ],
+         "set_id" : "ww_muzzle",
+         "rarity" : "comet",
+         "shard" : 120,
+         "limit" : 1,
+         "origin_dungeon" : "",
+        "kill_performer_additional_effects":
+        [
+          "WW Muzzle Heal",
+          "WW Muzzle Destress"
+        ],
+        "was_hit_additional_effects":
+        [
+          "WW Muzzle DMG"
+        ]
+     }
+   ]
+}

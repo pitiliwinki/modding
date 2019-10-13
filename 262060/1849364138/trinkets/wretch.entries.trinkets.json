@@ -1,0 +1,243 @@
+{
+   "entries":
+   [
+	 {
+         "id" : "wretch_CoM_Skull",
+         "buffs" : 
+         [	
+			"WR_Vermin_ACC",
+
+			"WR_Vermin_Stress",
+
+			"WR_Vermin_TT1",
+
+			"WR_Vermin_TT2"
+         ],
+         "hero_class_requirements":
+         [
+			"wretch"
+         ],
+         "rarity" :"comet",
+         "shard" : 85,
+		 "origin_dungeon" : "",
+         "limit" : 1,
+		 "was_hit_additional_effects":
+        [
+        	"WR_Vermin_Thorns",
+
+        	"WR_Vermin_DMG"
+        ]
+		 
+		
+     },
+	 {
+         "id" : "wretch_CC_Money",
+         "buffs" : 
+         [
+            "WR_Money_Above",
+
+            "WR_Money_AboveTT",
+
+            "WR_Money_BelowAmount",
+
+            "WR_Money_BelowDur",
+
+            "WR_Money_BelowTT",
+
+            "WR_Money_HealRec"
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"crimson_court",
+		 "set_id": "cc_wretch",
+		 "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	
+	  {
+         "id" : "wretch_CC_Hat",
+         "buffs" :
+         [
+			"WR_Hat_Dodge",
+
+			"WR_Hat_Virtue",
+
+			"WR_Hat_StressRes"			
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"crimson_court",
+		 "set_id": "cc_wretch",
+		 "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "wretch_Head",
+         "buffs" : 
+         [
+			"WR_Head_Cond_Resist",
+
+			"WR_Head_MAXHP",
+
+			"WR_Head_SPD",
+
+			"WR_Head_Blightres",
+
+			"TT_WR_Trinket_Head",
+
+			"WR_TT_Stats",
+
+			"WR_Head_Resist",
+
+			"TRINKET_COLLECTOR_STRESSRESIST_DEBUFF"
+             
+         ],
+         "hero_class_requirements":
+         [
+           
+         ],
+         "rarity" :"collector",
+		 "price" : 15000,
+		 "origin_dungeon" : "",
+         "limit" : 1
+      },
+	  {
+         "id" : "wretch_Ratking",
+         "buffs" : 
+         [	
+         	"WR_Ratking_TT",
+			"WR_Ratking_TT_2"
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "kill_performer_additional_effects":
+        [
+          "WR_Ratking_Buff",
+
+          "WR_Ratking_Debuffs"
+        ],
+         "rarity" :"very_rare",
+		 "origin_dungeon" : "",
+		 "price" : 25000,
+         "limit" : 0
+      },
+	  {
+         "id" : "wretch_Cane",
+         "buffs" : 
+         [
+			"TRINKET_cane_Guardduration",
+			"TRINKET_cane_DMGH",
+			"TRINKET_cane_DMGL"
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"rare",
+		 "origin_dungeon" : "",
+		 "price" : 15000,
+         "limit" : 0
+
+      },
+       {
+         "id" : "wretch_Cat",
+         "buffs" : 
+         [
+           "WR_Cat_Blight",
+
+           "WR_Cat_BlightCorpse_1",
+
+           "WR_Cat_BlightCorpse_2",
+
+           "WR_Cat_BlightCorpse_3",
+
+           "WR_Cat_BlightCorpse_TT",
+
+           "WR_Cat_Stress"
+             
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"uncommon",
+		 "origin_dungeon" : "",
+		 "price" : 10000,
+         "limit" : 0
+      },
+	  {
+         "id" : "wretch_Snort",
+         "buffs" : 
+         [
+			"WR_Hanky_DR",
+
+			"WR_Hanky_HR",
+
+			"WR_Hanky_BR"
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"common",
+		 "origin_dungeon" : "",
+		 "price" : 7500,
+         "limit" : 0
+      },
+	  {
+         "id" : "wretch_Sack",
+         "buffs" : 
+         [
+			"TRINKET_WR_Sack_BLIGHTDur",
+			"TRINKET_WR_Sack_SPD"
+         ],
+         "hero_class_requirements":
+         [
+             "wretch"
+         ],
+         "rarity" :"common",
+		 "origin_dungeon" : "",
+		 "price" : 7500,
+         "limit" : 0
+      },
+      {
+         "id" : "wretch_SI_Tesso",
+         "buffs" : 
+         [  
+            "WR_Tesso_FoodCons",
+
+            "WR_Tesso_FoodHeal",
+
+            "WR_Tesso_HealRec",
+
+            "WR_Tesso_HiddenChance",
+
+            "WR_Tesso_TransferTT"
+         ],
+         "hero_class_requirements":
+         [
+            "wretch"
+         ],
+         "rarity" :"sakura",
+         "origin_dungeon" : "ship",
+ 		 "price" : 30000,
+        "limit" : 0,
+         "friendly_skill_additional_effects":
+        [
+            "WR_Tesso_Transfer",
+
+            "WR_Tesso_HiddenTransfer"
+        ]
+     }
+   ]
+
+}
+

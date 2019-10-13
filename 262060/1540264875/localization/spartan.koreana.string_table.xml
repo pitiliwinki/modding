@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="koreana">
+<!--Art by Kahvipannu. Class by dem22 --> 
+    <entry id="hero_class_name_spartan"><![CDATA[스파르탄]]></entry>
+	<entry id="hero_name_leonidas"><![CDATA[레오니다스]]></entry>
+	<entry id="hero_name_mythos"><![CDATA[미토스]]></entry>
+	<entry id="hero_name_python"><![CDATA[파에톤]]></entry>
+	
+<!--First SPAR Subtitle -->
+	<entry id="str_vo_bad_spartan_recruitment_0"><![CDATA[이 끔찍한 전투 장으로 돌아온 이상한 군대.]]></entry>
+	
+	<!--Custom Virtue Protectorate-->
+	
+    <entry id="str_virtue_name_protectorate"><![CDATA[수호자]]></entry>
+	<entry id="str_virtued_protectorate"><![CDATA[우리는 하나되어 정복에 나선다!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[모두를 지키겠노라!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[규율과 힘!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[죽음으로 내몰려도, 아레스가 우릴 보호하신다!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[Invicta(무적이다)!]]></entry>
+	
+	<entry id="str_stress_heal_party_protectorate"><![CDATA[함께 해라!]]></entry>
+	<entry id="str_buff_party_protectorate"><![CDATA[내 옆에 서라, 보호 해 주겠다!]]></entry>
+	<entry id="str_heal_self_protectorate"><![CDATA[잠깐 숨 좀 돌리지!]]></entry>
+	<entry id="spartan+str_heal_self_protectorate"><![CDATA[그 신비한 음료를 마셔야겠군!]]></entry>
+
+<!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_SPAR_Herbs_of_the_Wild_Camp"><![CDATA[약초 찾기]]></entry>
+  
+	
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[거미]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[거미]]></entry>
+	
+<!--Spider Tool Tip Lance Adjustment--> 	
+	<entry id="buff_stat_tooltip_upgrade_discount_SPAR_spider_pierce_string"><![CDATA[거미 상대 +피해 +치명타 +명중]]></entry>
+	
+<!--Blacksmith--> 
+    <entry id="upgrade_tree_name_spartan.weapon"><![CDATA[창과 방패]]></entry>
+    <entry id="upgrade_tree_name_spartan.armour"><![CDATA[갑옷]]></entry>
+    <entry id="spartan_armour_0"><![CDATA[주석 갑옷]]></entry>
+    <entry id="spartan_armour_1"><![CDATA[황금 갑옷]]></entry>
+    <entry id="spartan_armour_2"><![CDATA[은 갑옷]]></entry>
+    <entry id="spartan_armour_3"><![CDATA[티타늄 갑옷]]></entry>
+    <entry id="spartan_armour_4"><![CDATA[크롬 갑옷]]></entry>
+    <entry id="spartan_weapon_0"><![CDATA[주석 창과 방패]]></entry>
+    <entry id="spartan_weapon_1"><![CDATA[황금 창과 방패]]></entry>
+    <entry id="spartan_weapon_2"><![CDATA[은 창과 방패]]></entry>
+    <entry id="spartan_weapon_3"><![CDATA[티타늄 창과 방패]]></entry>
+    <entry id="spartan_weapon_4"><![CDATA[크롬 창과 방패]]></entry>
+	
+<!--Trinkets -->
+	<entry id="str_inventory_title_trinketsp1"><![CDATA[속도의 팔 보호구]]></entry>
+    <entry id="str_inventory_title_trinketsp2"><![CDATA[군단 목걸이]]></entry>
+    <entry id="str_inventory_title_trinketsp3"><![CDATA[신비로운 가루]]></entry>
+    <entry id="str_inventory_title_trinketsp4"><![CDATA[백인대장 망또]]></entry>
+    <entry id="str_inventory_title_trinketsp5"><![CDATA[고대 전쟁사]]></entry>
+    <entry id="str_inventory_title_trinketspset1"><![CDATA[아레스의 창]]></entry>
+    <entry id="str_inventory_title_trinketspset2"><![CDATA[아레스의 방패]]></entry>
+	
+    <entry id="str_inventory_set_title_spset_combined12"><![CDATA["난 싸운다, 난 전투를 한다"]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 지속시간]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해]]></entry>
+
+
+<!--Spartan COM + CC Trinkets + Collectors Head --> 
+	<entry id="str_inventory_title_trinketcom_spartan_1"><![CDATA[발광 생물 방패]]></entry>
+    <entry id="str_inventory_title_trinketcollector_spartan"><![CDATA[레오니다스의 머리]]></entry>
+    <entry id="str_inventory_title_trinketcc_spartan_1"><![CDATA[낡은 코린트식 투구]]></entry>
+    <entry id="str_inventory_title_trinketcc_spartan_2"><![CDATA[페가수스 동전]]></entry>
+    <entry id="str_inventory_set_title_cc_spartan_combined12"><![CDATA["문명 정복"]]></entry>
+
+
+
+
+<!---Quirks--->
+	<entry id="str_quirk_name_arterial_authority"><![CDATA[동맥 지배]]></entry>
+	<entry id="str_quirk_name_poor_blood_clotter"><![CDATA[혈우병]]></entry>
+	
+<!---Blood Buffs Tooltips--->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 지속시간 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} %+d%%]]></entry>
+	
+<!--Combat -->
+    <entry id="combat_skill_name_spartan_into_the_fray"><![CDATA[달려들어라!]]></entry>
+    <entry id="combat_skill_name_spartan_work_together"><![CDATA[하나되어 싸운다]]></entry>
+    <entry id="combat_skill_name_spartan_shield_slam"><![CDATA[방패 강타]]></entry>
+    <entry id="combat_skill_name_spartan_spear_lance"><![CDATA[창과 기창]]></entry>
+    <entry id="combat_skill_name_spartan_tactics"><![CDATA[후열 전략]]></entry>
+    <entry id="combat_skill_name_spartan_mysterious_liquid"><![CDATA[신비로운 점착액]]></entry>
+    <entry id="combat_skill_name_spartan_phalanx"><![CDATA[팔랑크스]]></entry>
+    <entry id="combat_skill_name_spartan_move"><![CDATA[이동]]></entry>
+    <entry id="upgrade_tree_name_spartan.into_the_fray"><![CDATA[달려들어라!]]></entry>
+    <entry id="upgrade_tree_name_spartan.work_together"><![CDATA[하나되어 싸운다]]></entry>
+    <entry id="upgrade_tree_name_spartan.shield_slam"><![CDATA[방패 강타]]></entry>
+    <entry id="upgrade_tree_name_spartan.spear_lance"><![CDATA[창과 기창]]></entry>
+    <entry id="upgrade_tree_name_spartan.tactics"><![CDATA[후열 전략]]></entry>
+    <entry id="upgrade_tree_name_spartan.mysterious_liquid"><![CDATA[신비로운 점착액]]></entry>
+    <entry id="upgrade_tree_name_spartan.phalanx"><![CDATA[팔랑크스]]></entry>
+	
+<!--Camping Skills  -->
+	<entry id="camping_skill_name_candle_for_artemis"><![CDATA[아르테미스를 위한 양초]]></entry>
+    <entry id="camping_skill_name_night_watch"><![CDATA[불침번]]></entry>
+    <entry id="camping_skill_name_repack_the_supplies"><![CDATA[보급 재포장]]></entry>
+    <entry id="camping_skill_name_hearty_meal"><![CDATA[따끈한 식사]]></entry>
+	
+<!--Events and description -->
+    <entry id="town_event_title_first_spartan"><![CDATA[병사들이 도착했다 ...]]></entry>
+    <entry id="town_event_description_first_spartan"><![CDATA[군복을 갖춘 병사가 영지에 왔다. 어릴적 부터 군사훈련을 해왔음이 틀림없다. 그가 거대한 전쟁에서 도망쳤다는 소문이 돌고있다...]]></entry>
+	 <entry id="spartan+str_bark_deathsdoor"><![CDATA[방패가 날 저버리는가?]]></entry>
+
+    <entry id="action_verbose_body_guild_spartan"><![CDATA[다재다능한 병사인 스파르탄은 국가에 충성을 바치며 살아왔습니다. 그는 잘 교육받았고 의무, 규율, 인내에 대한 만트라를 불어넣습니다. ]]></entry>
+    <entry id="action_verbose_body_blacksmith_spartan"><![CDATA[이 스파르탄은 창과 방패에 대해 잘 압니다. 그는 대장장이를 못미더운 눈빛으로 계속 쳐다봅니다..아직도요.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_spartan"><![CDATA[남부 국가의 시민인, 스파르탄들은 마지막 의무를 다하고 나면 땅을 하사받습니다. 그들은 스포츠, 전술, 학문, 시 등을 즐겼지요. ]]></entry>
+	
+<!--Barks --> 
+    <entry id="str_bark_candle_for_artemis"><![CDATA[불을 붙이고 가족과의 추억을 기려야겠군.]]></entry>
+    <entry id="str_bark_night_watch"><![CDATA[오늘 밤은 내가 정찰할테니 편하게 눈들 붙이시게.]]></entry>
+    <entry id="str_bark_repack_the_supplies"><![CDATA[우리의 짐과 물자를 적당히 확보하고 서둘러 물러나야 하네.]]></entry>
+    <entry id="str_bark_hearty_meal"><![CDATA[난 야전 요리를 배웠지; 우리의 몸과 마음을 달래줄 것을 만들어보지.]]></entry>
+	
+<!--Affliction -->
+    <entry id="spartan+str_afflicted_fearful"><![CDATA[모두 쓰러졌도다.]]></entry>
+    <entry id="spartan+str_afflicted_fearful"><![CDATA[전차들이 기억나는군, 끔찍한 전차들이.]]></entry>
+    <entry id="spartan+str_afflicted_fearful"><![CDATA[난 내 아내를 잃었다 -- 내 자식들도!]]></entry>
+    <entry id="spartan+str_afflicted_fearful"><![CDATA[사방이 피 였어!]]></entry>
+    <entry id="spartan+str_afflicted_fearful"><![CDATA[수치스럽고 두렵구나.]]></entry>
+    <entry id="spartan+str_afflicted_paranoid"><![CDATA[우릴 우회공격 하려 한다!]]></entry>
+    <entry id="spartan+str_afflicted_paranoid"><![CDATA[하나되지 않으면 죽음 뿐이다!]]></entry>
+    <entry id="spartan+str_afflicted_paranoid"><![CDATA[전에도 벌어진 일이다!]]></entry>
+    <entry id="spartan+str_afflicted_paranoid"><![CDATA[나랑 장난 하자는겐가?!]]></entry>
+    <entry id="spartan+str_afflicted_abusive"><![CDATA[네 전술은 허술하기 그지없군!]]></entry>
+    <entry id="spartan+str_afflicted_abusive"><![CDATA[넌 최악의 선택만 하고있다!]]></entry>
+    <entry id="spartan+str_afflicted_abusive"><![CDATA[날 내버려둬라!]]></entry>
+    <entry id="spartan+str_afflicted_abusive"><![CDATA[관둬라!]]></entry>
+    <entry id="spartan+str_afflicted_abusive"><![CDATA[외지에서 자란 꼴 좀 보라지.]]></entry>
+    <entry id="spartan+str_afflicted_masochistic"><![CDATA[내 창으로 자해하겠다.]]></entry>
+    <entry id="spartan+str_afflicted_masochistic"><![CDATA[두들겨 팰 것 좀 내오거라!]]></entry>
+    <entry id="spartan+str_afflicted_masochistic"><![CDATA[난 고통을 즐긴다, 오라 고통이여!]]></entry>
+    <entry id="spartan+str_afflicted_masochistic"><![CDATA[그들 없이 사는 삶을 택하겠다.]]></entry>
+    <entry id="spartan+str_afflicted_masochistic"><![CDATA[전투의 격렬함이 날 끓어오르게 한다!]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[이건 내거다!]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[손 떼라!]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[내 봉급으로 받아들이겠다.]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[그건 내 것이란 말이다!]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[내 힘이 커진다!]]></entry>
+    <entry id="spartan+str_afflicted_selfish"><![CDATA[군사력은 내 손아귀에 있지.]]></entry>
+    <entry id="spartan+str_afflicted_depressed"><![CDATA[미래는 어둡기만 하군, 정말 어두워.]]></entry>
+    <entry id="spartan+str_afflicted_depressed"><![CDATA[목표가 없다 ... 그녀를 잃고 난 뒤부턴 ...]]></entry>
+    <entry id="spartan+str_afflicted_depressed"><![CDATA[어찌 이럴 수가 -- 기억나지 않는다!]]></entry>
+    <entry id="spartan+str_afflicted_irrational"><![CDATA[군단을 지키기 위해 죽을 수도 있다!]]></entry>
+    <entry id="spartan+str_afflicted_irrational"><![CDATA[날 데려가라, 죽음이여! 난 준비되었다.]]></entry>
+    <entry id="spartan+str_afflicted_irrational"><![CDATA[절대 그들을 잊지 않겠다!]]></entry>
+    <entry id="spartan+str_afflicted_irrational"><![CDATA[나였어야 했다, 내 사랑하는 가족들이 아니라!]]></entry>
+    <entry id="spartan+str_afflicted_irrational"><![CDATA[신들의 농간이지, 물론!]]></entry>
+	
+<!--Virtue -->
+
+    <entry id="str_virtue_name_protectorate"><![CDATA[수호자]]></entry>
+	<entry id="str_roster_list_protectorate_bark"><![CDATA[하나되어 정복에 나선다!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[모두를 지키겠노라!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[규율과 힘!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[죽음으로 내몰려도, 아레스가 우릴 보호하신다!]]></entry>
+    <entry id="spartan+str_virtued_protectorate"><![CDATA[Invicta(무적이다)!]]></entry>
+	
+    <entry id="spartan+str_virtued_stalwart"><![CDATA[훈련한 것이 우릴 지켜준다!]]></entry>
+    <entry id="spartan+str_virtued_stalwart"><![CDATA[뭉쳐라, 명령에 따라라!]]></entry>
+    <entry id="spartan+str_virtued_stalwart"><![CDATA[우린 함께 승리할 것이다!]]></entry>
+    <entry id="spartan+str_virtued_stalwart"><![CDATA[야수도, 신도 우릴 이길 순 없다!]]></entry>
+    <entry id="spartan+str_virtued_stalwart"><![CDATA[우린 버텨낼 것이다!]]></entry>
+    <entry id="spartan+str_virtued_courageous"><![CDATA[신이 우리에게 미소짓는다!]]></entry>
+    <entry id="spartan+str_virtued_courageous"><![CDATA[잘 들어라! 승리가 임박했노라!]]></entry>
+    <entry id="spartan+str_virtued_courageous"><![CDATA[영예와 부를 위하여!]]></entry>
+    <entry id="spartan+str_virtued_courageous"><![CDATA[내일과 그 내일도 우리의 날 일지니!]]></entry>
+    <entry id="spartan+str_virtued_courageous"><![CDATA[전리품은 신전에 바치겠나이다!]]></entry>
+    <entry id="spartan+str_virtued_focused"><![CDATA[이 신비한 액체가 우릴 도우리.]]></entry>
+    <entry id="spartan+str_virtued_focused"><![CDATA[우린 동등하다.]]></entry>
+    <entry id="spartan+str_virtued_focused"><![CDATA[형제, 자매들이 모였구나.]]></entry>
+    <entry id="spartan+str_virtued_focused"><![CDATA[이 파병대들은 잘 훈련되었군!]]></entry>
+    <entry id="spartan+str_virtued_focused"><![CDATA[권력은 똑똑한 자가 휘두르는 것이다!]]></entry>
+    <entry id="spartan+str_virtued_powerful"><![CDATA[권력은 똑똑한 이가 부리는 것이다!]]></entry>
+    <entry id="spartan+str_virtued_powerful"><![CDATA[자네가 내 부관이 되어주게!]]></entry>
+    <entry id="spartan+str_virtued_powerful"><![CDATA[내 육체 단련이 도움이 되는군!]]></entry>
+    <entry id="spartan+str_virtued_powerful"><![CDATA[지도와 훈련으로 내 마음은 벼려졌다네.]]></entry>
+    <entry id="spartan+str_virtued_powerful"><![CDATA[엄격한 제도가 날 강하게 만들었지!]]></entry>
+    <entry id="spartan+str_virtued_vigorous"><![CDATA[용기와 협동!]]></entry>
+    <entry id="spartan+str_virtued_vigorous"><![CDATA[뭉치는 전술이 우릴 승리로 이끈다!]]></entry>
+    <entry id="spartan+str_virtued_vigorous"><![CDATA[다들 뭉쳐라!]]></entry>
+    <entry id="spartan+str_virtued_vigorous"><![CDATA[아무도 희생되지 않는다!]]></entry>
+    <entry id="spartan+str_virtued_vigorous"><![CDATA[그 누구의 비석도 새겨지지 않는다!]]></entry>
+    <entry id="spartan+str_stress_heal_self_stalwart"><![CDATA[창이 우리를 보호하리라!]]></entry>
+    <entry id="spartan+str_stress_heal_self_stalwart"><![CDATA[목을 노려라!]]></entry>
+    <entry id="spartan+str_stress_heal_party_courageous"><![CDATA[시민들이 승리한다!]]></entry>
+    <entry id="spartan+str_stress_heal_party_courageous"><![CDATA[우리의 몸과 마음은 강하다!]]></entry>
+    <entry id="spartan+str_buff_random_party_member_focused"><![CDATA[문화와 시를 위해 죽을 가치가 있지!]]></entry>
+    <entry id="spartan+str_buff_random_party_member_focused"><![CDATA[철학이 문명의 근본이다.]]></entry>
+    <entry id="spartan+str_buff_party_powerful"><![CDATA[우리의 팔랑크스가 저들을 무찌르리라!]]></entry>
+    <entry id="spartan+str_buff_party_powerful"><![CDATA[지금이다!]]></entry>
+    <entry id="spartan+str_heal_self_vigorous"><![CDATA[돌격!]]></entry>
+    <entry id="spartan+str_heal_self_vigorous"><![CDATA[용기를 내라!]]></entry>
+    <entry id="spartan+str_bark_stress_fearful"><![CDATA[명예를 버렸는가?]]></entry>
+    <entry id="spartan+str_bark_stress_fearful"><![CDATA[아-안 돼! 이럴 순 없다!]]></entry>
+    <entry id="spartan+str_bark_stress_fearful"><![CDATA[내 아름다운 아내에게 무슨 일이 일어난건지...]]></entry>
+    <entry id="spartan+str_bark_stress_fearful"><![CDATA[난 혼자여야 하는가, 항상?]]></entry>
+    <entry id="spartan+str_bark_stress_fearful"><![CDATA[우리가 전부 죽고나면 무슨 일이 일어나는건가?!]]></entry>
+    <entry id="spartan+str_bark_stress_paranoid"><![CDATA[안좋은 예감이 든다!]]></entry>
+    <entry id="spartan+str_bark_stress_paranoid"><![CDATA[팔이 점차 지쳐가는군.]]></entry>
+    <entry id="spartan+str_bark_stress_paranoid"><![CDATA[계속 할 수 있을지 모르겠다.]]></entry>
+    <entry id="spartan+str_bark_stress_paranoid"><![CDATA[피가 너무 많다!]]></entry>
+    <entry id="spartan+str_bark_stress_paranoid"><![CDATA[피가 넘쳐 흐른다!]]></entry>
+	
+
+    <entry id="spartan+str_bark_stress_masochistic"><![CDATA[덤벼 봐라, 난 채찍질도 당해본 몸이다.]]></entry>
+    <entry id="spartan+str_bark_stress_masochistic"><![CDATA[피를 흘리겠노라!]]></entry>
+
+    <entry id="spartan+str_bark_stress_abusive"><![CDATA[더 잘할 순 없는겐가?!]]></entry>
+    <entry id="spartan+str_bark_stress_abusive"><![CDATA[쓸데없는 노력을 봤나!]]></entry>
+
+    <entry id="spartan+str_bark_stress_selfish"><![CDATA[우리가 찾은 모든걸 가지겠다!]]></entry>
+    <entry id="spartan+str_bark_stress_selfish"><![CDATA[비취든 무슨 보석이든, 전부 내것이다!]]></entry>
+
+    <entry id="spartan+str_bark_stress_depressed"><![CDATA[내 패배는 영원히 잊히지 않으리...]]></entry>
+    <entry id="spartan+str_bark_stress_depressed"><![CDATA[넌 자신이 자유롭다고 생각하나보지?]]></entry>
+
+    <entry id="spartan+str_bark_stress_irrational"><![CDATA[이 신비로운 물약을 다 마셔봐야 겠군.]]></entry>
+    <entry id="spartan+str_bark_stress_irrational"><![CDATA[전진 아니면 후진, 다른게 없지.]]></entry>
+
+    <entry id="spartan+str_change_pos_back_fearful"><![CDATA[끝장이다, 후퇴하라!]]></entry>
+    <entry id="spartan+str_change_pos_back_fearful"><![CDATA[안돼애애!]]></entry>
+   
+    <entry id="spartan+str_change_pos_back_paranoid"><![CDATA[뒤로 미끄러져야 겠군.]]></entry>
+    <entry id="spartan+str_change_pos_back_paranoid"><![CDATA[뒤에서 더 효율적으로 이끌 수 있다.]]></entry>
+    
+    <entry id="spartan+str_change_pos_fwd_masochistic"><![CDATA[내 창에 피를 적셔라!]]></entry>
+    <entry id="spartan+str_change_pos_fwd_masochistic"><![CDATA[내가 직접 가겠다!]]></entry>
+   
+    <entry id="spartan+str_change_pos_fwd_irrational"><![CDATA[내 날카로운 창이 널 꿰뚫지!]]></entry>
+    <entry id="spartan+str_change_pos_fwd_irrational"><![CDATA[내가 직접 나서겠다!]]></entry>
+   
+    <entry id="spartan+str_change_pos_back_irrational"><![CDATA[더 몰려온다!]]></entry>
+    <entry id="spartan+str_change_pos_back_irrational"><![CDATA[물러서라, 빨리 물러서!]]></entry>
+   
+    <entry id="spartan+str_change_pos_fwd_depressed"><![CDATA[우리 대형이 쓸모가 없다!]]></entry>
+    <entry id="spartan+str_change_pos_fwd_depressed"><![CDATA[방패가 갈라졌군.]]></entry>
+   
+    <entry id="spartan+str_change_pos_back_depressed"><![CDATA[방패가 단단하지 않다.]]></entry>
+    <entry id="spartan+str_change_pos_back_depressed"><![CDATA[뚫고갈 길이 없군.]]></entry>
+    
+    <entry id="spartan+str_change_pos_fwd_selfish"><![CDATA[비켜서라!]]></entry>
+    <entry id="spartan+str_change_pos_fwd_selfish"><![CDATA[난 부족하다!]]></entry>
+   
+    <entry id="spartan+str_change_pos_back_selfish"><![CDATA[나 없인 이길 수 없다!]]></entry>
+    <entry id="spartan+str_change_pos_back_selfish"><![CDATA[뒤에서 정비하겠다!]]></entry>
+  
+    <entry id="spartan+str_ignore_command_fearful"><![CDATA[미안하다, 할 수 없군.]]></entry>
+    <entry id="spartan+str_ignore_command_fearful"><![CDATA[두려움에 피가 끓고있다!]]></entry>
+   
+    <entry id="spartan+str_ignore_command_paranoid"><![CDATA[정말 우리 편이 맞는거냐?]]></entry>
+    <entry id="spartan+str_ignore_command_paranoid"><![CDATA[이 병사들을 더 믿어도 되는건지 모르겠군.]]></entry>
+   
+    <entry id="spartan+str_ignore_command_selfish"><![CDATA[난 명령을 따르지 않는다, 내리는 쪽이지.]]></entry>
+    <entry id="spartan+str_ignore_command_selfish"><![CDATA[이건 맞는 전술이 아니다.]]></entry>
+   
+    <entry id="spartan+str_ignore_command_depressed"><![CDATA[내버려 둬라.]]></entry>
+    <entry id="spartan+str_ignore_command_depressed"><![CDATA[안하는게 낫다, 왜 그걸 모르느냐?]]></entry>
+   
+    <entry id="spartan+str_ignore_command_irrational"><![CDATA[들리는가? 더 몰려오고 있다! 달아나라!]]></entry>
+    <entry id="spartan+str_ignore_command_irrational"><![CDATA[말이 안되잖아!]]></entry>
+   
+    <entry id="spartan+str_random_command_paranoid"><![CDATA[이게 우리의 마지막이다!]]></entry>
+    <entry id="spartan+str_random_command_paranoid"><![CDATA[수집가 소리가 들리는가?]]></entry>
+   
+    <entry id="spartan+str_random_command_masochistic"><![CDATA[날 찌르면 피가 더 나오지!]]></entry>
+    <entry id="spartan+str_random_command_masochistic"><![CDATA[자르고 갈라서 피를 내라!]]></entry>
+   
+    <entry id="spartan+str_random_command_abusive"><![CDATA[받아들일 수 없다!]]></entry>
+    <entry id="spartan+str_random_command_abusive"><![CDATA[내 말을 듣지 않는 자에겐 죽음 뿐이다!]]></entry>
+    
+    <entry id="spartan+str_random_command_selfish"><![CDATA[왜 내 지시를 따르지 않지!?]]></entry>
+    <entry id="spartan+str_random_command_selfish"><![CDATA[내 계획대로 하라고!]]></entry>
+   
+    <entry id="spartan+str_random_command_depressed"><![CDATA[신이 우릴 저버렸다.]]></entry>
+    <entry id="spartan+str_random_command_depressed"><![CDATA[모두 끝났다.]]></entry>
+   
+    <entry id="spartan+str_random_command_irrational"><![CDATA[방금 비취를 본거 같은데!]]></entry>
+    <entry id="spartan+str_random_command_irrational"><![CDATA[우리는 고향을 다신 볼 수 없겠지!]]></entry>
+    
+    <entry id="spartan+str_bark_stress_camp_fearful"><![CDATA[그림자 속에서 무엇이 나오는가?]]></entry>
+    <entry id="spartan+str_bark_stress_camp_fearful"><![CDATA[이 원정이 끝나기 전에 보급이 다 떨어지겠군.]]></entry>
+   
+    <entry id="spartan+str_bark_stress_camp_paranoid"><![CDATA[불 피우지 마라!]]></entry>
+    <entry id="spartan+str_bark_stress_camp_paranoid"><![CDATA[우린 조용히 속삭여야 한다.]]></entry>
+     
+    <entry id="spartan+str_bark_stress_camp_masochistic"><![CDATA[이 야영지는 적절하지 않다.]]></entry>
+    <entry id="spartan+str_bark_stress_camp_masochistic"><![CDATA[훈련받을 때 처럼 날 채찍질 해다오.]]></entry>
+   
+    <entry id="spartan+str_bark_stress_camp_abusive"><![CDATA[고기를 태우고 있잖아!]]></entry>
+    <entry id="spartan+str_bark_stress_camp_abusive"><![CDATA[군기가 빠졌군!]]></entry>
+   
+    <entry id="spartan+str_bark_stress_camp_selfish"><![CDATA[누가 내 발 좀 주물러 주겠나?]]></entry>
+    <entry id="spartan+str_bark_stress_camp_selfish"><![CDATA[누가 보급 좀 옮기게.]]></entry>
+    
+    <entry id="spartan+str_bark_stress_camp_depressed"><![CDATA[불의 끝자락에서, 여전히 슬퍼하리.]]></entry>
+    <entry id="spartan+str_bark_stress_camp_depressed"><![CDATA[조용히 있길 바라네, 제발.]]></entry>
+   
+    <entry id="spartan+str_bark_stress_camp_irrational"><![CDATA[벼룩이 가득하군!]]></entry>
+    <entry id="spartan+str_bark_stress_camp_irrational"><![CDATA[빵집에 가서 빵을 좀 사오는게 낫겠다.]]></entry>
+    
+    <entry id="spartan+str_mark_self_masochistic"><![CDATA[영광!]]></entry>
+    <entry id="spartan+str_mark_self_masochistic"><![CDATA[감히 내게 덤벼봐라!]]></entry>
+   
+
+    <entry id="spartan+str_mark_self_depressed"><![CDATA[내 군단이 그립군.]]></entry>
+    <entry id="spartan+str_mark_self_irrational"><![CDATA[내 가족이 먼지가 됐다!]]></entry>
+    <entry id="spartan+str_mark_self_irrational"><![CDATA[신이 우리에게 말하지 않겠지!]]></entry>
+    <entry id="spartan+str_attack_friendly_paranoid"><![CDATA[주목하라!]]></entry>
+    <entry id="spartan+str_attack_friendly_paranoid"><![CDATA[저것들과 내통하는거냐?]]></entry>
+    <entry id="spartan+str_attack_friendly_abusive"><![CDATA[피가 널 정신차리게 할거다!]]></entry>
+    <entry id="spartan+str_attack_friendly_abusive"><![CDATA[전투 준비!]]></entry>
+    <entry id="spartan+str_attack_friendly_irrational"><![CDATA[난 천둥 없는 번개다.]]></entry>
+    <entry id="spartan+str_attack_friendly_irrational"><![CDATA[너희 모두 머저리다!]]></entry>
+    <entry id="spartan+str_attack_self_masochistic"><![CDATA[상처가 다시 벌어졌지만 신경도 안쓰지!]]></entry>
+    <entry id="spartan+str_attack_self_masochistic"><![CDATA[피, 피가 사방에!]]></entry>
+    <entry id="spartan+str_attack_self_depressed"><![CDATA[내 생각보다 힘겹구나.]]></entry>
+    <entry id="spartan+str_attack_self_depressed"><![CDATA[내게 무슨일이 일어나는 거지?]]></entry>
+    <entry id="spartan+str_attack_self_irrational"><![CDATA[난 태어난 적이 없다!]]></entry>
+    <entry id="spartan+str_attack_self_irrational"><![CDATA[저들이 오고 또 오고 또 오고 또 오고...]]></entry>
+    <entry id="spartan+str_block_combat_retreat_paranoid"><![CDATA[난 아직 더 싸울 수 있다.]]></entry>
+    <entry id="spartan+str_block_combat_retreat_paranoid"><![CDATA[그 쪽으로 가면 피해를 받는다!]]></entry>
+    <entry id="spartan+str_block_combat_retreat_depressed"><![CDATA[오 이런 비극이.]]></entry>
+    <entry id="spartan+str_block_combat_retreat_depressed"><![CDATA[우린 여기서 죽어야 한다.]]></entry>
+    <entry id="spartan+str_block_combat_retreat_masochistic"><![CDATA[피의 강이 흐른다!]]></entry>
+    <entry id="spartan+str_block_combat_retreat_masochistic"><![CDATA[우린 죽을 때 까지 싸워야 해!]]></entry>
+    <entry id="spartan+str_block_combat_retreat_irrational"><![CDATA[결혼 반지 찾았는가?]]></entry>
+    <entry id="spartan+str_block_combat_retreat_irrational"><![CDATA[이 신비한 액체가 날 어떻게든 조종하고 있다!]]></entry>
+    <entry id="spartan+str_comment_self_hit_fearful"><![CDATA[쉬이잇! 소리내지 마라!]]></entry>
+    <entry id="spartan+str_comment_self_hit_fearful"><![CDATA[두렵구나!]]></entry>
+    <entry id="spartan+str_comment_self_hit_paranoid"><![CDATA[물러나지 않겠다!]]></entry>
+    <entry id="spartan+str_comment_self_hit_paranoid"><![CDATA[죄다 내 얘기를 하고있군!]]></entry>
+    <entry id="spartan+str_comment_self_hit_selfish"><![CDATA[아레스의 창과 방패를 찾고 싶구나]]></entry>
+    <entry id="spartan+str_comment_self_hit_selfish"><![CDATA[아직 위대한 창을 찾지 못한겐가?]]></entry>
+	
+    <entry id="spartan+str_comment_self_hit_masochistic"><![CDATA[고통, 난 고통이 필요하다.]]></entry>
+    <entry id="spartan+str_comment_self_hit_masochistic"><![CDATA[다시! 우린 부셔져야 한다!]]></entry>
+    <entry id="spartan+str_comment_self_hit_irrational"><![CDATA[내가 바다를 보게 될 줄이야.]]></entry>
+    <entry id="spartan+str_comment_self_hit_irrational"><![CDATA[벌레와 벌과 새들이 듣는다.]]></entry>
+    <entry id="spartan+str_comment_self_missed_fearful"><![CDATA[이게 끝인가?]]></entry>
+    <entry id="spartan+str_comment_self_missed_fearful"><![CDATA[자책하진 않겠다!]]></entry>
+    <entry id="spartan+str_comment_self_missed_paranoid"><![CDATA[나에게 몰려오는 건가?]]></entry>
+    <entry id="spartan+str_comment_self_missed_paranoid"><![CDATA[길에서도 듣는 놈이 있지, 그게 암시장 방식이다!]]></entry>
+    <entry id="spartan+str_comment_self_missed_masochistic"><![CDATA[달콤한 휴식이 필요하다.]]></entry>
+    <entry id="spartan+str_comment_self_missed_masochistic"><![CDATA[잘라 열어라!]]></entry>
+    <entry id="spartan+str_comment_self_missed_irrational"><![CDATA[이렇게 고급 음식을 먹을 순 없겠지.]]></entry>
+    <entry id="spartan+str_comment_self_missed_irrational"><![CDATA[내가 또 가정을 꾸려야 할까?]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_selfish"><![CDATA[와라, 함께 당겨라.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_selfish"><![CDATA[내가 죽일거였는데!]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_abusive"><![CDATA[가만있는 것 보다야.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_abusive"><![CDATA[자네는 정규 훈련을 받은적이 없구만, 확실해.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_irrational"><![CDATA[바람 속의 전언이라 ...]]></entry>
+    <entry id="spartan+str_comment_ally_attack_hit_irrational"><![CDATA[영혼들이 내게 울부짖는군.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_fearful"><![CDATA[그들이 내 빈 자리를 알아차리겠지!]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_fearful"><![CDATA[신이 항상 듣고 계신다!]]></entry>
+    <entry id="spartan+str_comment_ally_missed_paranoid"><![CDATA[원 스트라이크.]]></entry>
+    <entry id="spartan+str_comment_ally_missed_paranoid"><![CDATA[투 스트라이크.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_abusive"><![CDATA[매를 버는군.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_abusive"><![CDATA[똑바로 서라.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_selfish"><![CDATA[항상 내가 뒤처리지.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_selfish"><![CDATA[이러고도 내게 추가 비용이 없다니!]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_irrational"><![CDATA[다시는 진실된 사랑 또한 없겠지.]]></entry>
+    <entry id="spartan+str_comment_ally_attack_missed_irrational"><![CDATA[불 끈거 기억하는 사람?]]></entry>
+    <entry id="spartan+str_comment_ally_hit_fearful"><![CDATA[듣고 있는가?]]></entry>
+    <entry id="spartan+str_comment_ally_hit_fearful"><![CDATA[제발 날 보호 해라!]]></entry>
+    <entry id="spartan+str_comment_ally_hit_paranoid"><![CDATA[저들과 한 패인가?]]></entry>
+    <entry id="spartan+str_comment_ally_hit_paranoid"><![CDATA[미친 개 마냥 공격하는군!]]></entry>
+    <entry id="spartan+str_comment_ally_hit_masochistic"><![CDATA[내 창 끝이 꿰뚫을 것이다.]]></entry>
+    <entry id="spartan+str_comment_ally_hit_masochistic"><![CDATA[내가 북을 치겠다!]]></entry>
+    <entry id="spartan+str_comment_ally_hit_abusive"><![CDATA[더 훈련해라!]]></entry>
+    <entry id="spartan+str_comment_ally_hit_abusive"><![CDATA[거기 서 있기만 하는건가.]]></entry>
+    <entry id="spartan+str_comment_ally_hit_irrational"><![CDATA[수집가에 대한 악몽을 꾼 적 있는가?]]></entry>
+    <entry id="spartan+str_comment_ally_hit_irrational"><![CDATA[한 잔 더!]]></entry>
+	
+    <entry id="spartan+str_comment_ally_missed_fearful"><![CDATA[어디서 감히!]]></entry>
+    <entry id="spartan+str_comment_ally_missed_fearful"><![CDATA[동지라면 말을 들어라!]]></entry>
+    <entry id="spartan+str_comment_ally_missed_irrational"><![CDATA[끝은 시작이자 끝이지 ...]]></entry>
+    <entry id="spartan+str_comment_ally_missed_irrational"><![CDATA[때로는 아무것도 아닌게 아니지.]]></entry>
+    <entry id="spartan+str_block_move_fearful"><![CDATA[얼어붙어서 움직이지 못하겠다!]]></entry>
+    <entry id="spartan+str_block_move_fearful"><![CDATA[발이 떨리는군!]]></entry>
+    <entry id="spartan+str_block_move_paranoid"><![CDATA[날 조종할 생각 마라!]]></entry>
+    <entry id="spartan+str_block_move_paranoid"><![CDATA[속임수!]]></entry>
+    <entry id="spartan+str_block_move_masochistic"><![CDATA[이 자리에서 피 흘리겠도다!]]></entry>
+    <entry id="spartan+str_block_move_masochistic"><![CDATA[이 자리가 날 위한 자리다.]]></entry>
+    <entry id="spartan+str_block_move_abusive"><![CDATA[지나쳐 갈 생각 마라!]]></entry>
+    <entry id="spartan+str_block_move_abusive"><![CDATA[내게 대접받을 생각은 마라!]]></entry>
+    <entry id="spartan+str_block_move_irrational"><![CDATA[이전에 없던건가, 나중에도 없는건가? 어떤게 맞지?]]></entry>
+    <entry id="spartan+str_block_move_irrational"><![CDATA[별들은 너무 많이 있다. 충분할 정도지.]]></entry>
+
+    <entry id="spartan+str_block_item_paranoid"><![CDATA[음모를 꾸미고 있군!]]></entry>
+    <entry id="spartan+str_block_item_paranoid"><![CDATA[날 몰아내려 하는겐가!]]></entry>
+    <entry id="spartan+str_block_item_masochistic"><![CDATA[내가 그걸 원할거 같은가?]]></entry>
+    <entry id="spartan+str_block_item_masochistic"><![CDATA[아니. 아니. 안 돼.]]></entry>
+    <entry id="spartan+str_block_item_depressed"><![CDATA[그저 피로 씻으면 될 것을.]]></entry>
+    <entry id="spartan+str_block_item_depressed"><![CDATA[끝이 다가오는게 두렵구나.]]></entry>
+    <entry id="spartan+str_block_item_irrational"><![CDATA[왜 나와 싸우려는 건가?!]]></entry>
+    <entry id="spartan+str_block_item_irrational"><![CDATA[그건 뭔가? 저녁 시간인가?]]></entry>
+    <entry id="spartan+str_block_heal_paranoid"><![CDATA[잘못된 치유로군.]]></entry>
+    <entry id="spartan+str_block_heal_paranoid"><![CDATA[날 속이려 드는군!]]></entry>
+
+    <entry id="spartan+str_block_heal_masochistic"><![CDATA[피 흘리게 둬라!]]></entry>
+    <entry id="spartan+str_block_heal_masochistic"><![CDATA[네 도움따윈 필요 없다!]]></entry>
+
+    <entry id="spartan+str_block_heal_depressed"><![CDATA[다른 이를 위해 아껴둬라.]]></entry>
+    <entry id="spartan+str_block_heal_depressed"><![CDATA[너희 모두를 위해 희생하겠다.]]></entry>
+ 
+    <entry id="spartan+str_block_heal_irrational"><![CDATA[괜찮다면 방패파괴자의 방패를 보고싶구려.]]></entry>
+    <entry id="spartan+str_block_heal_irrational"><![CDATA[난 눈으로도 들을 수 있지.]]></entry>
+
+    <entry id="spartan+str_block_buff_paranoid"><![CDATA[그들이 온다!]]></entry>
+    <entry id="spartan+str_block_buff_paranoid"><![CDATA[그게 네 계획인가?]]></entry>
+
+    <entry id="spartan+str_block_buff_masochistic"><![CDATA[더 오래 싸우려면 지체돼야 한다!]]></entry>
+    <entry id="spartan+str_block_buff_masochistic"><![CDATA[날 자르면 널 잘라주겠다!]]></entry>
+
+    <entry id="spartan+str_block_buff_depressed"><![CDATA[우울하군.]]></entry>
+    <entry id="spartan+str_block_buff_depressed"><![CDATA[파멸이야.]]></entry>
+
+    <entry id="spartan+str_block_buff_irrational"><![CDATA[내 신들이 그걸 허락하지 않는다.]]></entry>
+    <entry id="spartan+str_block_buff_irrational"><![CDATA[다른 이를 위해 아껴두시게.]]></entry>
+
+    <entry id="spartan+str_critbyhero"><![CDATA[내 창은 날카롭다!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[내 방패는 단단하다!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[내 창과 방패로!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[난 어릴적 부터 훈련받은 몸이다!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[힘을 다스려라!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[눈물이 다 나는군!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[영광스러운 전투!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[난 두렵지 않다!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[우리가 너희를 압도한다!]]></entry>
+    <entry id="spartan+str_critbyhero"><![CDATA[나는 벼락이다!]]></entry>
+    <entry id="spartan+str_bark_encourage"><![CDATA[기쁘지 아니한가!]]></entry>
+    <entry id="spartan+str_bark_encourage"><![CDATA[오늘 행운이 우리에게 미소를 짓는군!]]></entry>
+    <entry id="spartan+str_bark_encourage"><![CDATA[뿌리깊은 나무는 바람에 흔들리지 않는 법.]]></entry>
+    <entry id="spartan+str_bark_first_aid"><![CDATA[이 약초가 도움이 될 걸세!]]></entry>
+    <entry id="spartan+str_bark_first_aid"><![CDATA[내 약초 좀 나눠주겠네.]]></entry>
+    <entry id="spartan+str_bark_first_aid"><![CDATA[그래, 냄새가 이상한건 잘 안다.]]></entry>
+    <entry id="spartan+str_bark_pep_talk"><![CDATA[무슨 일이든 각오하고 있어야 하네.]]></entry>
+    <entry id="spartan+str_bark_pep_talk"><![CDATA[새로운 시작은 누군가의 끝이 될 수 있지.]]></entry>
+    <entry id="spartan+str_bark_pep_talk"><![CDATA[자신이 무슨 말을 하는지 항상 알아야 한다.]]></entry>
+    <entry id="spartan+str_bark_hobby"><![CDATA[짐 정리를 해 놓으면 시간을 아낄 수 있지.]]></entry>
+    <entry id="spartan+str_bark_hobby"><![CDATA[창을 갈아야겠어.]]></entry>
+    <entry id="spartan+str_bark_hobby"><![CDATA[새로운 샌달을 사야겠군.]]></entry>
+	
+    <entry id="spartan+str_block_camping_skill_performer_fearful"><![CDATA[오늘 밤은 아닌 것 같군.]]></entry>
+
+    <entry id="spartan+str_block_camping_skill_performer_paranoid"><![CDATA[잠깐?! 들었는가?]]></entry>
+
+    <entry id="spartan+str_block_camping_skill_performer_masochistic"><![CDATA[채찍질 맞는게 낫겠군!]]></entry>
+
+    <entry id="spartan+str_block_camping_skill_performer_abusive"><![CDATA[그걸 제대로 할리가 없지.]]></entry>
+    <entry id="spartan+str_block_camping_skill_performer_selfish"><![CDATA[날 내버려 두게, 아내에게 미련이 남았으니.]]></entry>
+
+    <entry id="spartan+str_block_camping_skill_performer_depressed"><![CDATA[왜 귀찮게 구는가?]]></entry>
+    <entry id="spartan+str_block_camping_skill_performer_depressed"><![CDATA[음정이 틀렸다.]]></entry>
+    <entry id="spartan+str_block_camping_skill_performer_irrational"><![CDATA[쉬이잇!]]></entry>
+    <entry id="spartan+str_block_camping_skill_performer_irrational"><![CDATA[그건 말도 안 돼.]]></entry>
+    <entry id="spartan+str_block_camping_skill_performer_irrational"><![CDATA[끔찍한 소리!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_paranoid"><![CDATA[거짓말!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_paranoid"><![CDATA[날 속일 생각 마라!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_paranoid"><![CDATA[날 감시하는 건가?]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_masochistic"><![CDATA[신전에서 고행 할 시간이다!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_masochistic"><![CDATA[신들을 위해 감내하겠다!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_abusive"><![CDATA[아껴둬라!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_abusive"><![CDATA[효율적으로 쓰게!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_abusive"><![CDATA[당당하지 못하군!]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_depressed"><![CDATA[이게 끝인가?]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_depressed"><![CDATA[난 관두게, 쓸모 없으니.]]></entry>
+    <entry id="spartan+str_block_camping_skill_target_depressed"><![CDATA[목적이 뭔가?]]></entry>
+    <entry id="spartan+str_block_camping_meal_paranoid"><![CDATA[아니. 사양하지.]]></entry>
+    <entry id="spartan+str_block_camping_meal_paranoid"><![CDATA[이, 이건 ... 독이 들었나 보군.]]></entry>
+    <entry id="spartan+str_block_camping_meal_masochistic"><![CDATA[다 같이 살아남기 위해, 포기하겠다!]]></entry>
+
+    <entry id="spartan+str_block_camping_meal_depressed"><![CDATA[다시 볼 수는 없겠지. 어찌 이런일이 ...]]></entry>
+    <entry id="spartan+str_block_camping_meal_irrational"><![CDATA[난 자격이 없네!]]></entry>
+    <entry id="spartan+str_block_camping_meal_irrational"><![CDATA[아니. 다른 이를 위해 아껴두게나!]]></entry>
+   
+    <entry id="str_vo_spartan_recruit_spartan_0"><![CDATA[이 병사는 거대한 전쟁에서 도망쳤다는 소문이 있다.]]></entry>
+    <entry id="str_vo_spartan_town_spartan_0"><![CDATA[그는 남부사람처럼 굴며, 꺾이지 않는 의지를 지녔다.]]></entry>
+    <entry id="str_vo_spartan_bonus_recruit_spartan_0"><![CDATA[날카로운 눈빛으로 널 바라보았다.]]></entry>
+   
+     </language>
+</root>
+ 

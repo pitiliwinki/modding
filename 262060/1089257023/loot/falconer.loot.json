@@ -1,0 +1,260 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "FALC_FEATHER",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "falc_feather", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET_RARE",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 99, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET_RARE",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 98, "data" : { }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET_RARE",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 97, "data" : { }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET_RARE",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 97, "data" : { }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_TRINKET",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "TALON_MOTHER_TRINKET",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "TALON_MOTHER_TRINKET",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 10000000, "data" : { "type" : "trinket", "id" : "falconer_the_first_raptor", "amount" : 1 }},
+            { "type" : "trinket", "chances" : 1000, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "TALON_MOTHER_TRINKET",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 10000000000, "data" : { "type" : "trinket", "id" : "falconer_vulture_arrow", "amount" : 1 }},
+            { "type" : "item", "chances" : 10000000, "data" : { "type" : "trinket", "id" : "falconer_the_first_raptor", "amount" : 1 }},
+            { "type" : "trinket", "chances" : 1000, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "TALON_MOTHER_TRINKET",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 10000000000, "data" : { "type" : "trinket", "id" : "falconer_vulture_arrow", "amount" : 1 }},
+            { "type" : "item", "chances" : 10000000, "data" : { "type" : "trinket", "id" : "falconer_the_first_raptor", "amount" : 1 }},
+            { "type" : "trinket", "chances" : 1000, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "TALON_MOTHER_TRINKET_EXTRA",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 10000000, "data" : { "type" : "trinket", "id" : "falconer_the_first_raptor", "amount" : 1 }},
+            { "type" : "trinket", "chances" : 1000, "data" : { "rarity" : "falconer" }}
+         ]
+      },
+      {
+         "id" : "FALC_MOTHER_TRINKET",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }}
+         ]
+      },
+      {
+         "id" : "FALC_MOTHER_FEATHER",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "falc_mother_feather", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FALCONER_JOURNAL",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 19, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 39 , "max_page_index" : 45 }}
+         ]
+      },
+      {
+         "id" : "falc_mother_lore",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 75 , "max_page_index" : 76, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_mother_lore",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 75 , "max_page_index" : 77, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_mother_lore",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 75 , "max_page_index" : 78, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_mother_lore",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 75 , "max_page_index" : 78, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_lore",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 67 , "max_page_index" : 69, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_lore",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 67 , "max_page_index" : 72, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_lore",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 67 , "max_page_index" : 74, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "falc_lore",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "journal_page", "chances" : 1, "data" : { "min_page_index" : 67 , "max_page_index" : 74, "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      }
+   ]
+}

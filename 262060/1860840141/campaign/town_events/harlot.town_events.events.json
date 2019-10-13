@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "id": "first_harlot",
+            "base_chance": 15.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 0,
+			"is_unique" : true,
+			"priority": "higher",
+            "requirements": {
+                "minimum_week": 2,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_first_harlot",
+            "sprite_attachment": "nomad_wagon",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "harlot",
+                    "number_data": 1.0
+                }
+            ]
+        }
+ 
+    ]
+}

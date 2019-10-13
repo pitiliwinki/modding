@@ -1,0 +1,101 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "succ_quirk_1",		 
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+           
+			
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+		 	"QUIRK_devotion_Stressheal",
+			"QUIRK_devotion_Stresres"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	 
+	  
+	   {
+         "id" : "blix_quirk_good",		 
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+		 "evolution_duration_min" : 30,
+         "evolution_duration_max" : 45,
+		  "tags":
+         [
+            "Bix_Quirk"
+         ],
+         "evolution_town_progression_duration_change" : 0,
+		 "evolution_class_id" : "blix_quirk_bad",
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+             "blix_quirk_bad"
+			
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"Succ_QUIRK_Surprised_D",
+		 	"Succ_QUIRK_Abmush_B"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	   {
+         "id" : "blix_quirk_bad",		 
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+		 "evolution_duration_min" : 30,
+         "evolution_duration_max" : 45,
+		  "tags":
+         [
+            "Bix_Quirk"
+         ],
+         "evolution_town_progression_duration_change" : 0,
+		 "evolution_class_id" : "blix_quirk_good",
+         "evolution_class_id" : "VV_quirk_2",
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+            "blix_quirk_good"
+			
+         ],
+         "curio_tag" : "Unholy",
+         "curio_tag_chance" : 0.1,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+		
+			"Succ_Blix_Quirk_Bad_2",
+			"Succ_QUIRK_Abmush_D"
+         ],
+         "can_modify_in_activity" : false,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

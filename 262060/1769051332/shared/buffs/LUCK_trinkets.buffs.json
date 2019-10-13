@@ -1,0 +1,3871 @@
+{
+   "buffs":
+   [
+   
+   {
+         "id" : "TRINKET_Luck_Dark_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck_Dark",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_Luck_Card_2_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Luck_Card_2_Tooltip",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "TRINKET_Luck_Light_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck_Light",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck_DD",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck_Virtue",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_Luck_Tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_Luck_Tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sun_tooltip_Luck_2",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  {
+         "id" : "TRINKET_Luck_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_2_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_2_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_2_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_2_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Light_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Light_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Light_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Light_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Light_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Dark_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Dark_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Dark_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Dark_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Dark_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   
+	  {
+         "id" : "TRINKET_Luck_DD_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_DD_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_DD_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_DD_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_DD_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction1_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction1_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Faction1_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction1_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Faction1_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_1"
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction1_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction2_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Faction2_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction2_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Faction2_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_2"
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction2_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_2"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction3_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction3_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Faction3_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction3_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Faction3_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_3"
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction3_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_3"
+         },
+		 "has_description" : false
+      },
+	     {
+         "id" : "TRINKET_Luck_Faction4_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction4_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Faction4_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Faction4_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Faction4_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "wos_quirk_4"
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Faction4_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : "wos_quirk_4"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Virtue_IgnoreProt",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_CRT",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Virtue_CRT_Resist",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Luck_Virtue_MOVEC",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_DEBUFFC",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_STUNC",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_BLEEDC",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_BLIGHTC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_Luck_Virtue_Trap",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Blight",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 {
+         "id" : "TRINKET_Luck_Virtue_Surprise_monsters",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Surprise_party",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Surprise_Nighttime",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_SCOUTING",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Luck_Virtue_Resolve",
+         "stat_type" : "resolve_xp_bonus_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 98,
+            "string" : ""
+         },
+		 "has_description" : false
+      }
+	 
+   ]
+}

@@ -1,0 +1,93 @@
+{
+	"buffs":
+	[	{
+			"id": "sels_sl_frenzy_dmg_H",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 0.25,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_frenzy_dmg_L",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 0.25,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_frenzy_speed",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "speed_rating",
+			"amount": 3,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_frenzy_dodge",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -1000,
+			"has_description": false,
+			"remove_if_not_active": false,
+			"rule_type": "hpbelow",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.50,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_frenzy_tooltip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sels_sl_frenzy",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_can_parry_tooltip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sels_sl_can_parry",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},{
+			"id": "sels_sl_riposte_parry_tooltip",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "sels_sl_riposte_parry",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}
+	]
+}

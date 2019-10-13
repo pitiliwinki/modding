@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <!-- District -->
+
+    <!-- Subtitle -->
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+ <language id="japanese">
+    <!-- District -->
+
+    <!-- Subtitle -->
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="koreana">
+    <!-- District -->
+
+    <!-- Subtitle -->
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[야수지배자. 원시적인 자연과 야만의 현현.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% 음식 소비]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[방어 관통 vs 불경]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% 전투 중 {colour_start|virtue}영웅적 기상{colour_end} 확률]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}은신{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[{colour_start|stealth}은신{colour_end} 무시]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[{colour_start|stealth}은신{colour_end} 가져옴]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[빗나감: {colour_start|stealth}은신{colour_end} {colour_start|skill_unselectable}(1 턴){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}재사용 대기시간{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}재사용 대기시간: 3 턴{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}재사용 대기시간: 2 턴{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}재사용 대기시간: 1 턴{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}피해 차단{colour_end}
+  적중: {colour_start|riposte}반격{colour_end} 한 번:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 기본 명중/+10%% 피해/ +2%% 치명타]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 기본 명중/+15%% 피해/ +3%% 치명타]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 기본 명중/+20%% 피해/ +4%% 치명타]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 기본 명중/+25%% 피해/ +5%% 치명타]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 기본 명중/+30%% 피해/ +6%% 치명타]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[{colour_start|notable}시체{colour_end} 제거:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[최대 체력의 15%%{colour_start|healhp}회복{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[최대 체력의 20%%{colour_start|healhp}회복{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[최대 체력의 25%%{colour_start|healhp}회복{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[최대 체력의 30%%{colour_start|healhp}회복{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[최대 체력의 35%%{colour_start|healhp}회복{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해량 +10%% {colour_start|skill_unselectable}(원정){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[{colour_start|notable}시체꽃{colour_end} 소환]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[3번의 공격으로 사망:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[다음 공격으로 죽임:
+  최대 체력의 20%% {colour_start|healhp}회복{colour_end} 
+  {colour_start|stress}스트레스{colour_end} -8]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[다음 공격으로 죽임:
+  최대 체력의 25%%{colour_start|healhp}회복{colour_end} 
+  {colour_start|stress}스트레스{colour_end} -10]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[다음 공격으로 죽임:
+  최대 체력의 30%%{colour_start|healhp}회복{colour_end} 
+  {colour_start|stress}스트레스{colour_end} -12]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[다음 공격으로 죽임:
+  최대 체력의 35%%{colour_start|healhp}회복{colour_end} 
+  {colour_start|stress}스트레스{colour_end} -14]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[다음 공격으로 죽임:
+  최대 체력의 40%%{colour_start|healhp}회복{colour_end} 
+  {colour_start|stress}스트레스{colour_end} -16]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[살아있는 식물 하나 당 -2 속도]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}두 번 공격{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}두 번 공격{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}두 번 공격{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}두 번 공격{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}두 번 공격{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 속도 4열에서
+	x2 회피 1열에서]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}생명의 순환:{colour_end} 시체 필요하지 않음]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}뜯어먹기:{colour_end} 식물도 먹기 가능]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[적중: {colour_start|blight}중독{colour_end} 1 피해 {colour_start|bleed}출혈{colour_end} 동안]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[시체를 남기지 않음 
+시체를 잡으면: 15%% 최대 체력 {colour_start|healhp}회복{colour_end}]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[최대 체력 40%% 이하 적중:
+자신에게: {colour_start|blight}중독{colour_end}/{colour_start|bleed}출혈{colour_end} 치료]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}회복{colour_end} 턴당 5 회복, 1 지속
+{colour_start|notable}재사용 대기시간: 2 턴{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}샐러맨더의 회복력{colour_end}]]></entry>
+
+
+	
+  </language>
+ <language id="koreanb">
+    <!-- District -->
+
+    <!-- Subtitle -->
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="spanish">
+    <!-- District -->
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="schinese">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="russian">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="polish">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="italian">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="german">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="french">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="czech">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+  <language id="brazilian">
+    <!-- District -->
+
+<entry id="str_vo_bad_Beastmaster_recruitment_0"><![CDATA[Beastmaster. Embodiment of nature's primal savagery.]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_FOOD"><![CDATA[%-d%% Food Consumed]]></entry>
+  
+  <!-- Supply -->
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Crypts"><![CDATA[Ignore PROT vs Unholy]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_ITEM_BM_totem_Default"><![CDATA[+20%% {colour_start|virtue}Virtue{colour_end} Chance in Combat]]></entry>
+
+
+  <!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Stealth_Miss"><![CDATA[On Miss: {colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(1 rd){colour_end}]]></entry>	
+
+<!--Toolips-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownX"><![CDATA[{colour_start|notable}Cooldown{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownA"><![CDATA[{colour_start|notable}Cooldown: 3 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownB"><![CDATA[{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_cooldownC"><![CDATA[{colour_start|notable}Cooldown: 1 rd{colour_end}]]></entry>
+	
+<!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter"><![CDATA[1 {colour_start|notable}Block{colour_end}
+  When Hit: {colour_start|riposte}Counter{colour_end} once:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_1"><![CDATA[95 ACC base/+10%% DMG/ +2%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_2"><![CDATA[100 ACC base/+15%% DMG/ +3%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_3"><![CDATA[105 ACC base/+20%% DMG/ +4%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_4"><![CDATA[110 ACC base/+25%% DMG/ +5%% CRT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_counter_5"><![CDATA[115 ACC base/+30%% DMG/ +6%% CRT]]></entry>
+  
+  <!--Counterstrike-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse"><![CDATA[Consume {colour_start|notable}Corpse{colour_end}:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_1"><![CDATA[{colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 20%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_3"><![CDATA[{colour_start|healhp}Heal{colour_end} 25%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 30%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_5"><![CDATA[{colour_start|healhp}Heal{colour_end} 35%% max HP]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_Corpse_Stack"><![CDATA[+10%% {colour_start|bleed}Bleed{colour_end} Amount {colour_start|skill_unselectable}(Quest){colour_end}]]></entry>
+  
+<!--Flower-->
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Flower"><![CDATA[Summon {colour_start|notable}Corpseflower{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar"><![CDATA[Next 3 Attack Kills:]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_1"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 20%% max HP 
+  -8 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_2"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 25%% max HP 
+  -10 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_3"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 30%% max HP 
+  -12 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_4"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 35%% max HP 
+  -14 {colour_start|stress}Stress{colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_BM_tooltip_summon_Familiar_5"><![CDATA[Next Attack Kill:
+  {colour_start|healhp}Heal{colour_end} 40%% max HP 
+  -16 {colour_start|stress}Stress{colour_end}]]></entry>
+
+
+  <entry id="buff_stat_tooltip_upgrade_discount_SEED_BEASTMASTER"><![CDATA[-2 SPD per living Plant]]></entry>
+
+	
+<!-- Mode tooltips -->
+	<entry id="str_skill_mode_info_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="actor_mode_name_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+
+	<entry id="str_skill_mode_info_BM_cuts"><![CDATA[]]></entry>
+	<entry id="actor_mode_name_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BM_cuts"><![CDATA[{colour_start|notable}Doublestrike{colour_end}]]></entry>		
+	
+
+ <!--Trinkets-->	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Trinket_eagle"><![CDATA[x2 SPD if in position 4
+	x2 DODGE if in position 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant"><![CDATA[{colour_start|notable}Cycle of Life:{colour_end} No Corpse required]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Trinket_Plant_2"><![CDATA[{colour_start|notable}Ravenous:{colour_end} Can consume Plants]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BM_Blight_while_Bleeding_TT"><![CDATA[On Hit: {colour_start|blight}Blight{colour_end} 1 pt while {colour_start|bleed}Bleeding{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_BM_Head_TT"><![CDATA[Kills don't leave corpses 
+On Corpse Kill: {colour_start|healhp}Heal{colour_end} 15%% max HP]]></entry>
+
+	
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT"><![CDATA[When hit if below 40%% max HP:
+Self: Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_TT2"><![CDATA[{colour_start|healhp}Restoration{colour_end} 5 pts/rd for 1 rd
+{colour_start|notable}Cooldown: 2 rds{colour_end}]]></entry>
+	    <entry id="buff_stat_tooltip_upgrade_discount_BM_SALAMANDER_REGEN"><![CDATA[{colour_start|notable}Salamander Regeneration{colour_end}]]></entry>
+
+
+	
+  </language>
+</root>

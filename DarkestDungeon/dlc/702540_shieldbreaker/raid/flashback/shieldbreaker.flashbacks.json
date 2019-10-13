@@ -1,0 +1,830 @@
+{
+    "flashbacks": [
+        {
+            "id": "shieldbreaker_0",
+            "prerequisite": "",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_0",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_1",
+            "prerequisite": "shieldbreaker_0",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_2",
+            "prerequisite": "shieldbreaker_1",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_3",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_3",
+            "prerequisite": "shieldbreaker_2",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_4",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_3",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_4",
+            "prerequisite": "shieldbreaker_3",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_5",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_4",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_5",
+            "prerequisite": "shieldbreaker_4",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_set_1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_5",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":[]
+        },
+        {
+            "id": "shieldbreaker_6",
+            "prerequisite": "shieldbreaker_5",
+            "display": "shieldbreaker",
+            "chance": 0.5,
+            "start_type": "camp_finish",
+            "torch_settings": "flashback",
+            "raid_limit": 1,
+            "campaign_complete_limit": 1,
+            "required_hero_class_ids": [
+                "shieldbreaker"
+            ],
+            "required_heroes_can_be_virtued": false,
+            "required_heroes_starting_effects": [
+                "flashback_dot_stress"
+            ],
+            "required_heroes_starting_min_health_percent": 0.1,
+            "failures": [
+                {
+                    "target_type": "required_hero",
+                    "type": "deaths_door"
+                }
+            ],
+            "results": [
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "trinket",
+                    "string_data": "sb_set_2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "raid",
+                    "type": "loot",
+                    "string_data": "flashback_6",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.50
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 90.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 75.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_buff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": true,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_buff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "hero",
+                    "type": "min_health_percent",
+                    "string_data": "",
+                    "number_data": 0.25
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "max_stress",
+                    "string_data": "",
+                    "number_data": 125.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff1",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_sb_debuff2",
+                    "number_data": 0.0
+                },
+                {
+                    "is_on_complete": false,
+                    "target_type": "not_required_hero",
+                    "type": "buff",
+                    "string_data": "sb_flashback_party_debuff",
+                    "number_data": 0.0
+                }
+            ],
+            "completed_camping_start_buffs":["sb_completed_spd_buff","sb_completed_dmgl_buff","sb_completed_dmgh_buff","sb_completed_prot_buff"]
+        }
+    ]
+}

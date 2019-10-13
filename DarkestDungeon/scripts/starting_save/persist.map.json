@@ -1,0 +1,426 @@
+{
+    "version": 5,
+    "data": {
+        "map": {
+            "bounds": {
+                "x": -10.5,
+                "y": 10.5,
+                "z": -10.5,
+                "w": 10.5
+            },
+            "entrance_id": 1097822066,
+            "final_room_id": 1701736302,
+            "areas": {
+                "rooA": {
+                    "id": "rooA",
+                    "kind": 0,
+                    "unfilled": 1,
+                    "bounds": {
+                        "x": -960,
+                        "y": 960
+                    },
+                    "knowledge": 3,
+                    "reversed": false,
+                    "door0": {
+                        "area_to": "coAB",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door1": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door2": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door3": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door4": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door5": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door6": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door7": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "tiles": {
+                        "tile0": {
+                            "type": 3,
+                            "light": 0,
+                            "content": 0,
+                            "hap": 0,
+                            "knowledge": 3,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "rooA",
+                            "door_to": {
+                                "area_to": "none",
+                                "tile_to": 0,
+                                "implied": true,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -10.5,
+                                "y": -7
+                            },
+                            "texture_id": 0,
+                            "is_texture_override_valid": false,
+                            "sidepos": {
+                                "x": 960,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        }
+                    }
+                },
+                "rooB": {
+                    "id": "rooB",
+                    "kind": 0,
+                    "unfilled": 1,
+                    "bounds": {
+                        "x": -960,
+                        "y": 960
+                    },
+                    "knowledge": 1,
+                    "reversed": false,
+                    "door0": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door1": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door2": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door3": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door4": {
+                        "area_to": "coAB",
+                        "tile_to": 5,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door5": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door6": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door7": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "tiles": {
+                        "tile0": {
+                            "type": 3,
+                            "light": 0,
+                            "content": 6,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 908094902,
+                            "sprite_id": 908094902,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "rooB",
+                            "door_to": {
+                                "area_to": "none",
+                                "tile_to": 0,
+                                "implied": true,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -3.5,
+                                "y": -7
+                            },
+                            "texture_id": 1,
+                            "is_texture_override_valid": false,
+                            "sidepos": {
+                                "x": 960,
+                                "y": 0
+                            },
+                            "mash_index": 1
+                        }
+                    }
+                },
+                "coAB": {
+                    "id": "coAB",
+                    "kind": 1,
+                    "unfilled": 2,
+                    "bounds": {
+                        "x": -360,
+                        "y": 3960
+                    },
+                    "knowledge": 1,
+                    "reversed": false,
+                    "door0": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door1": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door2": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door3": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door4": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door5": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door6": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "door7": {
+                        "area_to": "none",
+                        "tile_to": 0,
+                        "implied": true,
+                        "type": 0
+                    },
+                    "tiles": {
+                        "tile0": {
+                            "type": 2,
+                            "light": 1,
+                            "content": 0,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooA",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -9.5,
+                                "y": -7
+                            },
+                            "texture_id": 200,
+                            "sidepos": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        },
+                        "tile1": {
+                            "type": 1,
+                            "light": 1,
+                            "content": 0,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooA",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -8.5,
+                                "y": -7
+                            },
+                            "texture_id": 103,
+                            "sidepos": {
+                                "x": 720,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        },
+                        "tile2": {
+                            "type": 1,
+                            "light": 1,
+                            "content": 1,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooA",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -7.5,
+                                "y": -7
+                            },
+                            "texture_id": 104,
+                            "sidepos": {
+                                "x": 1440,
+                                "y": 0
+                            },
+                            "mash_index": 0
+                        },
+                        "tile3": {
+                            "type": 1,
+                            "light": 1,
+                            "content": 0,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooA",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -6.5,
+                                "y": -7
+                            },
+                            "texture_id": 107,
+                            "sidepos": {
+                                "x": 2160,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        },
+                        "tile4": {
+                            "type": 1,
+                            "light": 1,
+                            "content": 7,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 824803909,
+                            "sprite_id": 824803909,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooA",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -5.5,
+                                "y": -7
+                            },
+                            "texture_id": 109,
+                            "sidepos": {
+                                "x": 2880,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        },
+                        "tile5": {
+                            "type": 2,
+                            "light": 1,
+                            "content": 0,
+                            "hap": 0,
+                            "knowledge": 1,
+                            "cur": 0,
+                            "sprite_id": 0,
+                            "trap": 3435973836,
+                            "obstacle": 3435973836,
+                            "area_id": "coAB",
+                            "door_to": {
+                                "area_to": "rooB",
+                                "tile_to": 0,
+                                "implied": false,
+                                "type": 0
+                            },
+                            "mappos": {
+                                "x": -4.5,
+                                "y": -7
+                            },
+                            "texture_id": 200,
+                            "sidepos": {
+                                "x": 3600,
+                                "y": 0
+                            },
+                            "mash_index": -1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

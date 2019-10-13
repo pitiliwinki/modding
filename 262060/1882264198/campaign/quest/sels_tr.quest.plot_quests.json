@@ -1,0 +1,465 @@
+{
+	"plot_quests": [
+		{
+			"id": "sels_cove_lost_shipments_A",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": true,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "activate",
+				"dungeon": "cove",
+				"difficulty": 1,
+				"length": 3,
+				"map_name": "sels_tr_lost_shipment_cove",
+				"goal_ids": [
+					"sels_activate_lost_shipments"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 9000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 12
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "rare",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_cove_lost_shipments_B",
+			"plot_quest_dependency": "sels_cove_lost_shipments_A",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": true,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "activate",
+				"dungeon": "cove",
+				"difficulty": 3,
+				"length": 3,
+				"map_name": "sels_tr_lost_shipment_cove",
+				"goal_ids": [
+					"sels_activate_lost_shipments"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 12500
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 16
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_cove_lost_shipments_C",
+			"plot_quest_dependency": "sels_cove_lost_shipments_B",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": true,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "activate",
+				"dungeon": "cove",
+				"difficulty": 5,
+				"length": 3,
+				"map_name": "sels_tr_lost_shipment_cove",
+				"goal_ids": [
+					"sels_activate_lost_shipments"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 18000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 20
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "ancestral",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_hamlet_enchant_trinkets_A",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "explore",
+				"dungeon": "town",
+				"difficulty": 1,
+				"length": 1,
+				"map_name": "sels_tr_enchant_trinkets_hamlet",
+				"goal_ids": [
+					"sels_enchant_trinkets"
+				],
+				"completion_reward": {
+					"resolve_xp": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_hamlet_enchant_trinkets_B",
+			"plot_quest_dependency": "sels_hamlet_enchant_trinkets_A",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "explore",
+				"dungeon": "town",
+				"difficulty": 3,
+				"length": 1,
+				"map_name": "sels_tr_enchant_trinkets_hamlet",
+				"goal_ids": [
+					"sels_enchant_trinkets"
+				],
+				"completion_reward": {
+					"resolve_xp": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_hamlet_enchant_trinkets_C",
+			"plot_quest_dependency": "sels_hamlet_enchant_trinkets_B",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": false,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "explore",
+				"dungeon": "town",
+				"difficulty": 5,
+				"length": 1,
+				"map_name": "sels_tr_enchant_trinkets_hamlet",
+				"goal_ids": [
+					"sels_enchant_trinkets"
+				],
+				"completion_reward": {
+					"resolve_xp": 0,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": false,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		},{
+			"id": "sels_weald_deceased_relic_hunter_C",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"is_started_by_event": true,
+			"quest": {
+				"is_plot_quest": true,
+				"counted_in_generation": false,
+				"type": "activate",
+				"dungeon": "weald",
+				"difficulty": 5,
+				"length": 3,
+				"map_name": "sels_tr_deceased_relic_hunter_weald",
+				"goal_ids": [
+					"sels_activate_deceased_relic_hunter"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 18000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 20
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "ancestral",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": false,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
+			"town_event_result_id_on_complete": "",
+			"can_continue_exploring_after_completing_quest": true
+		}]
+}

@@ -1,0 +1,45 @@
+{
+   "traits":
+   [
+      {
+         "id" : "frivolous",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "none",
+         "curio_tag_chance" : 0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+            "SPD3"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 3},
+            { "id": "retreat_from_combat", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0, "raid_limit": 1},
+            { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "HealStressVirtuedParty" }, "chance": 1},
+            { "id": "heal_self", "data": { "number_value": 0.1,"string_value": "" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_move", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_heal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_buff", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_item", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0},
+            { "id": "comment_self_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_self_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_move", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_curio_interaction", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_trap_triggered", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 1},
+            { "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0}
+         ]
+      }
+   ]
+}

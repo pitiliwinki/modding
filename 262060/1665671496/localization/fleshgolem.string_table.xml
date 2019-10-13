@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <language id="english">
+
+    <entry id="hero_class_name_fleshgolem"><![CDATA[Homunculus]]></entry>
+   	<entry id="str_virtue_name_synchronized"><![CDATA[Exuvian]]></entry>
+	<entry id="str_affliction_name_psychedelic"><![CDATA[Protean]]></entry>
+	
+ 
+<!--Skills--> 
+    <entry id="combat_skill_name_fleshgolem_eldritch_comfort"><![CDATA[{colour_start|healhp}Eldritch Comfort{colour_end}]]></entry>
+    <entry id="combat_skill_name_fleshgolem_eldritch_veil"><![CDATA[{colour_start|stealth}Flesh Veil{colour_end}]]></entry>
+    <entry id="combat_skill_name_fleshgolem_hunt"><![CDATA[{colour_start|riposte}Dangerous Game{colour_end}]]></entry>
+	<entry id="combat_skill_name_fleshgolem_mind_shot"><![CDATA[{colour_start|bleed}Mind Shot{colour_end}]]></entry>
+	<entry id="combat_skill_name_fleshgolem_keening"><![CDATA[{colour_start|notable}Keening{colour_end}]]></entry>
+	<entry id="combat_skill_name_fleshgolem_wither"><![CDATA[{colour_start|buff}Wither{colour_end}]]></entry>
+	<entry id="combat_skill_name_fleshgolem_scourge"><![CDATA[{colour_start|blight}Scourge{colour_end}]]></entry>
+	<entry id="combat_skill_name_fleshgolem_FG_transform"><![CDATA[{colour_start|set_title}Dissolve{colour_end}]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem_eldritch_comfort"><![CDATA[{colour_start|healhp}Eldritch Comfort{colour_end}]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.eldritch_veil"><![CDATA[{colour_start|stealth}Flesh Veil{colour_end}]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.hunt"><![CDATA[{colour_start|riposte}Dangerous Game{colour_end}]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.mind_shot"><![CDATA[{colour_start|bleed}Mind Shot{colour_end}]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.keening"><![CDATA[{colour_start|notable}Keening{colour_end}]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.wither"><![CDATA[{colour_start|buff}Wither{colour_end}]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.scourge"><![CDATA[{colour_start|blight}Scourge{colour_end}]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.FG_transform"><![CDATA[{colour_start|set_title}Dissolve{colour_end}]]></entry>
+    
+	
+<!--Mode-->
+    <entry id="str_skill_mode_info_proteanset"><![CDATA[{colour_start|set_title}Protean Mode: {colour_end}]]></entry>
+	<entry id="str_skill_mode_info_resolvedset"><![CDATA[{colour_start|set_title}Exuviated Mode: {colour_end}]]></entry>
+    <entry id="actor_mode_name_resolvedset"><![CDATA[Exuvian]]></entry>
+	<entry id="actor_mode_name_proteanset"><![CDATA[Protean]]></entry>
+
+<!--Blacksmtih/Guild-->
+    <entry id="action_verbose_body_guild_fleshgolem"><![CDATA[A golem summoned by dark ancient ritual, in which a human soul lived in, for decades...]]></entry>	
+	<entry id="action_verbose_body_blacksmith_fleshgolem"><![CDATA[The failing body of the Homunculus may need repair, but the abilities granted to its host are beyond understanding; this protean shell is able to replicate armor and weapon alike!]]></entry>
+	<entry id="fleshgolem_weapon_0"><![CDATA[Broken Mind]]></entry>
+    <entry id="fleshgolem_weapon_1"><![CDATA[Mind]]></entry>
+    <entry id="fleshgolem_weapon_2"><![CDATA[Mad Mind]]></entry>
+    <entry id="fleshgolem_weapon_3"><![CDATA[Clever Mind]]></entry>
+    <entry id="fleshgolem_weapon_4"><![CDATA["The Mind"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.weapon"><![CDATA[The Soul]]></entry>
+	<entry id="fleshgolem_armour_0"><![CDATA[Rotten Flesh]]></entry>
+    <entry id="fleshgolem_armour_1"><![CDATA[Flesh]]></entry>
+    <entry id="fleshgolem_armour_2"><![CDATA[Incarna]]></entry>
+    <entry id="fleshgolem_armour_3"><![CDATA[Strenghtened Flesh]]></entry>
+    <entry id="fleshgolem_armour_4"><![CDATA["The Body"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.armour"><![CDATA[The Flesh]]></entry>
+	<entry id="action_verbose_body_camping_trainer_fleshgolem"><![CDATA[The flesh hasn't a lot to offer unless again a small trade...]]></entry>
+  
+	
+<!--Camp_Skills-->	
+	<entry id="camping_skill_name_FG_campskill1"><![CDATA[Eldritch Flesh]]></entry>
+    <entry id="camping_skill_name_FG_campskill2"><![CDATA[Open your Mind!]]></entry>
+    <entry id="camping_skill_name_FG_campskill3"><![CDATA[A fair trade?]]></entry>
+    <entry id="camping_skill_name_FG_campskill4"><![CDATA[A strange gift]]></entry>
+    
+	
+	 <entry id="town_event_title_first_fleshgolem"><![CDATA[An uncanny arrival]]></entry>
+	 <entry id="town_event_description_first_fleshgolem"><![CDATA[Rejected everywhere an akward silhouette is finding a way to the Hamlet. May it get redemption among locals horrors...]]></entry>
+	 
+	 <entry id="str_inventory_title_trinketthe_mind"><![CDATA[Empty Brain]]></entry>
+	<entry id="str_inventory_title_trinketthe_body"><![CDATA[A lost part]]></entry>
+	<entry id="str_inventory_title_trinketprotean_shell"><![CDATA[Protean Shell]]></entry>
+	
+	
+	<entry id="str_inventory_title_estateFlesh_RotI"><![CDATA[Anomalous Appendage]]></entry>
+	<entry id="str_inventory_description_estateFlesh_RotI"><![CDATA[This thing look alive, you shouldn't touch this...]]></entry>
+
+    <!-- Trinkets -->
+	<entry id="str_inventory_title_trinketflesh_axe"><![CDATA[Vicious Axe]]></entry>
+	<entry id="str_inventory_title_trinketflesh_book"><![CDATA[Forgotten Tome]]></entry>
+	<entry id="str_inventory_title_trinketflesh_crossbow"><![CDATA[Monstrous Crossbow]]></entry>
+	<entry id="str_inventory_title_trinketflesh_decoction"><![CDATA[Akward Vial]]></entry>
+	<entry id="str_inventory_title_trinketflesh_helmet"><![CDATA[Unholy Zeal]]></entry>
+	<entry id="str_inventory_title_trinketflesh_mask"><![CDATA[Rejuvenant Mask]]></entry>
+	<entry id="str_inventory_title_trinketflesh_shield"><![CDATA[Living Shield]]></entry>
+	<entry id="str_inventory_title_trinketflesh_skull"><![CDATA[Ancient Idol]]></entry>
+	<entry id="str_inventory_title_trinketflesh_whistle"><![CDATA[Gore Atune]]></entry>
+	<entry id="str_inventory_title_trinketalphonse's_head"><![CDATA[??? Head]]></entry>
+	
+	
+	<!-- Rarities -->
+	<entry id="trinket_rarity_fleshgolem"><![CDATA[Homunculus]]></entry>
+	<entry id="trinket_rarity_fgrefracted"><![CDATA[Refracted]]></entry>
+    <entry id="trinket_rarity_fgcrimson"><![CDATA[Crimson]]></entry>
+    <entry id="trinket_rarity_fgafflicted"><![CDATA[Afflicted]]></entry>
+	<entry id="trinket_rarity_flesh"><![CDATA[Flesh]]></entry>
+	<entry id="trinket_rarity_fleshcommon"><![CDATA[Flesh]]></entry>
+	<entry id="trinket_rarity_fleshuncommon"><![CDATA[Flesh]]></entry>
+	<entry id="trinket_rarity_fleshrare"><![CDATA[Flesh]]></entry>
+	<entry id="trinket_rarity_fleshveryrare"><![CDATA[Flesh]]></entry>
+	
+	
+	
+	<!-- Barks -->
+	<entry id="Healer_Protean"><![CDATA[The Light is a lie. The Flesh is the only god.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[The faithful are delusional, but their mystic arts are quite effective, with some refinements.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[Your gods reject flesh pleasure? Oh what a pity.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[I can take any shape, but imitating believers is a source of endless amusement to me.]]></entry>
+	
+	<entry id="tank_Protean"><![CDATA[Hmm...You can hide behind me, they will never get you.]]></entry>
+    <entry id="tank_Protean"><![CDATA[My flesh for your submission. A fair trade, really.]]></entry>
+	<entry id="tank_Protean"><![CDATA[Experience mean nothing again those horrors...]]></entry>
+	<entry id="tank_Protean"><![CDATA[I won't fail protecting other...]]></entry>
+		
+	<entry id="Hunt_Protean"><![CDATA[The axe is just for show?]]></entry>
+	<entry id="Hunt_Protean"><![CDATA[Stop snorting now... please..]]></entry>
+	<entry id="Hunt_Protean"><![CDATA[Just by imitating him i can feel his wild wrath]]></entry>
+	
+	<entry id="dmg_Protean"><![CDATA[I am one with my weapon, truly.]]></entry>
+	<entry id="dmg_Protean"><![CDATA[Why are you staring at me? It's the haircut, isn't it.]]></entry>
+	<entry id="dmg_Protean"><![CDATA[How can you complain about your lost father?
+	I lost my whole life...]]></entry>
+	
+	<entry id="Caustic_Protean"><![CDATA[Sometimes we must do forbidden things to succeed]]></entry>
+	<entry id="Caustic_Protean"><![CDATA[Without trying how could we now its useless?]]></entry>
+	<entry id="Caustic_Protean"><![CDATA[Faith can't save our lives]]></entry>
+	
+	<entry id="buff_Protean"><![CDATA[Dispassionate studies are fruitless. The void is a spring of power that one must be part of.]]></entry>
+	<entry id="buff_Protean"><![CDATA[I do not need to know the abyss, I'm a part of it!]]></entry>
+	<entry id="buff_Protean"><![CDATA[I have seen the truth of the world, and emerged a great deal wiser. More flexible, too!]]></entry>
+	
+	<entry id="Soothing_Protean"><![CDATA[The dog look weird ? It's a part of me!]]></entry>
+	<entry id="Soothing_Protean"><![CDATA[Don't worry my friends you won't end as bad as i did...]]></entry>
+	<entry id="Soothing_Protean"><![CDATA[Despite the fact this isn't a real dog it still soothe my mind...]]></entry>
+	
+	
+	<entry id="str_bark_FG_campskill1"><![CDATA[This body isn't as strong as it seem, but with some trick it can be changed!]]></entry>
+	<entry id="str_bark_FG_campskill2"><![CDATA[Mind is the key!]]></entry>
+	<entry id="str_bark_FG_campskill3"><![CDATA[A part of your humanity again my otherwordly power isn't it fair enough?]]></entry>
+	<entry id="str_bark_FG_campskill4"><![CDATA[I can lend you a part of my power, at a small cost...]]></entry>
+	
+	<entry id="str_stress_heal_self_psychedelic"><![CDATA[The Flesh soothe my mind...]]></entry>
+	
+	<entry id="fleshgolem+str_monster_user_selected_targets_kill_pill"><![CDATA[Go on.. I will handle it.]]></entry>	
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[Is this really my limit?!]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[I've struggle many years, this can't be the end...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[NO! I can't die like this...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[I already lost everything one time, no more please...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[I can't i need to achieve my goal]]></entry>
+    <entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[Reshaping isn't as easy as it seem]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[I haven't reached my limit!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[If reshaped well, flesh can offer a lot!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[This time i will raise]]></entry>   
+    <entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Behold my true power]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[You're all fools!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Flesh is our true savior]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Let me finish this myself. I don't need your help!]]></entry>   
+ 	   
+	<entry id="fleshgolem+str_change_pos_back_synchronized"><![CDATA[I don't need you!]]></entry>    
+	<entry id="fleshgolem+str_change_pos_fwd_synchronized"><![CDATA[I don't need you!]]></entry>    
+	<entry id="fleshgolem+str_attack_friendly_synchronized"><![CDATA[You're annoying...]]></entry>
+	
+	 <!--Ethereal Tooltips -->
+   <entry id="buff_stat_tooltip_upgrade_discount_ssf"><![CDATA[Switch to {colour_start|set_title}Exuviated Mode{colour_end}]]></entry>
+   <entry id="buff_bsrc_companion"><![CDATA[{colour_start|set_title}Shell{colour_end}]]></entry>
+   <entry id="str_ui_entering_flesh_rot"><![CDATA[Flesh Curse]]></entry>
+   
+ 	
+	
+   <!-- Healer shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HealS1"><![CDATA[{colour_start|healhp}Healer shell:{colour_end} 
+	+2 additional {colour_start|healhp}Heal{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS2"><![CDATA[{colour_start|healhp}Healer shell:{colour_end} 
+	+3 additional {colour_start|healhp}Heal{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS3"><![CDATA[{colour_start|healhp}Healer shell:{colour_end} 
+	+4 additional {colour_start|healhp}Heal{colour_end}]]></entry>
+ 	
+	<entry id="buff_stat_tooltip_upgrade_discount_HealPTT1"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} +4%% DMG +1 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HealPTT2"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} +6%% DMG +2 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HealPTT3"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} +10%% DMG +3 SPD]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_HealEBl1"><![CDATA[Can {colour_start|blight}Blight{colour_end} 1pts/2rd if has {colour_start|blight}Caustic shell{colour_end} (40%%)]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_HealEBl2"><![CDATA[Can {colour_start|blight}Blight{colour_end} 1pts/4rd if has {colour_start|blight}Caustic shell{colour_end} (50%%)]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_HealEBl3"><![CDATA[Can {colour_start|blight}Blight{colour_end} 1pts/6rd if has {colour_start|blight}Caustic shell{colour_end} (70%%)]]></entry>		
+	
+  <!-- Tank shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS1"><![CDATA[{colour_start|stealth}Shield shell:{colour_end}
+	+10%% PROT/+50%% DMG Reflection]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS2"><![CDATA[{colour_start|stealth}Shield shell:{colour_end}
+	+20%% PROT/+75%% DMG Reflection]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS3"><![CDATA[{colour_start|stealth}Shield shell:{colour_end}
+	+30%% PROT/+100%% DMG Reflection]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_TankES1"><![CDATA[Can {colour_start|buff}Steal{colour_end} 2%% PROT if has {colour_start|buff}Thief shell{colour_end} (40%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TankES2"><![CDATA[Can {colour_start|buff}Steal{colour_end} 4%% PROT if has {colour_start|buff}Thief shell{colour_end} (50%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TankES3"><![CDATA[Can {colour_start|buff}Steal{colour_end} 6%% PROT if has {colour_start|buff}Thief shell{colour_end} (70%%)]]></entry>
+	
+   	
+  <!-- Hunt shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS1"><![CDATA[{colour_start|riposte}Hunt shell:{colour_end} 
+	+5%% CRT/Enable {colour_start|stun}Stun{colour_end} (110%%)]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS2"><![CDATA[{colour_start|riposte}Hunt shell:{colour_end} 
+	+10%% CRT/Enable {colour_start|stun}Stun{colour_end} (130%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS3"><![CDATA[{colour_start|riposte}Hunt shell:{colour_end}
+	+15%% CRT/Enable {colour_start|stun}Stun{colour_end} (150%%)]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHS1"><![CDATA[Can {colour_start|buff}Steal{colour_end} 3%% CRIT if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHS2"><![CDATA[Can {colour_start|buff}Steal{colour_end} 5%% CRIT if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHS3"><![CDATA[Can {colour_start|buff}Steal{colour_end} 7%% CRIT if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHB1"><![CDATA[Can {colour_start|blight}Blight{colour_end} 2pts/2rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHB2"><![CDATA[Can {colour_start|blight}Blight{colour_end} 4pts/2rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTHB3"><![CDATA[Can {colour_start|blight}Blight{colour_end} 6pts/2rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>
+	
+  <!-- Damage shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS1"><![CDATA[{colour_start|bleed}Damage shell:{colour_end} 
+	+15%% DMG/+5 ACC]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS2"><![CDATA[{colour_start|bleed}Damage shell:{colour_end} 
+	+25%% DMG/+10 ACC]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS3"><![CDATA[{colour_start|bleed}Damage shell:{colour_end} 
+	+35%% DMG/+15 ACC]]></entry>
+   
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDS1"><![CDATA[Can {colour_start|buff}Steal{colour_end} 4%% DMG if has {colour_start|buff}Thief shell{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDS2"><![CDATA[Can {colour_start|buff}Steal{colour_end} 6%% DMG if has {colour_start|buff}Thief shell{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDS3"><![CDATA[Can {colour_start|buff}Steal{colour_end} 9%% DMG if has {colour_start|buff}Thief shell{colour_end}]]></entry>  
+	                                                         
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB1"><![CDATA[Can {colour_start|blight}Blight{colour_end} 4pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDB2"><![CDATA[Can {colour_start|blight}Blight{colour_end} 4pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDB3"><![CDATA[Can {colour_start|blight}Blight{colour_end} 5pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDST1"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDST2"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDST3"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	
+	
+	 <!-- Soothing shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_SoothingS1"><![CDATA[{colour_start|notable}Soothing shell:{colour_end} 
+   +2 {colour_start|stress}Stress{colour_end} Healed]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SoothingS2"><![CDATA[{colour_start|notable}Soothing shell:{colour_end} 
+   +3 {colour_start|stress}Stress{colour_end} Healed]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_SoothingS3"><![CDATA[{colour_start|notable}Soothing shell:{colour_end} 
+   +4 {colour_start|stress}Stress{colour_end} Healed]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothingPTT1"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} - 6%% {colour_start|stress}Stress{colour_end} dmg]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothingPTT2"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} - 8%% {colour_start|stress}Stress{colour_end} dmg]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothingPTT3"><![CDATA[{colour_start|buff}Shell Party Buff:{colour_end} - 10%% {colour_start|stress}Stress{colour_end} dmg]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothEST1"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end} (40%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothEST2"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end} (50%%)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_SoothEST3"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end} (70%%)]]></entry>
+	
+		
+    <!-- buff shell -->
+   <entry id="buff_stat_tooltip_upgrade_discount_DebuffS1"><![CDATA[{colour_start|buff}Thief shell:{colour_end} 
+   Enable {colour_start|buff}Steal{colour_end} (110%%)/+10 DODGE]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DebuffS2"><![CDATA[{colour_start|buff}Thief shell:{colour_end} 
+   Enable {colour_start|buff}Steal{colour_end} (130%%)/+20 DODGE]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_DebuffS3"><![CDATA[{colour_start|buff}Thief shell:{colour_end} 
+   Enable {colour_start|buff}Steal{colour_end} (150%%)/+30 DODGE]]></entry>
+   
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTSS1"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTSS2"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTSS3"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>
+	
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTSB1"><![CDATA[Can {colour_start|blight}Blight{colour_end} 2pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTSB2"><![CDATA[Can {colour_start|blight}Blight{colour_end} 3pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTSB3"><![CDATA[Can {colour_start|blight}Blight{colour_end} 4pts/1rd if has {colour_start|blight}Caustic shell{colour_end}]]></entry>	  
+
+    <entry id="buff_stat_tooltip_upgrade_discount_FGStealTTS1"><![CDATA[Can {colour_start|buff}Steal{colour_end} 4 DODGE if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FGStealTTS2"><![CDATA[Can {colour_start|buff}Steal{colour_end} 6 DODGE if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FGStealTTS3"><![CDATA[Can {colour_start|buff}Steal{colour_end} 9 DODGE if has {colour_start|buff}Thief shell{colour_end}]]></entry>
+	
+	
+    <!-- Caustic shell -->
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS1"><![CDATA[{colour_start|blight}Caustic shell:{colour_end} 
+   Enable {colour_start|blight}Blight{colour_end} (110%%)/+3 SPD]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS2"><![CDATA[{colour_start|blight}Caustic shell:{colour_end} 
+   Enable {colour_start|blight}Blight{colour_end} (130%%)/+5 SPD]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS3"><![CDATA[{colour_start|blight}Caustic shell:{colour_end} 
+   Enable {colour_start|blight}Blight{colour_end} (150%%)/+7 SPD]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTCST1"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCST2"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCST3"><![CDATA[Can {colour_start|stun}Stun{colour_end} if has {colour_start|riposte}Hunt shell{colour_end}]]></entry>	  
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCS1"><![CDATA[Can {colour_start|buff}Steal{colour_end} 4 ACC if has {colour_start|buff}Thief shell{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCS2"><![CDATA[Can {colour_start|buff}Steal{colour_end} 6 ACC if has {colour_start|buff}Thief shell{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCS3"><![CDATA[Can {colour_start|buff}Steal{colour_end} 9 ACC if has {colour_start|buff}Thief shell{colour_end}]]></entry> 	  
+
+    
+	<!-- Rot -->
+	<entry id="str_quirk_name_flesh_rot"><![CDATA[{colour_start|set_title}Flesh Curse{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_rot"><![CDATA[{colour_start|bleed}Death Blow{colour_end} set to 0%%
+	Cannot be {colour_start|bleed}Bled{colour_end}
+	-50%% Food consumed
+	0 {colour_start|green}Heal{colour_end} from food]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_rot3"><![CDATA[+20%% {colour_start|stress}Stress{colour_end}
+	{colour_start|set_title}"You feel empty inside..."{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_poison"><![CDATA[{colour_start|blight}Blighted{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_flesh_rot"><![CDATA[has {colour_start|set_title}Flesh Curse{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_hounds_harry"><![CDATA[Hound's Harry]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[When hit:]]></entry>
+	
+	
+	<!-- Trinket -->
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg1"><![CDATA[1]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg2"><![CDATA[2]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg3"><![CDATA[3]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg4"><![CDATA[4]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg5"><![CDATA[{colour_start|blight}Blight{colour_end} if has {colour_start|set_title}Flesh Curse{colour_end}]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg6"><![CDATA[6]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg7 "><![CDATA[7]]></entry>
+	
+	
+ </language>  
+ 
+
+ <language id="portuguese">
+
+    <entry id="hero_class_name_fleshgolem"><![CDATA[Homúnculo]]></entry>
+   	<entry id="str_virtue_name_synchronized"><![CDATA[Exúvia]]></entry>
+	<entry id="str_affliction_name_psychedelic"><![CDATA[Proteico]]></entry>
+	
+ 
+<!--Skills--> 
+    <entry id="combat_skill_name_fleshgolem_eldritch_comfort"><![CDATA[Conforto Sobrenatural]]></entry>
+    <entry id="combat_skill_name_fleshgolem_eldritch_veil"><![CDATA[Véu de Carne]]></entry>
+    <entry id="combat_skill_name_fleshgolem_hunt"><![CDATA[Jogo Perigoso]]></entry>
+	<entry id="combat_skill_name_fleshgolem_mind_shot"><![CDATA[Disparo Mental]]></entry>
+	<entry id="combat_skill_name_fleshgolem_keening"><![CDATA[Lamento]]></entry>
+	<entry id="combat_skill_name_fleshgolem_wither"><![CDATA[Murchar]]></entry>
+	<entry id="combat_skill_name_fleshgolem_scourge"><![CDATA[Praga]]></entry>
+	<entry id="combat_skill_name_fleshgolem_move"><![CDATA[Movimento]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.eldritch_comfort"><![CDATA[Conforto Sobrenatural]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.eldritch_veil"><![CDATA[Véu de Carne]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.hunt"><![CDATA[Jogo Perigoso]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.mind_shot"><![CDATA[Disparo Mental]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.keening"><![CDATA[Lamento]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.wither"><![CDATA[Murchar]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.scourge"><![CDATA[Praga]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.move"><![CDATA[Movimento]]></entry>
+    
+	<entry id="effect_tooltip_steal_bsrc_companion"><![CDATA[Buff de {colour_start|stress}Estresse{colour_end} não pode ser stackado]]></entry>
+	
+	
+<!--Mode-->
+    <entry id="str_skill_mode_info_proteanset"><![CDATA[{colour_start|set_title}Modo Proteico: {colour_end}]]></entry>
+	<entry id="str_skill_mode_info_resolvedset"><![CDATA[{colour_start|set_title}Modo Exúvia: {colour_end}]]></entry>
+    <entry id="actor_mode_name_resolvedset"><![CDATA[Exúvia]]></entry>
+	<entry id="actor_mode_name_proteanset"><![CDATA[Proteico]]></entry>
+
+<!--Blacksmtih/Guild-->
+    <entry id="action_verbose_body_guild_fleshgolem"><![CDATA[Um golem invocado por um antigo ritual das trevas, no qual uma alma humana reside há decadas...]]></entry>	
+	<entry id="action_verbose_body_blacksmith_fleshgolem"><![CDATA[O corpo falho do Homúnculo pode precisar de reparos, mas as habilidades concedidas ao seu hospedeiro são além da compreensão; essa casca proteica é capaz de replicar tanto armadura quanto arma!]]></entry>
+	<entry id="fleshgolem_weapon_0"><![CDATA[Mente Quebrada]]></entry>
+    <entry id="fleshgolem_weapon_1"><![CDATA[Mente]]></entry>
+    <entry id="fleshgolem_weapon_2"><![CDATA[Mente Louca]]></entry>
+    <entry id="fleshgolem_weapon_3"><![CDATA[Mente Astuta]]></entry>
+    <entry id="fleshgolem_weapon_4"><![CDATA["A Mente"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.weapon"><![CDATA[A Alma]]></entry>
+	<entry id="fleshgolem_armour_0"><![CDATA[Carne Podre]]></entry>
+    <entry id="fleshgolem_armour_1"><![CDATA[Carne]]></entry>
+    <entry id="fleshgolem_armour_2"><![CDATA[Carne Resistente]]></entry>
+    <entry id="fleshgolem_armour_3"><![CDATA[Carne Fortalecida]]></entry>
+    <entry id="fleshgolem_armour_4"><![CDATA["A Carne"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.armour"><![CDATA[O Corpo]]></entry>
+	<entry id="action_verbose_body_camping_trainer_kheir"><![CDATA[A carne não tem muito o que oferecer, a não ser outra pequena troca...]]></entry>
+  
+	
+<!--Camp_Skills-->	
+	<entry id="camping_skill_name_FG_campskill1"><![CDATA[Carne Sobrenatural]]></entry>
+    <entry id="camping_skill_name_FG_campskill2"><![CDATA[Abra sua Mente!]]></entry>
+    <entry id="camping_skill_name_FG_campskill3"><![CDATA[Uma troca justa?]]></entry>
+    <entry id="camping_skill_name_FG_campskill4"><![CDATA[Um presente estranho]]></entry>
+    
+	
+	 <entry id="town_event_title_first_fleshgolem"><![CDATA[Uma chegada inquietante]]></entry>
+	 <entry id="town_event_description_first_fleshgolem"><![CDATA[Rejeitada em todo lugar, uma silhueta estranha vem em direção à Aldeia. Que ela encontre redenção em meio aos horrores locais...]]></entry>
+ 
+ 	<entry id="Healer_Protean"><![CDATA[A Luz é uma mentira. A Carne é o único Deus.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[Os fiéis são delirantes, mas suas artes místicas são bem efetivas, com alguns requintes.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[Seus deuses rejeitam os prazeres da carne? Oh, que pena.]]></entry>
+	<entry id="Healer_Protean"><![CDATA[Eu posso tomar qualquer forma, mas imitar crentes é uma fonte de entretenimento incessável para mim.]]></entry>
+	
+	<entry id="tank_Protean"><![CDATA[Hmm...Você pode se esconder atrás de mim, eles nunca te pegarão.]]></entry>
+                     <entry id="tank_Protean"><![CDATA[Minha carne pela sua submissão. Uma troca justa, de fato.]]></entry>
+	<entry id="tank_Protean"><![CDATA[Experiência não significa nada contra tais horrores...]]></entry>
+	<entry id="tank_Protean"><![CDATA[Não falharei em proteger os outros...]]></entry>
+		
+	<entry id="Hunt_Protean"><![CDATA[O machado é apenas para exibição?]]></entry>
+	<entry id="Hunt_Protean"><![CDATA[Pare de bufar agora... por favor...]]></entry>
+	<entry id="Hunt_Protean"><![CDATA[Só de imitá-lo posso sentir sua fúria selvagem]]></entry>
+	
+	<entry id="dmg_Protean"><![CDATA[Eu e minha arma somos um, de fato.]]></entry>
+	<entry id="dmg_Protean"><![CDATA[Por que está me encarando? É o corte de cabelo, não é?]]></entry>
+	<entry id="dmg_Protean"><![CDATA[Como você pode reclamar por perder o seu pai? Eu perdi tudo...]]></entry>
+	
+	<entry id="Caustic_Protean"><![CDATA[Às vezes precisamos fazer coisas proibidas para ter êxito.]]></entry>
+	<entry id="Caustic_Protean"><![CDATA[Se não tentássemos, como saberíamos que é inútil?]]></entry>
+	<entry id="Caustic_Protean"><![CDATA[Fé não pode salvar nossas vidas.]]></entry>
+	
+	<entry id="buff_Protean"><![CDATA[Estudos imparciais são infrutíferos. O vazio é uma fonte de poder da qual um precisa fazer parte.]]></entry>
+	<entry id="buff_Protean"><![CDATA[Eu não preciso conhecer o abismo, eu sou parte dele!]]></entry>
+	<entry id="buff_Protean"><![CDATA[Eu vi a verdade do mundo, e emergi muito mais sábio. Mais flexível também!]]></entry>
+	
+	<entry id="Soothing_Protean"><![CDATA[O cachorro é estranho? Faz parte de mim!]]></entry>
+	<entry id="Soothing_Protean"><![CDATA[Não se preocupem amigos, vocês não acabarão tão mal quanto eu...]]></entry>
+	<entry id="Soothing_Protean"><![CDATA[Apesar do fato disso não ser um cachorro de verdade, ele ainda acalma minha mente...]]></entry>
+	
+	
+	<entry id="str_bark_FG_campskill1"><![CDATA[Esse corpo não é tão forte quanto parece, mas com algum artifício isso pode mudar!]]></entry>
+	<entry id="str_bark_FG_campskill2"><![CDATA[A mente é a chave!]]></entry>
+	<entry id="str_bark_FG_campskill3"><![CDATA[Uma parte da minha humanidade por esses poderes trancedentais já não é o bastante?]]></entry>
+	<entry id="str_bark_FG_campskill4"><![CDATA[Eu posso te emprestar uma parte do meu poder, por um pequeno custo...]]></entry>
+	
+	<entry id="str_stress_heal_self_psychedelic"><![CDATA[A carne acalma minha mente...]]></entry>
+	
+	<entry id="fleshgolem+str_monster_user_selected_targets_kill_pill"><![CDATA[Vão... Eu cuido disso.]]></entry>	
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[Esse é mesmo o meu limite?!]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[Eu lutei por tantos anos, esse não pode ser o fim...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[NÃO! Eu não posso morrer assim...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[Eu já perdi tudo uma vez, chega, por favor...]]></entry>
+    <entry id="fleshgolem+str_bark_deathsdoor"><![CDATA[Não posso morrer, preciso alcançar meu objetivo!]]></entry>
+    <entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[Mudar de forma não é tão facil quanto parece.]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[Eu não cheguei no meu limite!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[Se reformulada corretamente, a carne pode oferecer muito!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_psychedelic"><![CDATA[Dessa vez eu me levanto.]]></entry>   
+    <entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Contemplem meu verdadeiro poder!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Vocês são todos tolos!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[A Carne é o nosso verdadeiro salvador!]]></entry>   
+	<entry id="fleshgolem+str_afflicted_synchronized"><![CDATA[Deixe-me acabar com isso sozinho. Eu não preciso da sua ajuda!]]></entry>   
+ 	   
+	<entry id="fleshgolem+str_change_pos_back_synchronized"><![CDATA[Eu não preciso de vocês!]]></entry>    
+	<entry id="fleshgolem+str_change_pos_fwd_synchronized"><![CDATA[Eu não preciso de vocês!]]></entry>    
+	<entry id="fleshgolem+str_attack_friendly_synchronized"><![CDATA[Você é um incômodo...]]></entry> 
+
+
+<!--Ethereal Tooltips -->
+   <entry id="buff_stat_tooltip_upgrade_discount_ssf"><![CDATA[Trocar para {colour_start|set_title}Modo Exúvia{colour_end}]]></entry>
+ 	
+   <!-- Aspecto de Cura -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HealS1"><![CDATA[{colour_start|green}Aspecto de Cura:{colour_end} 
+	+2 {colour_start|green}Cura{colour_end}/+5%% de resistência a {colour_start|blight}Peste{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS2"><![CDATA[{colour_start|green}Aspecto de Cura:{colour_end} 
+	+2 {colour_start|green}Cura{colour_end}/+10%% de resistência a {colour_start|blight}Peste{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS3"><![CDATA[{colour_start|green}Aspecto de Cura:{colour_end} 
+	+3 {colour_start|green}Cura{colour_end}/+15%% de resistência a {colour_start|blight}Peste{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS4"><![CDATA[{colour_start|green}Aspecto de Cura:{colour_end} 
+	+3 {colour_start|green}Cura{colour_end}/+20%% de resistência a {colour_start|blight}Peste{colour_end}]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS5"><![CDATA[{colour_start|green}Aspecto de Cura:{colour_end} 
+	+4 {colour_start|green}Cura{colour_end}/+30%% de resistência a {colour_start|blight}Peste{colour_end}]]></entry>
+ 	      		  
+  <!-- Aspecto de Defesa -->
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS1"><![CDATA[{colour_start|stealth}Aspecto de Defesa:{colour_end}
+	+10%% PV MÁX/+10%% PROT]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS2"><![CDATA[{colour_start|stealth}Aspecto de Defesa:{colour_end}
+	+15%% PV MÁX/+10%% PROT]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS3"><![CDATA[{colour_start|stealth}Aspecto de Defesa:{colour_end}
+	+20%% PV MÁX/+20%% PROT]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS4"><![CDATA[{colour_start|stealth}Aspecto de Defesa:{colour_end}
+	+25%% PV MÁX /+20%% PROT]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS5"><![CDATA[{colour_start|stealth}Aspecto de Defesa:{colour_end}
+	+30%% PV MÁX/+30%% PROT]]></entry>
+	
+   
+	
+  <!-- Aspecto de Caça -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS1"><![CDATA[{colour_start|riposte}Aspecto de Caça:{colour_end} 
+	+6%% CRT/{colour_start|riposte}Revide{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS2"><![CDATA[{colour_start|riposte}Aspecto de Caça:{colour_end} 
+	+9%% CRT/{colour_start|riposte}Revide{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS3"><![CDATA[{colour_start|riposte}Aspecto de Caça:{colour_end}
+	+12%% CRT/{colour_start|riposte}Revide{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS4"><![CDATA[{colour_start|riposte}Aspecto de Caça:{colour_end} 
+	+15%% CRT/{colour_start|riposte}Revide{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS5"><![CDATA[{colour_start|riposte}Aspecto de Caça:{colour_end} 
+	+17%% CRT/{colour_start|riposte}Revide{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH1"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -4 PRE se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH2"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -6 PRE se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH3"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -9 PRE se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH4"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -12 PRE se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH5"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -15 PRE se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH12"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH22"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH32"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH42"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH52"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>
+	
+  <!-- Aspecto de Dano -->
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS1"><![CDATA[{colour_start|bleed}Aspecto de Dano:{colour_end} 
+	+10%% DANO/+5 PRE]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS2"><![CDATA[{colour_start|bleed}Aspecto de Dano:{colour_end} 
+	+15%% DANO/+9 PRE]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS3"><![CDATA[{colour_start|bleed}Aspecto de Dano:{colour_end} 
+	+20%% DANO/+14 PRE]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS4"><![CDATA[{colour_start|bleed}Aspecto de Dano:{colour_end} 
+	+25%% DANO/+17 PRE]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS5"><![CDATA[{colour_start|bleed}Aspecto de Dano:{colour_end} 
+	+30%% DANO/+20 PRE]]></entry>
+   
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDM1"><![CDATA[Can {colour_start|buff}Penalidade{colour_end} -4%% CRIT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM2"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -7%% CRIT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM3"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -10%% CRIT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM4"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -13%% CRIT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM5"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -16%% CRIT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  
+                                                         
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDM12"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 4pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM22"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 4pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM32"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 5pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM42"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 5pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM52"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 6pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   
+  <!-- Aspecto Cáustico -->
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS1"><![CDATA[{colour_start|blight}Aspecto Cáustico:{colour_end} 
+   Habilita {colour_start|blight}Peste{colour_end} (110%%)/Habilita {colour_start|stun}Atordoamento{colour_end} (110%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS2"><![CDATA[{colour_start|blight}Aspecto Cáustico:{colour_end} 
+   Habilita {colour_start|blight}Peste{colour_end} (120%%)/Habilita {colour_start|stun}Atordoamento{colour_end} (120%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS3"><![CDATA[{colour_start|blight}Aspecto Cáustico:{colour_end} 
+   Habilita {colour_start|blight}Peste{colour_end} (130%%)/Habilita {colour_start|stun}Atordoamento{colour_end} (130%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS4"><![CDATA[{colour_start|blight}Aspecto Cáustico:{colour_end} 
+   Habilita {colour_start|blight}Peste{colour_end} (140%%)/Habilita {colour_start|stun}Atordoamento{colour_end} (140%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS5"><![CDATA[{colour_start|blight}Aspecto Cáustico:{colour_end} 
+   Habilita {colour_start|blight}Peste{colour_end} (150%%)/Habilita {colour_start|stun}Atordoamento{colour_end} (150%%)]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTCT1"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT2"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT3"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT4"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáusticoll{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT5"><![CDATA[Pode aplicar {colour_start|stun}Atordoamento{colour_end} se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT12"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -10%% PROT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT22"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -13%% PROT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT32"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -15%% PROT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT42"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -17%% PROT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT52"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -20%% PROT se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+	
+    <!-- Aspecto de Penalidade -->
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS1"><![CDATA[{colour_start|buff}Aspecto de Penalidade:{colour_end} 
+   Habilita {colour_start|buff}Penalidade{colour_end} (110%%)/+5 ESQUIVA]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS2"><![CDATA[{colour_start|buff}Aspecto de Penalidade:{colour_end} 
+   Habilita {colour_start|buff}Penalidade{colour_end} (120%%)/+10 ESQUIVA]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS3"><![CDATA[{colour_start|buff}Aspecto de Penalidade:{colour_end} 
+   Habilita {colour_start|buff}Penalidade{colour_end} (130%%)/+15 ESQUIVA]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS4"><![CDATA[{colour_start|buff}Aspecto de Penalidade:{colour_end} 
+   Habilita {colour_start|buff}Penalidade{colour_end} (140%%)/+20 ESQUIVA]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS5"><![CDATA[{colour_start|buff}Aspecto de Penalidade:{colour_end} 
+   Habilita {colour_start|buff}Penalidade{colour_end} (150%%)/+25 ESQUIVA]]></entry>
+   
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB1"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -10 ESQUIVA se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB2"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -13 ESQUIVA se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB3"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -15 ESQUIVA se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB4"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -17 ESQUIVA se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB5"><![CDATA[Pode aplicar {colour_start|buff}Penalidade{colour_end} -20 ESQUIVA se tiver {colour_start|buff}Aspecto de Penalidade{colour_end}]]></entry> 	  
+   
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB12"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 2pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB22"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 3pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB32"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 4pts/1rd se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB42"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 3pts/2rds se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB52"><![CDATA[Pode aplicar {colour_start|blight}Peste{colour_end} 4pts/2rds se tiver {colour_start|blight}Aspecto Cáustico{colour_end}]]></entry>	  
+   
+	
+  <!-- Aspecto Calmante -->
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS1"><![CDATA[{colour_start|notable}Aspecto Calmante:{colour_end} 
+   +10%% {colour_start|stress}Estresse{colour_end} Curado/+2 VEL]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS2"><![CDATA[{colour_start|notable}Aspecto Calmante:{colour_end} 
+   +10%% {colour_start|stress}Estresse{colour_end} Curado/+4 VEL]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS3"><![CDATA[{colour_start|notable}Aspecto Calmante:{colour_end} 
+   +20%% {colour_start|stress}Estresse{colour_end} Curado/+5 VEL]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS4"><![CDATA[{colour_start|notable}Aspecto Calmante:{colour_end} 
+   +20%% {colour_start|stress}Estresse{colour_end} Curado/+5 VEL]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS5"><![CDATA[{colour_start|notable}Aspecto Calmante:{colour_end} 
+   +30%% {colour_start|stress}Estresse{colour_end} Curado/+6 VEL]]></entry>
+	
+   
+    
+	<!-- Putrefação -->
+	<entry id="str_quirk_name_flesh_rot"><![CDATA[{colour_start|set_title}Putrefação{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_rot"><![CDATA[Resistência a{colour_start|bleed}Golpe Fatal{colour_end} reduzida para 0%%
+	Não pode {colour_start|bleed}Sangrar{colour_end}
+	-50%% Comida consumida
+	0 de {colour_start|green}Cura{colour_end} ao consumir comida]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_rot3"><![CDATA[+20%% {colour_start|stress}Estresse{colour_end}
+	{colour_start|set_title}"Você se sente vazio..."{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_poison"><![CDATA[{colour_start|blight}Envenenado{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_flesh_rot"><![CDATA[has {colour_start|set_title}Putrefação{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_hounds_harry"><![CDATA[Investida do Cão]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Quando golpeado:]]></entry>
+	
+	
+	<!-- Trinket -->
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg1"><![CDATA[1]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg2"><![CDATA[2]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg3"><![CDATA[3]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg4"><![CDATA[4]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg5"><![CDATA[{colour_start|blight}Peste{colour_end} se tiver {colour_start|set_title}Putrefação{colour_end}]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg6"><![CDATA[6]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg7 "><![CDATA[7]]></entry>
+ 
+ </language>  
+ <language id="french">
+
+    <entry id="hero_class_name_fleshgolem"><![CDATA[Homonculus]]></entry>
+   	<entry id="str_virtue_name_synchronized"><![CDATA[Exuvié]]></entry>
+	<entry id="str_affliction_name_psychedelic"><![CDATA[Protéen]]></entry>
+	
+ 
+<!--Skills--> 
+    <entry id="combat_skill_name_fleshgolem_eldritch_comfort"><![CDATA[Réconfort Sombre]]></entry>
+    <entry id="combat_skill_name_fleshgolem_eldritch_veil"><![CDATA[Voile de Chair]]></entry>
+    <entry id="combat_skill_name_fleshgolem_hunt"><![CDATA[Jeu Dangereux]]></entry>
+	<entry id="combat_skill_name_fleshgolem_mind_shot"><![CDATA[Tir de l'esprit]]></entry>
+	<entry id="combat_skill_name_fleshgolem_keening"><![CDATA[Affutâge]]></entry>
+	<entry id="combat_skill_name_fleshgolem_wither"><![CDATA[Atrophie]]></entry>
+	<entry id="combat_skill_name_fleshgolem_scourge"><![CDATA[Fléau]]></entry>
+	<entry id="combat_skill_name_fleshgolem_move"><![CDATA[Mouvement]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.eldritch_comfort"><![CDATA[Réconfort Sombre]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.eldritch_veil"><![CDATA[Voile de Chair]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.hunt"><![CDATA[Jeu Dangereux]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.mind_shot"><![CDATA[Tir de l'esprit]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.keening"><![CDATA[Affutâge]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.wither"><![CDATA[Atrophie]]></entry>
+	<entry id="upgrade_tree_name_fleshgolem.scourge"><![CDATA[Fléau]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.move"><![CDATA[Mouvement]]></entry>
+    
+	<entry id="effect_tooltip_steal_bsrc_companion"><![CDATA[Le bonus contre le {colour_start|stress}Stress{colour_end} ne peut pas être cumulé]]></entry>
+	
+	
+<!--Mode-->
+    <entry id="str_skill_mode_info_proteanset"><![CDATA[{colour_start|set_title}Mode Protéen: {colour_end}]]></entry>
+	<entry id="str_skill_mode_info_resolvedset"><![CDATA[{colour_start|set_title}Mode Exuvié: {colour_end}]]></entry>
+    <entry id="actor_mode_name_resolvedset"><![CDATA[Exuvié]]></entry>
+	<entry id="actor_mode_name_proteanset"><![CDATA[Protéen]]></entry>
+
+<!--Blacksmtih/Guild-->
+    <entry id="action_verbose_body_guild_fleshgolem"><![CDATA[Un golem invoqué par d'ancient rituels, dans lequel une Âme humaine as vécu durant des decénnies...]]></entry>	
+	<entry id="action_verbose_body_blacksmith_fleshgolem"><![CDATA[Le corp fragile de l'Homonculus as peut-être besoin d'entretien, mais les pouvoirs qu'il confèrent a son hôte dépassent l'entendement, Sa carapace Protéene peut reproduire n'importe qu'elle arme ou armure a la perfection!]]></entry>
+	<entry id="fleshgolem_weapon_0"><![CDATA[Esprit brisé]]></entry>
+    <entry id="fleshgolem_weapon_1"><![CDATA[Esprit]]></entry>
+    <entry id="fleshgolem_weapon_2"><![CDATA[Esprit fou]]></entry>
+    <entry id="fleshgolem_weapon_3"><![CDATA[Esprit vif]]></entry>
+    <entry id="fleshgolem_weapon_4"><![CDATA["L'Esprit"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.weapon"><![CDATA[L'Âme]]></entry>
+	<entry id="fleshgolem_armour_0"><![CDATA[Chair Pourrie]]></entry>
+    <entry id="fleshgolem_armour_1"><![CDATA[Chair]]></entry>
+    <entry id="fleshgolem_armour_2"><![CDATA[Incarnation]]></entry>
+    <entry id="fleshgolem_armour_3"><![CDATA[Chair Renforcée]]></entry>
+    <entry id="fleshgolem_armour_4"><![CDATA["Le Corp"]]></entry>
+    <entry id="upgrade_tree_name_fleshgolem.armour"><![CDATA[La Chair]]></entry>
+	<entry id="action_verbose_body_camping_trainer_fleshgolem"><![CDATA[La Chair n'as que peu a offrir, a moin d'une légère compensation...]]></entry>
+  
+	
+<!--Camp_Skills-->	
+	<entry id="camping_skill_name_FG_campskill1"><![CDATA[Chair D'Horreur]]></entry>
+    <entry id="camping_skill_name_FG_campskill2"><![CDATA[Ouvre ton Esprit!]]></entry>
+    <entry id="camping_skill_name_FG_campskill3"><![CDATA[Un marché équitable?]]></entry>
+    <entry id="camping_skill_name_FG_campskill4"><![CDATA[Un étrange cadeau]]></entry>
+    
+	
+	 <entry id="town_event_title_first_fleshgolem"><![CDATA[Une Arrivé Troublante]]></entry>
+	 <entry id="town_event_description_first_fleshgolem"><![CDATA[Rejeté partout une étrange silhouette s'est frayée un chemin vers le Hameau, puisse-t-elle trouver la rédemption parmis les Horreurs locales...]]></entry>
+ 
+ 
+ <!--Ethereal Tooltips -->
+   <entry id="buff_stat_tooltip_upgrade_discount_ssf"><![CDATA[Switch to {colour_start|set_title}Exuviated Mode{colour_end}]]></entry>
+ 	
+   <!-- Healer shell -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HealS1"><![CDATA[{colour_start|green}Carapace de Soigneur:{colour_end} 
+	+2 {colour_start|green}Soin{colour_end} additionel/+5%% de résistance au {colour_start|blight}poison{colour_end} ]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS2"><![CDATA[{colour_start|green}Carapace de Soigneur:{colour_end} 
+	+2 {colour_start|green}Soin{colour_end} additionel/+10%% de résistance au {colour_start|blight}poison{colour_end} ]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS3"><![CDATA[{colour_start|green}Carapace de Soigneur:{colour_end} 
+	+3 {colour_start|green}Soin{colour_end} additionel/+15%% de résistance au {colour_start|blight}poison{colour_end} ]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS4"><![CDATA[{colour_start|green}Carapace de Soigneur:{colour_end} 
+	+3 {colour_start|green}Soin{colour_end} additionel/+20%% de résistance au {colour_start|blight}poison{colour_end} ]]></entry>
+ 	<entry id="buff_stat_tooltip_upgrade_discount_HealS5"><![CDATA[{colour_start|green}Carapace de Soigneur:{colour_end} 
+	+4 {colour_start|green}Soin{colour_end} additionel/+30%% de résistance au {colour_start|blight}poison{colour_end} ]]></entry>
+ 	      		  
+  <!-- Tank Carapace -->
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS1"><![CDATA[{colour_start|stealth}Carapace de Tank:{colour_end}
+	+10%% MAX HP/+10%% PROT]]></entry>                                                            
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS2"><![CDATA[{colour_start|stealth}Carapace de Tank:{colour_end}
+	+15%% MAX HP/+10%% PROT]]></entry>                                                            
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS3"><![CDATA[{colour_start|stealth}Carapace de Tank:{colour_end}
+	+20%% MAX HP/+20%% PROT]]></entry>                                                            
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS4"><![CDATA[{colour_start|stealth}Carapace de Tank:{colour_end}
+	+25%% MAX HP/+20%% PROT]]></entry>                                                            
+    <entry id="buff_stat_tooltip_upgrade_discount_TankS5"><![CDATA[{colour_start|stealth}Carapace de Tank:{colour_end}
+	+30%% MAX HP/+30%% PROT]]></entry>
+	
+   
+	
+  <!-- Hunt Carapace -->
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS1"><![CDATA[{colour_start|riposte}Carapace du Chasseur:{colour_end} 
+	+6%% CRT/{colour_start|riposte} Riposte{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_HuntS2"><![CDATA[{colour_start|riposte}Carapace du Chasseur:{colour_end} 
+	+9%% CRT/{colour_start|riposte} Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS3"><![CDATA[{colour_start|riposte}Carapace du Chasseur:{colour_end}
+	+12%% CRT/{colour_start|riposte} Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS4"><![CDATA[{colour_start|riposte}Carapace du Chasseur:{colour_end} 
+	+15%% CRT/{colour_start|riposte} Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HuntS5"><![CDATA[{colour_start|riposte}Carapace du Chasseur:{colour_end} 
+	+17%% CRT/{colour_start|riposte} Riposte{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH1"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} de -4 PRÉ si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH2"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} de -6 PRÉ si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH3"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} de -9 PRÉ si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH4"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} de -12 PRÉ si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH5"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} de -15 PRÉ si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH12"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la  {colour_start|blight}Carapace Caustique{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH22"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la  {colour_start|blight}Carapace Caustique{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH32"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la  {colour_start|blight}Carapace Caustique{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH42"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la  {colour_start|blight}Carapace Caustique{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTH52"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la  {colour_start|blight}Carapace Caustique{colour_end}]]></entry>
+	
+  <!-- Damage Carapace -->
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS1"><![CDATA[{colour_start|bleed}Carapace Offensive:{colour_end} 
+	+10%% DGT/+5 PRÉ]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS2"><![CDATA[{colour_start|bleed}Carapace Offensive:{colour_end} 
+	+15%% DGT/+9 PRÉ]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS3"><![CDATA[{colour_start|bleed}Carapace Offensive:{colour_end} 
+	+20%% DGT/+14 PRÉ]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS4"><![CDATA[{colour_start|bleed}Carapace Offensive:{colour_end} 
+	+25%% DGT/+17 PRÉ]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_DmgS5"><![CDATA[{colour_start|bleed}Carapace Offensive:{colour_end} 
+	+30%% DGT/+20 PRÉ]]></entry>
+   
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDM1"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -4%% CRIT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM2"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -7%% CRIT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM3"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -10%% CRIT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM4"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -13%% CRIT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM5"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -16%% CRIT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  
+                                                         
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTDM12"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 4pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM22"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 4pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM32"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 5pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM42"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 5pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTDM52"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 6pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   
+  <!-- Caustic Carapace -->
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS1"><![CDATA[{colour_start|blight}Carapace Caustique:{colour_end} 
+   Active les {colour_start|blight}Poison{colour_end} additionels (110%%)/Active les {colour_start|stun}Étourdissement{colour_end} additionels (110%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS2"><![CDATA[{colour_start|blight}Carapace Caustique:{colour_end} 
+   Active les {colour_start|blight}Poison{colour_end} additionels (120%%)/Active les {colour_start|stun}Étourdissement{colour_end} additionels (120%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS3"><![CDATA[{colour_start|blight}Carapace Caustique:{colour_end} 
+   Active les {colour_start|blight}Poison{colour_end} additionels (130%%)/Active les {colour_start|stun}Étourdissement{colour_end} additionels (130%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS4"><![CDATA[{colour_start|blight}Carapace Caustique:{colour_end} 
+   Active les {colour_start|blight}Poison{colour_end} additionels (140%%)/Active les {colour_start|stun}Étourdissement{colour_end} additionels (140%%)]]></entry>
+   <entry id="buff_stat_tooltip_upgrade_discount_CausticS5"><![CDATA[{colour_start|blight}Carapace Caustique:{colour_end} 
+   Active les {colour_start|blight}Poison{colour_end} additionels (150%%)/Active les {colour_start|stun}Étourdissement{colour_end} additionels (150%%)]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_FgTTCT1"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT2"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT3"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT4"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT5"><![CDATA[Peut infliger un {colour_start|stun}Étourdissement{colour_end} si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT12"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -10%% PROT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT22"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -13%% PROT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry>  	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT32"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -15%% PROT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT42"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -17%% PROT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+	<entry id="buff_stat_tooltip_upgrade_discount_FgTTCT52"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -20%% PROT si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+	
+    <!-- buff Carapace -->
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS1"><![CDATA[{colour_start|buff}Carapace Occulte:{colour_end} 
+   Active les {colour_start|buff}Malus{colour_end} additionels (110%%)/+5 Esquive]]></entry>                    
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS2"><![CDATA[{colour_start|buff}Carapace Occulte:{colour_end} 
+   Active les {colour_start|buff}Malus{colour_end} additionels (120%%)/+10 Esquive]]></entry>                   
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS3"><![CDATA[{colour_start|buff}Carapace Occulte:{colour_end} 
+   Active les {colour_start|buff}Malus{colour_end} additionels (130%%)/+15 Esquive]]></entry>                   
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS4"><![CDATA[{colour_start|buff}Carapace Occulte:{colour_end} 
+   Active les {colour_start|buff}Malus{colour_end} additionels (140%%)/+20 Esquive]]></entry>                  
+   <entry id="buff_stat_tooltip_upgrade_discount_buffS5"><![CDATA[{colour_start|buff}Carapace Occulte:{colour_end} 
+   Active les {colour_start|buff}Malus{colour_end} additionels (150%%)/+25 Esquive]]></entry>
+   
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB1"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -10 Esquive si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB2"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -13 Esquive si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB3"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -15 Esquive si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB4"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -17 Esquive si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB5"><![CDATA[Peut infliger un {colour_start|buff}Malus{colour_end} -20 Esquive si as la {colour_start|buff}Carapace Occulte{colour_end}]]></entry> 	  
+   
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB12"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 2pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB22"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 3pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB32"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 4pts/1rd si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB42"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 3pts/2rds si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   <entry id="buff_stat_tooltip_upgrade_discount_FgTTDB52"><![CDATA[Peut infliger un {colour_start|blight}Poison{colour_end} 4pts/2rds si as la {colour_start|blight}Carapace Caustique{colour_end}]]></entry>	  
+   
+	
+  <!-- Soothing Carapace -->
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS1"><![CDATA[{colour_start|notable}Carapace Apaisante:{colour_end} 
+   +10%% {colour_start|stress}Stress{colour_end} Soigné/+2 VIT]]></entry>                  
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS2"><![CDATA[{colour_start|notable}Carapace Apaisante:{colour_end} 
+   +10%% {colour_start|stress}Stress{colour_end} Soigné/+4 VIT]]></entry>                  
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS3"><![CDATA[{colour_start|notable}Carapace Apaisante:{colour_end} 
+   +20%% {colour_start|stress}Stress{colour_end} Soigné/+5 VIT]]></entry>                  
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS4"><![CDATA[{colour_start|notable}Carapace Apaisante:{colour_end} 
+   +20%% {colour_start|stress}Stress{colour_end} Soigné/+5 VIT]]></entry>                  
+  <entry id="buff_stat_tooltip_upgrade_discount_SoothingS5"><![CDATA[{colour_start|notable}Carapace Apaisante:{colour_end} 
+   +30%% {colour_start|stress}Stress{colour_end} Soigné/+6 VIT]]></entry>
+	
+   
+    
+	<!-- Rot -->
+	<entry id="str_quirk_name_flesh_rot"><![CDATA[{colour_start|set_title}Malédiction de la Chair{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_rot"><![CDATA[Chance de {colour_start|bleed}Coup Fatal{colour_end} réduite à 0%%
+	Ne peut être {colour_start|bleed}Saigné{colour_end}
+	-50%% de Nourriture consommé
+	0 {colour_start|green}Soin{colour_end} avec la nourriture]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_rot3"><![CDATA[+20%% {colour_start|stress}Stress{colour_end}
+	{colour_start|set_title}"Vous vous sentez vide a l'intérieur de vous..."{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_poison"><![CDATA[{colour_start|blight}Blighted{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_flesh_rot"><![CDATA[has {colour_start|set_title}Flesh Curse{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_hounds_harry"><![CDATA[Hound's Harry]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[When hit:]]></entry>
+	
+	
+	<!-- Trinket -->
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg1"><![CDATA[1]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg2"><![CDATA[2]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg3"><![CDATA[3]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg4"><![CDATA[4]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg5"><![CDATA[{colour_start|blight}Blight{colour_end} si as {colour_start|set_title}Malédiction de la Chair{colour_end}]]></entry>
+  
+    <entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg6"><![CDATA[6]]></entry>
+    
+	<entry id="buff_stat_tooltip_upgrade_discount_Trinket_Fleshg7 "><![CDATA[7]]></entry>
+
+<entry id="str_inventory_title_trinketthe_mind"><![CDATA[Cerveau Vide]]></entry>
+	<entry id="str_inventory_title_trinketthe_body"><![CDATA[Parie Manquante]]></entry>
+	<entry id="str_inventory_title_trinketprotean_shell"><![CDATA[Carapace Protéenne]]></entry>
+	
+	
+	<entry id="str_inventory_title_estateFlesh_RotI"><![CDATA[Appendice Anormal]]></entry>
+	<entry id="str_inventory_description_estateFlesh_RotI"><![CDATA[Cette chose a l'air, vivante! vous ne devriez pas y toucher...]]></entry>
+
+	<entry id="str_inventory_title_trinketflesh_axe"><![CDATA[Hache Vicieuse]]></entry>
+	<entry id="str_inventory_title_trinketflesh_book"><![CDATA[Volumes Oubliés]]></entry>
+	<entry id="str_inventory_title_trinketflesh_crossbow"><![CDATA[Arbalète Monstrueuse]]></entry>
+	<entry id="str_inventory_title_trinketflesh_decoction"><![CDATA[Fiole Étrange]]></entry>
+	<entry id="str_inventory_title_trinketflesh_helmet"><![CDATA[Zèle Consacré]]></entry>
+	<entry id="str_inventory_title_trinketflesh_mask"><![CDATA[Masque Rajeunissant]]></entry>
+	<entry id="str_inventory_title_trinketflesh_shield"><![CDATA[Bouclier Vivant]]></entry>
+	<entry id="str_inventory_title_trinketflesh_skull"><![CDATA[Idole Ancienne]]></entry>
+	<entry id="str_inventory_title_trinketflesh_whistle"><![CDATA[Harmonie Sanglante]]></entry>
+	<entry id="str_inventory_title_trinketalphonse's_head"><![CDATA[Tête d'Alphonse's]]></entry>
+	
+	
+	<entry id="trinket_rarity_fleshgolem"><![CDATA[Homonculus]]></entry>
+	<entry id="trinket_rarity_fgrefracted"><![CDATA[Refracté]]></entry>
+    <entry id="trinket_rarity_fgcrimson"><![CDATA[Cramoisi]]></entry>
+    <entry id="trinket_rarity_fgafflicted"><![CDATA[Affligé]]></entry>
+	<entry id="trinket_rarity_flesh"><![CDATA[Chair]]></entry>
+  	
+		
+ 
+ </language>
+ </root>
+ 

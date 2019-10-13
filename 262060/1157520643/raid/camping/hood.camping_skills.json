@@ -1,0 +1,200 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+
+
+		{
+
+			"id" : "where_the_f",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.8 },
+                    "type": "buff",
+                    "sub_type" : "campingScoutingBuff",
+					"amount" :  0.1
+				}
+			],
+			"hero_classes" : ["hood" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+		{
+
+			"id" : "check_her_bag",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" : 
+			[
+			
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.66 },
+					"type": "loot",
+					"sub_type": "P",
+					"amount": 1
+				},			
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.66 },
+					"type": "loot",
+					"sub_type": "S",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.33 },
+					"type": "loot",
+					"sub_type": "T_ANTIQ_CAMP",
+					"amount": 1
+				}					
+			],
+			"hero_classes" : ["hood" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+
+			]
+		},
+
+		{		 
+			"id" : "found_a_clover",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.9 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.2
+				},	
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.75 }, 
+					"type" : "buff",
+					"sub_type" : "campingDEFBuff",					
+					"amount" :  0.15
+				}
+			],
+
+			"hero_classes" : ["hood" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+
+		{
+
+			"id" : "oops",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.33 }, 
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",					
+					"amount" :  2
+				},	
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.33 },
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.33 },
+                    "type": "reduce_ambush_chance",
+                    "sub_type" : "",
+					"amount" : 1.0
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 0.33 },
+                    "type": "buff",
+                    "sub_type" : "campingHealReceivedBuff",
+					"amount" :  0.33
+				}
+			],
+			"hero_classes" : ["hood" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+
+
+
+	] 
+}

@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "id": "acolyte_quirk_recruit",
+            "base_chance": 1.0,
+            "per_not_rolled_additional_chance": 2.0,
+            "cooldown": 4,
+            "requirements": {
+                "minimum_week": 10,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "quirked_recruit",
+                    "string_data": "acolyte_quirk",
+                    "number_data": 1.0
+                },
+                {
+                    "type": "event_cost",
+                    "string_data": "gold",
+                    "number_data": 1000.0
+                }
+            ]
+        }
+    ]
+}

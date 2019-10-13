@@ -1,0 +1,192 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "PETS_quirk_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_accuracy",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_patrol"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_tip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PETS_quirk_tip_1_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "PETS_quirk_tip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PETS_quirk_tip_2_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      }	 ,
+	  	  {
+         "id" : "PETS_quirk_tip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PETS_quirk_tip_3_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "PETS_quirk_tip_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PETS_quirk_tip_4_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	   {
+         "id" : "LOCH_fabled_fear",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "lochness_slap"
+         }
+      },
+	    {
+         "id" : "LOCH_quirk_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "trained_carrion_eater_big"
+         }
+      },
+      {
+         "id" : "LOCH_quirk_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "actor_base_class",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "trained_carrion_eater_big"
+         }
+      }  
+   ]
+}
+	

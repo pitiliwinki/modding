@@ -1,0 +1,34 @@
+{
+    "props": [
+        {
+            "name": "crypts_door",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door"
+                },
+                "graphics_file": "props/crypts/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        },
+        {
+            "name": "crypts_door_shovel",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door_shovel"
+                },
+                "graphics_file": "props/crypts/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        },
+        {
+            "name": "crypts_door_key",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door_key"
+                },
+                "graphics_file": "props/crypts/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        }
+    ]
+}

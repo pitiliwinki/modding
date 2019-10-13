@@ -1,0 +1,137 @@
+{
+    "monster_brains": [
+ {
+            "id": "com_crocodile_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "submerge",
+                    "amount": 1
+                },
+                {
+                    "combat_skill_id": "angry_hive",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "angry_hive"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2.0,
+                        "combat_skill_id": "teeth_rake"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "move_from_left",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10.0,
+                        "combat_skill_id": "move_from_right",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "submerge",
+                        "performer_rounds_in_rank_min": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100.0,
+                        "combat_skill_id": "submerge_nuke"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "chevalier_A",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "buried_blast",
+                    "amount": 3
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_blast"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "buried_skewer"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+    ]
+}

@@ -1,0 +1,1739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <language id="english">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="french">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="dutch">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="german">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="spanish">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="brazilian">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="russian">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="polish">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="czech">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="italian">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="schinese">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="koreanb">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="koreana">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+  <language id="japanese">
+	<!-- Curios -->
+	<entry id="str_curio_title_sels_lost_shipments"><![CDATA[Lost Shipment]]></entry>
+	<entry id="str_curio_content_sels_lost_shipments"><![CDATA[Seems like this was abandoned in a hurry.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_lost_shipments"><![CDATA[Interact to gather the shipment.]]></entry>
+	
+	<entry id="str_curio_title_sels_enchantment_table"><![CDATA[Enchantment Table]]></entry>
+	<entry id="str_curio_content_sels_enchantment_table"><![CDATA[Can be used to create enchanted weapons.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_enchantment_table"><![CDATA[Interact with a enchant item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_loot"><![CDATA[You have created a new enchanted item.]]></entry>
+	<entry id="str_curio_sels_enchantment_table_nothing"><![CDATA[You require a enchantment item to use this table.]]></entry>
+	
+	<entry id="str_curio_title_sels_tr_relic_hunter_corpse"><![CDATA[Deceased Relic Hunter]]></entry>
+	<entry id="str_curio_content_sels_tr_relic_hunter_corpse"><![CDATA[This relic hunter wandered into the wrong area.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sels_tr_relic_hunter_corpse"><![CDATA[Interact to search the corpse.]]></entry>
+	
+	<!-- Quests -->
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_A"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_A"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_A"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_A_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_A_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_B"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_B"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_B"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_B_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_B_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	<entry id="town_quest_name_sels_hamlet_enchant_trinkets_C"><![CDATA[Enchant Items]]></entry>
+	<entry id="town_quest_progress_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	<entry id="town_quest_description_sels_hamlet_enchant_trinkets_C"><![CDATA[The blacksmith has told us the location of enchantment tables that can be found in the outskirts of the hamlet. We can use the tables to create enchanted items.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_hamlet_enchant_trinkets_C"><![CDATA[Explore 40% of rooms]]></entry>
+	
+	<entry id="str_embarked_on_sels_hamlet_enchant_trinkets_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt create enchanted items.]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_success"><![CDATA[{?hero_names}%s successfully enchanted new trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_hamlet_enchant_trinkets_C_failure"><![CDATA[{?hero_names}%s somehow managed to fail enchanting trinkets. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_hamlet_enchant_trinkets_C_tip"><![CDATA[Use the enchantment items on the curios in order to create enchated items.]]></entry>
+	
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_A"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_A"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_A"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_A"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_A"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_A"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_A"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_A_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_A_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_B"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_B"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_B"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_B"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_B"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_B"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_B"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_B_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_B_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	<entry id="town_event_title_sels_tr_event_cove_lost_shipment_C"><![CDATA[Lost Shipments]]></entry>
+	<entry id="town_event_description_sels_tr_event_cove_lost_shipment_C"><![CDATA[The Blacksmith was supposed to receive some important shipments by ship this week. They still don't have arrived. Set out to the Cove and recover the shipments.]]></entry>
+	
+	<entry id="town_quest_name_sels_cove_lost_shipments_C"><![CDATA[Recover the Lost Shipments]]></entry>
+	<entry id="town_quest_progress_sels_cove_lost_shipments_C"><![CDATA[Activate 3 Lost Shipments]]></entry>
+	<entry id="town_quest_description_sels_cove_lost_shipments_C"><![CDATA[Explore the Cove and find the shipments the Blacksmith was supposed to receive. He promised we could keep any addition items we find.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_cove_lost_shipments_C"><![CDATA[[Recover the Lost Shipments]]></entry>
+	
+	<entry id="str_embarked_on_sels_cove_lost_shipments_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Lost Shipments]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_success"><![CDATA[{?hero_names}%s successfully recovered the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_cove_lost_shipments_C_failure"><![CDATA[{?hero_names}%s failed to recover the lost shipments. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	<entry id="str_sels_cove_lost_shipments_C_tip"><![CDATA[Explore the home of the pelagic cultists and find the Lost Shipments.]]></entry>
+	
+	
+	
+	<entry id="town_event_title_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[Ambushed Caravan]]></entry>
+	<entry id="town_event_description_sels_tr_event_weald_ambushed_caravan_C"><![CDATA[A caravan guard just arrived at the hamlet. The caravan he was part of got ambushed by something in the weald. The leader of the caravan, a relic hunter, was last seen defending the caravan with his life.]]></entry>
+	
+	<entry id="town_quest_name_sels_weald_deceased_relic_hunter_C"><![CDATA[Search for the Deceased Relic Hunter]]></entry>
+	<entry id="town_quest_progress_sels_weald_deceased_relic_hunter_C"><![CDATA[Interact with the corpse of the Relic Hunter]]></entry>
+	<entry id="town_quest_description_sels_weald_deceased_relic_hunter_C"><![CDATA[We should take this opportunity to search for any trinkets we could use for our cause. We should be careful however, the area is crawling with monsters and the one responsible for the ambush might still be around.]]></entry>
+	
+	<entry id="str_caretaker_goal_sels_weald_deceased_relic_hunter_C"><![CDATA[[Search for the Deceased Relic Hunter]]></entry>
+	
+	<entry id="str_embarked_on_sels_weald_deceased_relic_hunter_C"><![CDATA[{?hero_names}%s has volunteered to enter the {?difficulty}%s {?length}%s dungeon in an attempt to find the Deceased Relic Hunter]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_success"><![CDATA[{?hero_names}%s managed to defeat the ambushers and successfully found the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	<entry id="str_returned_from_sels_weald_deceased_relic_hunter_C_failure"><![CDATA[{?hero_names}%s got overwhelmed by the ambushers and failed to find the deceased relic hunter. ({?difficulty}%s {?length}%s)]]></entry>
+	
+	
+	<entry id="str_sels_weald_deceased_relic_hunter_C_tip"><![CDATA[Follow the path that the caravan took and attempt to locate the corpse of the relic hunter.]]></entry>
+	
+  </language>
+</root>

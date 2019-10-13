@@ -1,0 +1,421 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+	
+			{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "remove_poison",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "BARB_Herbs_of_the_Wild_Camp",
+					"amount": 1
+				}
+			],
+			"hero_classes" : [ "barbarian" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+
+		{
+
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}							
+			],
+			"hero_classes" : [ "barbarian" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+			{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.15
+				}
+			],
+			"hero_classes" : [ "barbarian" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+		{
+			"id" : "barb_1",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_ACCBuffMelee_self",
+					"amount" :  0.08
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_CritBuffMelee_self",
+					"amount" :  0.03
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.80 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_ACCBuffMelee_group",
+					"amount" :  0.04
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 0.80 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_CritBuffMelee_group",
+					"amount" :  0.01
+				}
+			],
+			"hero_classes" : ["barbarian"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1950 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+
+		{
+
+			"id" : "barb_2",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+
+				{ 
+					"selection" : "party",
+					"requirements" : ["not_religious"],
+					"chance" : { "code" : "a", "amount": 0.30 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  12,
+					"has_description" : false
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : ["not_religious"],
+					"chance" : { "code" : "a", "amount": 0.70 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  8
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "b", "amount": 0.20 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  6
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "b", "amount": 0.60 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  4
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "b", "amount": 0.20 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  6
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.25 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_StressLower_group",
+					"amount" :  -0.20
+				}			
+			],
+			"hero_classes" : ["barbarian"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1950 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+
+		{
+			"id" : "barb_3",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_beast_low",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_beast_high",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_man_low",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_man_high",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_spider_low",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_monsterType_spider_high",
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 0.25 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_speed_vs_beast",
+					"amount" :  4
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "f", "amount": 0.25 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_speed_vs_man",
+					"amount" :  4
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "g", "amount": 0.25 }, 
+					"type" : "buff",
+					"sub_type" : "BARB_camping_speed_vs_spider",
+					"amount" :  4
+				}
+			],
+			"hero_classes" : ["barbarian" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1950 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+		{ 
+			"id" : "barb_4",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_buff_stun_resist",
+					"amount" :  0.20
+				},
+					{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.75 },
+                    "type": "buff",
+                    "sub_type" : "BARB_camping_buff_speed",
+					"amount" :  3
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "BARB_Herbs_of_the_Wild_Camp",
+					"amount": 1
+				}
+			
+			],
+			"hero_classes" : ["barbarian"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1450 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		}
+
+	] 
+}

@@ -1,0 +1,49 @@
+{
+   "entries":
+   [
+     
+      {
+         "id" : "guqin_com_one",
+         "buffs" : 
+         [
+			"GQCOM_HUSK_DMGL",
+			"GQCOM_HUSK_DMGH",
+			"GQCOM_SIZE2_DMGL",
+			"GQCOM_SIZE2_DMGH",
+			"GQCOM_Random"
+         ],
+         "hero_class_requirements":
+         [
+            "guqin"
+         ],
+         "rarity" : "comet",
+         "shard" : 45,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "guqin_com_two",
+         "buffs" : 
+         [
+			"GQCOM_ACC_Pen"
+         ],
+         "hero_class_requirements":
+         [
+            "guqin"
+         ],
+         "rarity" : "comet",
+         "shard" : 90,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects":
+         [
+             "GQCOM Cure"
+         ],
+         "attack_skill_additional_effects":
+         [
+             "GQ Heal Miss"
+         ]
+      }
+     
+   ]
+}

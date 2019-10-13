@@ -1,0 +1,146 @@
+The Slayer is a brutal, doomed warrior hell-bent on the destruction of the horrors that surround the hamlet. Wielding a demon-bound shotgun and donning eldritch corrupted platemail, the Slayer uses the monster's powers against them in the unending crusade to release the manor from the grip of darkness.
+
+[img]https://i.imgur.com/ooJmElz.png[/img]
+
+The Slayer is most comfortable in the middle ranks where he can unleash hellfire from the mouth of his slavering shotgun, but is not afraid of getting up close and personal to use his impossible brute strength to literally tear the life out of his opponents. When the beast's thirst for violence reaches its peak, he can unleash a single glorious strike bound to annihilate whatever unfortunate soul crosses their path. But be wary; the eldritch horrors possessing the Slayer's equipment are fickle, and have been known to lash out in anger if called upon too often.
+
+
+-- Please note this initial release may have some bugs, string errors, or odd looking animations. The class is stable, but we'll be continuing to update the mod and fixing bugs as they appear. Let us know in the comments if something seems odd, or your thoughts on the character. Be aware there may be languages that lack a proper Localization for the class; if you're playing in one of these languages and get odd blue text in place of names or skills, let us know and we'll fix it. Thank you! --
+
+
+--- SKILLS ---
+Each of the Slayer's attacks add to the damage, accuracy, or crit chance of BOUND FOR GLORY
+
+[img]https://i.imgur.com/x2Y4J8Z.png[/img]
+RUN AND GUN
+Ranged
+- O O - | O-O - -
+Powerful attack against front two ranks. Pushes Slayer back 1. Damage scales up as level increases.
+
+[img]https://i.imgur.com/nK3lELz.png[/img]
+REELING RELOAD
+Ranged
+O O - - | - - O O
+Moderately damaging attack that pulls the target forward 3. Pushes Slayer forward 2.
+
+[img]https://i.imgur.com/9BNvrXb.png[/img]
+SPIKE SABOT
+Melee
+- O O O | O O - -
+Lightly damaging attack that stuns and pushes the target back 2.
+
+[img]https://i.imgur.com/3isBA1o.png[/img]
+TAG AND BAG
+Ranged
+O O O - | O O O O
+Marks target. Increases damage taken by target.
+
+[img]https://i.imgur.com/rSsiRFA.png[/img]
+BITING BLADE
+Melee
+- - O O | O O - -
+Damaging attack. Shreds target protection.
+
+[img]https://i.imgur.com/6ac1VkH.png[/img]
+RIP AND TEAR
+Melee
+- - O O | O O - -
+Moderately damaging attack. Heals HP and Stress.
+
+[img]https://i.imgur.com/V4Pfn1f.png[/img]
+BOUND FOR GLORY
+Ranged
+- - O O | O O O O
+Moderately damaging attack with low accuracy and crit. Damage scales heavily with level. Other skills add accuracy, damage, and crit chance, lasting until camp. Low chance of damaging self on use. Frequent use increases self damage. Limited uses per combat, with more uses added with levels. Pushes Slayer back 2.
+
+
+
+--- TRINKETS ---
+
+[img]https://i.imgur.com/T8PTinb.png[/img]
+FIELD DRESSING
+Common
++25% Healing Received
++10% Stress Healed
+
+[img]https://i.imgur.com/HIpxUBg.png[/img]
+SIN EATER'S LEER
+Common
++8 ACC
++2% Crit
+
+[img]https://i.imgur.com/Nj5BVte.png[/img]
+EARTHCRACKER SHELLS
+Uncommon
++20% Damage to skill Run and Gun
+-12 ACC to skill Run and Gun
+
+[img]https://i.imgur.com/dc97vVM.png[/img]
+HARDENED BONE SPIKE
+Uncommon
++20% Stun Skill Chance
++20% Move Skill Chance
+
+[img]https://i.imgur.com/DjfvBw0.png[/img]
+RAZORBONE EVISCERATOR
+Rare
++30% Debuff Skill Chance
++8% Crit vs Size 2 and Larger
+
+[img]https://i.imgur.com/7FZYAxW.png[/img]
+SLAYER'S MARK
+Rare
+-15% Damage Dealt
++10% Crit
++25% Stress Healed
+
+[img]https://i.imgur.com/EqvslUO.png[/img]
+BLOODTHIRSTY PERIAPT
+Very Rare
++25% Melee Damage
+-35% Ranged Damage
+
+--- CRIMSON COURT TRINKETS ---
+
+[img]https://i.imgur.com/osDdlYc.png[/img]
+FOURFOLD HARM CHARM
+Crimson Court
++100% Damage Dealt
++100% Damage Received
+
+[img]https://i.imgur.com/wD2mPWM.png[/img]
+PARASITIC GAUNTLET
+Crimson Court
++15% Prot
++15% Deathblow Resistance
++4 Spd if below 40% HP
+
+Set Bonus
++25% Healing Received if below 40% HP
++30% Prot if below 40% HP
+
+_____________________________________________________
+
+[img]https://i.imgur.com/FvvA1Yh.png[/img]
+
+Slayer Changelist v1.01 Release
+
+
+Bugfixes:
+	- Fixed an animation desync in a couple skills
+	- Slayer should spawn normally in the Stagecoach
+	- Slayer should now correctly be getting bonuses from the Training Ring
+	- Deployed a potential fix to the audio conflicts between certain mods.
+	
+Balance
+	- Lowered the damage on Run and Gun by 5% at all levels. 
+		- Realistically this is only a 1-2pt damage difference but it means that if you want to kill one thing it's better to use Biting Blade. Hopefully this will put a little more emphasis on the solution to all your monster-related problems being more than liberal application of shotguns.
+	- Adjusted damage scaling for BFG
+		- Now ranges from -20% to 0% at max level. Should feel better to use at lower levels and be easier to calculate damage later on.
+	- Lowered damage on Reeling Reload to -70% at all levels
+	- Changed Reeling Reload's targets to O O - - | - O O O
+		- Should give the Slayer something to do when he's in the back row and almost-but-not-quite everything is dead.
+	
+	
+	
+		

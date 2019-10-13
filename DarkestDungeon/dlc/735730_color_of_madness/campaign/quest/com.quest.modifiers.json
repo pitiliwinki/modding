@@ -1,0 +1,33 @@
+{
+    "modifiers":
+    [
+        {
+            "id": "endlight_a",
+            "condition_type": "wave_kill_count",
+            "condition_number_data": 200,
+            "hero_buffs": ["endlight_A_heroes_1","endlight_A_heroes_2"],
+            "monster_buffs": ["endlight_A_monsters_1"]
+        },
+        {
+            "id": "endlight_b",
+            "condition_type": "wave_kill_count",
+            "condition_number_data": 200,
+            "hero_buffs": ["endlight_B_heroes_1"],
+            "monster_buffs": ["endlight_B_monsters_1","endlight_B_monsters_2","endlight_B_monsters_3"]
+        },
+        {
+            "id": "endlight_c",
+            "condition_type": "wave_kill_count",
+            "condition_number_data": 200,
+            "hero_buffs": ["endlight_C_heroes_1"],
+            "monster_buffs": ["endlight_C_monsters_1","endlight_C_monsters_2"]
+        },
+        {
+            "id": "endlight_d",
+            "condition_type": "wave_kill_count",
+            "condition_number_data": 200,
+            "hero_buffs": ["endlight_D_heroes_1","endlight_D_heroes_2"],
+            "monster_buffs": ["endlight_D_monsters_1","endlight_D_monsters_2","endlight_D_monsters_3"]
+        }
+    ]
+}

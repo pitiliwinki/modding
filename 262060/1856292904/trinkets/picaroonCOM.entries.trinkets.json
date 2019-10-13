@@ -1,0 +1,31 @@
+{
+   "entries":
+   [
+		{
+         "id" : "parrot_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_parrot_stealth",
+			"PICA_trinket_parrot_move_chance",
+			"PICA_trinket_tooltip_buff"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "comet",
+         "shard" : 85,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_all_heroes_additional_effects":
+         [
+		  "PICA_trinket_parrot_chance_to_heal_1",
+		  "PICA_trinket_parrot_chance_to_heal_2",
+		  "PICA_trinket_parrot_chance_to_heal_3",
+		  "PICA_trinket_parrot_chance_to_destress_1",
+		  "PICA_trinket_parrot_chance_to_destress_2",
+		  "PICA_trinket_parrot_chance_to_destress_3"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "id" : "idle_resolve_level_grove_tender",
+			"base_chance":2.0,
+			"per_not_rolled_additional_chance":0.0,
+			"cooldown":2,
+			"requirements":{
+				"minimum_week":6,
+				"dead_heroes":0,
+				"hero_level_counts":[],
+				"upgrade_purchased":[],
+				"trinket_storage_count":0
+			},
+			 "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_ray_of_sunlight",
+            "sprite_attachment": "statue",
+			"data":[
+				{
+					"type": "idle_resolve_level",
+                    "string_data": "grove_tender",
+                    "number_data": 1.0
+				},
+				{
+					"type": "roster_stress_heal",
+                    "string_data": "",
+                    "number_data": 50.0
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,230 @@
+{
+   "entries":
+   [
+      {
+         "id" : "exorcist_missionary_cap",
+         "buffs" : 
+         [
+            "missionary_cap_stress_buff",
+            "missionary_cap_spd_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "exorcist_salt_pouch",
+         "buffs" : 
+         [
+            "salt_pouch_dodge_buff",
+			"salt_pouch_dmg_debuffl",
+			"salt_pouch_dmg_debuffh"
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "exorcist_pardoners_ring",
+         "buffs" : 
+         [
+            "pardoners_ring_stressheal_buff",
+			"pardoners_ring_hp_buff",
+			"pardoners_ring_stress_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "exorcist_bottled_phantasm",
+         "buffs" : 
+         [
+            "exo_bp_spd",
+			"exo_bp_crit",
+			"exo_bp_stress"			
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "exorcist_saints_wrist",
+         "buffs" : 
+         [
+            "exo_relic_virt",
+            "exo_sw_dmgl",
+			"exo_sw_dmgh",
+            "exo_sw_heal",
+            "exo_sw_hp"
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+		 "set_id" : "exo_relic_set",
+		 "rarity" : "very_rare",
+         "visual_rarity" : "exorelic",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "ruins"
+      },
+      {
+         "id" : "exo_ss",
+         "buffs" : 
+         [
+            "exo_relic_virt",
+            "exo_ss_dmgl",
+			"exo_ss_dmgh",
+            "exo_ss_stress",
+            "exo_ss_dodge"
+         ],
+         "hero_class_requirements":
+         [
+            "exorcist"
+         ],
+		 "set_id" : "exo_relic_set",
+		 "rarity" : "very_rare",
+         "visual_rarity" : "exorelic",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "ruins"
+      },	  
+	  {
+		 "id" : "exorcist_scorched_rosary",
+		 "buffs" :
+		 [
+			"rosary_debuff_buff",
+			"rosary_move_buff",
+			"rosary_stress_debuff"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"exorcist"
+		 ],
+		 "set_id" : "cc_exorcist",
+		 "rarity" : "crimson_court",
+		 "price" : 50000,
+		 "limit" : 1,
+		 "origin_dungeon" : "courtyard"
+	  },
+	  {
+		 "id" : "exorcist_cassock",
+		 "buffs" :
+		 [
+			"cassock_blight_buff",
+			"cassock_hp_buff",
+			"cassock_dmg_reflect",
+			"cassock_dodge_debuff",
+			"cassock_block_guard"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"exorcist"
+		 ],
+		 "set_id" : "cc_exorcist",
+		 "rarity" : "crimson_court",
+		 "price" : 50000,
+		 "limit" : 1,
+		 "origin_dungeon" : "courtyard"
+	  },
+	  {
+	     "id" : "exorcist_jawbone",
+		 "buffs" :
+		 [
+			"jawbone_dmg_buffl",
+			"jawbone_dmg_buffh",
+			"jawbone_acc_buff",
+			"jawbone_damrec_debuff",
+			"jawbone_stress_debuff",
+			"jawbone_spd_buff",
+			"jawbone_crit_buff"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"exorcist"
+		 ],
+		 "rarity" : "comet",
+         "shard" : 85,
+         "limit" : 1,
+         "origin_dungeon" : ""
+	   },
+      {
+         "id" : "exo_head",
+         "buffs" : 
+         [
+            "exo_head_stressheal",
+            "exo_head_stresshrec",
+            "exo_head_stressrec"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+		 "id" : "exo_asp",
+		 "buffs" :
+		 [
+			"exo_asp_dmgl",
+			"exo_asp_dmgh",
+			"exo_asp_stun",
+			"exo_asp_move",
+			"exo_asp_crit",
+			"exo_asp_blight"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"exorcist"
+		 ],
+		 "rarity" : "very_rare",
+		 "price" : 25000,
+		 "limit" : 1,
+		 "origin_dungeon" : ""
+	  },
+	  {
+		 "id" : "exo_sunward",
+		 "buffs" :
+		 [
+			"exo_si_heal",
+			"exo_si_tt",
+			"exo_si_acc"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"exorcist"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+		 "friendly_skill_additional_effects":
+		 [
+			 "Exo SI SPD Buff"
+		 ]
+	  }
+   ]
+}

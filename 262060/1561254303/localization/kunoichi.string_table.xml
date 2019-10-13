@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+		<entry id="hero_class_name_kunoichi"><![CDATA[Shadow Dancer]]></entry>
+		<entry id="action_verbose_body_blacksmith_kunoichi"><![CDATA[Kunoichi, master of shadows and hired assassin!  Kunoichi wears only light ninja uniform, which offers little protection, but it keep her mobile and deadly.  Her tanto, the tool of her trade, ever encase in blood.  She can toss shurikens with deadly accuracy and mark her targets.]]></entry>
+
+		<entry id="action_verbose_body_guild_kunoichi"><![CDATA[Kunoichi are deadly mercenaries ready for hire and motivated by personal gain. Kunoichi are only skilled in one thing, killing.  Her skills sets enable her to kill quickly and efficiently.  She is most dangerous when up close, but can dart back and forth in the shadow when in danger.  She relies on dishing out critical strikes at her enemies weak spots, always aiming for the kill.]]></entry>
+
+
+		<entry id="action_verbose_body_camping_trainer_kunoichi"><![CDATA[Kunoichi is master at planning death.  She can prepare to ambush her targets, or train other into being a more efficient killer.]]></entry>
+
+		<entry id="buff_rule_data_tooltip_disorienting_blast"><![CDATA[Shuriken Mark]]></entry>
+		<entry id="buff_rule_data_tooltip_blinding_gas"><![CDATA[Dirty Tricks]]></entry>
+		<entry id="buff_rule_data_tooltip_noxious_blast"><![CDATA[Assassinate]]></entry>
+		<entry id="buff_rule_data_tooltip_plague_grenade"><![CDATA[Vanish]]></entry>
+		<entry id="buff_rule_data_tooltip_incision"><![CDATA[Venom Fang]]></entry>
+		<entry id="buff_rule_data_tooltip_battlefield_medicine"><![CDATA[Focus]]></entry>
+		<entry id="buff_rule_data_tooltip_emboldening_vapours"><![CDATA[Execute]]></entry>
+		
+		
+		<entry id="buff_stat_tooltip_activity_side_effect_chance_tooltiptext"><![CDATA[%+d%% chance for {colour_start|stealth}Retsu Kuji{colour_end}]]></entry>		
+		<entry id="buff_stat_tooltip_upgrade_discount_KUN_STEAL_tooltip"><![CDATA[{colour_start|yellow}Dirty Tricks{colour_end} steal {colour_start|stealth}Stealth{colour_end}]]></entry> 
+
+
+
+		
+			<entry id="combat_skill_name_kunoichi_noxious_blast"><![CDATA[Assassinate]]></entry>
+			<entry id="combat_skill_name_kunoichi_plague_grenade"><![CDATA[Vanish]]></entry>
+    		<entry id="combat_skill_name_kunoichi_blinding_gas"><![CDATA[Dirty Tricks]]></entry>
+    		<entry id="combat_skill_name_kunoichi_incision"><![CDATA[Venom Fang]]></entry>
+    		<entry id="combat_skill_name_kunoichi_battlefield_medicine"><![CDATA[Focus]]></entry>
+    		<entry id="combat_skill_name_kunoichi_emboldening_vapours"><![CDATA[Execute]]></entry>
+    		<entry id="combat_skill_name_kunoichi_disorienting_blast"><![CDATA[Shuriken Mark]]></entry>
+    		<entry id="combat_skill_name_kunoichi_move"><![CDATA[Move]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.noxious_blast"><![CDATA[Assassinate]]></entry>
+			<entry id="upgrade_tree_name_kunoichi.plague_grenade"><![CDATA[Poison Bomb]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.blinding_gas"><![CDATA[Blinding Gas]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.incision"><![CDATA[Poison Fang]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.battlefield_medicine"><![CDATA[Focus]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.emboldening_vapours"><![CDATA[Execute]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.disorienting_blast"><![CDATA[Shuriken Mark]]></entry>
+
+    <entry id="str_inventory_title_trinketkunoichi_blight_dagger"><![CDATA[Blackadder]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_blight_edged_pendant"><![CDATA[Venom Edge Pendant]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_blood_dagger"><![CDATA[Kingslayer]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_dark_shadow_cloak"><![CDATA[Dark Shadow Cloak]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_red_shadow_cloak"><![CDATA[Crimson Cloak]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_red_slayer_ring"><![CDATA[Bloody Ring]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_shadow_crystal"><![CDATA[Dark Crystal]]></entry>
+    <entry id="str_inventory_set_title_cc_kunoichi"><![CDATA["Cloak and Dagger."]]></entry>
+	<entry id="str_inventory_set_title_ninja_shambler_set"><![CDATA["The true meaning of ninja."]]></entry>
+	<entry id="str_inventory_set_title_ninja_collector_set"><![CDATA["A higher spiritual state."]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_com_crystal_dagger"><![CDATA[Crystal Tanto]]></entry>
+    <entry id="str_inventory_title_trinketkunoichi_ninja_scroll"><![CDATA[Kujikiri Scroll]]></entry>
+	<entry id="str_inventory_title_trinketkunoichi_ninjutsu"><![CDATA[Ninjutsu Scroll]]></entry>
+	<entry id="str_inventory_title_trinketkunoichi_collector_hanzo"><![CDATA[Hanzo's Head]]></entry>
+	<entry id="str_inventory_title_trinketkunoichi_collector_chiyome"><![CDATA[Chiyome's Head]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} DMG]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} DMG]]></entry>
+
+	<entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% {colour_start|white}Horror{colour_end} duration received when applied]]></entry>
+	
+		<entry id="kunoichi_weapon_0"><![CDATA[Rusted Tanto]]></entry>
+   		<entry id="kunoichi_weapon_1"><![CDATA[Pointy Tanto]]></entry>
+    		<entry id="kunoichi_weapon_2"><![CDATA[Bloody Tanto]]></entry>
+    		<entry id="kunoichi_weapon_3"><![CDATA[Deadly Tanto]]></entry>
+    		<entry id="kunoichi_weapon_4"><![CDATA[Satsugai-sha]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.weapon"><![CDATA[Bloody Tanto]]></entry>
+    		<entry id="kunoichi_armour_0"><![CDATA[Worn Shinobi Shozoko]]></entry>
+    		<entry id="kunoichi_armour_1"><![CDATA[Light Shinobi Shozoko]]></entry>
+    		<entry id="kunoichi_armour_2"><![CDATA[Fine Shinobi Shozoko]]></entry>
+    		<entry id="kunoichi_armour_3"><![CDATA[Silk Shinobi Shozoko]]></entry>
+    		<entry id="kunoichi_armour_4"><![CDATA[Kage]]></entry>
+    		<entry id="upgrade_tree_name_kunoichi.armour"><![CDATA[Shinobi Shozoko]]></entry>
+
+		<entry id="camping_skill_name_kunoichi_demon_hunter"><![CDATA[SHADOW SCROLL]]></entry>
+		<entry id="camping_skill_name_art_of_death"><![CDATA[ART OF DEATH]]></entry>
+		<entry id="camping_skill_name_uncatchable_kun"><![CDATA[INNER PEACE]]></entry>
+		<entry id="camping_skill_name_kunoichi_dark_strength"><![CDATA[GINSENG CONCOCTION]]></entry>
+
+		<entry id="str_bark_art_of_death"><![CDATA[Shi no geijutsu.]]></entry>
+		<entry id="str_bark_kunoichi_dark_strength"><![CDATA[Koshitantan.]]></entry>
+		<entry id="str_bark_uncatchable_kun"><![CDATA[Uchinaru heiwa.]]></entry>	
+	
+
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[Shukketsushi...]]></entry>
+
+		<entry id="kun_bark_extra"><![CDATA[Retsu Kuji.]]></entry>
+		<entry id="kun_bark_stealth"><![CDATA[Kurai kage.]]></entry>
+		
+		
+		<entry id="trinket_rarity_sakura"><![CDATA[Sunward]]></entry>
+		<entry id="str_inventory_title_trinketkunoichi_kitsune_mask"><![CDATA[Kunoichi Kitsune Mask]]></entry>		
+
+
+		
+	     <entry id="kunoichi+str_afflicted_fearful"><![CDATA[Kowai.]]></entry>
+	     <entry id="kunoichi+str_afflicted_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_paranoid"><![CDATA[Moso.]]></entry>
+	     <entry id="kunoichi+str_afflicted_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_masochistic"><![CDATA[Mazo.]]></entry>
+	     <entry id="kunoichi+str_afflicted_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_abusive"><![CDATA[Bojoku.]]></entry>
+	     <entry id="kunoichi+str_afflicted_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_selfish"><![CDATA[Wagamama.]]></entry>
+	     <entry id="kunoichi+str_afflicted_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_depressed"><![CDATA[Utsubyo.]]></entry>
+	     <entry id="kunoichi+str_afflicted_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_irrational"><![CDATA[Fugori.]]></entry>
+	     <entry id="kunoichi+str_afflicted_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_afflicted_irrational"><![CDATA[...]]></entry>
+		 
+		 
+	     <entry id="kunoichi+str_virtued_stalwart"><![CDATA[Chusetsuna.]]></entry>
+	     <entry id="kunoichi+str_virtued_stalwart"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_virtued_courageous"><![CDATA[Yuki.]]></entry>
+	     <entry id="kunoichi+str_virtued_courageous"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_virtued_focused"><![CDATA[Shuchu shita.]]></entry>
+	     <entry id="kunoichi+str_virtued_focused"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_virtued_powerful"><![CDATA[Kyoryokuna.]]></entry>
+	     <entry id="kunoichi+str_virtued_powerful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_virtued_prosperous"><![CDATA[Hanei shite iru.]]></entry>
+	     <entry id="kunoichi+str_virtued_vigorous"><![CDATA[Genki ippai.]]></entry>
+	     <entry id="kunoichi+str_virtued_vigorous"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_stress_heal_self_stalwart"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_stress_heal_self_stalwart"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_stress_heal_party_courageous"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_stress_heal_party_courageous"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_buff_random_party_member_focused"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_buff_random_party_member_focused"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_buff_party_powerful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_buff_party_powerful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_heal_self_vigorous"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_heal_self_vigorous"><![CDATA[...]]></entry>
+		 
+		 
+	     <entry id="kunoichi+str_bark_stress_fearful"><![CDATA[Nigeru.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_paranoid"><![CDATA[Yami wa watashitachi o tabemasu.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_masochistic"><![CDATA[Watashi o taosu.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_abusive"><![CDATA[Noroi.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_selfish"><![CDATA[Ano kozan.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_depressed"><![CDATA[Mukankei.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_irrational"><![CDATA[Tanoshime.]]></entry>
+	     <entry id="kunoichi+str_bark_stress_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_fwd_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_change_pos_back_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_ignore_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_random_command_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_stress_camp_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_mark_self_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_friendly_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_attack_self_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_combat_retreat_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_self_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_selfish"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_attack_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_hit_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_comment_ally_missed_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_fearful"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_abusive"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_move_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_item_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_masochistic"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_heal_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_paranoid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_masochist"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_masochist"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_masochist"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_depressed"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_block_buff_irrational"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[Takai]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[ShOten]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[Shinigami]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[Eimin]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[Zetsumei]]></entry>
+	     <entry id="kunoichi+str_critbyhero"><![CDATA[KOkyo]]></entry>
+	     <entry id="kunoichi+str_monster_attack_unholy_smite"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_monster_attack_unholy_judgement"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_monster_attack_unholy_curse"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_encourage"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_encourage"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_encourage"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_first_aid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_first_aid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_first_aid"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_pep_talk"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_pep_talk"><![CDATA[...]]></entry>
+	     <entry id="kunoichi+str_bark_pep_talk"><![CDATA[...]]></entry>
+
+	     <entry id="kunoichi+str_bark_deathsdoor"><![CDATA[Seikyo?]]></entry>
+		 <entry id="kunoichi+str_monster_user_selected_targets_kill_pill"><![CDATA[Seikyo. Sayonara.]]></entry>
+		 
+		 
+		 
+	<entry id="kunoichi+str_block_camping_skill_performer_fearful"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_fearful"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_fearful"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_paranoid"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_paranoid"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_paranoid"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_masochistic"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_masochistic"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_masochistic"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_abusive"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_abusive"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_abusive"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_selfish"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_selfish"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_selfish"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_depressed"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_depressed"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_depressed"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_performer_irrational"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_irrational"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_performer_irrational"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_target_paranoid"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_paranoid"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_paranoid"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_target_masochistic"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_masochistic"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_masochistic"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_target_abusive"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_abusive"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_abusive"><![CDATA[...]]></entry>
+
+    <entry id="kunoichi+str_block_camping_skill_target_depressed"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_depressed"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_depressed"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_skill_target_irrational"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_skill_target_irrational"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_meal_paranoid"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_meal_paranoid"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_meal_masochistic"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_meal_masochistic"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_meal_depressed"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_meal_depressed"><![CDATA[...]]></entry>
+	
+    <entry id="kunoichi+str_block_camping_meal_irrational"><![CDATA[...]]></entry>
+    <entry id="kunoichi+str_block_camping_meal_irrational"><![CDATA[...]]></entry>
+	
+	
+	
+	
+	
+	</language>
+</root>
+

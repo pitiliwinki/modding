@@ -1,0 +1,1784 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="french">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+   
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="german">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="spanish">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="brazilian">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="russian">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="polish">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="czech">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="italian">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="schinese">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="koreanb">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="koreana">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+  <language id="japanese">
+ <!--DLC Stuff-->
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflected]]></entry>
+	
+    <entry id="buff_stat_tooltip_shard_reward_percent"><![CDATA[+%d%% Shards Given]]></entry>
+    <entry id="buff_stat_tooltip_transfer_debuff_from_attacker_chance"><![CDATA[+%d%% chance to absorb debuffs when attacked]]></entry>
+    <entry id="buff_rule_data_tooltip_husk"><![CDATA[Husk]]></entry>
+    <entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Miss:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Kill:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+    <entry id="effect_health_damage_format"><![CDATA[-%d DMG]]></entry>
+    <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On attack: Random target %d%%.]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[+%d%% Guard Duration]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[%s when target HP above %d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[%s when target HP below %d%%]]></entry>
+    <entry id="tray_icon_tooltip_riposte_no_duration"><![CDATA[{colour_start|riposte}RIPOSTE{colour_end} Active]]></entry>
+    <entry id="buff_rule_tooltip_attacking_monster_type"><![CDATA[%s When Attacked By %s]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[+%d%% Bleed Duration Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[+%d%% Blight Duration Received]]></entry>
+	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% Blight Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_percent"><![CDATA[+%d%% Horror Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% Bleed Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+%d%% Blight Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_stress_amount_received_percent"><![CDATA[+%d%% Horror Amount Received]]></entry>
+	
+    <entry id="buff_stat_tooltip_cure_bleed_received_chance"><![CDATA[%d%% Cure Bleed Chance]]></entry>
+    <entry id="buff_stat_tooltip_cure_poison_received_chance"><![CDATA[%d%% Cure Blight Chance]]></entry>
+    <entry id="tutorial_popup_health_damage_block_title"><![CDATA[Damage Block]]></entry>
+    <entry id="tutorial_popup_health_damage_block_description"><![CDATA[Damage Block tokens, also known as "Aegis tokens", absorb 100% of the physical damage from the next attack that strikes the hero.]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_stealthed"><![CDATA[%s while {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_corpse"><![CDATA[Corpse]]></entry>
+	
+	<entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+	<entry id="buff_rule_tooltip_monster_type_count_min_false"><![CDATA[%s if no enemy is %s]]></entry>
+	
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+	
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Clear Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+
+  
+  <!--Monsters-->
+	<!--Invader Solaire-->
+	<entry id="str_monstername_invader_solaire_A"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_B"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+	<entry id="str_monstername_invader_solaire_C"><![CDATA[{colour_start|sels_invader}Invading{colour_end} Warrior of Sunlight]]></entry>
+    <!--Undead Axe Wielder-->
+	<entry id="str_monstername_undead_axe_A"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_B"><![CDATA[Undead Soldier]]></entry>
+	<entry id="str_monstername_undead_axe_C"><![CDATA[Undead Soldier]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monstername_undead_firebomb_A"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_B"><![CDATA[Undead Bomber]]></entry>	
+	<entry id="str_monstername_undead_firebomb_C"><![CDATA[Undead Bomber]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monstername_undead_sword_A"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_B"><![CDATA[Undead Swordsman]]></entry>	
+	<entry id="str_monstername_undead_sword_C"><![CDATA[Undead Swordsman]]></entry>
+	<!--Undead Crossbow-->	
+	<entry id="str_monstername_undead_crossbow_A"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_B"><![CDATA[Undead Crossbowman]]></entry>	
+	<entry id="str_monstername_undead_crossbow_C"><![CDATA[Undead Crossbowman]]></entry>	
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monstername_undead_lantern_A"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_B"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<entry id="str_monstername_undead_lantern_C"><![CDATA[Undead Lantern Bearer]]></entry>	
+	<!--Undead Spearman-->
+	<entry id="str_monstername_undead_spear_A"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_B"><![CDATA[Undead Spearman]]></entry>	
+	<entry id="str_monstername_undead_spear_C"><![CDATA[Undead Spearman]]></entry>	
+	<!--Undead Torch Bearer-->
+	<entry id="str_monstername_undead_torch_A"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_B"><![CDATA[Undead Torch Bearer]]></entry>	
+	<entry id="str_monstername_undead_torch_C"><![CDATA[Undead Torch Bearer]]></entry>	
+	
+  <!--Custom Skills-->
+	<!--Invader Solaire-->
+	<entry id="str_monster_skill_sels_sunlight_blade"><![CDATA[Sunlight Blade]]></entry>
+	<entry id="str_monster_skill_sels_riposte"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_wrath_gods"><![CDATA[Wrath of the Gods]]></entry>
+	<entry id="str_monster_skill_sels_roll_back"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_roll_front"><![CDATA[Dodge Roll]]></entry>
+	<entry id="str_monster_skill_sels_sunlight_spear"><![CDATA[Sunlight Spear]]></entry>
+	<entry id="str_monster_skill_sels_bountiful_sunlight"><![CDATA[Bountiful Sunlight]]></entry>
+	<entry id="str_monster_skill_sels_soap_stone"><![CDATA[Use White Soap Stone]]></entry>
+	<entry id="str_monster_skill_sels_way_white"><![CDATA[Way of the White]]></entry>
+	<!--Undead Axe Wielder-->
+	<entry id="str_monster_skill_sels_axe_strike"><![CDATA[Axe Chop]]></entry>
+	<entry id="str_monster_skill_sels_parry"><![CDATA[Parry]]></entry>
+	<entry id="str_monster_skill_sels_shield_bash"><![CDATA[Shield Bash]]></entry>
+	<entry id="str_monster_skill_sels_charge_attack"><![CDATA[Jumping Attack]]></entry>
+	<!--Undead Fire Bomber-->
+	<entry id="str_monster_skill_sels_point_blank_bomb"><![CDATA[Point Blank Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_firebomb"><![CDATA[Throw Black Firebomb]]></entry>
+	<entry id="str_monster_skill_sels_fragbomb"><![CDATA[Throw Firebomb]]></entry>
+	<!--Undead Swordman-->
+	<entry id="str_monster_skill_sels_sword_slash"><![CDATA[Furious Slash]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_second"><![CDATA[Wild Flail]]></entry>
+	<entry id="str_monster_skill_sels_wild_strike_final"><![CDATA[Wild Flail]]></entry>
+	<!--Undead Crossbow-->
+	<entry id="str_monster_skill_sels_stagger_shot"><![CDATA[Staggering Shot]]></entry>
+	<entry id="str_monster_skill_sels_suppression"><![CDATA[Suppression]]></entry>
+	<!--Undead Lantern Bearer-->
+	<entry id="str_monster_skill_sels_stab"><![CDATA[Stab]]></entry>
+	<entry id="str_monster_skill_sels_scream"><![CDATA[Horrid Scream]]></entry>
+	<!--Undead Spearman-->
+	<entry id="str_monster_skill_sels_spear_thrust"><![CDATA[Spear Stab]]></entry>
+	<entry id="str_monster_skill_sels_spear_thrust_far"><![CDATA[Spear Thrust]]></entry>
+	<!--Undead Torch Bearer-->
+	<entry id="str_monster_skill_sels_fiery_poke"><![CDATA[Fiery Poke]]></entry>
+	
+	
+  <!--Loading Screen-->
+	<entry id="str_sels_invaded_tip"><![CDATA[The Invader and the undead deal heavy damage to Marked targets.]]></entry>
+    <entry id="str_sels_invaded_tip"><![CDATA[You have a greater chance to be invaded based on how many Order members you take on a quest.]]></entry>
+    <entry id="loading_screen_override_sels_invaded"><![CDATA[Prepare for the Invader and stay vigilant!]]></entry>
+	
+  <!--Tooltips-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_frenzy"><![CDATA[{colour_start|sels_frenzy}Frenzy{colour_end}
+	+25%% Damage / +3 Speed / No Dodge when under 50%% HP.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_can_parry"><![CDATA[{colour_start|riposte}Parries{colour_end} heroes who are {colour_start|mark}Marked{colour_end}, dealing heavy damage.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_sels_sl_riposte_parry"><![CDATA[Chance to apply {colour_start|mark}Mark{colour_end} and {colour_start|stun}Stun{colour_end} on {colour_start|riposte}Riposte{colour_end} hit.]]></entry>
+
+  </language>
+</root>

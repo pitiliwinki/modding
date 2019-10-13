@@ -1,0 +1,62 @@
+{
+    "monster_brains": [
+        {
+            "id": "mirage_ai",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1.0
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "sunray",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "sunray",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "sunburn",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 3.0,
+                        "specific_combat_skill_id": "sunburn",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "resistance_type_id": "poison",
+                        "is_greater_comparison": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        }
+	]
+}

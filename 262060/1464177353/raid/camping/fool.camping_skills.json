@@ -1,0 +1,50 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+		{ 
+			"id" : "baintside",
+			"level" : 0,
+			"cost" : 0,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingFoolDMGLBuff",
+					"amount" : 0.15
+				},	
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingFoolDMGHBuff",
+					"amount" :  0.15
+				}
+			],
+			"hero_classes" : ["fool"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 0 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		}
+	] 
+}

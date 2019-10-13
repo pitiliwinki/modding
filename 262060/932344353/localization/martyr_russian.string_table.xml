@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="russian">
+		<entry id="hero_class_name_martyr"><![CDATA[Мученик]]></entry>
+		<entry id="action_verbose_body_blacksmith_martyr"><![CDATA[Мученик - носитель Грехов.
+ 
+Одетый в жалкое рубище, обёрнутый цепями и самодельными устройствами для самоистязания, Мученик ходит по земле, чтобы нести страдания других людей через свои собственные. У него нет никакого оружия, кроме рук, что украшены стигматами, а так же Чудес, что он способен являть.]]></entry>
+
+		<entry id="action_verbose_body_guild_martyr"><![CDATA[ Мученик несёт в себе ужасные Страдания.
+ 
+Мученик ощущает любое страдание каждой живой души, словно своё собственное. Ему дано исцелять тела и души союзников, через свои страдания. Не смотря на то, что он совсем не воин, его прикосновения смертельны для нечестивцев.]]></entry>
+
+
+		<entry id="action_verbose_body_camping_trainer_martyr"><![CDATA[ Мученик - Хранитель Веры.
+ 
+В темноте подземелья, на привале, Мученик несёт очищение для тех, кто истинно верит. От возрождения тех, кто стоит на пороге смерти, до восстановления травм - всё это возможно для него. Ему достаточно показать свои стигматы верующему, дабы даровать ему чудесное исцеление. Но что это? Просто трюки и явление Истинного Чуда? В Темнейшем Подземелье это не имеет значения.]]></entry>
+
+		<entry id="combat_skill_name_martyr_touch_of_judgment"><![CDATA[Касание Судии]]></entry>
+		<entry id="combat_skill_name_martyr_hand_of_rapture"><![CDATA[Длань Божественного Восторга]]></entry>
+    		<entry id="combat_skill_name_martyr_blood_of_martyr"><![CDATA[Кровь Мученика]]></entry>
+    		<entry id="combat_skill_name_martyr_bearer_of_sin"><![CDATA[Носитель Греха]]></entry>
+    		<entry id="combat_skill_name_martyr_sign_of_stigma"><![CDATA[Знак Стигмат]]></entry>
+    		<entry id="combat_skill_name_martyr_lazarus_gift"><![CDATA[Дар Лазаря]]></entry>
+    		<entry id="combat_skill_name_martyr_iron_shroud"><![CDATA[Железная Плащаница]]></entry>
+    		<entry id="combat_skill_name_martyr_move"><![CDATA[Движение]]></entry>
+    		<entry id="upgrade_tree_name_martyr.touch_of_judgment"><![CDATA[Касание Судии]]></entry>
+		<entry id="upgrade_tree_name_martyr.hand_of_rapture"><![CDATA[Длань Божественного Восторга]]></entry>
+    		<entry id="upgrade_tree_name_martyr.blood_of_martyr"><![CDATA[Кровь Мученика]]></entry>
+    		<entry id="upgrade_tree_name_martyr.bearer_of_sin"><![CDATA[Носитель Греха]]></entry>
+    		<entry id="upgrade_tree_name_martyr.sign_of_stigma"><![CDATA[Знак Стигмат]]></entry>
+    		<entry id="upgrade_tree_name_martyr.lazarus_gift"><![CDATA[Дар Лазаря]]></entry>
+    		<entry id="upgrade_tree_name_martyr.iron_shroud"><![CDATA[Железная Плащаница]]></entry>
+
+		<entry id="martyr_weapon_0"><![CDATA[Грязные Руки]]></entry>
+		<entry id="martyr_weapon_1"><![CDATA[Светящиеся Руки]]></entry>
+    		<entry id="martyr_weapon_2"><![CDATA[Благословляющие Руки]]></entry>
+    		<entry id="martyr_weapon_3"><![CDATA[Руки Святого]]></entry>
+    		<entry id="martyr_weapon_4"><![CDATA["Божественное Прикосновение"]]></entry>
+    		<entry id="upgrade_tree_name_martyr.weapon"><![CDATA[Святые Руки]]></entry>
+    		<entry id="martyr_armour_0"><![CDATA[Рубище]]></entry>
+    		<entry id="martyr_armour_1"><![CDATA[Старый Саван]]></entry> 
+    		<entry id="martyr_armour_2"><![CDATA[Похоронный Саван]]></entry>
+    		<entry id="martyr_armour_3"><![CDATA[Ритуальное Покрывало]]></entry>
+    		<entry id="martyr_armour_4"><![CDATA["Крест Великих Страданий"]]></entry>
+    		<entry id="upgrade_tree_name_martyr.armour"><![CDATA[Саван]]></entry>
+
+		<entry id="camping_skill_name_shroud_of_turin"><![CDATA[ЗНАК СВЯТОГО ПОКРОВИТЕЛЯ]]></entry>
+		<entry id="camping_skill_name_resurrection"><![CDATA[ВОСКРЕШЕНИЕ]]></entry>
+		<entry id="camping_skill_name_self_stigmata"><![CDATA[ОТКРЫТИЕ СТИГМАТ]]></entry>
+		<entry id="camping_skill_name_penance"><![CDATA[ИСКУПЛЕНИЕ]]></entry>
+
+		<entry id="str_bark_shroud_of_turin"><![CDATA[Во имя Божественного Хранителя, будь спокоен от невзгод.]]></entry>
+		<entry id="str_bark_resurrection"><![CDATA[Сын мой, ты вновь вернулся в этот грешный мир!]]></entry>
+		<entry id="str_bark_self_stigmata"><![CDATA[Я истекаю кровью, ради твоего спокойствия.]]></entry>
+		<entry id="str_bark_penance"><![CDATA[Я вберу в себя вашу боль, я искуплю ваши Грехи, дети мои.]]></entry>		
+	
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[Я вновь истекаю кровью...]]></entry>
+
+	     <entry id="martyr+str_critbyhero"><![CDATA[Во имя Отца!!]]></entry>
+	     <entry id="martyr+str_critbyhero"><![CDATA[Исчезните, нечестивые отродья тьмы!]]></entry>
+	     <entry id="martyr+str_critbyhero"><![CDATA[Превратитесь в пыль, из которой вы вылезли, твари.]]></entry>
+	     <entry id="martyr+str_critbyhero"><![CDATA[Я буду носить твою кожу!]]></entry>
+	     <entry id="martyr+str_critbyhero"><![CDATA[Ужасны грехи твои, но их я тоже возьму.]]></entry>
+	  
+	     <entry id="martyr+str_afflicted_fearful"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_afflicted_paranoia"><![CDATA[Во имя Отца!]]></entry>
+	     
+	     <entry id="martyr+str_afflicted_masochism"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_afflicted_abusive"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_afflicted_selfishness"><![CDATA[Во имя Отца!]]></entry>
+	     
+	     <entry id="martyr+str_afflicted_depression"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_afflicted_irrationality"><![CDATA[Во имя Отца!]]></entry>
+	   
+	     <entry id="martyr+str_virtued_stalwart"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_virtued_courageous"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_virtued_focused"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_virtued_powerful"><![CDATA[Во имя Отца!]]></entry>
+	   
+	     <entry id="martyr+str_virtued_prosperous"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_virtued_vigorous"><![CDATA[Во имя Отца!]]></entry>
+		 
+	     <entry id="martyr+str_stress_heal_self_stalwart"><![CDATA[Во имя Отца!]]></entry>
+	   
+	     <entry id="martyr+str_stress_heal_party_courageous"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_buff_random_party_member_focused"><![CDATA[Во имя Отца!]]></entry>
+	    
+	     <entry id="martyr+str_buff_party_powerful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_buff_party_powerful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_heal_self_vigorous"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_heal_self_vigorous"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_fwd_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_change_pos_back_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_ignore_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_random_command_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_stress_camp_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_mark_self_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_friendly_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_attack_self_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_combat_retreat_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_self_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_attack_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_hit_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_comment_ally_missed_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_move_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_item_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_heal_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_block_buff_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     
+	     <entry id="martyr+str_monster_attack_unholy_smite"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_monster_attack_unholy_judgement"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_monster_attack_unholy_curse"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_encourage"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_encourage"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_encourage"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_first_aid"><![CDATA[Исцеление даётся лишь тем, кто верит. (byAJ)]]></entry>
+	     <entry id="martyr+str_bark_first_aid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_first_aid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_pep_talk"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_pep_talk"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_pep_talk"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_hobby"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_hobby"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_hobby"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_bark_deathsdoor"><![CDATA[Но… Я же спас столь много жизней!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_masochistic"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillUseBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_fearful"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_abusive"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_selfish"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingSkillBenefitBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_paranoid"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_masochist"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_depressed"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_irrational"><![CDATA[Во имя Отца!]]></entry>
+	     <entry id="martyr+str_campingMealBalk_irrational"><![CDATA[Во имя Отца!]]></entry>   
+
+
+	</language>
+
+</root>
+
+
+

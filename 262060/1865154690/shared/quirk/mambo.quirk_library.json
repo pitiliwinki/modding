@@ -1,0 +1,121 @@
+{
+   "quirks":
+   [
+{
+         "id" : "superstitious",
+     "show_explicit_buff_description" : false,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+          "inquisitor"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+"Quirk_Mambo_stress_heal1",
+"Quirk_Mambo_stress_heal2",
+"Quirk_Mambo_stress_heal3"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+{
+         "id" : "bokor",
+         "show_explicit_buff_description" : false,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+          
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+{
+         "id" : "inquisitor",
+         "show_explicit_buff_description" : false,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+          "superstitious"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+"Quirk_Mambo_stress_more1",
+"Quirk_Mambo_stress_more2",
+"Quirk_Mambo_stress_more3"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+{
+         "id" : "loa_possessed",
+         "show_explicit_buff_description" : false,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+          "samedi_s_plaything"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+{
+         "id" : "samedi_s_plaything",
+         "show_explicit_buff_description" : false,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+          "loa_possessed"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

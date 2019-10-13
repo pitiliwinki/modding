@@ -1,0 +1,2555 @@
+{
+   "buffs":
+   [
+   
+     {
+         "id" : "HARL_Counter_Hit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+   	  {
+         "id" : "PETS_Elemental_Cancel_Low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "PETS_Elemental_Cancel_High",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   
+	 {
+         "id" : "BUTC_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "BUTC_Pet_Rank_Bleed",
+         "stat_type" : "hp_dot_bleed_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "BUTC_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BUTC_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BUTC_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BUTC_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BUTC_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BUTC_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "BUTC_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BUTC_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	  
+
+
+
+	  
+	 {
+         "id" : "GROV_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "GROV_Pet_Healing_Round",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "GROV_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GROV_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "GROV_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GROV_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "GROV_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GROV_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "GROV_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GROV_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+
+
+
+	  
+	 {
+         "id" : "THOR_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "THOR_Pet_Ignore_Stealth",
+         "stat_type" : "ignore_stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Damage_Bonus_Bleed_Low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Damage_Bonus_Bleed_High",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Stress_Heal_Rank_Block_0",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Stress_Heal_Rank_Block_2",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Stress_Heal_Rank_Block_3",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "THOR_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "THOR_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "THOR_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "THOR_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "THOR_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "THOR_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "THOR_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "THOR_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+
+
+
+	  
+	 {
+         "id" : "SNAK_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SNAK_Pet_First_Strike",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SNAK_Pet_Last_Strike",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SNAK_Pet_Stress_Heal_Blocker_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "feast"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SNAK_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SNAK_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SNAK_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SNAK_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SNAK_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SNAK_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SNAK_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SNAK_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	  
+
+
+
+	  
+	 {
+         "id" : "HARB_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "HARB_Pet_Stun",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "HARB_Pet_Stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "HARB_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_09",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "HARB_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARB_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HARB_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARB_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HARB_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARB_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+
+
+
+	  
+	 {
+         "id" : "SEER_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SEER_Pet_Stress_Buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SEER_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SEER_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SEER_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SEER_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SEER_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SEER_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+	  {
+         "id" : "SEER_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SEER_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+
+
+
+
+
+
+	  
+	 {
+         "id" : "ENIG_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ENIG_Pet_Stun_Damage_Low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "ENIG_Pet_Stun_Damage_High",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "ENIG_Pet_Reflect_buff",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "reflected_dmg",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "ENIG_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_04",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "ENIG_Pet_Barrier_Stress_Blocker",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "esoteric_barrier"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "ENIG_Pet_Reflect_tip_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ENIG_pet_tooltip_t_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "ENIG_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ENIG_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ENIG_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ENIG_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ENIG_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ENIG_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+	  {
+         "id" : "ENIG_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ENIG_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+
+
+
+
+	  
+	 {
+         "id" : "WERE_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "WERE_Pet_Stress_Vampires",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "WERE_Pet_Damage_Low_Marked",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "WERE_Pet_Damage_High_Marked",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "WERE_Pet_Death",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "WERE_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WERE_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WERE_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WERE_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WERE_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WERE_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WERE_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WERE_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	  
+	  
+	  
+
+
+
+	  
+	 {
+         "id" : "PHAN_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "PHAN_Pet_Cove_Stealth_buff",
+         "stat_type" : "stealth",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cove"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "PHAN_Pet_Ruins_Crit_buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crypts"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "PHAN_Pet_Warrens_Damage_low_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "warrens"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "PHAN_Pet_Warrens_Damage_high_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "warrens"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "PHAN_Pet_Stress_Heal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "hero_crit",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "PHAN_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PHAN_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "PHAN_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PHAN_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "PHAN_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PHAN_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+	  {
+         "id" : "PHAN_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "PHAN_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	  
+
+	 {
+         "id" : "APOT_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "APOT_Pet_Stress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "APOT_Pet_Blight_Resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "APOT_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "APOT_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "APOT_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "APOT_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "APOT_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "APOT_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "APOT_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "APOT_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+
+
+
+
+
+	  
+	 {
+         "id" : "HARL_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "HARL_Pet_Bleed",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HARL_Pet_Bleed_Amount",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HARL_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_02",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "HARL_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARL_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HARL_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARL_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HARL_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARL_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HARL_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HARL_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	  
+	  
+
+
+
+	  
+	 {
+         "id" : "NIGH_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "NIGH_Pet_Stress_False_Rule",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "lunarian_tears"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "NIGH_Pet_Spider_Accuracy",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "NIGH_Pet_Spider_Critical",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "NIGH_Pet_Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "NIGH_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_11",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "NIGH_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "NIGH_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "NIGH_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "NIGH_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "NIGH_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "NIGH_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "NIGH_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "NIGH_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	  	  
+	  
+	  
+	  
+
+
+
+	  
+	 {
+         "id" : "ARCA_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.80,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Debuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "ARCA_Pet_Move_Down_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	  
+      {
+         "id" : "ARCA_Pet_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 79,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_F",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_f_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_G",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_g_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_H",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_h_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_I",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_i_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "ARCA_Pet_Tooltip_Buff_Q",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ARCA_pet_tooltip_q_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },		  
+	  	  
+	  
+
+
+
+
+	  
+	 {
+         "id" : "WARR_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "WARR_Pet_Anti_Heal",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "monster_skill",
+         "amount" : -5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "WARR_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_01",
+		 "has_description" : false
+     },	
+      {
+         "id" : "WARR_Pet_Stress_Down",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },	
+	  {
+         "id" : "WARR_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WARR_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WARR_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WARR_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WARR_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WARR_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WARR_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WARR_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "WARR_Pet_Tooltip_Buff_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WARR_pet_tooltip_e_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	  
+
+
+
+
+
+	  
+	 {
+         "id" : "MONK_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "MONK_Pet_Stress_Beast",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MONK_Pet_Critical",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "MONK_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_05",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "MONK_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MONK_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "MONK_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MONK_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "MONK_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MONK_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "MONK_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "MONK_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },	
+	  
+
+
+
+
+
+
+	  
+	 {
+         "id" : "SOOT_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "SOOT_Pet_Healing_Down",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_below",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 100,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SOOT_Pet_Stress_Relief_buff",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "SOOT_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_10",
+		 "has_description" : false
+     },	
+	  {
+         "id" : "SOOT_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SOOT_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SOOT_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SOOT_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SOOT_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SOOT_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "SOOT_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "SOOT_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+
+
+
+	  
+	 {
+         "id" : "DRYA_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "DRYA_Pet_Healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "DRYA_Pet_Stun_Resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "DRYA_Pet_Stress_Blocker",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "barkskin"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "DRYA_Pet_Bleed_Blocker",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "blight_your_souls"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "DRYA_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DRYA_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "DRYA_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DRYA_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "DRYA_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DRYA_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "DRYA_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DRYA_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "DRYA_Pet_Tooltip_Buff_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DRYA_pet_tooltip_e_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  
+	  
+	  
+	  	  
+	 {
+         "id" : "HOLL_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "HOLL_Pet_Stress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HOLL_Pet_Critical",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HOLL_Pet_Critical_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.16,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HOLL_Pet_Stun_Unholy",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "HOLL_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HOLL_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HOLL_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HOLL_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HOLL_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HOLL_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "HOLL_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HOLL_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "HOLL_Pet_Tooltip_Buff_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "HOLL_pet_tooltip_e_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  
+	  
+	  	 {
+         "id" : "EXOR_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "EXOR_Pet_Stress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "EXOR_Pet_Stun",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "EXOR_Pet_Bleed_Down_Rule_buff",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "shun"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "EXOR_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EXOR_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "EXOR_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EXOR_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "EXOR_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EXOR_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "EXOR_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EXOR_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  
+	  
+	  
+	  	 {
+         "id" : "UNIC_Pet_Food",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Sound",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.01,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "pet_sound_09",
+		 "has_description" : false
+     },	
+	 {
+         "id" : "UNIC_Pet_Tooltip_Buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Tooltip_Buff_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_b_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Tooltip_Buff_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_c_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Tooltip_Buff_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_d_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Tooltip_Buff_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_e_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "UNIC_Pet_Tooltip_Buff_F",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "UNIC_pet_tooltip_f_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      }
+	  
+   ]
+}

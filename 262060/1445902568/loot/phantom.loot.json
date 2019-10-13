@@ -1,0 +1,155 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "ph_venom",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 9, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_venom",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_venom",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_venom",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_venom",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_venom",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 9.4, "data" : { }},
+			{ "type" : "item", "chances" : 0.5, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8.9, "data" : { }},
+			{ "type" : "item", "chances" : 1.0, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.1, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8.8, "data" : { }},
+			{ "type" : "item", "chances" : 1.0, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.2, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8.7, "data" : { }},
+			{ "type" : "item", "chances" : 1.1, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.2, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8.5, "data" : { }},
+			{ "type" : "item", "chances" : 1.2, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.3, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_loot",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8.2, "data" : { }},
+			{ "type" : "item", "chances" : 1.4, "data" : { "type" : "estate", "id" : "sand_of_sight", "amount" : 1 }},
+			{ "type" : "item", "chances" : 0.4, "data" : { "type" : "supply", "id" : "pocket_venom", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "ph_heal_tooltip",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }}	
+         ]
+      },
+      {
+         "id" : "ph_stealth_tooltip",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }}	
+         ]
+      }
+   ]
+}

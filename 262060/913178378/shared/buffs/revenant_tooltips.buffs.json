@@ -1,0 +1,18 @@
+{
+   "buffs":
+   [
+       {
+         "id" : "rev_tt_transferbleed",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "rev_transferbleed",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+  ]
+}

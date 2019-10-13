@@ -1,0 +1,108 @@
+{
+   "entries":
+   [
+   	  {
+         "id" : "collector_picaroon",
+         "buffs" : 
+         [
+			"PICA_trinket_blight",
+			"PICA_trinket_stun",
+			"PICA_trinket_stress"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+   
+	  {
+         "id" : "compass_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_compass_trap_resist",
+			"PICA_trinket_compass_move_down",
+			"PICA_trinket_compass_bleed_resist"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "spyglass_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_spyglass_stun_resist",
+			"PICA_trinket_spyglass_speed_down"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "hook_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_hook_critical",
+			"PICA_trinket_hook_accuracy",
+			"PICA_trinket_hook_stress"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "uncommon",
+         "price" : 1100,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "piratemap_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_map_scouting",
+			"PICA_trinket_map_surprised",
+			"PICA_trinket_map_move_resist"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "rare",
+         "price" : 2200,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "piratehat_pica",
+         "buffs" : 
+         [
+			"PICA_trinket_hat_low",
+			"PICA_trinket_hat_high",
+			"PICA_trinket_hat_bleed_resist",
+			"PICA_trinket_hat_mark_bonus",
+			"PICA_trinket_hat_stun_resist"
+         ],
+         "hero_class_requirements":
+         [
+		 "picaroon"
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+   ]
+}

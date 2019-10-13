@@ -1,0 +1,630 @@
+{
+   "buffs":
+   [
+   
+      {
+         "id" : "omenseeker_debuff_20",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "omenseeker_debuff_27",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "omenseeker_debuff_34",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.34,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "omenseeker_debuff_41",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.41,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "omenseeker_debuff_48",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.48,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "expunge_armorpen",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+    },
+	{
+         "id" : "campingACCbuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+    },
+    {
+         "id" : "campingARPENbuff",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 }
+    },
+	{
+         "id" : "campingCRITbuff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+    {
+         "id" : "campingPROTbuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "campingDODGEbuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+    {
+         "id" : "campingSTUNbuff",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+		"id" : "fortuna_acc",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "attack_rating",
+		"amount" : 0.08,
+		"remove_if_not_active" : false,
+		"rule_type" : "rangedonly",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "fortuna_stun_chance",
+		"stat_type" : "stun_chance",
+		"stat_sub_type" : "",
+		"amount" : 0.10,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "fortuna_crit_maulus",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "crit_chance",
+		"amount" : -0.02,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "shrunken_head_spd",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "speed_rating",
+		"amount" : 2,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "shrunken_head_dmgL",
+		"stat_type" : "combat_stat_multiply",
+		"stat_sub_type" : "damage_low",
+		"amount" : -0.10,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "shrunken_head_dmgH",
+		"stat_type" : "combat_stat_multiply",
+		"stat_sub_type" : "damage_high",
+		"amount" : -0.10,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "incense_dodge_maulus",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "defense_rating",
+		"amount" : -0.08,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "incense_debuff_chance",
+		"stat_type" : "debuff_chance",
+		"stat_sub_type" : "",
+		"amount" : 0.30,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "incense_move_chance",
+		"stat_type" : "move_chance",
+		"stat_sub_type" : "",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "pendulum_scout_chance",
+		"stat_type" : "scouting_chance",
+		"stat_sub_type" : "",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "pendulum_trap_disarm",
+		"stat_type" : "resistance",
+		"stat_sub_type" : "trap",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "pendulum_surprise",
+		"stat_type" : "party_surprise_chance",
+		"stat_sub_type" : "",
+		"amount" : 0.30,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "deck_dodge70",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "defense_rating",
+		"amount" : 0.05,
+		"remove_if_not_active" : false,
+		"rule_type" : "hpbelow",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0.70,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "deck_dodge50",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "defense_rating",
+		"amount" : 0.10,
+		"remove_if_not_active" : false,
+		"rule_type" : "hpbelow",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0.50,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "deck_dodge30",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "defense_rating",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "hpbelow",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0.30,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "deck_dodge10",
+		"stat_type" : "combat_stat_add",
+		"stat_sub_type" : "defense_rating",
+		"amount" : 0.20,
+		"remove_if_not_active" : false,
+		"rule_type" : "hpbelow",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0.10,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "deck_damageamp_maulus",
+		"stat_type" : "damage_received_percent",
+		"stat_sub_type" : "",
+		"amount" : 0.10,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "idol_hp",
+		"stat_type" : "combat_stat_multiply",
+		"stat_sub_type" : "max_hp",
+		"amount" : 0.30,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "idol_heal_maulus",
+		"stat_type" : "hp_heal_received_percent",
+		"stat_sub_type" : "",
+		"amount" : -0.20,
+		"remove_if_not_active" : false,
+		"rule_type" : "always",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "idol_damageL",
+		"stat_type" : "combat_stat_multiply",
+		"stat_sub_type" : "damage_low",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "in_rank",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+		"id" : "idol_damageH",
+		"stat_type" : "combat_stat_multiply",
+		"stat_sub_type" : "damage_high",
+		"amount" : 0.15,
+		"remove_if_not_active" : false,
+		"rule_type" : "in_rank",
+		"is_false_rule" : false,
+		"rule_data" : {
+			"float" : 0,
+			"string" : ""
+			}
+	},
+	{
+         "id" : "vial_blight",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "piercing_dagger"
+         }
+    },
+	{
+         "id" : "vial_expunge_stress_heal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+         "id" : "pistol_whip_buff",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entangle"
+         }
+    },
+	{
+         "id" : "pistol_whip_stun",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.3,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entangle"
+		}
+    },
+	{
+         "id" : "pistol_whip_nomove",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : -1.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entangle"
+         }
+	},
+	{
+         "id" : "omenseeker_unfortunate_set_expungeH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "expunge"
+         }
+	},
+	{
+         "id" : "omenseeker_unfortunate_set_expungeL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "expunge"
+         }
+    },
+	{
+         "id" : "omenseeker_unfortunate_set_entangleH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entangle"
+         }
+	},
+	{
+         "id" : "omenseeker_unfortunate_set_entangleL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entangle"
+         }
+      },
+		{
+         "id" : "omenseeker_crit_debuff_effect",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "omenseeker_unfortunate_set_tagged_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "omenseeker_unfortunate_set_tagged_crit",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+	     "id" : "omenseeker_cc_set_blight_chance",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    },
+	{
+	     "id" : "omenseeker_cc_set_bleed_chance",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+    }
+	]
+}

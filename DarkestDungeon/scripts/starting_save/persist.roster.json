@@ -1,0 +1,136 @@
+{
+    "version": 513,
+    "data": {
+        "nextGuid": 5,
+        "heroes": {
+            "1": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_reynauld",
+                    "current_hp": 33,
+                    "stunned": 0,
+                    "ranks": 1,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "crusader",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "warrior_of_light": 
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+                    "kleptomaniac":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+                    "god_fearing":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "smite": 0,
+                        "zealous_accusation": 0,
+                        "stunning_blow": 0,
+                        "bulwark_of_faith": 0
+                    },
+                    "selected_camping_skills": {
+                        "encourage": 0,
+                        "stand_tall": 0,
+                        "zealous_speech": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "2": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_dismas",
+                    "current_hp": 23,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "highwayman",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "hard_noggin":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+                    "known_cheat":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+                    "quick_reflexes":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "opened_vein": 0,
+                        "pistol_shot": 0,
+                        "grape_shot_blast": 0,
+                        "take_aim": 0
+                    },
+                    "selected_camping_skills": {
+                        "first_aid": 0,
+                        "clean_guns": 0,
+                        "bandits_sense": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            }
+        },
+        "last_party":
+        {
+            "last_party_guids": [-1,-1,2,1]
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "goals": [
+ 
+           {
+            "id": "inventory_activate_hive",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "torch_quest",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "cc_hive_quest",
+                "amount": 3
+            }
+        },
+        {
+            "id": "gather_bloodcrate",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+          
+            "data": {
+                "curio_name": "cc_wine_crate_quest",
+                "curio_audio_override_id": "cc_wine_crate",
+                "additional_loot": "BLOOD_CRATE",
+                "amount": 3
+            }
+        },
+          
+        {
+            "id": "kill_baron_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "baron_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_viscount_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "viscount_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_countess_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                     "countess_D",
+                    "countess_E",
+                    "countess_F"
+                ],
+                "amount": 1
+            }
+        },   
+        {
+            "id": "kill_statue_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "statue_head_C"
+                ],
+                "amount": 1
+            }
+        }
+     
+    ],
+    "town_progression_goal_ids": [
+      
+    ],
+    "types": [
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+         {
+            "id": "farm_bloodcrate",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        [
+                            "gather_bloodcrate"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kill_statue",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        [
+                            "kill_statue_C"
+                        ]
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

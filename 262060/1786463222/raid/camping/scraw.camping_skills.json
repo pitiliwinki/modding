@@ -1,0 +1,331 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  7
+	},
+
+	"skills" :
+	[
+		{ 
+			"id" : "CampingSkill_scraw_AAA",
+			"level" : 0,
+			"cost" : 0,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_camping_GuardDurationBuff_IfHpAbove",
+					"amount" :  1
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_camping_GuardDurationBuff_IfHpBelow",
+					"amount" :  -1
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_scraw_BBB",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_damage_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.75
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.50
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.00 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  25
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_scraw_CCC",
+			"level" : 0,
+			"cost" : 6,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_campingScoutingBuff_IfWeald",
+					"amount" :  0.75
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_campingScoutingBuff_IfCove",
+					"amount" :  0.55
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_campingScoutingBuff_IfCrypts",
+					"amount" :  0.35
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "Scraw_campingScoutingBuff_IfWarrens",
+					"amount" :  0.15
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+		{ 
+			"id" : "CampingSkill_scraw_DDD",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 0.80 },
+					"type": "loot",
+					"sub_type": "T_ANTIQ_CAMP",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.60 },
+					"type": "loot",
+					"sub_type": "T_ANTIQ_CAMP",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.80 },
+					"type": "loot",
+					"sub_type": "S",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 0.40 },
+					"type": "loot",
+					"sub_type": "S",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 0.80 },
+					"type": "loot",
+					"sub_type": "P",
+					"amount": 1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "f", "amount": 0.20 },
+					"type": "loot",
+					"sub_type": "P",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+
+		{ 
+			"id" : "CampingSkill_scraw_EEE",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.00 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+
+		{ 
+			"id" : "CampingSkill_scraw_FFF",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.00 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		
+
+		{ 
+			"id" : "CampingSkill_scraw_GGG",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.00 },
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				}
+			],
+			"hero_classes" : ["scraw"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 35000 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+	] 
+}

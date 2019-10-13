@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="russian">
+  	<!--Original Character Art by Vucovix. Sounds/Writing by EbonyBetty. Coding/Writing by Dem22. -->
+	
+	<!--On Kill: -->
+		<entry id="trinket_kill_performer_additional_effects"><![CDATA[При убийстве:]]></entry>
+	
+	<!--Kiss Custom Tooltip -->	
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_A_buff_x"><![CDATA[-26%% {colour_start|stress}стресс{colour_end} (90%% base)(2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_B_buff_x"><![CDATA[-28%% {colour_start|stress}стресс{colour_end} (95%% base)(2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_C_buff_x"><![CDATA[-30%% {colour_start|stress}стресс{colour_end} (100%% base)(2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_D_buff_x"><![CDATA[-32%% {colour_start|stress}стресс{colour_end} (105%% base)(2 хода)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_tip_E_buff_x"><![CDATA[-34%% {colour_start|stress} стресс{colour_end} (115%% base)(2 хода)]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_kiss_custom_label_1_buff_x"><![CDATA[{colour_start|harlot}Поцелуй:{colour_end} {colour_start|buff}воодушевление{colour_end}]]></entry>
+	
+	<!--First HARL Subtitle -->
+	<entry id="str_vo_bad_harlot_recruitment_0"><![CDATA[О, в гедонизме и безрассудстве эта романтичная особа превзошла даже меня.]]></entry>
+	
+	<!--Party Names -->
+	<entry id="party_name_222500"><![CDATA[Дурные девчонки]]></entry>
+	<entry id="party_name_222501"><![CDATA[Благословлённый среди женщин]]></entry>
+	<entry id="party_name_222502"><![CDATA[Странствующие незнакомцы]]></entry>
+	<entry id="party_name_222503"><![CDATA[Театр марионеток]]></entry>
+	<entry id="party_name_222504"><![CDATA[Сёстры греха]]></entry>
+	<entry id="party_name_222505"><![CDATA[Тантрическая магия]]></entry>
+	<entry id="party_name_222506"><![CDATA[Хищный инстинкт]]></entry>
+	<entry id="party_name_222507"><![CDATA[Безрассудные охотники]]></entry>
+	<entry id="party_name_222508"><![CDATA[Отряд лёгкого поведения]]></entry>
+	<entry id="party_name_222509"><![CDATA[Защитники принца]]></entry>
+	<entry id="party_name_222510"><![CDATA[Грешные росомахи]]></entry>
+	<entry id="party_name_222511"><![CDATA[Преданные вдовы]]></entry>
+	<entry id="party_name_222512"><![CDATA[Кровавый день Св. Валентина]]></entry>
+	<entry id="party_name_222513"><![CDATA[Запятнанное мужество]]></entry>
+	<entry id="party_name_222514"><![CDATA[Почти слепые ангелы]]></entry>
+	<entry id="party_name_222515"><![CDATA[Красивейшие]]></entry>
+	<entry id="party_name_222516"><![CDATA[Ну очень пикантные!]]></entry>
+	<entry id="party_name_222517"><![CDATA[Охота начинается]]></entry>
+	<entry id="party_name_222518"><![CDATA[Призрак оперы]]></entry>
+	<entry id="party_name_222519"><![CDATA[Танцующие парочки]]></entry>
+	<entry id="party_name_222520"><![CDATA[Алая буря]]></entry>
+	<entry id="party_name_222521"><![CDATA[Красавицы и Чудовище]]></entry>
+	<entry id="party_name_222522"><![CDATA[Мария и апостолы]]></entry>
+	<entry id="party_name_222523"><![CDATA[Тень былой роскоши]]></entry>
+	
+	<!--Come Unto Your Maker --> 		
+	<entry id="harlot+str_monster_user_selected_targets_kill_pill"><![CDATA[Чтож, я неплохо покувыркалась на сеновале!]]></entry>
+	
+	 <!--Town Descriptions--> 
+	<entry id="action_verbose_body_guild_harlot"><![CDATA[Блудница привлекательна, соблазнительна, хитра и представительна. Она готова предложить свои навыки, тело и общение за золото и гордится своей независимостью. В бою она может полагаться на свои остро отточенные веера и поддерживает партию баффами, которые могут переломить ход битвы. Клиентам легко в нее влюбиться, но для нее это сугубо бизнес.]]></entry>
+    <entry id="action_verbose_body_blacksmith_harlot"><![CDATA[Уникальные лезвия-веера Блудницы - её излюбленное оружие. Весьма смертоносные в качестве режущего оружия, их также можно и метать. Однако, они нуждаются в регулярной заточке и уходе. Блудница наслаждается флиртом с кузнецом, которого так легко смутить нескромными нарядами.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_harlot"><![CDATA[Блудница легко приспосабливается и может перейти от развлечения королевских особ к грубой жизни в дикой природе, однако, она пристрастилась к более утонченным материям, включая прекрасный коньяк и пуховую перину. Во время кемпинга она может снять стресс, предохранить от болезней и как следует приободрить своих спутников.]]></entry>
+	
+	<!---Blood Buffs Tooltips--->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}кровоточить{colour_end} продолжительность]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}кровоточить{colour_end} количество]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}кровоточить{colour_end} 
+получил]]></entry>
+	
+	<!--Healing DOT missing tooltip--> 
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}восстановление{colour_end} Amount]]></entry>
+	
+	<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[пауки]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[пауки]]></entry>
+	<entry id="buff_rule_data_tooltip_vampire"><![CDATA[кровососы]]></entry>
+	
+	<!--Cooldown Custom Tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_tooltip_cooldownX_pass"><![CDATA[{colour_start|notable}перезарядка{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_cooldown_tooltip_1_buff_pass"><![CDATA[2 хода {colour_start|notable}перезарядка{colour_end}]]></entry>
+	
+	<!--Merged high low marked Tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_A_buff_x"><![CDATA[+69%% урона vs. {colour_start|mark}
+отмеченный{colour_end} (2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_B_buff_x"><![CDATA[+79%% урона vs. {colour_start|mark}
+отмеченный{colour_end} (2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_C_buff_x"><![CDATA[+89%% урона vs. {colour_start|mark}
+отмеченный{colour_end} (2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_D_buff_x"><![CDATA[+99%% урона vs. {colour_start|mark}
+отмеченный{colour_end} (2 хода)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_prowl_custom_tip_E_buff_x"><![CDATA[+109%% урона vs. {colour_start|mark}
+отмеченный{colour_end} (2 хода)]]></entry>
+		
+	<!--Merged healing penalty tooltips -->	
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_A_buff_x"><![CDATA[-50%% {colour_start|healhp}
+объем лечения{colour_end}, {colour_start|healhp}
+получаемое исцеление{colour_end}, {colour_start|stress}снижение стресса{colour_end} (на 2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_B_buff_x"><![CDATA[-47%% {colour_start|healhp}
+объем лечения{colour_end}, {colour_start|healhp}
+получаемое исцеление{colour_end}, {colour_start|stress}снижение стресса{colour_end} (на 2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_C_buff_x"><![CDATA[-45%% {colour_start|healhp}
+объем лечения{colour_end}, {colour_start|healhp}
+получаемое исцеление{colour_end}, {colour_start|stress}снижение стресса{colour_end} (на 2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_D_buff_x"><![CDATA[-43%% {colour_start|healhp}
+объем лечения{colour_end}, {colour_start|healhp}
+получаемое исцеление{colour_end}, {colour_start|stress}снижение стресса{colour_end} (на 2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_heal_combined_tip_E_buff_x"><![CDATA[-40%% {colour_start|healhp}
+объем лечения{colour_end}, {colour_start|healhp}
+получаемое исцеление{colour_end}, {colour_start|stress}снижение стресса{colour_end} (на 2 хода)]]></entry>
+	
+	<!--Free Action tooltip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_heart_action_tip_1_buff_x"><![CDATA[{colour_start|harlot}
+Ободрение:{colour_end} вдохновляет на {colour_start|notable}1 дополнительное действие{colour_end}]]></entry>
+	
+	<!--Spider Hunter Tooltips tooltip -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_A_buff_x"><![CDATA[+7 ACC vs. {colour_start|spider_blue}
+Пауков{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_B_buff_x"><![CDATA[+9 ACC vs. {colour_start|spider_blue}
+Пауков{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_C_buff_x"><![CDATA[+11 ACC vs. {colour_start|spider_blue}
+Пауков{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_D_buff_x"><![CDATA[+13 ACC vs. {colour_start|spider_blue}
+Пауков{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_spider_tip_E_buff_x"><![CDATA[+15 ACC vs. {colour_start|spider_blue}
+Пауков{colour_end}]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_flash_tip_buff_x"><![CDATA[{colour_start|harlot}Феромоны действуют на группу{colour_end} {colour_start|notable}до конца битвы{colour_end}]]></entry>
+	
+	<!--HARL Quirk 1-->
+	<entry id="str_quirk_name_HARL_quirk_1"><![CDATA[Безумно влюблённая]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_quirk_tip_x"><![CDATA[{colour_start|harlot}Когда клиент не может отличить иллюзию от реальности.{colour_end}]]></entry>
+	<entry id="HARL_bark_love"><![CDATA[Я ... Я, кажется, влюбилась!!]]></entry>
+	
+	<!--HARL Quirk 2-->
+	<entry id="str_quirk_name_HARL_quirk_2"><![CDATA[second if needed]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_quirk_2_custom_x"><![CDATA[{colour_start|notable}description 2{colour_end}]]></entry>
+	<entry id="HARL_bark_trigger_2"><![CDATA[bark 2 ...]]></entry>
+	
+	<!--HARL Disease Cooties-->
+	<entry id="str_quirk_name_HARL_cooties"><![CDATA[Лобковые вши]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_cooties_tooltip_x"><![CDATA[{colour_start|harlot}Странный побочный эффект от полового партнера.{colour_end}]]></entry>
+	<entry id="HARL_bark_cooties"><![CDATA[У меня от тебя мандавошки!]]></entry>
+	
+	<!--HARL Disease Warts-->
+	<entry id="str_quirk_name_HARL_warts"><![CDATA[Генитальные бородавки]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_warts_tooltip_x"><![CDATA[{colour_start|harlot}Ничего приятного в этом нет!{colour_end}]]></entry>
+		<entry id="HARL_bark_warts"><![CDATA[Мне нехорошо.]]></entry>
+		
+	<!--HARL Party Restrictions-->
+	<entry id="str_incompatible_party_snake_charmer_phobia"><![CDATA[Извини, я не буду путешествовать со змеями!]]></entry>
+	<entry id="str_incompatible_party_snake_charmer_phobia"><![CDATA[Я никуда не пойду с этими змеями!]]></entry>
+
+	<entry id="str_incompatible_party_member_snake_charmer_phobia"><![CDATA[С ЭТИМИ клыками? Нет, нет, нет!]]></entry>
+	<entry id="str_incompatible_party_member_snake_charmer_phobia"><![CDATA[Даже не за двойную плату!]]></entry>
+	
+  
+	<!--Armor and Weapons -->  
+    <entry id="harlot_weapon_0"><![CDATA[Шёлковый веер с медными лезвиями]]></entry>
+    <entry id="harlot_weapon_1"><![CDATA[Шёлковый веер с лезвиями из никеля]]></entry>
+    <entry id="harlot_weapon_2"><![CDATA[Шёлковый веер с лезвиями из красной латуни]]></entry>
+    <entry id="harlot_weapon_3"><![CDATA[Шёлковый веер с бронзовыми лезвиями]]></entry>
+    <entry id="harlot_weapon_4"><![CDATA["Роковая женщина"]]></entry>
+    <entry id="upgrade_tree_name_harlot.weapon"><![CDATA[Веер]]></entry>
+
+    <entry id="harlot_armour_0"><![CDATA[Запятнанный корсет]]></entry>
+    <entry id="harlot_armour_1"><![CDATA[Чистый корсет]]></entry>
+    <entry id="harlot_armour_2"><![CDATA[Кружевной корсет]]></entry>
+    <entry id="harlot_armour_3"><![CDATA[Шёлковый корсет]]></entry>
+    <entry id="harlot_armour_4"><![CDATA["Рождение Венеры"]]></entry>
+    <entry id="upgrade_tree_name_harlot.armour"><![CDATA[Корсет]]></entry>
+	
+	<!--Class Name and other names --> 
+	<entry id="hero_class_name_harlot"><![CDATA[Блудница]]></entry>
+	<entry id="hero_name_delilah"><![CDATA[Delilah]]></entry>
+		<entry id="hero_name_delilah"><![CDATA[Harlette]]></entry>
+	<entry id="hero_name_nellgyyn"><![CDATA[Nell Gyyn]]></entry>
+	<entry id="hero_name_sallysalisbury"><![CDATA[Sally Salisbury]]></entry>
+	<entry id="hero_name_francoisedefoix"><![CDATA[Françoise de Foix]]></entry>
+	<entry id="hero_name_dianedepoitiers"><![CDATA[Diane de Poitiers]]></entry>
+	<entry id="hero_name_marietouchet"><![CDATA[Marie Touchet]]></entry>
+	<entry id="hero_name_gwynndolin"><![CDATA[Gwynndolin]]></entry>
+		
+	<!--Skill Names --> 
+    <entry id="combat_skill_name_harlot_hands_off"><![CDATA[Руки прочь!]]></entry>
+    <entry id="combat_skill_name_harlot_silk_steel"><![CDATA[Шёлк скрывает сталь]]></entry>
+    <entry id="combat_skill_name_harlot_kiss_death"><![CDATA[Поцелуй смерти]]></entry>
+    <entry id="combat_skill_name_harlot_heart_gold"><![CDATA[Золотое сердце]]></entry>
+    <entry id="combat_skill_name_harlot_flashing_goods"><![CDATA[Товар лицом]]></entry>
+    <entry id="combat_skill_name_harlot_prowl"><![CDATA[На прогулке]]></entry>
+    <entry id="combat_skill_name_harlot_hold_close"><![CDATA[Обними меня крепче]]></entry>
+    <entry id="combat_skill_name_harlot_move"><![CDATA[Переместить]]></entry>
+	
+    <entry id="upgrade_tree_name_harlot.hands_off"><![CDATA[Руки прочь!]]></entry>
+    <entry id="upgrade_tree_name_harlot.silk_steel"><![CDATA[Шёлк скрывает сталь]]></entry>
+    <entry id="upgrade_tree_name_harlot.kiss_death"><![CDATA[Поцелуй смерти]]></entry>
+    <entry id="upgrade_tree_name_harlot.heart_gold"><![CDATA[Золотое сердце]]></entry>
+    <entry id="upgrade_tree_name_harlot.flashing_goods"><![CDATA[Товар лицом]]></entry>
+    <entry id="upgrade_tree_name_harlot.prowl"><![CDATA[На прогулке]]></entry>
+    <entry id="upgrade_tree_name_harlot.hold_close"><![CDATA[Обними меня крепче]]></entry>
+	
+	<!--Camping Skill Names -->
+    <entry id="camping_skill_name_harl_1"><![CDATA[Всегда предохраняйся]]></entry>
+    <entry id="camping_skill_name_harl_2"><![CDATA[А поговорить?]]></entry>
+    <entry id="camping_skill_name_harl_3"><![CDATA[Попудрить носик]]></entry>
+    <entry id="camping_skill_name_harl_4"><![CDATA[Приватный танец]]></entry>
+	
+		<!-- Trinkets -->
+	<entry id="str_inventory_title_trinketcollector_harlot"><![CDATA[Голова Далилы]]></entry>
+	<entry id="str_inventory_title_trinketlipstick_harl"><![CDATA[Губная помада]]></entry>
+	<entry id="str_inventory_title_trinketpuff_harl"><![CDATA[Зеркальце и пудра]]></entry>
+	<entry id="str_inventory_title_trinketnotes_harl"><![CDATA[Страстные любовные письма]]></entry>
+	<entry id="str_inventory_title_trinketperfume_harl"><![CDATA[Дорогой парфюм]]></entry>
+	<entry id="str_inventory_title_trinketbook_harl"><![CDATA[Маленькая чёрная книжка]]></entry>
+	<entry id="str_inventory_title_trinketveil_harl"><![CDATA[Свадебная фата]]></entry>
+	<entry id="str_inventory_title_trinketportrait_harl"><![CDATA[Портрет из прошлого]]></entry>
+	<entry id="str_inventory_set_title_cc_harl_combined"><![CDATA["Прости, но моя любовь не может преодолеть сомнения."]]></entry>
+	<entry id="str_inventory_title_trinketboots_harl"><![CDATA[Эксцентричные хрустальные туфельки]]></entry>
+	<entry id="str_inventory_title_trinketpainting_harl"><![CDATA[Чайный сервиз и веер гейши]]></entry>
+	
+	<!--SI Trinket Custom -->
+		<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_si_tooltip_x"><![CDATA[{colour_start|stun}Тренировка гейши:{colour_end} 
+умение: {colour_start|bleed}
+Шелковая сталь:{colour_end} 
+шанс на {colour_start|stun}
+оглушение{colour_end}]]></entry>
+	
+	<!--Trinket custom line -->
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_portrait_custom_A_x"><![CDATA[При ударе: {colour_start|stun}
+замедление{colour_end} -3 SPD (на 2 хода)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_portrait_custom_B_x"><![CDATA[При убийстве: чистый {colour_start|mark}
+Партийные Знаки{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_HARL_trinket_boots_custom_A_x"><![CDATA[При убийстве: {colour_start|buff}всей группе:{colour_end} +3 CRIT (на 2 хода)]]></entry>
+	
+	<!--Fix Missing Effect String-->	
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[При убийстве: ]]></entry>
+	 <entry id="buff_rule_data_tooltip_heart_gold"><![CDATA[Золотое сердце]]></entry>
+
+	<!--Camping Skill Barks -->
+    <entry id="str_bark_harl_1"><![CDATA[Я никогда не выхожу из дома без него.]]></entry>
+    <entry id="str_bark_harl_1"><![CDATA[Я могу помочь тебе его надеть.]]></entry>
+    <entry id="str_bark_harl_1"><![CDATA[Мы не будем делать ЭТО без него.]]></entry>
+	
+	<entry id="str_bark_harl_2"><![CDATA[А ты сюда ... часто приходишь?]]></entry>
+    <entry id="str_bark_harl_2"><![CDATA[Это безделушка у тебя в кармане? Или ты просто рад меня видеть?]]></entry>
+    <entry id="str_bark_harl_2"><![CDATA[Хочешь увидеть новую фишку, которой я научилась?]]></entry>
+ 
+	<entry id="str_bark_harl_3"><![CDATA[*Ахнуть* Такой ... БОЛЬШОЙ!]]></entry>
+    <entry id="str_bark_harl_3"><![CDATA[Добавь еще золотой и я воспользуюсь ротиком.]]></entry>
+    <entry id="str_bark_harl_3"><![CDATA[Давай проведем немного времени наедине, хи-хи!]]></entry>
+    <entry id="str_bark_harl_3"><![CDATA[Пять золотых и я твоя на всю ночь.]]></entry>
+	
+	<entry id="str_bark_harl_4"><![CDATA[Позволь мне привести себя в порядок.]]></entry>
+    <entry id="str_bark_harl_4"><![CDATA[Мне нужно подправить макияж.]]></entry>
+    <entry id="str_bark_harl_4"><![CDATA[Извини, мне нужно поправить причёску!]]></entry>
+	
+	<!-- Final Dungeon -->
+    <entry id="harlot+str_monster_user_selected_targets_kill_pill"><![CDATA[Обслужить столько мужчин, и чтобы встретить свой конец вот так? *вздыхает*]]></entry>  
+	
+	<!-- Town Events -->
+    <entry id="town_event_title_first_harlot"><![CDATA[Красива, но смертельна!]]></entry>
+    <entry id="town_event_description_first_harlot"><![CDATA[Эта очаровательная блудница кажется ухоженной и уверенной, входя в деревню. Она соблазнительна и остроумна и жаждет получить плату за незабываемую ночь. Она может пробудить похоть и закалённом мужчине и в одинокой женщине. ]]></entry>
+	<entry id="town_event_title_bonus_recruit_harlot"><![CDATA[Страсть на продажу]]></entry>
+    <entry id="town_event_description_bonus_recruit_harlot"><![CDATA[За правильную цену эта блудница готова показать вам то, что никогда не забудете.]]></entry>
+
+<!-- HARL eating crab meat -->
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[Запах... он напоминает другой запах, до боли знакомый.]]></entry>
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[Вкусно! И хорошо для либидо!]]></entry>
+<entry id="harlot+bark_pets_supply_crab_meat"><![CDATA[Прекрасное угощение! Это должно меня расслабить.]]></entry>
+
+<!-- HARL drinking from keg -->
+<entry id="harlot+barb_ale_item_1"><![CDATA[Хуже, чем бордельное пойло!]]></entry>
+<entry id="harlot+barb_ale_item_1"><![CDATA[Совершенно отвратительно!]]></entry>
+<entry id="harlot+barb_ale_item_2"><![CDATA[Я предпочитаю коньяк.]]></entry>
+<entry id="harlot+barb_ale_item_2"><![CDATA[Ну, если лучше ничего нет...]]></entry>
+<entry id="harlot+barb_ale_item_3"><![CDATA[Не так уж и плохо.]]></entry>
+<entry id="harlot+barb_ale_item_3"><![CDATA[Пила и похуже!!]]></entry>
+	
+<!-- From String Exporter 1-470 -->
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[На такое БДСМ я не соглашалась!]]></entry>
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[Вы должны вытащить меня из этой кастрюли!]]></entry>
+<entry id="harlot+str_prisoner_damage_cauldron_full"><![CDATA[Иногда я люблю пожёсче, но это нелепо!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[Она даже красивее меня!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[Теперь я служу другой госпоже!]]></entry>
+<entry id="harlot+str_control_before_turn_siren"><![CDATA[Соблазнение - мощное оружие.]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[Извините, я не могу работать на мадам!]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[Я лучше, чем независимый оператор!]]></entry>
+<entry id="harlot+str_control_return_siren"><![CDATA[Будет лучше, если я буду работать только на себя.]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[У меня был клиент, которому нравились цепи.]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[Мы еще не даже установили стоп-слово!]]></entry>
+<entry id="harlot+str_prisoner_damage_drowned_anchored"><![CDATA[Надеюсь, мне понравится это!]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[Освежающее исцеление.]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[Я знаю твои желания!]]></entry>
+<entry id="harlot+str_bark_hp_heal_dot"><![CDATA[Мне уже лучше!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[Всё это слишком для меня!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[Мое сердце тоскует по потерянной любви!]]></entry>
+<entry id="harlot+str_heart_attack"><![CDATA[Конец счастью моих клиентов! Им лучше не ходить к Рите!]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[У меня было много приключений!]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[Я так и не оправилась после его потери …]]></entry>
+<entry id="harlot+str_heart_attack_fearful"><![CDATA[Плоть немощна!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[Рита получит мою клиентскую базу!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[Ты будешь скучать по мягкому прикосновению моего тела!]]></entry>
+<entry id="harlot+str_heart_attack_paranoid"><![CDATA[Покувыркаемся на сеновале напоследок?]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[Это было слишком больно!]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[Я буду щипать свои соски до боли.]]></entry>
+<entry id="harlot+str_heart_attack_masochistic"><![CDATA[Последняя боль для меня.]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[Ты не был лучшим, это точно!]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[Ты ужасный любовник!]]></entry>
+<entry id="harlot+str_heart_attack_abusive"><![CDATA[Ты ничего не знаешь о женщинах!]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[Это была работа, но мне она нравилась!]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[Это мой последний раз, чтобы пополнить курс?]]></entry>
+<entry id="harlot+str_heart_attack_selfish"><![CDATA[Мое сердце замирает!]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[Мое разбитое сердце так и не восстановилось.]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[Это последнее объятие?]]></entry>
+<entry id="harlot+str_heart_attack_depressed"><![CDATA[Было ли неправильно оставлять его у алтаря?]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[Мне не следовало есть сырую рыбу!]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[Все люди проститутки]]></entry>
+<entry id="harlot+str_heart_attack_irrational"><![CDATA[Рита всегда что-то замышляет!]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[Это может быть паршивая профессия.]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[Влажное дыхание на вашей шее …]]></entry>
+<entry id="harlot+str_afflicted_fearful"><![CDATA[Разве я недостаточно молода, недостаточно красива, недостаточно смела?]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[Мое преступление будет раскрыто!]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[Вы только пользуетесь мной, на самом деле не заботясь обо мне.]]></entry>
+<entry id="harlot+str_afflicted_paranoid"><![CDATA[Я не уверена. Это вообще законно?]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[Хочу пожёстче]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[Я всё вытерплю!]]></entry>
+<entry id="harlot+str_afflicted_masochistic"><![CDATA[Ещё! Ещё!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[Ты понятия не имеешь, как обращаться с женщиной!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[С таким лицом, вам придется доплатить!]]></entry>
+<entry id="harlot+str_afflicted_abusive"><![CDATA[Это НЕ удовлетворит ни одного партнера!]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[Я искусна в поверхностности!]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[А как же мое удовольствие? Мои потребности?]]></entry>
+<entry id="harlot+str_afflicted_selfish"><![CDATA[Клянусь светом, давай быстрее!]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[Мои клиенты не заботятся обо мне, просто хотят, чтобы я делала всё для них.]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[Не так я хотела, чтобы прошла моя жизнь!]]></entry>
+<entry id="harlot+str_afflicted_depressed"><![CDATA[Мое тело однажды подведет меня.]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[Надо было стать булочницей!]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[Почему я не послушала мамочку?]]></entry>
+<entry id="harlot+str_afflicted_irrational"><![CDATA[Как ты думаешь, я могла бы стать профессиональной танцовщицей?]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[Хукинг сделал меня тем, кто я есть!]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[Искусство обольщения очень могущественно.]]></entry>
+<entry id="harlot+str_virtued_stalwart"><![CDATA[Великие куртизанки, вошедшие в историю, были очень хорошо осведомлены.]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[Мужество означает любовь к себе.]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[Мы победим, и я снова буду любить!]]></entry>
+<entry id="harlot+str_virtued_courageous"><![CDATA[Моя кровать видела монстров и покрупнее!]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[Сконцентрируйтесь только на задаче, отключите свои чувства.]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[Это просто работа как и любая другая.]]></entry>
+<entry id="harlot+str_virtued_focused"><![CDATA[Быть женщиной - это радостное состояние!]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[Я могу заставить тебя чувствовать себя прекрасно.]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[Нечего бояться наслаждаться своим телом!]]></entry>
+<entry id="harlot+str_virtued_powerful"><![CDATA[Большинство людей продают секс, я просто беру за него деньги!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[Секс может заставить вас чувствовать себя живым!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[После этого ты можешь присоединиться ко мне в постели!]]></entry>
+<entry id="harlot+str_virtued_vigorous"><![CDATA[Кровь будет качать, и ты будешь качать, и я буду качать!]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[Я помню одного клиента...]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[Тебе нужен великий ум для великого обольщения.]]></entry>
+<entry id="harlot+str_stress_heal_self_stalwart"><![CDATA[Настоящий прилив адреналина!]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[Позвольте мне показать вам, как немного расслабиться…]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[Я могу сделать вам всем приятно!]]></entry>
+<entry id="harlot+str_stress_heal_party_courageous"><![CDATA[Поцелуй и подмигивание может завести вас далеко!]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[Эй, моряк, купишь мне выпить? (подмигивая)]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[Плоть хочет того, чего хочет.]]></entry>
+<entry id="harlot+str_buff_random_party_member_focused"><![CDATA[Я могу разжечь неведомые доселе желания!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[Это создаст всплеск силы в вашем теле!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[Я знаю, как принести мир и гармонию в тело!]]></entry>
+<entry id="harlot+str_buff_party_powerful"><![CDATA[Любовь - это все, что нам нужно!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[Моя работа придаёт мне сил!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[Я могу деллать это всю ночь, дорогуша!]]></entry>
+<entry id="harlot+str_heal_self_vigorous"><![CDATA[Мы можем начать снова уже через за минуту!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[Мы можем закончить наш поход здесь!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[Ты больше не почувствуешь мой ротик там!]]></entry>
+<entry id="harlot+str_bark_stress_fearful"><![CDATA[Лучше бы у тебя не было генитальных бородавок]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[Если они узнают, что это была я…]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[Вы с ордером на арест?]]></entry>
+<entry id="harlot+str_bark_stress_paranoid"><![CDATA[Тебе не кажется, что я красивая?]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[Боль может быть приятной!]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[Кончик кнута - это то, чего я жажду.]]></entry>
+<entry id="harlot+str_bark_stress_masochistic"><![CDATA[Удовольствие и боль очень похожи.]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[Это то, с чем вы должны работать?]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[Я больше не облегчу твою ношу!]]></entry>
+<entry id="harlot+str_bark_stress_abusive"><![CDATA[Вы не можете позволить себе мое время!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Сосредоточься на моих потребностях!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Эй! По крайней мере, я не астролог, такая шутка!]]></entry>
+<entry id="harlot+str_bark_stress_selfish"><![CDATA[Ложись на спину и получай удовольствие!]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[Я потеряла свою любовь и никогда не найду другую...]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[Мне пришлось распустить свое тело, чтобы остаться в живых.]]></entry>
+<entry id="harlot+str_bark_stress_depressed"><![CDATA[Как прекрасна была моя жизнь, когда ты был в этом мире…]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[Красота мимолетна, но глупость - это навсегда!]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[Рита, вероятно, крадет моих клиентов, пока мы говорим.]]></entry>
+<entry id="harlot+str_bark_stress_irrational"><![CDATA[Если меня ранят, я могу потерять свою красоту.]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[Что если флирту нет конца?]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[Что если я никогда не почувствую настоящую любовь снова?]]></entry>
+<entry id="harlot+str_change_pos_back_fearful"><![CDATA[Я должна спрятаться!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[Мы должны бежать. Ты меня слышишь? Мы должны бежать сейчас же!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[Ты слышишь это? Дай мне вернуться!]]></entry>
+<entry id="harlot+str_change_pos_back_paranoid"><![CDATA[Они придут за мной??]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[Пропустите меня сейчас же!]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[Я могу принять порку!]]></entry>
+<entry id="harlot+str_change_pos_fwd_masochistic"><![CDATA[Всё рано ударь меня]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[Дай-ка я получше посмотрю!]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[Может мне переехать сюда?]]></entry>
+<entry id="harlot+str_change_pos_fwd_irrational"><![CDATA[Мне нужно занять позицию .]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[Может мне вернуться сюда?]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[Не имеет значения, где я стою, мы все еще можем умереть!]]></entry>
+<entry id="harlot+str_change_pos_back_irrational"><![CDATA[Уступите дорогу, конечно, я что-нибудь поймаю, если останусь впереди.]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[Спереди или сзади, это не имеет значения.]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[Разве аморально продавать любовь?]]></entry>
+<entry id="harlot+str_change_pos_fwd_depressed"><![CDATA[Любовь или похоть? Я просто лжец?]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[Неужели моя душа обречена?]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[Я не могу вернуть свою чистоту.]]></entry>
+<entry id="harlot+str_change_pos_back_depressed"><![CDATA[Я могу только оставаться в этой позиции…]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[Мне нужно выжить, мне плевать на всех остальных.]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[Дай посмотреть! Я в этом лучше разбираюсь.]]></entry>
+<entry id="harlot+str_change_pos_fwd_selfish"><![CDATA[Я научилась быть очаровательной и умной.]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[Руки прочь от моего тела!]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[Мне нужно отойти на минутку.]]></entry>
+<entry id="harlot+str_change_pos_back_selfish"><![CDATA[Дай мне собраться с мыслями, мне нужно время.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[Я не сделаю этого для тебя.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[Нет, если вы не были проверены.]]></entry>
+<entry id="harlot+str_ignore_command_fearful"><![CDATA[Мы не делали этого без защиты!]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[Мне не жаль, это не входит в мои обязанности.]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[Разве я не лучшее, что у тебя когда-либо было?]]></entry>
+<entry id="harlot+str_ignore_command_paranoid"><![CDATA[Ты уже устал от меня?]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Не могли бы вы закончить, я устала от этого!]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Не занимайте всю ночь, у меня есть и другие клиенты.]]></entry>
+<entry id="harlot+str_ignore_command_selfish"><![CDATA[Слушай, тебе нужно заплатить за дополнительное время, я не твоя девушка.]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[Я теряю свою красоту?]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[Время лишит красоты моё тело!]]></entry>
+<entry id="harlot+str_ignore_command_depressed"><![CDATA[При чем тут любовь?]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[Мне надоело, что ты говоришь мне, что делать, мама!]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[Влюбляются ли монахини?]]></entry>
+<entry id="harlot+str_ignore_command_irrational"><![CDATA[Рита всегда пыталась отнять у меня любовь.]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[Я не хочу, чтобы меня заставляли это делать, я сама выбираю своих клиентов!]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[Я не против мужчин, и я не против женщин!]]></entry>
+<entry id="harlot+str_random_command_paranoid"><![CDATA[Не повредит ли мне старый трюк?]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[Я продаю свое тело за деньги.]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[Я буду делать то, что хочу и когда захочу. Это не от тебя зависит!]]></entry>
+<entry id="harlot+str_random_command_masochistic"><![CDATA[Мне нужна боль, чтобы чувствовать себя живой.]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[Огурец мог бы доставить мне больше удовольствия!]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[Держу пари, ты ужасный любовник!]]></entry>
+<entry id="harlot+str_random_command_abusive"><![CDATA[Я не буду целовать тебя там, прости приятель.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[Это мое тело, и я буду делать с ним все, что захочу.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[Я не могу рисковать забеременеть.]]></entry>
+<entry id="harlot+str_random_command_selfish"><![CDATA[Мне нужны принадлежности, духи, помада и многое другое.]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[Плоть, плоть и еще раз плоть, но как же моя душа?]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[Все это цепляет, а я еле успеваю.]]></entry>
+<entry id="harlot+str_random_command_depressed"><![CDATA[Я понимаю, что нужно людям, и не осуждаю.]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[Нарежьте их моими веер-клинками]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[Моя мать знала, что я стану плохим семенем!]]></entry>
+<entry id="harlot+str_random_command_irrational"><![CDATA[Защити меня!]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[Дела идут не очень хорошо? Разве ты этого не видишь?]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[Лучше бы у тебя было золото, чтобы расплатиться.]]></entry>
+<entry id="harlot+str_bark_stress_camp_fearful"><![CDATA[Ничто не является бесплатным, вообще ничего.]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[А если они вернутся? * нервно оглядывается по сторонам*]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[Это все проделки Риты?]]></entry>
+<entry id="harlot+str_bark_stress_camp_paranoid"><![CDATA[Я бы предпочла хороший отель этому кемпингу! Вы сами себя не нюхали в последнее время? А я нюхала!]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[Я могу взять это, но можете ли вы дать это?]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[Ты начинаешь меня раздражать.]]></entry>
+<entry id="harlot+str_bark_stress_camp_masochistic"><![CDATA[Я должна была остаться в борделе, приключения - это тяжелая работа!]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[Мой поцелуй нельзя купить.]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[Ты думаешь, это особенное представление? Что за шутка!]]></entry>
+<entry id="harlot+str_bark_stress_camp_abusive"><![CDATA[Я тебе не подружка, не жена и не мать!]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[Мне нужно побыть одной. Давайте переосмыслим наши отношения.]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[У меня ужасно болит голова!]]></entry>
+<entry id="harlot+str_bark_stress_camp_selfish"><![CDATA[Прости, но не сегодня.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[Здесь нет никакой радости.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[Я не уверена, что мы успеем до утра.]]></entry>
+<entry id="harlot+str_bark_stress_camp_depressed"><![CDATA[Когда-то у меня был хороший мужчина…]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[Немного муки, немного сахара, немного ванили.]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[Секс, ложь и золото - это все, что вам нужно для успеха!]]></entry>
+<entry id="harlot+str_bark_stress_camp_irrational"><![CDATA[За нами следят? У меня есть ребята, которые не могут принять нет за ответ.]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[Сделай мне больно! Сделай пожалуйста!]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[Я буду страдать!]]></entry>
+<entry id="harlot+str_mark_self_masochistic"><![CDATA[Я леди и бродяга!]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[С таким же успехом могла бы быть и я.]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[Я позволю им забрать меня, это не проблема.]]></entry>
+<entry id="harlot+str_mark_self_depressed"><![CDATA[Приди за мной, изнасилуй меня!]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[Попробуй поймать меня!]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[Моя мать всегда знала, когда я лгу.]]></entry>
+<entry id="harlot+str_mark_self_irrational"><![CDATA[Приходите за мной, мальчики, я не боюсь вас!]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[Ты хочешь меня. Не отрицай этого!]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[Хочешь потрогать их?]]></entry>
+<entry id="harlot+str_attack_friendly_paranoid"><![CDATA[Я открыта для всех видов веселых мероприятий!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[Тебе понравится!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[Немного боли может доставить много удовольствия!]]></entry>
+<entry id="harlot+str_attack_friendly_abusive"><![CDATA[Им можно делать гораздо больше, чем просто вставлять!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[Ваша техника требует тренировки!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[Взгляните на мои вееры!]]></entry>
+<entry id="harlot+str_attack_friendly_irrational"><![CDATA[Острые коготки!]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Эй, слушай сюда! Ты должен защищать меня первой! Ты меня слушаешь?]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Я! Я! Это должна быть я!]]></entry>
+<entry id="harlot+str_attack_self_masochistic"><![CDATA[Закаленных жизнью сложнее научить чувствовать.]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[Почему моя жизнь пошла по этому пути?]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[Мне должно быть стыдно, но это не так!]]></entry>
+<entry id="harlot+str_attack_self_depressed"><![CDATA[Я перережу себе вены!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[Мама, мне так жаль, если я подвела тебя!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[Так много поцелуев, но никакой любви!]]></entry>
+<entry id="harlot+str_attack_self_irrational"><![CDATA[Увижу ли я свою любовь в преисподней?]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[Мы остаемся здесь и заканчиваем это!]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[Я останусь и буду сражаться!]]></entry>
+<entry id="harlot+str_block_combat_retreat_paranoid"><![CDATA[Я не уйду, мне все равно, что будет!]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[Нет. Я не трус.]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[Они просто найдут нас позже, так что голосуйте остаться и бороться дальше!]]></entry>
+<entry id="harlot+str_block_combat_retreat_depressed"><![CDATA[Бегство ничего не решит, поверь мне.]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[Оставайся здесь. Прими боль!]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[Мне нужно почувствовать сталь на своей коже.]]></entry>
+<entry id="harlot+str_block_combat_retreat_masochistic"><![CDATA[Боль напоминает мне, кто я есть.]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[Ты не будешь спать со мной сегодня!]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[Прости, сладний, но этого не случится.]]></entry>
+<entry id="harlot+str_block_combat_retreat_irrational"><![CDATA[Простите? Я не верю, что бегство поможет!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[Я не могу позволить своему страху одолеть меня!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[Мне нужно вырваться из него!]]></entry>
+<entry id="harlot+str_comment_self_hit_fearful"><![CDATA[А если за мной придет клиент?]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[О боги! Это что, гусиные лапки?]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[Разве я недостаточно красива? РАЗВЕ Я НЕДОСТАТОЧНО КРАСИВА?!!]]></entry>
+<entry id="harlot+str_comment_self_hit_paranoid"><![CDATA[Рита с трудом справляется с садовой змеей…]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[Вы только хотите видеть мою красоту запятнанной!]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[Так вот как ты выходишь, ненормальный?]]></entry>
+<entry id="harlot+str_comment_self_hit_selfish"><![CDATA[Я хорошо сыграю свою роль!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[Ну, я полагаю, что должна доставить себе удовольствие!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[Сильнее! Сильнее!]]></entry>
+<entry id="harlot+str_comment_self_hit_masochistic"><![CDATA[Красота в том, чтобы быть черным и синим!]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[Я была плохой...я заслужила это...]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[Это просто любовное прикосновение.]]></entry>
+<entry id="harlot+str_comment_self_hit_irrational"><![CDATA[Как мило, это для меня?]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[Они избежали моих чар!!]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[Я теряю хватку!]]></entry>
+<entry id="harlot+str_comment_self_missed_fearful"><![CDATA[Я промахнулась!]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[Я не могу ошибиться! Одно неверное движение!]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[На мне поставили крест...]]></entry>
+<entry id="harlot+str_comment_self_missed_paranoid"><![CDATA[Они нашли лазейку!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[Ударь меня, как будто ты серьезно!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[Твоя хозяйка требует, чтобы ты ударил ее!]]></entry>
+<entry id="harlot+str_comment_self_missed_masochistic"><![CDATA[Ты играешь с моим удовольствием, дьявол!]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Это была любовная записка, которая просто пролетела мимо?]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Посылаешь мне воздушный поцелуй?]]></entry>
+<entry id="harlot+str_comment_self_missed_irrational"><![CDATA[Пытаешься привлечь внимание девушки?]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[Уже обмякла!?]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[Я ожидала, что ты продержишься дольше!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_selfish"><![CDATA[Я с тобой еще не закончила!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[Держу пари, ты ужасный любовник!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[Ты не удовлетворишь даже дохлую рыбу!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_abusive"><![CDATA[Импотент на поле боя и в постели!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[Позволь мне послать тебе воздушный поцелуй!]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[Я размазала помаду по твоему лицу.]]></entry>
+<entry id="harlot+str_comment_ally_attack_hit_irrational"><![CDATA[Ты встречался с Ритой?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[Пауки, топчите их!!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[Я не хочу здесь умирать!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_fearful"><![CDATA[Что с тобой случилось?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[Может, нам стоит отступить?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[Это должно было ударить!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_paranoid"><![CDATA[На кого ты пытаешься произвести впечатление?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[Ты опять пытаешься меня разочаровать?!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[Не умеешь метко стрелять, а?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_abusive"><![CDATA[Что за идиот!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[ПШ! Позвольте мне показать вам, как это делается!]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[Неужели я должна все делать сама?]]></entry>
+<entry id="harlot+str_comment_ally_attack_missed_selfish"><![CDATA[Ха! Это не первый раз, когда меня подводят!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[Н-не кради мою удачу!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[Они всегда возвращаются с местью!]]></entry>
+<entry id="harlot+str_comment_ally_hit_fearful"><![CDATA[Ну, теперь ты его разозлил!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[Пообещай, что сделаешь то же самое со мной!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[У меня от тебя жар под воротником!]]></entry>
+<entry id="harlot+str_comment_ally_hit_masochistic"><![CDATA[Я хочу увидеть кровь! Ударь еще раз!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[Наверное, ты не такой уж и безвольный ягненок, как я думала!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[Сомневаюсь, что ты сможешь сделать это снова!]]></entry>
+<entry id="harlot+str_comment_ally_hit_abusive"><![CDATA[Наконец-то снова обрел бодрость духа, а?]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[Это платный клиент!]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[Я бы не выбросила их из постели!]]></entry>
+<entry id="harlot+str_comment_ally_hit_irrational"><![CDATA[Не так грубо!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[Они получили это вместо вас!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[Позволь мне спрятаться за тобой!]]></entry>
+<entry id="harlot+str_comment_ally_missed_fearful"><![CDATA[Твоё везение продолжается слишком долго!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[Ты долго не протянешь!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[Ты пытаешься заставить его напасть и на меня тоже?!]]></entry>
+<entry id="harlot+str_comment_ally_missed_paranoid"><![CDATA[Мне кажется, я могу упасть в обморок!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[Я думаю, что они представляют вас!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[Истинная любовь пролетела в твою сторону!]]></entry>
+<entry id="harlot+str_comment_ally_missed_irrational"><![CDATA[Любовь режет глубже, чем самый острый нож!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[Я остаюсь там, где я есть!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[Слишком опасно, чтобы двигаться!]]></entry>
+<entry id="harlot+str_block_move_fearful"><![CDATA[Я - фрейлина!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[Маловато платишь, и не подумаю сдвинуться с места!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[И что делать? УМЕРЕТЬ?!]]></entry>
+<entry id="harlot+str_block_move_paranoid"><![CDATA[Я не сделаю ничего, что ты скажешь!]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[И скучать по сладкому удовольствию боли?]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[Нет! Мне нужна небольшая порка!]]></entry>
+<entry id="harlot+str_block_move_masochistic"><![CDATA[Я отказываюсь! Пока не увижу кровь!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[И пальцем не пошевелю!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[Ты хочешь мной покомандовать? Сперва заплати!]]></entry>
+<entry id="harlot+str_block_move_abusive"><![CDATA[Тронь меня еще раз, и я выпотрошу тебя!]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[Что ты пытаешься мне дать?]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[Думаю, что нет!]]></entry>
+<entry id="harlot+str_block_item_paranoid"><![CDATA[Держи это подальше от меня!]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[Нет! Мне нравится боль, которую я чувствую!]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[Оооу? Что-то, чтобы усилить мое удовольствие?]]></entry>
+<entry id="harlot+str_block_item_masochistic"><![CDATA[Ты накажешь меня, если я не соглашусь?]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[Не трать это на такую женщину, как я...]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[Я просто хочу посмотреть на свой медальон...]]></entry>
+<entry id="harlot+str_block_item_depressed"><![CDATA[Я уже падшая женщина…]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[Это не мои духи!]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[Я принимаю только любовные записки.]]></entry>
+<entry id="harlot+str_block_item_irrational"><![CDATA[Этого не достаточно!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[Я убираюсь отсюда!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[Даже шлюха знает, когда пришло время откланяться!]]></entry>
+<entry id="harlot+str_comment_move_fearful"><![CDATA[Может, отступим?]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[Почему ты стоишь у меня за спиной?!]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[За мной уже пришли!]]></entry>
+<entry id="harlot+str_comment_move_paranoid"><![CDATA[Не обращайте на меня внимания, просто убегайте!]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[Не вини меня за то, что я забочусь о себе!]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[Это собачий мир, милая.]]></entry>
+<entry id="harlot+str_comment_move_selfish"><![CDATA[Шлюха должна сама о себе заботиться!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[Моя кровь тепла и приятна!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[Оооо! Это ускоряет мой пульс!]]></entry>
+<entry id="harlot+str_comment_move_masochistic"><![CDATA[Почему бы тебе не подойти поближе…]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[Как насчет того, чтобы ТЫ поцеловал их!]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[Бьюсь об заклад, у вас нет сил, чтобы противостоять им!]]></entry>
+<entry id="harlot+str_comment_move_abusive"><![CDATA[Меня окружают такие извращенцы!]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[Все приоделись, а пойти некуда…]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[(вздох) мама была права…]]></entry>
+<entry id="harlot+str_comment_move_depressed"><![CDATA[Что я сделала со своей жизнью?]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[Может, потанцуем?]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[Ты наступаешь мне на юбку!]]></entry>
+<entry id="harlot+str_comment_move_irrational"><![CDATA[Хватит пялиться на мой зад!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[Ты что, трогаешь это без перчаток?!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[Даже я знаю, что к этому нельзя прикасаться!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_fearful"><![CDATA[Удивительно, что ты еще не подхватил сифилис...]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[В прошлый раз ты мне недостаточно заплатил! Моё!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[Это подарок для меня, я полагаю?]]></entry>
+<entry id="harlot+str_comment_curio_interaction_selfish"><![CDATA[Лучше бы это была плата за то, что я сделала для тебя прошлой ночью!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[О, какой длинный и острый!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[Я могу придумать несколько применений для этого, хи-хи!]]></entry>
+<entry id="harlot+str_comment_curio_interaction_masochistic"><![CDATA[Оооу? Это опасно?]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[Так вот куда делись мои любовные записки?]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[Нам всем, наверное, стоит помыть руки после этого.]]></entry>
+<entry id="harlot+str_comment_curio_interaction_irrational"><![CDATA[Я пропустила место моей маленькой черной книжки?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[О! Даже подземелье меня любит!]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[Какое прекрасное чувство, нет?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_masochistic"><![CDATA[А! Они рады познакомиться с нами!]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[Я никогда ничего не продумываю…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[Мне нужно посмотреть больше, прежде чем я прыгну…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_depressed"><![CDATA[*Вздох* Z заслужилf это…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[Хм... Наверное, это был ветер…]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[Это поклонник у двери?]]></entry>
+<entry id="harlot+str_comment_trap_triggered_irrational"><![CDATA[Там часто болит. Такая уж профессия...]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[Ты пытаешься поцеловать меня?!]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[Я не твоя любовница! Руки прочь!]]></entry>
+<entry id="harlot+str_block_heal_paranoid"><![CDATA[Держите руки так, чтобы я их видела!]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[Я не откажу себе в таком удовольствии!]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[Стой! Я так б-близко! (дрожит)]]></entry>
+<entry id="harlot+str_block_heal_masochistic"><![CDATA[О, не убивай настроение!]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[Я не хочу, чтобы меня трогали…]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[Я сомневаюсь, что ты можешь исцелить мое сердце…]]></entry>
+<entry id="harlot+str_block_heal_depressed"><![CDATA[Нет, я должна быть наказана за то, что оставила его…]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[Я еще не сказала вам свои расценки!]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[Нужно доплатить за то, что другие тоже смотрят.]]></entry>
+<entry id="harlot+str_block_heal_irrational"><![CDATA[Только не в разгар битвы, извращенец!]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[Ты пытаешься меня поцеловать?!]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[Я не твоя любовница! Руки прочь!]]></entry>
+<entry id="harlot+str_block_buff_paranoid"><![CDATA[Держите руки так, чтобы я их видела!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[У меня и так кровь течет!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[Нет! Это не то удовольствие, которое мне нужно!]]></entry>
+<entry id="harlot+str_block_buff_masochistic"><![CDATA[Что-то тут не так!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[Не смей меня жалеть!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[Ты мне не поможешь!]]></entry>
+<entry id="harlot+str_block_buff_depressed"><![CDATA[Мне не нужна твоя благотворительность!]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[Я еще не сказала вам свои расценки!]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[Нужно доплатить за то, что другие тоже смотрят.]]></entry>
+<entry id="harlot+str_block_buff_irrational"><![CDATA[Только не в разгар битвы, извращенец!]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[Ой! Это был не любовный стук.]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[Знаешь ли, не каждая шлюха любит грубость!]]></entry>
+<entry id="harlot+str_combat_knockback"><![CDATA[Это один из способов заставить кровь течь…]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[Невежливо тратить время на поле боя и в спальне.]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[Я тоже люблю не спешить, но это уже просто смешно…]]></entry>
+<entry id="harlot+str_combat_wastingtime"><![CDATA[Поторопись, любимый! Другие тоже хотят присоединиться!]]></entry>
+<entry id="harlot+str_monster_attack_unholy_smite"><![CDATA[Мое сердце чувствует себя настолько тяжело и одиноко!]]></entry>
+<entry id="harlot+str_monster_attack_unholy_curse"><![CDATA[Могу ли я только испытывать любовь, но никогда не отдавать ее?]]></entry>
+<entry id="harlot+str_monster_attack_unholy_judgement"><![CDATA[Он умер, ожидая меня у алтаря!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[Не дай ему зажечь его!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[Поторопись, пока он снова не зажег его!]]></entry>
+<entry id="harlot+str_monster_attack_light_fuse"><![CDATA[Мы должны остановить его, пока он не поджег фитиль!]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Приватный танец, когда мы вернемся в деревню?]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Никому не говори, но ты один из моих любимых клиентов.]]></entry>
+<entry id="harlot+str_bark_encourage"><![CDATA[Позволь мне отвлечь тебя от этой ужасной миссии.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[...и вот поцелуй, чтобы стало полегче.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[Положи голову мне на грудь. Ты почувствуешь себя намного лучше.]]></entry>
+<entry id="harlot+str_bark_first_aid"><![CDATA[Дайте мне знать, если я давлю слишком сильно.]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[Я знаю, что прибавит вам немного бодрости в походке!(хихикает)]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[Потанцуй со мной у огня!]]></entry>
+<entry id="harlot+str_bark_pep_talk"><![CDATA[Хорошая ванна ждет нас, когда мы вернемся в Гамлет.]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[По крайней мере, я почти ни о чём не сожалею!]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[Я м-может быть немного не в себе.]]></entry>
+<entry id="harlot+str_bark_deathsdoor"><![CDATA[Не так я рассчитывала уйти!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[I'm not in the mood!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[У меня выходной!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_fearful"><![CDATA[Я сказала, НЕТ!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[Хватит пялиться на меня!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[Я сказала, НЕТ!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_paranoid"><![CDATA[Ты напоминаешь мне его!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[Подойди ближе, я держу нож.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[Ваша госпожа недовольна.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_masochistic"><![CDATA[Как твоя госпожа, я сомневаюсь, что ты справишься с этим!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[Я не трону тебя ни за какие деньги на свете!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[У тебя такое лицо, которое может любить только мама.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_abusive"><![CDATA[После рассмотрения, я только что подняла свои расценки. ]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[После рассмотрения, я только что подняла свои расценки. ]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[Сомневаюсь, что у тебя много денег в кошельке.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_selfish"><![CDATA[Даже если бы ты был последним мужчиной на земле.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[Я не чувствую этого, милый…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[У меня болит голова…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_depressed"><![CDATA[У меня слишком много мыслей…]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[Пока ты не напишешь мне любовное письмо.]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[Я чувствую запах Риты на тебе!]]></entry>
+<entry id="harlot+str_block_camping_skill_performer_irrational"><![CDATA[Я не даю скидок.]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[Я сказала, НЕТ!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[Держи руки так, чтобы я их видела!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_paranoid"><![CDATA[Руки прочь от товара!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[Нет! Ты слишком нежен!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[Ты никогда не сможешь удовлетворить меня!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_masochistic"><![CDATA[Я слишком хороша для тебя!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[Not until you pay me first!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[Я отрежу тебе руку своим веером!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_abusive"><![CDATA[Даже не думай об этом!]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[Не в настроении, любовь моя…]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[Сейчас я хочу побыть одна…]]></entry>
+<entry id="harlot+str_block_camping_skill_target_depressed"><![CDATA[Как ты думаешь, он переехал?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[У тебя есть "дружок"?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[Ты приглашаешь меня на танец?]]></entry>
+<entry id="harlot+str_block_camping_skill_target_irrational"><![CDATA[Тебе нужно проверить эту рану…]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[Опять тушеное мясо? Я пасс…]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[Кто это приготовил?]]></entry>
+<entry id="harlot+str_block_camping_meal_paranoid"><![CDATA[Я не буду это есть!]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[Я жажду кое-чего еще, хе-хе…]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[Еда меня не удовлетворит!]]></entry>
+<entry id="harlot+str_block_camping_meal_masochistic"><![CDATA[Мой "голод" неутолим! ]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[У меня пропал аппетит…]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[NНе голодна…]]></entry>
+<entry id="harlot+str_block_camping_meal_depressed"><![CDATA[Можешь взять мой паек…]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[А где картофель?!]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[Разве ты не хочешь чего-то еще? (подмигивания)]]></entry>
+<entry id="harlot+str_block_camping_meal_irrational"><![CDATA[Я слежу за своей фигурой!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Не хотите ли воспользоваться случаем?]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Теперь скажите: "Да, Госпожа!"]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Я тебя отвлекаю? Хи-хи!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[Самое интересное, что было с моей одеждой!]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[О, это твой первый раз? (смешок)]]></entry>
+<entry id="harlot+str_critbyhero"><![CDATA[OТак быстро закончил?]]></entry>
+
+
+  </language>
+
+</root>
+

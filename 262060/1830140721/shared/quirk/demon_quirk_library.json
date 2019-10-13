@@ -1,0 +1,56 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "ancient",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+            "krelps_legacy"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.2,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "QUIRK_demon_ancient_DMGL",
+            "QUIRK_demon_ancient_DMGH",
+            "QUIRK_demon_ancient_B1",
+            "QUIRK_demon_ancient_B2"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : false
+      },
+      {
+        "id" : "krelps_legacy",
+        "show_explicit_buff_description" : true,
+        "show_flavor_description" : true,
+        "show_explicit_curio_tag_description" : false,
+        "random_chance" : 1,
+        "is_positive" : true,
+        "is_disease" : false,
+        "classification" : "physical",
+        "incompatible_quirks" : 
+        [
+           "ancient"
+        ],
+        "curio_tag" : "",
+        "curio_tag_chance" : 0.2,
+        "keep_loot" : false,
+        "buffs" : 
+        [
+            "QUIRK_demon_krelps_legacy_B1",
+            "QUIRK_demon_krelps_legacy_B2",
+            "QUIRK_demon_krelps_legacy_B3"
+        ],
+        "can_modify_in_activity" : true,
+        "can_be_replaced_by_new_quirk" : false
+     }
+   ]
+}

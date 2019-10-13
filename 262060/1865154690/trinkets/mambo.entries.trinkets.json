@@ -1,0 +1,187 @@
+{
+   "entries":
+   [
+      {
+         "id" : "mambo_my_good_headscarf",
+         "buffs" : 
+         [
+            "mambo_trinket_headscarf_speed",
+			"mambo_trinket_headscarf_disease_resist",
+			"mambo_trinket_headscarf_debuff_resist"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 3,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_sugar_dusted_beignet",
+         "buffs" : 
+         [
+            "mambo_trinket_beignet_heal_rec",
+			"mambo_trinket_beignet_spd"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 3,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_stillborns_blanket",
+         "buffs" : 
+         [
+            "mambo_trinket_blanket_prot",
+			"mambo_trinket_blanket_bleed_resist",
+            "mambo_trinket_blanket_stress"
+            
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_grigri_talisman",
+         "buffs" : 
+         [
+            "mambo_trinket_talisman_debuff",
+            "mambo_trinket_talisman_crit",
+            "mambo_trinket_talisman_dodge"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_beaded_gourd",
+         "buffs" : 
+         [
+            "mambo_trinket_gourd_stress_heal",
+            "mambo_trinket_gourd_acc",
+            "mambo_trinket_gourd_party_surprise"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_vial_of_teeth",
+         "buffs" : 
+         [
+            "mambo_trinket_teeth_stress_received",
+            "mambo_trinket_teeth_virtue",
+			"mambo_trinket_teeth_dmg_received"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "mambo_crystalized_pepper_rum",
+         "buffs" : 
+         [
+            "mambo_trinket_com_horror"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" :"comet",
+         "shard" : 85,
+         "limit" : 1,
+		 "attack_skill_additional_effects":
+         [
+		 "Mambo_CoM_Rum_horror"
+		 ],
+		 "kill_performer_additional_effects":
+         [
+		 "Mambo_CoM_Rum_horror_clear"
+		 ]
+     },
+	 {
+         "id" : "mambo_freedom_papers",
+         "buffs" : 
+         [
+            "mambo_trinket_teeth_stress_received",
+			"mambo_trinket_freedom_papers_prot",
+			"mambo_trinket_high_stress_dmgl",
+			"mambo_trinket_high_stress_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "crimson_court",
+		 "set_id" : "cc_mambo",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	  {
+         "id" : "mambo_locket_of_christophe",
+         "buffs" : 
+         [
+			"mambo_trinket_cc_husbands_embrace",
+            "mambo_trinket_cc_bonus_pinprick_reduce",
+			"mambo_trinket_high_stress_dmgl",
+			"mambo_trinket_high_stress_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "crimson_court",
+		 "set_id" : "cc_mambo",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	  {
+         "id" : "mambo_kagura",
+         "buffs" : 
+         [
+			"mambo_kagura_monster_surprise",
+			"mambo_kagura_stress_healed"
+         ],
+         "hero_class_requirements":
+         [
+            "mambo"
+         ],
+         "rarity" : "sakura",
+         "price" : 30000,
+         "limit" : 1,
+         "origin_dungeon" : "ship",
+		 "friendly_skill_additional_effects":
+		[
+		 "Mambo_SI_DeStress_1"
+		]
+      }
+   ]
+}

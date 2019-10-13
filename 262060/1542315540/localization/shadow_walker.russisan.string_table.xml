@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="russian">
+<!--Art by Kahvipannu. Class by dem22 --> 
+<!---Class name and specific people names--->
+	<entry id="hero_class_name_shadow_walker"><![CDATA[Тёмный Ходок]]></entry>
+	<entry id="hero_name_hunter"><![CDATA[Hunter]]></entry>
+	<entry id="hero_name_scorpion"><![CDATA[Scorpion]]></entry>
+	
+	<!--First SHAD Subtitle -->
+	<entry id="str_vo_bad_shadow_walker_recruitment_0"><![CDATA[Остерегайтесь наступления темноты, потому что он наблюдает и ждет тех, кто сбивается с факела]]></entry>
+	
+<!---SW riposte--->
+    <entry id="buff_rule_data_tooltip_SW_riposte"><![CDATA[{colour_start|riposte}Контр-атака{colour_end}]]></entry>
+<!--Trinkets -->
+	<entry id="str_inventory_title_trinketsw1"><![CDATA[Флакон Хороший Воспоминаний]]></entry>
+    <entry id="str_inventory_title_trinketsw2"><![CDATA[Книга Поэм]]></entry>
+    <entry id="str_inventory_title_trinketsw3"><![CDATA[Тяжелая Цепь]]></entry>
+    <entry id="str_inventory_title_trinketsw4"><![CDATA[Тёмный Ладан]]></entry>
+    <entry id="str_inventory_title_trinketsw5"><![CDATA[Контракт на Убийство]]></entry>
+    <entry id="str_inventory_title_trinketswset1"><![CDATA[Последние сапоги Элио]]></entry>
+    <entry id="str_inventory_title_trinketswset2"><![CDATA[Последние рукавцы Элио]]></entry>
+    <entry id="str_inventory_set_title_swset_combined12"><![CDATA["Возмездие Элио"]]></entry>
+	<entry id="str_inventory_title_trinketsw3b_chain"><![CDATA[Благословенная Цепь]]></entry>
+	<entry id="str_inventory_title_trinketsw_shadow_ring"><![CDATA[Кольцо Тёмного Ходока]]></entry>
+	<entry id="str_inventory_title_trinketsw_watcher_poison"><![CDATA[Украденный Яд Хранителя Бездны]]></entry>
+	
+<!---Quirks--->
+	<entry id="str_quirk_name_skilled_toxicologist"><![CDATA[Опытный токсиколог]]></entry>
+	<entry id="str_quirk_name_toxin_hypersensitive"><![CDATA[Чувствительность к токсинам]]></entry>
+
+<!---Poison Buffs Tooltips--->
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[-К длительности{colour_start|blight}Яда{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+К количеству{colour_start|blight}Яда{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[+К получению{colour_start|blight}Яда{colour_end}]]></entry>
+	
+<!---Combat Skills--->
+	<entry id="combat_skill_name_shadow_walker_ken_jutsu"><![CDATA[Кен-Джуцу (Удар Катаной)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_blood_boil"><![CDATA[Закипание Крови]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kiai_jutsu"><![CDATA[Киай-Джуцу (Запутывание Цепью)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kuji_kiri"><![CDATA[Кудзи-Кири (Жестокый Шлепок)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_venom_tipped_shurikens"><![CDATA[Ядовитые Сюрикены]]></entry>
+    <entry id="combat_skill_name_shadow_walker_pressure_point"><![CDATA[Точка Давления]]></entry>
+    <entry id="combat_skill_name_shadow_walker_shadow_slide"><![CDATA[Теневой Сдвиг]]></entry>
+    <entry id="combat_skill_name_shadow_walker_move"><![CDATA[Движение]]></entry>
+<!---Upgrade Tree--->
+    <entry id="upgrade_tree_name_shadow_walker.ken_jutsu"><![CDATA[Кен-Джуцу]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.blood_boil"><![CDATA[Закипание Крови]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kiai_jutsu"><![CDATA[Киай-Джуцу]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kuji_kiri"><![CDATA[Кудзи-Кири]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.venom_tipped_shurikens"><![CDATA[Ядовитые Сюрикены]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.pressure_point"><![CDATA[Точка Давления]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.shadow_slide"><![CDATA[Теневой Сдвиг]]></entry>
+<!---Weapson Armor grid--->  		
+	<entry id="shadow_walker_weapon_0"><![CDATA[Стальной Ниндзято]]></entry>
+	<entry id="shadow_walker_weapon_1"><![CDATA[Серебряный Ниндзято]]></entry>
+    <entry id="shadow_walker_weapon_2"><![CDATA[Нержавеющий Ниндзято]]></entry>
+    <entry id="shadow_walker_weapon_3"><![CDATA[Алмазный Ниндзято]]></entry>
+    <entry id="shadow_walker_weapon_4"><![CDATA[Нефритовый Ниндзято]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.weapon"><![CDATA[Катаны и Сюрикены]]></entry>
+    <entry id="shadow_walker_armour_0"><![CDATA[Гаппа, Жукин, и стальной Кусари]]></entry>
+    <entry id="shadow_walker_armour_1"><![CDATA[Гаппа, Жукин, и серебряный Кусари]]></entry> 
+    <entry id="shadow_walker_armour_2"><![CDATA[Гаппа, Жукин, и нержавеющий Кусари]]></entry>
+    <entry id="shadow_walker_armour_3"><![CDATA[Гаппа, Жукин, и алмазный Кусари]]></entry>
+    <entry id="shadow_walker_armour_4"><![CDATA["Гаппа, Жукин, и нефритовый Кусари"]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.armour"><![CDATA[Снаряжение]]></entry>
+	
+<!--Smoke Bomb buffs, tooltips, barks SUPER BUGGY --> 
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Дымовая бомба!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Тени помогут нам!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Суматоха может помочь нам!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Бум!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_sw_critreceived"><![CDATA[Шанс получания критического удара]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_sm_accuracy"><![CDATA[Меткость]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb_fx"><![CDATA[Скорость]]></entry>
+	
+	
+	<entry id="str_inventory_title_supplysw_smoke_bomb"><![CDATA[Дымовая Бомба]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb"><![CDATA[Дымовая Бомба]]></entry>
+	<entry id="str_inventory_description_supplysw_smoke_bomb"><![CDATA[Разбейте стекляный шар, чтобы посеять хаос.]]></entry>
+<!--Chess Piece Gem Item --> 
+	<entry id="str_inventory_title_gemsw_jade_chess_piece"><![CDATA[Нефритовая шахматная фигура]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_jade_chess_piece"><![CDATA[Нефритовая шахматная фигура]]></entry>
+	<entry id="str_inventory_description_gemsw_jade_chess_piece"><![CDATA[Местный коллекционер отсыпет золота за эти древние, изысканно вырезанные, шахматные фигуры.]]></entry>	
+		
+<!--Town Event --> 
+	    <entry id="town_event_title_first_shadow_walker"><![CDATA[Тень приближается ...]]></entry>
+        <entry id="town_event_description_first_shadow_walker"><![CDATA["Свет у ног - человек выходит из тени и взирает на тебя. Он двигается изящно, как танцор. А на спине у него два меча."]]></entry>
+        <entry id="shadow_walker+str_bark_deathsdoor"><![CDATA[Моя тень наконец-то пришла за мной?]]></entry>
+		
+<!---Descriptions--->
+	<entry id="action_verbose_body_blacksmith_shadow_walker"><![CDATA["Воин, ниндзя, что ходит в тенях."]]></entry>
+	<entry id="action_verbose_body_guild_shadow_walker"><![CDATA["О Теневых Ходоках лишь тихо шепчутся - убийца, которому нравится искать сокровища и медитировать."]]></entry>
+	<entry id="action_verbose_body_camping_trainer_shadow_walker"><![CDATA["Я был вовлечен в медитацию с самого детства."]]></entry>
+		
+<!--Camping Skills --> 		
+		<entry id="camping_skill_name_first_aid"><![CDATA[Лечение раны]]></entry>
+		<entry id="camping_skill_name_encourage"><![CDATA[Похвала]]></entry>
+		<entry id="camping_skill_name_pep_talk"><![CDATA[Вдохновление]]></entry>
+		<entry id="camping_skill_name_dark_meditation"><![CDATA[Тёмная Медитация]]></entry>
+		<entry id="camping_skill_name_sabotage"><![CDATA[Саботаж]]></entry>
+		<entry id="camping_skill_name_guerilla_warfare"><![CDATA[Партизанская Война]]></entry>
+		<entry id="camping_skill_name_assassination"><![CDATA[Убийство]]></entry>
+		
+<!--Barks --> 	
+		<entry id="shadow_walker+str_bark_first_aid"><![CDATA[Я могу вылечить эти раны.]]></entry>		
+		
+		<entry id="shadow_walker+str_bark_encourage"><![CDATA[Тьма защитит нас...]]></entry>
+
+		<entry id="shadow_walker+str_bark_pep_talk"><![CDATA[Не отчаивайся.]]></entry>
+
+		<entry id="shadow_walker+str_bark_dark_meditation"><![CDATA[Мадитация исцелит.]]></entry>
+
+		<entry id="shadow_walker+str_bark_sabotage"><![CDATA[Я приготовлю более сильный яд.]]></entry>
+	
+		<entry id="shadow_walker+str_bark_guerilla_warfare"><![CDATA[Я могу легко разведать путь - это поможет в нашем путешествии.]]></entry>
+
+		<entry id="shadow_walker+str_bark_assassination"><![CDATA[Я сфокусируюсь на самой опасной стойке.]]></entry>
+		
+<!--Camping Skills --> 			
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[Никогда.]]></entry>
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[Забудь.]]></entry>
+	
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[Этот порез требует ухода.]]></entry>
+
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Я тебя не боюсь!]]></entry>
+ 	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Упади и умри.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Только попробуй меня ударить.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Черный Рынок забирает тебя.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Блядь!]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[А нефрит есть?]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[Я последняя тень!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_fearful"><![CDATA[Мы должны спрятаться!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_paranoid"><![CDATA[Ты предал меня!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_masochistic"><![CDATA[Боль так приятна...]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_abusive"><![CDATA[Ты не стоишь моего времени!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_selfish"><![CDATA[Мою детскую украли у меня.]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_depressed"><![CDATA[Мои наблюдения подкрепляют мое мнение - мы обречены!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_irrational"><![CDATA[Мы все должны жить в тени!]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_stalwart"><![CDATA[Тень будет нашим прикрытием.]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_courageous"><![CDATA[Вместе мы сможем достичь больших высот!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_focused"><![CDATA[Обман может быть полезен.]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_powerful"><![CDATA[Я их отвлечу.]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_prosperous"><![CDATA[Мы разгоним эту толпу зверей!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_vigorous"><![CDATA[Оглушить и сбежать!]]></entry>
+		 
+	     <entry id="shadow_walker+str_stress_heal_self_stalwart"><![CDATA[Мы должны избегать открытого боя.]]></entry>
+	   
+	     <entry id="shadow_walker+str_stress_heal_party_courageous"><![CDATA[Возмездие будет моим.]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_random_party_member_focused"><![CDATA[Я известный фехтовальщик!]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[Мы прольем яд в их рты!]]></entry>
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[Мы сбежим от преследователей.]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[Мои навыки шпионажа - лучшие!]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[Я могу избегать смерть!]]></entry>
+		      
+	     <entry id="shadow_walker+str_bark_stress_fearful"><![CDATA[Наш саботаж подвел нас!]]></entry>
+	     
+	     <entry id="shadow_walker+str_bark_stress_paranoid"><![CDATA[Моя маскировка не сработает!]]></entry>
+
+
+
+	     <entry id="shadow_walker+str_bark_stress_masochistic"><![CDATA[Я пронжу свою кожу ядом!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[О тьма! С меня хватит!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[Поднимись!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[Не спотыкайся!]]></entry>
+	   
+	     <entry id="shadow_walker+str_bark_stress_selfish"><![CDATA[Он будет иметь дело только со мной! Отдай его мне!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[Я когда-нибудь вернусь домой?..]]></entry>
+	  
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[Скольких я уже убил?..]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[Вы слышали об Элио?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[Почемы бы нам не поймать курицу на ужин?]]></entry>
+	
+	 
+
+	     <entry id="shadow_walker+str_change_pos_back_fearful"><![CDATA[Я скольжу отсюда...]]></entry>
+	     <entry id="shadow_walker+str_change_pos_back_paranoid"><![CDATA[Не смотрите назад!]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_fwd_masochistic"><![CDATA[Ты не понимаешь моего замысла.]]></entry>
+	     <entry id="shadow_walker+str_change_pos_fwd_irrational"><![CDATA[Каково определение силы?]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_back_irrational"><![CDATA[Вы слышите... Куриц?]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_depressed"><![CDATA[Я никогда не достигну ясного разума...]]></entry>
+
+	     <entry id="shadow_walker+str_change_pos_back_depressed"><![CDATA[Мои тренировки не работают...]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_selfish"><![CDATA[Я должен контролировать свой мозг.]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_back_selfish"><![CDATA[Поразмышляйте над моей ловкостью.]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_ignore_command_fearful"><![CDATA[Учитель не называл меня сильным!]]></entry>
+	
+	     <entry id="shadow_walker+str_ignore_command_paranoid"><![CDATA[Ты знаешь моего учителя?]]></entry>
+	 
+	     <entry id="shadow_walker+str_ignore_command_selfish"><![CDATA[Эти шахматные фигурки - моя прибыль.]]></entry>
+	    
+	     <entry id="shadow_walker+str_ignore_command_depressed"><![CDATA[В конце концов, мой мастер погиб.]]></entry>
+	   
+	     <entry id="shadow_walker+str_ignore_command_irrational"><![CDATA[Я слышу кудахтанье!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_random_command_paranoid"><![CDATA[Ты пытаешься обмануть меня?]]></entry>
+	    
+	     <entry id="shadow_walker+str_random_command_masochistic"><![CDATA[Я - лезвие травы!]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_abusive"><![CDATA[Честь павшим воинам!]]></entry>
+	
+	     <entry id="shadow_walker+str_random_command_selfish"><![CDATA[Сила - это распускающийся цветок. Прекрасное изречение.]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_depressed"><![CDATA[Безжизненность...]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_irrational"><![CDATA[*курлык-курлык*]]></entry>
+	
+		 
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_fearful"><![CDATA[Разбитый бурей...]]></entry>
+		     
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Вы сломаете это?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Вы испортите это?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Вы слышите ветер?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Что вы знаете о моём учителе?]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_bark_stress_camp_masochistic"><![CDATA[Я не могу помочь.]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_abusive"><![CDATA[Вы не знаете истонной силы!]]></entry>
+	   
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_selfish"><![CDATA[Строй, не ломай.]]></entry>
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_depressed"><![CDATA[Мне сегодня грустно...]]></entry>
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_irrational"><![CDATA[Оно всё еще охотится за мной! ... Курица!]]></entry>
+		 
+	   
+	     <entry id="shadow_walker+str_mark_self_masochistic"><![CDATA[Посмотри на меня!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_depressed"><![CDATA[Возьми меня!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_irrational"><![CDATA[Я испуган!]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_attack_friendly_paranoid"><![CDATA[Ты украл мои нефриты!?]]></entry>
+	
+	     <entry id="shadow_walker+str_attack_friendly_abusive"><![CDATA[У тебя всё еще есть шанс достичь просветления.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_friendly_irrational"><![CDATA[Мой ум остёр!]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_masochistic"><![CDATA[Это должно очистить мой ум.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_self_depressed"><![CDATA[Я не могу разобрать собственных мыслей...]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_irrational"><![CDATA[Великое понимание приводит к страданиям.]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_block_combat_retreat_paranoid"><![CDATA[Подождите! Мы не можем бежать!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_depressed"><![CDATA[Мы должны остать здесь до конца...]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_masochistic"><![CDATA[Я умру за отряд!]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_combat_retreat_irrational"><![CDATA[Если мы уйдём, я не смогу умереть за отряд!]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_fearful"><![CDATA[Я больше не учитель.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_paranoid"><![CDATA[Я должен побудить в собственной битве.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_hit_selfish"><![CDATA[Что это значит?]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_masochistic"><![CDATA[Древняя философия не имеет значения!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_self_hit_irrational"><![CDATA[Я мастер, по приготовлению чая!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_missed_fearful"><![CDATA[Как мы заводим новых друзей.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_paranoid"><![CDATA[Я не могу достичь вершины в своих тренировках!]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_masochistic"><![CDATA[Личное саморазвитие главнее всего!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_comment_self_missed_irrational"><![CDATA[Я не могу быть тенью.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_selfish"><![CDATA[Чувствуешь это?]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_abusive"><![CDATA[Высшый уровень мышления!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_irrational"><![CDATA[Гармония пропала.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_fearful"><![CDATA[Я не свободен!]]></entry>
+	 
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[Личность должна продолжаться!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_abusive"><![CDATA[У тебя нету страсти битвы!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_selfish"><![CDATA[Я - будущее!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_irrational"><![CDATA[Ты - прошлое!]]></entry>
+	   
+	  
+	     <entry id="shadow_walker+str_comment_ally_hit_fearful"><![CDATA[Победа без битвы!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_paranoid"><![CDATA[Будь насторожен.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_hit_masochistic"><![CDATA[Сконцентрируйся!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_abusive"><![CDATA[Преимущества тренировок очевидны.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_irrational"><![CDATA[Я могу читать твои мысли.]]></entry>
+	     
+	     <entry id="shadow_walker+str_comment_ally_missed_fearful"><![CDATA[Лучшая ответ - отсутсвие ответа.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[Мои умственные способности угасают...]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_missed_irrational"><![CDATA[Пссс - ты очень храбр!]]></entry>
+		 
+	  
+	     <entry id="shadow_walker+str_block_move_fearful"><![CDATA[Я обречён.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_paranoid"><![CDATA[Это именно то, что они хотят.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_masochistic"><![CDATA[Я предпочитаю остаться на этом месте.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_abusive"><![CDATA[Еще нет. Нет.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_irrational"><![CDATA[Не трогай Флакон!]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_item_paranoid"><![CDATA[Не раскрывай наши планы!]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_item_masochistic"><![CDATA[*ослепляет тебя*]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_item_depressed"><![CDATA[Тени сгущаются...]]></entry>
+	
+	     <entry id="shadow_walker+str_block_item_irrational"><![CDATA[Я не хочу этого!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_heal_paranoid"><![CDATA[Это становится темнее?]]></entry>
+	  
+	 
+	     <entry id="shadow_walker+str_block_heal_masochistic"><![CDATA[Я должен кровоточить расслабленно.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_heal_depressed"><![CDATA[Нет, позволь тени взять меня.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_heal_irrational"><![CDATA[Тени настаивают.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_buff_paranoid"><![CDATA[Ты не знаешь меня, не так ли?]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_buff_masochist"><![CDATA[Я хочу погибнуть.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_depressed"><![CDATA[Не пытайся меня защитить.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_irrational"><![CDATA[Оставь это другому.]]></entry>
+		 
+	     <entry id="shadow_walker+str_monster_attack_unholy_smite"><![CDATA[Что ты хочешь от нас?]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_judgement"><![CDATA[Не суди меня!]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_curse"><![CDATA[Нет, не смотри на меня!]]></entry>
+	     <entry id="shadow_walker+str_bark_hobby"><![CDATA[Чуть-чуть яда здесь...]]></entry>
+		
+	</language>
+
+</root>

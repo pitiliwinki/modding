@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	
+	<entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+	<entry id="buff_rule_data_tooltip_take_aim"><![CDATA[Tracking Shot]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_tune"><![CDATA[Inspiring Tune]]></entry>
+    <entry id="buff_rule_data_tooltip_divine_grace"><![CDATA[Divine Grace]]></entry>
+    <entry id="buff_rule_data_tooltip_gods_comfort"><![CDATA[Divine Comfort]]></entry>
+    <entry id="buff_rule_data_tooltip_wyrd_reconstruction"><![CDATA[Wyrd Reconstruction]]></entry>
+	<entry id="buff_rule_data_tooltip_heroic_end"><![CDATA[Finale]]></entry>
+	<entry id="buff_rule_data_tooltip_hook_and_slice"><![CDATA[Caltrops]]></entry>
+	<entry id="buff_rule_data_tooltip_come_hither"><![CDATA[Come Hither]]></entry>
+    <entry id="buff_rule_data_tooltip_hounds_rush"><![CDATA[Hound's Rush]]></entry>
+	<entry id="buff_rule_data_tooltip_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_rage"><![CDATA[Rage]]></entry>
+    <entry id="buff_rule_data_tooltip_rake"><![CDATA[Rake]]></entry>
+	<entry id="buff_rule_data_tooltip_darkest_eye"><![CDATA[Revelation]]></entry>
+	<entry id="buff_rule_data_tooltip_grind_the_grist"><![CDATA[Miller: The Reaping]]></entry>
+
+	
+  </language>
+  <language id="french">
+  <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+	
+ 
+  </language>
+  <language id="german">
+   <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+ 
+  </language>
+  <language id="spanish">
+   <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  
+  </language>
+  
+  <language id="brazilian">
+   <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  
+  </language>
+  
+  
+  
+  
+
+<language id="russian">
+  <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+ 
+	
+ 
+  </language>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <language id="polish">
+
+   
+	 <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  </language>
+  
+  <language id="czech">
+	 <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  </language>
+  <language id="italian">
+	 <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  </language>
+  <language id="schinese">
+    <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  </language>
+  <language id="koreana">
+    <entry id="trinket_hero_class_requirement_seperator"><![CDATA[ or ]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[Was Hit:]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[On Kill: Party:]]></entry>	
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_attack_rating"><![CDATA[%+d%% ACC]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_defense_rating"><![CDATA[%+d DODGE]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_protection_rating"><![CDATA[%+d%% PROT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Multiplier]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Multiplier]]></entry>
+
+	<!--Disabled Skills-->
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_heal"><![CDATA[{colour_start|healhp}Healing{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_buff"><![CDATA[{colour_start|buff}Buff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_poison"><![CDATA[{colour_start|blight}Blight{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[{colour_start|stun}Stun{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_tag"><![CDATA[{colour_start|mark}Mark{colour_end} Skills Disabled]]></entry>
+  
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_move"><![CDATA[{colour_start|move}Move{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_disease"><![CDATA[{colour_start|disease}Disease{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute_guard"><![CDATA[{colour_start|guard}Guard{colour_end} Skills Disabled]]></entry>
+    <entry id="buff_stat_tooltip_disable_combat_skill_attribute"><![CDATA[Skills Disabled]]></entry>
+	
+	<!--Healing Done and Received-->
+   
+	
+	<!---Activities Buffs--->
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_currency"><![CDATA[Increased chance of winning gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_trinket"><![CDATA[Increased chance of winning trinkets.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_currency"><![CDATA[Increased chance of losing gold.]]></entry>
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_remove_trinket"><![CDATA[Increased chance of losing trinkets.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_activity_lock"><![CDATA[Increased chance of staying a week.]]></entry>	
+    <entry id="buff_stat_tooltip_activity_side_effect_chance_add_buff"><![CDATA[Increased chance of getting buffs.]]></entry>	
+	
+	<!-- Stealth -->
+	<entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs {colour_start|stealth}Stealthed{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	<entry id="effect_tooltip_steal_stealth"><![CDATA[Steal {colour_start|stealth}Stealth{colour_end}]]></entry>	
+	
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s if NOT{colour_start|guard}Guarded{colour_end}]]></entry>
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs NOT %s]]></entry>
+    <entry id="buff_rule_tooltip_is_actor_status_false"><![CDATA[%s while NOT %s]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	
+	<!--Base-->
+	 <entry id="trinket_kill_all_heroes_additional_effect"><![CDATA[Kill: Party:]]></entry>	
+	
+	<!--Guard-->
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_is_guarded_false"><![CDATA[%s when not {colour_start|guard}Guarded{colour_end}]]></entry>
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|wos_rarity}Torch Increase{colour_end} Skills]]></entry>
+		
+	<!--Items-->
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_rule_data_tooltip_ruby"><![CDATA[Ruby]]></entry>
+	<entry id="buff_rule_data_tooltip_sapphire"><![CDATA[Sapphire]]></entry>
+	<entry id="buff_rule_data_tooltip_emerald"><![CDATA[Emerald]]></entry>
+	<entry id="buff_rule_data_tooltip_onyx"><![CDATA[Onyx]]></entry>
+	<entry id="buff_rule_data_tooltip_gold"><![CDATA[Gold]]></entry>
+	
+	<!---Abilities--->
+  </language>
+</root>

@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="russian">
+  
+<!--~~~~~~~~~~-->
+<!--voivode -->
+<!--~~~~~~~~~~-->
+  
+
+ <!--Skills -->
+    <entry id="hero_class_name_voivode"><![CDATA[{colour_start|voivode_colour}Воевода{colour_end}]]></entry>
+    <entry id="combat_skill_name_voivode_vv_transform"><![CDATA[Обращение]]></entry>
+    <entry id="combat_skill_name_voivode_bats"><![CDATA[Стая мышей]]></entry>
+    <entry id="combat_skill_name_voivode_darkform"><![CDATA[Игра теней]]></entry>
+    <entry id="combat_skill_name_voivode_souleater"><![CDATA[Пожирание душ]]></entry>
+    <entry id="combat_skill_name_voivode_batform"><![CDATA[Скрытый полёт]]></entry>
+    <entry id="combat_skill_name_voivode_echolocate"><![CDATA[Эхолокация]]></entry>
+    <entry id="combat_skill_name_voivode_hypnosis"><![CDATA[Подчинись!]]></entry>
+    <entry id="combat_skill_name_voivode_move"><![CDATA[Движение]]></entry>
+	
+
+    <entry id="upgrade_tree_name_voivode.vv_transform"><![CDATA[Обращение]]></entry>
+    <entry id="upgrade_tree_name_voivode.bats"><![CDATA[Стая мышей]]></entry>
+    <entry id="upgrade_tree_name_voivode.darkform"><![CDATA[Игра теней]]></entry>
+    <entry id="upgrade_tree_name_voivode.souleater"><![CDATA[Пожирание душ]]></entry>
+    <entry id="upgrade_tree_name_voivode.batform"><![CDATA[Скрытый полёт]]></entry>
+    <entry id="upgrade_tree_name_voivode.force_guard"><![CDATA[Эхолокация]]></entry>
+    <entry id="upgrade_tree_name_voivode.hypnosis"><![CDATA[Подчинись!]]></entry>
+	
+ <!--Party Limit -->	
+	<entry id="str_incompatible_party_member_voivode_religion"><![CDATA[Мёртвые не должны покидать своих могил...]]></entry>
+    <entry id="str_incompatible_party_member_voivode_religion"><![CDATA[Я отказываюсь сотрудничать с этим отвратительным существом!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_religion"><![CDATA[У меня нет ничего общего с этим... отродьём.]]></entry>
+	<entry id="str_incompatible_party_voivode_religion"><![CDATA[Жалкие глупцы. С какой лёгкостью можно их обмануть пообещав спасение.]]></entry>
+    <entry id="str_incompatible_party_voivode_religion"><![CDATA[Не могу терпеть бред этой нелепой марионетки.]]></entry>
+	<entry id="str_incompatible_party_member_voivode_limit"><![CDATA[Поделиться этими невинными душами с тобой? Никогда.]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[Это моё стадо. Найди себе другое пастбище!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[Я единственный хозяин!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[Я не собираюсь относится к тебе как к равному...]]></entry>
+	
+
+	
+<!--CAMPING -->	
+	<entry id="camping_skill_effect_loot_vv_bleed_tooltip"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} 3 очков/раунд на 3 раунда]]></entry>
+    <entry id="camping_skill_effect_loot_vv_dark_tooltip"><![CDATA[(Освещение снимет эффект)]]></entry>
+	
+	<entry id="camping_skill_name_voivode_0"><![CDATA[ЖИЗНЬ ЧЕРЕЗ СМЕРТЬ]]></entry>
+	<entry id="camping_skill_name_voivode_1"><![CDATA[ДЕТИ НОЧИ]]></entry>
+    <entry id="camping_skill_name_voivode_2"><![CDATA[УБЕРИТЕ ЭТО ОТ МЕНЯ]]></entry>
+    <entry id="camping_skill_name_voivode_3"><![CDATA[НЕЧЕСТИВОЕ КРЕЩЕНИЕ]]></entry>    
+	<entry id="camping_skill_name_voivode_4"><![CDATA[ТРУПЫ НА КОЛ]]></entry>
+	
+	<entry id="camping_skill_effect_loot_VV_CAMP_CHALICE"><![CDATA[Создаёт кубок]]></entry>
+	<entry id="camping_skill_effect_loot_voivode_bleed_tooltip"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} 2 очков/раунд на 3 раунда]]></entry>
+	<entry id="camping_skill_effect_loot_vv_reg_tooltip"><![CDATA[{colour_start|healhp}Лечение{colour_end} по 1 на 10 раундов]]></entry>
+	<entry id="camping_skill_effect_loot_vv_horror_tooltip"><![CDATA[{colour_start|stress}Ужас{colour_end} по 2 на 10 раундов]]></entry>
+
+	<!--CAMPING Barks-->	
+	<entry id="camping_skill_name_first_aid"><![CDATA[ПЕРЕВЯЗКА РАН]]></entry>
+	<entry id="camping_skill_name_vv_encourage"><![CDATA[ВООДУШЕВЛЕНИЕ]]></entry>
+	<entry id="camping_skill_name_vv_pep_talk"><![CDATA[РАЗГОВОР ПО ДУШАМ]]></entry>
+
+	
+		<entry id="voivode+str_bark_voivode_0"><![CDATA[Нет такого яда или меча, который сможет повредить эту плоть.]]></entry>
+        <entry id="voivode+str_bark_voivode_0"><![CDATA[Мы ведь не хотим тратить всю эту драгоценную жизненную энергию, не так ли?]]></entry>
+		<entry id="voivode+str_bark_voivode_0"><![CDATA[Никакая рана не сможет навредить этому телу.]]></entry>
+		<entry id="voivode+str_bark_voivode_0"><![CDATA[В моём возрасте наблюдать мучения других... прекрасно.]]></entry>
+		<entry id="voivode+str_bark_voivode_0"><![CDATA[Я уже и забыл что такое боль.]]></entry>
+		
+		<entry id="voivode+str_bark_vv_encourage"><![CDATA[Ваши подвиги достойны похвалы. Враг страшится, я чую этот запах...]]></entry>
+		<entry id="voivode+str_bark_vv_encourage"><![CDATA[Наше предназначение вскоре будет исполнено, победа близка, а вместе с ней и наша награда!]]></entry>
+		<entry id="voivode+str_bark_vv_encourage"><![CDATA[Не бойтесь, тени — мои союзники, они защитят нас.]]></entry>
+		<entry id="voivode+str_bark_vv_encourage"><![CDATA[Я уверен, что вы справитесь с этим!]]></entry>
+		
+		<entry id="voivode+str_bark_vv_pep_talk"><![CDATA[Если тебе кажется, что твой бог не слышит тебя, ты всегда можешь прийти ко мне. Честно говоря, я гораздо надёжнее.]]></entry>
+		<entry id="voivode+str_bark_vv_pep_talk"><![CDATA[Не бойся смерти, иди ко мне... Склони свою голову на моём плече, закрой глаза.]]></entry>
+		<entry id="voivode+str_bark_vv_pep_talk"><![CDATA[Тебе не стоит меня бояться. Я знаю, что значит быть... другим.]]></entry>
+		<entry id="voivode+str_bark_vv_pep_talk"><![CDATA[Это очаровательно, как ты боролся за такое ... ограниченное существо.]]></entry>
+		
+		<entry id="str_bark_voivode_4"><![CDATA[Вставай! Поднимите это существо! Оно еще живо.]]></entry>
+		<entry id="str_bark_voivode_4"><![CDATA[Там хорошо пахнет? ХАХАХАХА!]]></entry>
+		<entry id="str_bark_voivode_4"><![CDATA[Я мог бы сделать целый лес из наших врагов...]]></entry>
+		<entry id="str_bark_voivode_4"><![CDATA[Пусть их мучения будут видны издалека! ПУсть знают с кем связались!]]></entry>
+	
+		
+        <entry id="str_bark_voivode_0"><![CDATA[[Нет такого яда или меча, который сможет повредить эту плоть.]]></entry>
+        <entry id="str_bark_voivode_0"><![CDATA[[Мы ведь не хотим тратить всю эту драгоценную жизненную энергию, не так ли?]]></entry>
+        <entry id="str_bark_voivode_0"><![CDATA[[Никакая рана не сможет навредить этому телу.]]></entry>
+        <entry id="str_bark_voivode_0"><![CDATA[[В моём возрасте наблюдать мучения других... прекрасно.]]></entry>
+        <entry id="str_bark_voivode_0"><![CDATA[[Я уже и забыл что такое боль.]]></entry>
+	
+	
+		<entry id="str_bark_voivode_1"><![CDATA[Смотрите, полная Луна взошла на небосводе...]]></entry>
+		<entry id="str_bark_voivode_1"><![CDATA[Дети ночи, какую сладкую музыку они играют ...]]></entry>
+		<entry id="str_bark_voivode_1"><![CDATA[Отдайся тьме. Давайте танцевать с ночными тенями.]]></entry>
+        <entry id="str_bark_voivode_1"><![CDATA[Сюда дети мои. Услыште мой зов.]]></entry>
+                
+		<entry id="str_bark_voivode_3"><![CDATA[...Который изливается на многих за прощение грехов...]]></entry>
+		<entry id="str_bark_voivode_3"><![CDATA[Не будь трусишкой, всего-лишь один глоток...]]></entry>
+		<entry id="str_bark_voivode_3"><![CDATA[Я стану твоим сосудом.]]></entry>	
+		<entry id="str_bark_voivode_3"><![CDATA[Твой бог - тот, кто дает тебе испить!]]></entry>
+        <entry id="str_bark_voivode_3"><![CDATA[Тебе еще не доводилось отведать такого. Ручаюсь за это...]]></entry>				
+
+		<entry id="str_bark_voivode_2"><![CDATA[УБЕРИТЕ ЭТУ ДРЯНЬ ОТ МЕНЯ!!]]></entry>
+		<entry id="str_bark_voivode_2"><![CDATA[Я думал мы договорились убрать эту дрянь!!]]></entry>
+		<entry id="str_bark_voivode_2"><![CDATA[Не обращай свою веру на эти обманные побрякушки!]]></entry>
+        <entry id="str_bark_voivode_2"><![CDATA[ШШШШШШ! НАЗАД!]]></entry>	
+        <entry id="str_bark_voivode_2"><![CDATA[Узрите сколь хрупки ваши кумиры!!]]></entry>	
+        <entry id="str_bark_voivode_2"><![CDATA[ХАХАХАХА... В вас должна быть истинная вера, чтобы это сработало на меня]]></entry>	
+	
+		<entry id="voivode+str_override_invalid_rejection"><![CDATA[Жалкие глупцы. С какой лёгкостью можно их обмануть пообещав спасение.]]></entry>
+		<entry id="voivode+str_override_invalid_rejection"><![CDATA[Я терпеть не могу псалмы этой жалкой марионетки.]]></entry>
+		<entry id="voivode+str_override_invalid_rejection"><![CDATA[Меня тошнит от одного прибывания здесь...]]></entry>
+
+<!--Blacksmith-->	
+		<entry id="voivode_weapon_0"><![CDATA[Утончённый стиль]]></entry>
+		<entry id="voivode_weapon_1"><![CDATA[Суть подлости]]></entry>
+    	<entry id="voivode_weapon_2"><![CDATA[Коготь разрушения]]></entry>
+    	<entry id="voivode_weapon_3"><![CDATA[Скрученный коготь]]></entry>
+    	<entry id="voivode_weapon_4"><![CDATA["Крылья зла"]]></entry>
+    	<entry id="upgrade_tree_name_voivode.weapon"><![CDATA[Крылья хищника]]></entry>
+    	<entry id="voivode_armour_0"><![CDATA[Дорогой дублет]]></entry>
+    	<entry id="voivode_armour_1"><![CDATA[Одеяние губернатора]]></entry> 
+    	<entry id="voivode_armour_2"><![CDATA[Изысканный костюм]]></entry>
+    	<entry id="voivode_armour_3"><![CDATA[Шелка еретика]]></entry>
+    	<entry id="voivode_armour_4"><![CDATA["Покров морой"]]></entry>
+    	<entry id="upgrade_tree_name_voivode.armour"><![CDATA[Одежды аристократа]]></entry>
+	
+	
+	
+	<entry id="action_verbose_body_guild_voivode"><![CDATA[Воевода обладает сверхъестественными способностями, которые позволяют ему оживлять тени. Заключив нерушимый договор с существами ночи, он также может использовать их для достижения своих целей - стаи летучих мышей, подчинённые злой воле воеводы, ослабляют врагов. В форме стригоя, воевода - смертоносный хищник, пожирающий саму душу жертвы.]]></entry>
+    <entry id="action_verbose_body_blacksmith_voivode"><![CDATA[Воевода использует силы тьмы, чтобы превратить свои руки крылья с острыми когтями, которые позволяют ему летать над врагами, как крылатая тень пикируя на жертву и уничтожая своей сверхъестественной силой. Ужасная сущность, скрытая от человеческих глаз за изысканными манерами, дорогими украшениями и манией величия.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_voivode"><![CDATA[Воевода может поручить стае волков охрану ночного покоя отряда. Он также может использовать трупы врагов для создания ужасающего частокола, не каждый враг увидев такое осмелится напасть. Воевода также может регенерировать раны и передавать своё проклятие через нечестивое крещение.]]></entry>
+	
+ <!--Events -->	
+	
+    <entry id="town_event_title_bonus_recruit_voivode"><![CDATA[На кожаных крыльях]]></entry>
+    <entry id="town_event_description_bonus_recruit_voivode"><![CDATA[В последнее время всё чаще случается какое-то странное нашествие летучих мышей. Кажется, что этих существ ведёт какая-то неестественная сила. К счастью, с рассветом они пропадают... это ведь просто обычные твари, не так ли?]]></entry>
+   
+   <entry id="town_event_title_idle_resolve_level_voivode"><![CDATA[Зловещая атмосфера]]></entry>
+    <entry id="town_event_description_idle_resolve_level_voivode"><![CDATA[Настал комендантский час, и добрые люди на ночь заперлись в своих домах. Все двери и окна увешаны связками чеснока, и простые люди молятся об изгнании зла из города.]]></entry>
+	
+	<entry id="town_event_title_first_voivode"><![CDATA[Сочувствие дьяволу]]></entry>
+    <entry id="town_event_description_first_voivode"><![CDATA[Среди густого тумана виднеется фигура. В Гамлет прибыл потомок знатного рода из далёких земель. Его манеры утончённы, его присутствие внушает трепет, а в намерениях чувствуется... нечто тёмное.]]></entry>
+	
+	<entry id="town_event_title_lock_brothel_voivode"><![CDATA[Жуткое происшествие]]></entry>
+    <entry id="town_event_description_lock_brothel_voivode"><![CDATA[Найдено безжизненное тело известной шлюхи. Её высушенное и увядшее тело лежало в тени переулка. Кто бы это ни сделал, то был не человек...]]></entry>
+
+	<!--Supply -->	
+	<entry id="str_inventory_description_estatevv_chalice"><![CDATA[Эссенция воеводы. Используется для устранения 
+	{colour_start|debuff}Ослабление смертных{colour_end}.
+	Усиление {colour_start|mark}Смертельный удар{colour_end}.]]></entry>	
+	<entry id="str_inventory_title_estatevv_chalice"><![CDATA[Извечный кубок]]></entry>
+
+
+
+ 
+<!--Barks -->	
+<entry id="Flock_bark"><![CDATA[Твари ночи подчиняются мне!]]></entry>
+<entry id="Flock_bark"><![CDATA[Не оставляйте ни капли крови на их телах!]]></entry>
+<entry id="Flock_bark"><![CDATA[Тьма крыльев и клыков станет твоей погибелью!]]></entry>
+<entry id="Flock_bark"><![CDATA[Летите, мои братья, летите и насыщайтесь!]]></entry>
+<entry id="Obey_bark"><![CDATA[Ползай у моих ног, жалкое создание!]]></entry>
+<entry id="Obey_bark"><![CDATA[Твой владыка повелевает!]]></entry>
+<entry id="Obey_bark"><![CDATA[Преклонись перед моей волей!]]></entry>
+<entry id="Obey_bark"><![CDATA[Сопротивление бесполезно...]]></entry>
+<entry id="Shadowplay_bark"><![CDATA[Тьма, тени и мрак. Врагам ждёт страшный суд!]]></entry>
+<entry id="Shadowplay_bark"><![CDATA[Пусть тени будут нашим оружием...]]></entry>
+<entry id="Shadowplay_bark"><![CDATA[Они не смогут увидеть меня... но я их вижу...]]></entry>
+<entry id="Shadowplay_bark"><![CDATA[Пусть они подойдут ко мне...]]></entry>
+<entry id="Shadowplay_bark_target"><![CDATA[Откуда взялись все эти тени?]]></entry>
+<entry id="Shadowplay_bark_target"><![CDATA[Тени пляшут у меня под ногами!]]></entry>
+<entry id="Shadowplay_bark_target"><![CDATA[Наш компаньон просто исчез в темноте!]]></entry>
+<entry id="Shadowplay_bark_target"><![CDATA[Как внезапно опустилась тьма...]]></entry>
+	
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[Да не меня же! Заберите сначала их!]]></entry>
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[Болван. Думаешь моя смерть защитит тебя? Я ВСЕГДА возвращаюсь.]]></entry>
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[Но как это могло произойти!? Убить само воплощение Смерти, как иронично...]]></entry>
+
+	<entry id="voivode+str_bark_rest"><![CDATA[Давайте же, отдохните, все кто еще способен на это.]]></entry>
+    <entry id="voivode+str_bark_rest"><![CDATA[Надеюсь впереди еще множество битв. Я еще не утолил свой голод.]]></entry>
+    <entry id="voivode+str_bark_rest"><![CDATA[Не думаю, что огонь сможет согреть меня...]]></entry>
+    
+	
+	
+	
+    <entry id="voivode+str_monster_user_selected_targets_kill_pill"><![CDATA[Что это такое? Моя погибель?!]]></entry>  
+    
+
+
+
+<!--Reactions --> 
+
+   
+		<entry id="voivode+str_monster_attack_unholy_smite"><![CDATA[Я повелеваю нежитью, глупец!]]></entry>
+		<entry id="voivode+str_monster_attack_unholy_judgement"><![CDATA[Мне знакома эта сила...]]></entry>
+		<entry id="voivode+str_monster_attack_unholy_curse"><![CDATA[Проклинать проклятого? Как безрассудно.]]></entry>
+		<entry id="voivode+str_bark_hobby"><![CDATA[Были времена, когда я пил и ел из золотых чаш. Те дни я вспоминаю с отвращением .]]></entry>
+		<entry id="voivode+str_bark_hobby"><![CDATA[Прошлой ночью я встретил такую милую девушку. Думаю завтра её будут хоронить.]]></entry>
+		<entry id="voivode+str_bark_hobby"><![CDATA[Ваша болтовня так утомляет...]]></entry>
+		<entry id="voivode+str_bark_deathsdoor"><![CDATA[Никогда бы не подумал что это произойдёт. Убить само воплощение Смерти, как иронично...]]></entry>
+
+  
+
+		<entry id="voivode+str_bark_rest"><![CDATA[А почему никто не хочет спать рядом со мной? Хе-хе.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Пусть ночь обнимет нас.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Я буду присматривать. Я сова, днём не так хорош как ночью.]]></entry>
+                <entry id="voivode+str_bark_rest"><![CDATA[Ваша болтовня так утомляет...]]></entry>
+
+
+		<entry id="voivode+str_monster_user_selected_targets_kill_pill"><![CDATA[Я умираю? Но... мне было обещано наслаждение!]]></entry>  
+    
+	
+	    <entry id="voivode+str_critbyhero"><![CDATA[Твоя душа пахнет мёдом и цветами...]]></entry>
+        <entry id="voivode+str_critbyhero"><![CDATA[Твоя жизненная сила пробуждает во мне аппетит...]]></entry>
+ 	    <entry id="voivode+str_critbyhero"><![CDATA[Твоя жизнь вполне удовлетворит меня!]]></entry>
+	    <entry id="voivode+str_critbyhero"><![CDATA[Ты даже не представляешь с кем связался, не так ли?]]></entry>
+	    <entry id="voivode+str_critbyhero"><![CDATA[Пади ниц передо мной!]]></entry>
+	    <entry id="voivode+str_critbyhero"><![CDATA[Я прожил столь долго не потому что боялся таких мразей как ты!]]></entry>
+		<entry id="voivode+str_critbyhero"><![CDATA[Ты что, не понимаешь? Смерть уже обратила свой взор на тебя.]]></entry>
+		<entry id="voivode+str_critbyhero"><![CDATA[ХАХАХАХАХА... СТРАДАНИЯ!]]></entry>
+	
+	
+	<!--Party Names -->
+    <entry id="party_name_66601"><![CDATA[Плохая компания]]></entry>
+    <entry id="party_name_66602"><![CDATA[О монстрах и человеке]]></entry>
+    <entry id="party_name_66603"><![CDATA[Хорошая выдержка]]></entry>
+    <entry id="party_name_66604"><![CDATA[Бодрствующий]]></entry>
+    <entry id="party_name_66605"><![CDATA[Волк среди нас]]></entry>
+    <entry id="party_name_66606"><![CDATA[Сладость или гадость]]></entry>
+	<entry id="party_name_66607"><![CDATA[Дикая охота]]></entry>
+	<entry id="party_name_66608"><![CDATA[Клятва на крови]]></entry>
+	<entry id="party_name_66609"><![CDATA[Красная тропа]]></entry>
+	<entry id="party_name_666010"><![CDATA[Аристократия]]></entry>
+	<entry id="party_name_666011"><![CDATA[Жулики всех мастей]]></entry>
+	<entry id="party_name_666012"><![CDATA[Увеселение короля]]></entry>
+	<entry id="party_name_666013"><![CDATA[Три ангела для Раду]]></entry>
+	<entry id="party_name_666014"><![CDATA[Шведский стол]]></entry>
+	<entry id="party_name_666015"><![CDATA[Лига выдающихся джентльменов]]></entry>
+	
+<!--Affliction Virtue --> 
+
+		 <entry id="voivode+str_afflicted_fearful">						<![CDATA[Аргх! Свет! Жжётся!]]></entry>	    
+	     <entry id="voivode+str_afflicted_paranoid">						<![CDATA[На самом деле ты здесь чтобы убить меня! Я знаю это, тебе не обмануть меня столь жалкой уловкой!]]></entry>	     
+	     <entry id="voivode+str_afflicted_depressed">						<![CDATA[Как прекрасны крики боли и отчаяния!]]></entry>	    
+	     <entry id="voivode+str_afflicted_abusive">							<![CDATA[Это ВЫ во всём виноваты! Невежественные холопы...]]></entry>	    
+	     <entry id="voivode+str_afflicted_selfish">							<![CDATA[Хмм. Пастух не подчиняется своим овцам.]]></entry>	     
+	     <entry id="voivode+str_afflicted_hopeless">							<![CDATA[Вся моя жизнь - бесконечное проклятие...]]></entry>	    
+	     <entry id="voivode+str_afflicted_irrational">						<![CDATA[Я - фонтан откровения и жизни!]]></entry>	   
+	     <entry id="voivode+str_virtued_stalwart">							<![CDATA[Вперёд, я вижу страх в глазах этих крыс!]]></entry>	    
+	     <entry id="voivode+str_virtued_courageous">						<![CDATA[Преклони колени, и подчинись слову повелителя!]]></entry>	    
+	     <entry id="voivode+str_virtued_focused">							<![CDATA[Дьявол знает, потому что он дьявол, но он знает больше, потому что стар.]]></entry>	    
+	     <entry id="voivode+str_virtued_powerful">							<![CDATA[ХААХХАХА... И это всё что вы можете противопоставить мне?]]></entry>	   
+	     <entry id="voivode+str_virtued_prosperous">						<![CDATA[Я приведу вас к победе, как в старые времена.]]></entry>	    
+	     <entry id="voivode+str_virtued_vigorous">							<![CDATA[Тебе не убить меня! Я вечен!]]></entry>		 
+	     <entry id="voivode+str_stress_heal_self_stalwart">					<![CDATA[Со мной случались вещи и похуже...]]></entry>	   
+	     <entry id="voivode+str_stress_heal_party_courageous">				<![CDATA[Не бойтесь тьмы, сейчас она наш союзник.]]></entry>	    
+	     <entry id="voivode+str_buff_random_party_member_focused">			<![CDATA[Соберись, сражайся, иначе узнаешь каков я в гневе!]]></entry>
+		 <entry id="voivode+str_buff_party_powerful">						<![CDATA[По моему приказу... В АТАКУ!]]></entry>
+	     <entry id="voivode+str_buff_party_powerful">						<![CDATA[Я сорву мясо с костей этих ничтожеств!]]></entry>
+	     <entry id="voivode+str_heal_self_vigorous">						<![CDATA[Ха! Проткнул мне лёгкие, а я даже ничего не почувствовал!]]></entry>
+	     <entry id="voivode+str_heal_self_vigorous">						<![CDATA[У меня припасён кол с твоим именем...]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[Чудовище. Я - чудовище!]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[Раньше я был уважаемым человеком. Что я наделал?]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[Насмешка судьбы, я должен нести это бремя без дара упокоения в смерти.]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[Близится рассвет, я должен спрятаться!]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[Свет оставил меня, и вы вместе с ним!]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[Проклятый Свет! Здесь слишком светло!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[Смотри, кровь не сочится из моих ран!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[Прикончите меня уже!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[Я всего-лишь чаша, наполненная разочарованием]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[Закрой свою пасть и подчиняйся!]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[Кругом одни идиоты.]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[Серьёзно?... С какой бы это стати я стал тебя слушать?]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[Связаться с вами было большой ошибкой!]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[Делайте как я говорю!]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[Я буду делать то, что сам посчитаю нужным]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[Это что, чеснок?]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[Этот символ, он жжёт!]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[Трещина в стене! Я вижу, близится рассвет!]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[И смерть будет покрыта славой! Славой наших тел!]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[Расплескалась тьма, расплескалась.]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[Я буду отцом твоей новой жизни.]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[Уберите этот символ от меня!]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[Это что, распятие?... АРРРРРГХ!!]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[Воняет чесноком!]]></entry>
+	     <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[Я не повернусь к тебе спиной...]]></entry>
+	     <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[Я разгадал твои намерения!]]></entry>
+		 <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[Я не попадусь в твои сети.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[Я сделаю это!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[Смерть требует свой урожай.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[Я хочу почувствовать себя живым!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[Смерть прячется от меня!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[Я слышу голоса тех, чьи жизни я похитил.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[И моря будут окрашены в красный цвет ...]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[Нет, этого не может быть ...]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[Для чего мы сражаемся, это же бессмысленно!]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[Я просто тень для мира ...]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[А твою голову я заберу себе.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[Я тоже хочу.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[Вы должно быть шутите.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[Моё место не здесь.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[Я тот, кто командует здесь!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[Я что, должен всех всему учить?]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[Сами делайте эту грязную работу!]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[Я не стану рисковать ради тебя.]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[Прими удар вместо меня. В конце концов, ты просто пушечное мясо.]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[Меня так мучает жажда!]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[Жизнь уходит из этих старых костей...]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[Я так стар, я так слаб...]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[Теперь я ясно вижу, ты и есть мой враг!]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[Если продолжим следовать твоим приказам, то непременно погибнем.]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[Погоди-ка... Какого чёрта я должен тебе доверять?]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[Я сказал НЕТ!]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[Ты кто такой чтобы отдавать мне приказы?]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[Молчать. Я делаю то что хочу.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[Поубивайте друг друга, а я буду наслаждаться зрелищем.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[Глубокий красный цвет крови такой... завораживающий.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[Позволь мне насладиться запахом смерти.]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[Силы покидают меня!]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[Моё место не среди таких как вы!]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[Тьма окутывает нас между воплями безумия!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[Не тебе указывать мне что делать!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[Теперь моя очередь!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[Я не отдамся в руки предателей.]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[Я жажду своей смерти!]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[Давай! Попробуй достать меня, если сможешь!]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[Там не будет никакого спасения для меня!]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[Созерцайте истинную силу тьмы!]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[Оставь свои жалкие советы тем кому они нужны.]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[Твои бесполезные решения принесут нам только позор!]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[Ни один из этих паразитов не может быть достойным соперником.]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[Я сам себе командир!]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[Заткнись, и смотри как это делается.]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[Ценность битвы измеряется количеством пролитой крови.]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[Мне хочется послушать твои крики!]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[Я выпотрошу тебя как рыбу!]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[Тсссс... тише!]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[Я жил этим раньше ... и я знаю, чем это заканчивается.]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[Ты действительно думаешь, будто я поверил твоим намерениям?]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[Я знаю что нужно делать...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[От тебя будет больше пользы в качестве блюда на обеденном столе.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[Давайте, отдыхайте... отдыхайте... а я буду следить за вами.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[Любая ваша жизнь может утолить мою жажду.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[Я отказываюсь спать, не хочется, знаете ли, проснуться с колом в своей груди.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[Даже не думай о молитве. Я тебя услышу.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[Ты не лучше крыс копошащихся у нас под ногами.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[Назови хоть одну причину по которой я не должен прикончить тебя здесь и сейчас.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[Мне суждено привести тебя к смерти.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[Раз уж вы со мной, то наверняка все прокляты.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[Эта авантюра закончится для нас адским котлом!]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[Ты так и будешь нести околесицу?]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[Сделай одолжение, отрежь себе язык.]]></entry>
+             <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[Вчера я встретил такую очаровательную девушку. Думается хоронить её будут завтра.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[Давайте, отдыхайте. Надеюсь, вы не проснетесь.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[Кажется, что терпеть тебя - еще одно адское наказание...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[Меня окружают какие-то идиоты...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[Очевидно, что вы не справились с задачей.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[Не беспокойся об этой ране, в конце концов придется ампутировать.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[Падальщики смотрят на тебя голодными глазами ... Я понимаю, почему.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[Пожалуйста, не пытайтесь облегчить страдания.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[Надежды больше нет... для тебя.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[Кровавая луна ведёт нас!]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[Я могу разрезать себе вены, и лишь пыль заструится из них...]]></entry>
+	     <entry id="voivode+str_mark_self_depressed">						<![CDATA[Давай! Иди сюда!]]></entry>
+	     <entry id="voivode+str_mark_self_depressed">						<![CDATA[Пронзайте это безжизненное сердце!]]></entry>
+	     <entry id="voivode+str_mark_self_hopeless">						<![CDATA[Как давно я не чувствовал боли...]]></entry>
+	     <entry id="voivode+str_mark_self_hopeless">						<![CDATA[Попробуй взглянуть на меня!]]></entry>
+	     <entry id="voivode+str_mark_self_irrational">						<![CDATA[Я вижу свет в конце тоннеля...]]></entry>
+	     <entry id="voivode+str_mark_self_irrational">						<![CDATA[Служите лишь ВЕЧНОМУ ПОВЕЛИТЕЛЮ!]]></entry>
+	     <entry id="voivode+str_attack_friendly_paranoid">					<![CDATA[Не приближайся!]]></entry>
+	     <entry id="voivode+str_attack_friendly_paranoid">					<![CDATA[Мы здесь из за тебя!]]></entry>
+	     <entry id="voivode+str_attack_friendly_abusive">					<![CDATA[Я тебя проучу...]]></entry>
+	     <entry id="voivode+str_attack_friendly_abusive">					<![CDATA[Смерть, вот то что нам нужно!]]></entry>
+	     <entry id="voivode+str_attack_friendly_irrational">				<![CDATA[Я знаю, ты здесь для того, чтобы прикончить меня!]]></entry>
+	     <entry id="voivode+str_attack_friendly_irrational">                <![CDATA[Ваши голоса присоединятся к тем, кого я оставил позади!]]></entry>
+             <entry id="voivode+str_attack_friendly_fearful">					<![CDATA[Вы всего лишь стадо!]]></entry>
+	     <entry id="voivode+str_attack_friendly_fearful">                  <![CDATA[Я буду пировать тобой!]]></entry>
+	     <entry id="voivode+str_attack_self_depressed">					<![CDATA[Я просто оболочка, полная страданий.]]></entry>
+	     <entry id="voivode+str_attack_self_depressed">					<![CDATA[Я хочу почувствовать себя живым!]]></entry>
+	     <entry id="voivode+str_attack_self_hopeless">					<![CDATA[Хотите посмотреть на мои внутренности!?]]></entry>
+	     <entry id="voivode+str_attack_self_hopeless">					<![CDATA[Нет лучшего наслаждения, чем свои собственные мучения.]]></entry>
+	     <entry id="voivode+str_attack_self_irrational">					<![CDATA[Лишь боль даст нам освобождение!]]></entry>
+	     <entry id="voivode+str_attack_self_irrational">					<![CDATA[Я сам себе враг!]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_paranoid">				<![CDATA[Для вас, трусы, надежды нет!]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_paranoid">				<![CDATA[Куда, по твоему, ты идешь?]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_hopeless">			<![CDATA[... Когда уже начинается лучшая часть?]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_hopeless">			<![CDATA[Вы еще не достаточно страдали ...]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_depressed">			<![CDATA[Если я пропаду, то потащу вас всех за собой.]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_depressed">			<![CDATA[Нам некуда деваться]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_irrational">			<![CDATA[Не сопротивляйся объятиям тьмы.]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_irrational">			<![CDATA[Солнце садится для всех нас.]]></entry>
+	     <entry id="voivode+str_comment_self_hit_fearful">					<![CDATA[Я не вынесу этого голода!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_fearful">					<![CDATA[Голод пожирает меня изнутри!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_paranoid">					<![CDATA[Вина лежит на мне!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_paranoid">					<![CDATA[Не утруждай себя, я сделаю твою грязную работу...]]></entry>
+	     <entry id="voivode+str_comment_self_hit_selfish">					<![CDATA[Ты этого добиваешься?]]></entry>
+	     <entry id="voivode+str_comment_self_hit_selfish">					<![CDATA[Я покажу как это делается?]]></entry>
+	     <entry id="voivode+str_comment_self_hit_depressed">				<![CDATA[Чтобы умереть мне не нужна ничья помощь.]]></entry>
+	     <entry id="voivode+str_comment_self_hit_depressed">				<![CDATA[Я падаю в объятия смерти!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_irrational">				<![CDATA[АРРРГХ!! ]]></entry>
+	     <entry id="voivode+str_comment_self_hit_irrational">				<![CDATA[Пусть тьма растекается повсюду...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_fearful">				<![CDATA[Запах твоей души так... отвлекает.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_fearful">				<![CDATA[Надо было поесть перед этим.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_paranoid">				<![CDATA[Нет уж, вам не повеселиться за мой счёт.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_paranoid">				<![CDATA[Что-то я недопонимаю...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_depressed">			<![CDATA[В этом теле не осталось жизни!]]></entry>
+	     <entry id="voivode+str_comment_self_missed_depressed">			<![CDATA[Да мне плевать...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_irrational">			<![CDATA[Я просто тень для мира ...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_irrational">			<![CDATA[Жребий брошен ... для вас.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_selfish">			<![CDATA[Ты умрёшь, если это обеспечит мою безопасность.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_selfish">			<![CDATA[Я не собираюсь умирать из-за твоей глупости!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_abusive">			<![CDATA[Я тебя проучу, курва!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_abusive">			<![CDATA[За свои ошибки ты понесешь наказание!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_irrational">		<![CDATA[Твоё место у моих ног, смертный!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_irrational">		<![CDATA[Пусть твоя душа послужит мне!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_fearful">		<![CDATA[Ты слишком слаб для этого!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_fearful">		<![CDATA[Силы покидают тебя!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[Я знаю чего ты хочешь... ПРЕДАТЕЛЬ!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[Ты мой настоящий враг...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_abusive">		<![CDATA[ХАХАХАХАХАХАХА!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_abusive">		<![CDATA[Тащить вас на своём горбу, разве я это заслужил?]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_selfish">		<![CDATA[Тебе следовало оставаться в своей дыре...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_selfish">		<![CDATA[Я так и думал...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_irrational">		<![CDATA[Бесславен тот, кто не служит мне.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_irrational">		<![CDATA[Только я избавлюсь от червей и мух]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_fearful">					<![CDATA[Эту энергию мне нужно поглотить]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_fearful">					<![CDATA[Раздели свою жизненную силу со мной!]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_paranoid">					<![CDATA[Хмм... какое представление!]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_paranoid">					<![CDATA[А вот и демонстрация моего влияния...]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_depressed">				<![CDATA[Пусть кровь течет...]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_depressed">				<![CDATA[Серьёзно?]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_abusive">					<![CDATA[Да ладно, это же просто царапина.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_abusive">					<![CDATA[Твои корчи так забавно выглядят.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_irrational">				<![CDATA[На этих плечах скоро не будет головы.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_irrational">				<![CDATA[Начало конца.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_fearful">				<![CDATA[От тебя будет больше пользе в качестве ужина для бессмертных!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_fearful">				<![CDATA[Такое множество драк пробуждает мой аппетит.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[Стоило оставить эту работу мне!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[Кхм... это же так легко.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_irrational">			<![CDATA[Луна поглотит солнце... навсегда.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_irrational">			<![CDATA[Крысы у меня в глотке!]]></entry>
+	     <entry id="voivode+str_block_move_fearful">						<![CDATA[Ты можешь пойти куда угодно... я буду наблюдать за тобой.]]></entry>
+	     <entry id="voivode+str_block_move_fearful">						<![CDATA[Позволь мне вдыхать твой запах.]]></entry>
+	     <entry id="voivode+str_block_move_paranoid">						<![CDATA[Ты же не думаешь сбежать?]]></entry>
+	     <entry id="voivode+str_block_move_paranoid">						<![CDATA[Просто забудь об этом.]]></entry>
+	     <entry id="voivode+str_block_move_depressed">					<![CDATA[Не избегай боли!]]></entry>
+	     <entry id="voivode+str_block_move_depressed">					<![CDATA[(ухмыляется)]]></entry>
+	     <entry id="voivode+str_block_move_abusive">						<![CDATA[(сверлит взглядом)]]></entry>
+	     <entry id="voivode+str_block_move_abusive">						<![CDATA[Стоять, презренный негодяй!]]></entry>
+	     <entry id="voivode+str_block_move_irrational">						<![CDATA[Можешь бежать куда угодно, твоя тень последует за тобой.]]></entry>
+	     <entry id="voivode+str_block_move_irrational">						<![CDATA[Приятно видеть, что ты бежишь, как побитый пес.]]></entry>
+	     <entry id="voivode+str_block_item_paranoid">						<![CDATA[Это не освящено?]]></entry>
+	     <entry id="voivode+str_block_item_paranoid">						<![CDATA[Я знаю, ты ищешь распятие, предатель! ]]></entry>
+	     <entry id="voivode+str_block_item_depressed">					<![CDATA[Можно было и не стараться.]]></entry>
+	     <entry id="voivode+str_block_item_depressed">					<![CDATA[Это не спасёт тебя от моего голода.]]></entry>
+	     <entry id="voivode+str_block_item_hopeless">						<![CDATA[Ничто не помешает ни вашей агонии, ни моему наслаждению.]]></entry>
+	     <entry id="voivode+str_block_item_hopeless">						<![CDATA[Твоё выражение лица напоминает мне что такое боль.]]></entry>
+	     <entry id="voivode+str_block_item_irrational">						<![CDATA[Не обращай свою веру на эти обманные побрякушки!]]></entry>
+	     <entry id="voivode+str_block_item_irrational">						<![CDATA[Ничто не помешает тебе стать пищей для паразитов.]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[Убери этот мерзкий свет от меня!]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[Ты что, хочешь застать меня врасплох своими трюками?]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[Думаешь я поверю тебе или твоим дешевым трюкам!?]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[Позволь мне насладиться страданием...]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[Мне не нужна твоя помощь.]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[Пхах. Подумай еще раз.]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[Ты не сможешь излечить то, что уже мертво.]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[Успокойтесь, я умирал уже множество раз...]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[Мне не нужны кишки, чтобы сражаться.]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[Этот свет жжет меня как солнце... убери его!]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[Используй свои уловки на тех, кто в них нуждается.]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[Ничто не помешает плоти упасть с моих костей.]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[Я не позволю тебе приблизиться ко мне!]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[Я знаю, ты вмешиваешься не для того чтобы мне помочь.]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[Держи руки так, чтобы я мог их видеть, жалкий червяк!]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[В этом теле больше нет жизни.]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[Я жажду своей кончины.]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[Оставь меня наедине с моей болью..]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[На самом деле, мне это нравится.]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[Моя сила растёт от страданий моих врагов.]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[Я встречу их своими голыми когтями.]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[Нет мыши способной защитить волка.]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[(нелепая тишина)]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[Всё верно... а что ты собираешься делать?.]]></entry>
+		 
+	   
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}СКРИИИИИИ!{colour_end}]]></entry>    
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}ГРАААААА!{colour_end}]]></entry>  
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}ШШШШШШАРГ!{colour_end}]]></entry>    
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}ЙАРРРРРГ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}ГРРРРРР...{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}УЗРИТЕ НАСТОЯЩУЮ МОЩЬ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}ПАДИТЕ ПЕРЕД СВОИМ ГОСПОДИНОМ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}Я СТРАХ ЦАРЯЩИЙ В ТВОИХ НОЧНЫХ КОШМАРАХ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}АЗ ЕСМЬ НОЧЬ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}Я ПОЖРУ ТЕБЯ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}ТЫ ВСЕГО ЛИШЬ ПИЩА ДЛЯ БЕССМЕРТНЫХ!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}ДРОЖИТЕ ПЕРЕДО МНОЙ!{colour_end}]]></entry>
+
+
+
+	
+   
+ 
+  </language>
+</root>

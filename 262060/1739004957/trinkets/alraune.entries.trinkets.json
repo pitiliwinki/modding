@@ -1,0 +1,146 @@
+{
+   "entries":
+   [
+      {
+         "id" : "alraune_soil",
+         "buffs" : 
+         [
+            "HPHEALRECEIVED10",
+			"STRESSRECOVERY10",
+			"DEF-5"
+         ],
+         "hero_class_requirements":
+         [
+            "alraune"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_boots",
+         "buffs" : 
+         [
+            "MOVERESIST20",
+			"STUNRESIST20",
+			"DEBUFFRESIST20",
+			"SPD-4"
+         ],
+         "hero_class_requirements":
+         [
+			"alraune"
+         ],
+         "rarity" : "alraune",
+		 "visual_rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_fungicide",
+         "buffs" : 
+         [
+            "BLIGHTRESIST25",
+			"DISEASERESIST25",
+			"BLIGHTSKILL-20"
+         ],
+         "hero_class_requirements":
+         [
+			"alraune"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_wraps",
+         "buffs" : 
+         [
+            "BLIGHTSKILL30",
+            "SPD4",
+            "alraune_wraps_stressheal_down"
+         ],
+         "hero_class_requirements":
+         [
+            "alraune"
+         ],
+         "rarity" : "alraune",
+		 "visual_rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_mushroom",
+         "buffs" : 
+         [
+            "alraune_mushroom_virtue",
+            "SCOUTING15",
+            "STRESSDMG20"
+         ],
+         "hero_class_requirements":
+         [
+            "alraune"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_tools",
+         "buffs" : 
+         [
+            "DMGL20",
+            "DMGH20",
+			"TRINKET_ancestors_signet_ring_ACC_BUFF",
+			"alraune_pierce",
+			"MAXHP-15"
+         ],
+         "hero_class_requirements":
+         [
+            "alraune"
+         ],
+         "rarity" : "alraune",
+		 "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_necklace",
+         "buffs" : 
+         [
+            "PROT15",
+            "TRINKET_bright_tambourine_STRESSHEALDONE_BUFF",
+			"alraune_guard_STRESSDMG-20"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "alraune_beagle",
+         "buffs" : 
+         [
+            "TRINKET_ancestors_lantern_PARTYSURPRISE_BUFF",
+			"Beagle_stress_healing",
+			"Beagle_camp_stress_healing"
+         ],
+         "hero_class_requirements":
+         [
+            "alraune"
+         ],
+         "rarity" : "pet",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      }
+   ]
+}

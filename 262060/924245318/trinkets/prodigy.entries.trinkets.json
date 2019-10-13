@@ -1,0 +1,158 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "heavenly_greaves",
+         "buffs" : 
+         [
+		 	"TRINKET_PARTYSURPRISE_B1",
+            "TRINKET_survival_guide_SCOUTING_BUFF",
+            "TRINKET_STRESSDMG_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "endless_knowledge",
+         "buffs" : 
+         [
+		 	"TRINKET_RESOLVEXPBONUS_B3",
+			"TRINKET_STUNRESIST_B2",
+			"TRINKET_SPD_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "divine_ring",
+         "buffs" : 
+         [
+			"TRINKET_MOVESKILL_B2",
+            "TRINKET_MAXHP_B2",
+			"TRINKET_DEF_B1",
+			"TRINKET_CRIT_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+		 "set_id" : "prodigy_trinket_radiant_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "sacred_wraps",
+         "buffs" : 
+         [
+		 	"TRINKET_STUNSKILL_B2",
+            "TRINKET_DMGH_B2",
+            "TRINKET_DMGL_B2",
+			"TRINKET_DEF_B1",
+			"TRINKET_CRIT_D1"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+		 "set_id" : "prodigy_trinket_radiant_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "med_of_courage",
+         "buffs" : 
+         [
+		 	"TRINKET_ancestors_lantern_MONSTERSURPRISE_BUFF",
+		    "TRINKET_RESOLVECHECK_B3",
+			"TRINKET_MAXHP_B2",
+			"TRINKET_SPD_D3"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_ardent_chalice",
+         "buffs" : 
+         [
+			"PROD_CC_STUNSKILL",
+            "PROD_CC_MAXHP",
+            "PROD_CC_ACC",
+            "PROD_CC_DODGEDEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "set_id" : "prodigy_trinket_crimson_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_pious_emblem",
+         "buffs" : 
+         [
+			"PROD_CC_REFLECT",
+			"PROD_CC_RESOLVE",
+			"PROD_CC_DMGH",
+            "PROD_CC_DMGL",
+            "PROD_CC_DODGEDEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "set_id" : "prodigy_trinket_crimson_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "com_anointed_gauntlet",
+         "buffs" : 
+         [
+            "PROD_COM_DEATHDOOR",
+            "PROD_COM_PROT",
+			"PROD_COM_CRIT",
+			"PROD_COM_DMGH_DEBUFF",
+            "PROD_COM_DMGL_DEBUFF"
+         ],
+         "hero_class_requirements":
+         [
+            "prodigy"
+         ],
+         "rarity" : "comet",
+         "shard" : 175,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+         [
+             "Holy Power", "Holy Bleed"
+         ]
+      }
+   ]
+}

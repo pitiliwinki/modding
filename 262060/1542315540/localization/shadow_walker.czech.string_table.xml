@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="czech">
+<!--Art by Kahvipannu. Class by dem22 --> 
+<!---Class name and specific people names--->
+	<entry id="hero_class_name_shadow_walker"><![CDATA[Shadow Walker]]></entry>
+	<entry id="hero_name_hunter"><![CDATA[Hunter]]></entry>
+	<entry id="hero_name_scorpion"><![CDATA[Scorpion]]></entry>
+	
+	<!--First SHAD Subtitle -->
+	<entry id="str_vo_bad_shadow_walker_recruitment_0"><![CDATA[Beware nightfall, for he watches and waits for those who stray from torchlight]]></entry>
+	
+<!---SW riposte--->
+    <entry id="buff_rule_data_tooltip_SW_riposte"><![CDATA[{colour_start|riposte}Riposte{colour_end}]]></entry>
+<!--Trinkets -->
+	<entry id="str_inventory_title_trinketsw1"><![CDATA[Vial of Good Memories]]></entry>
+    <entry id="str_inventory_title_trinketsw2"><![CDATA[Book of Poems]]></entry>
+    <entry id="str_inventory_title_trinketsw3"><![CDATA[Heavy Chain]]></entry>
+    <entry id="str_inventory_title_trinketsw4"><![CDATA[Dark Incense]]></entry>
+    <entry id="str_inventory_title_trinketsw5"><![CDATA[Assassination Contract]]></entry>
+    <entry id="str_inventory_title_trinketswset1"><![CDATA[Elio's Last Boots]]></entry>
+    <entry id="str_inventory_title_trinketswset2"><![CDATA[Elio's Last Gloves]]></entry>
+    <entry id="str_inventory_set_title_swset_combined12"><![CDATA["Elio's Revenge"]]></entry>
+	<entry id="str_inventory_title_trinketsw3b_chain"><![CDATA[Blessed Chain]]></entry>
+	<entry id="str_inventory_title_trinketsw_shadow_ring"><![CDATA[Shadow Walker's Ring]]></entry>
+	<entry id="str_inventory_title_trinketsw_watcher_poison"><![CDATA[Stolen Riftwatcher Poison]]></entry>
+	
+<!---Quirks--->
+	<entry id="str_quirk_name_skilled_toxicologist"><![CDATA[Skilled Toxicologist]]></entry>
+	<entry id="str_quirk_name_toxin_hypersensitive"><![CDATA[Toxin Hypersensitive]]></entry>
+
+<!---Poison Buffs Tooltips--->
+	<entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[{colour_start|blight}-Blight{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}+Blight{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[{colour_start|blight}+Blight{colour_end} Received]]></entry>
+	
+<!---Combat Skills--->
+	<entry id="combat_skill_name_shadow_walker_ken_jutsu"><![CDATA[Ken-Jutsu (Katana Strike)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_blood_boil"><![CDATA[Blood Boil]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kiai_jutsu"><![CDATA[Kiai-Jutsu (Chain Entangle)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_kuji_kiri"><![CDATA[Kuji-Kiri (Gesture Slap)]]></entry>
+    <entry id="combat_skill_name_shadow_walker_venom_tipped_shurikens"><![CDATA[Venom-Tipped Shurikens]]></entry>
+    <entry id="combat_skill_name_shadow_walker_pressure_point"><![CDATA[Pressure Point]]></entry>
+    <entry id="combat_skill_name_shadow_walker_shadow_slide"><![CDATA[Shadow Slide]]></entry>
+    <entry id="combat_skill_name_shadow_walker_move"><![CDATA[Move]]></entry>
+<!---Upgrade Tree--->
+    <entry id="upgrade_tree_name_shadow_walker.ken_jutsu"><![CDATA[Ken-Jutsu]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.blood_boil"><![CDATA[Blood Boil]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kiai_jutsu"><![CDATA[Kiai-Jutsu]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.kuji_kiri"><![CDATA[Kuji-Kiri]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.venom_tipped_shurikens"><![CDATA[Venom-Tipped Shurikens]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.pressure_point"><![CDATA[Pressure Point]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.shadow_slide"><![CDATA[Shadow Slide]]></entry>
+<!---Weapson Armor grid--->  		
+	<entry id="shadow_walker_weapon_0"><![CDATA[Steel Ninjatō]]></entry>
+	<entry id="shadow_walker_weapon_1"><![CDATA[Silver Ninjatō]]></entry>
+    <entry id="shadow_walker_weapon_2"><![CDATA[Carbon Steel Ninjatō]]></entry>
+    <entry id="shadow_walker_weapon_3"><![CDATA[Diamond Ninjatō]]></entry>
+    <entry id="shadow_walker_weapon_4"><![CDATA[Jade Ninjatō]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.weapon"><![CDATA[Kantanas & Shurikens]]></entry>
+    <entry id="shadow_walker_armour_0"><![CDATA[Gappa, Zukin, & Steel Kusari]]></entry>
+    <entry id="shadow_walker_armour_1"><![CDATA[Gappa, Zukin, & Silver Kusari]]></entry> 
+    <entry id="shadow_walker_armour_2"><![CDATA[Gappa, Zukin, & Carbon Steel Kusari]]></entry>
+    <entry id="shadow_walker_armour_3"><![CDATA[Gappa, Zukin, & Diamond Kusari]]></entry>
+    <entry id="shadow_walker_armour_4"><![CDATA["Gappa, Zukin, & Jade Kusari"]]></entry>
+    <entry id="upgrade_tree_name_shadow_walker.armour"><![CDATA[Gear]]></entry>
+	
+<!--Smoke Bomb buffs, tooltips, barks SUPER BUGGY --> 
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Smoke bomb!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Shadows will aid us!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[The confusion can help us!]]></entry>
+	<entry id="shadow_walker+sw_bark_smoke_bomb"><![CDATA[Boom!]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_sw_critreceived"><![CDATA[Crits received chance]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_sm_accuracy"><![CDATA[Accuracy]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb_fx"><![CDATA[Speed]]></entry>
+	
+	
+	<entry id="str_inventory_title_supplysw_smoke_bomb"><![CDATA[Smoke Bomb]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_smoke_bomb"><![CDATA[Smoke Bomb]]></entry>
+	<entry id="str_inventory_description_supplysw_smoke_bomb"><![CDATA[Smash the glass globe to cause chaos.]]></entry>
+<!--Chess Piece Gem Item --> 
+	<entry id="str_inventory_title_gemsw_jade_chess_piece"><![CDATA[Jade Chess Piece]]></entry>
+	<entry id="buff_rule_data_tooltip_sw_jade_chess_piece"><![CDATA[Jade Chess Piece]]></entry>
+	<entry id="str_inventory_description_gemsw_jade_chess_piece"><![CDATA[A local collector will trade gold for ancient, exquisitely carved chess pieces.]]></entry>	
+		
+<!--Town Event --> 
+	    <entry id="town_event_title_first_shadow_walker"><![CDATA[A shadow approaches ...]]></entry>
+        <entry id="town_event_description_first_shadow_walker"><![CDATA["Light on his feet, a man emerges from the shadows and stares at you. He moves gracefully, like a dancer. He carries two katannas on his back."]]></entry>
+        <entry id="shadow_walker+str_bark_deathsdoor"><![CDATA[Has my shadow finally come for me?]]></entry>
+		
+<!---Descriptions--->
+	<entry id="action_verbose_body_blacksmith_shadow_walker"><![CDATA["A ninja warrior, who walks in shadows."]]></entry>
+	<entry id="action_verbose_body_guild_shadow_walker"><![CDATA["Shadow Walkers are spoken about in hushed whispers. An assasin who enjoys treasure hunting and meditation."]]></entry>
+	<entry id="action_verbose_body_camping_trainer_shadow_walker"><![CDATA["I've been invovled in meditation since I was a child."]]></entry>
+		
+<!--Camping Skills --> 		
+		<entry id="camping_skill_name_first_aid"><![CDATA[Wounds Care]]></entry>
+		<entry id="camping_skill_name_encourage"><![CDATA[Encourage]]></entry>
+		<entry id="camping_skill_name_pep_talk"><![CDATA[Pep Talk]]></entry>
+		<entry id="camping_skill_name_dark_meditation"><![CDATA[Dark Meditation]]></entry>
+		<entry id="camping_skill_name_sabotage"><![CDATA[Sabotage]]></entry>
+		<entry id="camping_skill_name_guerilla_warfare"><![CDATA[Guerilla Warfare]]></entry>
+		<entry id="camping_skill_name_assassination"><![CDATA[Assassination]]></entry>
+		
+<!--Barks --> 	
+		<entry id="shadow_walker+str_bark_first_aid"><![CDATA[I can heal these wounds.]]></entry>		
+		
+		<entry id="shadow_walker+str_bark_encourage"><![CDATA[The darkness will protect us tonight!]]></entry>
+
+		<entry id="shadow_walker+str_bark_pep_talk"><![CDATA[Don't despair.]]></entry>
+
+		<entry id="shadow_walker+str_bark_dark_meditation"><![CDATA[A meditative state may help with healing.]]></entry>
+
+		<entry id="shadow_walker+str_bark_sabotage"><![CDATA[I will mix a stronger venom.]]></entry>
+	
+		<entry id="shadow_walker+str_bark_guerilla_warfare"><![CDATA[I can easily scout ahead; the information may aid our journey.]]></entry>
+
+		<entry id="shadow_walker+str_bark_assassination"><![CDATA[I will focus on a position for maximum damage.]]></entry>
+		
+<!--Camping Skills --> 			
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[Never.]]></entry>
+		<entry id="shadow_walker+str_override_invalid_rejection"><![CDATA[Nevermind]]></entry>
+	
+		<entry id="camping_skill_requirement_bleeding"><![CDATA[This cut needs tending]]></entry>
+
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[I fear you not !]]></entry>
+ 	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Lay down and die.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Just try to hit me.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Black Market take you.]]></entry>
+	     <entry id="shadow_walker+str_critbyhero"><![CDATA[Frack!]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[Is there any jade?]]></entry>
+		 <entry id="shadow_walker+str_critbyhero"><![CDATA[I am the last shadow!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_fearful"><![CDATA[We should hide!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_paranoid"><![CDATA[You betrayed me!]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_masochistic"><![CDATA[The pain feels so good.]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_abusive"><![CDATA[You aren't worth my time!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_selfish"><![CDATA[My childroom was stolen from me.]]></entry>
+	     
+	     <entry id="shadow_walker+str_afflicted_depressed"><![CDATA[My observations inform my opinion -- we're doomed!]]></entry>
+	    
+	     <entry id="shadow_walker+str_afflicted_irrational"><![CDATA[We shuold all live in the shadows!]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_stalwart"><![CDATA[The shadows will provide us cover.]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_courageous"><![CDATA[Together we can scale great heights!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_focused"><![CDATA[Deception can be useful]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_powerful"><![CDATA[I'll distract them]]></entry>
+	   
+	     <entry id="shadow_walker+str_virtued_prosperous"><![CDATA[We will disperse this crowd of beasts!]]></entry>
+	    
+	     <entry id="shadow_walker+str_virtued_vigorous"><![CDATA[Stun and escape!]]></entry>
+		 
+	     <entry id="shadow_walker+str_stress_heal_self_stalwart"><![CDATA[We shall avoid the open battlefield.]]></entry>
+	   
+	     <entry id="shadow_walker+str_stress_heal_party_courageous"><![CDATA[Revenge shall be mine]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_random_party_member_focused"><![CDATA[I am a renowned swordsman!]]></entry>
+	    
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[We shall drip poinson in their mouths!]]></entry>
+	     <entry id="shadow_walker+str_buff_party_powerful"><![CDATA[We shall escape our pursuers.]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[My espionage skills are the best!]]></entry>
+	     <entry id="shadow_walker+str_heal_self_vigorous"><![CDATA[I can esapce death.]]></entry>
+		      
+	     <entry id="shadow_walker+str_bark_stress_fearful"><![CDATA[Our sabotage fails us!]]></entry>
+	     
+	     <entry id="shadow_walker+str_bark_stress_paranoid"><![CDATA[My disguise will fail!]]></entry>
+
+
+
+	     <entry id="shadow_walker+str_bark_stress_masochistic"><![CDATA[I will pierce my skin with venom!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[Darkest, I'm done with you! ]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[Step it up!]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_abusive"><![CDATA[Slide don't stumble!]]></entry>
+	   
+	     <entry id="shadow_walker+str_bark_stress_selfish"><![CDATA[He'll only deal with me, give me those.]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[Will I ever return home?]]></entry>
+	  
+	     <entry id="shadow_walker+str_bark_stress_depressed"><![CDATA[How many have I killed?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[Have you heard of Elio?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_irrational"><![CDATA[Why don't we catch a chicken for dinner?]]></entry>
+	
+	 
+
+	     <entry id="shadow_walker+str_change_pos_back_fearful"><![CDATA[I'll slide over here...]]></entry>
+	     <entry id="shadow_walker+str_change_pos_back_paranoid"><![CDATA[Don't look behind us!]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_fwd_masochistic"><![CDATA[You don't understand my philosophy]]></entry>
+	     <entry id="shadow_walker+str_change_pos_fwd_irrational"><![CDATA[What is the definition of strength?]]></entry>
+
+
+	     <entry id="shadow_walker+str_change_pos_back_irrational"><![CDATA[Do you hear ... chickens?]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_depressed"><![CDATA[I will never attain a clear mind.]]></entry>
+
+	     <entry id="shadow_walker+str_change_pos_back_depressed"><![CDATA[My physical training is not improving.]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_fwd_selfish"><![CDATA[I must control my own mind.]]></entry>
+	
+	     <entry id="shadow_walker+str_change_pos_back_selfish"><![CDATA[Meditate on my agility.]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_ignore_command_fearful"><![CDATA[My master did not call me strong!]]></entry>
+	
+	     <entry id="shadow_walker+str_ignore_command_paranoid"><![CDATA[Do you know my master?]]></entry>
+	 
+	     <entry id="shadow_walker+str_ignore_command_selfish"><![CDATA[These chess pieces are my profit.]]></entry>
+	    
+	     <entry id="shadow_walker+str_ignore_command_depressed"><![CDATA[My master eventually perished.]]></entry>
+	   
+	     <entry id="shadow_walker+str_ignore_command_irrational"><![CDATA[I hear clucking!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_random_command_paranoid"><![CDATA[Are you trying to fool me?]]></entry>
+	    
+	     <entry id="shadow_walker+str_random_command_masochistic"><![CDATA[I am a blade of grass!]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_abusive"><![CDATA[Honor fallen warriors!]]></entry>
+	
+	     <entry id="shadow_walker+str_random_command_selfish"><![CDATA[Strength is a growing flower, a lovely poem.]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_depressed"><![CDATA[Lifelessness.]]></entry>
+	   
+	     <entry id="shadow_walker+str_random_command_irrational"><![CDATA[*cluck cluck*.]]></entry>
+	
+		 
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_fearful"><![CDATA[Shattered by the storm...]]></entry>
+		     
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Will you break it?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Will you bend it?]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[Can you hear the wind?]]></entry>
+		 <entry id="shadow_walker+str_bark_stress_camp_paranoid"><![CDATA[What do you know of my master?]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_bark_stress_camp_masochistic"><![CDATA[I won't assist.]]></entry>
+	     <entry id="shadow_walker+str_bark_stress_camp_abusive"><![CDATA[You don't know real strength!]]></entry>
+	   
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_selfish"><![CDATA[Build, don't destroy]]></entry>
+	
+	     <entry id="shadow_walker+str_bark_stress_camp_depressed"><![CDATA[I am sorrowful tonight.]]></entry>
+	 
+	     <entry id="shadow_walker+str_bark_stress_camp_irrational"><![CDATA[It's still hunting me, that ... bird!]]></entry>
+		 
+	   
+	     <entry id="shadow_walker+str_mark_self_masochistic"><![CDATA[Look at me!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_depressed"><![CDATA[Take me!]]></entry>
+	 
+	     <entry id="shadow_walker+str_mark_self_irrational"><![CDATA[I am afraid!]]></entry>
+		 
+	 
+	     <entry id="shadow_walker+str_attack_friendly_paranoid"><![CDATA[Did you take some jade?]]></entry>
+	
+	     <entry id="shadow_walker+str_attack_friendly_abusive"><![CDATA[You have a way to go to reach enlightenment.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_friendly_irrational"><![CDATA[My mind and intellect are sharp.]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_masochistic"><![CDATA[This should clear my head.]]></entry>
+	  
+	     <entry id="shadow_walker+str_attack_self_depressed"><![CDATA[I can't hear my own mind.]]></entry>
+	   
+	     <entry id="shadow_walker+str_attack_self_irrational"><![CDATA[Great understanding leads to suffering.]]></entry>
+	
+	  
+	     <entry id="shadow_walker+str_block_combat_retreat_paranoid"><![CDATA[Hold on, we can't run!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_depressed"><![CDATA[We should stay to the end ...]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_combat_retreat_masochistic"><![CDATA[I am willing to die for the group!]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_combat_retreat_irrational"><![CDATA[If we leave i can't die for the group!]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_fearful"><![CDATA[I am not a master yet.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_paranoid"><![CDATA[I must win my own battle.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_hit_selfish"><![CDATA[What does it mean?]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_hit_masochistic"><![CDATA[Ancient philosophy has no meaning!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_self_hit_irrational"><![CDATA[I am master at making tea.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_self_missed_fearful"><![CDATA[How do we make new friends.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_paranoid"><![CDATA[I can't reach the highest level of training.]]></entry>
+	
+	     <entry id="shadow_walker+str_comment_self_missed_masochistic"><![CDATA[My self-development comes first!]]></entry>
+		 
+	
+	     <entry id="shadow_walker+str_comment_self_missed_irrational"><![CDATA[I can't a shadow.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_selfish"><![CDATA[Can you fell that?]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_abusive"><![CDATA[A higher plane of thinking!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_attack_hit_irrational"><![CDATA[Harmony is gone.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_fearful"><![CDATA[I am not free!]]></entry>
+	 
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[Personkind must continue!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_abusive"><![CDATA[You have no joy in battle!]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_selfish"><![CDATA[I am the future!]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_attack_missed_irrational"><![CDATA[You are the past!]]></entry>
+	   
+	  
+	     <entry id="shadow_walker+str_comment_ally_hit_fearful"><![CDATA[Win without fighting!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_paranoid"><![CDATA[Be warned.]]></entry>
+	    
+	     <entry id="shadow_walker+str_comment_ally_hit_masochistic"><![CDATA[Concentrate!]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_abusive"><![CDATA[The benefits of training are obvious.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_hit_irrational"><![CDATA[I can read your mind.]]></entry>
+	     
+	     <entry id="shadow_walker+str_comment_ally_missed_fearful"><![CDATA[No reaction is the best reaction.]]></entry>
+	   
+	     <entry id="shadow_walker+str_comment_ally_missed_paranoid"><![CDATA[My mental abilities are fading.]]></entry>
+	  
+	     <entry id="shadow_walker+str_comment_ally_missed_irrational"><![CDATA[Psst - you're so brave!]]></entry>
+		 
+	  
+	     <entry id="shadow_walker+str_block_move_fearful"><![CDATA[I am cursed.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_paranoid"><![CDATA[That's exactly what they want you do to.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_masochistic"><![CDATA[I'd prefer to stay here.]]></entry>
+	     
+	     <entry id="shadow_walker+str_block_move_abusive"><![CDATA[Not yet. no.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_move_irrational"><![CDATA[Don't touch that Bottle!!]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_item_paranoid"><![CDATA[DOn't reveal our plans.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_item_masochistic"><![CDATA[*glares at you*]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_item_depressed"><![CDATA[The shadows are growing.]]></entry>
+	
+	     <entry id="shadow_walker+str_block_item_irrational"><![CDATA[I'd don't want that!!]]></entry>
+	   
+	     <entry id="shadow_walker+str_block_heal_paranoid"><![CDATA[Does it grow darker?]]></entry>
+	  
+	 
+	     <entry id="shadow_walker+str_block_heal_masochistic"><![CDATA[I should bleed to atone.]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_heal_depressed"><![CDATA[No, let the shadow take me.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_heal_irrational"><![CDATA[Darkest insists.]]></entry>
+	 
+	     <entry id="shadow_walker+str_block_buff_paranoid"><![CDATA[You don't know me at all yet, do you?]]></entry>
+	  
+	     <entry id="shadow_walker+str_block_buff_masochist"><![CDATA[I am willing to perish.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_depressed"><![CDATA[Don't try to protect me.]]></entry>
+	    
+	     <entry id="shadow_walker+str_block_buff_irrational"><![CDATA[Save it for another.]]></entry>
+		 
+	     <entry id="shadow_walker+str_monster_attack_unholy_smite"><![CDATA[What do you want from us?]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_judgement"><![CDATA[Do not judge me!]]></entry>
+	     <entry id="shadow_walker+str_monster_attack_unholy_curse"><![CDATA[No, look away.]]></entry>
+	     <entry id="shadow_walker+str_bark_hobby"><![CDATA[Just one tiny drop of venom here ...]]></entry>
+		
+	</language>
+
+</root>

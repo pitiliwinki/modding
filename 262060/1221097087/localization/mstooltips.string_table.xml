@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>	  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Always Crit vs. {colour_start|mark}Marked{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Armor Piercing]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Hits Position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Self: {colour_start|stress}Stress{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight duration when applied]]></entry>	  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>    
+    <entry id="skill_performer_hp_max"><![CDATA[Valid below %d%% HP]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marked{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marked{colour_end} / Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>  
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Disorienting!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...my footing!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[What...I...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Can't hold my balance!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[My feet are bedeviled!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[My legs resist my will!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>		
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>	
+
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[On Attack Miss:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[On Monster Kill:]]></entry>	
+	
+  </language>
+
+  <language id="japanese">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s %s インベントリーになくなったら]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[抗毒素]]></entry>	
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[松明]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Always Crit vs. {colour_start|mark}Marked{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Armor Piercing]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Hits Position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Self: {colour_start|stress}Stress{colour_end} +4]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight duration when applied]]></entry>		 
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>  
+    <entry id="skill_performer_hp_max"><![CDATA[Valid below %d%% HP]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marked{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marked{colour_end} / Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>  
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[方向がわからない！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[…足場が！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[何…自分は…]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[立っていられない！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[足が取り憑かれている！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[足が思い通りに動かない！]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[シャッフル（%d rds）]]></entry> 
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>		
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[공격 시:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[공격 적중 시:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[공격 빗나갈 시:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[괴물 처치:]]></entry>	
+  </language>  
+  
+  <language id="koreana">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s ("%s" 물품을 소지하고 있지 않을 때)]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[해독제]]></entry>	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[적용 시 재생 지속시간 +%d%%]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[상시 치명타 ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}반격{colour_end}: 방어 관통]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[1열 + 3열 타격]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[자신에게: {colour_start|stress}스트레스{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[적용 시 출혈 지속시간 +%d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[적용 시 중독 지속시간 +%d%%]]></entry>	  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[보호하고 있을 때 %s]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[남은 체력이 %d%% 이하일 시]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}표식 찍힘{colour_end}
+{colour_start|mark}표식{colour_end} 제거]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}표식 찍힘{colour_end} / {colour_start|mark}표식{colour_end} 제거]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[{colour_start|bleed}출혈{colour_end} 치료]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}공포{colour_end} 제거]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[혼란스러워!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[…어지러워!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[내가… 무엇을…]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[균형을 잡을 수가 없어!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[발이 떨어지지 않아!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[내 다리가 말을 듣지 않아!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[섞임 (%d차례)]]></entry>  
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[적용 시 출혈 수량 +%d%%]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[적용 시 출혈 지속시간 +%d%%]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[{colour_start|riposte}반격{colour_end}될 수 없음]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s (대상 체력이 {?percent1}%d%%보다 낮을 때)]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s ("%s"이 아닌 상대)]]></entry>		
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[공격했을 때]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[명중했을 때]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[빗나갔을 때]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[괴물을 처치하면]]></entry>	
+</language>
+
+  <language id="koreanb">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s ("%s" 물품을 소지하고 있지 않을 때)]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[해독제]]></entry>	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[적용 시 재생 지속시간 +%d%%]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[상시 치명타 ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}반격{colour_end}: 방어 관통]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[1열 + 3열 타격]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[자신에게: {colour_start|stress}스트레스{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[적용 시 출혈 지속시간 +%d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[적용 시 중독 지속시간 +%d%%]]></entry>	  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[보호하고 있을 때 %s]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[남은 체력이 %d%% 이하일 시]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}표식 찍힘{colour_end}
+{colour_start|mark}표식{colour_end} 제거]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}표식 찍힘{colour_end} / {colour_start|mark}표식{colour_end} 제거]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[{colour_start|bleed}출혈{colour_end} 치료]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}공포{colour_end} 제거]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[혼란스러워!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[…어지러워!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[내가… 무엇을…]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[균형을 잡을 수가 없어!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[발이 떨어지지 않아!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[내 다리가 말을 듣지 않아!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[섞임 (%d차례)]]></entry>  
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[적용 시 출혈 수량 +%d%%]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[적용 시 출혈 지속시간 +%d%%]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[{colour_start|riposte}반격{colour_end}될 수 없음]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s (대상 체력이 {?percent1}%d%%보다 낮을 때)]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s ("%s"이 아닌 상대)]]></entry>		
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[공격했을 때]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[명중했을 때]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[빗나갔을 때]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[괴물을 처치하면]]></entry>		
+</language>
+
+  <language id="tchinese">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s if %s not in inventory]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>	
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Always Crit vs. {colour_start|mark}Marked{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Armor Piercing]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Hits Position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Self: {colour_start|stress}Stress{colour_end} +4]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Blight duration when applied]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[守护时%s]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[生命值低于%d%%有效]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}标记{{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}标记{{colour_end} / Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[治愈{colour_start|bleed}流血{colour_end}]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[我失去方向感了！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[……我站不稳！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[我……什么……]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[难以保持平衡！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[我的脚中了魔咒！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[我的双腿不听使唤！]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[行动乱位(%d回合)]]></entry>  
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>	
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[攻击：]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[攻击命中：]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[攻击未中：]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[击杀怪物：]]></entry>	
+  </language>
+
+  <language id="schinese">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s (背包沒有%s時)]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[抗毒血清]]></entry>  
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[火把]]></entry>
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% 治療持續回合]]></entry>  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[必定暴擊 (對{colour_start|mark}標記{colour_end})]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}反擊{colour_end}: 穿甲]]></entry>    
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[攻擊位置 1+3]]></entry> 
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[自身: {colour_start|stress}壓力{colour_end} +4]]></entry>   
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%%出血持續回合]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%%毒蝕持續回合]]></entry>     
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s (守護時)]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[生命值低於%d%%時可用]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}標記{colour_end}
+清除目標{colour_start|mark}標記{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}標記{colour_end} / 清除目標{colour_start|mark}標記{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[治癒{colour_start|bleed}出血{colour_end}]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐懼{colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[我失去方向感了！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[……我站不穩腳！]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[我……什麼……]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[保持不了平衡！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[我的腳中了魔咒！]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[我的腿不聽使喚！]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[擾亂 (%d回合)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%%出血傷害]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%%出血持續回合]]></entry>
+ 
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[無法{colour_start|riposte}反擊{colour_end}]]></entry>   
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s (目標生命低於{?percent1}%d%%時)]]></entry>   
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s (對非%s)]]></entry>      
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[攻擊時:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[命中時:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[未命中時:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[擊殺時:]]></entry> 	
+  </language>
+
+  <language id="brazilian">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s se %s não estiver no inventário]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antiveneno]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Tocha]]></entry>		
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% de Duração de Restoração quando aplicado]]></entry>	  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Sempre causa Crit vs. {colour_start|mark}Marcado{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Revide{colour_end}: Perfuração de Armadura]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Acerta Posição 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Em si: {colour_start|stress}Estresse{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% de Duração de Sangramento quando aplicado]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% de Duração da Peste quando aplicado]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s enquanto está em guarda]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Válido abaixo de %d%% de PV]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marcado{colour_end}
+Consumir {colour_start|mark}Marca{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marcado{colour_end} / Consumir {colour_start|mark}Marca{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Curar {colour_start|bleed}sangramento{colour_end}]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Remover {colour_start|stress}Horror {colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Estonteante!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[... meu equilíbrio!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[O que... Eu...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Não consigo manter o equilíbrio!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Meus pés estão endiabrados!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Minhas pernas resistem à minha vontade!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Embaralhar (%d rodadas)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% de Quantia de Sangramento quando aplicada]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% de Duração de Sangramento quando aplicada]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Não pode ser {colour_start|riposte}Revidado{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s se o PV do alvo for abaixo de {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs não %s]]></entry>	
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[Ao atacar:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Ao acertar o golpe:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Ao errar o golpe:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Ao matar um monstro:]]></entry>	
+  </language>
+
+  <language id="czech">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s pokud %s není v Inventáři]]></entry>  
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Protijed]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Louč]]></entry>		
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Vždy kritický zásah vs. {colour_start|mark}Označení{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Protiútok{colour_end}: Prorážení zbroje]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Útočí na pozici 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Sám hrdina: {colour_start|stress}Stres{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Doba krvácení když použito]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% k době trvání sněti při použití]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s při hlídání]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Platné pod %d%% ZDR]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Označení{colour_end}
+{colour_start|mark}Značka {colour_end}strávení]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Označení{colour_end} / {colour_start|mark}Značka {colour_end}strávení]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Vyléčení {colour_start|bleed}krvácení{colour_end}]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Odstranit {colour_start|stress}hrůzu{colour_end}]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Dezorientuje mě to!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...moje nohy!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Co... Já...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Neudržím rovnováhu!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Zamotali se mi nohy!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Nohy se protiví mé vůli!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Zamíchání (%d kol)]]></entry>	  
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>		
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[Při útoku:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Při útočném zásahu:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Při nepovedeném útoku:]]></entry>	
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Při zabití nestvůry:]]></entry>	
+  </language>
+
+  <language id="french">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s si %s n'est pas dans l'inventaire]]></entry>  
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidote]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Torche]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Toujours critique vs. {colour_start|mark}Marqué{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposte{colour_end}: Perçage d'armure]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Touche les position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Soi-même : {colour_start|stress}Stress{colour_end} +4]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% durée de Saignement]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[Durée d'infection +%d%% quand appliqué]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s en protection]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Valide en-dessous de %d%% PV]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marqué{colour_end}
+Retire la {colour_start|mark}Marque{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marqué{colour_end} / Retire la {colour_start|mark}Marque{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Soigne {colour_start|bleed}saignement{colour_end}]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Soigne {colour_start|stress}l'Horreur{colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Déroutant !]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...mon équilibre !]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Quoi... Je...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Je perds l'équilibre !]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Mes pieds s'embrouillent !]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Mes jambes résistent à ma volonté !]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Mélanger (%d trs)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% montant de Saignements]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% durée de Saignements]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Ne peut pas être {colour_start|riposte}Riposté{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s si PV de cible en dessous de {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs autre que %s]]></entry>	
+
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[Lors d'une attaque :]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Quand attaque touche :]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Quand attaque rate :]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Quand monstre tué :]]></entry>	
+	
+  </language>
+
+  <language id="german">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s Wenn %s nicht im Inventar]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Gegengift]]></entry>
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Fackel]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>			  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Always Crit vs. {colour_start|mark}Gezeichnet{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Gegenschlag{colour_end}: Rüstung durchdringen]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Hits Position 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Selbst: {colour_start|stress}Stressschaden {colour_end}+4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% Gifthauch-Dauer bei Anwendung]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s beim Schützen]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Gilt bei LP unter %d %%]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Gezeichnet{colour_end}
+Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Gezeichnet{colour_end} / Consume {colour_start|mark}Mark{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[{colour_start|bleed}Bluten{colour_end} heilen]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[entfernt {colour_start|stress}Grauen{colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Verwirrend!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[ ... Ich rutsche aus!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Was ... ich ...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Ich kann mein Gleichgewicht nicht halten!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Meine Füße sind verhext!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Meine Beine verwehren mir den Dienst!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Umstellen (%d Rdn)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>
+
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[Bei Angriff:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Bei Angriff Treffer:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Bei Angriff verfehlt:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Bei Monsterkill:]]></entry>
+	
+  </language>
+
+  <language id="polish">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s jeśli %s nie w ekwipunku]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Serum]]></entry>	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Pochodnia]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Zawsze KRYT kontra {colour_start|mark}Naznaczony{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Riposta{colour_end}: Penetracja pancerza]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Uderza pozycje 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Na siebie: {colour_start|stress}Stres{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Czas krwawienia gdy użyto]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% czas trwania zarazy po jej wystąpieniu]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s podczas stróżowania]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Aktywowane gdy PZ poniżej %d%%]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Naznaczony{colour_end}
+Zużycie {colour_start|mark}znaku{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Naznaczony{colour_end}/Zużycie {colour_start|mark}znaku{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Ulecz {colour_start|bleed}krwawienie{colour_end}]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Usuwa {colour_start|stress}Przerażenie {colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Dezorientacja!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...błądzę!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Cóż... to...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Nie mogę utrzymać równowagi!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Stopy mi się plączą!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Nogi odmawiają mi posłuszeństwa!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Wymieszanie (%d rnd.)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Ilość krwawienia kiedy stosowane]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Czas krwawienia kiedy stosowane]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Nie może być {colour_start|riposte}Riposta{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s jeśli PŻ poniżej {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs nie %s]]></entry>		
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[W ataku:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Trafienie w ataku:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Chybiony atak:]]></entry>
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Zabicie potwora:]]></entry>	
+  </language>
+
+  <language id="russian">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s Если %s не в инвентаре]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Противоядие]]></entry>	
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Факел]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Крит гарантирован пр. {colour_start|mark}Отметка{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Парирование{colour_end}: Пробивание брони]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Поражает позиции 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Герой: {colour_start|stress}Стресс{colour_end} +4]]></entry>		
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Длительность кровотока при нанесении]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% длительность действия яда при применении]]></entry>		  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s при охране]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Действует, если осталось менее %d%% ОЗ]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Отметка{colour_end}
+Поглощает {colour_start|mark}Метку{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Отметка{colour_end} / Поглощает {colour_start|mark}Метку{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Вылечить {colour_start|bleed}кровотечение{colour_end}]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Вылечить {colour_start|stress}ужас{colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Я путаюсь в направлениях!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[...Я еле стою на ногах!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Что со мной?..]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Я теряю равновесие!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Мои ноги словно заколдованные!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Мои ноги меня не слушаются!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Перемешать (%d раундов)]]></entry>  
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Количество кровотечения при наложении]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Длительность кровотечения при наложении]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Не может {colour_start|riposte}парирование{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s если у цели ЗДОР меньше {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s против не %s]]></entry>	
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[При атаке:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[При успешной атаке:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[При промахе при атаке:]]></entry>	
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[При убийстве монстра:]]></entry>	
+  </language>
+
+  <language id="spanish">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s si %s no está en el inventario]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antídoto]]></entry>	
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Antorcha]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restaura la duración cuando se aplica]]></entry>		  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Siempre crítico contra {colour_start|mark}señalado{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Estocada{colour_end}: perforar armadura]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Golpea las posiciones 1 y 3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Héroe: {colour_start|stress}esfuerzo{colour_end} +4]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% duración del sangrado cuando es aplicado]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% de duración de la infección al aplicarse]]></entry>	 
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s al defender]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Válido si los PS están por debajo de %d%%]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Señalado{colour_end}
+Consume {colour_start|mark}marca{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Señalado{colour_end} / Consume {colour_start|mark}marca{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Curar {colour_start|bleed}hemorragia{colour_end}]]></entry> 
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Eliminar {colour_start|stress}horror{colour_end}]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[¡Desorientación!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[¡Mis pies!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Pero... ¿qué...?]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[¡No puedo mantener el equilibrio!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[¡Mis pies están endemoniados!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[¡Mis piernas se resisten a obedecer mi voluntad!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Mezclar (%d rondas)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% cantidad de hemorragia cuando se aplica]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% duración de hemorragia cuando se aplica]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Ignora las {colour_start|riposte}estocadas{colour_end}]]></entry>	
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s si el objetivo tiene los PS por debajo del {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s contra no %s]]></entry>		
+
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[Al atacar:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Al impactar un ataque:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Al fallar un ataque:]]></entry>	
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[Al matar monstruos:]]></entry>
+	
+  </language>
+
+  <language id="italian">
+    <entry id="buff_rule_tooltip_has_item_id_false"><![CDATA[%s se %s non presente nell'inventario]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidoto]]></entry>	
+    <entry id="buff_rule_data_tooltip_torch"><![CDATA[Torcia]]></entry>	
+    <entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% Restoration duration when applied]]></entry>	  
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_trespass"><![CDATA[Colpo Critico sempre contro {colour_start|mark}Marchiato{colour_end}]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_sisters_bramble"><![CDATA[{colour_start|riposte}Risposta{colour_end}: Perforazione armatura]]></entry>		
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip1"><![CDATA[Colpisce posizioni 1+3]]></entry>	
+    <entry id="buff_stat_tooltip_upgrade_discount_crimson_dance_tooltip2"><![CDATA[Se stessi: {colour_start|stress}Stress{colour_end} +4]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% durata di Dissanguinamento quando applicato]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[+%d%% durata Morbo quando applicato]]></entry>	  
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s durante la difesa]]></entry>
+    <entry id="skill_performer_hp_max"><![CDATA[Attiva con PF inferiori a %d%%]]></entry>
+    <entry id="buff_rule_data_tooltip_seraphtooltip"><![CDATA[{colour_start|mark}Marchiato{colour_end}
+Consuma {colour_start|mark}Marchio{colour_end}]]></entry>
+    <entry id="buff_rule_data_tooltip_vengeancetooltip"><![CDATA[{colour_start|mark}Marchiato{colour_end} / Consuma {colour_start|mark}Marchio{colour_end}]]></entry>
+    <entry id="effect_tooltip_cure_bleed"><![CDATA[Cura {colour_start|bleed}Dissanguamento{colour_end}]]></entry>
+    <entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}Orrore {colour_end}Chiaro]]></entry>  
+    <entry id="str_bark_shuffled"><![CDATA[Disorientante!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[... i miei piedi!]]></entry>
+    <entry id="str_bark_shuffled"><![CDATA[Cosa... io...]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Non riesco a mantenere l'equilibrio!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[I miei piedi mi tormentano!]]></entry>
+    <entry id="str_bark_shuffledot"><![CDATA[Le gambe non rispondono!]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Rimescola (%d turni)]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% Bleed Amount when applied]]></entry>	
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[+%d%% Bleed duration when applied]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_cannot_be_riposted"><![CDATA[Cannot be {colour_start|riposte}Riposted{colour_end}]]></entry>		
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if target HP below {?percent1}%d%%]]></entry>	
+    <entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[%s vs not %s]]></entry>	
+    <entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[In attacco:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[Con attacco a segno:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_miss"><![CDATA[Con attacco non riuscito:]]></entry>	
+    <entry id="trinket_kill_performer_additional_effects"><![CDATA[All'uccisione di un mostro:]]></entry>	
+  </language>
+
+</root>
+

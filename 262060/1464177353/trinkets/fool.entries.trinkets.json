@@ -1,0 +1,149 @@
+{
+   "entries":
+   [
+      {
+         "id" : "peter_pan",
+         "buffs" : 
+         [
+            "PeterPan_StressDone",
+			"PeterPan_BlightAmount"
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cerberus",
+         "buffs" : 
+         [
+            "Cerberus_BlightChance",
+			"Cerberus_StunChance",
+			"Cerberus_MoveChance",
+			"Cerberus_BlightRes",
+			"Cerberus_StunRes",
+			"Cerberus_MoveRes"
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+         "rarity" : "fool",
+		 "visual_rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "broken_lyre",
+         "buffs" : 
+         [
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+         "rarity" : "fool",
+		 "visual_rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Lyre CRT Buff",
+			 "Lyre ACC Debuff",
+			 "Lyre Self Damage"
+         ],
+		 "kill_performer_additional_effects":
+         [
+			 "Fool Self Stress"
+         ]
+      },
+      {
+         "id" : "celtic_knot",
+         "buffs" : 
+         [
+            "CelticKnot_BlightAmount"
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+         "rarity" : "fool",
+		 "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+             "Celtic Knot Transfer"
+         ]
+      },
+	  {
+         "id" : "obolus",
+         "buffs" : 
+         [
+			"Obolus_BlightChance",
+			"Obolus_StressRec_75",
+			"Obolus_StressRec_50"
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+         "set_id" : "cc_fool",
+		 "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	  {
+         "id" : "dead_mouth",
+         "buffs" : 
+         [
+            "DeadMouth_DMGL",
+			"DeadMouth_DMGH"
+         ],
+         "hero_class_requirements":
+         [
+            "fool"
+         ],
+		 "set_id" : "cc_fool",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "attack_skill_additional_effects":
+         [
+             "Dead Mouth Corpse Clear"
+         ]
+      },
+	  {
+         "id" : "persephone",
+         "buffs" : 
+         [
+            "Persephone_BlightChance"
+         ],
+         "hero_class_requirements":
+         [
+			"fool"
+         ],
+         "rarity" : "comet",
+         "shard" : 50,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Persephone Heal"
+         ],
+		 "friendly_skill_additional_effects":
+         [
+             "Persephone Heal"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,345 @@
+{
+	"configuration" : 
+	{
+        "class_specific_number_of_classes_threshold" :  4
+	},
+
+	"skills" :
+	[
+
+
+		{
+			"id" : "first_aid",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "health_heal_max_health_percent",
+                    "sub_type" : "",
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.15 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				}
+			],
+			"hero_classes" : ["ronin"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+	
+
+
+		{
+
+			"id" : "encourage",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  10
+				}							
+			],
+			"hero_classes" : ["ronin"  ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+
+		{
+			"id" : "pep_talk",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "individual",
+					"requirements" : ["religious"],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.25
+				}
+			],
+			"hero_classes" : ["ronin" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+		{
+
+			"id" : "meditate",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  15
+				},
+                { 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",
+					"amount" :  -0.20
+				}
+				
+								
+			],
+			"hero_classes" : ["ronin" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+
+		{
+
+			"id" : "sharpen_blade",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 2,
+			"effects" : 
+			[
+				
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuffMelee",
+					"amount" :  0.15
+				},
+                { 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuffMelee",
+					"amount" :  0.15
+				},
+                { 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingSPDBuffParty",
+					"amount" :  3
+				}
+
+			],
+			"hero_classes" : ["ronin" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+
+			]
+		},
+
+		{		 
+			"id" : "kendo_pratice",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" :
+			[
+			  	{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingACCBuffMelee",	
+					"amount" :  0.15
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",					
+					"amount" :  0.05
+				},
+                { 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingACCBuffMelee",				
+					"amount" :  0.10
+				},
+                 { 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",					
+					"amount" :  0.05
+				}
+			],
+
+			"hero_classes" : ["ronin" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		},
+
+		{
+
+			"id" : "way_of_bushido",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" : 
+			[{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDEFBuff",					
+					"amount" :  -0.20
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",					
+					"amount" :  4
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGLowBuffMelee",					
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingDMGHighBuffMelee",					
+					"amount" :  0.2
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingACCBuffMelee",					
+					"amount" :  0.1
+				}
+			],
+			"hero_classes" : ["ronin" ],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		}
+
+
+
+	] 
+}

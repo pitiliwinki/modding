@@ -1,0 +1,157 @@
+{
+   "entries":
+   [
+      {
+         "id" : "grubby_handkerchief",
+         "buffs" : 
+         [
+		    "TRINKET_DISEASERESIST_B1",
+			"TRINKET_BLIGHTRESIST_B1"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "puzzle_box",
+         "buffs" : 
+         [
+			"TRINKET_SCOUTING_B2",
+			"puzzle_box_monster_surprise",
+			"TRINKET_PARTYSURPRISE_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "of_purity_ring",
+         "buffs" : 
+         [	 
+			"knowledge_ring_bonus_xp",
+			"lib_less_stress_when_gaurded",
+			"TRINKET_RESOLVECHECK_B3",
+			"knowledge_ring_deathblow_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "fingerless_gloves",
+         "buffs" : 
+         [
+			"TRINKET_STUNSKILL_B2",
+			"fingerless_crit",
+			"fingerless_acc",
+			"fingerless_dodge_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+		 "set_id" : "librarian_trinket_furious_facts_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "brave_potion",
+         "buffs" : 
+         [
+			"bravery_dmgrec",
+			"fingerless_crit",
+			"fingerless_dodge_debuff",
+			"TRINKET_STRESSDMG_B1"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+		 "set_id" : "librarian_trinket_furious_facts_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "silver_tongue",
+         "buffs" : 
+         [
+			"TRINKET_RESOLVECHECK_B3",
+			"lib_silver_tongue_crit",
+			"TRINKET_DISEASERESIST_D3"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+		 "set_id" : "librarian_trinket_cozy_and_confident_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "old_shawl",
+         "buffs" : 
+         [
+			"TRINKET_DEF_B4",
+			"lib_old_shawl_deathblow",
+			"TRINKET_SPD_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "librarian"
+         ],
+		 "set_id" : "librarian_trinket_cozy_and_confident_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	  {
+        "id" : "moonlight_sonata",
+        "buffs" : 
+        [
+           "Sonata_Tooltip",
+		   "Sonata_Restoration",
+		   "Sonata_StressHealDone",
+		   "Sonata_Clingy_StressDone",
+		   "Sonata_Chant_TorchDecrease"
+        ],
+        "hero_class_requirements":
+        [
+           "librarian"
+        ],
+        "rarity" : "comet",
+        "shard" : 200,
+        "limit" : 1,
+        "origin_dungeon" : "",
+		"attack_skill_additional_effects":
+         [
+             "Sonata Torch Decrease"
+         ],
+		"friendly_skill_additional_effects":
+         [
+             "Sonata Torch Decrease"
+         ]
+     }
+   ]
+}
