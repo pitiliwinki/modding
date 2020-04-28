@@ -1,0 +1,56 @@
+resistances: .stun 45% .poison 50% .bleed 45% .disease 75% .move 55% .debuff 35% .death_blow 67% .trap 40%
+weapon: .name "fanatic_weapon_0" .atk 0% .dmg 5 10 .crit 5% .spd 5
+weapon: .name "fanatic_weapon_1" .atk 0% .dmg 6 12 .crit 5.5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "fanatic_weapon_2" .atk 0% .dmg 7 13 .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "fanatic_weapon_3" .atk 0% .dmg 7 15 .crit 6.5% .spd 6 .upgradeRequirementCode 2
+weapon: .name "fanatic_weapon_4" .atk 0% .dmg 8 16 .crit 7% .spd 7 .upgradeRequirementCode 3
+armour: .name "fanatic_armour_0" .def 5% .prot 0.15 .hp 30 .spd 0
+armour: .name "fanatic_armour_1" .def 10% .prot 0.15 .hp 35 .spd 0 .upgradeRequirementCode 0
+armour: .name "fanatic_armour_2" .def 15% .prot 0.15 .hp 40 .spd 0 .upgradeRequirementCode 1
+armour: .name "fanatic_armour_3" .def 20% .prot 0.15 .hp 45 .spd 0 .upgradeRequirementCode 2
+armour: .name "fanatic_armour_4" .def 25% .prot 0.15 .hp 50 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "beat_down" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Weak Stun 1" .generation_guaranteed true
+combat_skill: .id "beat_down" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Weak Stun 2"
+combat_skill: .id "beat_down" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Weak Stun 3"
+combat_skill: .id "beat_down" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Weak Stun 4"
+combat_skill: .id "beat_down" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Weak Stun 5"
+combat_skill: .id "brand_tainted" .level 0 .type "melee" .atk 95% .dmg -50% .crit 1% .launch 321 .target 123 .is_crit_valid True  .effect "BH Mark Target" "BH Mark Debuff 1"
+combat_skill: .id "brand_tainted" .level 1 .type "melee" .atk 100% .dmg -50% .crit 1% .launch 321 .target 123 .is_crit_valid True  .effect "BH Mark Target" "BH Mark Debuff 2"
+combat_skill: .id "brand_tainted" .level 2 .type "melee" .atk 105% .dmg -50% .crit 2% .launch 321 .target 123 .is_crit_valid True  .effect "BH Mark Target" "BH Mark Debuff 3"
+combat_skill: .id "brand_tainted" .level 3 .type "melee" .atk 110% .dmg -50% .crit 3% .launch 321 .target 123 .is_crit_valid True  .effect "BH Mark Target" "BH Mark Debuff 4"
+combat_skill: .id "brand_tainted" .level 4 .type "melee" .atk 115% .dmg -50% .crit 3% .launch 321 .target 123 .is_crit_valid True  .effect "BH Mark Target" "BH Mark Debuff 5"
+combat_skill: .id "holy_stake" .level 0 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Bleed 1" "Stun Killer 1"
+combat_skill: .id "holy_stake" .level 1 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Bleed 2" "Stun Killer 2"
+combat_skill: .id "holy_stake" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Bleed 3" "Stun Killer 3"
+combat_skill: .id "holy_stake" .level 3 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Bleed 4" "Stun Killer 4"
+combat_skill: .id "holy_stake" .level 4 .type "melee" .atk 105% .dmg 0% .crit 5% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Bleed 5" "Stun Killer 5"
+combat_skill: .id "righteous_condemnation" .level 0 .type "ranged" .atk 85% .dmg -80% .crit 3% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Antiq Distract 1" "Mark Self"
+combat_skill: .id "righteous_condemnation" .level 1 .type "ranged" .atk 90% .dmg -80% .crit 4% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Antiq Distract 2" "Mark Self"
+combat_skill: .id "righteous_condemnation" .level 2 .type "ranged" .atk 95% .dmg -80% .crit 5% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Antiq Distract 3" "Mark Self"
+combat_skill: .id "righteous_condemnation" .level 3 .type "ranged" .atk 100% .dmg -80% .crit 6% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Antiq Distract 4" "Mark Self"
+combat_skill: .id "righteous_condemnation" .level 4 .type "ranged" .atk 105% .dmg -80% .crit 7% .launch 4321 .target ~1234 .is_crit_valid True  .effect "Antiq Distract 5" "Mark Self"
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+combat_skill: .id "sentence_rendered" .level 0 .type "ranged" .atk 95% .dmg -90% .crit 1% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Stun 1" "Disrupt 1" "BH Mark Target"
+combat_skill: .id "sentence_rendered" .level 1 .type "ranged" .atk 100% .dmg -90% .crit 2% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Stun 2" "Disrupt 2" "BH Mark Target"
+combat_skill: .id "sentence_rendered" .level 2 .type "ranged" .atk 105% .dmg -90% .crit 3% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Stun 3" "Disrupt 3" "BH Mark Target"
+combat_skill: .id "sentence_rendered" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 4% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Stun 4" "Disrupt 4" "BH Mark Target"
+combat_skill: .id "sentence_rendered" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 5% .launch 321 .target 123 .is_crit_valid True  .effect "Strong Stun 5" "Disrupt 5" "BH Mark Target"
+combat_skill: .id "crush_tainted" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 6% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "crush_tainted" .level 1 .type "ranged" .atk 90% .dmg 0% .crit 7% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "crush_tainted" .level 2 .type "ranged" .atk 95% .dmg 0% .crit 8% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "crush_tainted" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 9% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "crush_tainted" .level 4 .type "ranged" .atk 105% .dmg 0% .crit 10% .launch 432 .target 234 .is_crit_valid True  .effect "Highwayman Pistol Dmg Marked"
+combat_skill: .id "zeal_buff" .level 0 .heal 1 1 .launch 1234 .target @~1234 .is_crit_valid True  .effect "MaggotStress" "PD Vapours Buff 1" "FlareClear 1"
+combat_skill: .id "zeal_buff" .level 1 .heal 1 2 .launch 1234 .target @~1234 .is_crit_valid True  .effect "MaggotStress" "PD Vapours Buff 2" "FlareClear 1"
+combat_skill: .id "zeal_buff" .level 2 .heal 1 3 .launch 1234 .target @~1234 .is_crit_valid True  .effect "MaggotStress" "PD Vapours Buff 3" "FlareClear 1"
+combat_skill: .id "zeal_buff" .level 3 .heal 2 4 .launch 1234 .target @~1234 .is_crit_valid True  .effect "MaggotStress" "PD Vapours Buff 4" "FlareClear 1"
+combat_skill: .id "zeal_buff" .level 4 .heal 2 5 .launch 1234 .target @~1234 .is_crit_valid True  .effect "MaggotStress" "PD Vapours Buff 5" "FlareClear 1"
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True 
+tag: .id "heavy"
+tag: .id "religious"
+tag: .id "altar_of_light"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 1337
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

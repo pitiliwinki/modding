@@ -1,0 +1,156 @@
+// Seer Effects
+
+// Stun Resistance Increase
+
+effect: .name "seer_stun_buff_1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids SEER_STUNRESIST50 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_stun_buff_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids SEER_STUNRESIST50 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_stun_buff_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids SEER_STUNRESIST50 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_stun_buff_4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids SEER_STUNRESIST50 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_stun_buff_5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids SEER_STUNRESIST50 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+
+// Self Stun
+
+effect: .name "seer_self_stun_1" .target "performer" .curio_result_type "negative" .chance 125% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_self_stun_2" .target "performer" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_self_stun_3" .target "performer" .curio_result_type "negative" .chance 175% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_self_stun_4" .target "performer" .curio_result_type "negative" .chance 200% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "seer_self_stun_5" .target "performer" .curio_result_type "negative" .chance 225% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+
+//Touch Of Death Effects
+
+effect: .name "tod_bleed_damage_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 100%	.damage_high_multiply 100%	.on_hit true .on_miss false
+effect: .name "tod_bleed_damage_2"	.target "performer" .chance 110%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 150%	.damage_high_multiply 150%	.on_hit true .on_miss false
+effect: .name "tod_bleed_damage_3"	.target "performer" .chance 120%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200%	.on_hit true .on_miss false
+effect: .name "tod_bleed_damage_4"	.target "performer" .chance 130%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 250%	.damage_high_multiply 250%	.on_hit true .on_miss false
+effect: .name "tod_bleed_damage_5"	.target "performer" .chance 140%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 300%	.damage_high_multiply 300%	.on_hit true .on_miss false
+
+effect: .name "tod_plague_damage_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 100%	.damage_high_multiply 100%	.on_hit true .on_miss false
+effect: .name "tod_plague_damage_2"	.target "performer" .chance 110%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 150%	.damage_high_multiply 150%	.on_hit true .on_miss false
+effect: .name "tod_plague_damage_3"	.target "performer" .chance 120%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200%	.on_hit true .on_miss false
+effect: .name "tod_plague_damage_4"	.target "performer" .chance 130%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 250%	.damage_high_multiply 250%	.on_hit true .on_miss false
+effect: .name "tod_plague_damage_5"	.target "performer" .chance 140%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 300%	.damage_high_multiply 300%	.on_hit true .on_miss false
+
+effect: .name "tod_stunned_damage_1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 100%	.damage_high_multiply 100%	.on_hit true .on_miss false
+effect: .name "tod_stunned_damage_2" .target "performer" .chance 110%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 150%	.damage_high_multiply 150%	.on_hit true .on_miss false
+effect: .name "tod_stunned_damage_3" .target "performer" .chance 120%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200%	.on_hit true .on_miss false
+effect: .name "tod_stunned_damage_4" .target "performer" .chance 130%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 250%	.damage_high_multiply 250%	.on_hit true .on_miss false
+effect: .name "tod_stunned_damage_5" .target "performer" .chance 140%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1 .damage_low_multiply 300%	.damage_high_multiply 300%	.on_hit true .on_miss false
+
+effect: .name "tod_stealth" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+
+effect: .name "tod_buff_stressheal_buff_1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_STRESS_HEAL_BUFF_1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_stressheal_buff_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_STRESS_HEAL_BUFF_2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_stressheal_buff_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_STRESS_HEAL_BUFF_3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_stressheal_buff_4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_STRESS_HEAL_BUFF_4 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_stressheal_buff_5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_STRESS_HEAL_BUFF_5 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "tod_buff_hpheal_buff_1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_HEAL_BUFF_1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_hpheal_buff_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_HEAL_BUFF_2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_hpheal_buff_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_HEAL_BUFF_3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_hpheal_buff_4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_HEAL_BUFF_4 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "tod_buff_hpheal_buff_5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids TOD_HEAL_BUFF_5 .duration 2 .on_hit true .on_miss false .queue true
+
+
+//Hypnosis Effects
+
+effect: .name "hypno_pull_1" .target "target"  .pull 1 	.chance 90%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_pull_2" .target "target"  .pull 1 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_pull_3" .target "target"  .pull 1 	.chance 110%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_pull_4" .target "target"  .pull 1 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_pull_5" .target "target"  .pull 1 	.chance 130%	.on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "hypno_double_pull_1" .target "target"  .pull 2 	.chance 80%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_double_pull_2" .target "target"  .pull 2 	.chance 90%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_double_pull_3" .target "target"  .pull 2 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_double_pull_4" .target "target"  .pull 2 	.chance 110%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "hypno_double_pull_5" .target "target"  .pull 2 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "hypno_stun_1" .target "target" .curio_result_type "negative" .chance 80% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "hypno_stun_2" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "hypno_stun_3" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "hypno_stun_4" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "hypno_stun_5" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+
+
+//Spectral Blast Effects
+
+effect: .name "specblast_acc_debuff_1" .target "target" .curio_result_type "negative" .chance 80% .buff_ids "SEER_ACC_DBF_1" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_acc_debuff_2" .target "target" .curio_result_type "negative" .chance 90% .buff_ids "SEER_ACC_DBF_2" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_acc_debuff_3" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SEER_ACC_DBF_3" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_acc_debuff_4" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "SEER_ACC_DBF_4" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_acc_debuff_5" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "SEER_ACC_DBF_5" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "specblast_debuff_other_1" .target "target_group_other" .curio_result_type "negative" .chance 50% .buff_ids "SEER_ACC_DBF_1" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_debuff_other_2" .target "target_group_other" .curio_result_type "negative" .chance 55% .buff_ids "SEER_ACC_DBF_2" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_debuff_other_3" .target "target_group_other" .curio_result_type "negative" .chance 60% .buff_ids "SEER_ACC_DBF_3" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_debuff_other_4" .target "target_group_other" .curio_result_type "negative" .chance 65% .buff_ids "SEER_ACC_DBF_4" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "specblast_debuff_other_5" .target "target_group_other" .curio_result_type "negative" .chance 70% .buff_ids "SEER_ACC_DBF_5" .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+//Celestial Renewal Effects
+
+effect: .name "cel_ren_extra_heal_1" .target "target" .curio_result_type "positive" .chance 40% .heal 2 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_2" .target "target" .curio_result_type "positive" .chance 42% .heal 2 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_3" .target "target" .curio_result_type "positive" .chance 45% .heal 3 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_4" .target "target" .curio_result_type "positive" .chance 47% .heal 3 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_5" .target "target" .curio_result_type "positive" .chance 50% .heal 4 .can_crit_heal false .on_hit true .on_miss false .queue true 
+ 
+effect: .name "cel_ren_extra_heal_2_1" .target "target" .curio_result_type "positive" .chance 20% .heal 4 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_2_2" .target "target" .curio_result_type "positive" .chance 22% .heal 5 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_2_3" .target "target" .curio_result_type "positive" .chance 25% .heal 5 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_2_4" .target "target" .curio_result_type "positive" .chance 27% .heal 6 .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "cel_ren_extra_heal_2_5" .target "target" .curio_result_type "positive" .chance 30% .heal 6 .can_crit_heal false .on_hit true .on_miss false .queue true 
+
+//Tranquility Effects
+
+effect: .name "tranq_stress_remove_1" .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_2" .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_3" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_4" .target "target" .curio_result_type "positive" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_5" .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+
+effect: .name "tranq_stress_remove_extra_1" .target "target" .curio_result_type "positive" .chance 15% .healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_extra_2" .target "target" .curio_result_type "positive" .chance 17% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_extra_3" .target "target" .curio_result_type "positive" .chance 20% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_extra_4" .target "target" .curio_result_type "positive" .chance 22% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "tranq_stress_remove_extra_5" .target "target" .curio_result_type "positive" .chance 25% .healstress 6	.on_hit true .on_miss false .queue true
+
+//Ancestral Surge Effects
+effect: .name "anc_hot_1_1" .target "target" .curio_result_type "positive" .chance 40% .dotHpHeal 1 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_1_2" .target "target" .curio_result_type "positive" .chance 42% .dotHpHeal 1 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_1_3" .target "target" .curio_result_type "positive" .chance 45% .dotHpHeal 2 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_1_4" .target "target" .curio_result_type "positive" .chance 47% .dotHpHeal 2 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_1_5" .target "target" .curio_result_type "positive" .chance 50% .dotHpHeal 3 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+
+effect: .name "anc_hot_2_1" .target "target" .curio_result_type "positive" .chance 15% .dotHpHeal 1 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_2_2" .target "target" .curio_result_type "positive" .chance 17% .dotHpHeal 2 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_2_3" .target "target" .curio_result_type "positive" .chance 20% .dotHpHeal 2 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_2_4" .target "target" .curio_result_type "positive" .chance 22% .dotHpHeal 3 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+effect: .name "anc_hot_2_5" .target "target" .curio_result_type "positive" .chance 25% .dotHpHeal 3 .duration 2  .can_crit_heal false .on_hit true .on_miss false .queue true 
+ 
+//Lunar Wrath Effects
+effect: .name "lunar_debuff_1" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids DEF-5  .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_debuff_2" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids DEF-10 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_debuff_3" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids DEF-15 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_debuff_4" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids DEF-20 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_debuff_5" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids DEF-25 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "lunar_buff_1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DMGL10 DMGH10 SEER_LUNAR_WRATH_CRIT_1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_buff_2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DMGL15 DMGH15 SEER_LUNAR_WRATH_CRIT_2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_buff_3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DMGL20 DMGH20 SEER_LUNAR_WRATH_CRIT_3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_buff_4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DMGL25 DMGH25 SEER_LUNAR_WRATH_CRIT_4 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_buff_5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids DMGL30 DMGH30 SEER_LUNAR_WRATH_CRIT_5 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "lunar_reflect_1" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids SEER_LUNAR_WRATH_REFLECT_1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_reflect_2" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids SEER_LUNAR_WRATH_REFLECT_2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_reflect_3" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids SEER_LUNAR_WRATH_REFLECT_3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_reflect_4" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids SEER_LUNAR_WRATH_REFLECT_4 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_reflect_5" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids SEER_LUNAR_WRATH_REFLECT_5 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "lunar_extra_buff_1" .target "target" .curio_result_type "positive" .chance 32% .buff_ids DMGL10 DMGH10 SEER_LUNAR_WRATH_CRIT_1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_extra_buff_2" .target "target" .curio_result_type "positive" .chance 34% .buff_ids DMGL15 DMGH15 SEER_LUNAR_WRATH_CRIT_2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_extra_buff_3" .target "target" .curio_result_type "positive" .chance 36% .buff_ids DMGL20 DMGH20 SEER_LUNAR_WRATH_CRIT_3 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_extra_buff_4" .target "target" .curio_result_type "positive" .chance 38% .buff_ids DMGL25 DMGH25 SEER_LUNAR_WRATH_CRIT_4 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "lunar_extra_buff_5" .target "target" .curio_result_type "positive" .chance 40% .buff_ids DMGL30 DMGH30 SEER_LUNAR_WRATH_CRIT_5 .duration 2 .on_hit true .on_miss false .queue true
+
+//Weapon Effects
+effect: .name "Mass Confusion" .target "target_group" .chance 150% .dotShuffle 1 .duration 2.on_hit true .on_miss false .apply_once true .can_apply_on_death true

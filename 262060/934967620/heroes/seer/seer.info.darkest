@@ -1,0 +1,61 @@
+resistances: .stun 30% .poison 20% .bleed 20% .disease 60% .move 30% .debuff 60% .death_blow 67% .trap 10%
+crit: .effects "on_crit_stresshealdone"
+weapon: .name "seer_weapon_0" .atk 0% .dmg 4 8 .crit 0% .spd 5
+weapon: .name "seer_weapon_1" .atk 0% .dmg 5 9 .crit 0% .spd 5 .upgradeRequirementCode 0
+weapon: .name "seer_weapon_2" .atk 0% .dmg 6 10 .crit 0% .spd 6 .upgradeRequirementCode 1
+weapon: .name "seer_weapon_3" .atk 0% .dmg 7 11 .crit 0% .spd 6 .upgradeRequirementCode 2
+weapon: .name "seer_weapon_4" .atk 0% .dmg 8 12 .crit 0% .spd 7 .upgradeRequirementCode 3
+armour: .name "seer_armour_0" .def 10% .prot 0 .hp 23 .spd 0
+armour: .name "seer_armour_1" .def 15% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "seer_armour_2" .def 20% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "seer_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
+armour: .name "seer_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "death_touch" .level 0 .type "ranged" .atk 105% .dmg -60% .crit 0% .per_battle_limit 2 .launch 1234 .target 1234 .move 2 0 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "tod_bleed_damage_1" "tod_plague_damage_1" "tod_stunned_damage_1" "tod_buff_stressheal_buff_1" "tod_buff_hpheal_buff_1" .generation_guaranteed true
+combat_skill: .id "death_touch" .level 1 .type "ranged" .atk 110% .dmg -60% .crit 0% .per_battle_limit 2 .launch 1234 .target 1234 .move 2 0 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "tod_bleed_damage_2" "tod_plague_damage_2" "tod_stunned_damage_2" "tod_buff_stressheal_buff_2" "tod_buff_hpheal_buff_2"
+combat_skill: .id "death_touch" .level 2 .type "ranged" .atk 115% .dmg -60% .crit 0% .per_battle_limit 2 .launch 1234 .target 1234 .move 2 0 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "tod_bleed_damage_3" "tod_plague_damage_3" "tod_stunned_damage_3" "tod_buff_stressheal_buff_3" "tod_buff_hpheal_buff_3"
+combat_skill: .id "death_touch" .level 3 .type "ranged" .atk 120% .dmg -60% .crit 0% .per_battle_limit 2 .launch 1234 .target 1234 .move 2 0 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "tod_bleed_damage_4" "tod_plague_damage_4" "tod_stunned_damage_4" "tod_buff_stressheal_buff_4" "tod_buff_hpheal_buff_4"
+combat_skill: .id "death_touch" .level 4 .type "ranged" .atk 125% .dmg -60% .crit 0% .per_battle_limit 2 .launch 1234 .target 1234 .move 2 0 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "tod_bleed_damage_5" "tod_plague_damage_5" "tod_stunned_damage_5" "tod_buff_stressheal_buff_5" "tod_buff_hpheal_buff_5"
+combat_skill: .id "hypnosis" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 234 .target 34 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "hypno_pull_1" "hypno_double_pull_1" "hypno_stun_1" "seer_stun_buff_1"
+combat_skill: .id "hypnosis" .level 1 .type "ranged" .atk 100% .dmg -40% .crit 0% .launch 234 .target 34 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "hypno_pull_2" "hypno_double_pull_2" "hypno_stun_2" "seer_stun_buff_2"
+combat_skill: .id "hypnosis" .level 2 .type "ranged" .atk 105% .dmg -30% .crit 0% .launch 234 .target 34 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "hypno_pull_3" "hypno_double_pull_3" "hypno_stun_3" "seer_stun_buff_3"
+combat_skill: .id "hypnosis" .level 3 .type "ranged" .atk 110% .dmg -20% .crit 0% .launch 234 .target 34 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "hypno_pull_4" "hypno_double_pull_4" "hypno_stun_4" "seer_stun_buff_4"
+combat_skill: .id "hypnosis" .level 4 .type "ranged" .atk 115% .dmg -10% .crit 0% .launch 234 .target 34 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "hypno_pull_5" "hypno_double_pull_5" "hypno_stun_5" "seer_stun_buff_5"
+combat_skill: .id "spectral_blast" .level 0 .type "ranged" .atk 80% .dmg -40% .crit 0% .launch 34 .target ~23 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "specblast_acc_debuff_1" "specblast_debuff_other_1" "seer_stun_buff_1" "seer_self_stun_1"
+combat_skill: .id "spectral_blast" .level 1 .type "ranged" .atk 85% .dmg -30% .crit 0% .launch 34 .target ~23 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "specblast_acc_debuff_2" "specblast_debuff_other_2" "seer_stun_buff_2" "seer_self_stun_2"
+combat_skill: .id "spectral_blast" .level 2 .type "ranged" .atk 90% .dmg -20% .crit 0% .launch 34 .target ~23 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "specblast_acc_debuff_3" "specblast_debuff_other_3" "seer_stun_buff_3" "seer_self_stun_3"
+combat_skill: .id "spectral_blast" .level 3 .type "ranged" .atk 95% .dmg -10% .crit 0% .launch 34 .target ~23 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "specblast_acc_debuff_4" "specblast_debuff_other_4" "seer_stun_buff_4" "seer_self_stun_4"
+combat_skill: .id "spectral_blast" .level 4 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 34 .target ~23 .is_crit_valid False .ignore_protection true .ignore_guard true .ignore_stealth true .effect "specblast_acc_debuff_5" "specblast_debuff_other_5" "seer_stun_buff_5" "seer_self_stun_5"
+combat_skill: .id "celestial_renewal" .level 0 .heal 2 4 .can_crit_heal false .launch 43 .target @4321 .is_crit_valid False  .effect "cel_ren_extra_heal_1" "cel_ren_extra_heal_2_1" "seer_stun_buff_1" "seer_self_stun_1" .is_stall_invalidating false
+combat_skill: .id "celestial_renewal" .level 1 .heal 3 5 .can_crit_heal false .launch 43 .target @4321 .is_crit_valid False  .effect "cel_ren_extra_heal_2" "cel_ren_extra_heal_2_2" "seer_stun_buff_2" "seer_self_stun_2" .is_stall_invalidating false
+combat_skill: .id "celestial_renewal" .level 2 .heal 4 6 .can_crit_heal false .launch 43 .target @4321 .is_crit_valid False  .effect "cel_ren_extra_heal_3" "cel_ren_extra_heal_2_3" "seer_stun_buff_3" "seer_self_stun_3" .is_stall_invalidating false
+combat_skill: .id "celestial_renewal" .level 3 .heal 5 7 .can_crit_heal false .launch 43 .target @4321 .is_crit_valid False  .effect "cel_ren_extra_heal_4" "cel_ren_extra_heal_2_4" "seer_stun_buff_4" "seer_self_stun_4" .is_stall_invalidating false
+combat_skill: .id "celestial_renewal" .level 4 .heal 6 8 .can_crit_heal false .launch 43 .target @4321 .is_crit_valid False  .effect "cel_ren_extra_heal_5" "cel_ren_extra_heal_2_5" "seer_stun_buff_5" "seer_self_stun_5" .is_stall_invalidating false
+combat_skill: .id "tranquility" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target @~1234 .is_crit_valid False  .effect "tranq_stress_remove_1" "tranq_stress_remove_extra_1" "seer_stun_buff_1" "seer_self_stun_1" .is_stall_invalidating false
+combat_skill: .id "tranquility" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target @~1234 .is_crit_valid False  .effect "tranq_stress_remove_2" "tranq_stress_remove_extra_2" "seer_stun_buff_2" "seer_self_stun_2" .is_stall_invalidating false
+combat_skill: .id "tranquility" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target @~1234 .is_crit_valid False  .effect "tranq_stress_remove_3" "tranq_stress_remove_extra_3" "seer_stun_buff_3" "seer_self_stun_3" .is_stall_invalidating false
+combat_skill: .id "tranquility" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target @~1234 .is_crit_valid False  .effect "tranq_stress_remove_4" "tranq_stress_remove_extra_4" "seer_stun_buff_4" "seer_self_stun_4" .is_stall_invalidating false
+combat_skill: .id "tranquility" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 43 .target @~1234 .is_crit_valid False  .effect "tranq_stress_remove_5" "tranq_stress_remove_extra_5" "seer_stun_buff_5" "seer_self_stun_5" .is_stall_invalidating false
+combat_skill: .id "ancestral_surge" .level 0 .heal 1 1 .can_crit_heal false .launch 43 .target @~1234 .is_crit_valid False  .effect "anc_hot_1_1" "anc_hot_2_1" "seer_stun_buff_1" "seer_self_stun_1" .is_stall_invalidating false
+combat_skill: .id "ancestral_surge" .level 1 .heal 1 2 .can_crit_heal false .launch 43 .target @~1234 .is_crit_valid False  .effect "anc_hot_1_2" "anc_hot_2_2" "seer_stun_buff_2" "seer_self_stun_2" .is_stall_invalidating false
+combat_skill: .id "ancestral_surge" .level 2 .heal 2 2 .can_crit_heal false .launch 43 .target @~1234 .is_crit_valid False  .effect "anc_hot_1_3" "anc_hot_2_3" "seer_stun_buff_3" "seer_self_stun_3" .is_stall_invalidating false
+combat_skill: .id "ancestral_surge" .level 3 .heal 2 3 .can_crit_heal false .launch 43 .target @~1234 .is_crit_valid False  .effect "anc_hot_1_4" "anc_hot_2_4" "seer_stun_buff_4" "seer_self_stun_4" .is_stall_invalidating false
+combat_skill: .id "ancestral_surge" .level 4 .heal 3 3 .can_crit_heal false .launch 43 .target @~1234 .is_crit_valid False  .effect "anc_hot_1_5" "anc_hot_2_5" "seer_stun_buff_5" "seer_self_stun_5" .is_stall_invalidating false
+combat_skill: .id "lunar_wrath" .level 0 .launch 43 .target @4321 .self_target_valid false  .effect "lunar_buff_1" "lunar_reflect_1" "lunar_extra_buff_1" "lunar_debuff_1" "seer_stun_buff_1" .is_stall_invalidating false
+combat_skill: .id "lunar_wrath" .level 1 .launch 43 .target @4321 .self_target_valid false  .effect "lunar_buff_2" "lunar_reflect_2" "lunar_extra_buff_2" "lunar_debuff_2" "seer_stun_buff_2" .is_stall_invalidating false
+combat_skill: .id "lunar_wrath" .level 2 .launch 43 .target @4321 .self_target_valid false  .effect "lunar_buff_3" "lunar_reflect_3" "lunar_extra_buff_3" "lunar_debuff_3" "seer_stun_buff_3" .is_stall_invalidating false
+combat_skill: .id "lunar_wrath" .level 3 .launch 43 .target @4321 .self_target_valid false  .effect "lunar_buff_4" "lunar_reflect_4" "lunar_extra_buff_4" "lunar_debuff_4" "seer_stun_buff_4" .is_stall_invalidating false
+combat_skill: .id "lunar_wrath" .level 4 .launch 43 .target @4321 .self_target_valid false  .effect "lunar_buff_5" "lunar_reflect_5" "lunar_extra_buff_5" "lunar_debuff_5" "seer_stun_buff_5" .is_stall_invalidating false
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+
+tag: .id "seer"
+tag: .id "non-religious"
+tag: .id "light"
+tag: .id "altar_of_light"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 3
+id_index: .index 663
+incompatible_party_member: .id seer_religion .hero_tag seer
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation:  .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

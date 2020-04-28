@@ -1,0 +1,92 @@
+
+//Bloodclot
+//--------------------------------------------------
+effect: .name "Litmus Bleed 1" .target "target" .curio_result_type "negative" .chance -200%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Bleed 2" .target "target" .curio_result_type "negative" .chance -200%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Bleed 3" .target "target" .curio_result_type "negative" .chance -200%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Bleed 4" .target "target" .curio_result_type "negative" .chance -200%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Bleed 5" .target "target" .curio_result_type "negative" .chance -200%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Litmus Blight 1" .target "target" .curio_result_type "negative" .chance -200%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Blight 2" .target "target" .curio_result_type "negative" .chance -200%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Blight 3" .target "target" .curio_result_type "negative" .chance -200%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Blight 4" .target "target" .curio_result_type "negative" .chance -200%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Litmus Blight 5" .target "target" .curio_result_type "negative" .chance -200%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Litmus Blight Proc 1" .target "performer" .chance 200% .buff_ids "Litmus_blight_buff_B1" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Blight Proc 2" .target "performer" .chance 200% .buff_ids "Litmus_blight_buff_B2" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Blight Proc 3" .target "performer" .chance 200% .buff_ids "Litmus_blight_buff_B3" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Blight Proc 4" .target "performer" .chance 200% .buff_ids "Litmus_blight_buff_B4" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Blight Proc 5" .target "performer" .chance 200% .buff_ids "Litmus_blight_buff_B5" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+
+effect: .name "Litmus Bleed Proc 1" .target "performer" .chance 200% .buff_ids "Litmus_bleed_buff_B1" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Bleed Proc 2" .target "performer" .chance 200% .buff_ids "Litmus_bleed_buff_B2" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Bleed Proc 3" .target "performer" .chance 200% .buff_ids "Litmus_bleed_buff_B3" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Bleed Proc 4" .target "performer" .chance 200% .buff_ids "Litmus_bleed_buff_B4" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+effect: .name "Litmus Bleed Proc 5" .target "performer" .chance 200% .buff_ids "Litmus_bleed_buff_B5" .duration 2 .on_hit true .on_miss false .apply_once true .skill_instant true
+
+
+effect: .name "Bleed Purge 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 65%	.damage_high_multiply 65%	.on_hit true .on_miss false
+effect: .name "Bleed Purge 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false
+effect: .name "Bleed Purge 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 85%	.damage_high_multiply 85%	.on_hit true .on_miss false
+effect: .name "Bleed Purge 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 95%	.damage_high_multiply 95%	.on_hit true .on_miss false
+effect: .name "Bleed Purge 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 105%	.damage_high_multiply 105%	.on_hit true .on_miss false
+
+effect: .name "Blight Purge 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 65%	.damage_high_multiply 65%	.on_hit true .on_miss false
+effect: .name "Blight Purge 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false
+effect: .name "Blight Purge 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 85%	.damage_high_multiply 85%	.on_hit true .on_miss false
+effect: .name "Blight Purge 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 95%	.damage_high_multiply 95%	.on_hit true .on_miss false
+effect: .name "Blight Purge 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 105%	.damage_high_multiply 105%	.on_hit true .on_miss false
+
+
+effect: .name "BC HealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "BC HealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "BC HealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "BC HealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "BC HealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+effect: .name "BC Selfbleed 1" .target "performer" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC Selfbleed 2" .target "performer" .curio_result_type "negative" .chance 150%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC Selfbleed 3" .target "performer" .curio_result_type "negative" .chance 160%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC Selfbleed 4" .target "performer" .curio_result_type "negative" .chance 170%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC Selfbleed 5" .target "performer" .curio_result_type "negative" .chance 180%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+
+effect: .name "BC Speed Debuff 1" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .duration 3 .speed_rating_add -1  .on_hit true .on_miss false .queue true 
+effect: .name "BC Speed Debuff 2" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .duration 3 .speed_rating_add -2  .on_hit true .on_miss false .queue true 
+effect: .name "BC Speed Debuff 3" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .duration 3 .speed_rating_add -2  .on_hit true .on_miss false .queue true 
+effect: .name "BC Speed Debuff 4" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .duration 3 .speed_rating_add -3  .on_hit true .on_miss false .queue true 
+effect: .name "BC Speed Debuff 5" .target "target" .curio_result_type "negative" .chance 150% .combat_stat_buff 1 .duration 3 .speed_rating_add -3  .on_hit true .on_miss false .queue true 
+
+effect: .name "Bloodsuck Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "Bloodsuck Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "Bloodsuck Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "Bloodsuck Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "Bloodsuck Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "vampire" .combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+effect: .name "BC ChanceSelfBleed 1" .target "performer" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBleed 2" .target "performer" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBleed 3" .target "performer" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBleed 4" .target "performer" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBleed 5" .target "performer" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+
+effect: .name "BC ChanceSelfBlight 1" .target "performer" .curio_result_type "negative" .chance 100%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBlight 2" .target "performer" .curio_result_type "negative" .chance 110%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBlight 3" .target "performer" .curio_result_type "negative" .chance 120%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBlight 4" .target "performer" .curio_result_type "negative" .chance 130%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "BC ChanceSelfBlight 5" .target "performer" .curio_result_type "negative" .chance 140%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+
+effect: .name "BC Cure" .target "performer_group_other" .curio_result_type "positive" .chance 100% .cure 1	.on_hit true .on_miss false
+
+effect: .name "BCHealSelfStress 1"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 5	.on_hit true .on_miss true .queue true
+effect: .name "BCHealSelfStress 2"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 6	.on_hit true .on_miss true .queue true
+effect: .name "BCHealSelfStress 3"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 6	.on_hit true .on_miss true .queue true
+effect: .name "BCHealSelfStress 4"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 7	.on_hit true .on_miss true .queue true
+effect: .name "BCHealSelfStress 5"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 7	.on_hit true .on_miss true .queue true
+
+effect: .name "BCHealSelfBoost 1"  .target "performer" .curio_result_type "positive" .chance 200% .buff_ids "BC_heal_buff_B1" .on_hit true .on_miss false .apply_once true
+effect: .name "BCHealSelfBoost 2"  .target "performer" .curio_result_type "positive" .chance 200% .buff_ids "BC_heal_buff_B2" .on_hit true .on_miss false .apply_once true
+effect: .name "BCHealSelfBoost 3"  .target "performer" .curio_result_type "positive" .chance 200% .buff_ids "BC_heal_buff_B3" .on_hit true .on_miss false .apply_once true
+effect: .name "BCHealSelfBoost 4"  .target "performer" .curio_result_type "positive" .chance 200% .buff_ids "BC_heal_buff_B4" .on_hit true .on_miss false .apply_once true
+effect: .name "BCHealSelfBoost 5"  .target "performer" .curio_result_type "positive" .chance 200% .buff_ids "BC_heal_buff_B5" .on_hit true .on_miss false .apply_once true
+
+effect: .name "Cicada Regen 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2	.on_hit true .on_miss true

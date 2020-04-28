@@ -1,0 +1,118 @@
+-----------------------------------------------------------------
+Template Setup
+-----------------------------------------------------------------
+This is a short guide how to setup a Darkest Dungeon Template Class
+
+It is ment to be a quick mechanical guide with no exess information.
+
+Required Software:
+
+	Notepad++
+	DL: https://notepad-plus-plus.org/downloads/
+
+	Rename Master
+	DL: http://www.joejoesoft.com/vcms/108/
+	
+	Or any File Renaming Software/Code Editor
+
+-----------------------------------------------------------------
+0 - Preparation
+-----------------------------------------------------------------
+
+1) Choose an ID for your class
+This is what your class is named on a code level.
+
+Different mods with same class IDs conflict
+therefore avoid general terms like "vampire" "varrior" or use a Prefix
+
+2)Create a work folder
+Name the Folder exactly as your class ID, put all the template contents into said folder 
+*Save the folder directory somewhere you will need it iin later steps
+
+-----------------------------------------------------------------
+I - Renaming the Files 
+-----------------------------------------------------------------
+
+
+1)Open Rename Master (or you renaming programm) 
+	Choose your Work Folder 
+	Use Subfolder Scan to mark all files
+	Use function "[6]Find and Replace"
+	Replace any instance of the word "MyTemplate" with your class ID
+	
+	*Rename master will not rename the folder inside "heroes". 
+	Open the "heroes" Folder and rename "MyTemplate" to your class ID 
+	Inside the Hero Folder rename the sprite Folder "MyTemplate_A" to "YourCLassId_A"
+
+-----------------------------------------------------------------
+Step II - Renaming the Code
+-----------------------------------------------------------------
+The following steps describe renaming with notepad++ the method might differ depending on your text editing software
+
+1) Open Notepad++ 
+Make sure to close all recently opened Files, save your current workspace
+
+2) Setup Workspace
+Choose "File" --> "Open Folder as Workspace"--> Select your recently created and renamed Workfolder
+This step will open all files inside your Template folder wich is important for Step 3) & 4) 
+
+Optional: Save this workspace to navigate easier through files when developing
+
+3) Replace all Class ID Instances
+	Press CRTL+F to open the Search menue
+	Choose the Tab "Find in Files"
+	Toggle on: "In all Subfolders", "Match Case"
+	! Make sure that the Folder Directoy is your Work Folder
+	Press "Replace in Files" to replace "MyTemplate" with your class ID 
+
+4) Replace All Skill iDs 
+	The Skills have Placeholder Id's "MySkill_1" - "MySkill_7" 
+	You can replace them in the same way you replaced your Class ID 
+
+	Determine the Ids of your skills (this is the internal name not the diplay name) 
+	Makes sure they are unique maybe use a prefix to avoid conflicts with other mods
+	
+
+-----------------------------------------------------------------
+Step III - Upload Test Object to Steam 
+-----------------------------------------------------------------
+Open your Darkest Dungeon Diretory
+
+Its usually located at:
+C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\_windows
+
+	Open the steam_workshop_uploader.exe and read the information
+	You can then close the application 
+
+	Open your Workfolder in a separate window
+	Open the project.xml with Notepad++
+	Change <ModDataPath></ModDataPath> to the directory of your work folder
+	Delete this line	<PublishedFileId></PublishedFileId>
+	Save and exit 
+	
+	Now drag the project.xml with your mouse on the steam_workshop_uploader.exe
+	in the other window. It will now open the uploader.
+	
+	By Uploading a new Steam workshop object is generated. 
+	By default its visibility is set on private.
+	You can acces it by Profile--> My workshop 
+	Subscribe to it to donwnload your mod to your game 
+	
+-----------------------------------------------------------------
+Step IV - Updating
+-----------------------------------------------------------------
+To update your mod edit the files inside your workfolder and drag and drop the project 
+in the uploader. 
+!!! You might need to resub to your own mod and wait for steam to download to properly update 
+
+
+Advanced:
+Altenrativly you can open your mod directory
+Usually located at:
+C:\Program Files (x86)\Steam\steamapps\workshop\content\
+
+locate your mod id from the URl displayed on the steam object 
+and open the folder with the corresponding ID 
+This is the folder where your mod copy for the game itself is stored 
+To upate it locally set the uplaod mode to "Don't submit" 
+this will just update your local files for your testing

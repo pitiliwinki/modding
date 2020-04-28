@@ -1,0 +1,160 @@
+//"Commissar skill effect as follow"
+//--------------------------------------------------
+
+
+
+//Pistol - Range attack
+//combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 3% .launch 4321 .target 1234  .effect "SGT Shot Fire Group Damage Boost 1" .generation_guaranteed true
+//==================================
+
+effect: .name "SGT Shot Fire Group Damage Boost 1" .target "performer_group_other" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 5%  .damage_high_multiply 5%  .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "SGT Shot Fire Group Damage Boost 2" .target "performer_group_other" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 7%  .damage_high_multiply 7%  .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "SGT Shot Fire Group Damage Boost 3" .target "performer_group_other" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 10%  .damage_high_multiply 10%  .duration 3	.on_hit true .on_miss false .queue true
+
+
+
+//"Get up there!"  - pull 2, add dmg buff
+//combat_skill: .id "get_up" .level 0 .type "ranged"  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 1"
+//==================================
+
+effect: .name "SGT Damage Boost 1" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20% .crit_chance_add 3.0%  .speed_rating_add 3	.on_hit true .on_miss true .queue true
+effect: .name "SGT Damage Boost 2" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 21%	.damage_high_multiply 21% .crit_chance_add 3.5%  .speed_rating_add 3	.on_hit true .on_miss true .queue true
+effect: .name "SGT Damage Boost 3" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 22%	.damage_high_multiply 22% .crit_chance_add 4.0%  .speed_rating_add 4	.on_hit true .on_miss true .queue true
+effect: .name "SGT Damage Boost 4" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 23%	.damage_high_multiply 23% .crit_chance_add 4.5%  .speed_rating_add 4	.on_hit true .on_miss true .queue true
+effect: .name "SGT Damage Boost 5" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25% .crit_chance_add 5.0%  .speed_rating_add 5	.on_hit true .on_miss true .queue true
+
+//effect: .name "Give Extra Turn" .target "target" .curio_result_type "positive"  .combat_stat_buff 1 .initiative_change 1 .apply_once true .on_hit true .on_miss true .queue true
+
+effect: .name "SGT Move Resis Buff" .target "target" .curio_result_type "positive" .chance 100% .buff_type resistance   .buff_sub_type move .buff_amount 100% .duration 3 .on_hit true .on_miss true .queue true
+
+
+
+//"Fall back!" - push 2, add prot and dodge
+//combat_skill: .id "fall_back" .level 0 .type "ranged" .move 0 1 .launch 432 .target @123 .self_target_valid false  .effect "Team Back 3" "SGT Protection Boost 1" "SGT Self Protection Boost 1" "Clear Marked Target"
+//==================================
+
+effect: .name "SGT Protection Boost 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10%  .defense_rating_add 10%  .speed_rating_add -5  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Protection Boost 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 11%  .defense_rating_add 11%  .speed_rating_add -5  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Protection Boost 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12%  .defense_rating_add 12%  .speed_rating_add -5 .untag 1 .untag 1 .on_hit true .on_miss true	.queue true
+effect: .name "SGT Protection Boost 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13%  .defense_rating_add 13%  .speed_rating_add -5 .untag 1 .untag 1 .on_hit true .on_miss true	.queue true
+effect: .name "SGT Protection Boost 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15%  .defense_rating_add 15%  .speed_rating_add -5 .untag 1 .on_hit true .on_miss true	.queue true
+
+
+effect: .name "SGT Self Protection Boost 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 35% .duration 1  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Self Protection Boost 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 36% .duration 1  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Self Protection Boost 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 37% .duration 1  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Self Protection Boost 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 38% .duration 1  .on_hit true .on_miss true	.queue true
+effect: .name "SGT Self Protection Boost 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 40% .duration 1  .on_hit true .on_miss true	.queue true
+
+
+effect: .name "SGT Fallback Stressheal 1" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss true .queue true
+effect: .name "SGT Fallback Stressheal 2" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true .queue true
+effect: .name "SGT Fallback Stressheal 3" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true .queue true
+effect: .name "SGT Fallback Stressheal 4" .target "target" .chance 100% .healstress 8 .on_hit true .on_miss true .queue true
+effect: .name "SGT Fallback Stressheal 5" .target "target" .chance 100% .healstress 9 .on_hit true .on_miss true .queue true
+
+
+//"Stand Your Ground!" - Group Immobile
+//combat_skill: .id "stand_ground" .level 0 .type "ranged" .launch 4321 .target @~1234 .self_target_valid false  .effect "Give Turn Test" "SGT Stand Ground Immo" "SGT Stand Prot Boost 1"
+//==================================
+
+effect: .name "SGT Stand Ground Immo" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .immobilize 1 .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "SGT Stand Prot Boost 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10%  .speed_rating_add -3 .on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "SGT Stand Prot Boost 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 11%  .speed_rating_add -3 .on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "SGT Stand Prot Boost 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12%  .speed_rating_add -3 .on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "SGT Stand Prot Boost 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13%  .speed_rating_add -3 .on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "SGT Stand Prot Boost 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15%  .speed_rating_add -3 .on_hit true .on_miss true	.queue true .apply_once true
+
+effect: .name "SGT Stress Resis Boost 1" .target "target" .curio_result_type "positive" .chance 100%   .buff_type stress_dmg_received_percent    .buff_amount -15%  .on_hit true .on_miss true .queue true
+effect: .name "SGT Stress Resis Boost 2" .target "target" .curio_result_type "positive" .chance 100%   .buff_type stress_dmg_received_percent    .buff_amount -16%  .on_hit true .on_miss true .queue true
+effect: .name "SGT Stress Resis Boost 3" .target "target" .curio_result_type "positive" .chance 100%   .buff_type stress_dmg_received_percent    .buff_amount -17%  .on_hit true .on_miss true .queue true
+effect: .name "SGT Stress Resis Boost 4" .target "target" .curio_result_type "positive" .chance 100%   .buff_type stress_dmg_received_percent    .buff_amount -18%  .on_hit true .on_miss true .queue true
+effect: .name "SGT Stress Resis Boost 5" .target "target" .curio_result_type "positive" .chance 100%   .buff_type stress_dmg_received_percent    .buff_amount -20%  .on_hit true .on_miss true .queue true
+
+
+effect: .name "Give Turn Test" .target "target" .curio_result_type "positive"  .combat_stat_buff 1 .initiative_change 3 .apply_once true .on_hit true .on_miss true .queue true
+
+
+effect: .name "immobilize" .target "target" .chance 100% .immobilize 1 .on_hit true .on_miss false	.queue true
+effect: .name "unimmobilize" .target "target" .chance 100% .unimmobilize 1 .on_hit true .on_miss false	.queue false
+
+
+
+
+
+//"Charge!" - add dmg and speed buff to all party.
+//combat_skill: .id "charge" .level 0 .type "ranged" .atk 80% .dmg -30% .crit 3% .move 2 0 .launch 4321 .target 12  .effect "SGT Charge Boost 1" "SGT Charge Debuff 1" "clear_corpses"
+//==================================
+
+effect: .name "SGT Charge Boost 1" .target "performer_group_other" .chance 90% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 15%  .damage_high_multiply 15% .crit_chance_add 3.0%  .speed_rating_add 7 .unimmobilize 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SGT Charge Boost 2" .target "performer_group_other" .chance 90% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 16%  .damage_high_multiply 16% .crit_chance_add 3.5%  .speed_rating_add 7 .unimmobilize 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SGT Charge Boost 3" .target "performer_group_other" .chance 90% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 17%  .damage_high_multiply 17% .crit_chance_add 4.0%  .speed_rating_add 8 .unimmobilize 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SGT Charge Boost 4" .target "performer_group_other" .chance 90% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 18%  .damage_high_multiply 18% .crit_chance_add 4.5%  .speed_rating_add 8 .unimmobilize 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SGT Charge Boost 5" .target "performer_group_other" .chance 90% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 20%  .damage_high_multiply 20% .crit_chance_add 5.0%  .speed_rating_add 9 .unimmobilize 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "SGT Charge Debuff 1" .target "performer_group_other" .chance 90% .curio_result_type "negative" .combat_stat_buff 1 .defense_rating_add -20%	.on_hit true .on_miss true .queue true
+effect: .name "SGT Charge Debuff 2" .target "performer_group_other" .chance 90% .curio_result_type "negative" .combat_stat_buff 1 .defense_rating_add -21%	.on_hit true .on_miss true .queue true
+effect: .name "SGT Charge Debuff 3" .target "performer_group_other" .chance 90% .curio_result_type "negative" .combat_stat_buff 1 .defense_rating_add -22%	.on_hit true .on_miss true .queue true
+effect: .name "SGT Charge Debuff 4" .target "performer_group_other" .chance 90% .curio_result_type "negative" .combat_stat_buff 1 .defense_rating_add -23%	.on_hit true .on_miss true .queue true
+effect: .name "SGT Charge Debuff 5" .target "performer_group_other" .chance 90% .curio_result_type "negative" .combat_stat_buff 1 .defense_rating_add -25%	.on_hit true .on_miss true .queue true
+
+
+
+
+//"Medic!" - push 2, Heal
+//combat_skill: .id "medic" .level 0 .type "ranged" .heal 1 2  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 1"
+//==================================
+
+effect: .name "SGT Heal Buff 1" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 30% .on_hit true .on_miss true .queue true
+effect: .name "SGT Heal Buff 2" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 35% .on_hit true .on_miss true .queue true
+effect: .name "SGT Heal Buff 3" .target "target" .curio_result_type "positive" .chance 100% .buff_type hp_heal_received_percent .buff_amount 40% .on_hit true .on_miss true .queue true
+
+
+
+//"Inspire Courage"   -  target gain stress and dmg buff, rest gain stress rel
+//combat_skill: .id "inspire" .level 0 .type "ranged" .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 1" "SGT Force Stress 1" "SGT Force Target Boost 1"
+//==================================
+
+effect: .name "SGT Force Group Boost 1" .target "performer_group" .chance 100% .healstress 6 .heal 1 .on_hit true .on_miss true .queue true 
+effect: .name "SGT Force Group Boost 2" .target "performer_group" .chance 100% .healstress 7 .heal 1 .on_hit true .on_miss true .queue true 
+effect: .name "SGT Force Group Boost 3" .target "performer_group" .chance 100% .healstress 7 .heal 2 .on_hit true .on_miss true .queue true 
+effect: .name "SGT Force Group Boost 4" .target "performer_group" .chance 100% .healstress 8 .heal 2 .on_hit true .on_miss true .queue true 
+effect: .name "SGT Force Group Boost 5" .target "performer_group" .chance 100% .healstress 8 .heal 3 .on_hit true .on_miss true .queue true 
+
+effect: .name "SGT Force Stress 1"  .target "target" .curio_result_type "negative" .chance 120%  .stress 18	.on_hit true .on_miss true .queue true
+effect: .name "SGT Force Stress 2"  .target "target" .curio_result_type "negative" .chance 120%  .stress 19	.on_hit true .on_miss true .queue true
+effect: .name "SGT Force Stress 3"  .target "target" .curio_result_type "negative" .chance 120%  .stress 19	.on_hit true .on_miss true .queue true
+effect: .name "SGT Force Stress 4"  .target "target" .curio_result_type "negative" .chance 120%  .stress 20	.on_hit true .on_miss true .queue true
+effect: .name "SGT Force Stress 5"  .target "target" .curio_result_type "negative" .chance 120%  .stress 20	.on_hit true .on_miss true .queue true
+
+effect: .name "SGT Force Target Boost 1"  .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 20%  .damage_high_multiply 20%   .on_hit true .on_miss true .queue true
+effect: .name "SGT Force Target Boost 2"  .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 21%  .damage_high_multiply 21%   .on_hit true .on_miss true .queue true
+effect: .name "SGT Force Target Boost 3"  .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 22%  .damage_high_multiply 22%   .on_hit true .on_miss true .queue true
+effect: .name "SGT Force Target Boost 4"  .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 23%  .damage_high_multiply 23%   .on_hit true .on_miss true .queue true
+effect: .name "SGT Force Target Boost 5"  .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 25%  .damage_high_multiply 25%   .on_hit true .on_miss true .queue true
+
+
+effect: .name "SGT_inspire_bark_1"  .target "performer" .chance 100% .bark SGT_inspire_bark_1 .on_hit true .on_miss true .queue true
+effect: .name "SGT_standground_bark_1"  .target "performer" .chance 100% .bark SGT_standground_bark_1 .on_hit true .on_miss true .queue true
+effect: .name "SGT_charge_bark_1"  .target "performer" .chance 100% .bark SGT_charge_bark_1 .on_hit true .on_miss true .queue true
+
+//Shared Push and Pull
+
+effect: .name "Team Back 1" .target "target"  .push 1 	.chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Team Back 2" .target "target"  .push 2 	.chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Team Back 3" .target "target"  .push 3 	.chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+
+effect: .name "Team Foward 1" .target "target"  .pull 1   .chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Team Foward 2" .target "target"  .pull 2   .chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Team Foward 3" .target "target"  .pull 3   .chance 300%   .on_hit true .on_miss true .can_apply_on_death true
+
+
+
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+//--------------------------------------------------
+//commissar class mod - created by Actionjack

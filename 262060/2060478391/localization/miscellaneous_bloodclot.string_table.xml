@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  
+	
+	<!---Durations and amount change--->
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_duration_received_percent"><![CDATA[%+d%% Received {colour_start|blight}Blight{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% Received {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_heal_amount_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% Received {colour_start|stress}Horror{colour_end} Amount]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_percent"><![CDATA[%+d%% {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_shuffle_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|move}Stumble{colour_end} Duration]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard Duration{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_guard_duration_received_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration Received]]></entry>
+	
+	<!---HPBelow/Above--->
+	 <entry id="buff_rule_tooltip_hpbelow"><![CDATA[{?string1}%s if HP below {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_hpbelow_false"><![CDATA[{?string1}%s if HP not below {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove"><![CDATA[{?string1}%s if Target HP above {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpabove_false"><![CDATA[{?string1}%s if Target HP not above {?decimal1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s if Target HP below {?percent1}%d%%]]></entry>
+    <entry id="buff_rule_tooltip_target_hpbelow_false"><![CDATA[{?string1}%s if Target HP not below {?decimal1}%d%%]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_guarding_false"><![CDATA[%s when not {colour_start|guard}Guarding{colour_end}]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+
+	
+	
+	<!-- Skill Name tooltips -->
+	
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Silent Leeches]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Silent Curse]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Unveil]]></entry>
+	<entry id="buff_rule_data_tooltip_force_guard"><![CDATA[Protect your Godess:]]></entry>
+	<entry id="buff_rule_data_tooltip_my_hero"><![CDATA[Save Me Hero:]]></entry>
+	<entry id="buff_rule_data_tooltip_scythe"><![CDATA[Scythe Swing:]]></entry>
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Silent Leeches:]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[Succubus]]></entry>
+	<entry id="buff_rule_data_tooltip_cloaked"><![CDATA[Pilgrim]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Silent Curse]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Unveil]]></entry>
+
+	<entry id="str_skill_mode_info_cloaked"><![CDATA[When Disguised:]]></entry>
+	<entry id="str_skill_mode_info_succubus"><![CDATA[When Revealed:]]></entry>
+	<entry id="actor_mode_name_succubus"><![CDATA[Revealed]]></entry>
+	<entry id="actor_mode_name_cloaked"><![CDATA[Disguised]]></entry>
+	
+
+	
+	
+	<entry id="buff_stat_tooltip_disable_combat_skill_attribute_stun"><![CDATA[Disable {colour_start|stun}Stun{colour_end} Skills]]></entry>
+	
+	<entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when {colour_start|guard}Guarding{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+   
+
+	
+	
+	
+  </language>
+  <language id="french">
+
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="german">
+   
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="spanish">
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="brazilian">
+  
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="russian">
+ 
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+   <language id="polish">
+  
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Others:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	    
+	<entry id="buff_rule_data_tooltip_allies"><![CDATA[self]]></entry>
+  </language>
+  <language id="czech">
+  
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="italian">
+   
+    <!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+  </language>
+  <language id="schinese">
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	 <entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight efficiency in position 1]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror {colour_end}]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[%d HP per rd (%d rds)]]></entry>
+    <entry id="tray_icon_tooltip_shuffle_dot_format"><![CDATA[Shuffle (%d rds)]]></entry>	
+	
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[{colour_start|stealth}Legion{colour_end}]]></entry>
+	 
+ 
+	<entry id="buff_rule_data_tooltip_leeches"><![CDATA[Vial]]></entry>
+	<entry id="buff_rule_data_tooltip_silent_curse"><![CDATA[Stalker's Pride]]></entry>
+	<entry id="buff_rule_data_tooltip_cloak"><![CDATA[Riftwalk]]></entry>
+	
+	<!-- Improved tooltips -->
+	<!--<entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% {colour_start|buff}DMG Received{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent"><![CDATA[%+d%% Stress Healing Received]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_percent"><![CDATA[%+d%% Stress Healing Done]]></entry>
+	<entry id="buff_rule_data_tooltip_shambler"><![CDATA[the{colour_start|bleed} Shambler {colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_collector"><![CDATA[the{colour_start|bleed} Collector {colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_actor_base_class"><![CDATA[%s vs %s]]></entry> -->
+   
+ </language>
+</root>

@@ -1,0 +1,23 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "commissar_weapon_0"	.icon "eqp_weapon_0.png"
+weapon: .name "commissar_weapon_1"	.icon "eqp_weapon_1.png"
+weapon: .name "commissar_weapon_2"	.icon "eqp_weapon_2.png"
+weapon: .name "commissar_weapon_3"	.icon "eqp_weapon_3.png"
+weapon: .name "commissar_weapon_4"	.icon "eqp_weapon_4.png"
+
+armour: .name "commissar_armour_0"	.icon "eqp_armour_0.png"
+armour: .name "commissar_armour_1"	.icon "eqp_armour_1.png"
+armour: .name "commissar_armour_2"	.icon "eqp_armour_2.png"
+armour: .name "commissar_armour_3"	.icon "eqp_armour_3.png"
+armour: .name "commissar_armour_4"	.icon "eqp_armour_4.png"
+
+combat_skill: .id "pistol_shot" .icon "one" .anim "attack_hipshot" .fx "point_blank_shot" .targchestfx "point_blank_shot_target"
+combat_skill: .id "get_up" .icon "two" .anim "attack_lunge" .fx "bellow" .targfx "command"
+combat_skill: .id "fall_back" .icon "three" .anim "attack_scroll" .fx "barbaric_yawp" .targchestfx "battle_ballad_target"
+combat_skill: .id "stand_ground" .icon "four" .anim "attack_lunge" .fx "command" .targchestfx "battle_ballad_target"
+combat_skill: .id "charge" .icon "five" .anim "attack_pistol" .fx "pistol_shot" .targchestfx "grape_shot_blast_target"
+combat_skill: .id "medic" .icon "six" .anim "attack_scroll"  .targchestfx "battlefield_medicine_target"
+combat_skill: .id "inspire" .icon "seven" .anim "attack_pistol"  .targchestfx "whistle_target" .target_area_pos_offset 120 0	 
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+

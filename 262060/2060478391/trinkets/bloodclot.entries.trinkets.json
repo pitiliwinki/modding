@@ -1,0 +1,169 @@
+{ 
+
+   "entries":[ 
+
+      { 
+
+         "id":"bloodclot_Shed_Leech_Skin",
+         "buffs":[ 
+
+            "Shed_Leech_Skin_MAXHP",
+            "Shed_Leech_Skin_HealingDone",
+            "SPD_D1"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"very_rare",
+         "price":25000,
+         "limit":1,
+         "origin_dungeon":""
+      },
+      { 
+
+         "id":"bloodclot_Manservant_Collar",
+         "buffs":[ 
+
+	   "Manservant_BleedCrit",
+	   "Manservant_Bleed_HealingDone"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"crimson_court",
+         "set_id":"cc_bloodclot",
+         "price":50000,
+         "limit":1,
+         "origin_dungeon":"courtyard"
+      },
+      { 
+
+         "id":"bloodclot_Wine_Glass",
+         "buffs":[ 
+	  
+	"BLEEDRESIST-20",
+	"BLIGHTRESIST-20",
+	"TRINKET_DMGL_B3",
+	"TRINKET_DMGH_B3"
+
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"crimson_court",
+         "set_id":"cc_bloodclot",
+         "price":50000,
+         "limit":1,
+         "origin_dungeon":"courtyard"
+      },
+      { 
+
+         "id":"bloodclot_Crystal_Cicada",
+         "buffs":[ 
+
+	    "TRINKET_PROT_B2",
+            "TRINKET_STRESSDMG_D2",
+            "TRINKET_DMGL_D2",
+            "TRINKET_DMGH_D2"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"comet",
+         "shard":40,
+         "limit":1,
+         "kill_performer_additional_effects":[ 
+
+
+         ],
+         "attack_skill_additional_effects":[ 
+
+
+         ],
+         "friendly_skill_additional_effects":[ 
+		"Cicada Regen 1"
+
+         ]
+      },
+      { 
+
+         "id":"bloodclot_Gangrene_Lump",
+         "buffs":[ 
+
+            "Gangrene_MAXHP",
+            "Gangrene_Blight_Chance",
+            "SPD_D1"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"very_common",
+         "price":5000,
+         "limit":0,
+         "origin_dungeon":"warrens"
+      },
+      { 
+
+         "id":"bloodclot_Mosquito_Wing",
+         "buffs":[ 
+
+            "Mosquito_Wing_B_Dodge",
+            "SPD_B3",
+            "Mosquito_Stress_B_Taken"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"uncommon",
+         "price":15000,
+         "limit":0,
+         "origin_dungeon":"weald"
+      },
+      { 
+
+         "id":"bloodclot_Silver_Spoon",
+         "buffs":[ 
+
+            "SPD_B1",
+            "Spoon_Stress_D_Taken",
+            "TRINKET_PROT_B2",
+	    "BLIGHTSKILL-20",
+	    "BLEEDSKILL-20"
+	    
+
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"rare",
+         "price":10000,
+         "limit":0,
+         "origin_dungeon":""
+      },
+      { 
+
+         "id":"bloodclot_Maggot_Teeth",
+         "buffs":[ 
+
+            "TRINKET_STUNRESIST_B1",
+            "TRINKET_MOVERESIST_B1",
+            "SPD_D1"
+         ],
+         "hero_class_requirements":[ 
+
+            "bloodclot"
+         ],
+         "rarity":"common",
+         "price":7500,
+         "limit":0,
+         "origin_dungeon":""
+      }
+   ]
+}

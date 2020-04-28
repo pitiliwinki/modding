@@ -1,0 +1,71 @@
+resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 10%
+crit: .effects "on_crit_prot"
+weapon: .name "commissar_weapon_0" .atk 0% .dmg 4 9 .crit 3% .spd 5
+weapon: .name "commissar_weapon_1" .atk 0% .dmg 5 11 .crit 4% .spd 5 .upgradeRequirementCode 0
+weapon: .name "commissar_weapon_2" .atk 0% .dmg 6 12 .crit 5% .spd 6 .upgradeRequirementCode 1
+weapon: .name "commissar_weapon_3" .atk 0% .dmg 7 14 .crit 6% .spd 6 .upgradeRequirementCode 2
+weapon: .name "commissar_weapon_4" .atk 0% .dmg 8 15 .crit 7% .spd 7 .upgradeRequirementCode 3
+armour: .name "commissar_armour_0" .def 0% .prot 0 .hp 26 .spd 0
+armour: .name "commissar_armour_1" .def 5% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 0
+armour: .name "commissar_armour_2" .def 10% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
+armour: .name "commissar_armour_3" .def 15% .prot 0 .hp 41 .spd 0 .upgradeRequirementCode 2
+armour: .name "commissar_armour_4" .def 20% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "pistol_shot" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 3% .launch 4321 .target 1234 .is_crit_valid True  .effect "SGT Shot Fire Group Damage Boost 1" .generation_guaranteed true
+combat_skill: .id "pistol_shot" .level 1 .type "ranged" .atk 90% .dmg 0% .crit 4% .launch 4321 .target 1234 .is_crit_valid True  .effect "SGT Shot Fire Group Damage Boost 1" 
+combat_skill: .id "pistol_shot" .level 2 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 4321 .target 1234 .is_crit_valid True  .effect "SGT Shot Fire Group Damage Boost 2" 
+combat_skill: .id "pistol_shot" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 6% .launch 4321 .target 1234 .is_crit_valid True  .effect "SGT Shot Fire Group Damage Boost 2" 
+combat_skill: .id "pistol_shot" .level 4 .type "ranged" .atk 105% .dmg 0% .crit 7% .launch 4321 .target 1234 .is_crit_valid True  .effect "SGT Shot Fire Group Damage Boost 3" 
+
+combat_skill: .id "get_up" .level 0  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 1" "SGT Move Resis Buff"
+combat_skill: .id "get_up" .level 1  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 2" "SGT Move Resis Buff"
+combat_skill: .id "get_up" .level 2  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 3" "SGT Move Resis Buff"
+combat_skill: .id "get_up" .level 3  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 4" "SGT Move Resis Buff"
+combat_skill: .id "get_up" .level 4  .move 1 0 .launch 4321 .target @234 .self_target_valid false  .effect "Team Foward 2" "SGT Damage Boost 5" "SGT Move Resis Buff"
+
+combat_skill: .id "fall_back" .level 0  .move 0 1 .launch 432 .target @123 .self_target_valid false .is_crit_valid True  .effect "Team Back 3" "SGT Protection Boost 1" "SGT Self Protection Boost 1" "SGT Fallback Stressheal 1" .is_stall_invalidating false
+combat_skill: .id "fall_back" .level 1  .move 0 1 .launch 432 .target @123 .self_target_valid false .is_crit_valid True  .effect "Team Back 3" "SGT Protection Boost 2" "SGT Self Protection Boost 2" "SGT Fallback Stressheal 2" .is_stall_invalidating false
+combat_skill: .id "fall_back" .level 2  .move 0 1 .launch 432 .target @123 .self_target_valid false .is_crit_valid True  .effect "Team Back 3" "SGT Protection Boost 3" "SGT Self Protection Boost 3" "SGT Fallback Stressheal 3" .is_stall_invalidating false
+combat_skill: .id "fall_back" .level 3  .move 0 1 .launch 432 .target @123 .self_target_valid false .is_crit_valid True  .effect "Team Back 3" "SGT Protection Boost 4" "SGT Self Protection Boost 4" "SGT Fallback Stressheal 4" .is_stall_invalidating false
+combat_skill: .id "fall_back" .level 4  .move 0 1 .launch 432 .target @123 .self_target_valid false .is_crit_valid True  .effect "Team Back 3" "SGT Protection Boost 5" "SGT Self Protection Boost 5" "SGT Fallback Stressheal 5" .is_stall_invalidating false
+
+combat_skill: .id "stand_ground" .level 0 .launch 4321 .target @~1234 .self_target_valid false  .effect "SGT Stand Ground Immo" "SGT Stand Prot Boost 1" "SGT Stress Resis Boost 1" 
+combat_skill: .id "stand_ground" .level 1 .launch 4321 .target @~1234 .self_target_valid false  .effect "SGT Stand Ground Immo" "SGT Stand Prot Boost 2" "SGT Stress Resis Boost 2" 
+combat_skill: .id "stand_ground" .level 2 .launch 4321 .target @~1234 .self_target_valid false  .effect "SGT Stand Ground Immo" "SGT Stand Prot Boost 3" "SGT Stress Resis Boost 3" 
+combat_skill: .id "stand_ground" .level 3 .launch 4321 .target @~1234 .self_target_valid false  .effect "SGT Stand Ground Immo" "SGT Stand Prot Boost 4" "SGT Stress Resis Boost 4" 
+combat_skill: .id "stand_ground" .level 4 .launch 4321 .target @~1234 .self_target_valid false  .effect "SGT Stand Ground Immo" "SGT Stand Prot Boost 5" "SGT Stress Resis Boost 5"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+combat_skill: .id "charge" .level 0 .type "ranged" .atk 80% .dmg -40% .crit 3% .move 2 0 .launch 4321 .target 123 .is_crit_valid True  .effect "SGT Charge Boost 1" "SGT Charge Debuff 1" "clear_corpses" 
+combat_skill: .id "charge" .level 1 .type "ranged" .atk 85% .dmg -40% .crit 4% .move 2 0 .launch 4321 .target 123 .is_crit_valid True  .effect "SGT Charge Boost 2" "SGT Charge Debuff 1" "clear_corpses" 
+combat_skill: .id "charge" .level 2 .type "ranged" .atk 90% .dmg -40% .crit 5% .move 2 0 .launch 4321 .target 123 .is_crit_valid True  .effect "SGT Charge Boost 3" "SGT Charge Debuff 1" "clear_corpses"  
+combat_skill: .id "charge" .level 3 .type "ranged" .atk 95% .dmg -40% .crit 6% .move 2 0 .launch 4321 .target 123 .is_crit_valid True  .effect "SGT Charge Boost 4" "SGT Charge Debuff 1" "clear_corpses"  
+combat_skill: .id "charge" .level 4 .type "ranged" .atk 100% .dmg -40% .crit 7% .move 2 0 .launch 4321 .target 123 .is_crit_valid True  .effect "SGT Charge Boost 5" "SGT Charge Debuff 1" "clear_corpses"  
+
+combat_skill: .id "medic" .level 0 .heal 0 3  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 1" .is_stall_invalidating false
+combat_skill: .id "medic" .level 1 .heal 0 4  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 1" .is_stall_invalidating false
+combat_skill: .id "medic" .level 2 .heal 1 4  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 2" .is_stall_invalidating false
+combat_skill: .id "medic" .level 3 .heal 1 5  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 2" .is_stall_invalidating false
+combat_skill: .id "medic" .level 4 .heal 2 5  .launch 432 .target @1234 .self_target_valid false  .effect "Team Back 2" "SGT Heal Buff 3" .is_stall_invalidating false
+
+combat_skill: .id "inspire" .level 0 .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 1" "SGT Force Stress 1" "SGT Force Target Boost 1" "SGT_inspire_bark_1" .is_stall_invalidating false
+combat_skill: .id "inspire" .level 1 .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 2" "SGT Force Stress 1" "SGT Force Target Boost 2" "SGT_inspire_bark_1" .is_stall_invalidating false
+combat_skill: .id "inspire" .level 2 .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 3" "SGT Force Stress 1" "SGT Force Target Boost 3" "SGT_inspire_bark_1" .is_stall_invalidating false
+combat_skill: .id "inspire" .level 3 .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 4" "SGT Force Stress 1" "SGT Force Target Boost 4" "SGT_inspire_bark_1" .is_stall_invalidating false
+combat_skill: .id "inspire" .level 4 .launch 432 .target @12 .self_target_valid false  .effect "Mark Target" "SGT Force Group Boost 5" "SGT Force Stress 1" "SGT Force Target Boost 5" "SGT_inspire_bark_1" .is_stall_invalidating false
+
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "outsiders_bonfire"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 4
+
+id_index: .index 43
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation:  .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
+
+

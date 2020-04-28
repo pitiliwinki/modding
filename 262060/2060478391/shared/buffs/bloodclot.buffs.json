@@ -1,0 +1,201 @@
+{
+   "buffs":
+   [
+	 
+ {
+         "id" : "Litmus_blight_buff_B1",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+     },
+ {
+         "id" : "Litmus_blight_buff_B2",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+	{
+         "id" : "Litmus_blight_buff_B3",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+{
+         "id" : "Litmus_blight_buff_B4",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+	{
+         "id" : "Litmus_blight_buff_B5",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },		
+ {
+         "id" : "Litmus_bleed_buff_B1",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+     },
+ {
+         "id" : "Litmus_bleed_buff_B2",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	{
+         "id" : "Litmus_bleed_buff_B3",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+{
+         "id" : "Litmus_bleed_buff_B4",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	{
+         "id" : "Litmus_bleed_buff_B5",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 3.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	{
+	"id" : "BC_heal_buff_B1",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+}
+      },
+	{
+	"id" : "BC_heal_buff_B2",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+}
+      },
+	{
+	"id" : "BC_heal_buff_B3",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+}
+      },
+	{
+	"id" : "BC_heal_buff_B4",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+}
+      },
+	{
+	"id" : "BC_heal_buff_B5",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+}
+	}
+   ]
+}

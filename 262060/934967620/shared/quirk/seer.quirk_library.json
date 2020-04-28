@@ -1,0 +1,55 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "superstitious",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+			"realist"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "SEER_QUIRK_CELHEALREC",
+			"SEER_QUIRK_REJUVREC",
+			"SEER_QUIRK_TRANQREC"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+      {
+         "id" : "realist",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+			"superstitious"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "SEER_QUIRK_CELHEALREC_NEG",
+			"SEER_QUIRK_REJUVREC_NEG",
+			"SEER_QUIRK_TRANQREC_NEG"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

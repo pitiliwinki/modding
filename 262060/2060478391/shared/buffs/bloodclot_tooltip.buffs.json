@@ -1,0 +1,47 @@
+{
+   "buffs":
+   [
+   {
+         "id" : "bloodclot_tooltip_T",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "bloodclot_tooltip_clear",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "bloodclot_tooltip_cooldown_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "bloodclot_tooltip_cooldown_A",
+         "amount" : 0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "bloodclot_tooltip_cooldown_X",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "bloodclot_tooltip_cooldown_X",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      }
+	 
+   ]
+}
