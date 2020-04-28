@@ -1,0 +1,69 @@
+resistances: .stun 60% .poison 0% .bleed 20% .disease 60% .move 60% .debuff 10% .death_blow 67% .trap 10%
+crit: .effects "on_crit_blightchance"
+weapon: .name "scourge_weapon_0" .atk 0% .dmg 4 7 .crit 2% .spd 6
+weapon: .name "scourge_weapon_1" .atk 0% .dmg 5 8 .crit 2.5% .spd 6 .upgradeRequirementCode 0
+weapon: .name "scourge_weapon_2" .atk 0% .dmg 6 9 .crit 3% .spd 7 .upgradeRequirementCode 1
+weapon: .name "scourge_weapon_3" .atk 0% .dmg 7 10 .crit 3.5% .spd 7 .upgradeRequirementCode 2
+weapon: .name "scourge_weapon_4" .atk 0% .dmg 8 11 .crit 4% .spd 8 .upgradeRequirementCode 3
+armour: .name "scourge_armour_0" .def 0% .prot 0 .hp 30 .spd 0
+armour: .name "scourge_armour_1" .def 5% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 0
+armour: .name "scourge_armour_2" .def 10% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 1
+armour: .name "scourge_armour_3" .def 15% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 2
+armour: .name "scourge_armour_4" .def 20% .prot 0 .hp 50 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "plague_strike" .level 0 .type "melee" .atk 95% .dmg -35% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "pstrike_debuff_1" "pstrike_rngpoisontake_1" "pstrike_plague_transfer" "death_transfer_enemy" "pstrike_custom_tooltip_1" .generation_guaranteed true
+combat_skill: .id "plague_strike" .level 1 .type "melee" .atk 100% .dmg -30% .crit 3% .launch 12 .target 123 .is_crit_valid True .effect "pstrike_debuff_2" "pstrike_rngpoisontake_2" "pstrike_plague_transfer" "death_transfer_enemy" "pstrike_custom_tooltip_2"
+combat_skill: .id "plague_strike" .level 2 .type "melee" .atk 105% .dmg -25% .crit 4% .launch 12 .target 123 .is_crit_valid True .effect "pstrike_debuff_3" "pstrike_rngpoisontake_3" "pstrike_plague_transfer" "death_transfer_enemy" "pstrike_custom_tooltip_3"
+combat_skill: .id "plague_strike" .level 3 .type "melee" .atk 110% .dmg -20% .crit 4% .launch 12 .target 123 .is_crit_valid True .effect "pstrike_debuff_4" "pstrike_rngpoisontake_4" "pstrike_plague_transfer" "death_transfer_enemy" "pstrike_custom_tooltip_4"
+combat_skill: .id "plague_strike" .level 4 .type "melee" .atk 115% .dmg -15% .crit 5% .launch 12 .target 123 .is_crit_valid True .effect "pstrike_debuff_5" "pstrike_rngpoisontake_5" "pstrike_plague_transfer" "death_transfer_enemy" "pstrike_custom_tooltip_5"
+
+combat_skill: .id "noxious_raze" .level 0 .type "melee" .atk 75% .dmg -66% .crit 2% .launch 12 .target ~12 .is_crit_valid True  .effect "nox_plague_1" "nox_plague_extra_1" "scourge_standard_self_plague_1" 
+combat_skill: .id "noxious_raze" .level 1 .type "melee" .atk 80% .dmg -66% .crit 2% .launch 12 .target ~12 .is_crit_valid True  .effect "nox_plague_2" "nox_plague_extra_2" "scourge_standard_self_plague_2"
+combat_skill: .id "noxious_raze" .level 2 .type "melee" .atk 85% .dmg -66% .crit 3% .launch 12 .target ~12 .is_crit_valid True  .effect "nox_plague_3" "nox_plague_extra_3" "scourge_standard_self_plague_3"
+combat_skill: .id "noxious_raze" .level 3 .type "melee" .atk 90% .dmg -66% .crit 3% .launch 12 .target ~12 .is_crit_valid True  .effect "nox_plague_4" "nox_plague_extra_4" "scourge_standard_self_plague_4"
+combat_skill: .id "noxious_raze" .level 4 .type "melee" .atk 95% .dmg -66% .crit 4% .launch 12 .target ~12 .is_crit_valid True  .effect "nox_plague_5" "nox_plague_extra_5" "scourge_standard_self_plague_5"
+
+combat_skill: .id "excoriate" .level 0 .type "ranged" .atk 80% .dmg -75% .crit 0% .launch 12 .target ~123 .is_crit_valid False  .effect "excor_amplify_1" "excor_buff_1" "excor_debuff_1" "excor_transfer" "excor_custom_tooltip"
+combat_skill: .id "excoriate" .level 1 .type "ranged" .atk 85% .dmg -75% .crit 0% .launch 12 .target ~123 .is_crit_valid False  .effect "excor_amplify_2" "excor_buff_2" "excor_debuff_2" "excor_transfer" "excor_custom_tooltip"
+combat_skill: .id "excoriate" .level 2 .type "ranged" .atk 90% .dmg -75% .crit 0% .launch 12 .target ~123 .is_crit_valid False  .effect "excor_amplify_3" "excor_buff_3" "excor_debuff_3" "excor_transfer" "excor_custom_tooltip"
+combat_skill: .id "excoriate" .level 3 .type "ranged" .atk 95% .dmg -75% .crit 0% .launch 12 .target ~123 .is_crit_valid False  .effect "excor_amplify_4" "excor_buff_4" "excor_debuff_4" "excor_transfer" "excor_custom_tooltip"
+combat_skill: .id "excoriate" .level 4 .type "ranged" .atk 100% .dmg -75% .crit 0% .launch 12 .target ~123 .is_crit_valid False  .effect "excor_amplify_5" "excor_buff_5" "excor_debuff_5" "excor_transfer" "excor_custom_tooltip"
+
+combat_skill: .id "abyss_grip" .level 0 .type "ranged" .atk 100% .dmg 0% .crit 10% .launch 12 .target 1234 .is_crit_valid True .ignore_guard true .ignore_stealth true .effect "abygrip_team_stress_1" "abygrip_amplify_1" "aby_ult_block" "scourge_standard_self_plague_1"
+combat_skill: .id "abyss_grip" .level 1 .type "ranged" .atk 110% .dmg 0% .crit 10% .launch 12 .target 1234 .is_crit_valid True .ignore_guard true .ignore_stealth true .effect "abygrip_team_stress_2" "abygrip_amplify_2" "aby_ult_block""scourge_standard_self_plague_2"
+combat_skill: .id "abyss_grip" .level 2 .type "ranged" .atk 120% .dmg 0% .crit 11% .launch 12 .target 1234 .is_crit_valid True .ignore_guard true .ignore_stealth true .effect "abygrip_team_stress_3" "abygrip_amplify_3" "aby_ult_block""scourge_standard_self_plague_3"
+combat_skill: .id "abyss_grip" .level 3 .type "ranged" .atk 130% .dmg 0% .crit 11% .launch 12 .target 1234 .is_crit_valid True .ignore_guard true .ignore_stealth true .effect "abygrip_team_stress_4" "abygrip_amplify_4" "aby_ult_block" "scourge_standard_self_plague_4"
+combat_skill: .id "abyss_grip" .level 4 .type "ranged" .atk 140% .dmg 0% .crit 12% .launch 12 .target 1234 .is_crit_valid True .ignore_guard true .ignore_stealth true .effect "abygrip_team_stress_5" "abygrip_amplify_5" "aby_ult_block" "scourge_standard_self_plague_5"
+
+combat_skill: .id "abyss_point" .level 0 .type "ranged" .atk 100% .dmg -90% .crit 0% .launch 12 .target ~1234 .is_crit_valid False .ignore_guard true .ignore_stealth true .effect "abypoint_team_stress_1" "abypoint_plague_1" "aby_ult_block" "abypoint_self_plague_1"
+combat_skill: .id "abyss_point" .level 1 .type "ranged" .atk 110% .dmg -90% .crit 0% .launch 12 .target ~1234 .is_crit_valid False .ignore_guard true .ignore_stealth true .effect "abypoint_team_stress_2" "abypoint_plague_2" "aby_ult_block" "abypoint_self_plague_2"
+combat_skill: .id "abyss_point" .level 2 .type "ranged" .atk 120% .dmg -90% .crit 0% .launch 12 .target ~1234 .is_crit_valid False .ignore_guard true .ignore_stealth true .effect "abypoint_team_stress_3" "abypoint_plague_3" "aby_ult_block" "abypoint_self_plague_3"
+combat_skill: .id "abyss_point" .level 3 .type "ranged" .atk 130% .dmg -90% .crit 0% .launch 12 .target ~1234 .is_crit_valid False .ignore_guard true .ignore_stealth true .effect "abypoint_team_stress_4" "abypoint_plague_4" "aby_ult_block" "abypoint_self_plague_4"
+combat_skill: .id "abyss_point" .level 4 .type "ranged" .atk 140% .dmg -90% .crit 0% .launch 12 .target ~1234 .is_crit_valid False .ignore_guard true .ignore_stealth true .effect "abypoint_team_stress_5" "abypoint_plague_5" "aby_ult_block" "abypoint_self_plague_5"
+
+combat_skill: .id "purge" .level 0 .heal 3 6 .launch 1234 .target  .is_crit_valid False  .effect "purge_transfer" "purge_cure_poison_1" "purge_cure_disease_1" "purge_debuff_1" "purge_custom_tooltip" .is_stall_invalidating false 
+combat_skill: .id "purge" .level 1 .heal 4 7 .launch 1234 .target  .is_crit_valid False  .effect "purge_transfer" "purge_cure_poison_2" "purge_cure_disease_2" "purge_debuff_2" "purge_custom_tooltip" .is_stall_invalidating false
+combat_skill: .id "purge" .level 2 .heal 5 8 .launch 1234 .target  .is_crit_valid False  .effect "purge_transfer" "purge_cure_poison_3" "purge_cure_disease_3" "purge_debuff_3" "purge_custom_tooltip" .is_stall_invalidating false
+combat_skill: .id "purge" .level 3 .heal 6 9 .launch 1234 .target  .is_crit_valid False  .effect "purge_transfer" "purge_cure_poison_4" "purge_cure_disease_4" "purge_debuff_4" "purge_custom_tooltip" .is_stall_invalidating false
+combat_skill: .id "purge" .level 4 .heal 7 10 .launch 1234 .target  .is_crit_valid False  .effect "purge_transfer" "purge_cure_poison_5" "purge_cure_disease_5" "purge_debuff_5" "purge_custom_tooltip" .is_stall_invalidating false
+
+combat_skill: .id "deathlock" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 12 .target ~@1234 .is_crit_valid True .effect "deathlock_clear_guard" "deathlock_guard_1" "deathlock_buffdebuff_1" "scourge_standard_self_plague_1" .is_stall_invalidating false 
+combat_skill: .id "deathlock" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 12 .target ~@1234 .is_crit_valid True .effect "deathlock_clear_guard" "deathlock_guard_2" "deathlock_buffdebuff_2" "scourge_standard_self_plague_2" .is_stall_invalidating false
+combat_skill: .id "deathlock" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 12 .target ~@1234 .is_crit_valid True .effect "deathlock_clear_guard" "deathlock_guard_3" "deathlock_buffdebuff_3" "scourge_standard_self_plague_3" .is_stall_invalidating false
+combat_skill: .id "deathlock" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 12 .target ~@1234 .is_crit_valid True .effect "deathlock_clear_guard" "deathlock_guard_4" "deathlock_buffdebuff_4" "scourge_standard_self_plague_4" .is_stall_invalidating false
+combat_skill: .id "deathlock" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 12 .target ~@1234 .is_crit_valid True .effect "deathlock_clear_guard" "deathlock_guard_5" "deathlock_buffdebuff_5" "scourge_standard_self_plague_5" .is_stall_invalidating false
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
+
+tag: .id "scourge"
+tag: .id "non-religious"
+tag: .id "heavy"
+tag: .id "scourge_pond"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+incompatible_party_member: .id scourge_religion .hero_tag religious
+incompatible_party_member: .id scourge_religion_2 .hero_tag scourge
+id_index: .index 664
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation:  .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

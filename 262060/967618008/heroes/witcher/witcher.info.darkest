@@ -1,0 +1,68 @@
+resistances: .stun 40% .poison 80% .bleed 30% .disease 300% .move 40% .debuff 60% .death_blow 75% .trap 50%
+weapon: .name "witcher_weapon_0" .atk 0% .dmg 5 10 .crit 5% .spd 8
+weapon: .name "witcher_weapon_1" .atk 0% .dmg 6 12 .crit 6% .spd 9 .upgradeRequirementCode 0
+weapon: .name "witcher_weapon_2" .atk 0% .dmg 7 13 .crit 7% .spd 10 .upgradeRequirementCode 1
+weapon: .name "witcher_weapon_3" .atk 0% .dmg 8 15 .crit 8% .spd 11 .upgradeRequirementCode 2
+weapon: .name "witcher_weapon_4" .atk 0% .dmg 9 16 .crit 9% .spd 12 .upgradeRequirementCode 3
+armour: .name "witcher_armour_0" .def 15% .prot 0 .hp 25 .spd 0
+armour: .name "witcher_armour_1" .def 20% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
+armour: .name "witcher_armour_2" .def 25% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 1
+armour: .name "witcher_armour_3" .def 25% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
+armour: .name "witcher_armour_4" .def 35% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "style" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword magic .sword_effects switch_mode_magic_self .magic_effects switch_mode_sword_self .is_continue_turn true .per_turn_limit 5 .generation_guaranteed true
+combat_skill: .id "style" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword magic .sword_effects switch_mode_magic_self .magic_effects switch_mode_sword_self .is_continue_turn true .per_turn_limit 5
+combat_skill: .id "style" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword magic .sword_effects switch_mode_magic_self .magic_effects switch_mode_sword_self .is_continue_turn true .per_turn_limit 5
+combat_skill: .id "style" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword magic .sword_effects switch_mode_magic_self .magic_effects switch_mode_sword_self .is_continue_turn true .per_turn_limit 5
+combat_skill: .id "style" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword magic .sword_effects switch_mode_magic_self .magic_effects switch_mode_sword_self .is_continue_turn true .per_turn_limit 5
+
+combat_skill: .id "steel_sword" .level 0 .type "melee" .atk 95% .dmg -85% .crit 5% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Steel Sword Man 1" "Witcher Bleed 1" "Witcher Riposte 1"
+combat_skill: .id "steel_sword" .level 1 .type "melee" .atk 100% .dmg -85% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Steel Sword Man 2" "Witcher Bleed 2" "Witcher Riposte 2"
+combat_skill: .id "steel_sword" .level 2 .type "melee" .atk 105% .dmg -85% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Steel Sword Man 3" "Witcher Bleed 3" "Witcher Riposte 3"
+combat_skill: .id "steel_sword" .level 3 .type "melee" .atk 110% .dmg -85% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Steel Sword Man 4" "Witcher Bleed 4" "Witcher Riposte 4"
+combat_skill: .id "steel_sword" .level 4 .type "melee" .atk 115% .dmg -85% .crit 7% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Steel Sword Man 5" "Witcher Bleed 5" "Witcher Riposte 5"
+
+combat_skill: .id "silver_sword" .level 0 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Silver Sword Man 1" "Witcher Bleed 1" "Witcher Riposte 1" "Witcher Dmg Marked"
+combat_skill: .id "silver_sword" .level 1 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Silver Sword Man 2" "Witcher Bleed 2" "Witcher Riposte 2" "Witcher Dmg Marked"
+combat_skill: .id "silver_sword" .level 2 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Silver Sword Man 3" "Witcher Bleed 3" "Witcher Riposte 3" "Witcher Dmg Marked"
+combat_skill: .id "silver_sword" .level 3 .type "melee" .atk 110% .dmg 0% .crit 6% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Silver Sword Man 4" "Witcher Bleed 4" "Witcher Riposte 4" "Witcher Dmg Marked"
+combat_skill: .id "silver_sword" .level 4 .type "melee" .atk 115% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True .valid_modes sword .effect "Silver Sword Man 5" "Witcher Bleed 5" "Witcher Riposte 5" "Witcher Dmg Marked"
+
+combat_skill: .id "potion" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword .effect "Potion Buff 1" "Potion Stress 1" "Potion Poison 1"
+combat_skill: .id "potion" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword .effect "Potion Buff 2" "Potion Stress 2" "Potion Poison 1"
+combat_skill: .id "potion" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword .effect "Potion Buff 3" "Potion Stress 3" "Potion Poison 1"
+combat_skill: .id "potion" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword .effect "Potion Buff 4" "Potion Stress 4" "Potion Poison 1"
+combat_skill: .id "potion" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes sword .effect "Potion Buff 5" "Potion Stress 5" "Potion Poison 1"
+
+combat_skill: .id "aard" .level 0 .type "ranged" .atk 95% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .valid_modes magic .effect "Aard Push 3A" "Aard Stun 1" "Witcher Riposte 1" "Aard clear_corpses"
+combat_skill: .id "aard" .level 1 .type "ranged" .atk 100% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .valid_modes magic .effect "Aard Push 3B" "Aard Stun 2" "Witcher Riposte 2" "Aard clear_corpses"
+combat_skill: .id "aard" .level 2 .type "ranged" .atk 105% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .valid_modes magic .effect "Aard Push 3C" "Aard Stun 3" "Witcher Riposte 3" "Aard clear_corpses"
+combat_skill: .id "aard" .level 3 .type "ranged" .atk 110% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .valid_modes magic .effect "Aard Push 3D" "Aard Stun 4" "Witcher Riposte 4" "Aard clear_corpses"
+combat_skill: .id "aard" .level 4 .type "ranged" .atk 115% .dmg -50% .crit 0% .launch 21 .target 12 .is_crit_valid True .valid_modes magic .effect "Aard Push 3E" "Aard Stun 5" "Witcher Riposte 5" "Aard clear_corpses"
+
+combat_skill: .id "axii" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .valid_modes magic .effect "Witcher Riposte 1" "Axii Stun 1" "Axii Debuff 1" "Axii Pull 2A"
+combat_skill: .id "axii" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .valid_modes magic .effect "Witcher Riposte 2" "Axii Stun 2" "Axii Debuff 2" "Axii Pull 2B"
+combat_skill: .id "axii" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .valid_modes magic .effect "Witcher Riposte 3" "Axii Stun 3" "Axii Debuff 3" "Axii Pull 2C"
+combat_skill: .id "axii" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .valid_modes magic .effect "Witcher Riposte 4" "Axii Stun 4" "Axii Debuff 4" "Axii Pull 2D"
+combat_skill: .id "axii" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid True .valid_modes magic .effect "Witcher Riposte 5" "Axii Stun 5" "Axii Debuff 5" "Axii Pull 2E"
+
+combat_skill: .id "quen" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True .valid_modes magic .effect "Clear Guard Performer" "Clear Guard Target" "Quen Guard 1" "Quen Protection 1" "Quen Debuff 1"
+combat_skill: .id "quen" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True .valid_modes magic .effect "Clear Guard Performer" "Clear Guard Target" "Quen Guard 1" "Quen Protection 2" "Quen Debuff 2"
+combat_skill: .id "quen" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True .valid_modes magic .effect "Clear Guard Performer" "Clear Guard Target" "Quen Guard 1" "Quen Protection 3" "Quen Debuff 3"
+combat_skill: .id "quen" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True .valid_modes magic .effect "Clear Guard Performer" "Clear Guard Target" "Quen Guard 1" "Quen Protection 4" "Quen Debuff 4"
+combat_skill: .id "quen" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True .valid_modes magic .effect "Clear Guard Performer" "Clear Guard Target" "Quen Guard 1" "Quen Protection 5" "Quen Debuff 5"
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True
+
+tag: .id "witcher"
+tag: .id "non-religious"
+tag: .id "light"
+tag: .id "house_of_the_yellow_hand"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+id_index: .index 81
+mode: .id sword .is_raid_default true
+mode: .id magic .battle_complete_combat_skill_id style
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 1 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 5 .card_chance 1.0

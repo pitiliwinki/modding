@@ -1,0 +1,26 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "shield_maiden_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "shield_maiden_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "shield_maiden_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "shield_maiden_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "shield_maiden_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "shield_maiden_armour_0" .icon "eqp_armour_0.png"
+armour: .name "shield_maiden_armour_1" .icon "eqp_armour_1.png"
+armour: .name "shield_maiden_armour_2" .icon "eqp_armour_2.png"
+armour: .name "shield_maiden_armour_3" .icon "eqp_armour_3.png"
+armour: .name "shield_maiden_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "cross_blade" .icon "one" .anim "attack_mace" .fx "crush" .targchestfx "blood_splatter"
+combat_skill: .id "front_guard" .icon "two" .anim "defend" .fx "bulwark_of_faith"  
+combat_skill: .id "ram_shield" .icon "three" .anim "defend" .fx "breakthru" .targchestfx "blood_splatter"
+combat_skill: .id "avenger" .icon "four" .anim "attack_ranged" .fx "divine_grace"  .targfx "judgement_target"
+combat_skill: .id "guardian" .icon "five" .anim "attack_shield"  .fx "bulwark_of_faith" .targfx "gods_comfort_target"
+combat_skill: .id "mending_touch" .icon "six" .anim "investigate"  .targfx "gods_comfort_target"
+combat_skill: .id "indomitable" .icon "seven" .anim "attack_ranged" .fx "command"
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+riposte_skill: .id "riposte1" .anim "attack_shield" .fx "riposte" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "attack_shield" .attack_friendly_fx "bleed_out" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/highwayman_wicked_slice"

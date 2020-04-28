@@ -1,0 +1,110 @@
+// Witcher Effects
+
+//Style Sword -> Magic
+
+effect: .name "switch_mode_magic_self" .target "performer" .set_mode magic .chance 100% .on_hit true .on_miss false .queue false
+
+//Style Magic -> Sword
+
+effect: .name "switch_mode_sword_self" .target "performer" .set_mode sword .chance 100% .on_hit true .on_miss false .queue false
+
+// Steel Sword Effects
+
+effect: .name "Steel Sword Man 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 800%	.damage_high_multiply 800%	.on_hit true .on_miss false
+effect: .name "Steel Sword Man 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 850%	.damage_high_multiply 850%	.on_hit true .on_miss false
+effect: .name "Steel Sword Man 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 900%	.damage_high_multiply 900%	.on_hit true .on_miss false
+effect: .name "Steel Sword Man 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 950%	.damage_high_multiply 950%	.on_hit true .on_miss false
+effect: .name "Steel Sword Man 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply 1000%	.damage_high_multiply 1000%	.on_hit true .on_miss false
+
+effect: .name "Witcher Bleed 1" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Witcher Bleed 2" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Witcher Bleed 3" .target "target" .curio_result_type "negative" .chance 160%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Witcher Bleed 4" .target "target" .curio_result_type "negative" .chance 170%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Witcher Bleed 5" .target "target" .curio_result_type "negative" .chance 180%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Witcher Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1  .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30%  .crit_chance_add 0%
+effect: .name "Witcher Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1  .on_hit true .on_miss true .damage_low_multiply -25%  .damage_high_multiply -25%  .crit_chance_add 0% 
+effect: .name "Witcher Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1  .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 1% 
+effect: .name "Witcher Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1  .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .crit_chance_add 1% 
+effect: .name "Witcher Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 1  .on_hit true .on_miss true .damage_low_multiply -10% .damage_high_multiply -10% .crit_chance_add 2%
+
+// Silver Sword Effects
+
+effect: .name "Silver Sword Man 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply -90%	.damage_high_multiply -90%	.on_hit true .on_miss false
+effect: .name "Silver Sword Man 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply -90%	.damage_high_multiply -90%	.on_hit true .on_miss false
+effect: .name "Silver Sword Man 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply -90%	.damage_high_multiply -90%	.on_hit true .on_miss false
+effect: .name "Silver Sword Man 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply -90%	.damage_high_multiply -90%	.on_hit true .on_miss false
+effect: .name "Silver Sword Man 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "man" .combat_stat_buff 1 .damage_low_multiply -90%	.damage_high_multiply -90%	.on_hit true .on_miss false
+
+effect: .name "Witcher Dmg Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 100%	.damage_high_multiply 100%	.on_hit true .on_miss false
+
+// Potion
+
+effect: .name "Potion Buff 1" .target "performer" .curio_result_type "positive" .chance 200% .combat_stat_buff 1 .attack_rating_add 8% .damage_low_multiply 40% .damage_high_multiply 40%	.defense_rating_add 12% .speed_rating_add 4 .on_hit true .on_miss true .queue true .duration 4
+effect: .name "Potion Buff 2" .target "performer" .curio_result_type "positive" .chance 200% .combat_stat_buff 1 .attack_rating_add 9% .damage_low_multiply 40% .damage_high_multiply 40%	.defense_rating_add 14% .speed_rating_add 5 .on_hit true .on_miss true .queue true .duration 4
+effect: .name "Potion Buff 3" .target "performer" .curio_result_type "positive" .chance 200% .combat_stat_buff 1 .attack_rating_add 10% .damage_low_multiply 50% .damage_high_multiply 50%	.defense_rating_add 16% .speed_rating_add 5 .on_hit true .on_miss true .queue true .duration 4
+effect: .name "Potion Buff 4" .target "performer" .curio_result_type "positive" .chance 200% .combat_stat_buff 1 .attack_rating_add 11% .damage_low_multiply 50% .damage_high_multiply 50%	.defense_rating_add 18% .speed_rating_add 6 .on_hit true .on_miss true .queue true .duration 4
+effect: .name "Potion Buff 5" .target "performer" .curio_result_type "positive" .chance 200% .combat_stat_buff 1 .attack_rating_add 12% .damage_low_multiply 60% .damage_high_multiply 60%	.defense_rating_add 20% .speed_rating_add 7 .on_hit true .on_miss true .queue true .duration 4
+
+effect: .name "Potion Stress 1" .target "performer" .curio_result_type "negative" .chance 200% .stress 20		.on_hit true .on_miss true	.queue true
+effect: .name "Potion Stress 2" .target "performer" .curio_result_type "negative" .chance 200% .stress 21		.on_hit true .on_miss true	.queue true
+effect: .name "Potion Stress 3" .target "performer" .curio_result_type "negative" .chance 200% .stress 22		.on_hit true .on_miss true	.queue true
+effect: .name "Potion Stress 4" .target "performer" .curio_result_type "negative" .chance 200% .stress 23		.on_hit true .on_miss true	.queue true
+effect: .name "Potion Stress 5" .target "performer" .curio_result_type "negative" .chance 200% .stress 25		.on_hit true .on_miss true	.queue true
+
+effect: .name "Potion Poison 1" .target "performer" .curio_result_type "negative" .chance 300%  ..dotPoison 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Potion Poison 2" .target "performer" .curio_result_type "negative" .chance 300%  ..dotPoison 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Potion Poison 3" .target "performer" .curio_result_type "negative" .chance 300%  ..dotPoison 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Potion Poison 4" .target "performer" .curio_result_type "negative" .chance 300%  ..dotPoison 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Potion Poison 5" .target "performer" .curio_result_type "negative" .chance 300%  ..dotPoison 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+// Aard Effects
+
+effect: .name "Aard Push 3A" .target "target" .push 3 	.chance 250%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aard Push 3B" .target "target" .push 3 	.chance 270%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aard Push 3C" .target "target" .push 3 	.chance 280%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aard Push 3D" .target "target" .push 3	.chance 290%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aard Push 3E" .target "target" .push 3 	.chance 300%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Aard Stun 1" .target "target" .curio_result_type "negative" .chance 80% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Aard Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Aard Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Aard Stun 4" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Aard Stun 5" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Aard clear_corpses" .target "target_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .queue false .can_apply_on_death true
+
+// Axii Effects
+
+effect: .name "Axii Stun 1" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Axii Stun 2" .target "target" .curio_result_type "negative" .chance 170% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Axii Stun 3" .target "target" .curio_result_type "negative" .chance 180% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Axii Stun 4" .target "target" .curio_result_type "negative" .chance 190% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Axii Stun 5" .target "target" .curio_result_type "negative" .chance 200% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Axii Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add -10.0%	.attack_rating_add -6.0% .on_hit true .on_miss false .queue true
+effect: .name "Axii Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .duration 2 .combat_stat_buff 1 .protection_rating_add -15.0%	.attack_rating_add -7.0% .on_hit true .on_miss false .queue true
+effect: .name "Axii Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .duration 2 .combat_stat_buff 1 .protection_rating_add -20.0%	.attack_rating_add -8.0% .on_hit true .on_miss false .queue true
+effect: .name "Axii Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .duration 2 .combat_stat_buff 1 .protection_rating_add -25.5%	.attack_rating_add -9.0% .on_hit true .on_miss false .queue true
+effect: .name "Axii Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .duration 2 .combat_stat_buff 1 .protection_rating_add -30.0%	.attack_rating_add -10.0% .on_hit true .on_miss false .queue true
+
+effect: .name "Axii Pull 2A" .target "target" .pull 2 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Axii Pull 2B" .target "target" .pull 2 	.chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Axii Pull 2C" .target "target" .pull 2 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Axii Pull 2D" .target "target" .pull 2 	.chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Axii Pull 2E" .target "target" .pull 2 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+// Quen Effects
+effect: .name "Quen Guard 1"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 1
+
+effect: .name "Quen Protection 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 50%	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Quen Protection 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 60%	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Quen Protection 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 70%	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Quen Protection 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 80%	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Quen Protection 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 90%	.on_hit true .on_miss true .queue true .duration 1
+
+effect: .name "Quen Debuff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add -20%	.on_hit true .on_miss true .queue true
+effect: .name "Quen Debuff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add -22%	.on_hit true .on_miss true .queue true
+effect: .name "Quen Debuff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add -25%	.on_hit true .on_miss true .queue true
+effect: .name "Quen Debuff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add -27%	.on_hit true .on_miss true .queue true
+effect: .name "Quen Debuff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add -30%	.on_hit true .on_miss true .queue true

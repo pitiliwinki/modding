@@ -1,0 +1,30 @@
+{
+    "buildings": [
+        {
+            "name": "scourge_pond",
+            "render_data": {
+				"sprite_paths": [
+					"fx/town_district_scourge_pond/town_district_scourge_pond.sprite.skel",
+					"fx/purchase_district/purchase_district.sprite.skel"
+				],
+                "not_built_animation": "idle",
+                "built_animation": "built",
+                "purchased_animation": "purchased",
+                "town_priority": 1100
+            },
+            "currency_cost": [
+                { "type": "gold", "amount": 10000 },
+                { "type": "deed", "amount": 65 },
+                { "type": "blueprint", "amount": 1 }
+            ],
+            "buff_list": [
+                {
+                    "type": "DistrictHeroBuffData",
+                    "name": "hero_buff0",
+                    "hero_type_tags": [ "scourge_pond" ],
+                    "buff_list": ["SCOURGE_DISTRICT_POISON_AMOUNT", "SCOURGE_DISTRICT_POISON_DURATION", "SCOURGE_DISTRICT_DISEASERESIST"]
+                }
+            ]
+        }
+    ]
+}

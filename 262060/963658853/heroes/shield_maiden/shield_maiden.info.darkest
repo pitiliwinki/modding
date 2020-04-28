@@ -1,0 +1,75 @@
+resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 70% .debuff 20% .death_blow 67% .trap 10%
+crit: .effects "on_crit_prot"
+weapon: .name "shield_maiden_weapon_0" .atk 0% .dmg 4 8 .crit 2% .spd 1
+weapon: .name "shield_maiden_weapon_1" .atk 0% .dmg 5 10 .crit 3% .spd 1 .upgradeRequirementCode 0
+weapon: .name "shield_maiden_weapon_2" .atk 0% .dmg 6 11 .crit 4% .spd 2 .upgradeRequirementCode 1
+weapon: .name "shield_maiden_weapon_3" .atk 0% .dmg 6 13 .crit 5% .spd 2 .upgradeRequirementCode 2
+weapon: .name "shield_maiden_weapon_4" .atk 0% .dmg 7 14 .crit 6% .spd 3 .upgradeRequirementCode 3
+armour: .name "shield_maiden_armour_0" .def 5% .prot 0.05 .hp 32 .spd 0
+armour: .name "shield_maiden_armour_1" .def 10% .prot 0.05 .hp 39 .spd 0 .upgradeRequirementCode 0
+armour: .name "shield_maiden_armour_2" .def 15% .prot 0.07 .hp 46 .spd 0 .upgradeRequirementCode 1
+armour: .name "shield_maiden_armour_3" .def 20% .prot 0.07 .hp 53 .spd 0 .upgradeRequirementCode 2
+armour: .name "shield_maiden_armour_4" .def 25% .prot 0.10 .hp 60 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "cross_blade" .level 0 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 12 .target 12 .effect "Minor Self Protect 1".generation_guaranteed true
+combat_skill: .id "cross_blade" .level 1 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 12 .target 12 .effect "Minor Self Protect 1" 
+combat_skill: .id "cross_blade" .level 2 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 12 .target 12 .effect "Minor Self Protect 2"
+combat_skill: .id "cross_blade" .level 3 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 12 .target 12 .effect "Minor Self Protect 2"
+combat_skill: .id "cross_blade" .level 4 .type "melee" .atk 105% .dmg 0% .crit 6% .launch 12 .target 12 .effect "Minor Self Protect 3" 
+
+combat_skill: .id "front_guard" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 2 .self_target_valid false .launch 123 .target @~23 .is_crit_valid True  .effect "Front_clear_guard_performer" "Front_clear_guard" "Front Guard" "Front Guard Protect 1" "Self Weaken 1" "SM Self Heal 1"
+combat_skill: .id "front_guard" .level 1 .type "melee" .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 2 .self_target_valid false .launch 123 .target @~23 .is_crit_valid True  .effect "Front_clear_guard_performer" "Front_clear_guard" "Front Guard" "Front Guard Protect 1" "Self Weaken 1" "SM Self Heal 1"
+combat_skill: .id "front_guard" .level 2 .type "melee" .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 2 .self_target_valid false .launch 123 .target @~23 .is_crit_valid True  .effect "Front_clear_guard_performer" "Front_clear_guard" "Front Guard" "Front Guard Protect 1" "Self Weaken 1" "SM Self Heal 1"
+combat_skill: .id "front_guard" .level 3 .type "melee" .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 2 .self_target_valid false .launch 123 .target @~23 .is_crit_valid True  .effect "Front_clear_guard_performer" "Front_clear_guard" "Front Guard" "Front Guard Protect 1" "Self Weaken 1" "SM Self Heal 1"
+combat_skill: .id "front_guard" .level 4 .type "melee" .type "melee" .atk 0% .dmg 0% .crit 0% .move 0 2 .self_target_valid false .launch 123 .target @~23 .is_crit_valid True  .effect "Front_clear_guard_performer" "Front_clear_guard" "Front Guard" "Front Guard Protect 1" "Self Weaken 1" "SM Self Heal 1"
+
+combat_skill: .id "ram_shield" .level 0 .type "melee" .atk 80% .dmg -20% .crit 3% .move 0 2 .launch 123 .target 321 .effect "Reduce Stun Resis 1" "Ram Push 1A" "Ram Push 2A" "Ram Rank Buff"
+combat_skill: .id "ram_shield" .level 1 .type "melee" .atk 85% .dmg -20% .crit 4% .move 0 2 .launch 123 .target 321 .effect "Reduce Stun Resis 2" "Ram Push 1A" "Ram Push 2A" "Ram Rank Buff"
+combat_skill: .id "ram_shield" .level 2 .type "melee" .atk 90% .dmg -20% .crit 5% .move 0 2 .launch 123 .target 321 .effect "Reduce Stun Resis 2" "Ram Push 1B" "Ram Push 2B" "Ram Rank Buff"
+combat_skill: .id "ram_shield" .level 3 .type "melee" .atk 95% .dmg -20% .crit 6% .move 0 2 .launch 123 .target 321 .effect "Reduce Stun Resis 3" "Ram Push 1B" "Ram Push 2B" "Ram Rank Buff"
+combat_skill: .id "ram_shield" .level 4 .type "melee" .atk 100% .dmg -20% .crit 7% .move 0 2 .launch 123 .target 321 .effect "Reduce Stun Resis 3" "Ram Push 1C" "Ram Push 2C" "Ram Rank Buff"
+
+combat_skill: .id "avenger" .level 0 .type "melee" .atk 80% .dmg -70% .crit 5% .launch 123 .target 234   .effect "SM Avenger Riposte 1" "self mark"  "Lower Self Protect" "Avenger DMG Start Buff 1" 
+combat_skill: .id "avenger" .level 1 .type "melee" .atk 90% .dmg -70% .crit 6% .launch 123 .target 234  .effect "SM Avenger Riposte 2" "self mark"  "Lower Self Protect" "Avenger DMG Start Buff 1" 
+combat_skill: .id "avenger" .level 2 .type "melee" .atk 95% .dmg -70% .crit 7% .launch 123 .target 234  .effect "SM Avenger Riposte 3" "self mark"  "Lower Self Protect" "Avenger DMG Start Buff 2"
+combat_skill: .id "avenger" .level 3 .type "melee" .atk 100% .dmg -70% .crit 8% .launch 123 .target 234 .effect "SM Avenger Riposte 4" "self mark"  "Lower Self Protect" "Avenger DMG Start Buff 2"
+combat_skill: .id "avenger" .level 4 .type "melee" .atk 105% .dmg -70% .crit 9% .launch 123 .target 234 .effect "SM Avenger Riposte 5" "self mark"  "Lower Self Protect" "Avenger DMG Start Buff 3"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
+
+combat_skill: .id "guardian" .level 0 .heal 1 3 .move 0 1 .launch 1234 .target @321 .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Guardian Guard" "SM Prot Buff 1" .is_stall_invalidating false
+combat_skill: .id "guardian" .level 1 .heal 1 4 .move 0 1 .launch 1234 .target @321 .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Guardian Guard" "SM Prot Buff 1" .is_stall_invalidating false
+combat_skill: .id "guardian" .level 2 .heal 2 4 .move 0 1 .launch 1234 .target @321 .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Guardian Guard" "SM Prot Buff 1" .is_stall_invalidating false
+combat_skill: .id "guardian" .level 3 .heal 2 5 .move 0 1 .launch 1234 .target @321 .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Guardian Guard" "SM Prot Buff 1" .is_stall_invalidating false
+combat_skill: .id "guardian" .level 4 .heal 3 6 .move 0 1 .launch 1234 .target @321 .self_target_valid false .effect "Clear Guard Performer" "Clear Guard Target" "Guardian Guard" "SM Prot Buff 1" .is_stall_invalidating false
+
+combat_skill: .id "mending_touch" .level 0 .heal 3 8 .launch 4 .target @32 .self_target_valid false .per_battle_limit 2 .effect "Status Cure" "SM Mending HealStress 1" .is_stall_invalidating false
+combat_skill: .id "mending_touch" .level 1 .heal 3 9 .launch 4 .target @32 .self_target_valid false .per_battle_limit 3 .effect "Status Cure" "SM Mending HealStress 2" .is_stall_invalidating false
+combat_skill: .id "mending_touch" .level 2 .heal 4 10 .launch 4 .target @32 .self_target_valid false .per_battle_limit 2 .effect "Status Cure" "SM Mending HealStress 3" .is_stall_invalidating false
+combat_skill: .id "mending_touch" .level 3 .heal 4 11 .launch 4 .target @32 .self_target_valid false .per_battle_limit 3 .effect "Status Cure" "SM Mending HealStress 4" .is_stall_invalidating false
+combat_skill: .id "mending_touch" .level 4 .heal 5 12 .launch 4 .target @32 .self_target_valid false .per_battle_limit 4 .effect "Status Cure" "SM Mending HealStress 5" .is_stall_invalidating false
+
+combat_skill: .id "indomitable" .level 0 .type "melee" .atk 85% .dmg 0% .crit 0% .launch 1234 .target .effect "SM Resist Buff" "SM Prot Buff 1" "SM Indom HealStress 1" "SM Self Healdot 1" .is_stall_invalidating false
+combat_skill: .id "indomitable" .level 1 .type "melee" .atk 90% .dmg 0% .crit 0% .launch 1234 .target .effect "SM Resist Buff" "SM Prot Buff 2" "SM Indom HealStress 2" "SM Self Healdot 2" .is_stall_invalidating false
+combat_skill: .id "indomitable" .level 2 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 1234 .target .effect "SM Resist Buff" "SM Prot Buff 3" "SM Indom HealStress 3" "SM Self Healdot 3" .is_stall_invalidating false
+combat_skill: .id "indomitable" .level 3 .type "melee" .atk 100% .dmg 0% .crit 0% .launch 1234 .target .effect "SM Resist Buff" "SM Prot Buff 4" "SM Indom HealStress 4" "SM Self Healdot 4" .is_stall_invalidating false
+combat_skill: .id "indomitable" .level 4 .type "melee" .atk 105% .dmg 0% .crit 0% .launch 1234 .target .effect "SM Resist Buff" "SM Prot Buff 5" "SM Indom HealStress 5" "SM Self Healdot 5" .is_stall_invalidating false
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg -30% .crit 0% .launch 1234 .target 1234 
+
+
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "training_ring"
+tag: .id "altar_of_light"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+
+controlled: .target_rank 1
+
+id_index: .index 48
+
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation:  .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
+

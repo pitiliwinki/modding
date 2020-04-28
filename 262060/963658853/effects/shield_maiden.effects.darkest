@@ -1,0 +1,161 @@
+//"Shield Miaden skill effect as follow"
+//--------------------------------------------------
+
+//TEST
+//effect: .name "Get Gold" .target "performer" .curio_result_type "positive" .chance 100% .buff_type combat_stat_add .stat_sub_type add_currency .buff_amount 3 .on_hit true .on_miss true .queue true .skill_instant true
+
+
+//Cross Blade: Basic attack, add self prot
+//===========================================================
+effect: .name "Minor Self Protect 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 5%	.on_hit true .on_miss true .queue true
+effect: .name "Minor Self Protect 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 6%	.on_hit true .on_miss true .queue true
+effect: .name "Minor Self Protect 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 8%	.on_hit true .on_miss true .queue true
+
+
+
+//Front Guard:  Guard 2 and 3.  Move 2
+//===========================================================
+
+effect: .name "Front Guard"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once false
+
+effect: .name "Front_clear_guard" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .apply_once false
+
+//effect: .name "Front_clear_guard_performer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .apply_once true
+
+
+effect: .name "Front_clear_guard_performer" .target "performer" .chance 100%  .clearguarded 1 .on_hit true .on_miss true .apply_once true
+
+
+effect: .name "Front Guard Protect 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Front Guard Protect 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 11%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Front Guard Protect 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Front Guard Protect 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13%	.on_hit true .on_miss true .queue true.apply_once true
+effect: .name "Front Guard Protect 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15%	.on_hit true .on_miss true .queue true .apply_once true
+
+
+effect: .name "Self Weaken 1" .target "performer" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .damage_low_multiply -40% .damage_high_multiply -40%	.on_hit true .on_miss true .apply_once true
+effect: .name "Self Weaken 2" .target "performer" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .damage_low_multiply -37% .damage_high_multiply -37%	.on_hit true .on_miss true .apply_once true
+effect: .name "Self Weaken 3" .target "performer" .curio_result_type "negative" .chan .apply_once truece 100%  .combat_stat_buff 1 .damage_low_multiply -35% .damage_high_multiply -35%	.on_hit true .on_miss true
+
+
+effect: .name "SM Self Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue false .apply_once true
+effect: .name "SM Self Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue false.apply_once true
+effect: .name "SM Self Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue false .apply_once true
+effect: .name "SM Self Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false .queue false .apply_once true
+effect: .name "SM Self Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue false .apply_once true
+
+
+
+//Ram Shield:  Front, knock back 1 or 2
+//===========================================================
+
+effect: .name "Reduce Stun Resis 1" .target "target" .chance 100% .curio_result_type "negative" .duration 2 .buff_type resistance   .buff_sub_type stun .buff_amount -20%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Reduce Stun Resis 2" .target "target" .chance 100% .curio_result_type "negative" .duration 2 .buff_type resistance   .buff_sub_type stun .buff_amount -22%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Reduce Stun Resis 3" .target "target" .chance 100% .curio_result_type "negative" .duration 2 .buff_type resistance   .buff_sub_type stun .buff_amount -25%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+
+effect: .name "Ram Rank Buff" .target "performer" .skill_instant true .chance 100% .curio_result_type "positive" .duration 1 .buff_ids "SM_RANK3_DMG_BUFF_LOW" "SM_RANK3_DMG_BUFF_HIGH"  "SM_RANK2_DMG_BUFF_LOW" "SM_RANK2_DMG_BUFF_HIGH" .on_hit true .on_miss false  .queue true
+
+
+effect: .name "Ram Push 1A" .target "target"  .push 1 	.chance 50%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ram Push 2A" .target "target"  .push 2   .chance 50%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Ram Push 1B" .target "target"  .push 1 	.chance 60%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ram Push 2B" .target "target"  .push 2   .chance 60%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Ram Push 1C" .target "target"  .push 1 	.chance 70%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ram Push 2C" .target "target"  .push 2   .chance 70%	.on_hit true .on_miss false .can_apply_on_death true
+
+
+
+//Avenger: Rippo, incease damage buff when rippo
+//===========================================================
+
+
+effect: .name "SM Avenger Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%  .on_hit true .on_miss true .duration 3  .riposte_effect "Avenger DMG Buff 1" .apply_once true
+effect: .name "SM Avenger Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%  .on_hit true .on_miss true .duration 3    .riposte_effect "Avenger DMG Buff 1" .apply_once true
+effect: .name "SM Avenger Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%  .on_hit true .on_miss true .duration 3   .riposte_effect "Avenger DMG Buff 2" .apply_once true
+effect: .name "SM Avenger Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%  .on_hit true .on_miss true .duration 3   .riposte_effect "Avenger DMG Buff 2" .apply_once true
+effect: .name "SM Avenger Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100%  .on_hit true .on_miss true .duration 3   .riposte_effect "Avenger DMG Buff 3" .apply_once true
+
+effect: .name "Avenger DMG Buff 1"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30% .crit_chance_add 2% .on_hit true .on_miss false .queue true
+effect: .name "Avenger DMG Buff 2"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 32% .damage_high_multiply 32% .crit_chance_add 3% .on_hit true .on_miss false .queue true
+effect: .name "Avenger DMG Buff 3"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply 35% .damage_high_multiply 35% .crit_chance_add 4% .on_hit true .on_miss false .queue true
+
+
+effect: .name "Avenger DMG Start Buff 1"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply -60% .damage_high_multiply -60%  .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Avenger DMG Start Buff 2"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply -55% .damage_high_multiply -55%  .duration 3  .on_hit true .on_miss true .queue true
+
+effect: .name "Avenger DMG Start Buff 3"  .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .damage_low_multiply -50% .damage_high_multiply -50%  .duration 3 .on_hit true .on_miss true .queue true
+
+
+effect: .name "Lower Self Protect" .target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .protection_rating_add -50% .defense_rating_add -20% 	.on_hit true .on_miss true .queue true
+
+
+
+
+//Guardian: Weak heal a target, Front 1, Guard them.
+//===========================================================
+
+effect: .name "Guardian Guard"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+
+
+
+
+//Mending Touch:  Backline strong heal and stress heal.  Use twice.
+//===========================================================
+effect: .name "Status Cure" .target "target" .curio_result_type "positive" .chance 100% .cure 1 .unstun 1	.on_hit true .on_miss false
+
+effect: .name "SM Mending HealStress 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 8  .on_hit true .on_miss false .queue true
+effect: .name "SM Mending HealStress 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 9  .on_hit true .on_miss false .queue true
+effect: .name "SM Mending HealStress 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 10  .on_hit true .on_miss false .queue true
+effect: .name "SM Mending HealStress 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 11  .on_hit true .on_miss false .queue true
+effect: .name "SM Mending HealStress 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 12  .on_hit true .on_miss false .queue true
+
+
+
+//Indomitable:  Self buff Prot.  Add move, blight and bleed resist. 
+//===========================================================
+
+
+effect: .name "SM Resist Buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids medicinal_herbs_blight_resist medicinal_herbs_bleed_resist medicinal_herbs_debuff_resist .on_hit true .on_miss true .queue true
+
+
+effect: .name "SM Prot Buff 1" .target "performer" .curio_result_type "positive" .chance 100%   .combat_stat_buff 1 .protection_rating_add 15%	.on_hit true .on_miss true .queue true
+effect: .name "SM Prot Buff 2" .target "performer" .curio_result_type "positive" .chance 100%   .combat_stat_buff 1 .protection_rating_add 17%	.on_hit true .on_miss true .queue true
+effect: .name "SM Prot Buff 3" .target "performer" .curio_result_type "positive" .chance 100%   .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "SM Prot Buff 4" .target "performer" .curio_result_type "positive" .chance 100%   .combat_stat_buff 1 .protection_rating_add 22%	.on_hit true .on_miss true .queue true
+effect: .name "SM Prot Buff 5" .target "performer" .curio_result_type "positive" .chance 100%   .combat_stat_buff 1 .protection_rating_add 25%	.on_hit true .on_miss true .queue true
+
+effect: .name "Stun Resis Buff 1" .target "target" .chance 100% .curio_result_type "positive" .duration 3 .buff_type resistance   .buff_sub_type stun .buff_amount 25%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Stun Resis Buff 2" .target "target" .chance 100% .curio_result_type "positive" .duration 3 .buff_type resistance   .buff_sub_type stun .buff_amount 27%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Stun Resis Buff 3" .target "target" .chance 100% .curio_result_type "positive" .duration 3 .buff_type resistance   .buff_sub_type stun .buff_amount 30%  .on_hit true .on_miss false .can_apply_on_death true .queue true
+
+
+effect: .name "SM Indom HealStress 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6  .on_hit true .on_miss false .queue true
+effect: .name "SM Indom HealStress 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 7  .on_hit true .on_miss false .queue true
+effect: .name "SM Indom HealStress 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 8  .on_hit true .on_miss false .queue true
+effect: .name "SM Indom HealStress 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 9  .on_hit true .on_miss false .queue true
+effect: .name "SM Indom HealStress 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 10  .on_hit true .on_miss false .queue true
+
+effect: .name "SM Self Healdot 1" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 1 .duration 2	.on_hit true .on_miss true
+effect: .name "SM Self Healdot 2" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 1 .duration 3	.on_hit true .on_miss true
+effect: .name "SM Self Healdot 3" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2	.on_hit true .on_miss true
+effect: .name "SM Self Healdot 4" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "SM Self Healdot 5" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 4	.on_hit true .on_miss true
+
+
+
+
+effect: .name "self mark" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .on_hit true .on_miss true .queue true 
+
+effect: .name "Light 0" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 3	.on_hit true .on_miss true .apply_once true
+
+
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+//--------------------------------------------------
+//Shield Maiden class mod - created by Actionjack

@@ -1,0 +1,152 @@
+// Scourge Effects
+
+effect: .name "scourge_standard_self_plague_1" .target "performer" .curio_result_type "negative" .chance 200%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .queue true .apply_once true .can_apply_on_death true
+effect: .name "scourge_standard_self_plague_2" .target "performer" .curio_result_type "negative" .chance 200%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .queue true .apply_once true .can_apply_on_death true
+effect: .name "scourge_standard_self_plague_3" .target "performer" .curio_result_type "negative" .chance 200%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .queue true .apply_once true .can_apply_on_death true
+effect: .name "scourge_standard_self_plague_4" .target "performer" .curio_result_type "negative" .chance 200%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .queue true .apply_once true .can_apply_on_death true
+effect: .name "scourge_standard_self_plague_5" .target "performer" .curio_result_type "negative" .chance 200%  .dotPoison 4 .duration 6 .on_hit true .on_miss false .queue true .apply_once true .can_apply_on_death true
+
+effect: .name "abyscourge_health_debuff" .target "performer" .curio_result_type "negative" .chance 100% .tag 1 .combat_stat_buff 1 .max_hp_multiply -33% .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "abyscourge_dmg_debuff" .target "performer" .curio_result_type "negative" .chance 100% .tag 1 .combat_stat_buff 1 .damage_low_multiply -33% .damage_high_multiply -33% .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+
+// Plague Strike
+
+effect: .name "pstrike_plague_transfer" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .swap_source_and_target true .on_hit true .on_miss false .queue true .has_description false
+effect: .name "death_transfer_enemy" .target "target_group_other" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .swap_source_and_target true .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "pstrike_rngpoisontake_1" .target "target_group" .curio_result_type "positive" .chance 10% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "pstrike_rngpoisontake_2" .target "target_group" .curio_result_type "positive" .chance 15% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "pstrike_rngpoisontake_3" .target "target_group" .curio_result_type "positive" .chance 20% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "pstrike_rngpoisontake_4" .target "target_group" .curio_result_type "positive" .chance 25% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "pstrike_rngpoisontake_5" .target "target_group" .curio_result_type "positive" .chance 30% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "pstrike_custom_tooltip_1" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transfertarget" "scrg_tt_transferother_1" .on_hit true .on_miss false .apply_once true
+effect: .name "pstrike_custom_tooltip_2" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transfertarget" "scrg_tt_transferother_2" .on_hit true .on_miss false .apply_once true
+effect: .name "pstrike_custom_tooltip_3" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transfertarget" "scrg_tt_transferother_3" .on_hit true .on_miss false .apply_once true
+effect: .name "pstrike_custom_tooltip_4" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transfertarget" "scrg_tt_transferother_4" .on_hit true .on_miss false .apply_once true
+effect: .name "pstrike_custom_tooltip_5" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transfertarget" "scrg_tt_transferother_5" .on_hit true .on_miss false .apply_once true
+
+effect: .name "pstrike_debuff_1" .target "target" .chance 100% .buff_ids "SCOURGE_BLIGHTRESIST_DBF_1" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "pstrike_debuff_2" .target "target" .chance 110% .buff_ids "SCOURGE_BLIGHTRESIST_DBF_2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "pstrike_debuff_3" .target "target" .chance 120% .buff_ids "SCOURGE_BLIGHTRESIST_DBF_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "pstrike_debuff_4" .target "target" .chance 130% .buff_ids "SCOURGE_BLIGHTRESIST_DBF_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "pstrike_debuff_5" .target "target" .chance 140% .buff_ids "SCOURGE_BLIGHTRESIST_DBF_5" .duration 3 .on_hit true .on_miss false .queue true
+
+
+// Noxious Raze
+
+effect: .name "nox_plague_1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 4 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "nox_plague_extra_1" .target "target_group_other" .curio_result_type "negative" .chance 50%   .dotPoison 1 .duration 6 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_extra_2" .target "target_group_other" .curio_result_type "negative" .chance 60%   .dotPoison 1 .duration 6 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_extra_3" .target "target_group_other" .curio_result_type "negative" .chance 70%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_extra_4" .target "target_group_other" .curio_result_type "negative" .chance 80%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "nox_plague_extra_5" .target "target_group_other" .curio_result_type "negative" .chance 90%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+
+
+// Excoriate
+
+effect: .name "excor_amplify_1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 200% .damage_high_multiply 200% .on_hit true .on_miss false .queue true
+effect: .name "excor_amplify_2" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 250% .damage_high_multiply 250% .on_hit true .on_miss false .queue true
+effect: .name "excor_amplify_3" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 300% .damage_high_multiply 300% .on_hit true .on_miss false .queue true
+effect: .name "excor_amplify_4" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 350% .damage_high_multiply 350% .on_hit true .on_miss false .queue true
+effect: .name "excor_amplify_5" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 400% .damage_high_multiply 400% .on_hit true .on_miss false .queue true
+
+effect: .name "excor_debuff_1" .target "target" .chance 100% .buff_ids SPD-1 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "excor_debuff_2" .target "target" .chance 110% .buff_ids SPD-2 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "excor_debuff_3" .target "target" .chance 120% .buff_ids SPD-3 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "excor_debuff_4" .target "target" .chance 130% .buff_ids SPD-4 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "excor_debuff_5" .target "target" .chance 140% .buff_ids SPD-5 .duration 3 .on_hit true .on_miss false .queue true
+
+effect: .name "excor_buff_1" .target "performer" .chance 100% .buff_ids SCOURGE_EXCOR_DMGTAKEN_1 .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "excor_buff_2" .target "performer" .chance 110% .buff_ids SCOURGE_EXCOR_DMGTAKEN_2 .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "excor_buff_3" .target "performer" .chance 120% .buff_ids SCOURGE_EXCOR_DMGTAKEN_3 .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "excor_buff_4" .target "performer" .chance 130% .buff_ids SCOURGE_EXCOR_DMGTAKEN_4 .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "excor_buff_5" .target "performer" .chance 140% .buff_ids SCOURGE_EXCOR_DMGTAKEN_5 .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "excor_transfer" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "excor_custom_tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transferself" .on_hit true .on_miss false .apply_once true
+
+// Abyssal Grip
+
+effect: .name "abygrip_amplify_1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "abygrip_amplify_2" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
+effect: .name "abygrip_amplify_3" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 150% .damage_high_multiply 150% .on_hit true .on_miss false
+effect: .name "abygrip_amplify_4" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 200% .damage_high_multiply 200% .on_hit true .on_miss false
+effect: .name "abygrip_amplify_5" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "poisoned" .combat_stat_buff 1 .damage_low_multiply 250% .damage_high_multiply 250% .on_hit true .on_miss false
+ 
+effect: .name "abygrip_team_stress_1" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abygrip_team_stress_2" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 7	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abygrip_team_stress_3" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 8	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abygrip_team_stress_4" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 9	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abygrip_team_stress_5" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 10	.on_hit true .on_miss false	.queue true .apply_once true
+
+// Abyssal Point
+
+effect: .name "abypoint_plague_1" .target "target" .curio_result_type "negative" .chance 500%  .dotPoison 3 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "abypoint_plague_2" .target "target" .curio_result_type "negative" .chance 500%  .dotPoison 4 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "abypoint_plague_3" .target "target" .curio_result_type "negative" .chance 500%  .dotPoison 5 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "abypoint_plague_4" .target "target" .curio_result_type "negative" .chance 500%  .dotPoison 6 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "abypoint_plague_5" .target "target" .curio_result_type "negative" .chance 500%  .dotPoison 7 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "abypoint_team_stress_1" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abypoint_team_stress_2" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 7	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abypoint_team_stress_3" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 8	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abypoint_team_stress_4" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 9	.on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "abypoint_team_stress_5" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 10 .on_hit true .on_miss false	.queue true .apply_once true
+
+effect: .name "abypoint_self_plague_1" .target "performer_group" .curio_result_type "negative" .chance 200%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "abypoint_self_plague_2" .target "performer_group" .curio_result_type "negative" .chance 200%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "abypoint_self_plague_3" .target "performer_group" .curio_result_type "negative" .chance 200%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "abypoint_self_plague_4" .target "performer_group" .curio_result_type "negative" .chance 200%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+effect: .name "abypoint_self_plague_5" .target "performer_group" .curio_result_type "negative" .chance 200%  .dotPoison 3 .duration 3 	.on_hit true .on_miss false .can_apply_on_death true .apply_once true
+
+// Ultimate Block
+
+effect: .name "aby_ult_block" .target "performer" .chance 100% .buff_ids "SCOURGE_DISABLE_STRESS" .on_hit true .on_miss false .apply_once true
+
+// Purge
+
+effect: .name "purge_transfer" .target "performer_group_other" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true .has_description false
+effect: .name "purge_custom_tooltip" .target "performer" .chance 100% .skill_instant true .buff_ids "scrg_tt_transferally" .on_hit true .on_miss false .apply_once true
+
+effect: .name "purge_cure_poison_1" .target "target" .curio_result_type "positive" .chance 90% .cure_poison 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_poison_2" .target "target" .curio_result_type "positive" .chance 92% .cure_poison 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_poison_3" .target "target" .curio_result_type "positive" .chance 95% .cure_poison 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_poison_4" .target "target" .curio_result_type "positive" .chance 97% .cure_poison 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_poison_5" .target "target" .curio_result_type "positive" .chance 100% .cure_poison 1 .on_hit true .on_miss false .queue true
+
+effect: .name "purge_cure_disease_1" .target "target" .curio_result_type "positive" .chance 4% .cure_disease 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_disease_2" .target "target" .curio_result_type "positive" .chance 5% .cure_disease 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_disease_3" .target "target" .curio_result_type "positive" .chance 6% .cure_disease 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_disease_4" .target "target" .curio_result_type "positive" .chance 7% .cure_disease 1 .on_hit true .on_miss false .queue true
+effect: .name "purge_cure_disease_5" .target "target" .curio_result_type "positive" .chance 8% .cure_disease 1 .on_hit true .on_miss false .queue true
+
+effect: .name "purge_debuff_1" .target "target" .chance 100% .buff_ids SCOURGE_DEBUFF_POISON_AMOUNT_1 SCOURGE_DLOCKDMGH-80 SCOURGE_DLOCKDMGL-80 .duration 2 .on_hit true .on_miss false
+effect: .name "purge_debuff_2" .target "target" .chance 100% .buff_ids SCOURGE_DEBUFF_POISON_AMOUNT_2 SCOURGE_DLOCKDMGH-75 SCOURGE_DLOCKDMGL-75 .duration 2 .on_hit true .on_miss false
+effect: .name "purge_debuff_3" .target "target" .chance 100% .buff_ids SCOURGE_DEBUFF_POISON_AMOUNT_3 SCOURGE_DLOCKDMGH-70 SCOURGE_DLOCKDMGL-70 .duration 2 .on_hit true .on_miss false
+effect: .name "purge_debuff_4" .target "target" .chance 100% .buff_ids SCOURGE_DEBUFF_POISON_AMOUNT_4 SCOURGE_DLOCKDMGH-65 SCOURGE_DLOCKDMGL-65 .duration 2 .on_hit true .on_miss false
+effect: .name "purge_debuff_5" .target "target" .chance 100% .buff_ids SCOURGE_DEBUFF_POISON_AMOUNT_5 SCOURGE_DLOCKDMGH-60 SCOURGE_DLOCKDMGL-60 .duration 2 .on_hit true .on_miss false
+
+// Deathlock
+
+effect: .name "deathlock_guard_1" .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+effect: .name "deathlock_guard_2" .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+effect: .name "deathlock_guard_3" .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+effect: .name "deathlock_guard_4" .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+effect: .name "deathlock_guard_5" .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 2 .apply_once true
+
+effect: .name "deathlock_clear_guard" .target "performer_group" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .apply_once true .has_description false
+
+effect: .name "deathlock_buffdebuff_1" .target "performer" .chance 100% .buff_ids SCOURGE_DLOCKPROT20 SCOURGE_DEBUFF_POISON_DURATION_1 SCOURGE_DEF_DBF_1 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "deathlock_buffdebuff_2" .target "performer" .chance 100% .buff_ids SCOURGE_DLOCKPROT25 SCOURGE_DEBUFF_POISON_DURATION_2 SCOURGE_DEF_DBF_2 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "deathlock_buffdebuff_3" .target "performer" .chance 100% .buff_ids SCOURGE_DLOCKPROT30 SCOURGE_DEBUFF_POISON_DURATION_3 SCOURGE_DEF_DBF_3 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "deathlock_buffdebuff_4" .target "performer" .chance 100% .buff_ids SCOURGE_DLOCKPROT35 SCOURGE_DEBUFF_POISON_DURATION_4 SCOURGE_DEF_DBF_4 .duration 2 .on_hit true .on_miss false .apply_once true
+effect: .name "deathlock_buffdebuff_5" .target "performer" .chance 100% .buff_ids SCOURGE_DLOCKPROT40 SCOURGE_DEBUFF_POISON_DURATION_5 SCOURGE_DEF_DBF_5 .duration 2 .on_hit true .on_miss false .apply_once true
+
+// Weapon Effects
+effect: .name "Bracer Thorns" .target "performer" .chance 100% .buff_ids SCOURGE_COM_WEFFECT_REFLECT .duration 6 .on_hit true .on_miss false .queue true .apply_once true

@@ -1,0 +1,26 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "witcher_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "witcher_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "witcher_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "witcher_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "witcher_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "witcher_armour_0" .icon "eqp_armour_0.png"
+armour: .name "witcher_armour_1" .icon "eqp_armour_1.png"
+armour: .name "witcher_armour_2" .icon "eqp_armour_2.png"
+armour: .name "witcher_armour_3" .icon "eqp_armour_3.png"
+armour: .name "witcher_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "style" .icon "one"
+combat_skill: .id "steel_sword" .icon "two" .anim "attack_melee" .fx "finish_him" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "silver_sword" .icon "three" .anim "attack_axe" .fx "collect_bounty" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "potion" .icon "four" .anim "attack_potion" .fx "toxin_trickery"
+combat_skill: .id "aard" .icon "five" .anim "attack_ranged" .targfx "manacles_target" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "axii" .icon "six" .anim "attack_point" .targchestfx "stunning_blow_target" .condensed_tooltip_stats true .condensed_tooltip_effects true
+combat_skill: .id "quen" .icon "seven" .anim "attack_scroll"
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+riposte_skill: .id "riposte1" .anim "attack_axe" .fx "collect_bounty" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "attack_melee" .attack_friendly_fx "finish_him" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/witcher_steel_sword"
