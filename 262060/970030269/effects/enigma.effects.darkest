@@ -1,0 +1,163 @@
+// Enigma Effects
+
+effect: .name "enigma_stealth_remove" .target "target" .chance 100% .unstealth 1 .on_hit true .on_miss false
+
+//Fracture Rage Passive
+
+effect: .name "enigma_healrcv_debuff" .target "performer" .buff_ids ENIGMA_HEALRCVD-50_B95 .on_hit true .on_miss false
+effect: .name "enigma_fracture_1" .target "performer" .buff_ids ENIGMA_PROT-20_B66 .on_hit true .on_miss false
+effect: .name "enigma_fracture_2" .target "performer" .buff_ids ENIGMA_PROT-20_B33 .on_hit true .on_miss false
+
+// Mystic Bolt
+
+effect: .name "mystic_stun_1" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "mystic_stun_2" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "mystic_stun_3" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "mystic_stun_4" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "mystic_stun_5" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "mystic_bleed_1" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "mystic_bleed_2" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 5 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "mystic_bleed_3" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 6 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "mystic_bleed_4" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 7 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "mystic_bleed_5" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 8 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "mystic_stunkill_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 30% .damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "mystic_stunkill_2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 35% .damage_high_multiply 35%	.on_hit true .on_miss false
+effect: .name "mystic_stunkill_3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 40% .damage_high_multiply 40%	.on_hit true .on_miss false
+effect: .name "mystic_stunkill_4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 45% .damage_high_multiply 45%	.on_hit true .on_miss false
+effect: .name "mystic_stunkill_5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 50% .damage_high_multiply 50%	.on_hit true .on_miss false
+
+// Illusionary Sword
+effect: .name "illu_sword_bleed_1" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_sword_bleed_2" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_sword_bleed_3" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_sword_bleed_4" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 5 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_sword_bleed_5" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 6 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "illu_sword_bleedkill_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "illu_sword_bleedkill_2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "illu_sword_bleedkill_3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "illu_sword_bleedkill_4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "illu_sword_bleedkill_5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+effect: .name "illu_debuff1" .target target .chance 0% .buff_ids "ENIGMA_DMG_RECEIVED_1" "ENIGMA_BLOCK_GUARD" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "illu_debuff2" .target target .chance 0% .buff_ids "ENIGMA_DMG_RECEIVED_2" "ENIGMA_BLOCK_GUARD" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "illu_debuff3" .target target .chance 0% .buff_ids "ENIGMA_DMG_RECEIVED_3" "ENIGMA_BLOCK_GUARD" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "illu_debuff4" .target target .chance 0% .buff_ids "ENIGMA_DMG_RECEIVED_4" "ENIGMA_BLOCK_GUARD" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "illu_debuff5" .target target .chance 0% .buff_ids "ENIGMA_DMG_RECEIVED_5" "ENIGMA_BLOCK_GUARD" .duration 3 .on_hit true .on_miss false .queue true
+
+// Phantasmal Pistol
+effect: .name "phan_pistol_debuff_1" .target "target" .chance 0% .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .crit_chance_add -5% .speed_rating_add -1 .duration 3 .on_hit true .on_miss false
+effect: .name "phan_pistol_debuff_2" .target "target" .chance 0% .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .crit_chance_add -7% .speed_rating_add -2 .duration 3 .on_hit true .on_miss false
+effect: .name "phan_pistol_debuff_3" .target "target" .chance 0% .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .crit_chance_add -10% .speed_rating_add -3 .duration 3 .on_hit true .on_miss false
+effect: .name "phan_pistol_debuff_4" .target "target" .chance 0% .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .crit_chance_add -12% .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "phan_pistol_debuff_5" .target "target" .chance 0% .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .crit_chance_add -15% .speed_rating_add -5 .duration 3 .on_hit true .on_miss false
+
+effect: .name "illu_pistol_bleed_1" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_pistol_bleed_2" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_pistol_bleed_3" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_pistol_bleed_4" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "illu_pistol_bleed_5" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 5 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+
+// Delusional Exertion
+
+effect: .name "del_exe_debuff_1" .target "target" .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .defense_rating_add -10% .protection_rating_add -10% .duration 3 .on_hit true .on_miss false
+effect: .name "del_exe_debuff_2" .target "target" .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .defense_rating_add -12% .protection_rating_add -12% .duration 3 .on_hit true .on_miss false
+effect: .name "del_exe_debuff_3" .target "target" .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .defense_rating_add -15% .protection_rating_add -15% .duration 3 .on_hit true .on_miss false
+effect: .name "del_exe_debuff_4" .target "target" .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .defense_rating_add -17% .protection_rating_add -17% .duration 3 .on_hit true .on_miss false
+effect: .name "del_exe_debuff_5" .target "target" .curio_result_type "negative" .chance 0% .combat_stat_buff 1 .defense_rating_add -20% .protection_rating_add -20% .duration 3 .on_hit true .on_miss false
+
+effect: .name "del_exe_stun_1" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "del_exe_stun_2" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "del_exe_stun_3" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "del_exe_stun_4" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "del_exe_stun_5" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+
+
+// Unusual Dynamism
+
+effect: .name "unu_dyna_stressheal_1" .target "target" .curio_result_type "positive" .chance 50% .healstress 4 .on_hit true .on_miss false .queue true
+effect: .name "unu_dyna_stressheal_2" .target "target" .curio_result_type "positive" .chance 50% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "unu_dyna_stressheal_3" .target "target" .curio_result_type "positive" .chance 50% .healstress 6 .on_hit true .on_miss false .queue true
+effect: .name "unu_dyna_stressheal_4" .target "target" .curio_result_type "positive" .chance 50% .healstress 7 .on_hit true .on_miss false .queue true
+effect: .name "unu_dyna_stressheal_5" .target "target" .curio_result_type "positive" .chance 50% .healstress 8 .on_hit true .on_miss false .queue true
+
+// Arcane Fervor
+
+effect: .name "arc_fervor_group_buff_1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_FERVORGRPDMGL5_1 ENIGMA_FERVORGRPDMGH5_1 .duration 4 .on_hit true .on_miss false .queue true
+effect: .name "arc_fervor_group_buff_2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_FERVORGRPDMGL5_2 ENIGMA_FERVORGRPDMGH5_2 .duration 5 .on_hit true .on_miss false .queue true
+effect: .name "arc_fervor_group_buff_3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_FERVORGRPDMGL5_3 ENIGMA_FERVORGRPDMGH5_3 .duration 6 .on_hit true .on_miss false .queue true
+effect: .name "arc_fervor_group_buff_4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_FERVORGRPDMGL5_4 ENIGMA_FERVORGRPDMGH5_4 .duration 7 .on_hit true .on_miss false .queue true
+effect: .name "arc_fervor_group_buff_5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_FERVORGRPDMGL5_5 ENIGMA_FERVORGRPDMGH5_5 .duration 8 .on_hit true .on_miss false .queue true
+
+effect: .name "arc_fervor_dmgbuff_1" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ARC_DMGBUFFDMGH_1 ENIGMA_ARC_DMGBUFFDMGL_1 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_dmgbuff_2" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ARC_DMGBUFFDMGH_2 ENIGMA_ARC_DMGBUFFDMGL_2 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_dmgbuff_3" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ARC_DMGBUFFDMGH_3 ENIGMA_ARC_DMGBUFFDMGL_3 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_dmgbuff_4" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ARC_DMGBUFFDMGH_4 ENIGMA_ARC_DMGBUFFDMGL_4 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_dmgbuff_5" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ARC_DMGBUFFDMGH_5 ENIGMA_ARC_DMGBUFFDMGL_5 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "arc_fervor_bleedbuff_1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ARC_BLEEDBUFF_1 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_bleedbuff_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ARC_BLEEDBUFF_2 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_bleedbuff_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ARC_BLEEDBUFF_3 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_bleedbuff_4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ARC_BLEEDBUFF_4 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_bleedbuff_5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ARC_BLEEDBUFF_5 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "arc_fervor_healbuff_1" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ARC_HEALBUFF_1 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_healbuff_2" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ARC_HEALBUFF_2 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_healbuff_3" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ARC_HEALBUFF_3 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_healbuff_4" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ARC_HEALBUFF_4 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "arc_fervor_healbuff_5" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ARC_HEALBUFF_5 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+
+// Esoteric Barrier
+
+effect: .name "eso_barrier_group_buff_1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESOTERICPROT5_1 .duration 4 .on_hit true .on_miss false .queue true
+effect: .name "eso_barrier_group_buff_2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESOTERICPROT5_2 .duration 5 .on_hit true .on_miss false .queue true
+effect: .name "eso_barrier_group_buff_3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESOTERICPROT5_3 .duration 6 .on_hit true .on_miss false .queue true
+effect: .name "eso_barrier_group_buff_4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESOTERICPROT5_4 .duration 7 .on_hit true .on_miss false .queue true
+effect: .name "eso_barrier_group_buff_5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESOTERICPROT5_5 .duration 8 .on_hit true .on_miss false .queue true
+
+effect: .name "eso_barrier_debuffbuff_1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESO_DBFBUFF_1 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_debuffbuff_2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESO_DBFBUFF_2 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_debuffbuff_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESO_DBFBUFF_3 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_debuffbuff_4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESO_DBFBUFF_4 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_debuffbuff_5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids ENIGMA_ESO_DBFBUFF_5 ENIGMA_DISABLE_BUFF .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "eso_barrier_stunbuff_1" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ESO_STUNBUFF_1 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_stunbuff_2" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ESO_STUNBUFF_2 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_stunbuff_3" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ESO_STUNBUFF_3 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_stunbuff_4" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ESO_STUNBUFF_4 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_stunbuff_5" .target "performer" .curio_result_type "positive" .chance 75% .buff_ids ENIGMA_ESO_STUNBUFF_5 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "eso_barrier_critbuff_1" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ESO_CRITBUFF_1 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_critbuff_2" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ESO_CRITBUFF_2 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_critbuff_3" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ESO_CRITBUFF_3 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_critbuff_4" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ESO_CRITBUFF_4 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "eso_barrier_critbuff_5" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids ENIGMA_ESO_CRITBUFF_5 .duration 1 .on_hit true .on_miss false .queue true .apply_once true
+
+
+// Fragments Of Power
+
+effect: .name "fragment_of_potential" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_DMGH_FRAGMENT ENIGMA_DMGL_FRAGMENT 
+effect: .name "fragment_of_endurance" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_HP_FRAGMENT 
+effect: .name "fragment_of_efficiency" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_CRIT_FRAGMENT
+effect: .name "fragment_of_evasion" .target "performer" .item 1 .chance 100% .buff_ids  ENIGMA_DEF_FRAGMENT
+effect: .name "fragment_of_protection" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_PROT_FRAGMENT
+effect: .name "fragment_of_speed" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_SPEED_FRAGMENT
+effect: .name "fragment_of_precision" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_ACC_FRAGMENT
+effect: .name "fragment_of_vitality" .target "performer" .item 1 .chance 100% .dotHpHeal 2 .duration 10 .is_crit_valid False
+
+effect: .name "fragment_of_potential_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_DMGH_FRAGMENT_2 ENIGMA_DMGL_FRAGMENT_2
+effect: .name "fragment_of_endurance_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_HP_FRAGMENT_2 
+effect: .name "fragment_of_efficiency_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_CRIT_FRAGMENT_2
+effect: .name "fragment_of_evasion_2" .target "performer" .item 1 .chance 100% .buff_ids  ENIGMA_DEF_FRAGMENT_2
+effect: .name "fragment_of_protection_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_PROT_FRAGMENT_2
+effect: .name "fragment_of_speed_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_SPEED_FRAGMENT_2
+effect: .name "fragment_of_precision_2" .target "performer" .item 1 .chance 100% .buff_ids ENIGMA_ACC_FRAGMENT_2
+effect: .name "fragment_of_vitality_2" .target "performer" .item 1 .chance 100% .dotHpHeal 3 .duration 10 .is_crit_valid False
+
+
+// COM Trinket Effect
+effect: .name "Crystal Empowerment" .target "target_group" .curio_result_type "negative" .chance 500% .combat_stat_buff 1 .damage_low_multiply -5%	.damage_high_multiply -5% .duration 5 .on_hit true .on_miss false .queue true .apply_once true

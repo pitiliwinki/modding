@@ -1,0 +1,117 @@
+effect: .name "aco_on_crit_buff" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids aco_on_crit_buff .duration 2 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Aco CoM Use Torch" .target "performer" .use_item_type supply .use_item_id torch .chance 100% .on_hit true .on_miss true .queue false .apply_once true
+effect: .name "Aco CoM Reduce Torch" .target "global" .torch_decrease 15  .chance 100% .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Aco CoM Stress Heal" .target "target" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true
+
+effect: .name "Aco_Heal_Self_ActOut" .target "performer" .chance 100% .heal 1 .dotHpHeal 1 .duration 3 .on_hit true .on_miss false .source_heal_type act_out .dotSource bsrc_companion .initiative_change -1 .queue true
+
+//Arrow
+effect: .name "Aco_Dmg_1" .target "performer" .skill_instant true .duration 1 .buff_ids aco_1DMGHbuff2 aco_1DMGLbuff2 aco_1DMGHbuff aco_1DMGLbuff aco_1CRTbuff aco_1CRTbuff2 .on_hit true .on_miss false
+effect: .name "Aco_Dmg_2" .target "performer" .skill_instant true .duration 1 .buff_ids aco_2DMGHbuff2 aco_2DMGLbuff2 aco_2DMGHbuff aco_2DMGLbuff aco_2CRTbuff aco_2CRTbuff2 .on_hit true .on_miss false
+effect: .name "Aco_Dmg_3" .target "performer" .skill_instant true .duration 1 .buff_ids aco_3DMGHbuff2 aco_3DMGLbuff2 aco_3DMGHbuff aco_3DMGLbuff aco_3CRTbuff aco_3CRTbuff2 .on_hit true .on_miss false
+effect: .name "Aco_Dmg_4" .target "performer" .skill_instant true .duration 1 .buff_ids aco_4DMGHbuff2 aco_4DMGLbuff2 aco_4DMGHbuff aco_4DMGLbuff aco_4CRTbuff aco_4CRTbuff2 .on_hit true .on_miss false
+effect: .name "Aco_Dmg_5" .target "performer" .skill_instant true .duration 1 .buff_ids aco_5DMGHbuff2 aco_5DMGLbuff2 aco_5DMGHbuff aco_5DMGLbuff aco_5CRTbuff aco_5CRTbuff2 .on_hit true .on_miss false
+
+//Diseases for Snakes, Party_Heal, Mirage's Riposte Heal
+effect: .name "Aco_Disease" .target "target" .chance 4% .disease acolyte_disease .on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "Aco_Disease_AOE" .target "target" .chance 3% .disease acolyte_disease .on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+
+//self debuff for every target healed
+effect: .name "Aco_Deb_Self" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .apply_once true
+effect: .name "Aco_Deb_AOE_Self" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .apply_once true
+
+//Party Heal
+effect: .name "Aco_Heal_AOE_1" .target "target" .chance 85% .heal 0 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target .dotSource bsrc_companion
+effect: .name "Aco_Heal_AOE_2" .target "target" .chance 85% .heal 1 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target .dotSource bsrc_companion
+effect: .name "Aco_Heal_AOE_3" .target "target" .chance 85% .heal 1 .dotHpHeal 1 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target .dotSource bsrc_companion
+effect: .name "Aco_Heal_AOE_4" .target "target" .chance 85% .heal 1 .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target .dotSource bsrc_companion
+effect: .name "Aco_Heal_AOE_5" .target "target" .chance 85% .heal 1 .dotHpHeal 2 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill_multi_target .dotSource bsrc_companion
+
+//focus_heal
+effect: .name "Aco_Heal_1" .target "target" .chance 100% .heal 0 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_2" .target "target" .chance 100% .heal 1 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_3" .target "target" .chance 100% .heal 1 .dotHpHeal 1 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_4" .target "target" .chance 100% .heal 1 .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_5" .target "target" .chance 100% .heal 1 .dotHpHeal 2 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+
+//snakes self heal
+effect: .name "Aco_Heal_Self_1" .target "performer" .chance 100% .heal 0 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_Self_2" .target "performer" .chance 100% .heal 1 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_Self_3" .target "performer" .chance 100% .heal 1 .dotHpHeal 1 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_Self_4" .target "performer" .chance 100% .heal 1 .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+effect: .name "Aco_Heal_Self_5" .target "performer" .chance 100% .heal 1 .dotHpHeal 2 .duration 3 .on_hit true .on_miss false .source_heal_type hero_skill .dotSource bsrc_companion
+
+//blight
+effect: .name "Aco_Blight_1" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aco_Blight_2" .target "target" .chance 110% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aco_Blight_3" .target "target" .chance 120% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aco_Blight_4" .target "target" .chance 130% .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aco_Blight_5" .target "target" .chance 140% .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+
+//Focus_Heal
+effect: .name "Aco_Steal_Heal" .target "performer_group_other" .curio_result_type "negative" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false .queue true
+effect: .name "Aco_Transfer_Heal" .target "target" .curio_result_type "positive" .chance 100% .swap_source_and_target true .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Aco_Steal_Blight" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue false
+
+//Overcharge
+effect: .name "Aco_OC" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 1 .buff_ids aco_tooltip_action .duration 1 .apply_once true .on_hit true .on_miss true .queue true
+//debuff
+effect: .name "Aco_OCD_1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCD_2" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCD_3" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCD_4" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCD_5" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .duration 3 .on_hit true .on_miss false
+//debuff self
+effect: .name "Aco_OCDS_1" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCDS_2" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCDS_3" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCDS_4" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .duration 3 .on_hit true .on_miss false
+effect: .name "Aco_OCDS_5" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .duration 3 .on_hit true .on_miss false
+//stress
+effect: .name "Aco_Horror_1" .target "target" .chance 100% .dotStress 2 .duration 2 .on_hit true .on_miss false
+effect: .name "Aco_Horror_2" .target "target" .chance 100% .dotStress 2 .duration 2 .on_hit true .on_miss false
+effect: .name "Aco_Horror_3" .target "target" .chance 100% .dotStress 3 .duration 2 .on_hit true .on_miss false
+effect: .name "Aco_Horror_4" .target "target" .chance 100% .dotStress 3 .duration 2 .on_hit true .on_miss false
+effect: .name "Aco_Horror_5" .target "target" .chance 100% .dotStress 4 .duration 2 .on_hit true .on_miss false
+
+//Sun Ray
+effect: .name "Aco_Transfer_Effects" .target "target" .chance 100% .swap_source_and_target true .steal_buff_source_type bsrc_skill .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Aco_Clear_Self" .target "performer" .chance 100% .steal_buff_source_type bsrc_skill .on_hit true .on_miss false .has_description false
+
+effect: .name "Aco_Dark" .target "global" .chance 100% .torch_decrease 10 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Aco_Light" .target "global" .chance 100% .torch_increase 10 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Aco_Random_Target" .target "performer" .skill_instant true .duration 1 .buff_ids aco_random_target aco_random_target_tooltip .on_hit true .on_miss false
+
+
+//Summon Mirage
+effect: .name "aco_kill_corpse" .target "target_enemy_group" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss true .can_apply_on_death true .apply_once true
+effect: .name "aco_kill_mirage" .target "target_enemy_group" .chance 100% .kill_enemy_types mirage .on_hit true .on_miss true .can_apply_on_death true .has_description false .apply_once true
+
+effect: .name "Aco_Summon_1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters mirage_A .summon_chances 1.0 .summon_limits 2 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Aco_Summon_2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters mirage_B .summon_chances 1.0 .summon_limits 2 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Aco_Summon_3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters mirage_C .summon_chances 1.0 .summon_limits 2 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Aco_Summon_4" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters mirage_D .summon_chances 1.0 .summon_limits 2 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Aco_Summon_5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters mirage_E .summon_chances 1.0 .summon_limits 2 .summon_ranks 4 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true .queue true
+
+//Mirage's Healing Skill
+effect: .name "Mirage DOT Heal 1" .target "target" .chance 100% .heal 0 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type monster_skill .dotSource bsrc_companion
+effect: .name "Mirage DOT Heal 2" .target "target" .chance 100% .heal 1 .dotHpHeal 1 .duration 2 .on_hit true .on_miss false .source_heal_type monster_skill .dotSource bsrc_companion
+effect: .name "Mirage DOT Heal 3" .target "target" .chance 100% .heal 1 .dotHpHeal 1 .duration 3 .on_hit true .on_miss false .source_heal_type monster_skill .dotSource bsrc_companion
+effect: .name "Mirage DOT Heal 4" .target "target" .chance 100% .heal 1 .dotHpHeal 2 .duration 2 .on_hit true .on_miss false .source_heal_type monster_skill .dotSource bsrc_companion
+effect: .name "Mirage DOT Heal 5" .target "target" .chance 100% .heal 1 .dotHpHeal 2 .duration 3 .on_hit true .on_miss false .source_heal_type monster_skill .dotSource bsrc_companion
+effect: .name "Mirage DOT Blight 1" .target "target" .chance 100% .health_damage 1 .dotPoison 1 .duration 2 .on_hit true .on_miss false
+effect: .name "Mirage DOT Blight 2" .target "target" .chance 110% .health_damage 1 .dotPoison 1 .duration 2 .on_hit true .on_miss false
+effect: .name "Mirage DOT Blight 3" .target "target" .chance 120% .health_damage 2 .dotPoison 2 .duration 2 .on_hit true .on_miss false
+effect: .name "Mirage DOT Blight 4" .target "target" .chance 130% .health_damage 2 .dotPoison 2 .duration 2 .on_hit true .on_miss false
+effect: .name "Mirage DOT Blight 5" .target "target" .chance 140% .health_damage 3 .dotPoison 3 .duration 2 .on_hit true .on_miss false
+effect: .name "Mirage Self Damage 1" .target "performer" .chance 100% .health_damage 2 .on_hit true .on_miss false .queue true
+effect: .name "Mirage Self Damage 2" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss false .queue true
+effect: .name "Mirage Self Damage 3" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss false .queue true
+effect: .name "Mirage Self Damage 4" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss false .queue true
+effect: .name "Mirage Self Damage 5" .target "performer" .chance 100% .health_damage 7 .on_hit true .on_miss false .queue true
+
+effect: .name "Mirage Spawn Buffs" .target "performer" .chance 100% .buff_ids mirage_tooltip mirage_no_crits mirage_lifesteal_reduction .duration -1 .on_hit true .on_miss true .buff_source_type bsrc_town_event
+
+//http://steamcommunity.com/sharedfiles/filedetails/?id=971313538

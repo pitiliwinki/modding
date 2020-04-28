@@ -1,0 +1,6 @@
+commonfx: .deathfx death_corpse_medium
+skill: .id "sunray" .anim "attack_heal" .fx "wyrd_reconstruction" .targfx "battlefield_bandage_target" .custom_target_anim combat
+skill: .id "sunburn" .anim "attack_heal" .fx "wyrd_reconstitution" .targfx "blight" .custom_target_anim defend
+riposte_skill: .id "riposte1" .anim "attack_heal" .fx "wyrd_reconstruction" .targfx "battlefield_bandage_target"
+health_bar: .type "corpse"
+display_modifier: .disable_halos true .disabled_popup_text_types resist

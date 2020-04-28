@@ -1,0 +1,58 @@
+resistances: .stun 50% .poison 40% .bleed 20% .disease 40% .move 20% .debuff 10% .death_blow 67% .trap 30%
+crit: .effects "aco_on_crit_buff"
+weapon: .name "acolyte_weapon_0" .atk 0% .dmg 4 8 .crit 2% .spd 5
+weapon: .name "acolyte_weapon_1" .atk 0% .dmg 5 10 .crit 3% .spd 5 .upgradeRequirementCode 0
+weapon: .name "acolyte_weapon_2" .atk 0% .dmg 6 12 .crit 4% .spd 6 .upgradeRequirementCode 1
+weapon: .name "acolyte_weapon_3" .atk 0% .dmg 6 13 .crit 5% .spd 6 .upgradeRequirementCode 2
+weapon: .name "acolyte_weapon_4" .atk 0% .dmg 7 15 .crit 6% .spd 7 .upgradeRequirementCode 3
+armour: .name "acolyte_armour_0" .def 10% .prot 0 .hp 21 .spd 0
+armour: .name "acolyte_armour_1" .def 15% .prot 0 .hp 25 .spd 0 .upgradeRequirementCode 0
+armour: .name "acolyte_armour_2" .def 20% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "acolyte_armour_3" .def 25% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 2
+armour: .name "acolyte_armour_4" .def 30% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "arrow" .level 0 .type "ranged" .atk 85%  .dmg 0% .crit 3% .launch 34 .target 34 .is_crit_valid True .damage_heal_base_class_ids mirage .effect Aco_Dmg_1
+combat_skill: .id "arrow" .level 1 .type "ranged" .atk 90%  .dmg 0% .crit 4% .launch 34 .target 34 .is_crit_valid True .damage_heal_base_class_ids mirage .effect Aco_Dmg_2
+combat_skill: .id "arrow" .level 2 .type "ranged" .atk 95%  .dmg 0% .crit 5% .launch 34 .target 34 .is_crit_valid True .damage_heal_base_class_ids mirage .effect Aco_Dmg_3
+combat_skill: .id "arrow" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 6% .launch 34 .target 34 .is_crit_valid True .damage_heal_base_class_ids mirage .effect Aco_Dmg_4
+combat_skill: .id "arrow" .level 4 .type "ranged" .atk 105% .dmg 0% .crit 7% .launch 34 .target 34 .is_crit_valid True .damage_heal_base_class_ids mirage .effect Aco_Dmg_5
+combat_skill: .id "snakes" .level 0 .type "melee" .move 1 0 .atk 90%  .dmg -70% .crit 0% .launch 123 .target 12 .is_crit_valid True .effect Aco_Blight_1 Aco_Heal_Self_1 .generation_guaranteed true
+combat_skill: .id "snakes" .level 1 .type "melee" .move 1 0 .atk 95%  .dmg -70% .crit 1% .launch 123 .target 12 .is_crit_valid True .effect Aco_Blight_2 Aco_Heal_Self_2 
+combat_skill: .id "snakes" .level 2 .type "melee" .move 1 0 .atk 100% .dmg -70% .crit 2% .launch 123 .target 12 .is_crit_valid True .effect Aco_Blight_3 Aco_Heal_Self_3
+combat_skill: .id "snakes" .level 3 .type "melee" .move 1 0 .atk 105% .dmg -70% .crit 3% .launch 123 .target 12 .is_crit_valid True .effect Aco_Blight_4 Aco_Heal_Self_4 
+combat_skill: .id "snakes" .level 4 .type "melee" .move 1 0 .atk 110% .dmg -70% .crit 4% .launch 123 .target 12 .is_crit_valid True .effect Aco_Blight_5 Aco_Heal_Self_5 
+combat_skill: .id "party_heal" .level 0 .launch 34 .target ~@1234 .effect Aco_Heal_AOE_1 Aco_Deb_AOE_Self Aco_Disease_AOE .is_stall_invalidating false
+combat_skill: .id "party_heal" .level 1 .launch 34 .target ~@1234 .effect Aco_Heal_AOE_2 Aco_Deb_AOE_Self Aco_Disease_AOE .is_stall_invalidating false
+combat_skill: .id "party_heal" .level 2 .launch 34 .target ~@1234 .effect Aco_Heal_AOE_3 Aco_Deb_AOE_Self Aco_Disease_AOE .is_stall_invalidating false
+combat_skill: .id "party_heal" .level 3 .launch 34 .target ~@1234 .effect Aco_Heal_AOE_4 Aco_Deb_AOE_Self Aco_Disease_AOE .is_stall_invalidating false
+combat_skill: .id "party_heal" .level 4 .launch 34 .target ~@1234 .effect Aco_Heal_AOE_5 Aco_Deb_AOE_Self Aco_Disease_AOE .is_stall_invalidating false
+combat_skill: .id "focus_heal" .level 0 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Steal_Blight Aco_Steal_Heal Aco_Transfer_Heal Aco_Heal_1 Aco_Deb_Self Aco_Disease .is_stall_invalidating false
+combat_skill: .id "focus_heal" .level 1 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Steal_Blight Aco_Steal_Heal Aco_Transfer_Heal Aco_Heal_2 Aco_Deb_Self Aco_Disease .is_stall_invalidating false
+combat_skill: .id "focus_heal" .level 2 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Steal_Blight Aco_Steal_Heal Aco_Transfer_Heal Aco_Heal_3 Aco_Deb_Self Aco_Disease .is_stall_invalidating false
+combat_skill: .id "focus_heal" .level 3 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Steal_Blight Aco_Steal_Heal Aco_Transfer_Heal Aco_Heal_4 Aco_Deb_Self Aco_Disease .is_stall_invalidating false
+combat_skill: .id "focus_heal" .level 4 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Steal_Blight Aco_Steal_Heal Aco_Transfer_Heal Aco_Heal_5 Aco_Deb_Self Aco_Disease .is_stall_invalidating false
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+combat_skill: .id "overcharge" .level 0 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Horror_1 Aco_OC Aco_OCD_1 Aco_OCDS_1
+combat_skill: .id "overcharge" .level 1 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Horror_2 Aco_OC Aco_OCD_2 Aco_OCDS_2
+combat_skill: .id "overcharge" .level 2 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Horror_3 Aco_OC Aco_OCD_3 Aco_OCDS_3
+combat_skill: .id "overcharge" .level 3 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Horror_4 Aco_OC Aco_OCD_4 Aco_OCDS_4
+combat_skill: .id "overcharge" .level 4 .launch 1234 .target @1234 .self_target_valid false .effect Aco_Horror_5 Aco_OC Aco_OCD_5 Aco_OCDS_5
+combat_skill: .id "sun" .level 0 .type "ranged" .atk 95%  .dmg -15% .crit 2% .launch 234 .target 123 .is_crit_valid True .ignore_stealth true .effect Aco_Random_Target Destealth Aco_Transfer_Effects Aco_Clear_Self Aco_Dark
+combat_skill: .id "sun" .level 1 .type "ranged" .atk 100% .dmg -15% .crit 3% .launch 234 .target 123 .is_crit_valid True .ignore_stealth true .effect Aco_Random_Target Destealth Aco_Transfer_Effects Aco_Clear_Self Aco_Dark
+combat_skill: .id "sun" .level 2 .type "ranged" .atk 105% .dmg -15% .crit 4% .launch 234 .target 123 .is_crit_valid True .ignore_stealth true .effect Aco_Random_Target Destealth Aco_Transfer_Effects Aco_Clear_Self Aco_Dark
+combat_skill: .id "sun" .level 3 .type "ranged" .atk 110% .dmg -15% .crit 5% .launch 234 .target 123 .is_crit_valid True .ignore_stealth true .effect Aco_Random_Target Destealth Aco_Transfer_Effects Aco_Clear_Self Aco_Dark
+combat_skill: .id "sun" .level 4 .type "ranged" .atk 115% .dmg -15% .crit 6% .launch 234 .target 123 .is_crit_valid True .ignore_stealth true .effect Aco_Random_Target Destealth Aco_Transfer_Effects Aco_Clear_Self Aco_Dark
+combat_skill: .id "summon" .level 0 .type "ranged" .atk 85%  .dmg -100% .launch 1234 .target .per_battle_limit 2 .effect aco_kill_corpse aco_kill_mirage Aco_Summon_1 Aco_Light .is_stall_invalidating false
+combat_skill: .id "summon" .level 1 .type "ranged" .atk 90%  .dmg -100% .launch 1234 .target .per_battle_limit 2 .effect aco_kill_corpse aco_kill_mirage Aco_Summon_2 Aco_Light .is_stall_invalidating false
+combat_skill: .id "summon" .level 2 .type "ranged" .atk 95%  .dmg -100% .launch 1234 .target .per_battle_limit 2 .effect aco_kill_corpse aco_kill_mirage Aco_Summon_3 Aco_Light .is_stall_invalidating false
+combat_skill: .id "summon" .level 3 .type "ranged" .atk 100% .dmg -100% .launch 1234 .target .per_battle_limit 2 .effect aco_kill_corpse aco_kill_mirage Aco_Summon_4 Aco_Light .is_stall_invalidating false
+combat_skill: .id "summon" .level 4 .type "ranged" .atk 105% .dmg -100% .launch 1234 .target .per_battle_limit 2 .effect aco_kill_corpse aco_kill_mirage Aco_Summon_5 Aco_Light .is_stall_invalidating false
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "altar_of_light"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 3
+id_index: .index 7311
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+extra_battle_loot: .code "ACOL" .count 1
+quirk_modifier: .incompatible_class_ids acolyte_disease acolyte_disease_2 acolyte_quirk
+generation: .is_generation_enabled true .number_of_cards_in_deck 6 .card_chance 1.0 .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_shared_camping_skills 1 .number_of_class_specific_camping_skills 3 .number_of_random_combat_skills 4

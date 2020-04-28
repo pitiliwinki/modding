@@ -1,0 +1,77 @@
+resistances: .stun 80% .poison 10% .bleed 50% .disease 50% .move 50% .debuff 10% .death_blow 67% .trap 50%
+crit: .effects "on_crit_prot"
+weapon: .name "enigma_weapon_0" .atk 0% .dmg 3 7 .crit 3% .spd 0
+weapon: .name "enigma_weapon_1" .atk 0% .dmg 4 8 .crit 3.5% .spd 0 .upgradeRequirementCode 0
+weapon: .name "enigma_weapon_2" .atk 0% .dmg 5 9 .crit 4% .spd 1 .upgradeRequirementCode 1
+weapon: .name "enigma_weapon_3" .atk 0% .dmg 6 10 .crit 4.5% .spd 1 .upgradeRequirementCode 2
+weapon: .name "enigma_weapon_4" .atk 0% .dmg 7 11 .crit 5% .spd 2 .upgradeRequirementCode 3
+armour: .name "enigma_armour_0" .def 0% .prot 0.4 .hp 20 .spd 0
+armour: .name "enigma_armour_1" .def 0% .prot 0.4 .hp 22 .spd 0 .upgradeRequirementCode 0
+armour: .name "enigma_armour_2" .def 0% .prot 0.4 .hp 24 .spd 0 .upgradeRequirementCode 1
+armour: .name "enigma_armour_3" .def 0% .prot 0.4 .hp 26 .spd 0 .upgradeRequirementCode 2
+armour: .name "enigma_armour_4" .def 0% .prot 0.4 .hp 28 .spd 0 .upgradeRequirementCode 3
+ 
+combat_skill: .id "mystic_bolt" .level 0 .type "ranged" .atk 90% .dmg -10% .crit 4% .launch 23 .target 123 .is_crit_valid True .ignore_protection true  .effect "mystic_stunkill_1" "mystic_stun_1" "mystic_bleed_1" 
+combat_skill: .id "mystic_bolt" .level 1 .type "ranged" .atk 95% .dmg -10% .crit 5% .launch 23 .target 123 .is_crit_valid True .ignore_protection true  .effect "mystic_stunkill_2" "mystic_stun_2" "mystic_bleed_2"
+combat_skill: .id "mystic_bolt" .level 2 .type "ranged" .atk 100% .dmg -10% .crit 6% .launch 23 .target 123 .is_crit_valid True .ignore_protection true .effect "mystic_stunkill_3" "mystic_stun_3" "mystic_bleed_3"
+combat_skill: .id "mystic_bolt" .level 3 .type "ranged" .atk 105% .dmg -10% .crit 7% .launch 23 .target 123 .is_crit_valid True .ignore_protection true .effect "mystic_stunkill_4" "mystic_stun_4" "mystic_bleed_4"
+combat_skill: .id "mystic_bolt" .level 4 .type "ranged" .atk 110% .dmg -10% .crit 8% .launch 23 .target 123 .is_crit_valid True .ignore_protection true .effect "mystic_stunkill_5" "mystic_stun_5" "mystic_bleed_5"
+
+combat_skill: .id "illusionary_sword" .level 0 .type "melee" .atk 85% .dmg -50% .crit 0% .launch 23 .target ~12 .is_crit_valid True .ignore_guard true  .effect "illu_sword_bleedkill_1" "illu_sword_bleed_1" "illu_debuff1"
+combat_skill: .id "illusionary_sword" .level 1 .type "melee" .atk 90% .dmg -50% .crit 1% .launch 23 .target ~12 .is_crit_valid True .ignore_guard true .effect "illu_sword_bleedkill_2" "illu_sword_bleed_2" "illu_debuff2"
+combat_skill: .id "illusionary_sword" .level 2 .type "melee" .atk 95% .dmg -50% .crit 2% .launch 23 .target ~12 .is_crit_valid True .ignore_guard true .effect "illu_sword_bleedkill_3" "illu_sword_bleed_3" "illu_debuff3"
+combat_skill: .id "illusionary_sword" .level 3 .type "melee" .atk 100% .dmg -50% .crit 3% .launch 23 .target ~12 .is_crit_valid True .ignore_guard true .effect "illu_sword_bleedkill_4" "illu_sword_bleed_4" "illu_debuff4"
+combat_skill: .id "illusionary_sword" .level 4 .type "melee" .atk 105% .dmg -50% .crit 4% .launch 23 .target ~12 .is_crit_valid True .ignore_guard true .effect "illu_sword_bleedkill_5" "illu_sword_bleed_5" "illu_debuff5"
+
+combat_skill: .id "phantasmal_pistol" .level 0 .type "ranged" .atk 80% .dmg -70% .crit -4% .launch 23 .target ~234 .is_crit_valid True .ignore_stealth true .effect "illu_pistol_bleed_1" "phan_pistol_debuff_1" "enigma_stealth_remove"
+combat_skill: .id "phantasmal_pistol" .level 1 .type "ranged" .atk 85% .dmg -70% .crit -3% .launch 23 .target ~234 .is_crit_valid True .ignore_stealth true .effect "illu_pistol_bleed_2" "phan_pistol_debuff_2" "enigma_stealth_remove"
+combat_skill: .id "phantasmal_pistol" .level 2 .type "ranged" .atk 90% .dmg -70% .crit -2% .launch 23 .target ~234 .is_crit_valid True .ignore_stealth true .effect "illu_pistol_bleed_3" "phan_pistol_debuff_3" "enigma_stealth_remove"
+combat_skill: .id "phantasmal_pistol" .level 3 .type "ranged" .atk 95% .dmg -70% .crit -1% .launch 23 .target ~234 .is_crit_valid True .ignore_stealth true .effect "illu_pistol_bleed_4" "phan_pistol_debuff_4" "enigma_stealth_remove"
+combat_skill: .id "phantasmal_pistol" .level 4 .type "ranged" .atk 100% .dmg -70% .crit -0% .launch 23 .target ~234 .is_crit_valid True .ignore_stealth true .effect "illu_pistol_bleed_5" "phan_pistol_debuff_5" "enigma_stealth_remove"
+
+combat_skill: .id "delusional_exertion" .level 0 .type "ranged" .atk 85% .dmg -50% .crit -4% .launch 23 .target ~23 .is_crit_valid True .ignore_protection true  .effect "del_exe_stun_1" "del_exe_debuff_1"
+combat_skill: .id "delusional_exertion" .level 1 .type "ranged" .atk 90% .dmg -50% .crit -3% .launch 23 .target ~23 .is_crit_valid True .ignore_protection true .effect "del_exe_stun_2" "del_exe_debuff_2"
+combat_skill: .id "delusional_exertion" .level 2 .type "ranged" .atk 95% .dmg -50% .crit -2% .launch 23 .target ~23 .is_crit_valid True .ignore_protection true .effect "del_exe_stun_3" "del_exe_debuff_3"
+combat_skill: .id "delusional_exertion" .level 3 .type "ranged" .atk 100% .dmg -50% .crit -1% .launch 23 .target ~23 .is_crit_valid True .ignore_protection true .effect "del_exe_stun_4" "del_exe_debuff_4"
+combat_skill: .id "delusional_exertion" .level 4 .type "ranged" .atk 105% .dmg -50% .crit 0% .launch 23 .target ~23 .is_crit_valid True .ignore_protection true .effect "del_exe_stun_5" "del_exe_debuff_5"
+
+combat_skill: .id "unusual_dynamism" .level 0 .heal 2 4 .launch 23 .target @4321 .is_crit_valid False  .effect "unu_dyna_stressheal_1" .is_stall_invalidating false
+combat_skill: .id "unusual_dynamism" .level 1 .heal 3 5 .launch 23 .target @4321 .is_crit_valid False  .effect "unu_dyna_stressheal_2" .is_stall_invalidating false
+combat_skill: .id "unusual_dynamism" .level 2 .heal 4 6 .launch 23 .target @4321 .is_crit_valid False  .effect "unu_dyna_stressheal_3" .is_stall_invalidating false
+combat_skill: .id "unusual_dynamism" .level 3 .heal 5 7 .launch 23 .target @4321 .is_crit_valid False  .effect "unu_dyna_stressheal_4" .is_stall_invalidating false
+combat_skill: .id "unusual_dynamism" .level 4 .heal 6 8 .launch 23 .target @4321 .is_crit_valid False  .effect "unu_dyna_stressheal_5" .is_stall_invalidating false
+
+combat_skill: .id "arcane_fervor" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "arc_fervor_group_buff_1" "arc_fervor_bleedbuff_1" "arc_fervor_dmgbuff_1" "arc_fervor_healbuff_1" .generation_guaranteed true .is_stall_invalidating false
+combat_skill: .id "arcane_fervor" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "arc_fervor_group_buff_2" "arc_fervor_bleedbuff_2" "arc_fervor_dmgbuff_2" "arc_fervor_healbuff_2" .is_stall_invalidating false
+combat_skill: .id "arcane_fervor" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "arc_fervor_group_buff_3" "arc_fervor_bleedbuff_3" "arc_fervor_dmgbuff_3" "arc_fervor_healbuff_3" .is_stall_invalidating false
+combat_skill: .id "arcane_fervor" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "arc_fervor_group_buff_4" "arc_fervor_bleedbuff_4" "arc_fervor_dmgbuff_4" "arc_fervor_healbuff_4" .is_stall_invalidating false
+combat_skill: .id "arcane_fervor" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "arc_fervor_group_buff_5" "arc_fervor_bleedbuff_5" "arc_fervor_dmgbuff_5" "arc_fervor_healbuff_5" .is_stall_invalidating false
+
+combat_skill: .id "esoteric_barrier" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "eso_barrier_group_buff_1" "eso_barrier_debuffbuff_1" "eso_barrier_stunbuff_1" "eso_barrier_critbuff_1" .generation_guaranteed true  .is_stall_invalidating false
+combat_skill: .id "esoteric_barrier" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "eso_barrier_group_buff_2" "eso_barrier_debuffbuff_2" "eso_barrier_stunbuff_2" "eso_barrier_critbuff_2" .is_stall_invalidating false  
+combat_skill: .id "esoteric_barrier" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "eso_barrier_group_buff_3" "eso_barrier_debuffbuff_3" "eso_barrier_stunbuff_3" "eso_barrier_critbuff_3" .is_stall_invalidating false   
+combat_skill: .id "esoteric_barrier" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "eso_barrier_group_buff_4" "eso_barrier_debuffbuff_4" "eso_barrier_stunbuff_4" "eso_barrier_critbuff_4" .is_stall_invalidating false
+combat_skill: .id "esoteric_barrier" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .is_continue_turn true .per_turn_limit 1 .self_target_valid False .launch 1234 .target ~@1234 .is_crit_valid True  .effect "eso_barrier_group_buff_5" "eso_barrier_debuffbuff_5" "eso_barrier_stunbuff_5" "eso_barrier_critbuff_5" .is_stall_invalidating false 
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+
+tag: .id "enigma"
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "conjurer_workshop"
+
+hp_reaction: .hp_ratio 0.66 .is_under true .effects enigma_fracture_1
+hp_reaction: .hp_ratio 0.33 .is_under true .effects enigma_fracture_2
+
+activity_modifier: .override_valid_activity_ids bar gambling meditation treatment disease_treatment .override_stress_removal_amount_low 50 .override_stress_removal_amount_high 100
+quirk_modifier: .incompatible_class_ids alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler meditator nymphomania
+
+extra_battle_loot: .code "enigma_extra_shards" .count 1
+extra_curio_loot: .code "enigma_extra_shards" .count 1
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 665
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+incompatible_party_member: .id enigma_religion .hero_tag enigma
+generation:  .is_generation_enabled true .number_of_positive_quirks_min 0 .number_of_positive_quirks_max 0 .number_of_negative_quirks_min 0 .number_of_negative_quirks_max 0 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0
