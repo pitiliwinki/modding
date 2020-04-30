@@ -1,0 +1,9 @@
+commonfx: .deathfx death_medium
+skill: .id "rib_cracker" .anim "attack_pistol" .fx "rib_cracker" .targchestfx "rib_cracker_target" .area_pos_offset 0 -35
+skill: .id "skewering_repartee" .anim "attack_sword" .fx "skewering_repartee" .targchestfx "blood_splatter" .area_pos_offset -75 0 .target_area_pos_offset 150 0
+skill: .id "the_hunger_human" .anim "attack_feed" .fx "the_hunger_human" .targchestfx "blood_splatter" .area_pos_offset 0 -15
+skill: .id "piercing_foreleg" .anim "attack_leg" .fx "piercing_foreleg" .targchestfx "blood_splatter" .area_pos_offset -100 -25 .target_area_pos_offset 150 0
+skill: .id "needling_execration" .anim "attack_charge" .fx "needling_execration" .targchestfx "blood_splatter" .area_pos_offset 0 -15
+skill: .id "the_hunger_beast" .anim "attack_feed" .fx "the_hunger_beast" .targchestfx "blood_splatter" .area_pos_offset 0 -15
+riposte_skill: .id "riposte1" .anim "attack_sword" .fx "skewering_repartee" .targchestfx "blood_splatter"
+defending_area_pos_offset: .offset 0 -25

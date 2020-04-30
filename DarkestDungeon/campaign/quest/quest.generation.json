@@ -1,0 +1,1753 @@
+{
+    "generation": {
+        "dungeon": {
+            "generated_quests_max_threshold": 4,
+            "generated_dungeons": [
+                {
+                    "id": "crypts",
+                    "required_number_of_quests_finished": 1
+                },
+                {
+                    "id": "weald",
+                    "required_number_of_quests_finished": 3
+                },
+                {
+                    "id": "warrens",
+                    "required_number_of_quests_finished": 4
+                },
+                {
+                    "id": "cove",
+                    "required_number_of_quests_finished": 4
+                }
+            ]
+        },
+        "difficulty": {
+            "generated_resolve_level_difficulties": [
+                {
+                    "resolve_levels": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "difficulty": 1
+                },
+                {
+                    "resolve_levels": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "difficulty": 3
+                },
+                {
+                    "resolve_levels": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "difficulty": 5
+                }
+            ]
+        },
+        "type": {
+            "available_quests_table": [
+                {
+                    "dungeon": "crypts",
+                    "generated_quest_table": [
+                        [
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "weald",
+                    "generated_quest_table": [
+                        [
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "warrens",
+                    "generated_quest_table": [
+                        [
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "cove",
+                    "generated_quest_table": [
+                        [
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ],
+                        [
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 1,
+                                "length": 3
+                            },
+                            {
+                                "type": "inventory_activate",
+                                "chance": 1,
+                                "length": 2
+                            },
+                            {
+                                "type": "gather",
+                                "chance": 1,
+                                "length": 2
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        "rewards": {
+            "heirloom_type_map": [
+                {
+                    "dungeon": "crypts",
+                    "types": [
+                        "bust",
+                        "portrait",
+                        "deed",
+                        "crest"
+                    ]
+                },
+                {
+                    "dungeon": "warrens",
+                    "types": [
+                        "bust",
+                        "portrait",
+                        "deed",
+                        "crest"
+                    ]
+                },
+                {
+                    "dungeon": "weald",
+                    "types": [
+                        "bust",
+                        "portrait",
+                        "deed",
+                        "crest"
+                    ]
+                },
+                {
+                    "dungeon": "cove",
+                    "types": [
+                        "bust",
+                        "portrait",
+                        "deed",
+                        "crest"
+                    ]
+                }
+            ],
+            "heirloom_amount_table": [
+                {
+                    "type": "bust",
+                    "amounts": [
+                        [],
+                        [
+                            0,
+                            2,
+                            2,
+                            4
+                        ],
+                        [],
+                        [
+                            0,
+                            2,
+                            3,
+                            6
+                        ],
+                        [],
+                        [
+                            0,
+                            3,
+                            5,
+                            9
+                        ]
+                    ]
+                },
+                {
+                    "type": "portrait",
+                    "amounts": [
+                        [],
+                        [
+                            0,
+                            2,
+                            2,
+                            4
+                        ],
+                        [],
+                        [
+                            0,
+                            2,
+                            3,
+                            6
+                        ],
+                        [],
+                        [
+                            0,
+                            3,
+                            5,
+                            9
+                        ]
+                    ]
+                },
+                {
+                    "type": "deed",
+                    "amounts": [
+                        [],
+                        [
+                            0,
+                            3,
+                            5,
+                            9
+                        ],
+                        [],
+                        [
+                            0,
+                            4,
+                            6,
+                            12
+                        ],
+                        [],
+                        [
+                            0,
+                            6,
+                            9,
+                            18
+                        ]
+                    ]
+                },
+                {
+                    "type": "crest",
+                    "amounts": [
+                        [],
+                        [
+                            0,
+                            3,
+                            5,
+                            9
+                        ],
+                        [],
+                        [
+                            0,
+                            4,
+                            6,
+                            12
+                        ],
+                        [],
+                        [
+                            0,
+                            6,
+                            9,
+                            18
+                        ]
+                    ]
+                }
+            ],
+            "comment": "This table determines how much Gold is awarded for a successful quest. Grouped trios are for LENGTH s/m/l, successive groups are for DIFFICULTY 1,2,3,4,5,6 note blanks",
+            "item_table": [
+                [],
+                [
+                    [],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 3000
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 4500
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 7500
+                        }
+                    ]
+                ],
+                [],
+                [
+                    [],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 4500
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 6750
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 11250
+                        }
+                    ]
+                ],
+                [],
+                [
+                    [],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 6000
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 9000
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 15000
+                        }
+                    ]
+                ],
+                [
+                    [],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 9000
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 13500
+                        }
+                    ],
+                    [
+                        {
+                            "type": "gold",
+                            "id": "",
+                            "amount": 22500
+                        }
+                    ]
+                ]
+            ],
+            "comment": "This table determines how much Resolve XP is awarded for a successful quest. ROWS are DIFFICULTY, COLs are QUEST LENGTH",
+            "resolve_xp_table": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    3,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    6,
+                    8,
+                    8,
+                    8
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    8,
+                    12,
+                    16,
+                    16,
+                    16
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "trinket_chance_table": [
+                {
+                    "comment": "ROWS are DIFFICULTY, COLs are QUEST LENGTH",
+                    "rarity": "very_common",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "rarity": "common",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "rarity": "uncommon",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "rarity": "rare",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "rarity": "very_rare",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                },
+                {
+                    "rarity": "ancestral",
+                    "chances": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        [
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

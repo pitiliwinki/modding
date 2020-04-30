@@ -1,0 +1,562 @@
+//--------------------------------------------------
+//DLC : Crimson Court
+
+effect: .name "Clear Guard" .target "performer" .chance 100% .clearguard 1 .on_hit true .on_miss true .can_apply_on_death false .queue false .has_description false
+
+
+// BLOOD
+effect: .name "use_the_blood_disease_vampire_passive" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .defense_rating_add 7%	.on_hit true .on_miss true .queue true
+
+effect: .name "use_the_blood_disease_vampire_blood_lust" .target "performer" .curio_result_type "positive" .chance 100% .stress 33 .combat_stat_buff 1 .speed_rating_add 4 .damage_low_multiply 0.50 .damage_high_multiply 0.50	.on_hit true .on_miss true .queue true
+
+effect: .name "the_blood" .target "performer" .curio_result_type "negative" .chance 100% .stress 20 .combat_stat_buff 1 .speed_rating_add -8 .defense_rating_add -10%  .on_hit true .on_miss true .queue true
+
+
+// CURE
+effect: .name "the_cure" .target "performer" .curio_result_type "positive" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue true
+
+
+// HOLY WATER for VAMPS
+effect: .name "holy_water_vamps_debuff" .target "performer" .item 1 .duration 12 .chance 100% .buff_ids SPD-5 BLIGHTRESIST-40 
+effect: .name "holy_water_vamps_blight" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//MOBS 
+
+// Suck up Blight
+effect: .name "CC Steal Blight" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true
+
+//FEEDING STRESS
+effect: .name "Feed Stress Human" .target "target" .chance 85% .stress 8		.on_hit true .on_miss false	.queue true
+effect: .name "Feed Stress Beast" .target "target" .chance 85% .stress 12		.on_hit true .on_miss false	.queue true
+
+
+// Various modes for mobs and bosses set here
+// crocodile
+effect: .name "switch_mode_submerged_self" .target "performer" .set_mode submerged .chance 100% .on_hit true .on_miss true .queue false
+effect: .name "switch_mode_land_self" .target "performer" .set_mode land .chance 100% .on_hit true .on_miss true .queue false
+
+// STATUE
+// statue_shield
+effect: .name "switch_mode_offscreen_self" .target "performer" .set_mode offscreen .chance 100% .on_hit true .on_miss true .queue false
+effect: .name "switch_mode_onscreen_self" .target "performer" .set_mode onscreen .chance 100% .on_hit true .on_miss true .queue false
+
+// statue head
+effect: .name "Statue head prep buff" .target "performer" .duration -1 .combat_stat_buff 1 .attack_rating_add 5% .damage_low_multiply 0.10 .damage_high_multiply 0.10 .crit_chance_add 5% .queue true .on_hit true .on_miss true
+
+effect: .name "Statue awaken" .target "performer" .chance 100% .initiative_change 1 .apply_once true .on_hit true .on_miss true .queue true
+
+// statue hand
+effect: .name "Statue Stab Bleed" .target "target" .chance 140%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+
+//SYCOPHANT
+
+//Tainted Puncture no feed
+effect: .name "Syco Rot 1" .target "target" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Syco Rot 3" .target "target" .chance 120%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Syco Rot 5" .target "target" .chance 140%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+//Tainted Puncture w feed on bleeding target (add to monster sheet, remember to scale up)
+effect: .name "CC Small Feed Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true
+effect: .name "CC Small Feed Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue true
+effect: .name "CC Small Feed Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 9 .on_hit true .on_miss false .queue true
+
+effect: .name "CC Big Feed Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue true
+effect: .name "CC Big Feed Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue true
+effect: .name "CC Big Feed Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue true
+
+
+//Maddening Whine
+effect: .name "Syco Whine Stress 1" .target "target" .chance 100% .stress 9		.on_hit true .on_miss false	.queue true
+effect: .name "Syco Whine Stress 3" .target "target" .chance 100% .stress 11		.on_hit true .on_miss false	.queue true
+effect: .name "Syco Whine Stress 5" .target "target" .chance 100% .stress 13		.on_hit true .on_miss false	.queue true
+
+//Deafening Whine
+effect: .name "Syco Stun 1" .target "target" .chance 90% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "Syco Stun 3" .target "target" .chance 100% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "Syco Stun 5" .target "target" .chance 110% .stun 1 .on_hit true .on_miss false .queue true
+
+effect: .name "Syco Weak Stress 1" .target "target" .chance 100% .stress 4		.on_hit true .on_miss false	.queue true
+effect: .name "Syco Weak Stress 3" .target "target" .chance 100% .stress 5		.on_hit true .on_miss false	.queue true
+effect: .name "Syco Weak Stress 5" .target "target" .chance 100% .stress 6		.on_hit true .on_miss false	.queue true
+
+//Unabated Exsanguination
+effect: .name "CC Mob Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "CC Mob Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "CC Mob Bleed 5" .target "target" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+effect: .name "Syco Stun Buff 1" .target "performer" .buff_ids "STUNSKILL20"  .on_hit true .on_miss false .queue true .duration 6
+effect: .name "Syco Stun Buff 2" .target "performer" .buff_ids "STUNSKILL25"  .on_hit true .on_miss false .queue true .duration 6
+effect: .name "Syco Stun Buff 3" .target "performer" .buff_ids "STUNSKILL30"  .on_hit true .on_miss false .queue true .duration 4
+
+effect: .name "Syco Feed Buff 1" .target "target" .buff_ids "STUNSKILL50" .on_hit true .on_miss false .queue false .duration 5
+effect: .name "Syco Feed Buff 1" .target "target" .buff_ids "STUNSKILL50" .on_hit true .on_miss false .queue false .duration 5
+effect: .name "Syco Feed Buff 1" .target "target" .buff_ids "STUNSKILL50" .on_hit true .on_miss false .queue false .duration 5
+
+effect: .name "CC Mob Acc Debuff 1" .target "performer" .chance 100%  .combat_stat_buff 1 .attack_rating_add -20% .speed_rating_add -4 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CC Mob Acc Debuff 3" .target "performer" .chance 120%  .combat_stat_buff 1 .attack_rating_add -18% .speed_rating_add -3	.duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CC Mob Acc Debuff 5" .target "performer" .chance 140%  .combat_stat_buff 1 .attack_rating_add -15% .speed_rating_add -2	.duration 3 .on_hit true .on_miss false .queue true
+
+
+//xform_to_favoured
+effect: .name "Transform to Beast" .target "performer" .chance 100% .xform_vampire 1 .on_hit true .on_miss true .queue true
+
+//CASTELLAN/GATEKEEPER
+//castellan summoning upon escape
+effect: .name "Summon CC Party" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot true .summon_monsters sycophant_A sycophant_A sycophant_A .summon_chances 1.0 .summon_limits 3 .summon_ranks 432 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Steward Stress Buff 1" .target "target" .chance 100% .buff_ids "steward_stressweakness_1"  .on_hit true .on_miss false .queue false .duration 5
+effect: .name "Steward Stress Buff 2" .target "target" .chance 120% .buff_ids "steward_stressweakness_2"  .on_hit true .on_miss false .queue false .duration 5
+effect: .name "Steward Stress Buff 3" .target "target" .chance 140% .buff_ids "steward_stressweakness_3"  .on_hit true .on_miss false .queue false .duration 5
+
+
+//enraging_slight
+effect: .name "Castellan Pull 1" .target "target" .pull 2 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Castellan Pull 3" .target "target" .pull 2 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Castellan Pull 5" .target "target" .pull 2 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Castellan Stress 1" .target "target" .chance 90% .stress 10	.on_hit true .on_miss false	.queue true	
+effect: .name "Castellan Stress 3" .target "target" .chance 90% .stress 12	.on_hit true .on_miss false	.queue true	
+effect: .name "Castellan Stress 5" .target "target" .chance 90% .stress 14	.on_hit true .on_miss false	.queue true	
+
+
+//elusive_exit
+effect: .name "Syco Swap A" .target "performer" .chance 100% .set_monster_class_id sycophant_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Syco Swap B" .target "performer" .chance 100% .set_monster_class_id sycophant_B .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Syco Swap C" .target "performer" .chance 100% .set_monster_class_id sycophant_C .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "C Stress AOE DoT" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Castellan Exit A" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters  sycophant_A sycophant_A sycophant_A .summon_chances 1.0 .summon_ranks 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Castellan Exit B" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters sycophant_B sycophant_B sycophant_B .summon_chances 1.0 .summon_ranks 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Castellan Exit C" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters sycophant_C sycophant_C sycophant_C .summon_chances 1.0 .summon_ranks 1 .on_hit true .on_miss true .apply_once true
+
+
+//infallible_servant
+effect: .name "Castellan Guard" .target "performer_group_other"  .guard 1 .on_hit true .on_miss true .duration 3 .queue true
+effect: .name "Steward Human Guard" .target "target"  .guard 1 .on_hit true .on_miss true .duration 3 .queue true
+effect: .name "Steward Prot Buff" .target "performer" .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 33%	.on_hit true .on_miss true .queue true
+
+
+//gibbering entourage
+effect: .name "Gibbering Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .combat_stat_buff 1 .protection_rating_add 40%	.on_hit true .on_miss true .queue true
+effect: .name "Gibbering Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .combat_stat_buff 1 .protection_rating_add 50%	.on_hit true .on_miss true .queue true
+effect: .name "Gibbering Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .combat_stat_buff 1 .protection_rating_add 60%	.on_hit true .on_miss true .queue true
+
+
+
+//STEWARD
+
+//refined_palate - need to find out how to make cc aoe stress, want very low chance of multi stun 
+effect: .name "CC AoE Stress 1" .target "target" .chance 70% .stress 15 .on_hit true .on_miss false	.queue true .queue true
+effect: .name "CC AoE Stress 3" .target "target" .chance 70% .stress 17 .on_hit true .on_miss false	.queue true .queue true
+effect: .name "CC AoE Stress 5" .target "target" .chance 70% .stress 20 .on_hit true .on_miss false	.queue true .queue true
+
+effect: .name "Steward MultiStun 1" .target "target" .curio_result_type "negative" .chance 70% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steward MultiStun 3" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steward MultiStun 5" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+
+
+
+//ESQUIRE 
+
+//rib_cracker
+//Esquire Pistol Debuff - holds knockback and debuffs
+effect: .name "Esq Pistol Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Esq Pistol Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Esq Pistol Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Esq Push 1" .target "target"  .push 1 	.chance 90%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Esq Push 3" .target "target"  .push 1 	.chance 110%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Esq Push 5" .target "target"  .push 2 	.chance 130%   .on_hit true .on_miss false .can_apply_on_death true
+
+
+//skewering_repartee
+effect: .name "Skewering AOE Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Skewering AOE Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Skewering AOE Bleed 5" .target "target" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+//effect: .name "Esq Repartee 1"  .target "performer" .chance 100% .riposte 1 .duration 2 .on_hit true .on_miss true .damage_low_multiply 0%  .damage_high_multiply 0%  .crit_chance_add 0% .queue true
+
+//needling_execration
+effect: .name "Esq Stress 1" .target "target" .chance 90% .stress 8	.on_hit true .on_miss false	.queue true 
+effect: .name "Esq Stress 3" .target "target" .chance 90% .stress 10	.on_hit true .on_miss false	.queue true 
+effect: .name "Esq Stress 5" .target "target" .chance 90% .stress 12	.on_hit true .on_miss false	.queue true 
+
+
+//piercing_foreleg
+effect: .name "Esq Foreleg 1" .target "target" .chance 100% .buff_ids bleed_debuff_1 .on_hit true .on_miss false .queue true
+effect: .name "Esq Foreleg 3" .target "target" .chance 120% .buff_ids bleed_debuff_2 .on_hit true .on_miss false .queue true
+effect: .name "Esq Foreleg 5" .target "target" .chance 140% .buff_ids bleed_debuff_3 .on_hit true .on_miss false .queue true
+
+
+//skewering repartee - riposte
+effect: .name "Esq Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply -85% .damage_high_multiply -85% .crit_chance_add -5% .apply_once true
+effect: .name "Esq Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply -75% .damage_high_multiply -75% .crit_chance_add -3% .apply_once true 
+effect: .name "Esq Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply -65% .damage_high_multiply -65% .crit_chance_add -2% .apply_once true
+
+//Chevalier
+effect: .name "Chev Dodge Debuff 1" .target "target" .chance 100% .buff_ids "chev_target_def_debuff_1" .on_hit true .on_miss false .queue false .duration 3
+effect: .name "Chev Dodge Debuff 2" .target "target" .chance 120% .buff_ids "chev_target_def_debuff_2" .on_hit true .on_miss false .queue false .duration 3
+effect: .name "Chev Dodge Debuff 3" .target "target" .chance 140% .buff_ids "chev_target_def_debuff_3" .on_hit true .on_miss false .queue false .duration 3
+
+
+//COURTESAN
+
+//careless whispers
+
+effect: .name "Courtesan AOE Horror" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3	.on_hit true .on_miss false
+
+
+effect: .name "Careless Whispers 1" .target "target" .chance 80%  .combat_stat_buff 1 .attack_rating_add -5% .on_hit true .on_miss false .apply_once false    .queue true
+effect: .name "Careless Whispers 3" .target "target" .chance 100%  .combat_stat_buff 1 .attack_rating_add -5% .on_hit true .on_miss false .apply_once false    .queue true
+effect: .name "Careless Whispers 5" .target "target" .chance 120%  .combat_stat_buff 1 .attack_rating_add -5% .on_hit true .on_miss false .apply_once false    .queue true
+
+effect: .name "Courtesan Feed 1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 15% .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Courtesan Feed 2" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 18% .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Courtesan Feed 3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 20% .on_hit true .on_miss false .can_apply_on_death true .queue true
+
+//midnight minuet
+effect: .name "Midnight Minuet 1" .target "performer" .shuffleparty  .chance 100%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true .queue true 
+effect: .name "Midnight Minuet 2" .target "performer" .shuffleparty  .chance 100%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true .queue true
+effect: .name "Midnight Minuet 3" .target "performer" .shuffleparty  .chance 100%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true .queue true
+
+effect: .name "Midnight Minuet Buff 1" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add 3 .damage_low_multiply 20% .damage_high_multiply 20% 	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Midnight Minuet Buff 2" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add 4 .damage_low_multiply 25% .damage_high_multiply 25% 	.on_hit true .on_miss true .queue true .duration 1
+effect: .name "Midnight Minuet Buff 3" .target "target" .chance 100%  .combat_stat_buff 1 .speed_rating_add 5 .damage_low_multiply 30% .damage_high_multiply 30%	.on_hit true .on_miss true .queue true .duration 1
+
+effect: .name "Midnight Minuet Debuff 1" .target "target" .chance 100%  .combat_stat_buff 1 .attack_rating_add -20% .on_hit true .on_miss true .queue true .duration 1
+effect: .name "Midnight Minuet Debuff 2" .target "target" .chance 100%  .combat_stat_buff 1 .attack_rating_add -16% .on_hit true .on_miss true .queue true .duration 1
+effect: .name "Midnight Minuet Debuff 3" .target "target" .chance 100%  .combat_stat_buff 1 .attack_rating_add -12% .on_hit true .on_miss true .queue true .duration 1
+
+//damsel in distress -verify this actually works as it's copped from the Antiquarian
+effect: .name "Courtesan ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+
+effect: .name "Buff Guard 1" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 2 .combat_stat_buff 1 .protection_rating_add 25%	.on_hit true .on_miss true .queue true
+effect: .name "Buff Guard 3" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 2 .combat_stat_buff 1 .protection_rating_add 35%	.on_hit true .on_miss true .queue true
+effect: .name "Buff Guard 5" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 2 .combat_stat_buff 1 .protection_rating_add 45%	.on_hit true .on_miss true .queue true
+
+
+//renewed appetite
+effect: .name "Courtesan Blight 1" .target "target" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Courtesan Blight 3" .target "target" .chance 120%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Courtesan Blight 5" .target "target" .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Courtesan Stress 1" .target "target" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
+effect: .name "Courtesan Stress 3" .target "target" .chance 100% .stress 8	.on_hit true .on_miss false	.queue true
+effect: .name "Courtesan Stress 5" .target "target" .chance 100% .stress 10	.on_hit true .on_miss false	.queue true
+
+
+//expose the vein
+effect: .name "Courtesan Vein 1" .target "target" .chance 100% .duration 3 .buff_ids bleed_debuff_1 .on_hit true .on_miss false 
+effect: .name "Courtesan Vein 3" .target "target" .chance 120% .duration 3 .buff_ids bleed_debuff_2 .on_hit true .on_miss false 
+effect: .name "Courtesan Vein 5" .target "target" .chance 140% .duration 3 .buff_ids bleed_debuff_3 .on_hit true .on_miss false 
+
+effect: .name "Courtesan Vein Prot 1" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add -5% .on_hit true .on_miss false 
+effect: .name "Courtesan Vein Prot 3" .target "target" .chance 120% .duration 3 .combat_stat_buff 1 .protection_rating_add -7% .on_hit true .on_miss false 
+effect: .name "Courtesan Vein Prot 5" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .protection_rating_add -9% .on_hit true .on_miss false 
+
+//BOSSES
+
+
+//BARON 
+effect: .name "Baron Whip Stress" .target "target" .chance 95% .stress 20  .on_hit true .on_miss false	.queue true
+effect: .name "Baron Pull" .target "target" .pull 1  .chance 120%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Baron Whip Horror" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 4 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "Baron Bleed" .target "target" .chance 120%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Baron Blight" .target "target" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .combat_stat_buff 1 .attack_rating_add -10%
+
+effect: .name "Baron Feed" .target "performer" .curio_result_type "positive" .chance 100% .heal 18	.on_hit true .on_miss false .queue true
+
+// Feeding increases bleed possibility, adds speed and reduces ACC
+effect: .name "Baron Feed Bleed Debuff" .target "performer" .chance 100% .buff_ids bleed_debuff_2 .on_hit true .on_miss false 
+effect: .name "Baron Feed Stats" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .attack_rating_add -15% .on_hit true .on_miss false 
+effect: .name "Baron Whipping Buff" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 10% .speed_rating_add 4 .crit_chance_add 5% .on_hit true .on_miss true
+
+effect: .name "baron_change_to_curtain" .target "performer" .chance 100% .set_monster_class_id curtain_H .set_monster_class_reset_hp true .set_monster_class_clear_initative true .set_monster_class_reset_buffs true .set_monster_class_clear_monster_brain_cooldowns false .on_hit true .on_miss true .queue true
+effect: .name "baron_curtain_to_baron" .target "performer" .chance 100% .set_monster_class_id baron_B .set_monster_class_reset_hp false .set_monster_class_reset_buffs true .on_hit true .on_miss true .set_monster_class_clear_monster_brain_cooldowns false .set_monster_class_reset_scale true .on_hit true .on_miss true .queue false
+
+effect: .name "Baron Refill Cocoons 1-3" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .set_monster_class_reset_scale true .summon_monsters curtain_G curtain_G curtain_G .summon_chances 1.0 .summon_ranks 0 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Baron Refill Cocoons 2-3" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .set_monster_class_reset_scale true .summon_monsters curtain_F curtain_F curtain_F .summon_chances 1.0 .summon_ranks 0 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Cocoon Swap 2-3 baron" .target "performer" .chance 100% .set_monster_class_id curtain_I .set_monster_class_reset_hp true .set_monster_class_clear_initative true .set_monster_class_reset_buffs true .set_monster_class_clear_monster_brain_cooldowns false .set_monster_class_reset_scale true .on_hit true .on_miss true .queue true
+effect: .name "Cocoon Swap 1-3 baron" .target "performer" .chance 100% .set_monster_class_id curtain_J .set_monster_class_reset_hp true .set_monster_class_clear_initative true .set_monster_class_reset_buffs true .set_monster_class_clear_monster_brain_cooldowns false .set_monster_class_reset_scale true .on_hit true .on_miss true .queue true
+
+effect: .name "Cocoon Swap 2-3 group" .target "performer_group_other" .chance 100% .set_monster_class_id curtain_F .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .set_monster_class_reset_scale true .on_hit true .on_miss true .queue true
+effect: .name "Cocoon Swap 1-3 group" .target "performer_group_other" .chance 100% .set_monster_class_id curtain_G .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .set_monster_class_reset_scale true .on_hit true .on_miss true .queue true
+
+//VISCOUNT
+---------------------------------------------------------------------------------------------------------------------------
+// stress attacks
+effect: .name "Hungry Eyes Stress" .target "target" .chance 95% .stress 15	.on_hit true .on_miss false	.queue true
+
+effect: .name "Fine Pairing Stress" .target "target" .chance 90% .stress 8	.on_hit true .on_miss false	.queue true
+
+effect: .name "Served Rare Stress" .target "target" .chance 90% .stress 10	.on_hit true .on_miss false	.queue true
+
+effect: .name "Riposte Stress" .target "target" .chance 90% .stress 5	.on_hit true .on_miss false	.queue true
+
+effect: .name "Vis Shuffle Self" 	.target "performer" .shuffletarget .chance 400%		.on_hit true .on_miss true 	.apply_once true .can_apply_on_death true
+
+
+// Feed on corpse needs conditions to handle all corpses and level of viscount
+effect: .name "Viscount Feed 1" .target "performer" .chance 200% .viscount_feed_corpse 1 .on_hit true .on_miss false .queue false
+
+// judge_culled_berserk, judge_culled_normal - normal and berserk - knockback 2 in berserk modes and AoE stress
+effect: .name "Viscount AoE Stress" .target "target" .chance 88% .stress 15	.on_hit true .on_miss false	.queue true
+effect: .name "Viscount Bleed" .target "target" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+// meat_tenderizer_normal and meat_tenderizer_berserk (adds stun)
+effect: .name "Viscount Stun" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+// Hands Off
+effect: .name "Hands Off"  .target "performer"  .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .crit_chance_add -5% .apply_once true
+
+effect: .name "Viscount Acc Buff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 20% .on_hit true .on_miss false .apply_once true
+
+// served rare push
+effect: .name "Viscount Push" .target "target"  .push 3 	.chance 140%   .on_hit true .on_miss false .can_apply_on_death true
+
+//Initiative changes
+effect: .name "Viscount Init Add 1" 	.target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss false .queue true
+effect: .name "Viscount Init Sub 1" 	.target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss false .queue true
+effect: .name "Viscount Init Add 2" 	.target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss false .queue true
+effect: .name "Viscount Init Sub 2" 	.target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss false .queue true
+
+// buff/debuff steal from feeding on affected corpses
+effect: .name "Viscount Absorb Effect" 	.target "target" .chance 100% .steal_buff_source_type bsrc_skill  .on_hit true .on_miss false .queue true
+
+//Damage coprses on feed
+effect: .name "Viscount Feed Dmg" 	.target target .chance 100%  .health_damage 6  .on_hit true .on_miss false .queue true
+
+//Healing from feeds
+effect: .name "Viscount Feed Average Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 35	.can_crit_heal false .on_hit true .on_miss false .queue true
+
+effect: .name "Viscount Feed Emaciated Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 15 .can_crit_heal false	.on_hit true .on_miss false .queue true
+
+effect: .name "Viscount Feed Bloated Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 50	.can_crit_heal false .on_hit true .on_miss false .queue true
+
+//buffs/debuffs from body feeding
+
+  //EMACIATED (ICKY)
+effect: .name "Emaciated Feed Debuff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply -25% .damage_high_multiply -25% .on_hit true .on_miss false .queue true
+
+effect: .name "Emaciated Feed Buff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .crit_chance_add 5% .on_hit true .on_miss false .queue true
+
+  //AVERAGE (OK)
+effect: .name "Average Feed Debuff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1  .on_hit true .on_miss false .queue true
+
+effect: .name "Average Feed Buff 1" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 25% .attack_rating_add 20% .on_hit true .on_miss false .queue true
+
+effect: .name "Average Feed Buff 2" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add 6 .on_hit true .on_miss false .queue true
+
+  //BLOATED (YUMMY)
+effect: .name "Bloated Feed Debuff 1" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -25% .attack_rating_add -20% .on_hit true .on_miss false .queue true
+
+effect: .name "Bloated Feed Debuff 2" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -4 .on_hit true .on_miss false .queue true
+
+effect: .name "Bloated Feed Buff" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false .queue true
+---------------------------------------------------------------------------------------------------------------------------
+
+
+//COUNTESS
+---------------------------------------------------------------------------------------------------------------------------
+// sends out swarms on each party member
+//effect: .name "Crimson Swarm" .target "target" .chance 100% .crimson_swarm 1 .on_hit true .on_miss false 
+// calls back the non-swatted swarms 
+//effect: .name "Crimson Harvest" .target "target" .chance 100% .crimson_harvest 1 .on_hit true .on_miss false
+// adds to countess' blood meter per remaining swarm
+//effect: .name "Blood Counter" .target "performer" .chance 100% .blood_counter 1 .on_hit true .on_miss true
+
+effect: .name "Countess Terror" .target "target" .chance 100%  .dotStress 5 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Countess Stun" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+// Pheromonal Delirium : Party AoE: Blight/Shuffle
+effect: .name "CC Shuffle DoT" .target "target" .chance 155%  .dotShuffle 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Countess Stress" .target "target" .chance 100% .stress 25 .on_hit true .on_miss false	.queue true
+effect: .name "Countess Blight" .target "target" .chance 140%  .dotPoison 6 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Countess Feed Heal" .target "performer" .chance 100% .heal 20	.on_hit true .on_miss false .queue true
+
+// Countess Flushed debuffs
+effect: .name "countess_flushed_debuff" .target "performer" .chance 100% .buff_ids "STUNRESIST-40" "BLIGHTRESIST-40" "BLEEDRESIST-40" "DEBUFFRESIST-40" .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "Flushed Recovery Buff" .target "performer" .chance 100% .buff_ids "STUNRESIST10" "BLIGHTRESIST10" "BLEEDRESIST10" "DEBUFFRESIST10" .duration 2 .on_hit true .on_miss false .queue true
+
+
+//Inject self damage
+effect: .name "Inject Self Damage" .target "performer" target .chance 100% .health_damage 10 .on_hit true .on_miss false .queue true
+
+// Life Feeds On Life: Melee: Countess injects an egg into party member
+effect: .name "Parasite Egg Inject" .target target .chance 100% .actor_dot egg .on_hit true .on_miss false .queue true
+
+//Parasite Debuff
+effect: .name "Parasite Debuff 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .attack_rating_add -10% .duration 3 .on_hit true .on_miss false 
+effect: .name "Parasite Debuff 2" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -3 .attack_rating_add -20% .duration 3 .on_hit true .on_miss false 
+effect: .name "Parasite Debuff 3" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -4 .attack_rating_add -30% .duration 3 .on_hit true .on_miss false 
+
+//Clear the Court : AoE Melee
+
+// Parasite Birth
+effect: .name "Countess Bleed" .target "target" .chance 140%  .dotBleed 3 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+//effect: .name "Spawn Sycophant" .target "target" .chance 100% .spawn_sycophant 1 .on_hit true .on_miss false
+			
+effect: .name countess_egg_increment_bark_1 	.target target .chance 100% .bark egg_increment_bark_1 .on_hit true .on_miss true .queue true
+effect: .name countess_egg_increment_bark_2 	.target target .chance 100% .bark egg_increment_bark_2 .on_hit true .on_miss true .queue true
+effect: .name countess_egg_increment_bark_3 	.target target .chance 100% .bark egg_increment_bark_3 .on_hit true .on_miss true .queue true
+
+effect: .name hatch_health_damage_1 .target target .chance 100% .health_damage 15 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+effect: .name hatch_health_damage_2 .target target .chance 100% .health_damage 18 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+effect: .name hatch_health_damage_3 .target target .chance 100% .health_damage 24 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+
+effect: .name gestate_health_damage_1 .target target .chance 100% .health_damage 4 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+effect: .name gestate_health_damage_2 .target target .chance 100% .health_damage 6 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+effect: .name gestate_health_damage_3 .target target .chance 100% .health_damage 8 .damage_type attack .damage_source_data countess_D .damage_source_type monster .on_hit true .on_miss true .queue true
+
+// swarm fx on countess buff upon hatching
+effect: .name countess_egg_hatch_buff .target target_enemy_group .chance 100% .buff_ids "CC_countess_egg_hatch_buff_0" "CC_countess_egg_hatch_buff_1" .duration 5 .on_hit true .on_miss false .queue true
+
+//switching forms
+effect: .name "To Countess E" .target "performer" .chance 100% .set_monster_class_id countess_E .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Countess F" .target "performer" .chance 100% .set_monster_class_id countess_F .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Countess D" .target "performer" .chance 100% .set_monster_class_id countess_D .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+---------------------------------------------------------------------------------------------------------------------------
+
+// FANATIC 
+// at some point we'll use something like this
+//effect: .name "CaptureHag" .target "target" .chance 100% .capture 1 .capture_remove_from_party 1 .on_hit true
+//Burn Hero 1 (places on pyre with damage)
+effect: .name "Burn Hero 1" .target "target" .chance 100% .capture 1 .capture_remove_from_party 1 .on_hit true
+
+//Righteous Buff 1 -  buffs PROT
+effect: .name "Righteous Buff 1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit true .on_miss true .queue true .apply_once true .duration 5
+effect: .name "Righteous Buff 2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 28% .on_hit true .on_miss true .queue true .apply_once true .duration 5
+effect: .name "Righteous Buff 3" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 33% .on_hit true .on_miss true .queue true .apply_once true .duration 5
+
+//Stake Bleed 1 = bleed 
+effect: .name "Stake Bleed 1" .target "target" .chance 100%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Stake Bleed 2" .target "target" .chance 120%  .dotBleed 5 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Stake Bleed 3" .target "target" .chance 140%  .dotBleed 6 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+//Stake Slow 1
+effect: .name "Stake Slow 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false
+
+//Stake Vampire Damage 1
+effect: .name "Stake Vampire Damage 1" .target "performer" .skill_instant true .buff_ids fanatic_crit_chance_buff .on_hit true .on_miss false .queue false
+
+// Stake Kill Vamp
+effect: .name "Stake Kill Vamp" .target "performer" .skill_instant true .chance 100% .buff_ids "fanatic_kill_vamps_buff_dmgL" "fanatic_kill_vamps_buff_dmgH" .on_hit true .on_miss false .queue true 
+
+effect: .name "Fanatic Damage Marked Target"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 33%	.damage_high_multiply 33%	.on_hit true .on_miss false
+
+
+//Holy Mark 1 - brand marking, 
+effect: .name "Holy Mark 1"	.target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
+effect: .name "Holy Mark 2"	.target "target" .chance 120% .tag 1 .duration 3 .on_hit true .on_miss false
+effect: .name "Holy Mark 3"	.target "target" .chance 140% .tag 1 .duration 3 .on_hit true .on_miss false
+
+//Fanatic Stressors
+effect: .name "Fanatic Stress Big" .target "target" .chance 100% .stress 15	.on_hit true .on_miss false	.queue true
+effect: .name "Fanatic Stress Small" .target "target" .chance 100% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "Fanatic Stress AOE" .target "target" .chance 70% .stress 5	.on_hit true .on_miss false	.queue true
+effect: .name "Fanatic Stress DOT" .target "target" .chance 100% .dotStress 4 .duration 3	.on_hit true .on_miss false	.queue true
+effect: .name "Fanatic Stress Crush" .target "target" .chance 70% .stress 7	.on_hit true .on_miss false	.queue true
+
+
+//Fanatic Stun 1 - hammer stun
+effect: .name "Fanatic Stun 1" .target "target" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Fanatic Stun 2" .target "target" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Fanatic Stun 3" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+
+// Vampire 
+effect: .name vampire .target target .chance 100% .disease disease_vampire_passive .on_hit true .on_miss true
+
+// crocodile
+effect: .name "Hive Stress 1" .target "target" .chance 90% .stress 8	.on_hit true .on_miss false	.queue true
+effect: .name "Hive Stress 2" .target "target" .chance 90% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "Hive Stress 3" .target "target" .chance 90% .stress 12	.on_hit true .on_miss false	.queue true
+
+effect: .name "Hive ACC Debuff 1" .target target .chance 100% .combat_stat_buff 1 .attack_rating_add -10% .duration 1 .on_hit true .on_miss false .apply_once false
+effect: .name "Hive ACC Debuff 2" .target target .chance 120% .combat_stat_buff 1 .attack_rating_add -12% .duration 1 .on_hit true .on_miss false .apply_once false
+effect: .name "Hive ACC Debuff 3" .target target .chance 140% .combat_stat_buff 1 .attack_rating_add -15% .duration 1 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Croc Pull 1" .target "target"  .pull 2	 .chance 115%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Croc Pull 2" .target "target"  .pull 2	 .chance 135%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Croc Pull 3" .target "target"  .pull 3	 .chance 155%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "CrocBleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "CrocBleed 2" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "CrocBleed 3" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+
+effect: .name "Croc Stress 1" .target "target" .chance 80% .stress 9	.on_hit true .on_miss false	.queue true
+effect: .name "Croc Stress 2" .target "target" .chance 80% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "Croc Stress 3" .target "target" .chance 80% .stress 12	.on_hit true .on_miss false	.queue true
+
+effect: .name "CrocHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 12 .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "CrocHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 15 .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "CrocHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 18 .can_crit_heal false .on_hit true .on_miss true .queue true
+
+effect: .name "Croc Submerge Dodge 1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 35% .duration 2 .on_hit true .on_miss true
+effect: .name "Croc Submerge Dodge 3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 45% .duration 2 .on_hit true .on_miss true
+effect: .name "Croc Submerge Dodge 5" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 55% .duration 2 .on_hit true .on_miss true
+
+effect: .name "Croc Hide Buff 1" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .protection_rating_add 10% .on_hit true .on_miss true .duration 4
+effect: .name "Croc Hide Buff 2" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .protection_rating_add 15% .on_hit true .on_miss true .duration 4
+effect: .name "Croc Hide Buff 3" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .protection_rating_add 15% .on_hit true .on_miss true .duration 4
+
+
+// missing effects
+effect: .name "Countess Bleed 1" .target "target" .chance 100%  .dotBleed 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Tongue Hit" .target "target" .chance 100% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Burn Hero 1" .target "target" .chance 100% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Esquire Push 1" .target "target" .chance 100% .pull 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "CC Mob Feed 2" .target "target" .chance 100%  .speed_rating_add -1 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "CC Mob Feed 3" .target "target" .chance 100%  .speed_rating_add -2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "CC Mob Feed 4" .target "target" .chance 100%  .speed_rating_add -3 .on_hit true .on_miss false .can_apply_on_death true
+
+// CC Bleed Resistance Debuff
+effect: .name "CC Bleed Res Debuff 1" .target "target" .chance 100% .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CC Bleed Res Debuff 3" .target "target" .chance 120% .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "CC Bleed Res Debuff 5" .target "target" .chance 140% .buff_ids "BLEEDRESIST-25" .duration 3 .on_hit true .on_miss false .queue true
+
+// Chevalier
+//Chevalier Stun
+effect: .name "Chevalier AOE Stun 1" .target "target" .curio_result_type "negative" .chance 85% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Chevalier AOE Stun 2" .target "target" .curio_result_type "negative" .chance 105% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Chevalier AOE Stun 3" .target "target" .curio_result_type "negative" .chance 125% .stun 1	.on_hit true .on_miss false .queue true
+
+
+// MISC
+effect: .name instant_shuffle .target target .instant_shuffle 1 .chance 75% .on_hit true .on_miss true .can_apply_on_death false .queue true
+effect: .name test_steal_buff .target target .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss true .queue true
+
+effect: .name test_egg_1 					.target target .chance 100% .actor_dot egg .on_hit true .on_miss true .queue true
+effect: .name test_egg_increment_bark_1 	.target target .chance 100% .bark egg_increment_bark_1 .on_hit true .on_miss true .queue true
+effect: .name test_egg_increment_bark_2 	.target target .chance 100% .bark egg_increment_bark_2 .on_hit true .on_miss true .queue true
+effect: .name test_egg_increment_bark_3 	.target target .chance 100% .bark egg_increment_bark_3 .on_hit true .on_miss true .queue true
+
+effect: .name test_health_damage_1 .target target .chance 100% .health_damage 5 .on_hit true .on_miss true .queue true
+effect: .name test_health_damage_2 .target target .chance 100% .health_damage 10 .on_hit true .on_miss true .queue true
+effect: .name test_health_damage_3 .target target .chance 100% .health_damage 15 .on_hit true .on_miss true .queue true
+effect: .name test_initiative_add 		.target target .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
+effect: .name test_initiative_remove 	.target target .chance 100% .initiative_change -1 .on_hit true .on_miss true .queue true
+
+effect: .name test_egg_hatch_buff .target target_enemy_group .chance 100% .buff_ids "CC_countess_egg_hatch_buff_0" .duration 3 .on_hit true .on_miss false .queue true
+
+
+//Curio effects
+effect: .name "curio_curse" .target target .chance 30% .disease disease_vampire_passive .on_hit true .on_miss true
+effect: .name "Egg Interact Summon" .target performer .chance 100% .summon_count 3 .summon_can_spawn_loot true .summon_monsters sycophant_A tick_zombie_A esquire_A .summon_chances 1.0 .summon_limits 3 .summon_ranks 123 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+// CRIMSON CURSE DISEASE
+effect: .name "Crimson Curse Weak" .target "target" .curio_result_type "negative" .chance 31% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "Crimson Curse Strong" .target "target" .curio_result_type "negative" .chance 45% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "Crimson Curse Boss" .target "target" .curio_result_type "negative" .chance 75% .disease disease_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+

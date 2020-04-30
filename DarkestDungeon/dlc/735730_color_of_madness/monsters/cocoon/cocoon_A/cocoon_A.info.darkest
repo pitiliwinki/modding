@@ -1,0 +1,14 @@
+display: .size 1
+enemy_type: .id "husk"
+stats: .hp 18 .def 0% .prot 0.35 .spd 1 .stun_resist 50% .poison_resist 0% .bleed_resist 50% .debuff_resist 50% .move_resist 0%
+skill: .id "xform_to_farmhand" .type "ranged" .valid_modes "guard" .atk 102.5% .dmg 0 0 .crit 0%  .effect "xform to farmhand_A" .launch 4321 .is_crit_valid False
+skill: .id "murmurs" .type "ranged" .atk 82.5% .dmg 0 0 .crit 0%  .effect "Horse Horror A" .launch 4321 .target 1234 .is_crit_valid True
+
+personality: .prefskill -1
+loot: .code "A" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id cocoon_A
+life_link: .base_class "miller"
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False .living_hero_buff_instance_ids disable_guard
+mode: .id guard .is_raid_default true .always_guard_actor_base_class_ids miller

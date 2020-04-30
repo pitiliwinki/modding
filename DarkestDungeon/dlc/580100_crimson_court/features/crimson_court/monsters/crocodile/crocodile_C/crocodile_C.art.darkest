@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "angry_hive" .anim "attack_hive" .fx "angry_hive" .targchestfx "angry_hive_target" .area_pos_offset -150 -25 .target_area_pos_offset 150 0
+skill: .id "teeth_rake" .anim "attack_bite" .fx "teeth_rake" .targchestfx "blood_splatter"
+skill: .id "submerge" .anim "attack_submerge" .fx "submerge" .area_pos_offset 0 12 .can_display_performer_selection_after_turn false
+skill: .id "submerge_nuke" .anim "attack_surface" .fx "submerge_nuke" .targchestfx "blood_splatter"
+skill: .id "move_from_right" .anim "attack_move" .fx "move_from_left_right" .area_pos_offset 0 15 .can_display_performer_selection_after_turn false
+skill: .id "move_from_left" .anim "attack_move" .fx "move_from_left_right" .area_pos_offset 0 15 .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset 0 25
+rendering: .sort_position_z_rank_override -1

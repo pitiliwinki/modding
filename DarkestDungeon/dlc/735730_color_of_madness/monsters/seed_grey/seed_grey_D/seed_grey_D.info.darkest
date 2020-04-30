@@ -1,0 +1,11 @@
+display: .size 1
+enemy_type: .id "husk"
+stats: .hp 30 .def 0% .prot 0.05 .spd 2 .stun_resist 85% .poison_resist 85% .bleed_resist 100% .debuff_resist 40% .move_resist 75%
+personality: .prefskill -1
+loot: .code "" .count 
+initiative: .number_of_turns_per_round 0
+monster_brain: .id seed
+life_link: .base_class "spire"
+battle_modifier: .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+mode: .id .is_raid_default true .always_guard_actor_base_class_ids spire
+

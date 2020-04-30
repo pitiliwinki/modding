@@ -1,0 +1,45 @@
+town_roster_list_layout:
+	.element_pos 0 132
+	.element_spacing 0 97
+	.element_max 8
+	.top_frame_offset 20 -50
+	.bottom_frame_offset 20 -10
+	.scroll_up_button_offset 0 -38
+	.scroll_down_button_offset 0 -12
+	.show_hide_pos 0 0
+	.hide_offset 384 0
+	.roster_message_offset 60 78
+	.roster_live_top_offset 35 90
+	.roster_live_bottom_offset 35 -30
+    .roster_sort_start_position 148 80
+    .roster_sort_spacing 6 0
+	.roster_sort_tooltip_offset 16 -8
+	.roster_sort_current_ascending_overlay_offset -8 -8
+	.roster_sort_current_descending_overlay_offset -8 24
+    .sort_max_x_travel 100.0
+    .sort_time 1.0
+	.sort_controller_tooltip_time 3.0
+    .stress_update_delay 0.2
+	.focus_controller_button_pos 366 26
+    .sort_controller_buttons_pos 294 26
+    .sort_controller_buttons_spacing 0 0
+
+town_roster_element_layout:
+	.portrait_icon_offset 21 9
+	.building_icon_offset 20 10
+	.building_icon_tooltip_offset 0 0
+	.non_building_icon_offset 14 10
+	.non_building_icon_tooltip_offset 0 0
+	.new_info_icon_offset 0 0
+	.name_offset 116 4
+	.stress_offset 116 43
+	.stress_spacing 10 0
+	.weapon_level_offset 156 65
+	.armour_level_offset 228 65
+	.resolve_level_bar_offset 258 4
+	.resolve_level_bar_tooltip_offset -170 4
+	.character_slide_splat_offset -80 -70
+    .stress_halo_position 55.0 50.0
+    .stress_halo_extra_size 10.0 10.0
+    .stress_bar_transition_time 0.5
+	.completed_darkest_dungeon_quest_icon_offset 220 15

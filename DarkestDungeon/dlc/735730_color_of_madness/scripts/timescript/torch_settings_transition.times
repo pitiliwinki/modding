@@ -1,0 +1,53 @@
+// torch settings transition
+
+lambda: narration_pause
+lambda: show_intro_announcement
+
+tween: layers.TorchTransition_alpha .value 0.0
+tween: layers.TorchTransition_offset,z .value 0.0
+
+wait: 1.0
+
+lambda: hide_announcement
+
+wait: 0.5
+
+group:
+
+	lambda: show_result_animation
+	tween:	camera.zoom						.value 1.5		.time 0.1
+	tween:	layers.TorchTransition_alpha	.value 1.0		.time 0.1
+	tween:	layers.A_saturation				.value 0.5		.time 0.1
+	tween:	layers.A_intensity				.value 0.2		.time 0.1
+	tween:	layers.A_blurriness				.value 5.0		.time 0.1
+	tween:	layers.HUD_alpha				.value 0.0		.time 0.1
+	tween:	layers.HUD_update				.value 0.0
+end:
+
+lambda: reveal_wave_background
+lambda: show_result_announcement
+lambda: change_torch_settings
+lambda: play_music
+
+group:
+tween:	layers.TorchTransition_offset,z	.value -100.0 .time 2.0
+tween:	camera.shudder,x				.value 3
+tween:	camera.shudder,y				.value 3
+tween:	camera.shudder,x				.value 0.0	.time 2.25
+end:
+
+lambda: hide_announcement
+
+group:
+	tween:	camera.zoom						.track self		.time 0.3
+	tween:	layers.TorchTransition_alpha	.value 0.0		.time 0.3
+	tween:	layers.A_saturation				.value 1.0		.time 0.3
+	tween:	layers.A_intensity				.value 1.0		.time 0.3
+	tween:	layers.A_blurriness				.value 0.0		.time 0.3
+	tween:	layers.HUD_alpha				.value 1.0		.time 0.3
+	tween:	layers.HUD_update				.value 1.0
+end:
+
+wait: 0.5
+
+lambda: narration_unpause

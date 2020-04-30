@@ -1,0 +1,27 @@
+hero_recruit_store:
+	.base_size 780 780
+	.store_item_pos 450 80
+	.store_item_spacing 0 100
+
+hero_layout:
+    .hero_background_offset -100 -8
+	.hero_resolve_level_number_background_offset -63 12
+    .hero_resolve_level_number_text_offset -30 43
+    .hero_name_offset 100 12
+	.hero_description_offset 100 42
+	.hero_divider_offset -150 -10 
+.hero_rescued_text 400 17
+
+
+add_hero_dialog_contents:
+    .text_box_size 350 200
+    .character_limit 32
+
+stagecoach_layout:
+    .scroll_bar_offset 0
+    .scroll_bar_y_size_offset 40
+	.empty_info_text_offset 575 375
+	.empty_info_text_width 600
+	.show_character_display_input_preview_offset 700 815
+	.show_character_display_input_preview_text_offset 50 6
+	

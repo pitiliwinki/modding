@@ -1,0 +1,13 @@
+display: .size 2
+enemy_type: .id "stonework"
+enemy_type: .id "eldritch"
+stats: .hp 246 .def 0% .prot 0.5 .spd 3 .stun_resist 240% .poison_resist 240% .bleed_resist 240% .debuff_resist 240% .move_resist 240%
+skill: .id "head_prep" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Statue head prep buff" .launch 4321 .target  .is_crit_valid False
+skill: .id "head_spew" .type "ranged" .atk 102.5% .dmg 9 13 .crit 14%  .effect "Syco Weak Stress 3" .launch 4321 .target ~1234 .self_target_valid False
+personality: .prefskill -1
+loot: .code "T_CC" .count 1
+loot: .code "BLUEPRINT" .count 1
+initiative: .number_of_turns_per_round 0
+monster_brain: .id statue_head_A
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat

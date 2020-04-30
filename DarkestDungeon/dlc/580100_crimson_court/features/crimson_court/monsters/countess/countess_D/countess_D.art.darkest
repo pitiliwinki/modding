@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "transform_to_weak" .anim "attack_transform" .area_pos_offset 0 -90 .reset_source_stance false .reset_target_stance false .can_display_skill_name true .can_display_selection false .can_display_performer_selection_after_turn false
+skill: .id "claw_swipe_normal" .anim "attack_claw" .fx "claw_swipe_normal" .targchestfx "blood_splatter" .area_pos_offset -50 -75 .target_area_pos_offset 25 0
+skill: .id "pheromonal_delirium" .anim "attack_pheromones" .fx "pheromonal_delirium" .area_pos_offset -150 -90 .target_area_pos_offset 150 0
+skill: .id "life_feeds_on_life" .anim "attack_injection" .fx "life_feeds_on_life" .area_pos_offset -125 -75 .target_area_pos_offset -50 0
+defending_area_pos_offset: .offset 0 -90

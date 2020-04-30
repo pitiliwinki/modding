@@ -1,0 +1,14 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 23 .def 42.25% .prot 0 .spd 7 .stun_resist 90% .poison_resist 100% .bleed_resist 65% .debuff_resist 90% .move_resist 90%
+skill: .id "enraging_slight" .type "ranged" .atk 102.5% .dmg 2 5 .crit 9%  .effect "Castellan Pull 5" "Castellan Stress 5" "Mark Target" .launch 4321 .target 1234 .move 0 0
+skill: .id "elusive_exit" .type "ranged" .atk 120% .dmg 4 4 .crit 0%  .effect "C Stress AOE DoT" "Syco Swap C" "Castellan Exit C" .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false
+personality: .prefskill -1
+loot: .code "BLOOD_HIGH" .count 1
+loot: .code "cc_invite" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id castellan_C
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "baron"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

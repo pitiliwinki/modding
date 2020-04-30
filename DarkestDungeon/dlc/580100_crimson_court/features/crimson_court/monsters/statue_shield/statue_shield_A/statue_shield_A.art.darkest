@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "shield_launch" .anim "attack_up" .can_display_performer_selection_after_turn false
+skill: .id "shield_smash" .anim "attack_down" .area_pos_offset 0 25 .target_area_pos_offset 75 0
+defending_area_pos_offset: .offset 0 25

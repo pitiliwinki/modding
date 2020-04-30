@@ -1,0 +1,23 @@
+guild_layout:
+	.skill_pos 44 -4
+	.skill_spacing 0 91
+
+guild_upgrade_tree_layout:
+	.title_visible 0
+	.title_offset 0 0
+	.icon_offset 0 0
+	.icon_locked_offset 0 0
+	.icon_cost_visible 1
+	.icon_cost_offset 34 70
+	.icon_tooltip_offset 90 0
+	.requirement_start_offset 0 0
+	.requirement_spacing 75 0
+	.requirement_tooltip_tree_icon_above_offset 0 -10
+	.requirement_tooltip_tree_icon_below_offset 0 40
+	.divider_offset 0 82
+
+guild_upgrade_requirement_tooltip_layout:
+	.tooltip_offset 0 0
+	.tooltip_text_width 200
+	.tooltip_is_auto_width 1
+	.tooltip_is_offset_from_tree_icon 1

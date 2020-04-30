@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "rend_the_warp" .anim "attack_eye" .fx "rend_the_warp" .targheadfx "rend_the_warp_target" .area_pos_offset -125 -50 .target_area_pos_offset 125 0
+skill: .id "the_husking" .anim "attack_tentacles" .fx "the_husking" .targheadfx "the_husking_target" .area_pos_offset -125 -50 .target_area_pos_offset 125 0
+defending_area_pos_offset: .offset 0 -25
+wave_background: .background_name "spacetime" .animation "galaxy_animation"
+colour_grade: .name colour_grade

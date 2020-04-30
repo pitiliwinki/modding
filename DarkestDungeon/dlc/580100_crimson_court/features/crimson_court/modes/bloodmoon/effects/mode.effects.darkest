@@ -1,0 +1,37 @@
+// The Ancestor
+effect: .name "Ancestor Summon Perfect" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters ancestor_perfect_D .summon_chances 1.0 .on_hit true .on_miss true .apply_once true
+effect: .name "Ancestor Summon Mixed" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters ancestor_perfect_D ancestor_flawed_D .summon_chances 2.0 1.0 .on_hit true .on_miss true .apply_once true
+effect: .name "Ancestor Summon Flawed" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters ancestor_perfect_D ancestor_flawed_D .summon_chances 1.0 1.0 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Ancestor Summon Nebula" .target "performer" .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters ancestor_nebula_D .summon_chances 1.0 .summon_ranks 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Ancestor Damage Marked"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50%	.on_hit true .on_miss false
+effect: .name "Ancestor Mark"	.target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+effect: .name "Flawed Stun" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Ancestor Perfect Bleed" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 3 .duration 3	.on_hit true .on_miss false
+effect: .name "Ancestor Flawed Bleed" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 3 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Ancestor Perfect Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 22		.on_hit true .on_miss false	.queue true
+effect: .name "Ancestor Flawed Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 12		.on_hit true .on_miss false	.queue true
+effect: .name "Ancestor Small Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 12		.on_hit true .on_miss false	.queue true
+
+effect: .name "Ancestor Shuffle" 	.target "target" 	.shuffletarget .chance 150%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ancestor Disrupt" .target "target" .curio_result_type "negative" .chance 150%  .combat_stat_buff 1 .damage_low_multiply -20% .damage_high_multiply -20% .speed_rating -5 .critical_rating -10% .on_hit true .on_miss false
+
+effect: .name "Ancestor Big Rider Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 9		.on_hit true .on_miss false	.queue true
+effect: .name "Ancestor Big Contemplate Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 20		.on_hit true .on_miss false	.queue true
+
+effect: .name "Egg Heal Hero" .target "target" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true
+effect: .name "Egg Blight Hero" .target "target" .curio_result_type "negative" .chance 150%  .dotPoison 6 .duration 3	.on_hit true .on_miss false
+effect: .name "Pod AOE Blight" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Ancestor Fuse Two" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 6 .duration 3	.on_hit true .on_miss false
+effect: .name "Ancestor Fuse All" .target "target" .curio_result_type "negative" .chance 135%  .dotBleed 4 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Heart Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 24		.on_hit true .on_miss false	.queue true
+effect: .name "Heart Stress Rider" .target "target" .curio_result_type "negative" .chance 100% .stress 12		.on_hit true .on_miss false	.queue true
+
+effect: .name "Heart Stun" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Heart Bleed" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 6 .duration 3	.on_hit true .on_miss false
+effect: .name "Heart Blight" .target "target" .curio_result_type "negative" .chance 150%  .dotPoison 6 .duration 3	.on_hit true .on_miss false

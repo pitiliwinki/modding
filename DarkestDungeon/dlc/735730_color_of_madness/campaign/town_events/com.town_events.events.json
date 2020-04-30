@@ -1,0 +1,153 @@
+{
+    "events": [
+        {
+            "id": "the_lights",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 4,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 8,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "shard_buff",
+                    "string_data": "",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "shard_harvest",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 4,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 15,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_currency",
+                    "string_data": "shard",
+                    "number_data": 25.0
+                }
+            ]
+        },
+        {
+            "id": "shard_hungry",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 3,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 10,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "quirked_recruit",
+                    "string_data": "twilight_dreamer, tough, steady",
+                    "number_data": 6.0
+                },
+                {
+                    "type": "event_cost",
+                    "string_data": "shard",
+                    "number_data": 20.0
+                }
+            ],
+            "custom_frame_id" : "shard_priced"
+        },
+        {
+            "id": "they_made_a_tonic",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 12,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 20,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "roster_disease_heal",
+                    "string_data": "",
+                    "number_data": 1.0
+                },
+                {
+                    "type": "event_cost",
+                    "string_data": "shard",
+                    "number_data": 30.0
+                }
+            ],
+            "custom_frame_id" : "shard_priced",
+            "interaction_texture_id" : "tonic",
+            "interaction_click_sound" : "/general/raid_screen/treasure_add",
+            "interaction_tooltip" : "town_event_tooltip_they_made_a_tonic"
+        },
+        {
+            "id": "crystalline_focii",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 12,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 14,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "roster_stress_heal",
+                    "string_data": "",
+                    "number_data": 50.0
+                },
+                {
+                    "type": "event_cost",
+                    "string_data": "shard",
+                    "number_data": 30.0
+                }
+            ],
+            "custom_frame_id" : "shard_priced",
+            "interaction_texture_id" : "crystal",
+            "interaction_click_sound" : "/general/raid_screen/treasure_add",
+            "interaction_tooltip" : "town_event_tooltip_they_crystalline_focii"
+        }
+    ]
+}

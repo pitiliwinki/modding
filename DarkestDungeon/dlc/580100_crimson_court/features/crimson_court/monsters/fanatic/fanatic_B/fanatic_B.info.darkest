@@ -1,0 +1,19 @@
+display: .size 2
+enemy_type: .id "man"
+stats: .hp 149 .def 11.75% .prot 0.15 .spd 8 .stun_resist 65% .poison_resist 100% .bleed_resist 65% .debuff_resist 55% .move_resist 75%
+skill: .id "sentence_rendered" .type "melee" .atk 108.75% .dmg 1 2 .crit 0%  .effect "Burn Hero 1" .launch 4321 .target 1234 .move 4 0 .is_crit_valid False
+skill: .id "righteous_condemnation" .type "melee" .atk 98.75% .dmg 1 2 .crit 0%  .effect "Righteous Buff 1" "Fanatic Stress AOE" .launch 4321 .target ~1234 .move 4 0 .is_crit_valid False
+skill: .id "holy_stake" .type "melee" .atk 98.75% .dmg 5 9 .crit 12%  .effect "Stake Bleed 1" "Stake Slow 1" "Stake Kill Vamp" "Fanatic Damage Marked Target" .launch 4321 .target 1234 .move 0 4
+skill: .id "brand_tainted" .type "melee" .atk 108.75% .dmg 1 2 .crit 0%  .effect "Holy Mark 1" "Fanatic Stress DOT" .launch 4321 .target 1234 .is_crit_valid False
+skill: .id "beat_down" .type "melee" .atk 98.75% .dmg 3 5 .crit 12%  .effect "Fanatic Stun 1" "Push 2C" "Fanatic Stress Big" .launch 4321 .target 1234 .move 0 4
+skill: .id "crush_tainted" .type "melee" .atk 98.75% .dmg 6 8 .crit 0%  .effect "Fanatic Stress Crush" .launch 4321 .target ~1234 .rank_damage_modifiers -0.75 -0.4 -0.2 0.0 .move 0 4 .is_crit_valid False
+personality: .prefskill -1
+loot: .code "T_COURTYARD" .count 1
+loot: .code "FH" .count 1
+loot: .code "FCURE" .count 1
+initiative: .number_of_turns_per_round 3
+monster_brain: .id fanatic_A
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised False .always_surprise True .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+ battle_backdrop: .background_name "fanatic" .animation "fanatical_animation" .isFlat False
+mash_modifier: .disable_additional_mash_for_infestation_sequence_on_death True

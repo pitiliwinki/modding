@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "name": "prologue",
+            "label": "str_media_video",
+            "label_backdrop": "campaign/town/buildings/statue/video_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_video_backdrop.png",
+            "regex_filter" : "house_of_ruin|old_road",
+            "sort_priority": 0
+        },
+        {
+            "name": "dd_entries",
+            "label": "str_darkest_dungeon_audio",
+            "label_backdrop": "campaign/town/buildings/statue/darkest_dungeon_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_darkest_dungeon_backdrop.png",
+            "regex_filter" : "plot_darkest_dungeon_.*",
+            "sort_priority": 7500
+        },
+        {
+            "name": "boss_entries",
+            "label": "str_media_boss_quests",
+            "label_backdrop": "campaign/town/buildings/statue/boss_quest_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_plot_quest_backdrop.png",
+            "regex_filter" : "plot_kill_.*",
+            "sort_priority": 5000
+        },
+        {
+            "name": "epilog",
+            "label": "str_media_epilog_title",
+            "label_backdrop": "campaign/town/buildings/statue/epilog_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_epilog_backdrop.png",
+            "regex_filter": "epilog",
+            "sort_priority": 10000
+        },
+        {
+            "name": "backerjournal",
+            "label": "str_media_backer_journals",
+            "label_backdrop": "campaign/town/buildings/statue/backer_journal_title_bar.png",
+            "entry_backdrop": "campaign/town/buildings/statue/media_entry_backer_journal_backdrop.png",
+            "regex_filter" : "NONE",
+            "sort_priority": 12000
+        }
+    ],
+    "videos": [
+        {
+            "name": "house_of_ruin",
+            "video_name": "house_of_ruin",
+            "category": "prologue",
+            "show_only_if_previously_viewed": false,
+            "access_only_if_previously_viewed": false
+        },
+        {
+            "name": "old_road",
+            "video_name": "old_road",
+            "category": "prologue",
+            "show_only_if_previously_viewed": false,
+            "access_only_if_previously_viewed": false
+        },
+        {
+            "name": "epilog",
+            "video_name": "epilog",
+            "category": "epilog",
+            "show_only_if_previously_viewed": false,
+            "access_only_if_previously_viewed": true,
+            "access_if_plot_finished": "plot_darkest_dungeon_4"
+        }
+    ]
+}

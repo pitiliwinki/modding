@@ -1,0 +1,10 @@
+display: .size 1
+enemy_type: .id "vegetation"
+stats: .hp 100 .def 200% .prot 2 .spd 0 .stun_resist 215% .poison_resist 200% .bleed_resist 200% .debuff_resist 200% .move_resist 200%
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default_A
+tag: .id "boss"
+life_link: .base_class "crocodile"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_damaged_directly false

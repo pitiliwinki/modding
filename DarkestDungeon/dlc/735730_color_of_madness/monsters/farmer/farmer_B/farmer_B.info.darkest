@@ -1,0 +1,17 @@
+display: .size 1
+enemy_type: .id "husk"
+enemy_type: .id "man"
+stats: .hp 17 .def 16.75% .prot 0 .spd 3 .stun_resist 40% .poison_resist 70% .bleed_resist 40% .debuff_resist 40% .move_resist 30%
+skill: .id "sowing_seeds" .type "ranged" .atk 91.75% .dmg 1 2 .crit 0%  .effect "Farmer Blight 2" "Stress 1" .launch 4321 .target 1234 .is_crit_valid False
+skill: .id "pause_from_labour" .type "ranged" .atk 0% .dmg   .crit 0%  .effect "FarmerHeal 2" "Farmer Speed 2" .launch 4321 .target  .is_crit_valid False
+skill: .id "farmer_attack" .type "melee" .atk 83.75% .dmg 4 7 .crit 6%  .launch 4321 .target 12
+riposte_skill: .id "riposte1" .type "melee" .atk 98.75% .dmg 3 5 .crit 4%  .launch 4321 .target 1234
+personality: .prefskill -1
+loot: .code "" .count 
+initiative: .number_of_turns_per_round 1
+monster_brain: .id farmer_B
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "miller"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False 
+spawn: .wave_effects farmer_spawn_speed_buff_B
+wave_spawning: .prefers_front True

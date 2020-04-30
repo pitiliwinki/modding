@@ -1,0 +1,85 @@
+{
+    "display_states": [
+        {
+            "name": "regular",
+            "active_on_plot_quest_return": "",
+            "active_on_town_event": "",
+            "background_texture": "campaign/town/town_bg.png",
+            "time_of_day_data": [
+                {
+                    "tint": "colours/town_screen_colour_morning.png"
+                },
+                {
+                    "tint": "colours/town_screen_colour_afternoon.png"
+                },
+                {
+                    "tint": "colours/town_screen_colour_evening.png"
+                },
+                {
+                    "tint": "colours/town_screen_colour_night.png"
+                }
+
+            ]
+        },
+        {
+            "name": "post_darkest_dungeon_1",
+            "active_on_plot_quest_return": "plot_darkest_dungeon_1",
+            "active_on_town_event": "",
+            "background_texture": "campaign/town/town_bg_post_dd_1.png",
+            "time_of_day_data": [
+                {
+
+                    "tint" : "colours/town_screen_colour_dd1.png"
+                }
+                ]
+        },
+
+        {
+            "name": "post_darkest_dungeon_2",
+            "active_on_plot_quest_return": "plot_darkest_dungeon_2",
+            "active_on_town_event": "",
+            "background_texture": "campaign/town/town_bg_post_dd_2.png",
+            "time_of_day_data": [
+              {
+                    "tint": "colours/town_screen_colour_dd1.png"
+                }
+            ]
+        },
+
+        {
+            "name": "post_darkest_dungeon_3",
+            "active_on_plot_quest_return": "plot_darkest_dungeon_3",
+            "active_on_town_event": "",
+            "background_texture": "campaign/town/town_bg_post_dd_3.png",
+            "time_of_day_data": [
+                {
+                    "tint": "colours/town_screen_colour_dd1.png"
+                }
+
+            ]
+        },
+        {
+            "name": "town_event_in_activity_buff_stress_heal_buff",
+            "active_on_plot_quest_return": "",
+            "active_on_town_event": "in_activity_buff_stress_heal_buff",
+            "background_texture": "campaign/town/town_bg_activity_stress_heal_buff.png",
+            "time_of_day_data": [
+                {
+                    "tint": "colours/town_screen_colour_activity_stress_heal_buff.png"
+                }
+
+            ]
+        },
+        {
+            "name": "town_event_in_activity_buff_stress_heal_debuff",
+            "active_on_plot_quest_return": "",
+            "active_on_town_event": "in_activity_buff_stress_heal_debuff",
+            "background_texture": "campaign/town/town_bg_activity_stress_heal_debuff.png",
+            "time_of_day_data": [
+                {
+                    "tint": "colours/town_screen_colour_activity_stress_heal_debuff.png"
+                }
+            ]
+        }
+    ]
+}

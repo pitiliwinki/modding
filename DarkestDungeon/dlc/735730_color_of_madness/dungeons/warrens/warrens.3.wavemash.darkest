@@ -1,0 +1,64 @@
+mash: .chance 1 .types carrion_eater_B carrion_eater_B carrion_eater_B 
+mash: .chance 1 .types carrion_eater_B carrion_eater_B swine_drummer_B 
+mash: .chance 1 .types carrion_eater_B carrion_eater_B swine_wretch_B 
+mash: .chance 1 .types carrion_eater_B swine_reaver_B swine_drummer_B 
+mash: .chance 1 .types carrion_eater_B swine_reaver_B swine_wretch_B 
+mash: .chance 1 .types carrion_eater_big_B swine_drummer_B  
+mash: .chance 1 .types carrion_eater_big_B swine_wretch_B  
+mash: .chance 1 .types carrion_eater_big_B swine_reaver_B  
+mash: .chance 1 .types swine_reaver_B swine_slasher_B swine_drummer_B 
+mash: .chance 1 .types swine_reaver_B swine_slasher_B swine_wretch_B 
+mash: .chance 1 .types swine_wretch_B swine_wretch_B swine_wretch_B 
+mash: .chance 1 .types carrion_eater_big_B carrion_eater_B  
+mash: .chance 1 .types carrion_eater_B carrion_eater_B cultist_witch_B 
+mash: .chance 2 .types cultist_brawler_B cultist_brawler_B cultist_witch_B 
+mash: .chance 1 .types cultist_brawler_B cultist_brawler_B swine_drummer_B 
+mash: .chance 1 .types cultist_brawler_B cultist_brawler_B swine_wretch_B 
+mash: .chance 1 .types carrion_eater_big_B cultist_witch_B  
+mash: .chance 3 .types maggot_B maggot_B ghoul_B 
+mash: .chance 2 .types carrion_eater_B carrion_eater_B ghoul_B 
+mash: .chance 2 .types carrion_eater_big_B ghoul_B  
+mash: .chance 2 .types swine_reaver_B ghoul_B  
+mash: .chance 2 .types ghoul_B swine_wretch_B  
+mash: .chance 2 .types ghoul_B swine_drummer_B  
+mash: .chance 1 .types maggot_B maggot_B maggot_B maggot_B
+mash: .chance 1 .types spider_webber_B spider_webber_B  
+mash: .chance 1 .types spider_webber_B spider_webber_B spider_spitter_B 
+mash: .chance 1 .types maggot_B maggot_B spider_spitter_B 
+mash: .chance 1 .types skeleton_common_B skeleton_common_B carrion_eater_B 
+mash: .chance 2 .types skeleton_common_B cultist_brawler_B cultist_witch_B 
+mash: .chance 1 .types brigand_blood_B brigand_cutthroat_B brigand_fusilier_B 
+mash: .chance 1 .types brigand_cutthroat_B brigand_cutthroat_B brigand_fusilier_B 
+mash: .chance 1 .types brigand_cutthroat_B brigand_cutthroat_B brigand_fusilier_B brigand_fusilier_B
+mash: .chance 1 .types carrion_eater_B carrion_eater_B carrion_eater_B swine_drummer_B
+mash: .chance 1 .types carrion_eater_B carrion_eater_B swine_drummer_B swine_wretch_B
+mash: .chance 1 .types carrion_eater_B swine_reaver_B swine_drummer_B swine_wretch_B
+mash: .chance 3 .types swine_reaver_B swine_slasher_B swine_drummer_B swine_wretch_B
+mash: .chance 1 .types swine_reaver_B swine_slasher_B swine_wretch_B swine_wretch_B
+mash: .chance 1 .types carrion_eater_big_B swinetaur_B  
+mash: .chance 1 .types carrion_eater_big_B carrion_eater_B carrion_eater_B 
+mash: .chance 1 .types carrion_eater_big_B carrion_eater_B swine_wretch_B 
+mash: .chance 1 .types swinetaur_B swine_drummer_B swine_wretch_B 
+mash: .chance 1 .types swine_reaver_B swinetaur_B swine_drummer_B 
+mash: .chance 1 .types swine_reaver_B swinetaur_B swine_wretch_B 
+mash: .chance 1 .types swine_reaver_B cultist_brawler_B swine_wretch_B cultist_witch_B
+mash: .chance 1 .types swine_reaver_B cultist_brawler_B swine_wretch_B swine_drummer_B
+mash: .chance 1 .types cultist_brawler_B cultist_brawler_B swine_drummer_B swine_wretch_B
+mash: .chance 1 .types carrion_eater_big_B carrion_eater_B cultist_witch_B 
+mash: .chance 1 .types swinetaur_B swine_wretch_B cultist_witch_B 
+mash: .chance 1 .types swinetaur_B cultist_brawler_B cultist_witch_B 
+mash: .chance 1 .types swine_reaver_B swine_slasher_B swine_wretch_B madman_B
+mash: .chance 1 .types spider_webber_B spider_webber_B spider_spitter_B spider_spitter_B
+mash: .chance 1 .types brigand_blood_B brigand_cutthroat_B brigand_fusilier_B 
+mash: .chance 2 .types cultist_brawler_B cultist_witch_B  
+mash: .chance 1 .types swine_reaver_B swine_drummer_B  
+mash: .chance 1 .types swine_reaver_B swine_wretch_B  
+mash: .chance 1 .types carrion_eater_B carrion_eater_B  
+
+curios: .types com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types spacetime
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A
+
+specifications: .random_chance 1.0

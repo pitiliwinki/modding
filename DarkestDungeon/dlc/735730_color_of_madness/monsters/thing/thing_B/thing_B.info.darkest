@@ -1,0 +1,32 @@
+display: .size 2
+enemy_type: .id "eldritch"
+stats: .hp 148 .def 13.75% .prot 0 .spd 3 .stun_resist 105% .poison_resist 60% .bleed_resist 53% .debuff_resist 60% .move_resist 45%
+skill: .id "phase_gnaw" .type "melee" .atk 98.75% .dmg 5 6 .crit 6%  .effect "Thing Gnaw Stress" "Thing Blight 3" "Thing Disease 3" .launch 4321 .target 12 .ignore_protection True
+skill: .id "consume_self" .type "ranged" .atk 208.75% .dmg 0 0 .crit 0%  .effect "Thing Consume Self 3" "Cure Self" "Thing Consume StressParty" "Summon Kyle 3" .launch 4321 .target ~1234 .is_crit_valid False .is_knowledgeable False
+skill: .id "tainting_touch" .type "melee" .atk 103.75% .dmg 9 12 .crit 11%  .effect "Thing Vorpal Stress" .launch 4321 .target 1234
+skill: .id "emit_globule_stun" .type "ranged" .atk 103.75% .dmg 2 2 .crit 12%  .effect "Thing Stun 3" "Thing Stress" .launch 4321 .target 1234
+skill: .id "emit_globule_debuff" .type "ranged" .atk 108.75% .dmg 2 2 .crit 12%  .effect "Thing Resist Debuffs 3" "Thing Stress" .launch 4321 .target 1234
+skill: .id "emit_globule_combatnerf" .type "ranged" .atk 103.75% .dmg 2 2 .crit 12%  .effect "Thing Combat Debuffs 3" "Thing Stress" .launch 4321 .target 1234
+skill: .id "consume_self_once" .type "ranged" .atk 208.75% .dmg 0 0 .crit 0%  .effect "Thing Dying Buffs 3" "Thing Consume Self 3" "Cure Self" "Thing Consume StressParty" "Summon Kyle 3" .launch 4321 .target ~1234 .is_crit_valid False .is_knowledgeable False
+personality: .prefskill -1
+loot: .code "THING_SHARDS" .count 1
+loot: .code "THING_TRINKET" .count 1
+loot: .code "C" .count 2
+loot: .raid_finish_quirk_class_id scythemaster
+loot: .raid_finish_quirk_class_id husk_slayer
+loot: .raid_finish_quirk_class_id alien_eye
+loot: .raid_finish_quirk_class_id alien_precision
+loot: .raid_finish_quirk_class_id alien_speed
+loot: .raid_finish_quirk_class_id alien_force
+loot: .raid_finish_quirk_class_id alien_calm
+loot: .raid_finish_quirk_class_id alien_purity
+loot: .raid_finish_quirk_class_id alien_healing
+loot: .raid_finish_quirk_class_id alien_solidity
+loot: .raid_finish_quirk_class_id alien_stability
+loot: .raid_finish_quirk_class_id alien_isolation
+initiative: .number_of_turns_per_round 2
+monster_brain: .id thing_A
+tag: .id "boss"
+death_class: .monster_class_id corpse_large_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
+tutorial: .id thing

@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "feed_on_emaciated" .anim "attack_feed" .fx "feed_on" .targchestfx "blood_splatter" .area_pos_offset 0 -75 .custom_idle_anim_name "combat_emaciated" .custom_idle_round_duration 3 .can_display_performer_selection_after_turn false
+skill: .id "feed_on_average" .anim "attack_feed" .fx "feed_on" .targchestfx "blood_splatter" .area_pos_offset 0 -75 .custom_idle_anim_name "combat_average" .custom_idle_round_duration 3 .can_display_performer_selection_after_turn false
+skill: .id "feed_on_bloated" .anim "attack_feed" .fx "feed_on" .targchestfx "blood_splatter" .area_pos_offset 0 -75 .custom_idle_anim_name "combat_bloated" .custom_idle_round_duration 3 .can_display_performer_selection_after_turn false
+skill: .id "served_rare" .anim "attack_forelegs" .fx "served_rare" .targchestfx "blood_splatter" .area_pos_offset 0 -20
+skill: .id "hungry_eyes" .anim "attack_eyes" .fx "hungry_eyes" .targchestfx "stress_cloud" .area_pos_offset -75 -75 .target_area_pos_offset 100 0
+skill: .id "fine_pairing" .anim "attack_knife" .fx "fine_pairing" .targchestfx "blood_splatter" .area_pos_offset -75 -65 .target_area_pos_offset 100 0
+riposte_skill: .id "riposte_attack" .anim "attack_knife" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
+defending_area_pos_offset: .offset 0 -80

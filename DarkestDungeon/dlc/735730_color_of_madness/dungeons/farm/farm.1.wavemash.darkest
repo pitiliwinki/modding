@@ -1,0 +1,35 @@
+mash: .chance 1 .types farmer_A farmer_A
+mash: .chance 1 .types farmer_A farmer_A
+mash: .chance 1 .types scarecrow_A farmer_A
+mash: .chance 1 .types farmer_A foreman_A
+
+mash: .chance 1 .types farmer_A farmer_A farmer_A
+mash: .chance 1 .types scarecrow_A farmer_A farmer_A
+mash: .chance 1 .types scarecrow_A farmer_A farmer_A
+mash: .chance 1 .types farmer_A plowhorse_A
+mash: .chance 1 .types farmer_A plowhorse_A
+
+mash: .chance 1 .types scarecrow_A farmer_A farmer_A farmer_A
+mash: .chance 1 .types farmer_A farmer_A farmer_A foreman_A
+mash: .chance 1 .types farmer_A farmer_A plowhorse_A
+mash: .chance 1 .types farmer_A farmer_A farmer_A farmer_A
+
+boss: .chance 1 .types miller_A .background farm.room_wall.windmill_2
+
+crystal:  .types corpse_crystal_A
+stall:    .types scarecrow_A
+teleport: .types gatekeeper_A
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A
+
+curios: .types com_standingstone com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+prefered_spawn_position_chance: .chance 0.75
+
+backgrounds: .types farm.room_wall.windmill_first farm.room_wall.windmill_1 farm.room_wall.windmill_2
+curio_background: .type farm.room_wall.windmill
+
+starting_bg: .type farm.room_wall.windmill_first
+starting_curio: .type com_standingstone
+
+specifications: .random_chance 1.0

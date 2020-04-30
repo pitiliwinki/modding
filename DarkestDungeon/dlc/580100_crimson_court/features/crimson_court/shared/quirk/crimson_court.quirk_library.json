@@ -1,0 +1,224 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "disease_vampire_passive",
+         "analytics_enabled" : true,
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "is_explicit_buff_description_valid_in_character_sheet" : false,
+         "is_flavor_description_valid_in_tray_icon" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0.0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+            "disease_vampire_crave", "disease_vampire_wasting", "disease_vampire_blood_lust"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "CC_passive_stunresist_debuff",
+            "CC_passive_blightresist_debuff",
+            "CC_passive_bleedresist_debuff",
+            "CC_passive_hp_debuff",
+            "CC_passive_spd_buff"
+         ],
+         "tags":
+         [
+            "vampire", "vampire_passive"
+         ],
+         "evolution_duration_min" : 31,
+         "evolution_duration_max" : 75,
+         "evolution_town_progression_duration_change" : 30,
+         "evolution_class_id" : "disease_vampire_crave",
+         "can_modify_in_activity" : false,
+         "required_plot_quests_to_modify" : 
+         [
+            "plot_crimson_court_3"
+         ],
+         "can_remove_with_camping_skill" : false,
+         "can_be_replaced_by_new_quirk" : false,
+         "slot_size" : 3,
+         "use_item_dungeon_effects":
+         [
+            {
+               "item_type" : "estate",
+               "item_id" : "the_blood",
+               "effect" : "use_the_blood_disease_vampire_passive"
+            }
+         ],
+         "contagious_class_id" : "disease_vampire_passive"
+      },
+      {
+         "id" : "disease_vampire_crave",
+         "analytics_enabled" : true,
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "is_explicit_buff_description_valid_in_character_sheet" : false,
+         "is_flavor_description_valid_in_tray_icon" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0.0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+            "disease_vampire_passive", "disease_vampire_wasting", "disease_vampire_blood_lust"
+         ],
+         "curio_tag" : "CCrave",
+         "curio_tag_chance" : 0.1,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "CC_crave_stunresist_debuff",
+            "CC_crave_blightresist_debuff",
+            "CC_crave_bleedresist_debuff",
+            "CC_crave_hp_debuff",
+            "CC_crave_virtue_debuff",
+            "CC_crave_spd_buff"
+         ],
+         "tags":
+         [
+            "vampire", "vampire_craving"
+         ],
+         "evolution_duration_min" : 31,
+         "evolution_duration_max" : 46,
+         "evolution_town_progression_duration_change" : 30,
+         "evolution_class_id" : "disease_vampire_wasting",
+         "can_modify_in_activity" : false,
+         "required_plot_quests_to_modify" : 
+         [
+            "plot_crimson_court_3"
+         ],
+         "can_remove_with_camping_skill" : false,
+         "can_be_replaced_by_new_quirk" : false,
+         "slot_size" : 3,
+         "use_item_changes":
+         [
+            {
+               "item_type" : "estate",
+               "item_id" : "the_blood",
+               "change_quirk_class_id" : "disease_vampire_blood_lust"
+            }
+         ],
+         "contagious_class_id" : "disease_vampire_passive",
+         "has_fx" : true
+      },
+      {
+         "id" : "disease_vampire_wasting",
+         "analytics_enabled" : true,
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "is_explicit_buff_description_valid_in_character_sheet" : false,
+         "is_flavor_description_valid_in_tray_icon" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0.0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+            "disease_vampire_passive", "disease_vampire_crave", "disease_vampire_blood_lust"
+         ],
+         "curio_tag" : "CCrave",
+         "curio_tag_chance" : 0.25,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "CC_wasting_stunresist_debuff",
+            "CC_wasting_blightresist_debuff",
+            "CC_wasting_bleedresist_debuff",
+            "CC_wasting_hp_debuff",
+            "CC_wasting_spd_debuff",
+            "CC_wasting_dd_debuff"
+         ],
+         "tags":
+         [
+            "vampire", "vampire_wasting"
+         ],
+         "evolution_duration_min" : 61,
+         "evolution_duration_max" : 61,
+         "evolution_town_progression_duration_change" : 30,
+         "evolution_town_attempt_use_item_duration_threshold" : 61,
+         "evolution_causes_death" : true,
+         "can_modify_in_activity" : false,
+         "required_plot_quests_to_modify" : 
+         [
+            "plot_crimson_court_3"
+         ],
+         "can_remove_with_camping_skill" : false,
+         "can_be_replaced_by_new_quirk" : false,
+         "slot_size" : 3,
+         "use_item_changes":
+         [
+            {
+               "item_type" : "estate",
+               "item_id" : "the_blood",
+               "change_quirk_class_id" : "disease_vampire_passive"
+            }
+         ],
+         "contagious_class_id" : "disease_vampire_passive",
+         "has_fx" : true
+      },
+      {
+         "id" : "disease_vampire_blood_lust",
+         "analytics_enabled" : true,
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : true,
+         "is_explicit_buff_description_valid_in_character_sheet" : false,
+         "is_flavor_description_valid_in_tray_icon" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0.0,
+         "is_positive" : false,
+         "is_disease" : true,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+            "disease_vampire_passive", "disease_vampire_crave", "disease_vampire_wasting"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "CC_bloodlust_dmgl_buff",
+            "CC_bloodlust_dmgh_buff",
+            "CC_bloodlust_spd_buff",
+            "CC_bloodlust_stunresist_buff",
+            "CC_bloodlust_blightresist_buff",
+            "CC_bloodlust_bleedresist_buff"
+         ],
+         "tags":
+         [
+            "vampire", "vampire_blood_lust"
+         ],
+         "evolution_duration_min" : 22,
+         "evolution_duration_max" : 30,
+         "evolution_town_progression_duration_change" : 30,
+         "evolution_class_id" : "disease_vampire_passive",
+         "can_modify_in_activity" : false,
+         "required_plot_quests_to_modify" : 
+         [
+            "plot_crimson_court_3"
+         ],
+         "can_remove_with_camping_skill" : false,
+         "can_be_replaced_by_new_quirk" : false,
+         "slot_size" : 3,
+         "use_item_dungeon_effects":
+         [
+            {
+               "item_type" : "estate",
+               "item_id" : "the_blood",
+               "effect" : "use_the_blood_disease_vampire_blood_lust"
+            }
+         ],
+         "contagious_class_id" : "disease_vampire_passive",
+         "has_fx" : true
+      }
+   ]
+}

@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "phase_gnaw" .anim "attack_bite" .fx "phase_gnaw" .targfx "phase_gnaw_target" .area_pos_offset -75 -75 .target_area_pos_offset -75 0
+skill: .id "consume_self" .anim "attack_consume" .fx "consume_self" .targfx "consume_self_target" .area_pos_offset -125 -75 .target_area_pos_offset 125 0
+skill: .id "tainting_touch" .anim "attack_stab" .fx "tainting_touch" .targchestfx "blood_splatter" .area_pos_offset -25 -50 .target_area_pos_offset -25 0
+skill: .id "emit_globule_stun" .anim "attack_emit" .fx "emit_globule" .targheadfx "stun_target" .area_pos_offset -50 -75 .target_area_pos_offset -50 0
+skill: .id "emit_globule_debuff" .anim "attack_emit" .fx "emit_globule" .targchestfx "debuff_target" .area_pos_offset -50 -75 .target_area_pos_offset -50 0
+skill: .id "emit_globule_combatnerf" .anim "attack_emit" .fx "emit_globule" .targchestfx "nerf_target" .area_pos_offset -50 -75 .target_area_pos_offset -50 0
+skill: .id "consume_self_once" .anim "attack_consume" .fx "consume_self" .targfx "consume_self_target" .area_pos_offset -125 -75 .target_area_pos_offset 125 0
+defending_area_pos_offset: .offset 75 -75

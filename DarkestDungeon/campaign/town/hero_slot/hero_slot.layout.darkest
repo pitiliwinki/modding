@@ -1,0 +1,13 @@
+town_hero_slot_layout:
+	.icon_offset	0 0
+	.name_offset	45 -70
+	.next_offset	76 4
+	.prev_offset	-15 4
+	.controller_button_bottom_offset 43 58
+	.controller_button_top_offset 43 -20
+
+replace_slide_out_anim:
+	.time 0.2
+	.offset 0 -50
+	.fade 0.5
+	.easing_function "easeInOutSine"

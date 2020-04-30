@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "id": "stage_coach_bonus_recruits",
+            "base_chance": 10.0,
+            "per_not_rolled_additional_chance": 2.0,
+            "cooldown": 2,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_bonus_recruits",
+            "sprite_attachment": "stage_coach",
+            "data": [
+                {
+                    "type": "stage_coach_bonus_recruits",
+                    "string_data": "",
+                    "number_data": 6.0
+                }
+            ]
+        }
+    ]
+}

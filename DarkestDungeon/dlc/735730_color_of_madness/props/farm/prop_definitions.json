@@ -1,0 +1,41 @@
+{
+    "props": [
+        {
+            "name": "farm_door",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door"
+                },
+                "graphics_file": "props/farm/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        },
+        {
+            "name": "farm_door_shovel",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door_shovel"
+                },
+                "graphics_file": "props/farm/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        },
+        {
+            "name": "farm_door_key",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "door_key"
+                },
+                "graphics_file": "props/farm/doors/door0/door0.skel",
+                "success_effects": [ ]
+            }
+        },
+        {
+            "name": "com_millerwife_curio",
+            "default_data": {
+                "animation_remap_table": [
+                ]
+            }
+        }
+    ]
+}

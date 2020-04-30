@@ -1,0 +1,203 @@
+{
+    "infestation":
+    {
+        "activity_levels":
+        [
+            {
+                "id": "none",
+                "infestation_curio":"cc_infested_egg_cluster",
+                "short_curio_count":[0,0],
+                "med_curio_count":[0,0],
+                "long_curio_count":[0,0],
+                "dungeons":["cove", "crypts", "weald", "warrens"]
+            },
+            {
+                "id": "low",
+                "infestation_curio":"cc_infested_egg_cluster",
+                "short_curio_count":[0,0],
+                "med_curio_count":[0,0],
+                "long_curio_count":[0,0],
+                "dungeons":["cove", "crypts", "weald", "warrens"]
+            },
+            {
+                "id": "medium",
+                "infestation_curio":"cc_infested_egg_cluster",
+                "short_curio_count":[0,0],
+                "med_curio_count":[0,0],
+                "long_curio_count":[0,0],
+                "dungeons":["cove", "crypts", "weald", "warrens"]
+            },
+            {
+                "id": "high",
+                "infestation_curio":"cc_infested_egg_cluster",
+                "short_curio_count":[1,3],
+                "med_curio_count":[2,5],
+                "long_curio_count":[3,6],
+                "dungeons":["cove", "crypts", "weald", "warrens"]
+            }
+        ],
+        "sequence_elements":
+        [
+            {
+                "id": "infestation_1_0",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "none",
+                "minimum_duration_week": 1,
+                "maximum_duration_week": 1,
+                "show_ui": false,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_1_1",
+                "plot_quest_dependency": "plot_crimson_court_0",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 2,
+                "maximum_duration_week": 3,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_1_2",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 0,
+                "maximum_duration_week": 0,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_1_3",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "fanatic_intro_0",
+                "activity_level": "medium",
+                "minimum_duration_week": 3,
+                "maximum_duration_week": 4,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_1_4",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "high",
+                "minimum_duration_week": 1,
+                "maximum_duration_week": 1,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_2_0",
+                "plot_quest_dependency": "plot_crimson_court_1",
+                "town_event_dependency": "",
+                "activity_level": "none",
+                "minimum_duration_week": 4,
+                "maximum_duration_week": 5,
+                "show_ui": true,
+                "clear_additional_mashes": true
+            },
+            {
+                "id": "infestation_2_1",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 3,
+                "maximum_duration_week": 3,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_2_2",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 0,
+                "maximum_duration_week": 0,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_2_3",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "fanatic_intro_1",
+                "activity_level": "medium",
+                "minimum_duration_week": 4,
+                "maximum_duration_week": 4,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_2_4",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "high",
+                "minimum_duration_week": 1,
+                "maximum_duration_week": 1,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_3_0",
+                "plot_quest_dependency": "plot_crimson_court_2",
+                "town_event_dependency": "",
+                "activity_level": "none",
+                "minimum_duration_week": 4,
+                "maximum_duration_week": 5,
+                "show_ui": true,
+                "clear_additional_mashes": true
+            },
+            {
+                "id": "infestation_3_1",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 3,
+                "maximum_duration_week": 3,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_3_2",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "low",
+                "minimum_duration_week": 0,
+                "maximum_duration_week": 0,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_3_3",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "fanatic_intro_2",
+                "activity_level": "medium",
+                "minimum_duration_week": 4,
+                "maximum_duration_week": 4,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_3_4",
+                "plot_quest_dependency": "",
+                "town_event_dependency": "",
+                "activity_level": "high",
+                "minimum_duration_week": 1,
+                "maximum_duration_week": 1,
+                "show_ui": true,
+                "clear_additional_mashes": false
+            },
+            {
+                "id": "infestation_4",
+                "plot_quest_dependency": "plot_crimson_court_3",
+                "town_event_dependency": "",
+                "activity_level": "none",
+                "minimum_duration_week": 0,
+                "maximum_duration_week": 0,
+                "show_ui": false,
+                "clear_additional_mashes": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "sentence_rendered" .anim "attack_point" .fx "sentence_rendered" .area_pos_offset 0 -50
+skill: .id "righteous_condemnation" .anim "attack_book" .fx "righteous_condemnation" .area_pos_offset -150 -100 .target_area_pos_offset 150 0
+skill: .id "holy_stake" .anim "attack_hammer" .fx "holy_stake" .targchestfx "holy_stake_target" .area_pos_offset 0 -35
+skill: .id "brand_tainted" .anim "attack_brand" .fx "brand_tainted" .targchestfx "brand_tainted_target" .area_pos_offset 0 -35
+skill: .id "beat_down" .anim "attack_hammer" .fx "beat_down" .targchestfx "blood_splatter" .area_pos_offset 0 -35
+skill: .id "crush_tainted" .anim "attack_book" .fx "crush_tainted" .area_pos_offset -150 -100 .target_area_pos_offset 150 0
+defending_area_pos_offset: .offset 0 -35
+audio_modifier: .ambience_parameter_ids fire .ambience_parameter_values 1.0

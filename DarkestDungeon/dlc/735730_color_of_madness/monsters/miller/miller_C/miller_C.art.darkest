@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "harvest" .anim "attack_harvest" .fx "harvest" .targchestfx "blood_splatter" .area_pos_offset 0 -75
+skill: .id "winters_breath" .anim "attack_breath" .fx "winters_breath" .area_pos_offset 0 -20 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "grind_the_grist" .anim "attack_grind" .fx "grind_the_grist" .targchestfx "blood_splatter" .area_pos_offset -100 -60 .target_area_pos_offset 100 0
+skill: .id "sadness" .anim "attack_despair" .fx "sadness" .area_pos_offset 0 -60 .can_display_performer_selection_after_turn false
+skill: .id "summon_scarecrow" .anim "attack_summon" .fx "summon" .area_pos_offset 0 -110 .can_display_performer_selection_after_turn false
+skill: .id "summon_farmers" .anim "attack_summon" .fx "summon" .area_pos_offset 0 -110 .can_display_performer_selection_after_turn false
+skill: .id "summon_revenant" .anim "attack_summon" .fx "summon" .area_pos_offset 0 -110 .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset 25 -75

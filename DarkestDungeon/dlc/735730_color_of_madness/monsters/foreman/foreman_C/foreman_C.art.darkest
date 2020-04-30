@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "hasten_sowing" .anim "attack_point" .fx "hasten_sowing" .targfx "hasten_sowing_target" .area_pos_offset 0 -10 .can_display_performer_selection_after_turn false
+skill: .id "no_tresspassers" .anim "attack_whip" .fx "no_trespassers" .targchestfx "blood_splatter" .area_pos_offset 0 -20
+skill: .id "many_hands" .anim "attack_claw" .fx "many_hands" .targchestfx "many_hands_target" .area_pos_offset 0 -50 .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset 0 -15

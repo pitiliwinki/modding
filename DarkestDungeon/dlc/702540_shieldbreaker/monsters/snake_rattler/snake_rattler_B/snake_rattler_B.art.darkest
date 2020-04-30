@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "snake_guard" .anim "attack_guard" .fx "guard" .area_pos_offset 0 10 .can_display_performer_selection_after_turn false
+skill: .id "snake_bite" .anim "attack_bite" .fx "bite" .targchestfx "blood_splatter" .area_pos_offset 0 35
+skill: .id "slither_forward" .anim "attack_slither" .fx "slither" .area_pos_offset 0 45 .can_display_performer_selection_after_turn false
+riposte_skill: .id "riposte1" .anim "attack_bite" .fx "bite" .targchestfx "blood_splatter" .area_pos_offset 0 45
+defending_area_pos_offset: .offset 0 45

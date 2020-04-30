@@ -1,0 +1,34 @@
+mash: .chance 1 .types cultist_shrouded_D
+mash: .chance 1 .types templar_melee_D
+mash: .chance 1 .types templar_ranged_D
+
+mash: .chance 2 .types cultist_shrouded_D cultist_shrouded_D  
+mash: .chance 1 .types totem_attack_D cultist_shrouded_D 
+mash: .chance 1 .types cultist_shrouded_D cultist_shrouded_D 
+
+mash: .chance 1 .types cultist_warlord_D cultist_warlord_D errant_flesh_dog_D cultist_shrouded_D
+mash: .chance 1 .types cultist_shrouded_D cultist_shrouded_D cultist_shrouded_D
+mash: .chance 1 .types totem_attack_D cultist_shrouded_D totem_guard_D
+mash: .chance 1 .types totem_attack_D totem_attack_D totem_guard_D
+mash: .chance 1 .types errant_flesh_dog_D errant_flesh_dog_D errant_flesh_dog_D
+mash: .chance 1 .types errant_flesh_dog_D errant_flesh_bat_D errant_flesh_bat_D
+mash: .chance 1 .types errant_flesh_dog_D errant_flesh_dog_D errant_flesh_bat_D
+mash: .chance 1 .types cell_battle_D errant_flesh_bat_D errant_flesh_bat_D
+mash: .chance 1 .types cultist_shrouded_D cell_battle_D errant_flesh_dog_D errant_flesh_dog_D
+mash: .chance 1 .types cultist_shrouded_D cultist_shrouded_D cultist_shrouded_D
+
+mash: .chance 1 .types cultist_shrouded_D cultist_harpy_D cultist_harpy_D cultist_harpy_D
+
+curios: .types com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types spacetime
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C shambler_tentacle_E corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A
+
+requirements: .quests plot_darkest_dungeon_2
+
+crystal:  .types corpse_crystal_B
+stall:    .types revenant_B
+teleport: .types gatekeeper_A
+
+specifications: .random_chance 0.25 .recurring_only true

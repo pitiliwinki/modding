@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "crystal_ranged_suicide" .anim "attack_explode" .targheadfx "crystal_horror_target" .area_pos_offset 0 25 .reset_source_stance false .hide_performer_health true
+skill: .id "crystal_suicide" .anim "attack_explode" .targheadfx "crystal_horror_target" .area_pos_offset -160 25 .target_area_pos_offset 160 0 .reset_source_stance false .hide_performer_health true
+defending_area_pos_offset: .offset 0 30
+display_modifier: .disable_halos true .show_spawn_fx false .disabled_popup_text_types resist

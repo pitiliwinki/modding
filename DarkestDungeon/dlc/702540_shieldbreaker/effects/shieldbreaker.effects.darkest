@@ -1,0 +1,149 @@
+//SHIELDBREAKER SKILL EFFECTS
+
+// pierce
+//armor piercing is done in the skill stats
+
+// break guard
+/////see base.effects.darkest
+effect: .name "Block Guard" .target target .chance 500% .buff_ids "block_guard" .duration 2 .on_hit true .on_miss false .queue true
+
+//effect: .name "Guarded Dmg Bonus 1"
+effect: .name "SB Kill Guarded 1" .target "performer" .skill_instant true .chance 100% .buff_ids sb_kill_guarded_buff_dmgl_1 sb_kill_guarded_buff_dmgh_1 .on_hit true .on_miss false .queue true 
+effect: .name "SB Kill Guarded 2" .target "performer" .skill_instant true .chance 100% .buff_ids sb_kill_guarded_buff_dmgl_2 sb_kill_guarded_buff_dmgh_2 .on_hit true .on_miss false .queue true 
+effect: .name "SB Kill Guarded 3" .target "performer" .skill_instant true .chance 100% .buff_ids sb_kill_guarded_buff_dmgl_3 sb_kill_guarded_buff_dmgh_3 .on_hit true .on_miss false .queue true 
+effect: .name "SB Kill Guarded 4" .target "performer" .skill_instant true .chance 100% .buff_ids sb_kill_guarded_buff_dmgl_4 sb_kill_guarded_buff_dmgh_4 .on_hit true .on_miss false .queue true 
+effect: .name "SB Kill Guarded 5" .target "performer" .skill_instant true .chance 100% .buff_ids sb_kill_guarded_buff_dmgl_5 sb_kill_guarded_buff_dmgh_5 .on_hit true .on_miss false .queue true 
+
+
+effect: .name "Daze Slowdown 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue false
+effect: .name "Daze Slowdown 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue false
+effect: .name "Daze Slowdown 3" .target "target" .chance 120% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue false
+effect: .name "Daze Slowdown 4" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue false
+effect: .name "Daze Slowdown 5" .target "target" .chance 140% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .queue false
+
+
+// adders_kiss
+//ignore guard is done in the skill stats
+
+//effect: .name "Guarded Crit Bonus 1"
+effect: .name "SB Crit Guarded 1" .target "performer" .skill_instant true .chance 100% .buff_ids "sb_kill_guarded_buff_crit_1" .on_hit true .on_miss false .queue true 
+effect: .name "SB Crit Guarded 2" .target "performer" .skill_instant true .chance 100% .buff_ids "sb_kill_guarded_buff_crit_2" .on_hit true .on_miss false .queue true 
+effect: .name "SB Crit Guarded 3" .target "performer" .skill_instant true .chance 100% .buff_ids "sb_kill_guarded_buff_crit_3" .on_hit true .on_miss false .queue true 
+effect: .name "SB Crit Guarded 4" .target "performer" .skill_instant true .chance 100% .buff_ids "sb_kill_guarded_buff_crit_4" .on_hit true .on_miss false .queue true 
+effect: .name "SB Crit Guarded 5" .target "performer" .skill_instant true .chance 100% .buff_ids "sb_kill_guarded_buff_crit_5" .on_hit true .on_miss false .queue true 
+
+effect: .name "SB Adder Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Adder Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Adder Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Adder Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Adder Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+// spearing
+	//effect: .name "SB Spearing 1" hard-coded in skill itself
+
+effect: .name "SB Spearing Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Spearing Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Spearing Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Spearing Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SB Spearing Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+// expose
+effect: .name "Expose Crit Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_type crit_received_chance .buff_amount 8%	.on_hit true .on_miss false
+effect: .name "Expose Crit Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .buff_type crit_received_chance .buff_amount 8%	.on_hit true .on_miss false
+effect: .name "Expose Crit Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .buff_type crit_received_chance .buff_amount 9%	.on_hit true .on_miss false
+effect: .name "Expose Crit Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .buff_type crit_received_chance .buff_amount 9%	.on_hit true .on_miss false
+effect: .name "Expose Crit Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .buff_type crit_received_chance .buff_amount 10%	.on_hit true .on_miss false
+
+effect: .name "SB Slow 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -4	.on_hit true .on_miss false
+effect: .name "SB Slow 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -5	.on_hit true .on_miss false
+effect: .name "SB Slow 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -6	.on_hit true .on_miss false
+effect: .name "SB Slow 4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -7	.on_hit true .on_miss false
+effect: .name "SB Slow 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -8	.on_hit true .on_miss false
+
+
+// single_out
+effect: .name "SB Dmg Marked 1"	.target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40%	.damage_high_multiply 40% .on_hit true .on_miss false
+effect: .name "SB Dmg Marked 2"	.target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 45%	.damage_high_multiply 45% .on_hit true .on_miss false
+effect: .name "SB Dmg Marked 3"	.target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "SB Dmg Marked 4"	.target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 55%	.damage_high_multiply 55% .on_hit true .on_miss false
+effect: .name "SB Dmg Marked 5"	.target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60%	.damage_high_multiply 60% .on_hit true .on_miss false
+
+
+// serpents_sway
+effect: .name "SB Aegis" .target performer .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .queue true
+
+effect: .name "SB Serpent Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SB Serpent Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SB Serpent Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SB Serpent Speed 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "SB Serpent Speed 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
+
+// attack friendly sabotage debuff
+effect: .name "SB Sabotage Speed Debuff" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add -7	.on_hit true .on_miss false .queue true .apply_once true
+
+
+// snake - rattler
+effect: .name "Snake Guard 1"  .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 3
+effect: .name "Snake Defend 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Rattler Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply -60% .damage_high_multiply -60% .crit_chance_add -3% .apply_once true
+
+
+
+// big snake
+effect: .name "Molt Stacking Buff" .target "performer" .chance 100% .buff_ids "BLIGHTSKILL10" "DMGL10" "DMGH10" .on_hit true .on_miss true .queue true 
+
+
+//Spit Blight
+effect: .name "Cobra Spit Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Spit Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Spit Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Spit Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Spit Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Bite Blight
+effect: .name "Cobra Bite Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Bite Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Bite Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Bite Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cobra Bite Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+// Rattler Bleed
+effect: .name "Rattler Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Rattler Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Rattler Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Rattler Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Rattler Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Adder Blight
+effect: .name "Adder Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 3 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Adder Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 3 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Adder Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Adder Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Adder Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+
+//Adder Stun
+effect: .name "Adder Stun 1" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Adder Stun 2" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Adder Stun 3" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Adder Stun 4" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Adder Stun 5" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
+
+// Molt
+effect: .name "Molt Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss true	.queue false
+effect: .name "Molt Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 12	.on_hit true .on_miss true	.queue false
+effect: .name "Molt Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 16	.on_hit true .on_miss true	.queue false
+
+
+// test effects
+effect: .name "add_health_damage_block_performer" .target performer .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .queue true
+
+// Clear Debuff
+effect: .name "Cure Debuffs".target "target" .chance 100% .clear_debuff 1 .on_hit true .on_miss false
+
+// flashback
+effect: .name "flashback_dot_stress" .target "target" .curio_result_type "negative" .chance 100% .dotStress 20 .dotSource bsrc_flashback_start .duration 6 .on_hit true .on_miss true .queue true
+
+// snake_scale
+effect: .name "snake_scale" .target target .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true

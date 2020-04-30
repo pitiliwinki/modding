@@ -1,0 +1,41 @@
+//--------------------------------------------------
+//DLC : Color Of Madness : Additional Effects
+// This is where the croc and effects for potentially other 'copied' over monsters go
+
+// crocodile
+effect: .name "COM Hive Stress 1" .target "target" .chance 90% .stress 8	.on_hit true .on_miss false	.queue true
+effect: .name "COM Hive Stress 2" .target "target" .chance 90% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "COM Hive Stress 3" .target "target" .chance 90% .stress 12	.on_hit true .on_miss false	.queue true
+
+effect: .name "COM Hive ACC Debuff 1" .target target .chance 100% .combat_stat_buff 1 .attack_rating_add -10% .duration 1 .on_hit true .on_miss false .apply_once false
+effect: .name "COM Hive ACC Debuff 2" .target target .chance 120% .combat_stat_buff 1 .attack_rating_add -12% .duration 1 .on_hit true .on_miss false .apply_once false
+effect: .name "COM Hive ACC Debuff 3" .target target .chance 140% .combat_stat_buff 1 .attack_rating_add -15% .duration 1 .on_hit true .on_miss false .apply_once false
+
+effect: .name "COM Croc Pull 1" .target "target"  .pull 2	 .chance 115%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "COM Croc Pull 2" .target "target"  .pull 2	 .chance 135%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "COM Croc Pull 3" .target "target"  .pull 3	 .chance 155%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "COM CrocBleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "COM CrocBleed 2" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+effect: .name "COM CrocBleed 3" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .apply_once false .can_apply_on_death true
+
+effect: .name "COM Croc Stress 1" .target "target" .chance 80% .stress 9	.on_hit true .on_miss false	.queue true
+effect: .name "COM Croc Stress 2" .target "target" .chance 80% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "COM Croc Stress 3" .target "target" .chance 80% .stress 12	.on_hit true .on_miss false	.queue true
+
+effect: .name "COM CrocHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 12 .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "COM CrocHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 15 .can_crit_heal false .on_hit true .on_miss true .queue true
+effect: .name "COM CrocHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 18 .can_crit_heal false .on_hit true .on_miss true .queue true
+
+effect: .name "COM Croc Submerge Dodge 1" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 35% .duration 2 .on_hit true .on_miss true
+effect: .name "COM Croc Submerge Dodge 3" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 45% .duration 2 .on_hit true .on_miss true
+effect: .name "COM Croc Submerge Dodge 5" .target "performer" .chance 100% .combat_stat_buff 1 .defense_rating_add 55% .duration 2 .on_hit true .on_miss true
+
+effect: .name "COM Croc Hide Buff 1" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .protection_rating_add 10% .on_hit true .on_miss true .duration 4
+effect: .name "COM Croc Hide Buff 2" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 22% .damage_high_multiply 22% .protection_rating_add 15% .on_hit true .on_miss true .duration 4
+effect: .name "COM Croc Hide Buff 3" .target "performer" .chance 100% .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .protection_rating_add 15% .on_hit true .on_miss true .duration 4
+
+// Various modes for mobs and bosses set here
+// COM crocodile
+effect: .name "COM switch_mode_submerged_self" .target "performer" .set_mode submerged .chance 100% .on_hit true .on_miss true .queue false
+effect: .name "COM switch_mode_land_self" .target "performer" .set_mode land .chance 100% .on_hit true .on_miss true .queue false

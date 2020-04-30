@@ -1,0 +1,303 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "A_COURTYARD",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 50, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 38, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 48, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 0, "data" : { "table" : "J" }},
+            { "type" : "table", "chances" : 0, "data" : { "table" : "P" }},
+            { "type" : "table", "chances" : 28, "data" : { "table" : "S" }},
+            { "type" : "table", "chances" : 8, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T_CC" }},
+            { "type" : "journal_page", "chances" : 0, "data" : { "min_page_index" : 1 , "max_page_index" : 21 }},
+            { "type" : "table", "chances" : 7, "data" : { "table" : "BLOOD_ALWAYS" }}
+         ]
+      },
+      {
+         "id" : "cc_invite",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "infestation_sequence_element" : "infestation_1_4",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_A", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "cc_invite",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "infestation_sequence_element" : "infestation_2_4",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_B", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "cc_invite",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "infestation_sequence_element" : "infestation_3_4",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_C", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "cc_invite_1_guaranteed",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_A", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "cc_invite_2_guaranteed",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_B", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "cc_invite_3_guaranteed",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate_currency", "id" : "crimson_court_invitation_C", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_VRARE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 39, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_RARE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 14, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_LOW",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 8, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_MED",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 5, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_HIGH",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 3, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_ALWAYS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_CRATE",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_CRATE",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 4 }}
+         ]
+      },
+      {
+         "id" : "BLOOD_CRATE",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_blood", "amount" : 5 }}
+         ]
+      },
+      {
+         "id" : "FCURE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "the_cure", "amount" : 2 }}
+         ]
+      },
+      {
+         "id" : "FH",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 24 }}
+         ]
+      },
+      {
+         "id" : "FH",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 36 }}
+         ]
+      },
+      {
+         "id" : "FH",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 48 }}
+         ]
+      },
+      {
+         "id" : "H",
+         "difficulty" : 1,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 2 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 4 }}
+         ]
+      },
+      {
+         "id" : "H",
+         "difficulty" : 3,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 3 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 3 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 6 }}
+         ]
+      },
+      {
+         "id" : "H",
+         "difficulty" : 5,
+         "dungeon" : "courtyard",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 4 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 4 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 8 }}
+         ]
+      },
+      {
+         "id" : "T_CC",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "crimson_court" }}
+         ]
+      },
+      {
+         "id" : "T_COURTYARD",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "cc_quicksilver_salve", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "cc_dazzling_mirror", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "trinket", "id" : "cc_pagan_talisman", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "cc_crystal_snifter", "amount" : 1 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "trinket", "id" : "cc_mantra_of_fasting", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "trinket", "id" : "cc_rat_carcass", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "trinket", "id" : "cc_coven_signet", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "trinket", "id" : "cc_crimson_tincture", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key1", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key2", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_3",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_4",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key4", "amount" : 1 }}
+         ]
+      }
+   ]
+}

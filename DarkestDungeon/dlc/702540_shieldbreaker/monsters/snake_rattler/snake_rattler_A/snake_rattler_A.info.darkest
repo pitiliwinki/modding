@@ -1,0 +1,15 @@
+display: .size 1
+enemy_type: .id "beast"
+stats: .hp 24 .def 7.5% .prot 0.25 .spd 9 .stun_resist 25% .poison_resist 40% .bleed_resist 20% .debuff_resist 20% .move_resist 50%
+skill: .id "snake_guard" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Clear Guard Performer" "Clear Guard Target" "Snake Guard 1" "Snake Defend 1" "Rattler Riposte" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "snake_bite" .type "melee" .atk 92.5% .dmg 3 7 .crit 2%  .effect "Rattler Bleed 1" .launch 123 .target 123
+skill: .id "slither_forward" .type "melee" .atk 77.5% .dmg 1 3 .crit 0%  .launch 4 .target 12 .move 0 2 .is_crit_valid False
+riposte_skill: .id "riposte1" .type "melee" .atk 82.5% .dmg 1 4 .crit 0%  .launch 4321 .target 1234 .is_crit_valid False
+personality: .prefskill 1
+loot: .code "A" .count 1
+loot: .code "SNAKE_SCALE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id snake_rattler
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

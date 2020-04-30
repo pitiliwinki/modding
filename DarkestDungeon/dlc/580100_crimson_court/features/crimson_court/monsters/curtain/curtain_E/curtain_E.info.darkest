@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "eldritch"
+enemy_type: .id "vampire"
+stats: .hp 1 .def 0% .prot 0 .spd 0 .stun_resist 200% .poison_resist 200% .bleed_resist 55% .debuff_resist 200% .move_resist 55%
+
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default_A
+tag: .id "boss"
+battle_modifier: .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False .living_hero_buff_instance_ids disable_heal
+death_class: .random_monster_class_ids sycophant_B tick_zombie_B .random_monster_class_chances 1.0 1.0 .is_valid_on_crit True .is_valid_on_bleed_dot True .is_valid_on_blight_dot True .reset_scale_anim true .on_change_sfx true 
+life_link: .base_class "baron"

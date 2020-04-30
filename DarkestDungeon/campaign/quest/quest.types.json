@@ -1,0 +1,814 @@
+{
+    "goals": [
+        {
+            "id": "tutorial_final_room",
+            "type": "tutorial_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "room_id": "rooB"
+            }
+        },
+        {
+            "id": "kill_necromancer_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "necromancer_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_necromancer_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "necromancer_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_necromancer_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "necromancer_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_hag_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "hag_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_hag_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "hag_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_hag_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "hag_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_swine_prince_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "swine_prince_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_swine_prince_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "swine_prince_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_swine_prince_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "swine_prince_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_prophet_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "prophet_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_prophet_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "prophet_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_prophet_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "prophet_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_formless_flesh_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "formless_guard_A",
+                    "formless_melee_A",
+                    "formless_ranged_A",
+                    "formless_weak_A"
+                ],
+                "amount": 4
+            }
+        },
+        {
+            "id": "kill_formless_flesh_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "formless_guard_B",
+                    "formless_melee_B",
+                    "formless_ranged_B",
+                    "formless_weak_B"
+                ],
+                "amount": 4
+            }
+        },
+        {
+            "id": "kill_formless_flesh_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "formless_guard_C",
+                    "formless_melee_C",
+                    "formless_ranged_C",
+                    "formless_weak_C"
+                ],
+                "amount": 4
+            }
+        },
+        {
+            "id": "kill_brigand_cannon_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_cannon_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_brigand_cannon_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_cannon_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_brigand_cannon_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_cannon_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_siren_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "siren_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_siren_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "siren_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_siren_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "siren_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_drowned_crew_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "drowned_captain_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_drowned_crew_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "drowned_captain_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_drowned_crew_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "drowned_captain_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_shuffler_D",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "shuffler_D"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_ancestor_heart_D",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "ancestor_heart_D"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_brigand_sapper_D",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "brigand_sapper_D"
+                ],
+                "amount": 1
+            }
+        },
+		   {
+            "id": "kill_crow_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": true,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "crow_A"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_crow_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": true,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "crow_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_crow_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": true,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "crow_C"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "explore_all_rooms",
+            "type": "explore_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 0,
+                "percentage": 0.9
+            }
+        },
+        {
+            "id": "battle_all_rooms",
+            "type": "battle_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 0,
+                "percentage": 1
+            }
+        },
+        {
+            "id": "gather_holy_relic",
+            "type": "gather",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "reliquary",
+                "item": {
+                    "type": "quest_item",
+                    "id": "holy_relic",
+                    "amount": 3
+                }
+            }
+        },
+        {
+            "id": "gather_medicines",
+            "type": "gather",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "chirurgeons_satchel",
+                "item": {
+                    "type": "quest_item",
+                    "id": "medicines",
+                    "amount": 3
+                }
+            }
+        },
+        {
+            "id": "gather_grain",
+            "type": "gather",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "foodstuff_crate",
+                "item": {
+                    "type": "quest_item",
+                    "id": "grain_sack",
+                    "amount": 3
+                }
+            }
+        },
+        {
+            "id": "gather_shipments",
+            "type": "gather",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "shipment_crates",
+                "item": {
+                    "type": "quest_item",
+                    "id": "ancestors_crate",
+                    "amount": 3
+                }
+            }
+        },
+        {
+            "id": "activate_iron_maiden",
+            "type": "activate",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "iron_maiden",
+                "amount": 1
+            }
+        },
+        {
+            "id": "activate_teleporter",
+            "type": "activate",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "teleporter",
+                "amount": 1
+            }
+        },
+        {
+            "id": "inventory_activate_corrupted_altar",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "holy_water",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "corrupted_altar",
+                "amount": 3
+            }
+        },
+        {
+            "id": "inventory_activate_infected_corpse",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "antivenom",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "infected_corpse",
+                "amount": 3
+            }
+        },
+        {
+            "id": "inventory_activate_animalistic_shrine",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "pickaxe",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "animalistic_shrine",
+                "amount": 3
+            }
+        },
+        {
+            "id": "inventory_activate_wards",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "eldritch_lantern",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "protective_ward",
+                "amount": 3
+            }
+        },
+        {
+            "id": "inventory_activate_beacons",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "beacon_light",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "beacon",
+                "amount": 3
+            }
+        },
+        {
+            "id": "town_progression_explore",
+            "type": "explore_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 3,
+                "percentage": 0
+            }
+        },
+        {
+            "id": "town_progression_battle",
+            "type": "battle",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 2,
+                "percentage": 0
+            }
+        },
+        {
+            "id": "town_progression_trait",
+            "type": "trait_applied",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "is_affliction": true,
+                "is_virtue": false,
+                "amount": 1
+            }
+        },
+        {
+            "id": "town_progression_deaths_door",
+            "type": "deaths_door",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 1
+            }
+        }
+    ],
+    "town_progression_goal_ids": [
+        "town_progression_explore",
+        "town_progression_battle",
+        "town_progression_trait",
+        "town_progression_deaths_door"
+    ],
+    "types": [
+        {
+            "id": "kill_boss",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "cove",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "warrens",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "weald",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "explore",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        [
+                            "explore_all_rooms"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cleanse",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        [
+                            "battle_all_rooms"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gather",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "cove",
+                    "goals": [
+                        [
+                            "gather_shipments"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "gather_holy_relic"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "warrens",
+                    "goals": [
+                        [
+                            "gather_grain"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "weald",
+                    "goals": [
+                        [
+                            "gather_medicines"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "activate",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        [
+                            "activate_iron_maiden"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "inventory_activate",
+            "goal_lists": [
+                {
+                    "dungeon": "all",
+                    "goals": [
+                        []
+                    ]
+                },
+                {
+                    "dungeon": "cove",
+                    "goals": [
+                        [
+                            "inventory_activate_wards"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "inventory_activate_corrupted_altar"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "warrens",
+                    "goals": [
+                        [
+                            "inventory_activate_animalistic_shrine"
+                        ]
+                    ]
+                },
+                {
+                    "dungeon": "weald",
+                    "goals": [
+                        [
+                            "inventory_activate_infected_corpse"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

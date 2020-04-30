@@ -1,0 +1,50 @@
+mash: .chance 1 .types farmer_C farmer_C
+mash: .chance 1 .types farmer_C farmer_C
+mash: .chance 1 .types revenant_C farmer_C 
+mash: .chance 1 .types farmer_C foreman_C
+mash: .chance 1 .types scarecrow_C farmer_C 
+
+mash: .chance 1 .types farmer_C plowhorse_C
+mash: .chance 1 .types farmer_C plowhorse_C
+mash: .chance 1 .types farmer_C farmer_C foreman_C
+mash: .chance 1 .types farmer_C farmer_C foreman_C
+mash: .chance 1 .types revenant_C farmer_C farmer_C 
+mash: .chance 1 .types revenant_C farmer_C farmer_C 
+mash: .chance 1 .types scarecrow_C farmer_C farmer_C 
+mash: .chance 1 .types scarecrow_C farmer_C farmer_C 
+
+mash: .chance 1 .types farmer_C farmer_C farmer_C farmer_C
+mash: .chance 1 .types farmer_C farmer_C plowhorse_C
+mash: .chance 1 .types revenant_C farmer_C farmer_C farmer_C 
+mash: .chance 1 .types scarecrow_C revenant_C farmer_C farmer_C 
+mash: .chance 1 .types farmer_C revenant_C plowhorse_C
+mash: .chance 1 .types farmer_C farmer_C farmer_C foreman_C
+
+boss: .chance 1 .types miller_C .background farm.room_wall.windmill_4
+boss: .chance 1 .types spire_D  .background farm.room_wall.windmill_7
+
+miniboss: .chance 1 .types shambler_E
+miniboss: .chance 1 .types thing_C
+miniboss: .chance 1 .types nest_C crow_D
+localminiboss: .chance 1 .types com_cattail_D com_crocodile_D com_bulrush_D com_cattail_D
+localminiboss: .chance 1 .types spire_D .background farm.room_wall.windmill_7
+
+miniboss_chance_ease_func: .type easeSqrt
+
+crystal:  .types corpse_crystal_C
+stall:    .types revenant_C
+teleport: .types gatekeeper_A
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C shambler_tentacle_E corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A gatekeeper_B gatekeeper_C seedling_yellow_D seedling_red_D seedling_purple_D seedling_grey_D seedling_black_D seed_red_D seed_purple_D seed_black_D seed_grey_D seed_yellow_D sprout_D nest_C
+
+preferred_spawn_position_chance: .chance 0.75
+
+curios: .types com_standingstone com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types farm.room_wall.windmill_first farm.room_wall.windmill_1 farm.room_wall.windmill_2 farm.room_wall.windmill_3 farm.room_wall.windmill_4 farm.room_wall.windmill_5 farm.room_wall.windmill_6 farm.room_wall.windmill_7
+curio_background: .type farm.room_wall.windmill
+
+starting_bg: .type farm.room_wall.windmill_first
+starting_curio: .type com_standingstone
+
+specifications: .random_chance 1.0

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "buried_blast" .anim "attack_forelegs" .fx "buried_blast" .targfx "buried_blast_target" .area_pos_offset -100 0 .target_area_pos_offset 50 0
+skill: .id "buried_skewer" .anim "attack_forelegs" .fx "buried_blast" .targfx "buried_skewer_target" .area_pos_offset -125 0
+defending_area_pos_offset: .offset 0 -50

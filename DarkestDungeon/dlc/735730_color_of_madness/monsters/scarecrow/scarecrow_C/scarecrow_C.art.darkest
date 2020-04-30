@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "the_wonders" .anim "attack_crystals" .fx "the_wonders" .targheadfx "crystal_horror_target" .area_pos_offset 0 -50
+skill: .id "insistent_grasp" .anim "attack_branch" .fx "insistent_grasp" .targchestfx "blood_splatter" .area_pos_offset 0 -25
+skill: .id "root_down" .anim "attack_roots" .fx "root_down" .targfx "root_down_target" .area_pos_offset -25 -25 .target_area_pos_offset -25 50
+skill: .id "ashen_breeze" .anim "attack_heal" .fx "ashen_breeze" .targchestfx "ashen_breeze_target" .area_pos_offset 0 -75 .target_area_pos_offset 0 -25 .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset 0 -50

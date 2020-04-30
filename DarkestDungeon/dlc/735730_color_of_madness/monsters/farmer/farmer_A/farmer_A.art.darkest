@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "sowing_seeds" .anim "attack_throw" .fx "sowing_seeds" .targchestfx "sowing_seeds_target"
+skill: .id "pause_from_labour" .anim "attack_rest" .fx "pause_from_labour" .can_display_performer_selection_after_turn false
+skill: .id "farmer_attack" .anim "attack_hoe" .fx "farmer_attack" .targchestfx "blood_splatter" .area_pos_offset 0 30 .target_area_pos_offset 0 15
+riposte_skill: .id "riposte1" .anim "attack_hoe" .fx "farmer_attack" .targchestfx "blood_splatter" .area_pos_offset 0 30 .target_area_pos_offset 0 15
+defending_area_pos_offset: .offset 0 10

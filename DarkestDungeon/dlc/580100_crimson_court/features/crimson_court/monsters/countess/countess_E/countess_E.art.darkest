@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large_boss
+skill: .id "fan_flutter" .anim "attack_fan" .fx "fan_flutter" .area_pos_offset 0 -90 .can_display_performer_selection_after_turn false
+skill: .id "transform_to_berserk" .anim "attack_transform" .area_pos_offset 0 -100 .reset_source_stance false .reset_target_stance false .can_display_skill_name true .can_display_selection false .can_display_performer_selection_after_turn false
+display_modifier: .anim_override weak
+defending_area_pos_offset: .offset 0 -90

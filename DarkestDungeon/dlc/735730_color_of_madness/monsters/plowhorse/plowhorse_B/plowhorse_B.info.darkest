@@ -1,0 +1,16 @@
+display: .size 2
+enemy_type: .id "husk"
+enemy_type: .id "beast"
+stats: .hp 28 .def 13.75% .prot 0.15 .spd 8 .stun_resist 70% .poison_resist 40% .bleed_resist 40% .debuff_resist 60% .move_resist 80%
+skill: .id "trample" .type "melee" .valid_modes "pawing" .atk 98.75% .dmg 3 5 .crit 10%  .effect "Shuffle Party 3" "switch_mode_normal" "Destealth Performer" .launch 4321 .target ~1234 .rank_damage_modifiers -0.45 -0.3 -0.15 0.0 .move 0 4
+skill: .id "rearing_stomp" .type "melee" .valid_modes "normal" .atk 93.75% .dmg 5 9 .crit 8%  .effect "Minor Bleed 3" "Stun 3" .launch 4321 .target 12 .extra_targets_count 1 .extra_targets_chance 0.25
+skill: .id "paw_ground" .type "melee" .valid_modes "normal" .atk 0% .dmg 0 0 .crit 0%  .effect "switch_mode_pawing" "Stealth2" .launch 4321 .target  .move 4 0 .is_crit_valid False
+skill: .id "scream" .type "ranged" .valid_modes "normal" .atk 108.75% .dmg 0 0 .crit 0%  .effect "Horse Horror A" .launch 4321 .target 1234 .is_crit_valid False
+personality: .prefskill -1
+loot: .code "" .count 
+initiative: .number_of_turns_per_round 1
+monster_brain: .id plowhorse_B
+death_class: .monster_class_id corpse_large_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+mode: .id normal  .keep_rounds_in_ranks true .is_raid_default true
+mode: .id pawing .keep_rounds_in_ranks true

@@ -1,0 +1,58 @@
+{
+    "torch_settings_data_table": [
+        {
+            "key": "bloodlight",
+            "data": {
+                "burn_down_enabled": false,
+                "hero_buff_list" : ["courtyard_bloodtorch_bleedresist_debuff"],
+                "overlays": [ "battle_round", "blood_torch" ],
+                "torch_setting_item_buffs": [
+                    {
+                        "item_type": "supply",
+                        "item_name": "torch",
+                        "hero_buff_list": [ "courtyard_torch_acc_buff" ],
+                        "monster_buff_list": [ ]
+                    }
+                ]
+            }
+        }
+    ],
+    "raid_rules_override_data_table": [
+        {
+            "key": "cc",
+            "data": {
+                "hallway_stress": { 
+                    "hallway_per_tile_stress_damage_fwd": 1.0,
+                    "hallway_per_tile_stress_damage_chance_fwd": 1.0,
+                    "hallway_per_tile_stress_damage_backing_up": 5.0,
+                    "hallway_per_tile_stress_damage_chance_backing_up": 0.55
+                },
+                "darkness": {
+                    "lowest_excluded": false,
+                    "range_table": [
+                        {
+                            "range": {
+                                "lower": -3.402823e38,
+                                "upper": 3.402823e38
+                            },
+                            "value": {
+                                "stress_chance_increase": 10,
+                                "stress_damage_increase": 10,
+                                "monster_attack_increase": 0,
+                                "monster_damage_increase": 0,
+                                "monster_crit_increase": 0,
+                                "loot_increase_gold": 0,
+                                "loot_increase_treasure_draws": 0,
+                                "player_crit_increase": 0,
+                                "player_def_increase": 0.0,
+                                "player_scouting_increase": 0.0,
+                                "monsters_surprised_increase": 0.0,
+                                "heroes_surprised_increase": 0.0
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

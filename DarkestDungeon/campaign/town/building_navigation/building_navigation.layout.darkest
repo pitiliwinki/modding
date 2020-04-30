@@ -1,0 +1,40 @@
+building_navigation_layout:
+	.base_size 128 1000 
+	.button_start_position 0 0
+	.button_spacing 0 68
+    .exclamation_point_offset 28 32
+    .locked_overlay_offset 14 14
+    .selected_hop_offset 0 -5
+    .quick_nav_title_offset 0 0
+    .quick_nav_desc_offset 0 0
+    
+    
+building_navigation_building_layout_stage_coach:
+	.button_index 0
+
+building_navigation_building_layout_blacksmith:
+	.button_index 1
+
+building_navigation_building_layout_guild:
+	.button_index 2
+
+building_navigation_building_layout_camping_trainer:
+	.button_index 3
+
+building_navigation_building_layout_tavern:
+	.button_index 4
+
+building_navigation_building_layout_abbey:
+	.button_index 5
+
+building_navigation_building_layout_sanitarium:
+	.button_index 6
+
+building_navigation_building_layout_nomad_wagon:
+	.button_index 7
+
+building_navigation_building_layout_graveyard:
+	.button_index 8
+
+building_navigation_building_layout_statue:
+	.button_index 9

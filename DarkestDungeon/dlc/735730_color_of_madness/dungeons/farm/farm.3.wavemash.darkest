@@ -1,0 +1,41 @@
+mash: .chance 1 .types farmer_B farmer_B
+mash: .chance 1 .types farmer_B farmer_B
+mash: .chance 1 .types revenant_B farmer_B 
+mash: .chance 1 .types farmer_B foreman_B
+mash: .chance 1 .types scarecrow_B farmer_B 
+
+mash: .chance 1 .types farmer_B plowhorse_B
+mash: .chance 1 .types farmer_B plowhorse_B
+mash: .chance 1 .types farmer_B farmer_B foreman_B
+mash: .chance 1 .types farmer_B farmer_B foreman_B
+mash: .chance 1 .types revenant_B farmer_B farmer_B 
+mash: .chance 1 .types revenant_B farmer_B farmer_B 
+mash: .chance 1 .types scarecrow_B farmer_B farmer_B 
+mash: .chance 1 .types scarecrow_B farmer_B farmer_B 
+
+mash: .chance 1 .types farmer_B farmer_B farmer_B farmer_B
+mash: .chance 1 .types farmer_B farmer_B plowhorse_B
+mash: .chance 1 .types revenant_B farmer_B farmer_B farmer_B 
+mash: .chance 1 .types scarecrow_B revenant_B farmer_B farmer_B 
+mash: .chance 1 .types farmer_B revenant_B plowhorse_B
+mash: .chance 1 .types farmer_B farmer_B farmer_B foreman_B
+
+boss: .chance 1 .types miller_B .background farm.room_wall.windmill_4
+
+crystal:  .types corpse_crystal_B
+stall:    .types revenant_B
+teleport: .types gatekeeper_A
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A
+
+prefered_spawn_position_chance: .chance 0.75
+
+curios: .types com_standingstone com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types farm.room_wall.windmill_first farm.room_wall.windmill_1 farm.room_wall.windmill_2 farm.room_wall.windmill_4
+curio_background: .type farm.room_wall.windmill
+
+starting_bg: .type farm.room_wall.windmill_first
+starting_curio: .type com_standingstone
+
+specifications: .random_chance 1.0

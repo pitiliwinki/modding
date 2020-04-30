@@ -1,0 +1,35 @@
+hall: .chance 1 .types carrion_eater_A carrion_eater_A  
+hall: .chance 1 .types carrion_eater_A carrion_eater_A carrion_eater_A 
+hall: .chance 1 .types carrion_eater_A carrion_eater_A tick_zombie_A 
+hall: .chance 1 .types carrion_eater_A carrion_eater_A sycophant_A 
+hall: .chance 1 .types carrion_eater_A tick_zombie_A sycophant_A 
+hall: .chance 1 .types carrion_eater_A steward_A sycophant_A 
+hall: .chance 1 .types steward_A tick_zombie_A tick_zombie_A 
+hall: .chance 1 .types steward_A tick_zombie_A sycophant_A 
+hall: .chance 4 .types tick_zombie_A tick_zombie_A tick_zombie_A 
+hall: .chance 1 .types tick_zombie_A tick_zombie_A steward_A 
+hall: .chance 1 .types carrion_eater_A carrion_eater_A steward_A 
+hall: .chance 1 .types tick_zombie_A tick_zombie_A sycophant_A sycophant_A
+hall: .chance 2 .types maggot_A maggot_A maggot_A 
+hall: .chance 2 .types maggot_A maggot_A maggot_A maggot_A
+hall: .chance 1 .types spider_webber_A spider_webber_A  
+hall: .chance 1 .types spider_webber_A spider_webber_A spider_spitter_A 
+hall: .chance 1 .types maggot_A maggot_A spider_spitter_A 
+room: .chance 2 .types carrion_eater_A carrion_eater_A carrion_eater_A steward_A
+room: .chance 1 .types carrion_eater_A carrion_eater_A steward_A sycophant_A
+room: .chance 1 .types carrion_eater_A steward_A steward_A sycophant_A
+room: .chance 2 .types steward_A tick_zombie_A steward_A sycophant_A
+room: .chance 1 .types steward_A tick_zombie_A sycophant_A sycophant_A
+room: .chance 1 .types steward_A sycophant_A sycophant_A sycophant_A
+room: .chance 1 .types steward_A sycophant_A sycophant_A steward_A
+room: .chance 1 .types sycophant_A sycophant_A steward_A sycophant_A
+room: .chance 1 .types steward_A tick_zombie_A sycophant_A sycophant_A
+room: .chance 2 .types spider_webber_A spider_webber_A spider_spitter_A spider_spitter_A
+boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C 
+stall: .chance 1 .types steward_A steward_A  
+stall: .chance 1 .types sycophant_A sycophant_A  
+stall: .chance 1 .types carrion_eater_A sycophant_A  
+trap: .chance 1 .types sycophant_A tick_zombie_A  
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_A tick_zombie_A castellan_A 
+named: .name infested_egg_cluster_1 .chance 1 .types steward_A sycophant_A castellan_A 
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_A sycophant_A sycophant_A castellan_A

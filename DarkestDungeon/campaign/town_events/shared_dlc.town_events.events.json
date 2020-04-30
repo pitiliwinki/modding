@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "id": "cc_districts_unlock",
+            "base_chance": 0.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 0,
+            "priority":"higher",
+            "is_unique": true,
+            "requirements": 
+            {
+                "minimum_week": 10,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0,
+                "minimum_number_of_district_buildings": 1
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "tutorial_ids" : ["districts"],
+            "data": [
+                {
+                    "type": "districts_unlocked",
+                    "string_data": "",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "bonus_currency",
+                    "string_data": "blueprint",
+                    "number_data": 1.0
+                }
+            ]
+        }
+    ]
+}

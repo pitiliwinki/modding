@@ -1,0 +1,158 @@
+town_background_layout:
+	.area_pos		144 132
+	.character_pos	132 240
+
+town_screen_layout:
+	.roster_list_pos		1550 0
+	.estate_summary_pos		0 975
+    .heirloom_exchange_pos  340 708
+	.button_navigation_pos  70 230
+    .button_navigation_offscreen_pos -40 230
+	.realm_inventory_pos	881 128
+	.activity_log_pos		144 132
+    .town_event_pos         144 132
+	.character_pos			0 0
+	.embark_party_pos		754 871
+    .camera_position 960 322 -1251
+    .ground_start 0 0 -330
+    .ground_end 0 200 800
+    .left_cliff_position -100 -140 401
+    .bridge_position 470 0 -370
+    .right_tree_position 1600 20 -100
+    .backdrop_position 1050 -300 800 
+    .panel_size 1550 1080
+
+
+town_estate_title_layout:
+    .pos 0 0
+	.text_offset 286 70
+
+
+building_text_layout:
+	.background_offset	-70 -70
+	.name_offset		0	0
+	.description_offset	0	50
+
+tavern_layout:
+    .pos3d				540  0 30
+    .pos				550  10 -1
+    .scale              1.0
+	.text_offset		0	 -130
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		0    30
+	.bbox_size			346  316
+	.alert_offset		-70	 50
+
+stage_coach_layout:
+    .pos3d				315	 -10 0
+    .pos				315	 -5 -3
+    .scale              1.0
+	.text_offset		0	 -100
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		35   0
+	.bbox_size			186  172
+	.alert_offset		0	 0
+
+blacksmith_layout:
+    .pos3d				1420 0 -100
+    .pos				1460 -30 -2
+    .scale              1.0
+	.text_offset		-30	 -75#
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		60    40
+	.bbox_size			700  300
+	.alert_offset		-140	-110
+
+guild_layout:
+    .pos3d					1350 60 250
+    .pos				1282 100 0
+    .scale              1.0
+	.text_offset		0	 -120
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		0   20
+	.bbox_size			240  330
+	.alert_offset		-76 70
+
+abbey_layout:
+    .pos3d				1120 170 600
+    .pos				1070 220 3
+    .scale              1.0
+	.text_offset		0	 -100
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		30   30
+	.bbox_size			324  362
+	.alert_offset		-120	-40
+
+camping_trainer_layout:
+    .pos3d				-60	 310 400
+    .pos				185	 315 0
+    .scale              1.0
+	.text_offset		0	 -100
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		-50  -40
+	.bbox_size			250  160
+	.alert_offset		-40	 -20
+
+nomad_wagon_layout:
+    .pos3d				1125 0 -140
+    .pos				1130 -40 -5
+    .scale              1.0
+	.text_offset		-40	 -140
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		10   10
+	.bbox_size			188  160
+	.alert_offset		-90	-70
+
+sanitarium_layout:
+    .pos3d				750 60 300
+    .pos				790 110 1
+    .scale              1.0
+	.text_offset		-40	0
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		20   -20
+	.bbox_size			250  500
+	.alert_offset		-14 20
+
+graveyard_layout:
+    .pos3d				960 175 599
+    .pos				965 230 2
+    .scale              1.0
+	.text_offset		0	 -100
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		30    3
+	.bbox_size			222  140
+	.alert_offset		0	 -20
+					
+statue_layout:
+    .pos3d				940  -15 0
+    .pos				940  -15 -4
+    .scale              1.0
+	.text_offset        -20	 -160
+	.level_thresholds	0.25 0.50 1.00 1.00
+	.bbox_offset		40   35
+	.bbox_size			130  206
+	.alert_offset		0	 0
+
+ground_layout:
+    .pos3d				960	 -865 1500
+    .pos				960	 -220 0
+    .scale              1.0
+ 	.text_offset		0	 0
+	.level_thresholds	0.33 0.66 1.00 1.00
+	.bbox_offset		0    0
+	.bbox_size			0 876
+	.alert_offset		0	 0
+
+    
+
+
+sky_layout:
+ .pos1				0.0	 -25
+ .pos2				0.0  110
+
+midground_layout:
+ .pos				0.0   110
+
+time_of_day:
+    .time_per_grade     65.0
+    .transition_time    2.0

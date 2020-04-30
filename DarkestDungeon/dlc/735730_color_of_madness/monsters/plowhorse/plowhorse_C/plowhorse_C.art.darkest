@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large
+skill: .id "trample" .anim "attack_trample" .fx "trample" .targchestfx "trample_target" .area_pos_offset -125 -25 .target_area_pos_offset 125 0
+skill: .id "rearing_stomp" .anim "attack_stomp" .fx "rearing_stomp" .targchestfx "blood_splatter" .area_pos_offset 0 -75
+skill: .id "paw_ground" .anim "defend" .fx "paw_ground" .area_pos_offset 0 -25 .can_display_performer_selection_after_turn false
+skill: .id "scream" .anim "attack_scream" .fx "scream" .targheadfx "crystal_horror_target" .has_crit_vo false .area_pos_offset -25 0 .target_area_pos_offset -25 0
+defending_area_pos_offset: .offset 0 -25

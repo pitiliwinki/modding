@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large
+skill: .id "snake_head_poison" .anim "attack_bite" .fx "poison" .targfx "poison_target"
+skill: .id "snake_head_stun" .anim "attack_slam" .fx "stun" .targchestfx "blood_splatter"
+skill: .id "molt" .anim "attack_molt" .fx "molt" .area_pos_offset 0 -25 .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset -50 -25

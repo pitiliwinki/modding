@@ -1,0 +1,125 @@
+town_quest_select_layout:
+	.name_pos 104 122
+	.party_name_pos 756 834
+
+quest_select_dungeon_layout_cove:
+    .quest_map_pos 1260 400
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 380
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 1270 480
+	.has_visible_progression 1
+
+quest_select_dungeon_layout_crypts:
+    .quest_map_pos 940 220
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 80
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 1050 260
+	.has_visible_progression 1
+    
+quest_select_dungeon_layout_darkestdungeon:
+    .quest_map_pos 1260 100
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 540
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 1230 70
+	.has_visible_progression 1
+    
+quest_select_dungeon_layout_town:
+    .quest_map_pos 1260 750
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 700
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 630 728
+	.has_visible_progression 1
+    
+quest_select_dungeon_layout_warrens:
+    .quest_map_pos 815 400
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 220
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 720 460
+	.has_visible_progression 1
+    
+quest_select_dungeon_layout_weald:
+    .quest_map_pos 1000 525
+    .quest_number_of_quests_in_row 4
+    .all_quest_map_pos 850 700
+    .all_quest_number_of_quests_in_row 11
+    .dungeon_effect_overlay_pos 1000 560
+	.has_visible_progression 1
+    	
+town_quest_select_dungeon_layout:
+	.background_offset -5 -10
+	.dungeon_name_offset 190 -8
+	.dungeon_heirloom_start_offset 160 -14
+	.dungeon_heirloom_spacing 38 0
+	.dungeon_level_offset 219 20
+	.dungeon_xp_bar_offset 14 32
+	.dungeon_xp_bar_size 194 8
+	.dungeon_xp_bar_fx_offset 0 4
+	.dungeon_xp_bar_tt_offset 0 -88
+	.dungeon_xp_bar_tt_hot_area_offset 14 0
+	.dungeon_xp_bar_tt_hot_area_size 232 48
+	.quest_button_start_offset 160 92
+	.quest_button_spacing 76 80
+	.locked_icon_offset 184 -10
+	.town_event_icon_offset -32 -14
+	.town_event_icon_tooltip_offset 0 0
+	.town_event_icon_tooltip_hot_area_offset -32 -14
+	.town_event_icon_tooltip_hot_area_size 32 32
+	.roaming_icon_offset 9 -8
+	.roaming_icon_space_between -30 0
+	.roaming_tooltip_offset 0 70
+
+town_quest_select_quest_button_layout:
+	.length_icon_offset 0 0
+	.type_icon_offset 0 0
+	.selected_background_offset -94 -94
+
+town_quest_select_quest_layout:
+	.description_pos 125 132
+	.name_text_offset 200 140
+	.description_text_offset 34 194
+	.description_text_width 340
+	.specifics_text_offset 226 390
+	.camping_text_offset 58 388
+	.camping_tt_pos 10 375
+	.camping_tt_size 80 30 
+	.camping_tt_offset 90 9
+	.goals_text_offset 34 430
+	.goal_description_text_start_offset 50 460
+	.goal_description_text_spacing 44 40
+	.rewards_text_offset 200 530
+	.rewards_inventory_system_offset 22 562
+	.trinket_retention_description_text_offset 62 750
+	.trinket_retention_description_text_width 310
+	.inspect_input_preview_offset 80 742
+	.town_notification_icon 60 750
+	.town_notification_title_text 110 750
+	.town_notification_text 110 774
+	.town_notification_text_width 400
+	.continue_quest_text 30 750
+	.continue_quest_text_width 450
+	.wave_highscore_icon 28 730
+	.wave_rewards_icon 50 590
+	.wave_highscore_title 200 770
+	.wave_highscore_text 200 815
+	.wave_no_highscore_text 200 795
+	.wave_highscore_tt_pos 88 756
+	.wave_highscore_tt_size 260 160
+	.wave_highscore_tt_offset 0 0 
+    
+
+town_quest_rewards_inventory_system_grid_layout:
+	.number_of_columns 4
+	.start_pos 20 28
+	.offset 80 160
+	.is_centred 1
+
+
+town_quest_select_party_name_layout:
+	.text_offset 190 08
+	.change_animation_offset 185 410
+

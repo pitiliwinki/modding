@@ -1,0 +1,29 @@
+camping_trainer_class_specific_skill_grid_layout:
+	.skill_start_pos 60 30
+	.skill_spacing 110 90
+	.skill_number_of_rows 4
+
+camping_trainer_shared_skill_grid_layout:
+	.skill_start_pos 60 200
+	.skill_spacing 110 90
+	.skill_number_of_rows 4
+
+camping_trainer_upgrade_tree_layout:
+	.title_visible 0
+	.title_offset 0 0
+	.icon_offset 0 0
+	.icon_locked_offset 0 0
+	.icon_cost_visible 1
+	.icon_cost_offset 32 90
+	.icon_tooltip_offset 90 0
+	.requirement_start_offset 0 0
+	.requirement_spacing 75 0
+	.requirement_tooltip_tree_icon_above_offset 0 0
+	.requirement_tooltip_tree_icon_below_offset 0 0
+	.divider_offset 0 75
+
+camping_trainer_upgrade_requirement_tooltip_layout:
+	.tooltip_offset 210 0
+	.tooltip_text_width 280
+	.tooltip_is_auto_width 1
+	.tooltip_is_offset_from_tree_icon 0

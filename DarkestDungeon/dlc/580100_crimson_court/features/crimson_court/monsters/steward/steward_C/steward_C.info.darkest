@@ -1,0 +1,21 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 20 .def 37.25% .prot 0 .spd 11 .stun_resist 80% .poison_resist 80% .bleed_resist 55% .debuff_resist 70% .move_resist 50%
+skill: .id "enraging_slight" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 2 5 .crit 9%  .effect "Castellan Pull 5" "Castellan Stress 5" "Mark Target" .launch 4321 .target 1234 .move 0 0
+skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 112.5% .dmg 4 7 .crit 9%  .effect "CC Small Feed Heal 3" "switch_mode_beast_self" "Crimson Curse Weak" "Steward Stress Buff 3" "Feed Stress Human" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4
+skill: .id "infallible_servant" .type "melee" .valid_modes "human" .atk 0% .dmg 0 0 .crit 0%  .effect "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Steward Human Guard" "Steward Prot Buff" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "refined_palate" .type "ranged" .valid_modes "beast" .atk 97.5% .dmg 2 5 .crit 11%  .effect "Stress 1" "Stun 3" .launch 4321 .target 1234
+skill: .id "choice_cut" .type "melee" .valid_modes "beast" .atk 97.5% .dmg 3 8 .crit 11%  .effect "CC Mob Bleed 5" .launch 4321 .target 34
+skill: .id "gibbering_entourage" .type "melee" .valid_modes "beast" .atk 0% .dmg 0 0 .crit 0%  .effect "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Castellan Guard" "Gibbering Buff 3" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 3 12 .crit 13%  .effect "CC Small Feed Heal 3" "CC Mob Acc Debuff 5" "Crimson Curse Weak" "Feed Stress Beast" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4
+personality: .prefskill -1
+loot: .code "A_COURTYARD" .count 1
+loot: .code "BLOOD_LOW" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id steward_C
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "baron"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
+mode: .id human .is_raid_default true
+mode: .id beast

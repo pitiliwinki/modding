@@ -1,0 +1,8 @@
+commonfx: .deathfx death_large_boss
+skill: .id "clear_the_court" .anim "attack_tongue" .fx "clear_the_court" .targchestfx "blood_splatter" .area_pos_offset -150 -100 .target_area_pos_offset 150 0
+skill: .id "transform_to_normal" .anim "attack_transform" .area_pos_offset 0 -90 .reset_source_stance false .reset_target_stance false .can_display_skill_name true .can_display_selection false .can_display_performer_selection_after_turn false
+skill: .id "claw_swipe_berserk" .anim "attack_forelegs" .fx "claw_swipe_berserk" .targchestfx "blood_splatter" .area_pos_offset 0 -100
+skill: .id "feed_berserk" .anim "attack_feed" .fx "feed_berserk" .targchestfx "blood_splatter" .area_pos_offset 0 -100
+skill: .id "be_silent" .anim "attack_scream" .fx "be_silent" .targchestfx "blood_splatter" .area_pos_offset 0 -100
+display_modifier: .anim_override berserk
+defending_area_pos_offset: .offset 0 -115

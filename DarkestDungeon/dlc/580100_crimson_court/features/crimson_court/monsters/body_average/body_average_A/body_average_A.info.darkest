@@ -1,0 +1,10 @@
+display: .size 1
+enemy_type: .id "body"
+stats: .hp 50 .def 0% .prot 0 .spd 0 .stun_resist 200% .poison_resist 25% .bleed_resist 35% .debuff_resist 55% .move_resist 35%
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default_A
+tag: .id "boss"
+life_link: .base_class "viscount"
+battle_modifier: .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False

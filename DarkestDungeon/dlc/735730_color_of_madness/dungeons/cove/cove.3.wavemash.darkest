@@ -1,0 +1,62 @@
+mash: .chance 1 .types fishman_crabby_B fishman_harpoon_B  
+mash: .chance 1 .types fishman_crabby_B fishman_shaman_B  
+mash: .chance 2 .types cultist_brawler_B cultist_witch_B  
+mash: .chance 2 .types fishman_harpoon_B fishman_harpoon_B  
+mash: .chance 1 .types octotank_B fishman_harpoon_B  
+
+mash: .chance 2 .types fishman_harpoon_B fishman_harpoon_B fishman_harpoon_B 
+mash: .chance 2 .types fishman_harpoon_B fishman_harpoon_B fishman_shaman_B 
+mash: .chance 1 .types fishman_harpoon_B snail_urchin_B fishman_harpoon_B 
+mash: .chance 1 .types fishman_crabby_B snail_urchin_B fishman_shaman_B 
+mash: .chance 1 .types jellyfish_B jellyfish_B fishman_harpoon_B 
+mash: .chance 1 .types jellyfish_B jellyfish_B fishman_shaman_B 
+mash: .chance 1 .types snail_urchin_B fishman_crabby_B jellyfish_B 
+mash: .chance 1 .types bloated_corpse_B snail_urchin_B snail_urchin_B 
+mash: .chance 1 .types bloated_corpse_B fishman_harpoon_B jellyfish_B 
+mash: .chance 2 .types bloated_corpse_B fishman_harpoon_B fishman_shaman_B 
+mash: .chance 1 .types bloated_corpse_B bloated_corpse_B jellyfish_B 
+mash: .chance 1 .types snail_urchin_B snail_urchin_B ghoul_B 
+mash: .chance 1 .types jellyfish_B jellyfish_B ghoul_B 
+mash: .chance 1 .types bloated_corpse_B snail_urchin_B ghoul_B 
+mash: .chance 1 .types jellyfish_B cultist_brawler_B cultist_witch_B 
+mash: .chance 1 .types cultist_brawler_B fishman_harpoon_B cultist_witch_B 
+mash: .chance 1 .types cultist_brawler_B cultist_brawler_B fishman_shaman_B 
+mash: .chance 1 .types brigand_blood_B brigand_cutthroat_B brigand_fusilier_B 
+mash: .chance 1 .types brigand_cutthroat_B brigand_cutthroat_B brigand_fusilier_B 
+mash: .chance 2 .types fishman_crabby_B fishman_harpoon_B fishman_harpoon_B 
+mash: .chance 2 .types fishman_crabby_B fishman_harpoon_B fishman_shaman_B 
+mash: .chance 2 .types fishman_crabby_B fishman_shaman_B fishman_shaman_B 
+mash: .chance 1 .types fishman_crabby_B fishman_shaman_B madman_B 
+mash: .chance 1 .types brigand_blood_B brigand_cutthroat_B brigand_fusilier_B 
+
+mash: .chance 1 .types fishman_harpoon_B snail_urchin_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 2 .types fishman_harpoon_B fishman_harpoon_B fishman_harpoon_B fishman_harpoon_B
+mash: .chance 1 .types snail_urchin_B snail_urchin_B jellyfish_B jellyfish_B
+mash: .chance 2 .types snail_urchin_B jellyfish_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types fishman_harpoon_B fishman_harpoon_B fishman_shaman_B madman_B
+mash: .chance 1 .types brigand_cutthroat_B brigand_cutthroat_B brigand_fusilier_B brigand_fusilier_B
+mash: .chance 2 .types fishman_harpoon_B fishman_harpoon_B fishman_harpoon_B fishman_harpoon_B
+mash: .chance 1 .types fishman_harpoon_B fishman_harpoon_B fishman_shaman_B fishman_shaman_B
+mash: .chance 2 .types octotank_B fishman_harpoon_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types snail_urchin_B octotank_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types fishman_harpoon_B jellyfish_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types octotank_B jellyfish_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types bloated_corpse_B snail_urchin_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types bloated_corpse_B octotank_B fishman_harpoon_B fishman_shaman_B
+mash: .chance 1 .types octotank_B fishman_harpoon_B bloated_corpse_B fishman_shaman_B
+mash: .chance 1 .types octotank_B fishman_harpoon_B octotank_B fishman_shaman_B
+mash: .chance 1 .types bloated_corpse_B octotank_B jellyfish_B jellyfish_B
+mash: .chance 1 .types fishman_harpoon_B cultist_brawler_B cultist_brawler_B cultist_witch_B
+mash: .chance 1 .types cultist_brawler_B fishman_harpoon_B cultist_witch_B fishman_harpoon_B
+mash: .chance 1 .types cultist_brawler_B fishman_harpoon_B cultist_witch_B fishman_shaman_B
+mash: .chance 1 .types octotank_B cultist_brawler_B cultist_witch_B fishman_harpoon_B
+mash: .chance 2 .types octotank_B cultist_brawler_B cultist_witch_B fishman_shaman_B
+mash: .chance 1 .types octotank_B cultist_brawler_B madman_B fishman_harpoon_B
+
+curios: .types com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types spacetime
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A
+
+specifications: .random_chance 1.0

@@ -1,0 +1,19 @@
+hero_action_layout:
+	.base_pos 220 44
+	.base_size 100 100
+	.banner_pos 0 0
+	.verbose_pos 0 105
+	.body_pos 240 121
+
+hero_action_banner_layout:
+	.header_offset -10 0
+	.name_offset 105 45
+	.help_offset 100 46
+	.close_button_offset 680 0
+	.hero_slot_offset -230 -100
+
+hero_action_verbose_layout:
+	.frame_offset -20 0
+	.title_text_offset 5 32
+	.body_text_offset 5 74
+	.body_text_width 260

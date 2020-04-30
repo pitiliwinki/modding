@@ -1,0 +1,169 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "COM_PROVISION_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "antivenom", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "holy_water", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 4 }}
+         ]
+      },
+      {
+         "id" : "COM_PROVISION_2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "bandage", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "laudanum", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 4 }}
+         ]
+      },
+      {
+         "id" : "COM_MILLER_WIFE_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 8 }}
+         ]
+      },
+      {
+         "id" : "COM_MILLER_WIFE_2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 8 }}
+         ]
+      },
+      {
+         "id" : "COM_TREASURE_1",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 6, "data" : { "type" : "shard", "id" : "", "amount" : 5 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "shard", "id" : "", "amount" : 10 }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }}
+         ]
+      },
+      {
+         "id" : "COM_TREASURE_1",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 3, "data" : { "type" : "shard", "id" : "", "amount" : 5 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "shard", "id" : "", "amount" : 10 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "shard", "id" : "", "amount" : 15 }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T" }}
+         ]
+      },
+      {
+         "id" : "COM_TREASURE_1",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 5 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "shard", "id" : "", "amount" : 10 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "shard", "id" : "", "amount" : 15 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "shard", "id" : "", "amount" : 20 }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T" }}
+         ]
+      },
+      {
+         "id" : "COM_MILDRED_SHARD_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "COM_MILDRED_TRINKET_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "MILDRED_KEY_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "com_mildredslocket", "amount" : 1 }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "COM_TREASURE_1" }}
+         ]
+      },
+      {
+         "id" : "THING_SHARDS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 15 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 20 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 25 }}
+         ]
+      },
+      {
+         "id" : "THING_TRINKET",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }}
+         ]
+      },
+      {
+         "id" : "THING_TRINKET",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "thing" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "memory", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "THING_TRINKET",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "ancestral" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "thing" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "memory", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "GALAXY",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "heirloom", "id" : "memory", "amount" : 1 }}
+         ]
+      }
+   ]
+}

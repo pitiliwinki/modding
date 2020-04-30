@@ -1,0 +1,17 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 233 .def 21.75% .prot 0.1 .spd 10 .stun_resist 87% .poison_resist 85% .bleed_resist 55% .debuff_resist 60% .move_resist 85%
+skill: .id "necessary_discipline" .type "melee" .atk 103.75% .dmg 5 11 .crit 12%  .effect "Baron Whip Stress" "Baron Bleed" "Baron Pull" "Baron Whip Horror" .launch 4321 .target 234 .move 2 0
+skill: .id "forced_enthusiasm" .type "ranged" .atk 0% .dmg 0 0 .crit 0%  .effect "Baron Whipping Buff" .launch 4321 .target @1234 .self_target_valid False .is_crit_valid False .can_be_riposted false
+skill: .id "baron_hunger" .type "melee" .atk 103.75% .dmg 5 9 .crit 6%  .effect "Baron Feed" "Baron Feed Bleed Debuff" "Baron Feed Stats" .launch 4321 .target 1234 .move 0 3
+skill: .id "intro_change_to_curtain" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "baron_change_to_curtain" instant_shuffle .launch 4321 .target  .is_crit_valid False
+skill: .id "change_to_curtain_1-3" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Cocoon Swap 1-3 group" "Cocoon Swap 1-3 baron" "Baron Refill Cocoons 1-3" instant_shuffle .launch 4321 .target  .is_crit_valid False
+skill: .id "change_to_curtain_2-3" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Cocoon Swap 2-3 group" "Cocoon Swap 2-3 baron" "Baron Refill Cocoons 2-3" instant_shuffle .launch 4321 .target  .is_crit_valid False
+skill: .id "crowd_pleaser" .type "melee" .atk 93.75% .dmg 5 6 .crit 6%  .launch 4321 .target ~1234 .rank_damage_modifiers -0.85 -0.67 -0.33 0.0 .move 0 3
+personality: .prefskill -1
+loot: .code "T_CC" .count 1
+loot: .code "BLUEPRINT" .count 1
+initiative: .number_of_turns_per_round 3
+monster_brain: .id baron
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat

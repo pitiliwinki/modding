@@ -1,0 +1,12 @@
+hall: .chance 0.05 .types sycophant_B tick_zombie_B tick_zombie_B  sycophant_B .infestation_activity_level low
+hall: .chance 0.05 .types tick_zombie_B tick_zombie_B tick_zombie_B tick_zombie_B .infestation_activity_level low
+hall: .chance 0.04 .types sycophant_B tick_zombie_B sycophant_B sycophant_B .infestation_activity_level medium
+hall: .chance 0.04 .types tick_zombie_B tick_zombie_B tick_zombie_B sycophant_B .infestation_activity_level medium
+hall: .chance 0.04 .types tick_zombie_B sycophant_B sycophant_B tick_zombie_B .infestation_activity_level medium
+hall: .chance 0.1 .types castellan_B tick_zombie_B sycophant_B sycophant_B .infestation_activity_level high
+hall: .chance 0.03 .types sycophant_B tick_zombie_B sycophant_B tick_zombie_B .infestation_activity_level high
+hall: .chance 0.03 .types tick_zombie_B tick_zombie_B sycophant_B tick_zombie_B .infestation_activity_level high
+hall: .chance 0.03 .types sycophant_B sycophant_B sycophant_B sycophant_B .infestation_activity_level high
+room: .chance 0.03 .types tick_zombie_B tick_zombie_B sycophant_B chevalier_B .infestation_activity_level low
+room: .chance 0.06 .types tick_zombie_B sycophant_B sycophant_B chevalier_B .infestation_activity_level medium
+room: .chance 0.09 .types tick_zombie_B sycophant_B sycophant_B chevalier_B .infestation_activity_level high

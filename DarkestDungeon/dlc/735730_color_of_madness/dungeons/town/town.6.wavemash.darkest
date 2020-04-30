@@ -1,0 +1,34 @@
+mash: .chance 1 .types brigand_blood_C  
+mash: .chance 1 .types brigand_raider_D brigand_hunter_D  
+mash: .chance 1 .types brigand_raider_D brigand_raider_D  
+mash: .chance 1 .types brigand_raider_D rabid_dog_C  
+
+mash: .chance 1 .types brigand_raider_D brigand_raider_D brigand_hunter_D  
+mash: .chance 1 .types brigand_raider_D brigand_hunter_D brigand_hunter_D   
+mash: .chance 1 .types brigand_raider_D rabid_dog_C rabid_dog_C  
+mash: .chance 1 .types rabid_dog_C rabid_dog_C brigand_hunter_D
+mash: .chance 1 .types rabid_dog_C brigand_raider_D brigand_hunter_D
+mash: .chance 1 .types rabid_dog_C brigand_raider_D madman_C 
+
+mash: .chance 1 .types brigand_blood_C brigand_hunter_D madman_C
+mash: .chance 1 .types brigand_blood_C brigand_hunter_D madman_C
+mash: .chance 1 .types brigand_blood_C brigand_raider_D brigand_hunter_D
+mash: .chance 1 .types brigand_blood_C brigand_raider_D brigand_hunter_D
+mash: .chance 1 .types brigand_cutthroat_C brigand_blood_C brigand_fusilier_C
+mash: .chance 1 .types brigand_cutthroat_C brigand_blood_C brigand_fusilier_C
+mash: .chance 1 .types rabid_dog_C rabid_dog_C brigand_raider_D brigand_hunter_D
+mash: .chance 1 .types rabid_dog_C rabid_dog_C brigand_raider_D brigand_hunter_D
+mash: .chance 1 .types rabid_dog_C brigand_raider_D madman_C brigand_hunter_D
+mash: .chance 1 .types rabid_dog_C brigand_raider_D madman_C brigand_hunter_D
+
+localminiboss: .types brigand_sapper_D brigand_barrel_D
+
+curios: .types com_provisionbox_1 com_provisionbox_2 com_hero_health_heal com_hero_stress_heal com_party_health_heal com_party_stress_heal com_millerwife_curio com_treasure com_fireplace
+
+backgrounds: .types spacetime
+
+killexception: .types shambler_tentacle_A shambler_tentacle_B shambler_tentacle_C shambler_tentacle_E corpse_crystal_A corpse_crystal_B corpse_crystal_C gatekeeper_A gatekeeper_B gatekeeper_C
+
+requirements: .quests plot_town_invasion_0
+
+specifications: .random_chance 0.25 .recurring_only true

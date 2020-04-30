@@ -1,0 +1,112 @@
+
+
+//FLAGELLANT
+
+// punish
+effect: .name "Punish Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Punish Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Punish Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Punish Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Punish Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Punish Bleed Debuff 1" .target "target" .chance 100% .buff_ids bleed_debuff_1 .on_hit true .on_miss false
+effect: .name "Punish Bleed Debuff 2" .target "target" .chance 110% .buff_ids bleed_debuff_2 .on_hit true .on_miss false
+effect: .name "Punish Bleed Debuff 3" .target "target" .chance 120% .buff_ids bleed_debuff_3 .on_hit true .on_miss false
+effect: .name "Punish Bleed Debuff 4" .target "target" .chance 130% .buff_ids bleed_debuff_4 .on_hit true .on_miss false
+effect: .name "Punish Bleed Debuff 5" .target "target" .chance 140% .buff_ids bleed_debuff_5 .on_hit true .on_miss false
+
+
+// rain of sorrows
+effect: .name "Sorrows Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Sorrows Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Sorrows Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Sorrows Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Sorrows Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Sorrows Bleed Debuff 1" .target "target" .chance 100% .buff_ids bleed_debuff_1 .on_hit true .on_miss false
+effect: .name "Sorrows Bleed Debuff 2" .target "target" .chance 110% .buff_ids bleed_debuff_2 .on_hit true .on_miss false
+effect: .name "Sorrows Bleed Debuff 3" .target "target" .chance 120% .buff_ids bleed_debuff_3 .on_hit true .on_miss false
+effect: .name "Sorrows Bleed Debuff 4" .target "target" .chance 130% .buff_ids bleed_debuff_4 .on_hit true .on_miss false
+effect: .name "Sorrows Bleed Debuff 5" .target "target" .chance 140% .buff_ids bleed_debuff_5 .on_hit true .on_miss false
+
+// exsanguinate
+effect: .name "Exsanguinate 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Exsanguinate 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Exsanguinate 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 7 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Exsanguinate 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 8 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Exsanguinate 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 9 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+
+effect: .name "Flag HealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.35	.on_hit true .on_miss false .queue true
+effect: .name "Flag HealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.39	.on_hit true .on_miss false	.queue true
+effect: .name "Flag HealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.42	.on_hit true .on_miss false	.queue true
+effect: .name "Flag HealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.46	.on_hit true .on_miss false .queue true
+effect: .name "Flag HealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.50	.on_hit true .on_miss false .queue true
+
+// exhaust - used in two different skills
+effect: .name "Flagellant Exhaust" .target performer .chance 100% .buff_ids flag_exhaust_heal_done_debuff flag_exhaust_heal_recvd_debuff flag_exhaust_spd_debuff .apply_once true .on_hit true .on_miss true .queue true
+
+
+// reclaim
+effect: .name "Flag Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2	.on_hit true .on_miss true
+effect: .name "Flag Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2	.on_hit true .on_miss true
+effect: .name "Flag Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
+effect: .name "Flag Healdot 5" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+
+effect: .name "Flag Self Wound 1" .target "performer" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 2" .target "performer" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 3" .target "performer" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 4" .target "performer" .chance 150%  .dotBleed 4 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+effect: .name "Flag Self Wound 5" .target "performer" .chance 160%  .dotBleed 5 .duration 3	.on_hit true .on_miss true .can_apply_on_death true
+
+// redeem
+effect: .name "Flag Super Heal 1" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.33	.on_hit true .on_miss false .queue true
+effect: .name "Flag Super Heal 2" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.35	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Super Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.375	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Super Heal 4" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.40	.on_hit true .on_miss false .queue true
+effect: .name "Flag Super Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.43	.on_hit true .on_miss false .queue true
+
+
+// endure
+effect: .name "Flag Steal Stress 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 10	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 11	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 12	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 13	.on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Stress 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 14	.on_hit true .on_miss false .queue true
+
+effect: .name "Flag Self Stress 1" .target "performer" .curio_result_type "negative" .chance 100% .stress 10	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Self Stress 2" .target "performer" .curio_result_type "negative" .chance 100% .stress 9	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Self Stress 3" .target "performer" .curio_result_type "negative" .chance 100% .stress 8	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Self Stress 4" .target "performer" .curio_result_type "negative" .chance 100% .stress 7	.on_hit true .on_miss false	.queue true
+effect: .name "Flag Self Stress 5" .target "performer" .curio_result_type "negative" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
+
+effect: .name "Flag Endure Speed Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Flag Endure Speed Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.on_hit true .on_miss false .queue true .apply_once true
+
+
+// suffer
+// clear mark and mark self as normal
+	// TODO effect: .name "Flag Steal DOTS 1"
+	// TODO REPLACE PLACEHOLDERS BELOW
+effect: .name "Flag Steal Bleed" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .queue true
+effect: .name "Flag Steal Blight" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true
+
+effect: .name "Flag Grit 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids flag_grit_stress_1  flag_grit_deathblow_buff_1	.on_hit true .on_miss true .queue true
+effect: .name "Flag Grit 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids flag_grit_stress_2  flag_grit_deathblow_buff_2	.on_hit true .on_miss true .queue true
+effect: .name "Flag Grit 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids flag_grit_stress_3  flag_grit_deathblow_buff_3	.on_hit true .on_miss true .queue true
+effect: .name "Flag Grit 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids flag_grit_stress_4  flag_grit_deathblow_buff_4	.on_hit true .on_miss true .queue true
+effect: .name "Flag Grit 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids flag_grit_stress_5  flag_grit_deathblow_buff_5	.on_hit true .on_miss true .queue true
+
+// heal dot
+effect: .name "hp_heal_dot" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 10	.on_hit true .on_miss true
+
+// flagellant - weird stuff (HP threshold, death's door pulse)
+effect: .name flagellant_death_door_enter .target performer_group_other .chance 100% .heal_percent 0.10 .on_hit true .on_miss true .queue true
+effect: .name flagellant_low_hp_reaction .target performer .buff_ids flag_hpbelow_CRIT_buff flag_hpbelow_DMGL_buff flag_hpbelow_DMGH_buff .on_hit true .on_miss true
+
+effect: .name "Flag Last Gift" .target "target" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Flag Last Insult" .target "target" .curio_result_type "negative" .chance 125% .stun 1	.on_hit true .on_miss false .queue true

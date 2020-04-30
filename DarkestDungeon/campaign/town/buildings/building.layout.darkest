@@ -1,0 +1,91 @@
+building_base_layout:	
+	.name_pos 104 126
+	.body_base_pos 596 102
+	.upgrade_base_pos 172 259
+	.close_input_preview_pos 1484 144
+	.close_pos 1496 144
+
+building_base_body_layout:
+	.info_text_offset 580 760
+
+building_base_upgrade_layout:
+	.frame_offset -18 -115
+	.verbose_offset 20 30
+	.verbose_width 380
+	.upgrade_title_offset 458 36
+	.upgrade_percent_offset 480 62
+	.upgrade_trees_offset 0 195
+	.upgrade_trees_spacing 0 160
+
+building_base_upgrade_tree_layout:
+	.title_visible 1
+	.title_offset 20 -35
+	.icon_offset 30 0
+	.icon_locked_offset 0 0
+	.icon_cost_visible 0
+	.icon_cost_offset 0 0
+	.icon_tooltip_offset 30 106
+	.requirement_start_offset 0 0
+	.requirement_spacing 70 0
+	.requirement_tooltip_tree_icon_above_offset 0 0
+	.requirement_tooltip_tree_icon_below_offset 0 0
+	.divider_offset 0 118
+
+building_upgrade_requirement_tooltip_layout:
+	.tooltip_offset 130 0
+	.tooltip_text_width 300
+	.tooltip_is_auto_width 0
+	.tooltip_is_offset_from_tree_icon 0
+
+building_activity_list_layout:
+	.base_pos 70 50
+	.activity_spacing 0 230
+
+building_activity_layout:
+	.base_size 800 200
+	.name_offset 170 36
+	.description_offset  170 90
+	.description_width 250
+	.slot_list_pos 440 119
+	.slot_spacing 135 0
+	.per_slot_confirms 1
+	.shared_confirm_pos 0 0
+	.shared_confirm_tooltip_offset 0 0
+	.shared_confirm_tooltip_text_width 0
+	.shared_cost_pos 0 0
+	.shared_free_pos 0 0
+
+building_activity_slot_layout:
+	.hero_slot_offset 0 0
+	.overlay_offset -26 -70
+	.locked_overlay_offset -42 -70
+	.free_overlay_offset -42 -70
+	.cost_offset 38 -20
+	.free_offset 42 0
+	.confirm_button_offset 42 115
+	.cancel_button_offset 7 112
+	.confirm_button_tooltip_offset 0 38
+	.confirm_button_tooltip_text_width 200
+
+building_choice_activity_slot_layout:
+	.choice_list_pos 0 250
+	.choice_spacing 0 26
+	.choice_hot_spot_size 120 20
+	.choice_tooltip_left_justified_offset 240 20
+    .choice_tooltip_right_justified_offset 240 20
+	.choice_tooltip_text_width 200
+	.choice_remove_quirk_right_text_pos -10 180
+    .choice_remove_quirk_left_text_pos -10 180
+
+building_store_list_layout:
+	.base_pos 0 0
+	.base_size 950 800
+	.store_spacing 0 0
+	.increment_current_item_display_button_pos -490 632
+
+building_animation:
+    .transition_time 0.3
+    .transition_out_time 0.3
+    .base_scale 0.4
+    .quick_nav_transition_time 0.5
+	

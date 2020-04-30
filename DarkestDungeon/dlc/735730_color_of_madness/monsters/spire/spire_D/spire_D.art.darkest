@@ -1,0 +1,17 @@
+commonfx: .deathfx death_large_boss
+skill: .id "spawn_sprout" .anim "attack_growth" .fx "grow" .area_pos_offset 0 -30 .can_display_performer_selection_after_turn false
+skill: .id "initial_sprouts" .anim "attack_growth" .fx "grow" .area_pos_offset 0 -30 .can_display_performer_selection_after_turn false
+skill: .id "grow_seed_yellow" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "grow_seed_red" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "grow_seed_black" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "grow_seed_purple" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "grow_seed_grey" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "slow_the_sands" .anim "attack_ring" .fx "slow_the_sands" .area_pos_offset -100 -100 .target_area_pos_offset 125 0
+skill: .id "xform_to_galaxy" .anim "attack_transform" .area_pos_offset 0 -100 .reset_source_stance false .reset_target_stance false .hide_performer_health true .can_display_skill_name false .can_display_selection false .is_monster_rerank_valid_on_friendly_presentation_end false .can_display_performer_selection_after_turn false
+skill: .id "sprout_to_seedling_grey" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform_grey .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "sprout_to_seedling_red" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform_red .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "sprout_to_seedling_black" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform_black .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "sprout_to_seedling_purple" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform_purple .reset_target_stance false .can_display_performer_selection_after_turn false
+skill: .id "sprout_to_seedling_yellow" .anim "attack_growth" .fx "grow" .targchestfx "grow_target" .area_pos_offset 0 -30 .target_area_pos_offset 0 5 .custom_target_anim attack_transform_yellow .reset_target_stance false .can_display_performer_selection_after_turn false
+defending_area_pos_offset: .offset 0 -80
+colour_grade: .name colour_grade

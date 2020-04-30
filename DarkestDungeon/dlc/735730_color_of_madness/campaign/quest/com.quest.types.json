@@ -1,0 +1,162 @@
+{
+    "goals": [
+        {
+            "id": "survive_short",
+            "type": "survival",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "amount":20
+            }
+        },
+        {
+            "id": "survive_mid",
+            "type": "survival",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "amount":999
+            }
+        },
+        {
+            "id": "kill_miller",
+            "type": "kill_monster",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "monster_class_ids": [
+                    "miller_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "encounter_miller",
+            "type": "encounter_monster",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+            ],
+            "data": {
+                "monster_class_ids": [
+                    "miller_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_sleeper",
+            "type": "kill_monster",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "monster_class_ids": [
+                    "galaxy_D"
+                ],
+                "amount": 1
+            }
+        },
+
+        {
+            "id": "survive_long",
+            "type": "survival",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "amount":50
+            }
+        },
+        {
+            "id": "survive_endless",
+            "type": "survival",
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "starting_items": [
+            ],
+            "data": {
+                "amount":0
+            }
+        },
+        {
+            "id": "town_progression_survival",
+            "type": "survival",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [],
+            "data": {
+                "amount":8
+            }
+        }
+    ],
+    "town_progression_goal_ids": 
+    [
+        "town_progression_survival"
+    ],
+    "types": [
+        {
+            "id": "kill_miller",
+            "goal_lists": [
+                {
+                    "dungeon": "farm",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "encounter_miller",
+            "goal_lists": [
+                {
+                    "dungeon": "farm",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kill_sleeper",
+            "goal_lists": [
+                {
+                    "dungeon": "farm",
+                    "goals": [
+                        []
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "wave",
+            "goal_lists": [
+                {
+                    "dungeon": "farm",
+                    "goals": [
+                        [
+                            "survive_short"
+                        ],
+                        [
+                            "survive_mid"
+                        ],
+                        [
+                            "survive_long"
+                        ],
+                        [
+                            "survive_endless"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

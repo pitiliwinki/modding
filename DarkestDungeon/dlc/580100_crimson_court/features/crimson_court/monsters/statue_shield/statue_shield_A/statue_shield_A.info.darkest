@@ -1,0 +1,15 @@
+display: .size 1
+enemy_type: .id "stonework"
+enemy_type: .id "eldritch"
+stats: .hp 35 .def 0% .prot 0.6 .spd 0 .stun_resist 200% .poison_resist 200% .bleed_resist 200% .debuff_resist 200% .move_resist 200%
+skill: .id "shield_launch" .type "" .valid_modes "onscreen" .atk 0% .dmg   .crit 0%  .effect "switch_mode_offscreen_self" .launch 4321 .target  .is_crit_valid False .can_be_riposted false
+skill: .id "shield_smash" .type "ranged" .valid_modes "offscreen" .atk 112.5% .dmg 5 6 .crit 12%  .effect "switch_mode_onscreen_self" "Stun 5" "Push 2A" .launch 4321 .target 12 .extra_targets_count 1 .extra_targets_chance 0.4 .ignore_stealth true
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 1
+monster_brain: .id statue_shield_A
+tag: .id "boss"
+life_link: .base_class "statue_head"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+mode: .id onscreen .is_raid_default true .always_guard_actor_base_class_ids statue_head
+mode: .id offscreen .is_targetable false

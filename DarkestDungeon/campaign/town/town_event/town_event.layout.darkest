@@ -1,0 +1,28 @@
+town_event_layout:
+    .character_pos -5 100
+    .name_pos -40 -6
+    .close_input_preview_pos 1332 16
+    .close_pos 1352 12
+    .story_pos 0 0
+    .result_pos 770 610
+    .currency_cost_pos 1025 618
+    
+town_event_story_layout:
+    .title_offset 1030 150
+    .image_offset 1030 216
+    .description_offset 1030 480
+    .description_text_width 485
+    .tone_frame_offset 1030 115
+
+town_event_info_layout:
+    .element_start_pos 250 36
+    .element_text_width 485
+    .interaction_pos 262 75
+
+town_event_result_layout:
+    .recruit_entry_start_pos 0 32
+    .recruit_offset 100 0
+    .recruit_max_width 520   
+    .recruit_fade_out_time 1.0
+    .recruit_fade_out_easing_function easeInSine
+

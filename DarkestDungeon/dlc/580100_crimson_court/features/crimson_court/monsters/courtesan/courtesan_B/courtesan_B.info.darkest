@@ -1,0 +1,21 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 18 .def 14.75% .prot 0 .spd 6 .stun_resist 65% .poison_resist 60% .bleed_resist 40% .debuff_resist 55% .move_resist 50%
+skill: .id "careless_whispers" .type "ranged" .valid_modes "human" .atk 98.75% .dmg 2 3 .crit 4%  .effect "Courtesan AOE Horror" "Careless Whispers 3" .launch 432 .target ~1234 .move 0 2
+skill: .id "midnight_minuet" .type "ranged" .valid_modes "human" .atk 0% .dmg 0 0 .crit 0%  .effect "Midnight Minuet 2" "Midnight Minuet Debuff 2" "Midnight Minuet Buff 2" .launch 4321 .target ~@4321 .is_crit_valid False
+skill: .id "damsel_in_distress" .type "" .valid_modes "human" .atk 0% .dmg 0 0 .crit 0%  .effect "Buff Guard 3" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Courtesan ProtectMe Guard" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "renewed_appetite" .type "ranged" .valid_modes "beast" .atk 88.75% .dmg 3 6 .crit 6%  .effect "Courtesan Blight 3" "Courtesan Stress 3" .launch 4321 .target 1234 .move 0 2
+skill: .id "expose_the_vein" .type "melee" .valid_modes "beast" .atk 93.75% .dmg 2 3 .crit 12%  .effect "Mark Target" "Courtesan Vein 3" "Courtesan Vein Prot 3" .launch 4321 .target 1234 .move 0 2
+skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 98.75% .dmg 3 5 .crit 6%  .effect "CC Big Feed Heal 3" "Courtesan Feed 2" "Crimson Curse Strong" "switch_mode_beast_self" "Feed Stress Human" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4
+skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 88.75% .dmg 4 11 .crit 6%  .effect "CC Big Feed Heal 3" "CC Mob Acc Debuff 3" "Crimson Curse Strong" "Feed Stress Beast" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4
+skill: .id "rebuff_slap" .type "melee" .valid_modes "human" .atk 93.75% .dmg 3 6 .crit 10%  .effect "Mark Target" .launch 4321 .target 1234
+personality: .prefskill -1
+loot: .code "A_COURTYARD" .count 1
+loot: .code "BLOOD_MED" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id courtesan_A
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "baron"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+mode: .id human .is_raid_default true
+mode: .id beast

@@ -1,0 +1,20 @@
+display: .size 1
+enemy_type: .id "vampire"
+stats: .hp 31 .def 25.25% .prot 0 .spd 4 .stun_resist 80% .poison_resist 80% .bleed_resist 60% .debuff_resist 50% .move_resist 75%
+skill: .id "rib_cracker" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 6 9 .crit 11%  .effect "Esq Pistol Debuff 5" "Esq Push 5" .launch 12 .target 12 .move 2 0
+skill: .id "skewering_repartee" .type "melee" .valid_modes "human" .atk 107.5% .dmg 8 14 .crit 11%  .effect "Skewering AOE Bleed 5" "Esq Riposte 5" .launch 43 .target ~1234 .rank_damage_modifiers -0.75 -0.4 -0.2 0.0 .move 0 2
+skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 112.5% .dmg 3 8 .crit 9%  .effect "CC Big Feed Heal 5" "CC Mob Acc Debuff 5" "switch_mode_beast_self" "clear_riposte_performer" "Feed Stress Human" "CC Steal Blight" "Crimson Curse Strong" .launch 4321 .target 1234 .move 0 4
+skill: .id "piercing_foreleg" .type "melee" .valid_modes "beast" .atk 107.5% .dmg 11 20 .crit 9%  .effect "Esq Foreleg 5" .launch 43 .target ~1234 .rank_damage_modifiers -0.8 -0.65 -0.3 0.0 .move 2 0
+skill: .id "needling_execration" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 5 11 .crit 14%  .effect "Bleed 5" "Mark Target" "Esq Stress 5" .launch 321 .target 123 .move 0 2
+skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 6 13 .crit 10%  .effect "CC Big Feed Heal 5" "CC Mob Acc Debuff 5" "Crimson Curse Strong" "Feed Stress Beast" "CC Steal Blight" .launch 4321 .target 1234
+riposte_skill: .id "riposte1" .type "melee" .valid_modes "human" .atk 102.5% .dmg 8 11 .crit 9%  .launch 4321 .target 1234
+personality: .prefskill -1
+loot: .code "A_COURTYARD" .count 1
+loot: .code "BLOOD_LOW" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id esquire_C
+death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
+life_link: .base_class "baron"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+mode: .id human .is_raid_default true
+mode: .id beast

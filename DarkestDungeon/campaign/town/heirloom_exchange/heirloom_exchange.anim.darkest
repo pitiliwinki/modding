@@ -1,0 +1,12 @@
+heirloom_exchange_transition_animation:
+    .transition_in_time 0.4
+    .transition_out_time 0.4
+    .easing_in_function easeOutSine
+    .easing_out_function easeInSine
+    
+heirloom_exchange_to_amount_change_pusle:
+    .pulse_out_duration			0.25
+    .pulse_out_ease_function    easeOutSine
+    .pulse_in_duration			0.125
+    .pulse_in_ease_function     easeInSine
+    .pulse_scale				1.25 1.25

@@ -1,0 +1,44 @@
+quirk_treatment:
+    .positive_selection_backdrop_offset -50 0
+    .negative_selection_backdrop_offset -170 0
+    .disease_selection_backdrop_offset -50 0
+    .positive_list_position -230 400
+    .positive_icon_offset -37 -2
+	.positive_controller_selected_icon_scale 1.0 1.0
+	.positive_controller_selected_icon_offset -48 0.0
+    .negative_list_position 330 400
+    .negative_icon_offset  5 -2
+	.negative_controller_selected_icon_scale -1.0 1.0
+	.negative_controller_selected_icon_offset 28 0.0
+    .disease_list_position -90 410 
+    .disease_icon_offset -37 -2
+	.disease_controller_selected_icon_scale 1.0 1.0
+	.disease_controller_selected_icon_offset -30 0.0
+    .entry_y_spacing 10
+    .backdrop_centre_position 500 500
+    .header_backdrop_centre_position 480 470
+    .title_centre_position 500 475
+
+sanitarium_activity_layout:
+	.base_size 800 200
+	.name_offset 170 42
+	.description_offset  170 90
+	.description_width 250
+	.slot_list_pos 440 119
+	.slot_spacing 135 0
+	.per_slot_confirms 0
+	.shared_confirm_pos 62 588
+	.shared_confirm_tooltip_offset 0 46
+	.shared_confirm_tooltip_text_width 350
+	.shared_cost_pos 62 570
+	.shared_free_pos 62 554
+
+sanitarium_activity_slot_layout:
+	.choice_list_pos 0 250
+	.choice_spacing 0 28
+	.choice_hot_spot_size 120 20
+	.choice_tooltip_left_justified_offset 350 0
+    .choice_tooltip_right_justified_offset -330 0
+	.choice_tooltip_text_width 200
+	.choice_remove_quirk_right_text_pos -115 156
+    .choice_remove_quirk_left_text_pos 130 156

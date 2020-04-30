@@ -1,0 +1,15 @@
+display: .size 4
+enemy_type: .id "vampire"
+stats: .hp 400 .def 30% .prot 0.4 .spd 8 .stun_resist 165% .poison_resist 120% .bleed_resist 80% .debuff_resist 140% .move_resist 220%
+skill: .id "clear_the_court" .type "melee" .atk 115% .dmg 3 13 .crit 3%  .effect "Tongue Hit" "Countess Bleed" .launch 4321 .target ~1234 .rank_damage_modifiers -0.45 -0.3 -0.15 0.0
+skill: .id "transform_to_normal" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "To Countess D" .launch 4321 .target  .is_crit_valid False .can_be_riposted false .starting_cooldown 3
+skill: .id "claw_swipe_berserk" .type "melee" .atk 110% .dmg 10 14 .crit 15%  .launch 4321 .target 1234
+skill: .id "feed_berserk" .type "melee" .atk 110% .dmg 7 17 .crit 2%  .effect "Countess Feed Heal" .launch 4321 .target 1234
+skill: .id "be_silent" .type "ranged" .atk 118% .dmg 2 4 .crit 5%  .effect "Countess Stun" .launch 4321 .target 34 .extra_targets_count 1 .extra_targets_chance 0.33
+personality: .prefskill -1
+loot: .code "T_CC" .count 2
+loot: .code "BLUEPRINT" .count 1
+initiative: .number_of_turns_per_round 4
+monster_brain: .id countess_F
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat

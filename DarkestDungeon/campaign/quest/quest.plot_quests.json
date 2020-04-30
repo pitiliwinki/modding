@@ -1,0 +1,2619 @@
+{
+	"plot_quests": [
+		{
+			"id": "plot_tutorial_crypts",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "explore",
+				"dungeon": "crypts",
+				"difficulty": 1,
+				"length": 1,
+				"map_name": "tutorial_crypts",
+				"goal_ids": [
+					"explore_all_rooms"
+				],
+				"completion_reward": {
+					"resolve_xp": 2,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 3000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 4
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_common",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_stall_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_necromancer_1",
+			"has_achievement": true,
+			"dungeon_level": 2,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_necromancer_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "bust",
+								"type": "heirloom",
+								"amount": 4
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 6
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_prophet_1",
+			"has_achievement": true,
+			"dungeon_level": 3,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_prophet_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "bust",
+								"type": "heirloom",
+								"amount": 4
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 6
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_necromancer_2",
+			"has_achievement": true,
+			"dungeon_level": 4,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_necromancer_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "bust",
+								"type": "heirloom",
+								"amount": 6
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 8
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_prophet_2",
+			"has_achievement": true,
+			"dungeon_level": 5,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_prophet_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "bust",
+								"type": "heirloom",
+								"amount": 6
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 8
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_necromancer_3",
+			"has_achievement": true,
+			"dungeon_level": 6,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_necromancer_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_necromancer",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_prophet_3",
+			"has_achievement": true,
+			"dungeon_level": 7,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "crypts",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_prophet_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_prophet",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_hag_1",
+			"has_achievement": true,
+			"dungeon_level": 2,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_hag_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "deed",
+								"type": "heirloom",
+								"amount": 6
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 4
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_brigand_cannon_1",
+			"has_achievement": true,
+			"dungeon_level": 3,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_brigand_cannon_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "deed",
+								"type": "heirloom",
+								"amount": 6
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 4
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_hag_2",
+			"has_achievement": true,
+			"dungeon_level": 4,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_hag_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "deed",
+								"type": "heirloom",
+								"amount": 8
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 5
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_brigand_cannon_2",
+			"has_achievement": true,
+			"dungeon_level": 5,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_brigand_cannon_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "deed",
+								"type": "heirloom",
+								"amount": 8
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 5
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_hag_3",
+			"has_achievement": true,
+			"dungeon_level": 6,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_hag_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_hag",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_brigand_cannon_3",
+			"has_achievement": true,
+			"dungeon_level": 7,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_brigand_cannon_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_cannon",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_swine_prince_1",
+			"has_achievement": true,
+			"dungeon_level": 2,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_swine_prince_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "portrait",
+								"type": "heirloom",
+								"amount": 3
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 4
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_formless_flesh_1",
+			"has_achievement": true,
+			"dungeon_level": 3,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_formless_flesh_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "portrait",
+								"type": "heirloom",
+								"amount": 3
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 4
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_swine_prince_2",
+			"has_achievement": true,
+			"dungeon_level": 4,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_swine_prince_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "portrait",
+								"type": "heirloom",
+								"amount": 4
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 5
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_formless_flesh_2",
+			"has_achievement": true,
+			"dungeon_level": 5,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_formless_flesh_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "portrait",
+								"type": "heirloom",
+								"amount": 4
+							},
+							"2": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 5
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_swine_prince_3",
+			"has_achievement": true,
+			"dungeon_level": 6,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_swine_prince_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_wilbur",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_formless_flesh_3",
+			"has_achievement": true,
+			"dungeon_level": 7,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "warrens",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_formless_flesh_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_flesh",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_siren_1",
+			"has_achievement": true,
+			"dungeon_level": 2,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_siren_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 12
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_drowned_crew_1",
+			"has_achievement": true,
+			"dungeon_level": 3,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 1,
+				"length": 2,
+				"goal_ids": [
+					"kill_drowned_crew_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 4500
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 12
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_siren_2",
+			"has_achievement": true,
+			"dungeon_level": 4,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_siren_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_drowned_crew_2",
+			"has_achievement": true,
+			"dungeon_level": 5,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 3,
+				"length": 2,
+				"goal_ids": [
+					"kill_drowned_crew_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 8,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 6750
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_siren_3",
+			"has_achievement": true,
+			"dungeon_level": 6,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_siren_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_siren",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_kill_drowned_crew_3",
+			"has_achievement": true,
+			"dungeon_level": 7,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "cove",
+				"difficulty": 5,
+				"length": 2,
+				"goal_ids": [
+					"kill_drowned_crew_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_crew",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_town_invasion_0",
+			"plot_quest_dependency": "",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "town",
+				"difficulty": 6,
+				"length": 1,
+				"map_name": "town_invasion_0",
+				"goal_ids": [
+					"kill_brigand_sapper_D"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "boss_tassle",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [],
+			"is_progression": false,
+			"is_repeatable": false,
+			"is_generated_by_event": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 1,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 5,
+			"upgrade_tags_to_remove_on_ignore": [
+				{
+					"upgrade_tag": "building",
+					"amount": 3
+				}
+			],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_trinket_retention_0",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 1,
+				"length": 1,
+				"map_name": "crow_map1",
+				"goal_ids": [
+					"kill_crow_A"
+				],
+				"completion_reward": {
+					"resolve_xp": 1,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": false,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"party_quirks_to_apply_on_failure": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"trinket_retention_minimum_rarity": "uncommon",
+			"trinket_retention_count": 8,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_trinket_retention_1",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 3,
+				"length": 1,
+				"map_name": "crow_map1",
+				"goal_ids": [
+					"kill_crow_B"
+				],
+				"completion_reward": {
+					"resolve_xp": 2,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": false,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"party_quirks_to_apply_on_failure": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"trinket_retention_minimum_rarity": "rare",
+			"trinket_retention_count": 8,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_trinket_retention_2",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 5,
+				"length": 1,
+				"map_name": "crow_map1",
+				"goal_ids": [
+					"kill_crow_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": false,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"party_quirks_to_apply_on_failure": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"trinket_retention_minimum_rarity": "very_rare",
+			"trinket_retention_count": 8,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_crow_trinket",
+			"plot_quest_dependency": "",
+			"has_achievement": false,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "weald",
+				"difficulty": 5,
+				"length": 1,
+				"map_name": "crow_map1",
+				"goal_ids": [
+					"kill_crow_C"
+				],
+				"completion_reward": {
+					"resolve_xp": 4,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "crow",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"is_generated_by_event": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": false,
+			"can_retreat": false,
+			"retreat_always_from_raid": true,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"party_quirks_to_apply_on_completion": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"party_quirks_to_apply_on_failure": [
+				{
+					"quirk_ids": [
+						"corvids_curiosity"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_appetite"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_blindness"
+					],
+					"chance": 2.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_grace"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_eye"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [
+						"corvids_resilience"
+					],
+					"chance": 1.0
+				},
+				{
+					"quirk_ids": [],
+					"chance": 0.0
+				}
+			],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_darkest_dungeon_1",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "darkestdungeon",
+				"difficulty": 6,
+				"length": 2,
+				"map_name": "DD_map1",
+				"goal_ids": [
+					"kill_shuffler_D"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							},
+							"2": {
+								"id": "dd_trinket",
+								"type": "trinket_unlock",
+								"amount": 3
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 1,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 5,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [
+				"darkest_dungeon_failure_roster_resolve_xp"
+			],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_darkest_dungeon_2",
+			"plot_quest_dependency": "plot_darkest_dungeon_1",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "inventory_activate",
+				"dungeon": "darkestdungeon",
+				"difficulty": 6,
+				"length": 3,
+				"map_name": "DD_map2",
+				"goal_ids": [
+					"inventory_activate_beacons"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 1,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 5,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [
+				"darkest_dungeon_failure_roster_resolve_xp"
+			],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [
+				{
+					"trinket_id": "dd_trinket",
+					"amount": 3
+				}
+			],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_darkest_dungeon_3",
+			"plot_quest_dependency": "plot_darkest_dungeon_2",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "activate",
+				"dungeon": "darkestdungeon",
+				"difficulty": 6,
+				"length": 4,
+				"map_name": "DD_map3",
+				"goal_ids": [
+					"activate_teleporter"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 1,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 5,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [
+				"darkest_dungeon_failure_roster_resolve_xp"
+			],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		},
+		{
+			"id": "plot_darkest_dungeon_4",
+			"plot_quest_dependency": "plot_darkest_dungeon_3",
+			"has_achievement": true,
+            "dungeon_level": 0,
+            "post_raid_video" : "epilog",
+			"quest": {
+				"is_plot_quest": true,
+				"type": "kill_boss",
+				"dungeon": "darkestdungeon",
+				"difficulty": 6,
+				"length": 1,
+                "map_name": "DD_map4",
+                "torch_setting" : "dd4",
+				"goal_ids": [
+					"kill_ancestor_heart_D"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 18
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": true,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": false,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 1,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": true,
+			"roster_buff_on_failure_minimum_party_resolve_level": 5,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [
+				"darkest_dungeon_failure_roster_resolve_xp"
+			],
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": true,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			}
+		}
+	]
+}

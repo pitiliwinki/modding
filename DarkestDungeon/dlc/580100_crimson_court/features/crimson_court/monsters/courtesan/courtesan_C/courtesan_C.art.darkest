@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large
+skill: .id "careless_whispers" .anim "attack_whisper" .fx "careless_whispers" .targchestfx "stress_cloud" .area_pos_offset -100 -10 .target_area_pos_offset 150 0
+skill: .id "midnight_minuet" .anim "attack_dance" .fx "midnight_minuet" .can_display_performer_selection_after_turn false
+skill: .id "damsel_in_distress" .anim "defend" .fx "damsel_in_distress" .target_area_pos_offset 200 -25 .can_display_performer_selection_after_turn false
+skill: .id "renewed_appetite" .anim "attack_bite" .fx "renewed_appetite" .targfx "renewed_appetite_target" .area_pos_offset 0 -75
+skill: .id "expose_the_vein" .anim "attack_claw" .fx "expose_the_vein" .targchestfx "blood_splatter" .area_pos_offset 0 -50
+skill: .id "the_hunger_human" .anim "attack_feed" .fx "the_hunger_human" .targchestfx "blood_splatter" .area_pos_offset 0 -25
+skill: .id "the_hunger_beast" .anim "attack_feed" .fx "the_hunger_beast" .targchestfx "blood_splatter" .area_pos_offset 0 -50
+skill: .id "rebuff_slap" .anim "attack_slap" .fx "rebuff_slap" .targchestfx "blood_splatter" .area_pos_offset 0 -25

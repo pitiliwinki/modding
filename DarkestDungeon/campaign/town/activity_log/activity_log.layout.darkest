@@ -1,0 +1,32 @@
+activity_log_layout:
+	.name_pos -46 -12
+	.entry_start_pos 0 10
+	.entry_spacing 0 30
+    .close_input_preview_pos 1332 16
+	.close_pos 1352 12
+    .panel_size 620 550
+    .scroll_arrows_offset 15 7
+    .scrollbar_offset 0
+    .new_game_plus_week_count_pos 310 120
+    .controller_analog_stick_pos 560 34
+
+activity_log_entry_layout:
+	.text_pos 25 160
+    .vertical_spacing 20.0
+    
+caretaker_goal_layout:
+    .name_pos 650 -12
+	.text_pos 720 160
+    .panel_size 600 240
+    .entry_spacing 10 10
+    .scrollbar_offset 0
+    .controller_analog_stick_pos 1250 34
+
+hero_building_log_entry_layout:
+    .content_margins 0 0 5 10
+    .building_image_margins 0 6 0 0
+    .hero_image_margins 10 10 5 5
+    .textbox_width 440 
+    .textbox_top_margin 5
+    .textbox_entry_spacing 0
+    

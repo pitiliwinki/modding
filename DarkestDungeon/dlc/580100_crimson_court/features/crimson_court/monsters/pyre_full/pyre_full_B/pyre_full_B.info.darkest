@@ -1,0 +1,11 @@
+display: .size 2
+enemy_type: .id "pyre"
+stats: .hp 27 .def 0.0% .prot 0 .spd 0 .stun_resist 220% .poison_resist 220% .bleed_resist 220% .debuff_resist 220% .move_resist 220%
+personality: .prefskill 
+loot: .code "" .count 
+initiative: .number_of_turns_per_round 0
+monster_brain: .id pyre_full
+tag: .id "boss"
+battle_modifier: .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False
+captor_full: .captor_empty_monster_class pyre_empty_B .release_on_death true .release_on_prisoner_at_deaths_door true .per_turn_damage_percent 0.08 .reset_hp False .use_previous_monster_class_hp True .add_current_hp True
+life_link: .base_class "fanatic"

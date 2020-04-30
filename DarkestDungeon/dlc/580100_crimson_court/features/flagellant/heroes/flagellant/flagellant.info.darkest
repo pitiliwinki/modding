@@ -1,0 +1,64 @@
+resistances: .stun 50% .poison 30% .bleed 65% .disease 40% .move 50% .debuff 30% .death_blow 73% .trap 0%
+crit: .effects "on_crit_bleedchance"
+weapon: .name "flagellant_weapon_0" .atk 0% .dmg 3 6 .crit 2% .spd 6
+weapon: .name "flagellant_weapon_1" .atk 0% .dmg 4 7 .crit 3% .spd 6 .upgradeRequirementCode 0
+weapon: .name "flagellant_weapon_2" .atk 0% .dmg 4 8 .crit 4% .spd 8 .upgradeRequirementCode 1
+weapon: .name "flagellant_weapon_3" .atk 0% .dmg 5 10 .crit 5% .spd 8 .upgradeRequirementCode 2
+weapon: .name "flagellant_weapon_4" .atk 0% .dmg 5 11 .crit 6% .spd 9 .upgradeRequirementCode 3
+armour: .name "flagellant_armour_0" .def 0% .prot 0 .hp 22 .spd 0
+armour: .name "flagellant_armour_1" .def 5% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
+armour: .name "flagellant_armour_2" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
+armour: .name "flagellant_armour_3" .def 15% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "flagellant_armour_4" .def 20% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "punish" .level 0 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 1" "Punish Bleed Debuff 1" .generation_guaranteed true
+combat_skill: .id "punish" .level 1 .type "melee" .atk 100% .dmg 0% .crit 6% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 2" "Punish Bleed Debuff 2"
+combat_skill: .id "punish" .level 2 .type "melee" .atk 105% .dmg 0% .crit 7% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 3" "Punish Bleed Debuff 3"
+combat_skill: .id "punish" .level 3 .type "melee" .atk 110% .dmg 0% .crit 8% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 4" "Punish Bleed Debuff 4"
+combat_skill: .id "punish" .level 4 .type "melee" .atk 115% .dmg 0% .crit 9% .launch 12 .target 12 .is_crit_valid True  .effect "Punish Bleed 5" "Punish Bleed Debuff 5"
+combat_skill: .id "rain_of_sorrows" .level 0 .type "melee" .atk 95% .dmg -67% .crit 2% .launch 12 .target ~34 .is_crit_valid True  .effect "Sorrows Bleed 1" "Sorrows Bleed Debuff 1"
+combat_skill: .id "rain_of_sorrows" .level 1 .type "melee" .atk 100% .dmg -67% .crit 3% .launch 12 .target ~34 .is_crit_valid True  .effect "Sorrows Bleed 2" "Sorrows Bleed Debuff 2"
+combat_skill: .id "rain_of_sorrows" .level 2 .type "melee" .atk 105% .dmg -67% .crit 4% .launch 12 .target ~34 .is_crit_valid True  .effect "Sorrows Bleed 3" "Sorrows Bleed Debuff 3"
+combat_skill: .id "rain_of_sorrows" .level 3 .type "melee" .atk 110% .dmg -67% .crit 5% .launch 12 .target ~34 .is_crit_valid True  .effect "Sorrows Bleed 4" "Sorrows Bleed Debuff 4"
+combat_skill: .id "rain_of_sorrows" .level 4 .type "melee" .atk 115% .dmg -67% .crit 6% .launch 12 .target ~34 .is_crit_valid True  .effect "Sorrows Bleed 5" "Sorrows Bleed Debuff 5"
+combat_skill: .id "exsanguinate" .level 0 .type "melee" .atk 90% .dmg 0% .crit 3%.required_performer_hp_range 0 0.40 .per_battle_limit 3 .launch 12 .target 12 .is_crit_valid True  .effect "Exsanguinate 1" "Flag HealSelf 1" "Flagellant Exhaust"
+combat_skill: .id "exsanguinate" .level 1 .type "melee" .atk 95% .dmg 0% .crit 4%.required_performer_hp_range 0 0.40 .per_battle_limit 3 .launch 12 .target 12 .is_crit_valid True  .effect "Exsanguinate 2" "Flag HealSelf 2" "Flagellant Exhaust"
+combat_skill: .id "exsanguinate" .level 2 .type "melee" .atk 100% .dmg 0% .crit 5%.required_performer_hp_range 0 0.40 .per_battle_limit 3 .launch 12 .target 12 .is_crit_valid True  .effect "Exsanguinate 3" "Flag HealSelf 3" "Flagellant Exhaust"
+combat_skill: .id "exsanguinate" .level 3 .type "melee" .atk 105% .dmg 0% .crit 6%.required_performer_hp_range 0 0.40 .per_battle_limit 3 .launch 12 .target 12 .is_crit_valid True  .effect "Exsanguinate 4" "Flag HealSelf 4" "Flagellant Exhaust"
+combat_skill: .id "exsanguinate" .level 4 .type "melee" .atk 110% .dmg 0% .crit 7%.required_performer_hp_range 0 0.40 .per_battle_limit 3 .launch 12 .target 12 .is_crit_valid True  .effect "Exsanguinate 5" "Flag HealSelf 5" "Flagellant Exhaust"
+combat_skill: .id "reclaim" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Healdot 1" "Flag Self Wound 1" .is_stall_invalidating false
+combat_skill: .id "reclaim" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Healdot 2" "Flag Self Wound 2" .is_stall_invalidating false
+combat_skill: .id "reclaim" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Healdot 3" "Flag Self Wound 3" .is_stall_invalidating false
+combat_skill: .id "reclaim" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Healdot 4" "Flag Self Wound 4" .is_stall_invalidating false
+combat_skill: .id "reclaim" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Healdot 5" "Flag Self Wound 5" .is_stall_invalidating false
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 3 .launch 4321
+combat_skill: .id "redeem" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false.required_performer_hp_range 0 0.40 .per_battle_limit 2 .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Super Heal 1" "Flag HealSelf 1" "Flagellant Exhaust" .is_stall_invalidating false
+combat_skill: .id "redeem" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false.required_performer_hp_range 0 0.40 .per_battle_limit 2 .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Super Heal 2" "Flag HealSelf 2" "Flagellant Exhaust" .is_stall_invalidating false
+combat_skill: .id "redeem" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false.required_performer_hp_range 0 0.40 .per_battle_limit 2 .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Super Heal 3" "Flag HealSelf 3" "Flagellant Exhaust" .is_stall_invalidating false
+combat_skill: .id "redeem" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false.required_performer_hp_range 0 0.40 .per_battle_limit 2 .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Super Heal 4" "Flag HealSelf 4" "Flagellant Exhaust" .is_stall_invalidating false
+combat_skill: .id "redeem" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false.required_performer_hp_range 0 0.40 .per_battle_limit 2 .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Super Heal 5" "Flag HealSelf 5" "Flagellant Exhaust" .is_stall_invalidating false
+combat_skill: .id "endure" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Steal Stress 1" "Flag Self Stress 1" "Flag Endure Speed Buff 1" .is_stall_invalidating false
+combat_skill: .id "endure" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Steal Stress 2" "Flag Self Stress 2" "Flag Endure Speed Buff 2" .is_stall_invalidating false
+combat_skill: .id "endure" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Steal Stress 3" "Flag Self Stress 3" "Flag Endure Speed Buff 3" .is_stall_invalidating false
+combat_skill: .id "endure" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Steal Stress 4" "Flag Self Stress 4" "Flag Endure Speed Buff 4" .is_stall_invalidating false
+combat_skill: .id "endure" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Flag Steal Stress 5" "Flag Self Stress 5" "Flag Endure Speed Buff 5" .is_stall_invalidating false
+combat_skill: .id "suffer" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Marked Target" "Mark Self" "Flag Steal Bleed" "Flag Steal Blight" "Flag Grit 1" .is_stall_invalidating false
+combat_skill: .id "suffer" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Marked Target" "Mark Self" "Flag Steal Bleed" "Flag Steal Blight" "Flag Grit 2" .is_stall_invalidating false
+combat_skill: .id "suffer" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Marked Target" "Mark Self" "Flag Steal Bleed" "Flag Steal Blight" "Flag Grit 3" .is_stall_invalidating false
+combat_skill: .id "suffer" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Marked Target" "Mark Self" "Flag Steal Bleed" "Flag Steal Blight" "Flag Grit 4" .is_stall_invalidating false
+combat_skill: .id "suffer" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .self_target_valid false .launch 1234 .target @1234 .is_crit_valid True  .effect "Clear Marked Target" "Mark Self" "Flag Steal Bleed" "Flag Steal Blight" "Flag Grit 5" .is_stall_invalidating false
+tag: .id "religious"
+tag: .id "light"
+tag: .id "flagellant"
+tag: .id "altar_of_light"
+deaths_door: .buffs FdeathsdoorACCbuff FdeathsdoorDMGLowBuff FdeathsdoorDMGHighBuff FdeathsdoorSPDBuff FdeathsdoorSTUNRESISTBuff FdeathsdoorBLIGHTRESISTBuff FdeathsdoorBLEEDRESISTBuff FdeathsdoorDEBUFFRESISTBuff .recovery_buffs .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff .enter_effects flagellant_death_door_enter .enter_effect_round_cooldown 1
+controlled: .target_rank 1
+id_index: .index 16
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+overstressed_modifier: .override_trait_type_ids berserk .override_trait_type_chances 1.0
+activity_modifier: .override_valid_activity_ids flagellation treatment disease_treatment .override_stress_removal_amount_low 100 .override_stress_removal_amount_high 100
+hp_reaction: .hp_ratio 0.40 .is_under true .effects flagellant_low_hp_reaction
+death_reaction: .target_allies true .target_enemies false .effects "Flag Last Gift"
+death_reaction: .target_allies false .target_enemies true .effects "Flag Last Insult"
+quirk_modifier: .incompatible_class_ids alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler improved_balance meditator calm nymphomania
+generation: .is_generation_enabled true .town_event_dependency "first_flagellant" .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
+incompatible_party_member: .id flagellant_limit .hero_tag flagellant

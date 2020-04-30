@@ -1,0 +1,38 @@
+realm_inventory_layout:
+	.content_offset 0 2
+	.name_pos -44 -10
+	.inventory_grid_size 560 525
+	.trinket_info_description 150 100
+	.trinket_info_description_width 1000.0
+	.trinket_sell_value 365 116
+	.trinket_sell_input_preview_pos 130 100
+	.trinket_sell_input_preview_text_offset 50 8
+	.hold_to_unequip_input_preview_pos 130 140
+	.hold_to_unequip_input_preview_text_offset 50 8
+	.sort_input_preview_pos 300 716
+	.sort_input_preview_text_offset 50 8
+	.inspect_input_preview_pos -45 20
+	.inventory_grid_pos 30 195
+	.max_controls_text_width 440
+	.close_pos 610 22
+	.close_input_preview_pos 600 16
+	.scroll_max_visible_rows 4
+	.scroll_bar_offset 20 0
+	.sort_button_pos 567 22
+	.sort_button_spacing 42 0
+	.sort_button_tooltip_offset 16 -12
+	.sort_button_current_ascending_overlay_offset -8 -8
+	.sort_button_current_descending_overlay_offset -8 24
+	.sort_time 0.4
+	.sort_controller_tooltip_time 3.0
+	.grid_visuals_offset -15
+
+realm_inventory_grid_layout:
+	.number_of_columns 7
+	.start_pos 0 0 .offset 80 160
+	.is_centred 0
+
+add_trinket_dialog_contents:
+    .text_box_size 300 200
+    .character_limit 120
+

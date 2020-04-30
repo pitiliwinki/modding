@@ -1,0 +1,362 @@
+// COLOR MADNESS
+effect: .name "Color Madness Horror" .target "target" .chance 100%  .dotStress 5 .duration 3	.on_hit true .on_miss false
+
+// DISTRICTS
+
+//antivenom - override
+effect: .name "district_antivenom_override" .target "performer" .item 1 .duration 3 .chance 100% .cure_poison 1 .buff_ids antivenom2_blight_resist_buff
+
+// medicinal_herbs - override
+effect: .name "district_medicinal_herbs_override" .target "performer" .item 1 .duration 3 .chance 100% .clear_debuff 1 .buff_ids medicinal_herbs2_disease_resist
+
+//Holy Water - override
+effect: .name "district_holy_water_override" .target "performer" .item 1 .duration 3 .chance 100% .buff_ids holy_water2_blight_resist holy_water2_bleed_resist holy_water2_disease_resist holy_water2_debuff_resist
+
+//laudanum - override
+effect: .name "district_laudanum_override" .target "performer" .item 1 .duration 3 .chance 100% .clearDotStress 1 .buff_ids laudanum2_stress_buff
+
+
+//COLOR OF MADNESS SKILL EFFECTS
+// FARMER
+effect: .name "Farmer Blight 1" .target "target"  .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Farmer Blight 2" .target "target"  .chance 120%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Farmer Blight 3" .target "target"  .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "FarmerHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true .source_heal_type monster_skill
+effect: .name "FarmerHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false	.queue true .source_heal_type monster_skill
+effect: .name "FarmerHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false	.queue true .source_heal_type monster_skill
+
+// COCCOON
+effect: .name "xform to farmhand_A" .target "performer" .chance 100% .set_monster_class_id farmer_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform to farmhand_B" .target "performer" .chance 100% .set_monster_class_id farmer_B .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform to farmhand_C" .target "performer" .chance 100% .set_monster_class_id farmer_C .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Farmer Speed 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 2 .speed_rating_add 3  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Farmer Speed 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 2 .speed_rating_add 4	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Farmer Speed 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 2 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
+
+//FOREMAN
+effect: .name "Buff Speed A" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Buff Speed B" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Buff Speed C" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "farmer_spawn_speed_buff_A" .spawn_target_actor_base_class_id foreman  .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "farmer_spawn_speed_buff_B" .spawn_target_actor_base_class_id foreman  .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "farmer_spawn_speed_buff_C" .spawn_target_actor_base_class_id foreman  .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 3	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Debuff Stress Res A" .target "target". chance 100% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "Debuff Stress Res B" .target "target" .chance 120% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "Debuff Stress Res C" .target "target" .chance 140% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+
+effect: .name "Blight Buff A" .target "target" .buff_ids "BLIGHTSKILL10" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Blight Buff B" .target "target" .buff_ids "BLIGHTSKILL10" .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "Blight Buff C" .target "target" .buff_ids "BLIGHTSKILL15" .duration 2 .on_hit true .on_miss true .queue true
+
+effect: .name "Farmer Riposte On" .target "target"  .chance 100% .riposte 1 .riposte_validate false .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0%
+
+effect: .name "Foreman Blt Duration Inc" .target "target" .buff_ids "blight_duration_50percent_increase" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "Foreman Blt Duration Inc 2" .target "target" .buff_ids "blight_duration_100percent_increase" .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "Many Hands Prot Buff A" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "Many Hands Prot Buff B" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 22%	.on_hit true .on_miss true .queue true
+effect: .name "Many Hands Prot Buff C" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .protection_rating_add 25%	.on_hit true .on_miss true .queue true
+
+// HORSE
+effect: .name "Stumble Self Damage A" .target "performer" .chance 100% .health_damage 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Stumble Self Damage B" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Stumble Self Damage C" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Horse Speed A" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Horse Speed B" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 6	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Horse Speed C" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 7	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "switch_mode_pawing" .target "performer" .set_mode pawing .chance 100% .on_hit true .on_miss true .queue false .apply_once true
+effect: .name "switch_mode_normal" .target "performer" .set_mode normal .chance 100% .on_hit true .on_miss true .queue false .apply_once true
+
+effect: .name "Horse Horror A" .target "target" .curio_result_type "negative" .chance 100% .stress 8	.on_hit true .on_miss false .queue true
+effect: .name "Horse Horror B" .target "target" .curio_result_type "negative" .chance 100%  .stress 5 .dotStress 5 .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "Horse Horror C" .target "target" .curio_result_type "negative" .chance 100%  .stress 8 .dotStress 6 .duration 3	.on_hit true .on_miss false .queue true
+
+effect: .name "Destealth Performer" .target "performer" .chance 100% .unstealth 1 .on_hit true .on_miss false .apply_once true
+
+// REVENANT
+effect: .name "RevenantRiposteA"  .target "target" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0%
+effect: .name "RevenantRiposteB"  .target "target" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 2%
+effect: .name "RevenantRiposteC"  .target "target" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 4%
+
+effect: .name "Heal Recd Debuff A" .target "target" .chance 100% .duration 2 .buff_type hp_heal_received_percent .buff_amount -25%  .on_hit true .on_miss false	.queue true 
+effect: .name "Heal Recd Debuff B" .target "target" .chance 120% .duration 3 .buff_type hp_heal_received_percent .buff_amount -25%  .on_hit true .on_miss false	.queue true 
+effect: .name "Heal Recd Debuff C" .target "target" .chance 140% .duration 4 .buff_type hp_heal_received_percent .buff_amount -25%  .on_hit true .on_miss false	.queue true 
+
+effect: .name "Revenant Acc Debuff A" .target "target" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10% .stress 8 .on_hit true .on_miss false .queue true 
+effect: .name "Revenant Acc Debuff B" .target "target" .chance 120% .duration 2 .combat_stat_buff 1 .attack_rating_add -11% .stress 8 .on_hit true .on_miss false .queue true 
+effect: .name "Revenant Acc Debuff C" .target "target" .chance 140% .duration 2 .combat_stat_buff 1 .attack_rating_add -12% .stress 8 .on_hit true .on_miss false .queue true 
+
+effect: .name "Revenant Random Target 1" .target "target" .chance 100% .duration 2 .on_hit true .on_miss false .queue true .buff_ids random_target_35
+effect: .name "Revenant Random Target 3" .target "target" .chance 120% .duration 2 .on_hit true .on_miss false .queue true .buff_ids random_target_35
+effect: .name "Revenant Random Target 5" .target "target" .chance 140% .duration 2 .on_hit true .on_miss false .queue true .buff_ids random_target_35
+
+effect: .name "Rev Debuff Stress Res A" .target "target" .chance 85% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "Rev Debuff Stress Res B" .target "target" .chance 105% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+effect: .name "Rev Debuff Stress Res C" .target "target" .chance 125% .buff_ids "STRESSDMG20" .duration 3 .on_hit true .on_miss false .queue false
+
+//SCARECROW
+effect: .name "Scarecrow Immobilize" .target "target" .chance 100% .immobilize 1 .duration 2 .on_hit true .on_miss false	.queue true
+effect: .name "Scarecrow Party Regen" .target "target" .chance 100% .dotHpHeal 5 .duration 2	.on_hit true .on_miss true .queue true
+
+effect: .name "Scarecrow Spd Debuff A" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -3	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Scarecrow Spd Debuff B" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -4	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Scarecrow Spd Debuff C" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -5	.duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Scarecrow Acc Debuff A" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Scarecrow Acc Debuff B" .target "target" .curio_result_type "negative" .chance 120% .duration 2 .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Scarecrow Acc Debuff C" .target "target" .curio_result_type "negative" .chance 140% .duration 2 .combat_stat_buff 1 .attack_rating_add -12% .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Scare Horror AOE 1" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3	.on_hit true .on_miss false
+effect: .name "Scare Horror AOE 2" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 4 .duration 3	.on_hit true .on_miss false
+effect: .name "Scare Horror AOE 3" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 4 .duration 3	.on_hit true .on_miss false
+
+
+// MILLER
+effect: .name "harvest stress A" .target "performer" .bark str_boss_miller_harvest .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 15%	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "harvest stress B" .target "performer" .bark str_boss_miller_harvest .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "harvest stress C" .target "performer" .bark str_boss_miller_harvest .curio_result_type "positive" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add 25%	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "grind bark" .target "target" .bark str_boss_miller_grind .chance 100% .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "sadness bark" .target "target" .bark str_boss_miller_sadness .chance 100% .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Miller HealSelf A" .target "performer" .curio_result_type "positive" .chance 100% .heal 10	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Miller HealSelf B" .target "performer" .curio_result_type "positive" .chance 100% .heal 15	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Miller HealSelf C" .target "performer" .curio_result_type "positive" .chance 100% .heal 20	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Miller HealStress 3"  .target "target" .curio_result_type "positive" .chance 100%  .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "Miller HealStress 5"  .target "target" .curio_result_type "positive" .chance 100%  .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Miller HealStress 7"  .target "target" .curio_result_type "positive" .chance 100%  .healstress 7	.on_hit true .on_miss false .queue true
+
+effect: .name "xform coccoon A" .target "target" .chance 100% .set_monster_class_id cocoon_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform coccoon B" .target "target" .chance 100% .set_monster_class_id cocoon_B .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform coccoon C" .target "target" .chance 100% .set_monster_class_id cocoon_C .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Summon Farmers B" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters farmer_B  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Farmers C" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters farmer_C  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Revenant B" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters revenant_B  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Revenant C" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters revenant_C  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Scarecrow B" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarecrow_B  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Scarecrow C" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarecrow_C  .summon_chances 1.0 .summon_limits 2 .summon_ranks 12 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+
+effect: .name "miller grief A" .target "performer" .chance 100%  .duration 3 .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "miller grief B" .target "performer" .chance 100%  .duration 3 .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "miller grief C" .target "performer" .chance 100%  .duration 3 .combat_stat_buff 1 .protection_rating_add -20% .on_hit true .on_miss true .queue true .apply_once true
+
+
+effect: .name "Crystal Horror" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3	.on_hit true .on_miss false .queue true
+
+
+// THING FROM THE STARS
+
+// Thing Gnaw Pierce
+
+
+// Thing Gnaw Stress
+effect: .name "Thing Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 11 .on_hit true .on_miss false	.queue true
+effect: .name "Thing Vorpal Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 9 .on_hit true .on_miss false	.queue true
+effect: .name "Thing Gnaw Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 14 .on_hit true .on_miss false	.queue true
+effect: .name "Thing Consume StressParty" .target "target" .curio_result_type "negative" .chance 60% .stress 7 .on_hit true .on_miss false	.queue true
+
+// Thing Consume Self
+effect: .name "Thing Consume Self 1" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Thing Consume Self 3" .target "performer" .chance 100% .health_damage 7 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Thing Consume Self 5" .target "performer" .chance 100% .health_damage 9 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Thing Dying Buffs 1" .target "performer" .chance 100% .duration -1 .buff_ids "THINGPROT" "THINGSPD" "THINGDMGL" "THINGDMGH" "THINGCRIT" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Thing Dying Buffs 3" .target "performer" .chance 100% .duration -1 .buff_ids "THINGPROT" "THINGSPD" "THINGDMGL" "THINGDMGH" "THINGCRIT" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Thing Dying Buffs 5" .target "performer" .chance 100% .duration -1 .buff_ids "THINGPROT" "THINGSPD" "THINGDMGL" "THINGDMGH" "THINGCRIT" .on_hit true .on_miss true .queue true .apply_once true
+
+// Thing Disease
+effect: .name "Thing Disease 1" .target target .chance 20% .disease sky_taint .on_hit true .on_miss false
+effect: .name "Thing Disease 3" .target target .chance 22% .disease sky_taint .on_hit true .on_miss false
+effect: .name "Thing Disease 5" .target target .chance 25% .disease sky_taint .on_hit true .on_miss false
+
+effect: .name "Thing Blight 1" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Thing Blight 2" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Thing Blight 3" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Thing Blight 4" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Thing Blight 5" .target "target" .curio_result_type "negative" .chance 150%  .dotPoison 7 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+// Thing Stun
+effect: .name "Thing Stun 1" .target "target" .curio_result_type "negative" .chance 115% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "Thing Stun 3" .target "target" .curio_result_type "negative" .chance 135% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "Thing Stun 5" .target "target" .curio_result_type "negative" .chance 155% .stun 1 .on_hit true .on_miss false .queue true
+
+// Thing Resist Debuffs
+effect: .name "Thing Resist Debuffs 1" .target "target" .chance 115% .duration 4 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+effect: .name "Thing Resist Debuffs 3" .target "target" .chance 135% .duration 4 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+effect: .name "Thing Resist Debuffs 5" .target "target" .chance 155% .duration 4 .curio_result_type "negative" .buff_ids "STUNRESIST-20" "BLIGHTRESIST-20" "BLEEDRESIST-20" "DEBUFFRESIST-20" .on_hit true .on_miss false .queue true
+
+// Thing Combat Debuff
+effect: .name "Thing Combat Debuffs 1" .target "target" .chance 115% .duration 4 .curio_result_type "negative" .buff_ids "SPD-4" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
+effect: .name "Thing Combat Debuffs 3" .target "target" .chance 135% .duration 4 .curio_result_type "negative" .buff_ids "SPD-5" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
+effect: .name "Thing Combat Debuffs 5" .target "target" .chance 155% .duration 4 .curio_result_type "negative" .buff_ids "SPD-6" "DMGL-25" "DMGH-25" .on_hit true .on_miss false .queue true
+
+
+// Thing Summons
+effect: .name "Summon Kyle 1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_A .summon_chances 1.0 .summon_limits 1 .summon_ranks 1234 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Kyle 3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_B .summon_chances 1.0 .summon_limits 1 .summon_ranks 1234 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Kyle 5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_C .summon_chances 1.0 .summon_limits 1 .summon_ranks 1234 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+
+//CURIOS
+//Heal Hero
+effect: .name "HealSelf COM" .target "performer" .curio_result_type "positive" .chance 100%  .heal_percent 1.0 .on_hit true .on_miss false .queue true .source_heal_type curio
+
+//Heal Party
+effect: .name "HealParty COM" .target "performer_group" .curio_result_type "positive" .chance 100% .heal_percent 0.70 .on_hit true .on_miss false .queue true .source_heal_type curio
+
+//Stress Heal Heroz
+effect: .name "StressHealSelf COM" .target "performer" .curio_result_type "positive" .chance 100% .healstress 100 .on_hit true .on_miss false .queue true .source_heal_type curio
+
+//Stress Heal Party
+effect: .name "StressHealParty COM" .target "performer_group" .curio_result_type "positive" .chance 100% .healstress 60 .on_hit true .on_miss false .queue true .source_heal_type curio
+
+effect: .name use_item_firewood .target "target" .use_item_type supply .use_item_id firewood .chance 100% .on_hit true .on_miss false .queue true
+effect: .name start_endless .target "global" .chance 100% .skips_endless_wave_curio true .on_hit true .on_miss false .queue true .curio_result_type "none"
+
+//Miller's wife
+effect: .name "party stress 20" .target "performer_group" .curio_result_type "negative" .buff_ids "STRESSDMG20" .on_hit true .on_miss true .queue true
+effect: .name "stress dmg blight resist" .target "performer" .curio_result_type "neutral" .stress 15 .buff_ids "CURIO_mildred_blight_resist" .on_hit true .on_miss true .queue true
+effect: .name "stress dmg stress resist" .target "performer" .curio_result_type "neutral" .stress 15 .buff_ids "CURIO_mildred_stress_resist_d15" .on_hit true .on_miss true .queue true
+
+effect: .name "miller stress resist" .target "target" .curio_result_type "neutral" .buff_ids "CURIO_mildred_stress_resist_d15" .on_hit true .on_miss false .queue true
+
+
+
+//TRINKETS
+
+//Hellion thirsting blade self damage on miss
+effect: .name "Hel self dmg on miss1of3" .target "performer" .chance 34% .health_damage 1 .on_hit false .on_miss true .queue true .apply_once true
+effect: .name "Hel self dmg on miss2of3" .target "performer" .chance 33% .health_damage 1 .on_hit false .on_miss true .queue true .apply_once true
+effect: .name "Hel self dmg on miss3of3" .target "performer" .chance 33% .health_damage 1 .on_hit false .on_miss true .queue true .apply_once true
+
+effect: .name "Thirsting Blade Self Atk On Miss" .target "performer" target .chance 100% .health_damage 5 .damage_type additionaleffect .damage_source_data "com_hel_thirsting_blade" .damage_source_type "trinket" .on_hit false .on_miss true .queue true .apply_once true
+
+effect: .name "Thirsting Blade Self Heal On Hit"  .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+//Arbalest keenign bolts self stress dmg per on_hit
+effect: .name "Keening Bolt Stress On Attack" .target "performer" .chance 25% .stress 3 .on_hit true .on_miss true .queue true .crit_doesnt_apply_to_roll true .apply_once true
+effect: .name "Arb self stress on hit2of3" .target "target"    .chance 34% .health_damage 1 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Arb self stress on hit3of3" .target "target"    .chance 34% .health_damage 1 .on_hit true .on_miss false .queue true .apply_once true
+
+// crusader euclidean hilt blight
+effect: .name "Euclidean Hilt Blight" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+
+// MILLERS PIPE
+effect: .name "Miller Pipe Stress Heal" .target "target"    .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss true .queue true 
+effect: .name "Miller Pipe Kill Blight" .target "target"    .curio_result_type "negative" .chance 120%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Miller Death Party Effects" .target "target" .curio_result_type "positive" .buff_ids "TRINKET_miller_pipe_deathbuff_prot_b10" "TRINKET_miller_pipe_deathbuff_spd_b2" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Miller Death Party Stress" .target "target"  .curio_result_type "negative" .chance 100% .stress 45	.on_hit true .on_miss false .queue true .apply_once true
+
+// COAT OF MANY COLORS
+effect: .name "Coat Death Stun"     .target "target"   .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Coat Death Stress"   .target "target"   .curio_result_type "negative" .chance 120% .stress 25    .on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "Coat Kill Effects"   .target "target"   .curio_result_type "positive" .buff_ids "TRINKET_coat_stress_dmg_recd_b2" "TRINKET_coat_acc_buff_b2" .on_hit true .on_miss true .queue true
+
+
+
+//Test'
+effect: .name "test_damage_reflect" .target target .curio_result_type .buff_ids test_damage_reflect .on_hit true .on_miss true .queue true
+
+// debuff xfer
+effect: .name "Absorb Effect" 	.target "target" .chance 100% .steal_buff_source_type bsrc_skill  .on_hit true .on_miss false .queue true
+
+
+//CORPSE CRYSTAL
+effect: .name "Crystal Heal Hero A"        .target "target" .curio_result_type "positive" .chance 100% .heal 2	   .on_hit true .on_miss false .queue true
+effect: .name "Crystal Heal Hero B"        .target "target" .curio_result_type "positive" .chance 100% .heal 4	   .on_hit true .on_miss false .queue true
+effect: .name "Crystal Heal Hero C"        .target "target" .curio_result_type "positive" .chance 100% .heal 5	   .on_hit true .on_miss false .queue true
+
+effect: .name "Crystal Heal Stress Hero" .target "target" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true
+effect: .name "Crystal Small Heal Hero"  .target "target" .curio_result_type "positive" .chance 100% .heal 2       .on_hit true .on_miss false .queue true
+
+
+//Item
+
+// Torch Heal in Endless
+effect: .name color_of_madness_torch_stress_heal .target "target" .curio_result_type "positive" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name color_of_madness_torch_stress_heal_2 .target "target" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name color_of_madness_torch_stress_heal_3 .target "target" .curio_result_type "positive" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true
+
+// Room Transition Effects
+effect: .name wave_dungeon_transition_stress .target "target" .curio_result_type "positive" .chance 100% .stress 11	.on_hit true .on_miss false .queue true
+effect: .name wave_dungeon_transition_heal .target "target" .curio_result_type "positive" .heal 20	.on_hit true .on_miss false .queue true
+effect: .name wave_dungeon_transition_healstress .target "target" .curio_result_type "positive" .healstress 20	.on_hit true .on_miss false .queue true
+
+
+// SHARD DUST EFFECTS
+effect: .name "spice_0"  .target "target" .curio_result_type "positive" .chance 100% .stress 10 .buff_ids "com_shard_dust_firsthit_spd_buff"      "com_shard_dust_firsthit_dmg_low_buff" "com_shard_dust_firsthit_dmg_high_buff" "com_shard_dust_firsthit_resolve_check_debuff" "com_shard_dust_firsthit_stress_dmg_debuff" .on_hit true .on_miss false .queue true .refreshes_skill_uses true
+
+effect: .name "spice_1"  .target "target" .curio_result_type "positive" .chance 100%  .stress 20 .buff_ids "com_shard_dust_secondhit_dmg_low_buff" "com_shard_dust_secondhit_dmg_high_buff" "com_shard_dust_secondhit_spd_buff" "com_shard_dust_secondhit_resolve_check_debuff" "com_shard_dust_secondhit_stress_dmg_debuff" .on_hit true .on_miss false .queue true .refreshes_skill_uses true
+
+effect: .name "spice_2"  .target "target" .curio_result_type "positive" .chance 100% .stress 40 .buff_ids "com_shard_dust_thirdhit_spd_buff"      "com_shard_dust_thirdhit_dmg_low_buff" "com_shard_dust_thirdhit_dmg_high_buff" "com_shard_dust_thirdhit_crit_buff" .on_hit true .on_miss false .queue true .refreshes_skill_uses true
+
+// CRYSTAL GALAXY
+effect: .name "galaxy blight" .target "target"  .chance 100%  .dotPoison 4 .duration 5	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "galaxy horror" .target "target" .chance 100%  .dotStress 3 .duration 5	.on_hit true .on_miss false
+effect: .name "galaxy stress" .target "target" .chance 100% .stress 20	.on_hit true .on_miss false .queue true
+
+// CRYSTAL SPIRE 
+// sprout to seedling is placeholder as it's missing 
+effect: .name "Sprout To Random Seedling" .target "target" .chance 100% .set_monster_class_id seedling_red .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Slow Hero Spd" .target "target" .chance 130% .combat_stat_buff 1 .speed_rating_add -2 .duration 2 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Spire Stun" .target "target" .curio_result_type "negative" .chance 100% .stun 1 .on_hit true .on_miss false .queue true .apply_once false
+
+
+// this is used to spawn a replacement sprout when a slot is open
+effect: .name "spawn sprout" .target performer .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sprout_D .summon_chances 1.0 .summon_ranks 1234 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "spawn initial sprouts" .target performer .chance 100% .summon_count 3 .summon_can_spawn_loot false .summon_monsters sprout_D .summon_chances 1.0 .summon_limits 3 .summon_ranks 1234 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+
+// from old setup
+effect: .name "grow_seedling_grey" .target "target" .chance 100% .set_monster_class_ids seedling_grey_D .set_monster_class_chances 1.0 .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "grow_seedling_black" .target "target" .chance 100% .set_monster_class_ids seedling_black_D .set_monster_class_chances 1.0 .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "grow_seedling_yellow" .target "target" .chance 100% .set_monster_class_ids seedling_yellow_D .set_monster_class_chances 1.0 .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "grow_seedling_purple" .target "target" .chance 100% .set_monster_class_ids seedling_purple_D .set_monster_class_chances 1.0 .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "grow_seedling_red" .target "target" .chance 100% .set_monster_class_ids seedling_red_D .set_monster_class_chances 1.0 .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+
+
+// Seedling (2nd most mature)
+// seedling to seed
+effect: .name "To Seed Yellow" .target "target" .chance 100% .set_monster_class_id seed_yellow_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Seed Black" .target "target" .chance 100% .set_monster_class_id seed_black_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Seed Grey" .target "target" .chance 100% .set_monster_class_id seed_grey_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Seed Purple" .target "target" .chance 100% .set_monster_class_id seed_purple_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "To Seed Red" .target "target" .chance 100% .set_monster_class_id seed_red_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+
+// growth stress for sprout and seedling
+effect: .name "crystal growth stress"	.target "target" .chance 100% .stress 15 .on_hit true .on_miss false .queue true
+
+// transform to galaxy boss effect
+effect: .name "To Galaxy Boss" .target "performer" .chance 100% .set_monster_class_id galaxy_D .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+
+
+// Seed (most mature boss crystal)
+
+// red all damage heals boss
+effect: .name "red seed attack heal" .target "target" .chance 100% .on_hit true .on_miss false .queue true .can_apply_on_death true
+
+// yellow blight/stress
+effect: .name "yellow seed blight" .target "target" .chance 140%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+// black horror heal reduced 75% for 2 rounds
+effect: .name "black seed horror" .target "target" .chance 100%  .dotStress 3 .duration 6	.on_hit true .on_miss false .queue true
+effect: .name "black seed heal debuff" .target "target" .chance 140% .buff_type hp_heal_received_percent .duration 2 .buff_amount -75%  .on_hit true .on_miss false	.queue true
+
+// purple group stun + dmg reduced for 2 rounds (on party)
+effect: .name "purple seed stun" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .queue true
+
+// grey autoguard
+
+// placeholder while waiting for random picker effect
+effect: .name "To Seedling" .target "performer" .chance 100% .set_monster_class_id seedling_red .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true

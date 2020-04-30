@@ -1,0 +1,88 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "flashback_0",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 22 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 23 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 24 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_3",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 25 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_4",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 26 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_5",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 27 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "flashback_6",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "journal_page", "chances" : 1, "data" : { "specific_page_index" : 28 , "is_auto_open" : true, "read_outside_of_dungeon" : true }}
+         ]
+      },
+      {
+         "id" : "SNAKE_SCALE_ALWAYS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "snake_scale", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "SNAKE_SCALE",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "snake_scale", "amount" : 1 }}
+         ]
+      }
+   ]
+}

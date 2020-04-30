@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "cobra_spit" .anim "attack_spit" .fx "spit" .targfx "spit_target" .area_pos_offset 0 25
+skill: .id "cobra_bite" .anim "attack_bite" .fx "bite" .targchestfx "blood_splatter" .area_pos_offset 0 25
+defending_area_pos_offset: .offset 0 35
