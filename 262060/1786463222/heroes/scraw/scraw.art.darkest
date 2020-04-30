@@ -1,0 +1,26 @@
+commonfx: .deathfx death_large_boss
+
+weapon: .name "scraw_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "scraw_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "scraw_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "scraw_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "scraw_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "scraw_armour_0" .icon "eqp_armour_0.png"
+armour: .name "scraw_armour_1" .icon "eqp_armour_1.png"
+armour: .name "scraw_armour_2" .icon "eqp_armour_2.png"
+armour: .name "scraw_armour_3" .icon "eqp_armour_3.png"
+armour: .name "scraw_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "CombatSkill_scraw_A" .icon "one" .anim "attack_CombatSkill_scraw_A" .fx "peck" .targchestfx "blood_splatter"
+combat_skill: .id "CombatSkill_scraw_B" .icon "two" .anim "attack_CombatSkill_scraw_C" .fx "caw" .targchestfx "stress_cloud"
+combat_skill: .id "CombatSkill_scraw_C" .icon "three" .anim "attack_CombatSkill_scraw_C" .fx "call_the_murder" .targchestfx "call_the_murder_target" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+combat_skill: .id "CombatSkill_scraw_D" .icon "four" .anim "attack_CombatSkill_scraw_C" .fx "regurgitate" .targchestfx "regurgitate_target"
+combat_skill: .id "CombatSkill_scraw_E" .icon "five" .anim "attack_CombatSkill_scraw_B" .fx "shriek" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+combat_skill: .id "CombatSkill_scraw_F" .icon "six" .anim "attack_CombatSkill_scraw_B"
+combat_skill: .id "CombatSkill_scraw_G" .icon "seven" .anim "attack_CombatSkill_scraw_C"
+				
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+riposte_skill: .id "riposte1" .anim "attack_CombatSkill_scraw_A" .fx "peck" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "attack_CombatSkill_scraw_A" .attack_friendly_fx "peck" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/enemy/crow_peck"

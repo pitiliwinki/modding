@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "sd_tnt_explode" .anim "explode"  .hide_performer_health false .custom_target_anim defend .reset_source_stance false .hide_performer_health true .custom_target_anim defend
+defending_area_pos_offset: .offset 0 30
+display_modifier: .disable_halos true .disabled_popup_text_types resist
+riposte_skill: .id "riposte1" .anim "defend" .hide_performer_health true .custom_target_anim combat

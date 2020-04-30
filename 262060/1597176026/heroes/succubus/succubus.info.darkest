@@ -1,0 +1,98 @@
+// Succubus
+//----------------------------------------------------------------------------------------------------------------------------
+
+//crit: .effects "succ_on_crit_reg"
+crit: .effects "succ_on_crit_MaxHP"
+
+weapon: .name "succubus_weapon_0" .atk 0% .dmg 4 7 	.crit 5% .spd 5
+weapon: .name "succubus_weapon_1" .atk 0% .dmg 5 8 	.crit 6% .spd 6 .upgradeRequirementCode 0
+weapon: .name "succubus_weapon_2" .atk 0% .dmg 5 9 	.crit 7% .spd 7 .upgradeRequirementCode 1
+weapon: .name "succubus_weapon_3" .atk 0% .dmg 6 10 .crit 8% .spd 8 .upgradeRequirementCode 2
+weapon: .name "succubus_weapon_4" .atk 0% .dmg 6 11 .crit 9% .spd 9 .upgradeRequirementCode 3
+armour: .name "succubus_armour_0" .def 10% .prot 0 .hp 15 .spd 0
+armour: .name "succubus_armour_1" .def 15% .prot 0 .hp 19 .spd 0 .upgradeRequirementCode 0
+armour: .name "succubus_armour_2" .def 20% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 1
+armour: .name "succubus_armour_3" .def 25% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 2
+armour: .name "succubus_armour_4" .def 30% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 3
+
+resistances: .stun 20% .poison 40% .bleed 30% .disease 40% .move 30% .debuff 50% .death_blow 67% .trap 10%
+
+// Skills 
+//----------------------------------------------------------------------------------------------------------------------------
+combat_skill: .id "cloak" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321  .target .is_crit_valid True .valid_modes human succubus .human_effects "switch_mode_succubus_pull_3" "SUCC transform_tooltip A" "SUCC ACTOR DOT TRANSFORM 1" "SUCC ACTOR DOT TRANSFORM D"  "cloak_stress_heal_party_1"   "switch_mode_succubus_self" .succubus_effects "switch_mode_human_self" "Succ RefreshSkills" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 1 .refresh_after_each_wave true
+combat_skill: .id "cloak" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321  .target .is_crit_valid True .valid_modes human succubus .human_effects "switch_mode_succubus_pull_3" "SUCC transform_tooltip B" "SUCC ACTOR DOT TRANSFORM 2" "SUCC ACTOR DOT TRANSFORM 2D" "cloak_stress_heal_party_2"   "switch_mode_succubus_self" .succubus_effects "switch_mode_human_self" "Succ RefreshSkills" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 1 .refresh_after_each_wave true
+combat_skill: .id "cloak" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321  .target .is_crit_valid True .valid_modes human succubus .human_effects "switch_mode_succubus_pull_3" "SUCC transform_tooltip C" "SUCC ACTOR DOT TRANSFORM 3" "SUCC ACTOR DOT TRANSFORM 3D" "cloak_stress_heal_party_3"   "switch_mode_succubus_self" .succubus_effects "switch_mode_human_self" "Succ RefreshSkills" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 1 .refresh_after_each_wave true
+combat_skill: .id "cloak" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321  .target .is_crit_valid True .valid_modes human succubus .human_effects "switch_mode_succubus_pull_3" "SUCC transform_tooltip D" "SUCC ACTOR DOT TRANSFORM 4" "SUCC ACTOR DOT TRANSFORM 4D" "cloak_stress_heal_party_4"   "switch_mode_succubus_self" .succubus_effects "switch_mode_human_self" "Succ RefreshSkills" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 1 .refresh_after_each_wave true
+combat_skill: .id "cloak" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321  .target .is_crit_valid True .valid_modes human succubus .human_effects "switch_mode_succubus_pull_3" "SUCC transform_tooltip E" "SUCC ACTOR DOT TRANSFORM 5" "SUCC ACTOR DOT TRANSFORM 5D" "cloak_stress_heal_party_5"   "switch_mode_succubus_self" .succubus_effects "switch_mode_human_self" "Succ RefreshSkills" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 1 .refresh_after_each_wave true
+
+combat_skill: .id "silent_curse" .level 0 .type "ranged" .atk 95% 	.dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid false  .effect "curse_tooltip_1" "Succ Curse Instant" "Succ debuff Reverse 1" "Succ reverse DODGE 1" "Succ Mark Target" "Succ Stress Debuff 1"  .is_stall_invalidating false .valid_modes human .ignore_guard false
+combat_skill: .id "silent_curse" .level 1 .type "ranged" .atk 100% 	.dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid false  .effect "curse_tooltip_2" "Succ Curse Instant" "Succ debuff Reverse 2" "Succ reverse DODGE 2" "Succ Mark Target" "Succ Stress Debuff 2"  .is_stall_invalidating false .valid_modes human .ignore_guard false
+combat_skill: .id "silent_curse" .level 2 .type "ranged" .atk 105% 	.dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid false  .effect "curse_tooltip_3" "Succ Curse Instant" "Succ debuff Reverse 3" "Succ reverse DODGE 3" "Succ Mark Target" "Succ Stress Debuff 3"  .is_stall_invalidating false .valid_modes human .ignore_guard false
+combat_skill: .id "silent_curse" .level 3 .type "ranged" .atk 110% 	.dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid false  .effect "curse_tooltip_4" "Succ Curse Instant" "Succ debuff Reverse 4" "Succ reverse DODGE 4" "Succ Mark Target" "Succ Stress Debuff 4"  .is_stall_invalidating false .valid_modes human .ignore_guard false
+combat_skill: .id "silent_curse" .level 4 .type "ranged" .atk 115% 	.dmg -100% .crit 0% .launch 432 .target 1234 .is_crit_valid false  .effect "curse_tooltip_5" "Succ Curse Instant" "Succ debuff Reverse 5" "Succ reverse DODGE 5" "Succ Mark Target" "Succ Stress Debuff 5"  .is_stall_invalidating false .valid_modes human .ignore_guard false
+
+combat_skill: .id "leeches" .level 0 .type "ranged" .atk 90% 	.dmg -100% .crit 0% .launch 43 	.target ~1234 .is_crit_valid False  	.effect "Succ leeches balance" "Succ MultiStun 1" "Succ Leech Self DMG 1" "Succ Leech DMG 1" "Succ Hero STUNBUFF 1" "TT Succ Leeches 1" "Succ_Leeches_bark"  .valid_modes human .per_battle_limit 2
+combat_skill: .id "leeches" .level 1 .type "ranged" .atk 95% 	.dmg -100% .crit 0% .launch 43 	.target ~1234 .is_crit_valid False  	.effect "Succ leeches balance" "Succ MultiStun 2" "Succ Leech Self DMG 2" "Succ Leech DMG 2" "Succ Hero STUNBUFF 1" "TT Succ Leeches 2" "Succ_Leeches_bark"  .valid_modes human .per_battle_limit 2
+combat_skill: .id "leeches" .level 2 .type "ranged" .atk 100% 	.dmg -100% .crit 0% .launch 43	.target ~1234 .is_crit_valid False  	.effect "Succ leeches balance" "Succ MultiStun 3" "Succ Leech Self DMG 3" "Succ Leech DMG 3" "Succ Hero STUNBUFF 1" "TT Succ Leeches 3" "Succ_Leeches_bark"  .valid_modes human .per_battle_limit 2
+combat_skill: .id "leeches" .level 3 .type "ranged" .atk 105% 	.dmg -100% .crit 0% .launch 43 	.target ~1234 .is_crit_valid False  	.effect "Succ leeches balance" "Succ MultiStun 4" "Succ Leech Self DMG 4" "Succ Leech DMG 4" "Succ Hero STUNBUFF 1" "TT Succ Leeches 4" "Succ_Leeches_bark"  .valid_modes human .per_battle_limit 2
+combat_skill: .id "leeches" .level 4 .type "ranged" .atk 110% 	.dmg -100% .crit 0% .launch 43 	.target ~1234 .is_crit_valid False  	.effect "Succ leeches balance" "Succ MultiStun 5" "Succ Leech Self DMG 5" "Succ Leech DMG 5" "Succ Hero STUNBUFF 1" "TT Succ Leeches 5" "Succ_Leeches_bark"  .valid_modes human .per_battle_limit 2
+
+combat_skill: .id "my_hero" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @4321 .move 1 0 .is_crit_valid False .self_target_valid false .effect "Devotion Quirk" 	"Save Me Stressheal 1"	"Succubus ProtectMe ClearGuardsPerformer" "Succubus ProtectMe ClearGuardsTarget" "Succubus ProtectMe Guard" "Succ Hero BUFF 1" "Succ SMH Bark" .is_stall_invalidating false .valid_modes human
+combat_skill: .id "my_hero" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @4321 .move 1 0 .is_crit_valid False .self_target_valid false .effect "Devotion Quirk"  	"Save Me Stressheal 2"	"Succubus ProtectMe ClearGuardsPerformer" "Succubus ProtectMe ClearGuardsTarget" "Succubus ProtectMe Guard" "Succ Hero BUFF 2" "Succ SMH Bark" .is_stall_invalidating false .valid_modes human
+combat_skill: .id "my_hero" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @4321 .move 1 0 .is_crit_valid False .self_target_valid false .effect "Devotion Quirk" 	"Save Me Stressheal 3"	"Succubus ProtectMe ClearGuardsPerformer" "Succubus ProtectMe ClearGuardsTarget" "Succubus ProtectMe Guard" "Succ Hero BUFF 3" "Succ SMH Bark" .is_stall_invalidating false .valid_modes human
+combat_skill: .id "my_hero" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @4321 .move 1 0 .is_crit_valid False .self_target_valid false .effect "Devotion Quirk" 	"Save Me Stressheal 4"	"Succubus ProtectMe ClearGuardsPerformer" "Succubus ProtectMe ClearGuardsTarget" "Succubus ProtectMe Guard" "Succ Hero BUFF 4" "Succ SMH Bark" .is_stall_invalidating false .valid_modes human
+combat_skill: .id "my_hero" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @4321 .move 1 0 .is_crit_valid False .self_target_valid false .effect "Devotion Quirk"  	"Save Me Stressheal 5"	"Succubus ProtectMe ClearGuardsPerformer" "Succubus ProtectMe ClearGuardsTarget" "Succubus ProtectMe Guard" "Succ Hero BUFF 5" "Succ SMH Bark" .is_stall_invalidating false .valid_modes human
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+
+combat_skill: .id "scythe" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 21 .target 123  .ignore_protection true .ignore_guard true .effect "Tagged Acc 1" "Succ_Scythe_bark" "Succ_Scythe_bark_miss" .valid_modes succubus
+combat_skill: .id "scythe" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .launch 21 .target 123  .ignore_protection true .ignore_guard true .effect "Tagged Acc 2" "Succ_Scythe_bark" "Succ_Scythe_bark_miss" .valid_modes succubus
+combat_skill: .id "scythe" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .launch 21 .target 123  .ignore_protection true .ignore_guard true .effect "Tagged Acc 3" "Succ_Scythe_bark" "Succ_Scythe_bark_miss" .valid_modes succubus
+combat_skill: .id "scythe" .level 3 .type "melee" .atk 100% .dmg 0% .crit 8% .launch 21 .target 123  .ignore_protection true .ignore_guard true .effect "Tagged Acc 4" "Succ_Scythe_bark" "Succ_Scythe_bark_miss" .valid_modes succubus
+combat_skill: .id "scythe" .level 4 .type "melee" .atk 105% .dmg 0% .crit 9% .launch 21 .target 123  .ignore_protection true .ignore_guard true .effect "Tagged Acc 5" "Succ_Scythe_bark" "Succ_Scythe_bark_miss" .valid_modes succubus
+
+combat_skill: .id "scythe_aoe" .level 0 .type "melee" .atk 90% 	.dmg -70% .crit -4% .launch 321 .target ~123 .move 0 1 .is_crit_valid True .ignore_protection true .valid_modes succubus .effect "Succubus Scythe Bleed 1" "Succ_Scythe_bark" 	"Succ_Scythe_bark_miss"
+combat_skill: .id "scythe_aoe" .level 1 .type "melee" .atk 95% 	.dmg -70% .crit -4% .launch 321 .target ~123 .move 0 1 .is_crit_valid True .ignore_protection true .valid_modes succubus .effect "Succubus Scythe Bleed 2" "Succ_Scythe_bark" 	"Succ_Scythe_bark_miss"
+combat_skill: .id "scythe_aoe" .level 2 .type "melee" .atk 100% .dmg -70% .crit -3% .launch 321 .target ~123 .move 0 1 .is_crit_valid True .ignore_protection true .valid_modes succubus .effect "Succubus Scythe Bleed 3" "Succ_Scythe_bark" 	"Succ_Scythe_bark_miss"
+combat_skill: .id "scythe_aoe" .level 3 .type "melee" .atk 105% .dmg -70% .crit -3% .launch 321 .target ~123 .move 0 1 .is_crit_valid True .ignore_protection true .valid_modes succubus .effect "Succubus Scythe Bleed 4"	"Succ_Scythe_bark"	"Succ_Scythe_bark_miss"																																																			
+combat_skill: .id "scythe_aoe" .level 4 .type "melee" .atk 110% .dmg -70% .crit -2% .launch 321 .target ~123 .move 0 1 .is_crit_valid True .ignore_protection true .valid_modes succubus .effect "Succubus Scythe Bleed 5"	"Succ_Scythe_bark"	"Succ_Scythe_bark_miss"																																																																																																																																							
+
+combat_skill: .id "force_protect" .level 0 .type "ranged" .atk 100%  	.dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .self_target_valid false .effect "Succ PYG Stun 1" "Succ PYG Guard vs STUN" "TT Succ ForceGuard A" "Succ buffs vs o ini 1" "Succ Guard balance" "Succ PYG Self 1"  "Succ force Guard"  "Succ_PYG_bark" .valid_modes succubus
+combat_skill: .id "force_protect" .level 1 .type "ranged" .atk 105%  	.dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .self_target_valid false .effect "Succ PYG Stun 2" "Succ PYG Guard vs STUN" "TT Succ ForceGuard B" "Succ buffs vs o ini 1" "Succ Guard balance" "Succ PYG Self 2"  "Succ force Guard"  "Succ_PYG_bark" .valid_modes succubus
+combat_skill: .id "force_protect" .level 2 .type "ranged" .atk 110% 	.dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .self_target_valid false .effect "Succ PYG Stun 3" "Succ PYG Guard vs STUN" "TT Succ ForceGuard C" "Succ buffs vs o ini 1" "Succ Guard balance" "Succ PYG Self 3"  "Succ force Guard"  "Succ_PYG_bark" .valid_modes succubus
+combat_skill: .id "force_protect" .level 3 .type "ranged" .atk 115% 	.dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .self_target_valid false .effect "Succ PYG Stun 4" "Succ PYG Guard vs STUN" "TT Succ ForceGuard D" "Succ buffs vs o ini 1" "Succ Guard balance" "Succ PYG Self 4"  "Succ force Guard"  "Succ_PYG_bark" .valid_modes succubus
+combat_skill: .id "force_protect" .level 4 .type "ranged" .atk 120% 	.dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .self_target_valid false .effect "Succ PYG Stun 5" "Succ PYG Guard vs STUN" "TT Succ ForceGuard E" "Succ buffs vs o ini 1" "Succ Guard balance" "Succ PYG Self 5"  "Succ force Guard"  "Succ_PYG_bark" .valid_modes succubus
+
+// Other
+//----------------------------------------------------------------------------------------------------------------------------
+// Tags											
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "cursed_ground"
+tag: .id "succubus"
+
+// Mode
+mode: .id human .is_raid_default true
+mode: .id succubus  .battle_complete_combat_skill_id cloak .stress_damage_per_turn 0
+.bark_override_id 
+// .bark_override_id str_succubus_bark
+
+// Limit
+incompatible_party_member: .id succubus_limit .hero_tag succubus
+
+// Activities
+activity_modifier: .override_valid_activity_ids brothel treatment disease_treatment .override_stress_removal_amount_low 75 .override_stress_removal_amount_high 100
+quirk_modifier: .incompatible_class_ids alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler  meditator  
+
+// Misc
+
+//extra_curio_loot:  .code "T_SUCC" .count 0
+//extra_battle_loot:  .code "T_SUCC" .count 0
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 4203
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 3 .number_of_shared_camping_skills 0 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0
+

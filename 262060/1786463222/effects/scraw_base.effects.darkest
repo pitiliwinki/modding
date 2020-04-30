@@ -1,0 +1,216 @@
+
+//Peck (Peck)
+effect: .name "AllyCrow_Bleed_01" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "AllyCrow_Bleed_02" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "AllyCrow_Bleed_03" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "AllyCrow_Bleed_04" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "AllyCrow_Bleed_05" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "AllyCrow_Bleed_COOLDOWN" .target "performer" .buff_source_type "bsrc_notspecified" .curio_result_type "negative" .chance 100% .buff_ids "scraw_bleed_COOL_A" .on_hit true .on_miss true .duration 2 .has_description false
+
+effect: .name "AllyCrow_BleedInstant_TT_05" .target "performer" .buff_source_type "bsrc_notspecified" .skill_instant true .curio_result_type "positive" .chance 100% .duration 0 .buff_ids "Scraw_tooltip_BleedInstant_BUFFID_E" .on_hit true .on_miss true
+
+
+
+
+//Caw (Caw)
+effect: .name "AllyCrow_CawStress_01" .target "target" .curio_result_type "negative" .chance 150% .buff_ids "Scraw_CawStress_A" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_CawStress_02" .target "target" .curio_result_type "negative" .chance 160% .buff_ids "Scraw_CawStress_B" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_CawStress_03" .target "target" .curio_result_type "negative" .chance 170% .buff_ids "Scraw_CawStress_C" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_CawStress_04" .target "target" .curio_result_type "negative" .chance 180% .buff_ids "Scraw_CawStress_D" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_CawStress_05" .target "target" .curio_result_type "negative" .chance 190% .buff_ids "Scraw_CawStress_E" .on_hit true .on_miss false .has_description true
+
+
+
+//Flutter (Call the Murder)
+effect: .name "AllyCrow_Self_Speed_01" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "AllyCrow_Self_Speed_02" .target "performer" .curio_result_type "positive" .chance 110% .combat_stat_buff 1 .speed_rating_add 6	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "AllyCrow_Self_Speed_03" .target "performer" .curio_result_type "positive" .chance 120% .combat_stat_buff 1 .speed_rating_add 7	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "AllyCrow_Self_Speed_04" .target "performer" .curio_result_type "positive" .chance 130% .combat_stat_buff 1 .speed_rating_add 8	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "AllyCrow_Self_Speed_05" .target "performer" .curio_result_type "positive" .chance 140% .combat_stat_buff 1 .speed_rating_add 9	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "AllyCrow_FlutterStress_01" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "Scraw_FlutterStress_A" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_FlutterStress_02" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "Scraw_FlutterStress_B" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_FlutterStress_03" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "Scraw_FlutterStress_C" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_FlutterStress_04" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Scraw_FlutterStress_D" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_FlutterStress_05" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Scraw_FlutterStress_E" .on_hit true .on_miss false .has_description true
+
+
+
+//Distract (Regurgitate)
+effect: .name "AllyCrow_Distract_01" .target "target" .curio_result_type "negative" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -15%	.on_hit true .on_miss false
+effect: .name "AllyCrow_Distract_02" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .attack_rating_add -15%	.on_hit true .on_miss false
+effect: .name "AllyCrow_Distract_03" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .combat_stat_buff 1 .attack_rating_add -15%	.on_hit true .on_miss false
+effect: .name "AllyCrow_Distract_04" .target "target" .curio_result_type "negative" .chance 130% .duration 3 .combat_stat_buff 1 .attack_rating_add -15%	.on_hit true .on_miss false
+effect: .name "AllyCrow_Distract_05" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .attack_rating_add -15%	.on_hit true .on_miss false
+
+//Ally Crow - Disease 01 A
+effect: .name "AllyCrow_LessAcc_01" .target "target" .curio_result_type "negative" .chance 5% .buff_ids "Scraw_Disease_Acc_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessCri_01" .target "target" .curio_result_type "negative" .chance 9% .buff_ids "Scraw_Disease_Crit_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDmg_01" .target "target" .curio_result_type "negative" .chance 14% .buff_ids "Scraw_Disease_DmgLow_A" "Scraw_Disease_DmgHigh_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDod_01" .target "target" .curio_result_type "negative" .chance 19% .buff_ids "Scraw_Disease_Dod_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessHea_01" .target "target" .curio_result_type "negative" .chance 24% .buff_ids "Scraw_Disease_HP_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessSpd_01" .target "target" .curio_result_type "negative" .chance 29% .buff_ids "Scraw_Disease_SPD_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_disease_TT_01" .target "performer" .skill_instant true .curio_result_type "negative" .chance 100% .buff_ids "Scraw_tooltip_Disease_BUFFID_A" .on_hit true .on_miss true
+effect: .name "AllyCrow_extraturn_TT_01" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .buff_ids "Scraw_tooltip_ExtraTurn_BUFFID_A" .on_hit true .on_miss true
+
+//Ally Crow - Disease 02 B
+effect: .name "AllyCrow_LessAcc_02" .target "target" .curio_result_type "negative" .chance 14% .buff_ids "Scraw_Disease_Acc_B" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessCri_02" .target "target" .curio_result_type "negative" .chance 19% .buff_ids "Scraw_Disease_Crit_B" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDmg_02" .target "target" .curio_result_type "negative" .chance 24% .buff_ids "Scraw_Disease_DmgLow_B" "Scraw_Disease_DmgHigh_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDod_02" .target "target" .curio_result_type "negative" .chance 29% .buff_ids "Scraw_Disease_Dod_B" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessHea_02" .target "target" .curio_result_type "negative" .chance 34% .buff_ids "Scraw_Disease_HP_B" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessSpd_02" .target "target" .curio_result_type "negative" .chance 39% .buff_ids "Scraw_Disease_SPD_B" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_disease_TT_02" .target "performer" .skill_instant true .curio_result_type "negative" .chance 100% .buff_ids "Scraw_tooltip_Disease_BUFFID_B" .on_hit true .on_miss true
+effect: .name "AllyCrow_extraturn_TT_02" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .buff_ids "Scraw_tooltip_ExtraTurn_BUFFID_B" .on_hit true .on_miss true
+
+//Ally Crow - Disease 03 C
+effect: .name "AllyCrow_LessAcc_03" .target "target" .curio_result_type "negative" .chance 24% .buff_ids "Scraw_Disease_Acc_C" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessCri_03" .target "target" .curio_result_type "negative" .chance 29% .buff_ids "Scraw_Disease_Crit_C" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDmg_03" .target "target" .curio_result_type "negative" .chance 34% .buff_ids "Scraw_Disease_DmgLow_C" "Scraw_Disease_DmgHigh_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDod_03" .target "target" .curio_result_type "negative" .chance 39% .buff_ids "Scraw_Disease_Dod_C" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessHea_03" .target "target" .curio_result_type "negative" .chance 44% .buff_ids "Scraw_Disease_HP_C" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessSpd_03" .target "target" .curio_result_type "negative" .chance 49% .buff_ids "Scraw_Disease_SPD_C" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_disease_TT_03" .target "performer" .skill_instant true .curio_result_type "negative" .chance 100% .buff_ids "Scraw_tooltip_Disease_BUFFID_C" .on_hit true .on_miss true
+effect: .name "AllyCrow_extraturn_TT_03" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .buff_ids "Scraw_tooltip_ExtraTurn_BUFFID_C" .on_hit true .on_miss true
+
+//Ally Crow - Disease 04 D
+effect: .name "AllyCrow_LessAcc_04" .target "target" .curio_result_type "negative" .chance 34% .buff_ids "Scraw_Disease_Acc_D" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessCri_04" .target "target" .curio_result_type "negative" .chance 39% .buff_ids "Scraw_Disease_Crit_D" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDmg_04" .target "target" .curio_result_type "negative" .chance 44% .buff_ids "Scraw_Disease_DmgLow_D" "Scraw_Disease_DmgHigh_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDod_04" .target "target" .curio_result_type "negative" .chance 49% .buff_ids "Scraw_Disease_Dod_D" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessHea_04" .target "target" .curio_result_type "negative" .chance 54% .buff_ids "Scraw_Disease_HP_D" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessSpd_04" .target "target" .curio_result_type "negative" .chance 59% .buff_ids "Scraw_Disease_SPD_D" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_disease_TT_04" .target "performer" .skill_instant true .curio_result_type "negative" .chance 100% .buff_ids "Scraw_tooltip_Disease_BUFFID_D" .on_hit true .on_miss true
+effect: .name "AllyCrow_extraturn_TT_04" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .buff_ids "Scraw_tooltip_ExtraTurn_BUFFID_D" .on_hit true .on_miss true
+
+//Ally Crow - Disease 05 E
+effect: .name "AllyCrow_LessAcc_05" .target "target" .curio_result_type "negative" .chance 44% .buff_ids "Scraw_Disease_Acc_E" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessCri_05" .target "target" .curio_result_type "negative" .chance 49% .buff_ids "Scraw_Disease_Crit_E" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDmg_05" .target "target" .curio_result_type "negative" .chance 54% .buff_ids "Scraw_Disease_DmgLow_E" "Scraw_Disease_DmgHigh_A" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessDod_05" .target "target" .curio_result_type "negative" .chance 59% .buff_ids "Scraw_Disease_Dod_E" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessHea_05" .target "target" .curio_result_type "negative" .chance 64% .buff_ids "Scraw_Disease_HP_E" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_LessSpd_05" .target "target" .curio_result_type "negative" .chance 69% .buff_ids "Scraw_Disease_SPD_E" .on_hit true .on_miss false .has_description false
+effect: .name "AllyCrow_disease_TT_05" .target "performer" .skill_instant true .curio_result_type "negative" .chance 100% .buff_ids "Scraw_tooltip_Disease_BUFFID_E" .on_hit true .on_miss true
+effect: .name "AllyCrow_extraturn_TT_05" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .buff_ids "Scraw_tooltip_ExtraTurn_BUFFID_E" .on_hit true .on_miss true
+
+
+
+//Escape (Shrieking Flight)
+effect: .name "AllyCrow_ShriekStress_01" .target "target" .curio_result_type "negative" .chance 200% .buff_ids "Scraw_FlightStress_A" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_ShriekStress_02" .target "target" .curio_result_type "negative" .chance 210% .buff_ids "Scraw_FlightStress_B" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_ShriekStress_03" .target "target" .curio_result_type "negative" .chance 220% .buff_ids "Scraw_FlightStress_C" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_ShriekStress_04" .target "target" .curio_result_type "negative" .chance 230% .buff_ids "Scraw_FlightStress_D" .on_hit true .on_miss false .has_description true
+effect: .name "AllyCrow_ShriekStress_05" .target "target" .curio_result_type "negative" .chance 240% .buff_ids "Scraw_FlightStress_E" .on_hit true .on_miss false .has_description true
+
+
+
+
+//Support 1 (Protect The Nest)
+effect: .name "AllyCrow_Protect_Guard_05"  .target "performer_group_other" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 5 .has_description false
+
+effect: .name "AllyCrow_Protect_Stress_01" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scraw_Protect_STRESSDMG_A" .on_hit true .on_miss false
+effect: .name "AllyCrow_Protect_Stress_02" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scraw_Protect_STRESSDMG_B" .on_hit true .on_miss false
+effect: .name "AllyCrow_Protect_Stress_03" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scraw_Protect_STRESSDMG_C" .on_hit true .on_miss false
+effect: .name "AllyCrow_Protect_Stress_04" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scraw_Protect_STRESSDMG_D" .on_hit true .on_miss false
+effect: .name "AllyCrow_Protect_Stress_05" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scraw_Protect_STRESSDMG_E" .on_hit true .on_miss false
+
+effect: .name "AllyCrow_Clear_Guarded_Target" .target "performer" .chance 100% .clearguarded 1 .on_hit true .on_miss true
+effect: .name "AllyCrow_Clear_Guard_Target" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .has_description false
+effect: .name "AllyCrow_Clear_Guard_Performer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .has_description false
+effect: .name "AllyCrow_Clear_Guard_Self" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .has_description false
+
+effect: .name "Scraw_Protect_StressHeal_01" .target "performer" .chance 100% .healstress 10 .on_hit true .on_miss true .queue true
+effect: .name "Scraw_Protect_StressHeal_02" .target "performer" .chance 100% .healstress 12 .on_hit true .on_miss true .queue true
+effect: .name "Scraw_Protect_StressHeal_03" .target "performer" .chance 100% .healstress 15 .on_hit true .on_miss true .queue true
+effect: .name "Scraw_Protect_StressHeal_04" .target "performer" .chance 100% .healstress 18 .on_hit true .on_miss true .queue true
+effect: .name "Scraw_Protect_StressHeal_05" .target "performer" .chance 100% .healstress 20 .on_hit true .on_miss true .queue true
+
+effect: .name "AllyCrow_protect_COOLDOWN" .target "performer" .buff_source_type "bsrc_notspecified" .curio_result_type "negative" .chance 100% .buff_ids "scraw_guard_COOL_A" .on_hit true .on_miss true .duration 5 .has_description false
+
+effect: .name "AllyCrow_protect_TT_05" .target "performer" .buff_source_type "bsrc_notspecified" .curio_result_type "positive" .chance 100% .duration 0 .buff_ids "Scraw_tooltip_Protect_BUFFID_E" .on_hit true .on_miss true
+effect: .name "AllyCrow_protectothers_TT_05" .target "performer" .buff_source_type "bsrc_notspecified" .skill_instant true .curio_result_type "positive" .chance 100% .duration 0 .buff_ids "Scraw_tooltip_ProtectOthers_BUFFID_E" .on_hit true .on_miss true
+
+
+
+
+
+//Support 2 (Swallow)
+effect: .name "AllyCrow_clear_corpses" .target "target_enemy_group"	.shuffletarget .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true
+
+effect: .name "AllyCrow_Healdot_01" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 1 .duration 3 .can_crit_heal false	.on_hit true .on_miss false apply_once true
+effect: .name "AllyCrow_Healdot_02" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .can_crit_heal false	.on_hit true .on_miss false apply_once true
+effect: .name "AllyCrow_Healdot_03" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3 .can_crit_heal false	.on_hit true .on_miss false apply_once true
+effect: .name "AllyCrow_Healdot_04" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3 .can_crit_heal false	.on_hit true .on_miss false apply_once true
+effect: .name "AllyCrow_Healdot_05" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 5 .duration 3 .can_crit_heal false	.on_hit true .on_miss false apply_once true
+
+effect: .name "AllyCrow_Horror_05" .target "performer_group_other" .curio_result_type "negative" .chance 100% .dotStress 1 .duration 3	.on_hit true .on_miss false	.queue true .crit_doesnt_apply_to_roll true .individual_target_actor_rolls true 
+
+
+
+
+//General Buff
+effect: .name "AllyCrow_MoreStress_01" .target "performer" .curio_result_type "positive" .chance 50% .buff_ids "Scraw_Buff_DEBUFFSKILL_A" .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "AllyCrow_MoreStress_02" .target "performer" .curio_result_type "positive" .chance 55% .buff_ids "Scraw_Buff_DEBUFFSKILL_B" .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "AllyCrow_MoreStress_03" .target "performer" .curio_result_type "positive" .chance 60% .buff_ids "Scraw_Buff_DEBUFFSKILL_C" .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "AllyCrow_MoreStress_04" .target "performer" .curio_result_type "positive" .chance 65% .buff_ids "Scraw_Buff_DEBUFFSKILL_D" .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "AllyCrow_MoreStress_05" .target "performer" .curio_result_type "positive" .chance 70% .buff_ids "Scraw_Buff_DEBUFFSKILL_E" .on_hit true .on_miss false .apply_once true .has_description true
+
+effect: .name "AllyCrow_StressHeal_Passive_01" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "scraw_ifdead_STRESSRECOVERY_A" .on_hit true .on_miss false
+
+effect: .name "Scraw_Backward_TT_05" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .duration 0 .buff_ids "Scraw_tooltip_Backward_BUFFID_E" .on_hit true .on_miss true
+effect: .name "Scraw_Forward_TT_05" .target "performer" .skill_instant true .curio_result_type "positive" .chance 100% .duration 0 .buff_ids "Scraw_tooltip_Forward_BUFFID_E" .on_hit true .on_miss true
+
+
+
+//Crit Effects
+effect: .name "on_crit_scrawmoreturn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .apply_once true .on_hit true .on_miss false .queue true
+effect: .name "on_crit_scrawlesscrit"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "Scraw_Less_Crit_A" .on_hit true .on_miss false .apply_once true
+
+
+
+//If Dead
+effect: .name "scraw_ifdead_dod_01" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "scraw_ifdead_DOD_A" .apply_once true .on_hit true .on_miss true
+
+effect: .name "scraw_ifdead_spd_01" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "scraw_ifdead_SPD_A" .apply_once true .on_hit true .on_miss true
+
+
+effect: .name "scraw_ifdead_Disease_01" .target "target" .curio_result_type "negative" .chance 30% .disease any	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true .individual_target_actor_rolls true 
+
+effect: .name "scraw_ifdead_Debuff_01" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "Scraw_CawStress_A" .on_hit true .on_miss true .crit_doesnt_apply_to_roll true .individual_target_actor_rolls true 
+
+
+
+
+
+//Modified Default Stress
+//crow caw
+effect: .name "Scraw_Caw_stress_01" .target "performer_group_other" .curio_result_type "negative" .chance 50% .stress 3	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Caw_stress_02" .target "performer_group_other" .curio_result_type "negative" .chance 55% .stress 3	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Caw_stress_03" .target "performer_group_other" .curio_result_type "negative" .chance 50% .stress 4	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Caw_stress_04" .target "performer_group_other" .curio_result_type "negative" .chance 55% .stress 4	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Caw_stress_05" .target "performer_group_other" .curio_result_type "negative" .chance 50% .stress 5	.on_hit true .on_miss false	.queue true
+
+//crow flutter
+effect: .name "Scraw_Flutter_stress_01" .target "performer_group_other" .curio_result_type "negative" .chance 35% .stress 3	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Flutter_stress_02" .target "performer_group_other" .curio_result_type "negative" .chance 35% .stress 3	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Flutter_stress_03" .target "performer_group_other" .curio_result_type "negative" .chance 35% .stress 4	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Flutter_stress_04" .target "performer_group_other" .curio_result_type "negative" .chance 35% .stress 4	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Flutter_stress_05" .target "performer_group_other" .curio_result_type "negative" .chance 35% .stress 5	.on_hit true .on_miss false	.queue true
+
+//crow shriek
+effect: .name "Scraw_Shriek_stress_01" .target "performer_group_other" .curio_result_type "negative" .chance 60% .stress 6	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Shriek_stress_02" .target "performer_group_other" .curio_result_type "negative" .chance 60% .stress 7	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Shriek_stress_03" .target "performer_group_other" .curio_result_type "negative" .chance 60% .stress 8	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Shriek_stress_04" .target "performer_group_other" .curio_result_type "negative" .chance 60% .stress 9	.on_hit true .on_miss false	.queue true
+effect: .name "Scraw_Shriek_stress_05" .target "performer_group_other" .curio_result_type "negative" .chance 60% .stress 10	.on_hit true .on_miss false	.queue true
+
+
+
+
+
+
+
+
+
+

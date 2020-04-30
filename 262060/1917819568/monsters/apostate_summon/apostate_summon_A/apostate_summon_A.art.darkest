@@ -1,0 +1,7 @@
+commonfx: .deathfx death_corpse_medium
+skill: .id "apo_skele_sword_slice" .anim "attack_mace" .fx "crush" .targchestfx "blood_splatter" .custom_target_anim defend
+skill: .id "apo_skele_shield_slam" .anim "attack_shield" .fx "rampart" .targchestfx "blood_splatter" .custom_target_anim defend
+skill: .id "apo_skele_sword_slice_weak" .anim "attack_mace" .fx "crush" .targchestfx "blood_splatter" .custom_target_anim defend
+riposte_skill: .id "riposte1" .anim "attack_mace" .fx "crush" .targchestfx "blood_splatter"
+health_bar: .type "corpse"
+display_modifier: .disable_halos true .disabled_popup_text_types resist

@@ -1,0 +1,346 @@
+//###########################################################################################################################
+//"Succubus"
+//###########################################################################################################################
+//----------------------------------------------------------------------------------------------------
+//Class Effects
+//----------------------------------------------------------------------------------------------------
+
+//Devotion Quirk 
+effect: .name "Devotion Quirk" 			.target "target" .curio_result_type "negative" .chance 5% .bark succ_bark_PYG_target .disease succ_quirk_1 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
+
+// CRT Effects
+effect: .name "succ_on_crit_reg" 		.target "performer" .curio_result_type "positive"  .chance 100% .heal_percent 0.16	.on_hit true .on_miss false
+effect: .name "succ_on_crit_MaxHP"    	.target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "Succ_on_crit_MaxHP" .on_hit true .on_miss false .apply_once true .buff_duration_type combat_end .duration 1
+
+//Barks
+effect: .name "Succ_Leeches_bark" 		.target "performer" .chance 4% .bark succ_leeches_bark 			.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Succ_PYG_bark" 			.target "performer" .chance 4% .bark succ_bark_PYG 				.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Succ_PYG_bark_target" 	.target "target" 	.chance 4% .bark succ_bark_PYG_target 		.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Succ_SMH_bark" 			.target "performer" .chance 4% .bark succ_bark_SMH 				.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Succ_Scythe_bark" 		.target "performer" .chance 4% .bark succ_bark_scythe 			.on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Succ_Scythe_bark_miss" 	.target "performer" .chance 4% .bark succ_bark_scythe_miss		.on_hit false .on_miss true .queue true .apply_once true .has_description false
+effect: .name "Succ SMH Bark" 			.target "target"    .chance 4% .bark succ_bark_PYG_target  	.on_hit true .on_miss true .queue true  .apply_once true .has_description false
+
+//-----------------------------------------------------------------------------------------------
+// Cloak 
+//-----------------------------------------------------------------------------------------------
+// Self: Transform; Apply Actor Dot 
+// Team: Stressheal
+
+//Transform -- human > Open
+effect: .name "switch_mode_succubus_self" 	.target "performer" .set_mode succubus .bark succubus_unveil_bark .chance 100% .on_hit true .on_miss false .queue false .has_description true .has_description false
+effect: .name "switch_mode_succubus_pull_3" .target "target"  .pull 3	 .chance 520%	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "switch_mode_succubus_pull_3_tooltip" .target performer .skill_instant true .chance 100% .buff_ids succ_tooltip_forward .on_hit true .on_miss false
+
+//Transform -- Open > human
+effect: .name "switch_mode_human_self" 		.target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false  .has_description true .refreshes_skill_uses false
+effect: .name "Succubus_remove_guard_buff" 	.target "performer" .chance 100% .steal_buff_source_type bsrc_stun  .on_hit true .on_miss true .apply_once false .queue true .has_description false
+effect: .name "Succ RefreshSkills" 			.target "performer" .chance 100% .on_hit true .on_miss true .queue true  .has_description false .refreshes_skill_uses false
+
+// Party Stressheal
+effect: .name "cloak_stress_heal_party_1" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "cloak_stress_heal_party_2" .target "performer_group" .chance 100% .healstress 2 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "cloak_stress_heal_party_3" .target "performer_group" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "cloak_stress_heal_party_4" .target "performer_group" .chance 100% .healstress 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "cloak_stress_heal_party_5" .target "performer_group" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true .has_description false
+
+// Tooltip
+effect: .name "SUCC transform_tooltip A" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TT_Transform_1"  "succ_TT_Transform_2" .on_hit true .on_miss false
+effect: .name "SUCC transform_tooltip B" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TT_Transform_1B" "succ_TT_Transform_2B" .on_hit true .on_miss false
+effect: .name "SUCC transform_tooltip C" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TT_Transform_1C" "succ_TT_Transform_2C" .on_hit true .on_miss false
+effect: .name "SUCC transform_tooltip D" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TT_Transform_1D"  "succ_TT_Transform_2D" .on_hit true .on_miss false
+effect: .name "SUCC transform_tooltip E" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TT_Transform_1E" "succ_TT_Transform_2E" .on_hit true .on_miss false
+
+// Actor Dot 
+//--------------------------------------------------//
+//Steal HP Buff DMG (each Turn/ on kill)
+
+// DMG Buff & Self Heal
+effect: .name "SUCC_ACTOR_DOT_BUFF 1" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill_multi_target .chance 100% .buff_ids Succ_actor_dot_DMGH_1 Succ_actor_dot_DMGL_1 Succ_farmsead_actor_DMGH_1 Succ_farmsead_actor_DMGL_1 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_BUFF 2" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill_multi_target .chance 100% .buff_ids Succ_actor_dot_DMGH_1 Succ_actor_dot_DMGL_1 Succ_farmsead_actor_DMGH_1 Succ_farmsead_actor_DMGL_1 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_BUFF 3" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill_multi_target .chance 100% .buff_ids Succ_actor_dot_DMGH_2 Succ_actor_dot_DMGL_2 Succ_farmsead_actor_DMGH_2 Succ_farmsead_actor_DMGL_2 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_BUFF 4" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill_multi_target .chance 100% .buff_ids Succ_actor_dot_DMGH_2 Succ_actor_dot_DMGL_2 Succ_farmsead_actor_DMGH_2 Succ_farmsead_actor_DMGL_2 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_BUFF 5" 		.target "performer_group_other" .swap_source_and_target true .heal 2 .source_heal_type monster_skill_multi_target .chance 100% .buff_ids Succ_actor_dot_DMGH_3 Succ_actor_dot_DMGL_3 Succ_farmsead_actor_DMGH_3 Succ_farmsead_actor_DMGL_3 .duration 1 .buff_duration_type combat_end .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+
+// Heal Effect
+effect: .name "SUCC_ACTOR_DOT_HEAL 3" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill .chance 100% .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_HEAL 4" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill .chance 100% .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+effect: .name "SUCC_ACTOR_DOT_HEAL 5" 		.target "performer_group_other" .swap_source_and_target true .heal 1 .source_heal_type monster_skill .chance 100% .apply_once true .on_hit true .on_miss true .queue true .has_description false .can_crit_heal false
+
+// Health DMG effect
+effect: .name "SUCC_ACTOR_DOT_DAMAGE 1" 	.target "performer_group_other"  .chance 100% .health_damage 1 .damage_type trap .damage_source_type reflect .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SUCC_ACTOR_DOT_DAMAGE 2" 	.target "performer_group_other"  .chance 100% .health_damage 1 .damage_type trap .damage_source_type reflect .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SUCC_ACTOR_DOT_DAMAGE 3" 	.target "performer_group_other"  .chance 100% .health_damage 2 .damage_type trap .damage_source_type reflect .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SUCC_ACTOR_DOT_DAMAGE 4" 	.target "performer_group_other"  .chance 100% .health_damage 2 .damage_type trap .damage_source_type reflect .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SUCC_ACTOR_DOT_DAMAGE 5" 	.target "performer_group_other"  .chance 100% .health_damage 3 .damage_type trap .damage_source_type reflect .on_hit true .on_miss true .queue true .has_description false
+
+// Application of Actor Dots
+effect: .name "SUCC ACTOR DOT TRANSFORM 1" 	.target "performer" .chance 100% .actor_dot succ_1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SUCC ACTOR DOT TRANSFORM D" 	.target "performer" .chance 100% .actor_dot succ_2 .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SUCC ACTOR DOT TRANSFORM 2" 	.target "performer" .chance 100% .actor_dot succ_1b .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SUCC ACTOR DOT TRANSFORM 2D" 	.target "performer" .chance 100% .actor_dot succ_2b .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SUCC ACTOR DOT TRANSFORM 3" 	.target "performer" .chance 100% .actor_dot succ_1c .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SUCC ACTOR DOT TRANSFORM 3D" 	.target "performer" .chance 100% .actor_dot succ_2c .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SUCC ACTOR DOT TRANSFORM 4" 	.target "performer" .chance 100% .actor_dot succ_1d .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SUCC ACTOR DOT TRANSFORM 4D" 	.target "performer" .chance 100% .actor_dot succ_2d .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SUCC ACTOR DOT TRANSFORM 5" 	.target "performer" .chance 100% .actor_dot succ_1e .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SUCC ACTOR DOT TRANSFORM 5D" 	.target "performer" .chance 100% .actor_dot succ_2e .on_hit true .on_miss false .queue true .has_description false
+
+//-----------------------------------------------------------------------------------------------
+//Silent Curse
+//-----------------------------------------------------------------------------------------------
+
+//Tag
+effect: .name "Succ Mark Target".target "target" .curio_result_type "positive" .chance 100%	.tag 1  .duration 3	.on_hit true .on_miss false
+
+// Disable Stress Skills
+effect: .name "Succ Stress Debuff 1" .target "target" .chance 100% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+effect: .name "Succ Stress Debuff 2" .target "target" .chance 110% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+effect: .name "Succ Stress Debuff 3" .target "target" .chance 120% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+effect: .name "Succ Stress Debuff 4" .target "target" .chance 130% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+effect: .name "Succ Stress Debuff 5" .target "target" .chance 140% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+effect: .name "Succ Stress Debuff T" .target "target" .chance 150% .buff_ids Succ_Curse_Disable_Stress .duration 1 .on_hit true .on_miss false
+
+// DODGE STEAL 
+//------------------------------------------------------//
+
+// DODGE Debuff
+effect: .name "Succ Curse DODGE 1" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .defense_rating_add -5%  .duration 2  .on_hit true .on_miss false  .has_description false .queue true
+effect: .name "Succ Curse DODGE 2" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .defense_rating_add -6%  .duration 2  .on_hit true .on_miss false  .has_description false .queue true
+effect: .name "Succ Curse DODGE 3" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .defense_rating_add -7% .duration 2  .on_hit true .on_miss false  .has_description false .queue true
+effect: .name "Succ Curse DODGE 4" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .defense_rating_add -8% .duration 2  .on_hit true .on_miss false  .has_description false .queue true
+effect: .name "Succ Curse DODGE 5" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .defense_rating_add -10% .duration 2  .on_hit true .on_miss false  .has_description false .queue true
+
+// DODGE Buff
+effect: .name "Succ reverse DODGE 1" .target "target" .curio_result_type "positive" .chance 100%  .swap_source_and_target true .combat_stat_buff 1 .defense_rating_add 5%	.duration 3  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ reverse DODGE 2" .target "target" .curio_result_type "positive" .chance 100%  .swap_source_and_target true .combat_stat_buff 1 .defense_rating_add 6%	.duration 3  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ reverse DODGE 3" .target "target" .curio_result_type "positive" .chance 100%  .swap_source_and_target true .combat_stat_buff 1 .defense_rating_add 7%	.duration 3  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ reverse DODGE 4" .target "target" .curio_result_type "positive" .chance 100%  .swap_source_and_target true .combat_stat_buff 1 .defense_rating_add 8%	.duration 3  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ reverse DODGE 5" .target "target" .curio_result_type "positive" .chance 100%  .swap_source_and_target true .combat_stat_buff 1 .defense_rating_add 10%	.duration 3  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+
+effect: .name "Succ Curse Instant" .target "performer" .chance 500% .skill_instant true .buff_ids  "Succ_DEBUFFRES_Instant" .on_hit true .on_miss true .apply_once true  .has_description false
+
+effect: .name "Succ debuff Reverse 1" .target "target" .curio_result_type "negative" .chance 100%  .buff_ids  SUCC_hero_Debuff_B	SUCC_hero_Deff_1 .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type round
+effect: .name "Succ debuff Reverse 2" .target "target" .curio_result_type "negative" .chance 110%  .buff_ids  SUCC_hero_Debuff_B	SUCC_hero_Deff_2 .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type round
+effect: .name "Succ debuff Reverse 3" .target "target" .curio_result_type "negative" .chance 120%  .buff_ids  SUCC_hero_Debuff_B	SUCC_hero_Deff_3 .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type round
+effect: .name "Succ debuff Reverse 4" .target "target" .curio_result_type "negative" .chance 130%  .buff_ids  SUCC_hero_Debuff_B	SUCC_hero_Deff_4 .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type round
+effect: .name "Succ debuff Reverse 5" .target "target" .curio_result_type "negative" .chance 140%  .buff_ids  SUCC_hero_Debuff_B	SUCC_hero_Deff_5 .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type round
+
+effect: .name "curse_tooltip_1" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TOOLTIP_Steal_Curse_1" .on_hit true .on_miss false
+effect: .name "curse_tooltip_2" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TOOLTIP_Steal_Curse_2" .on_hit true .on_miss false
+effect: .name "curse_tooltip_3" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TOOLTIP_Steal_Curse_3" .on_hit true .on_miss false
+effect: .name "curse_tooltip_4" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TOOLTIP_Steal_Curse_4" .on_hit true .on_miss false
+effect: .name "curse_tooltip_5" 	.target "performer" .skill_instant true .chance 100% .buff_ids "succ_TOOLTIP_Steal_Curse_5" .on_hit true .on_miss false
+
+//-----------------------------------------------------------------------------------------------
+// My Hero
+//-----------------------------------------------------------------------------------------------
+// Self: Guard by Ally
+// Target: Buff Offense vs Marked, Heal Stress
+
+// Move Ally Forward (unused)
+effect: .name "Ally Forward 1" .target "target"  .pull 1  .chance 320%	.on_hit true .on_miss false .can_apply_on_death true .has_description true
+effect: .name "forward1_tooltip" .target "target" .skill_instant true .chance 100% .buff_ids succ_tooltip_forward_1 .on_hit true .on_miss false
+
+//Succ ProtectMe 
+effect: .name "Succubus ProtectMe ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Succubus ProtectMe ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1  .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Succubus ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+
+// Stress Heal (target)
+effect: .name "Save Me Stressheal 1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false .queue true 
+effect: .name "Save Me Stressheal 2" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false .queue true 
+effect: .name "Save Me Stressheal 3" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss false .queue true 
+effect: .name "Save Me Stressheal 4" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss false .queue true 
+effect: .name "Save Me Stressheal 5" .target "target" .chance 100% .healstress 8 .on_hit true .on_miss false .queue true 
+
+// ACC/DMG vs Marked
+effect: .name "Succ Hero BUFF 1" .target "target" .chance 100% .buff_ids "Succ_Hero_DMGL_tagged_1" "Succ_Hero_DMGH_tagged_1" "SUCC_hero_tagged_ACCBUFF_1" .duration 3 .on_hit true .on_miss false
+effect: .name "Succ Hero BUFF 2" .target "target" .chance 100% .buff_ids "Succ_Hero_DMGL_tagged_2" "Succ_Hero_DMGH_tagged_2" "SUCC_hero_tagged_ACCBUFF_2" .duration 3 .on_hit true .on_miss false
+effect: .name "Succ Hero BUFF 3" .target "target" .chance 100% .buff_ids "Succ_Hero_DMGL_tagged_3" "Succ_Hero_DMGH_tagged_3" "SUCC_hero_tagged_ACCBUFF_3" .duration 3 .on_hit true .on_miss false
+effect: .name "Succ Hero BUFF 4" .target "target" .chance 100% .buff_ids "Succ_Hero_DMGL_tagged_4" "Succ_Hero_DMGH_tagged_4" "SUCC_hero_tagged_ACCBUFF_4" .duration 3 .on_hit true .on_miss false
+effect: .name "Succ Hero BUFF 5" .target "target" .chance 100% .buff_ids "Succ_Hero_DMGL_tagged_5" "Succ_Hero_DMGH_tagged_5" "SUCC_hero_tagged_ACCBUFF_5" .duration 3 .on_hit true .on_miss false
+
+//-----------------------------------------------------------------------------------------------
+// Leeching
+//-----------------------------------------------------------------------------------------------
+//Limited uses; Debuff Enemy DMG, Buff DMG for each enemy hit
+// 
+
+// DMG Debuff
+effect: .name "Succ Leech DMG 1" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .damage_low_multiply -3% .damage_high_multiply -3%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .has_description false
+effect: .name "Succ Leech DMG 2" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .damage_low_multiply -3% .damage_high_multiply -3%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .has_description false
+effect: .name "Succ Leech DMG 3" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .damage_low_multiply -4% .damage_high_multiply -4%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .has_description false
+effect: .name "Succ Leech DMG 4" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .damage_low_multiply -4% .damage_high_multiply -4%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .has_description false
+effect: .name "Succ Leech DMG 5" .target "target" .curio_result_type "negative" .chance 250%  .combat_stat_buff 1 .damage_low_multiply -5% .damage_high_multiply -5%	.duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .has_description false
+
+// DMG Buff
+effect: .name "Succ Leech Self DMG 1" .target "target" .curio_result_type "positive" .chance 300%  .swap_source_and_target true .combat_stat_buff 1 .damage_low_multiply 3% .damage_high_multiply 3%	.duration -1  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ Leech Self DMG 2" .target "target" .curio_result_type "positive" .chance 300%  .swap_source_and_target true .combat_stat_buff 1 .damage_low_multiply 3% .damage_high_multiply 3%	.duration -1  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ Leech Self DMG 3" .target "target" .curio_result_type "positive" .chance 300%  .swap_source_and_target true .combat_stat_buff 1 .damage_low_multiply 4% .damage_high_multiply 4%	.duration -1  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ Leech Self DMG 4" .target "target" .curio_result_type "positive" .chance 300%  .swap_source_and_target true .combat_stat_buff 1 .damage_low_multiply 4% .damage_high_multiply 4%	.duration -1  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+effect: .name "Succ Leech Self DMG 5" .target "target" .curio_result_type "positive" .chance 300%  .swap_source_and_target true .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5%	.duration -1  .on_hit true .on_miss false .apply_once false .has_description false .queue true
+
+//Multi-Stun
+effect: .name "Succ MultiStun 1" .target "target" .curio_result_type "negative" .chance 110% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ MultiStun 2" .target "target" .curio_result_type "negative" .chance 120% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ MultiStun 3" .target "target" .curio_result_type "negative" .chance 130% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ MultiStun 4" .target "target" .curio_result_type "negative" .chance 140% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ MultiStun 5" .target "target" .curio_result_type "negative" .chance 150% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+
+// Stun vs Marked
+effect: .name "Succ Hero STUNBUFF 1" .target "performer" .chance 100% .skill_instant true .buff_ids "SUCC_tagged_STUNBUFF_1"  .on_hit true .on_miss false .has_description false .apply_once true
+
+// Tooltips
+effect: .name "TT Succ Leeches 1" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_TOOLTIP_Steal_1" "succ_tooltip_stun_1"  .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ Leeches 2" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_TOOLTIP_Steal_2" "succ_tooltip_stun_2"  .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ Leeches 3" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_TOOLTIP_Steal_3" "succ_tooltip_stun_3"  .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ Leeches 4" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_TOOLTIP_Steal_4" "succ_tooltip_stun_4"  .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ Leeches 5" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_TOOLTIP_Steal_5" "succ_tooltip_stun_5"  .on_hit true .on_miss false .apply_once true
+
+//Balance Buff (No Acc vs Corpses, Tatechery, etc etc ...)
+effect: .name "Succ leeches balance" .target "performer" .curio_result_type "positive" .skill_instant true .buff_ids leeches_corpse leeches_thatchery leeches_vegetation leeches_pyre leeches_carpentry leeches_cauldron leeches_ironwork .on_hit true .on_miss false .has_description false .queue true
+
+//-----------------------------------------------------------------------------------------------
+// Scythe 
+//-----------------------------------------------------------------------------------------------
+// Ignore Armour / Guard
+
+//ACC & Crt vs Marked
+effect: .name "Tagged Acc 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .attack_rating_add 10%	.crit_chance_add 10%	 .on_hit true .on_miss false
+effect: .name "Tagged Acc 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .attack_rating_add 15%	.crit_chance_add 12%	 .on_hit true .on_miss false
+effect: .name "Tagged Acc 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .attack_rating_add 20%	.crit_chance_add 15%	 .on_hit true .on_miss false
+effect: .name "Tagged Acc 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .attack_rating_add 25%	.crit_chance_add 17%	 .on_hit true .on_miss false
+effect: .name "Tagged Acc 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .attack_rating_add 35%	.crit_chance_add 20%	 .on_hit true .on_miss false
+
+//-----------------------------------------------------------------------------------------------
+// Scythe AOE
+//-----------------------------------------------------------------------------------------------
+//Low Bleed
+// 
+
+effect: .name "Succubus Scythe Bleed 1" .target "target" 	.curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true 
+effect: .name "Succubus Scythe Bleed 2" .target "target"	.curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Succubus Scythe Bleed 3" .target "target" 	.curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Succubus Scythe Bleed 4" .target "target"	.curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Succubus Scythe Bleed 5" .target "target" 	.curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+//-----------------------------------------------------------------------------------------------
+//Protect your godess
+//-----------------------------------------------------------------------------------------------
+// Force Guard by enemy; Tag Self/Enemy; 
+// 1 rd duration vs stunned
+
+// Tag (No Description)
+effect: .name "PYG_Tag"  .target "target" .chance 110% .curio_result_type "positive" .on_hit true .on_miss false .tag 1 .buff_ids "Succ_PYG_Guardduration" .duration 3 .on_hit true .on_miss false .apply_once true .has_description false
+
+// Tooltips
+effect: .name "TT Succ ForceGuard A" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_tooltip_cooldownA" "succ_tooltip_force_guard" "succ_tooltip_force_guard_stun_1" "succ_tooltip_force_guard_duration" "succ_guard_vs_zero_9" "succ_guard_vs_zero_10" .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ ForceGuard B" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_tooltip_cooldownA" "succ_tooltip_force_guard" "succ_tooltip_force_guard_stun_2" "succ_tooltip_force_guard_duration" "succ_guard_vs_zero_9" "succ_guard_vs_zero_10" .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ ForceGuard C" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_tooltip_cooldownB" "succ_tooltip_force_guard" "succ_tooltip_force_guard_stun_3" "succ_tooltip_force_guard_duration" "succ_guard_vs_zero_9" "succ_guard_vs_zero_10" .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ ForceGuard D" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_tooltip_cooldownB" "succ_tooltip_force_guard" "succ_tooltip_force_guard_stun_4" "succ_tooltip_force_guard_duration" "succ_guard_vs_zero_9" "succ_guard_vs_zero_10" .on_hit true .on_miss false .apply_once true
+effect: .name "TT Succ ForceGuard E" .target "performer" .chance 100% .skill_instant true .buff_ids "succ_tooltip_cooldownC" "succ_tooltip_force_guard" "succ_tooltip_force_guard_stun_5" "succ_tooltip_force_guard_duration" "succ_guard_vs_zero_9" "succ_guard_vs_zero_10" .on_hit true .on_miss false .apply_once true
+
+//Guardduration vs Stunned / Mark target /clear Guards 
+effect: .name "Succ PYG Guard vs STUN"  .target "target" .chance 500% .clearguarding 1 .clearguarded 1 .buff_ids "Succ_PYG_Guardduration" .tag 1 .duration 3 .on_hit true .on_miss false .apply_once true .has_description false
+
+// Force Enemy
+effect: .name "Succ force Guard"  		.target "target" .swap_source_and_target true .guard 1 .tag 1 .on_hit true .on_miss false .duration 1 .buff_duration_type before_turn true .queue true .has_description false
+effect: .name "Succ buffs vs o ini 1" 	.target "performer" .chance 1000% .clearguarding 1 .clearguarded 1 .skill_instant true  .buff_ids succ_guard_vs_zero_1 succ_guard_vs_zero_2 succ_guard_vs_zero_3 succ_guard_vs_zero_4 succ_guard_vs_zero_5 succ_guard_vs_zero_6 succ_guard_vs_zero_7 succ_guard_vs_zero_8 .on_hit true .on_miss false .apply_once false .queue true .has_description false
+effect: .name "Succ Guard balance" 	.target "target" .chance 500%  .buff_ids Succ_PYG_GUARD_BALANCE .swap_source_and_target true .duration 1 .buff_duration_type after_turn .on_hit true .on_miss false .apply_once false .queue true .has_description false
+
+// Cooldown (Disable + Tray tooltip)
+effect: .name "Succ PYG Self 1" .target "target" .chance 1000%  .buff_ids "Succ_Hero_DisableGuard_Self"  "succ_tooltip_cooldownX" .on_hit true .on_miss false .duration 5 .has_description false .swap_source_and_target true
+effect: .name "Succ PYG Self 2" .target "target" .chance 1000% .buff_ids "Succ_Hero_DisableGuard_Self"  "succ_tooltip_cooldownX" .on_hit true .on_miss false .duration 5 .has_description false .swap_source_and_target true
+effect: .name "Succ PYG Self 3" .target "target" .chance 1000% .buff_ids "Succ_Hero_DisableGuard_Self"  "succ_tooltip_cooldownX" .on_hit true .on_miss false .duration 4 .has_description false .swap_source_and_target true
+effect: .name "Succ PYG Self 4" .target "target" .chance 1000% .buff_ids "Succ_Hero_DisableGuard_Self"  "succ_tooltip_cooldownX" .on_hit true .on_miss false .duration 4 .has_description false .swap_source_and_target true
+effect: .name "Succ PYG Self 5" .target "target" .chance 1000% .buff_ids "Succ_Hero_DisableGuard_Self"  "succ_tooltip_cooldownX" .on_hit true .on_miss false .duration 3 .has_description false .swap_source_and_target true
+
+//Weak Stun
+effect: .name "Succ PYG Stun 1" .target "target" .curio_result_type "negative" .chance 80% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ PYG Stun 2" .target "target" .curio_result_type "negative" .chance 90% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ PYG Stun 3" .target "target" .curio_result_type "negative" .chance 100% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ PYG Stun 4" .target "target" .curio_result_type "negative" .chance 110% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Succ PYG Stun 5" .target "target" .curio_result_type "negative" .chance 120% .stun 1  .on_hit true .on_miss false .queue true .has_description false
+
+//----------------------------------------------------------------------------------------------------------------------
+// DEATH DOOR AND DYING EFFECTS
+/-------------------------------------------------------------------------------------------------------------------------
+//Nothing
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Item Effects
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Purple Meth
+// Modified Sharddust effects
+effect: .name "succ_purple_spice_0"  .target "target" .curio_result_type "positive" .chance 200% .Stress 05 .clear_debuff 1 .buff_ids  "Succ_Purple_Dust_SPD_1"  						 "Succ_Purple_Dust_DMGH_1" "Succ_Purple_Dust_DMGL_1" "Succ_Addiction_1"						"Succ_Addiction_3"	.on_hit true .on_miss false .queue true .refreshes_skill_uses true
+effect: .name "succ_purple_spice_1"  .target "target" .curio_result_type "positive" .chance 200% .Stress 10 .clear_debuff 1 .buff_ids  "Succ_Purple_Dust_SPD_2" "Succ_Purple_Dust_ACC_1" "Succ_Purple_Dust_DMGH_1" "Succ_Purple_Dust_DMGL_1" "Succ_Addiction_1"						"Succ_Addiction_3"	.on_hit true .on_miss false .queue true .refreshes_skill_uses true
+effect: .name "succ_purple_spice_2"  .target "target" .curio_result_type "positive" .chance 200% .Stress 15 .clear_debuff 1 .buff_ids  "Succ_Purple_Dust_SPD_3" "Succ_Purple_Dust_ACC_2" "Succ_Purple_Dust_DMGH_2" "Succ_Purple_Dust_DMGL_2" "Succ_Addiction_1" 					"Succ_Addiction_3" 	.on_hit true .on_miss false .queue true .refreshes_skill_uses true
+effect: .name "succ_purple_spice_3"  .target "target" .curio_result_type "positive" .chance 200% .Stress 20 .clear_debuff 1 .buff_ids  "Succ_Purple_Dust_SPD_4" "Succ_Purple_Dust_ACC_3" "Succ_Purple_Dust_DMGH_2" "Succ_Purple_Dust_DMGL_2" "Succ_Addiction_1" "Succ_Addiction_2"  "Succ_Addiction_3" 	.on_hit true .on_miss false .queue true .refreshes_skill_uses true 
+effect: .name "succ_purple_spice_4"  .target "target" .curio_result_type "positive" .chance 200% .Stress 30 .clear_debuff 1 .buff_ids  "Succ_Purple_Dust_SPD_4" "Succ_Purple_Dust_ACC_4" "Succ_Purple_Dust_DMGH_3" "Succ_Purple_Dust_DMGL_3" "Succ_Addiction_1" "Succ_Addiction_2"  "Succ_Addiction_3" 	.on_hit true .on_miss false .queue true .refreshes_skill_uses true 
+
+// Blix Item
+//---------------------------------------------------------------------------------/
+// Set of random effects
+
+// Good
+effect: .name "blix_good_1" 	.target "performer" .item 1 .duration 2 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .stealth 1  						.combat_stat_buff 1 .defense_rating_add 100% 																			.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "blix_good_2" 	.target "performer" .item 1 .duration 1 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .initiative_change 1 .healstress 10 																							.bark blix_good_bonus		.on_hit true .on_miss false .apply_once true .queue true 
+effect: .name "blix_good_3" 	.target "performer" .item 1 .duration 3 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .clearDotStress 1  	.healstress 35 	.buff_ids "Succ_Blix_Res_Stress"																						.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "blix_good_4" 	.target "performer" .item 1 .duration 1 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .heal_percent 0.20 	.healstress 15 																								.bark blix_good_refresh		.on_hit true .on_miss false .apply_once true .queue true .refreshes_skill_uses true 
+effect: .name "blix_good_5" 	.target "performer" .item 1 .duration 1 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .heal_percent 0.50 	.healstress 5 	.cure_disease 1																				.bark blix_good_refresh		.on_hit true .on_miss false .apply_once true .queue true .refreshes_skill_uses true 
+effect: .name "blix_good_6" 	.target "performer" .item 1 .duration 3 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .healstress 100 .buff_ids "Succ_Blix_Res_Stress"		.steal_buff_source_type bsrc_deathsdoor_recovery								.on_hit true .on_miss false .apply_once true .queue true  	
+effect: .name "blix_good_7" 	.target "performer" .item 1 .duration 3 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .tag 1 								.buff_ids "Succ_Blix_Reflect_1" 															.bark blix_good_refresh		.on_hit true .on_miss false .apply_once true .queue true .refreshes_skill_uses true 
+effect: .name "blix_good_8" 	.target "performer" .item 1 .duration 10 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .heal 1 .dotHpHeal 1  																																		.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "blix_good_9" 	.target "performer" .item 1 				.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .cure_disease 1 .heal 3 .untag 1  .steal_buff_source_type bsrc_deathsdoor_recovery 	.health_damage_blocks 1						.bark blix_good_refresh		.on_hit true .on_miss false .apply_once true .queue true .refreshes_skill_uses true 
+effect: .name "blix_good_10" 	.target "performer" .item 1 .duration 1		.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .combat_stat_buff 1 .crit_chance_add 100% .attack_rating_add 100% 																							.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "blix_good_11" 	.target "performer" .item 1 .duration 4 	.chance 100% .cure 1  .clear_debuff 1 .clearDotStress 1 .buff_ids "Succ_Blix_Res_Blight" "Succ_Blix_Res_Bleed" "Succ_Blix_Res_Debuff" "Succ_Blix_Res_Stun" "Succ_Blix_Res_Stress"									.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "blix_good_12" 	.target "performer" .item 1 .duration 1 	.chance 300% .cure 1  .clear_debuff 1 .clearDotStress 1 .disease blix_quirk_good 		.healstress 10																												.on_hit true .on_miss false .apply_once true .queue true		
+effect: .name "blix_good_13" 	.target "performer" .item 1 			 	.chance 300% .cure 1  .clear_debuff 1 .clearDotStress 1 .health_damage_blocks 2 		.untag 1 																													.on_hit true .on_miss false .apply_once true .queue true
+
+// Bad
+effect: .name "blix_bad_1" 	.target "performer" .item 1 .duration 3 		.chance 300% .stress 5 .shuffle 1 .dotShuffle 1 .buff_ids "Succ_Blix_Random_1" 							.bark blix_bad_bark_eye	.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_2" 	.target "performer" .item 1 .duration 1 		.chance 300% .stress 5 .disease any .disease any .dotPoison 6											.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_3" 	.target "performer" .item 1 .duration 2 		.chance 300% .stress 5 .health_damage 7 .buff_type hp_heal_received_percent .buff_amount -50% 			.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_4" 	.target "performer" .item 1 .duration 6 		.chance 300% .stress 5 .dotStress 3  																	.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_5" 	.target "performer" .item 1 .duration 1 		.chance 300% .stress 30  .buff_ids "Succ_Blix_Random_1" 												.bark blix_bad_bark_eye	.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_6" 	.target "performer" .item 1 .duration 2 		.chance 300% .stress 5 .stun 1 .stealth 1 .initiative_change -1																.bark blix_bad_bark 	.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_7" 	.target "performer" .item 1 .duration 2 		.chance 300% .stress 5 .stun 1 .tag 1 .buff_ids "Succ_Blix_DMGREC_1" 									.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_8" 	.target "performer" .item 1 .duration 3 		.chance 300% .stress 5 .tag 1 .clearguarding 1 .clearguarded 1 .unstealth 1 .buff_ids "Succ_block_guard" "Succ_Blix_Guard" "Succ_Blix_Heal" .bark blix_bad_bark .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_9" 	.target "performer" .item 1 .duration 6 		.chance 300% .stress 7 .dotBleed 2 .buff_ids "Succ_Blix_Cure_1"  										.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_10" .target "performer" .item 1 .duration 1 		.chance 300% .stress 10 .health_damage 10  																.bark blix_bad_bark		.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "blix_bad_11" .target "performer" .item 1 .duration 1 		.chance 300% .stress 5 .disease blix_quirk_bad 															.bark blix_bad_bark		.on_hit true .on_miss false .apply_once true 			.queue true
+effect: .name "blix_bad_12" .target "performer" .item 1 .duration 3  		.chance 300% .stress 5 .initiative_change -1 .health_damage 5 .stun 1 .shuffle 1 .disease any .clearguarded 1 .clearguarding 1 .tag 1 .unstealth 1 .stun 1 .buff_ids "Succ_block_guard" "Succ_Blix_DMGREC_1" "Succ_Blix_Random_1" 	.bark blix_bad_bark 	.on_hit true .on_miss false .apply_once true 	.queue true
+
+//#######################################################################################################################
+//TESING
+//#######################################################################################################################
+
+
+//###########################################################################################################################
+// UNUSED EFFECTS
+//###########################################################################################################################
+
+// Party DMG + Stressheal (unused)
+effect: .name "damage_cloak_stress_heal_party_1" .target "performer_group_other" .chance 130% .healstress 2 .health_damage 0 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "damage_cloak_stress_heal_party_2" .target "performer_group_other" .chance 140% .healstress 3 .health_damage 0 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "damage_cloak_stress_heal_party_3" .target "performer_group_other" .chance 150% .healstress 4 .health_damage 0 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "damage_cloak_stress_heal_party_4" .target "performer_group_other" .chance 160% .healstress 5 .health_damage 0 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "damage_cloak_stress_heal_party_5" .target "performer_group_other" .chance 170% .healstress 6 .health_damage 0 .on_hit true .on_miss false .queue true .has_description false
+
+//Protect your godess OLD UNUSED
+effect: .name "old instatnt_buffs_anti_round_1" .target "performer" .chance 500% .skill_instant true .buff_ids guard_vs_zero_1 guard_vs_zero_2 guard_vs_zero_3 guard_vs_zero_4 guard_vs_zero_5 guard_vs_zero_6 guard_vs_zero_7 guard_vs_zero_8 .on_hit true .on_miss true .apply_once true  .has_description false
+effect: .name "old instatnt_buffs_anti_round_2" .target "performer" .chance 500% .skill_instant true .buff_ids guard_vs_zero_9 guard_vs_zero_10 guard_vs_zero_11 guard_vs_zero_12 guard_vs_zero_13 guard_vs_zero_14  guard_vs_zero_15  guard_vs_zero_16 .on_hit true .on_miss true .apply_once true  .has_description false
+
+//Effects: Stun, + 1 Action, Break Guard, prevent guard
+effect: .name "old Succ Delay" 	.target "target" .chance 500% .buff_ids guard_balance Succ_block_guard Succ_Hero_DisableGuard 	.duration 3 .buff_duration_type before_turn .stun 1 .tag 1 .initiative_change 1 .clearguarding 1 .clearguarded 1 .on_hit true .on_miss false .apply_once true  .has_description false
+
+// If you seek for sth. of interest
+//https://archive.org/download/KEYBOARDDRUMSETFUCKINGWEREWOLF
+
+//###########################################################################################################################
+// Code by Carnifex and Sasiji

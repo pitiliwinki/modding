@@ -1,0 +1,821 @@
+﻿<?xml version="1。0" encoding="UTF-8"?>
+<root>
+	<language id="schinese">
+	<entry id="hero_class_name_rescuer"><![CDATA[搜救者]]></entry>
+	<!--Original Rescuer Character Design and Art by Selafio. Coding and Sounds by Dem. Chinese Translation by 梦灵 and nbb -->
+	
+<!--Extra Names -->
+	<entry id="hero_name_einstein"><![CDATA[爱因斯坦]]></entry>
+	<entry id="hero_name_alina"><![CDATA[阿丽娜]]></entry>
+	<entry id="hero_name_gurutz"><![CDATA[古鲁兹]]></entry>
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[蜘蛛]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[蜘蛛]]></entry>
+		
+<!--First RESC Subtitle -->
+	<entry id="str_vo_bad_recruit_rescuer_0"><![CDATA[时刻警惕，时刻会出现的危险和战斗能让一个粗心的英雄马上倒下。]]></entry>
+
+<!--Dungeon Sunward Isles -->
+	<entry id="buff_rule_data_tooltip_ship"><![CDATA[朝日群岛]]></entry>
+	<entry id="trinket_rarity_sakura"><![CDATA[朝日]]></entry>
+
+<!--District RESC Race Track -->
+    <entry id="str_race_track_title"><![CDATA[赛马场]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_district_tooltip_x"><![CDATA[{colour_start|notable}群攻策略：{colour_end}+20%%伤害]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_district_tooltip2_x"><![CDATA[当探索{colour_start|pet_cemetery}宠物墓地时：{colour_end}+20%%{colour_start|stun}眩晕{colour_end}抗性]]></entry>
+	<entry id="str_race_track_buff_curio_buff0"><![CDATA[与奇物互动时治疗5{colour_start|stress}压力{colour_end}]]></entry>
+	
+<!--HotW Missing String Coral Lantern Trinket -->
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[{colour_start|surprised}伏击几率{colour_end}]]></entry>
+	
+<!--Trinket Label -->
+	<entry id="str_inventory_set_title_resc_ale_label"><![CDATA[{colour_start|notable}这些现场记录可以提供帮助{colour_end}]]></entry>
+	
+<!--Missing Effect Strings -->
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[治愈{colour_start|bleed}流血{colour_end}]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[清除{colour_start|stress}恐惧{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[治愈{colour_start|blight}腐蚀{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_disease_treatment"><![CDATA[病房]]></entry><entry id="buff_rule_data_tooltip_treatment"><![CDATA[病房]]></entry>
+	
+	<!--Missing Bleed Duration Received String -->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}持续时间]]></entry>
+	
+<!--Missing Cure Bleed and poison Chance String -->
+	<entry id="buff_stat_tooltip_cure_bleed_chance"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}治愈概率]]></entry>
+	<entry id="buff_stat_tooltip_cure_blight_chance"><![CDATA[%+d%%{colour_start|blight}腐蚀{colour_end}治愈概率]]></entry>
+	<entry id="buff_stat_tooltip_cure_poison_chance"><![CDATA[%+d%%{colour_start|blight}腐蚀{colour_end}治愈概率]]></entry>
+	
+<!--Missing Blight Resist String -->
+	<entry id="buff_stat_tooltip_resistance_poison"><![CDATA[%+d%%{colour_start|blight}腐蚀{colour_end}抗性]]></entry>
+	
+<!--Missing Death Resist String -->
+	<entry id="buff_stat_tooltip_resistance_death"><![CDATA[%+d%%{colour_start|stress}致死{colour_end}抗性]]></entry>
+	
+<!--Custom Virtue Protectorate-->
+    <entry id="str_virtue_name_protectorateb"><![CDATA[卫护]]></entry>
+	<entry id="str_virtued_protectorateb"><![CDATA[作为一个团队！我们将一起攻克难关！]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[我将保护我们！]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[纪律与力量！]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[不可征服！]]></entry>
+	
+	<entry id="str_stress_heal_party_protectorateb"><![CDATA[齐心协力！]]></entry>
+	<entry id="str_buff_party_protectorateb"><![CDATA[齐心协力，我们就有了保护！]]></entry>
+	<entry id="str_heal_self_protectorateb"><![CDATA[让我缓缓气！]]></entry>
+	<entry id="rescuer+str_heal_self_protectorateb"><![CDATA[我应该喝些神秘液体了！]]></entry>
+	
+<!--Custom Virtue Medical-->
+    <entry id="str_virtue_name_medical"><![CDATA[人道]]></entry>
+	<entry id="str_virtued_medical"><![CDATA[众志成城！]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[我的医疗训练会帮助我们的！]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[我会让我们活下去的！]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[我会救治你的伤势！]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[一位医生能帮得上忙！]]></entry>
+	<entry id="rescuer+str_virtued_medical"><![CDATA[我是一位搜救者！]]></entry>
+	
+	<entry id="str_stress_heal_party_medical"><![CDATA[笑气能帮到忙的！]]></entry>
+	<entry id="str_stress_heal_party_medical"><![CDATA[放松一点！]]></entry>
+	<entry id="str_stress_heal_self_medical"><![CDATA[我知道我能做到的！]]></entry>
+	<entry id="str_stress_heal_self_medical"><![CDATA[现在当心点！]]></entry>
+	<entry id="str_buff_random_party_member_medical"><![CDATA[这个可以强化你！]]></entry>
+	<entry id="str_buff_random_party_member_medical"><![CDATA[你会受到帮助的！]]></entry>
+	<entry id="str_heal_self_medical"><![CDATA[我需要保护这个团队！]]></entry>
+	<entry id="str_heal_self_medical"><![CDATA[猎犬们，准备采取行动！]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[我们不会这么容易死的！]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[我们会奋战到底！]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[众志成城！]]></entry>
+	
+<!--Town Descriptions -->
+	<entry id="action_verbose_body_blacksmith_rescuer"><![CDATA[搜救者身着一件由比利牛斯羊毛制成的厚实外套。这件外套已经传承了好几代的搜救者。作为对医学这门技艺的一个象征，这件外套不断的经历修补和翻新，却从未被更换。他的曲柄杖由一根笔直而又有弹性的树枝制成，以作为他手臂的延伸。如果救援者发现自己已陷入困境，他可以使用它推开敌人。]]></entry>
+	<entry id="action_verbose_body_guild_rescuer"><![CDATA[搜救者从小在圣伯纳德的修道士们关怀下长大，由此他受到了一段特别的教育。修道士教会了他如何辨识蕴含愈治功效的植物和矿物，以及牧羊人的秘诀。后来，在大学里，他通过药理学的最新发现扩充了他的学识，由此学会了如何合成笑气，以及安全的施用它。由于他的声誉和专业，他被授予‘医疗大师’称号。]]></entry>
+	<entry id="action_verbose_body_camping_trainer_rescuer"><![CDATA[接受过草药和传统医学培训，搜救者可以将植物转化为超强治愈力的药物。他对牧羊的了解有助于让他的那些四只脚的伙伴们保持身心强韧。在营地，他可以专注于研究、寻找草药或教授战斗技巧。必要时，搜救者会牺牲睡眠和体力，以确保队伍的休息。帮助他在野外生存的猎犬们，可以服务于站岗或帮助激励队伍。 ]]></entry>
+		
+<!--Town Event: RESC -->
+    <entry id="town_event_title_first_rescuer"><![CDATA[喜迎搜救者……]]></entry>
+    <entry id="town_event_description_first_rescuer"><![CDATA[暖春已至，冰雪消融，山道畅通。随之从山中而来的是一个健壮的男人和他友好的两只狗，还有三个被认为已经死去的村民！赞美哈姆雷特！]]></entry>
+	
+<!--CUSTOM TOOL TIPS -->
+	<!--Bleed Chance tip -->
+		<entry id="buff_stat_tooltip_bleed_chance"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}技能概率]]></entry>
+	<!--Virtue Chance -->
+		<entry id="buff_stat_tooltip_resolve_check_percent"><![CDATA[%+d%%{colour_start|virtue}美德{colour_end}概率]]></entry>
+		
+	<!--Stun Chance tip -->
+		<entry id="buff_stat_tooltip_stun_chance"><![CDATA[%+d%%{colour_start|stun}眩晕{colour_end}技能概率]]></entry>
+		
+	<!--Bleed Amount tip -->
+		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}持续时间]]></entry>
+		
+	<!--RESC Party Restrictions-->
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[这样会有太多狗崽了！]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[犬群会变得过于难以控制！]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[对不起，那样行不通！]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[他是最差的！我的医术比他好得多！不了，谢谢你了。]]></entry>
+
+	<entry id="rescuer+str_incompatible_party_succubus_restriction"><![CDATA[对不起，那个女祭司让狗狗们不舒服。]]></entry>
+	<entry id="rescuer+str_incompatible_party_succubus_restriction"><![CDATA[她的能力看起来很黑暗。我不会跟那个祭司女祭司的。]]></entry>
+	<entry id="rescuer+str_incompatible_party_member_succubus_restriction"><![CDATA[我们不会和她同行的!]]></entry>
+	<entry id="succubus+str_incompatible_party_member_succubus_restriction"><![CDATA[那些猎犬讨厌我！]]></entry>
+	<entry id="str_incompatible_party_member_succubus_restriction"><![CDATA[我们组不成一个好的队伍！]]></entry>
+	
+<!--SKILL ToolTip Motivate Custom -->
+	<entry id="effect_refresh_skill_uses"><![CDATA[{colour_start|notable}刷新{colour_end}“每场战斗使用”技能的次数]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_motivate_tooltip_1_buff_x"><![CDATA[{colour_start|resc_blue}{colour_start|notable}刷新{colour_end}催眠无法以自己为目标{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_RESC_motivate_tooltip_2_buff_x"><![CDATA[{colour_start|resc_blue}强化{colour_start|healhp}治疗{colour_end}和{colour_start|stress}压力{colour_end}技能 仅下一回合{colour_end}]]></entry>
+	
+<!--SKILL ToolTip Oxide -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_oxide_tooltip_1_buff_x"><![CDATA[{colour_start|resc_blue}笑气可以放松队伍，{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_oxide_tooltip_1B_buff_x"><![CDATA[{colour_start|resc_blue}但要冒着{colour_start|stun}自身眩晕{colour_end}和目眩的风险{colour_end} ]]></entry>
+	
+<!--SKILL ToolTip Herding Bleed Custom -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_A_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|neutral}(100%%基础概率){colour_end}2伤害/每回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_B_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|neutral}(110%%基础概率){colour_end}2伤害/每回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_C_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|neutral}(120%%基础概率){colour_end}3伤害/每回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_D_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|neutral}(130%%基础概率){colour_end}3伤害/每回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_E_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|neutral}(140%%基础概率){colour_end}4伤害/每回合 持续2回合]]></entry>
+	
+<!--SKILL ToolTip Herding Spider Custom -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_A2_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end} {colour_start|spider_blue}蜘蛛猎手：{colour_end}双倍伤害 对{colour_start|spider_blue}蜘蛛{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_B2_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end} {colour_start|spider_blue}蜘蛛猎手：{colour_end}双倍伤害 对{colour_start|spider_blue}蜘蛛{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_C2_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end} {colour_start|spider_blue}蜘蛛猎手：{colour_end}双倍伤害 对{colour_start|spider_blue}蜘蛛{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_D2_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end} {colour_start|spider_blue}蜘蛛猎手：{colour_end}双倍伤害 对{colour_start|spider_blue}蜘蛛{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_E2_buff_x"><![CDATA[{colour_start|riposte}反击：{colour_end} {colour_start|spider_blue}蜘蛛猎手：{colour_end}双倍伤害 对{colour_start|spider_blue}蜘蛛{colour_end}]]></entry>
+	
+<!--Skills Rule Strings -->
+	<entry id="buff_rule_data_tooltip_firstaid"><![CDATA[{colour_start|notable}伤口包扎{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_nitrous"><![CDATA[{colour_start|notable}氧化亚氮{colour_end}]]></entry>
+
+<!--Skills -->
+	<entry id="combat_skill_name_rescuer_firstaid"><![CDATA[伤口包扎]]></entry>
+	<entry id="combat_skill_name_rescuer_tonic_mix"><![CDATA[混合补剂]]></entry>
+	<entry id="combat_skill_name_rescuer_nitrous_oxide"><![CDATA[氧化亚氮]]></entry>
+	<entry id="combat_skill_name_rescuer_herding_tactics"><![CDATA[群攻策略]]></entry>
+    <entry id="combat_skill_name_rescuer_catharsis"><![CDATA[激励催眠]]></entry>
+    <entry id="combat_skill_name_rescuer_stay_away"><![CDATA[滚开！]]></entry>
+    <entry id="combat_skill_name_rescuer_follow_the_track"><![CDATA[跟随踪迹！]]></entry>
+    <entry id="combat_skill_name_rescuer_move"><![CDATA[移动]]></entry>
+
+    <entry id="upgrade_tree_name_rescuer.firstaid"><![CDATA[伤口包扎]]></entry>
+	<entry id="upgrade_tree_name_rescuer.tonic_mix"><![CDATA[混合补剂]]></entry>
+	<entry id="upgrade_tree_name_rescuer.nitrous_oxide"><![CDATA[氧化亚氮]]></entry>
+    <entry id="upgrade_tree_name_rescuer.herding_tactics"><![CDATA[群攻策略]]></entry>
+    <entry id="upgrade_tree_name_rescuer.catharsis"><![CDATA[激励催眠]]></entry>
+    <entry id="upgrade_tree_name_rescuer.stay_away"><![CDATA[滚开！]]></entry>
+    <entry id="upgrade_tree_name_rescuer.follow_the_track"><![CDATA[跟随踪迹！]]></entry>
+
+<!--Weapons -->
+	<entry id="rescuer_weapon_0"><![CDATA[基础的曲柄杖]]></entry>
+	<entry id="rescuer_weapon_1"><![CDATA[精制的曲柄杖]]></entry>
+    <entry id="rescuer_weapon_2"><![CDATA[旅行曲柄杖]]></entry>
+    <entry id="rescuer_weapon_3"><![CDATA[侍者曲柄杖]]></entry>
+    <entry id="rescuer_weapon_4"><![CDATA[“牧羊人之秘”]]></entry>
+    <entry id="upgrade_tree_name_rescuer.weapon"><![CDATA[曲柄杖]]></entry>
+   	<entry id="rescuer_armour_0"><![CDATA[旅者套装]]></entry>
+   	<entry id="rescuer_armour_1"><![CDATA[加固过的套装]]></entry> 
+   	<entry id="rescuer_armour_2"><![CDATA[寒冬套装]]></entry>
+   	<entry id="rescuer_armour_3"><![CDATA[侍者套装]]></entry>
+   	<entry id="rescuer_armour_4"><![CDATA[“100个冬天”]]></entry>
+    <entry id="upgrade_tree_name_rescuer。armour"><![CDATA[旅者套装]]></entry>
+						
+	<entry id="rescuer+str_monster_user_selected_targets_kill_pill"><![CDATA[即使一位是医生也逃不过死亡！]]></entry>
+			
+<!--RESC Trinkets -->
+	<entry id="str_inventory_title_trinketresc1"><![CDATA[听诊器]]></entry>
+    <entry id="str_inventory_title_trinketresc2"><![CDATA[气体罐]]></entry>
+    <entry id="str_inventory_title_trinketresc3"><![CDATA[带羽毛的狗玩具]]></entry>
+    <entry id="str_inventory_title_trinketresc4"><![CDATA[手术器械]]></entry>
+    <entry id="str_inventory_title_trinketresc5"><![CDATA[临时骨科指南]]></entry>
+	<entry id="str_inventory_title_trinketresc6"><![CDATA[比利牛斯羊毛狗项圈]]></entry>
+    <entry id="str_inventory_title_trinketresc7"><![CDATA[巴里的桶]]></entry>
+	 <entry id="str_inventory_title_trinketresc8"><![CDATA[医者指南月刊]]></entry>
+	 <entry id="str_inventory_title_trinketresc9"><![CDATA[伊曼纽尔·马斯科普洛斯所著的《五维解剖学》]]></entry>
+
+<!--RESC COM + CC Trinkets + Collectors Head + Sunward Isle --> 
+	<entry id="str_inventory_title_trinketcom_resc_1"><![CDATA[超立方体防毒面具]]></entry>
+    <entry id="str_inventory_title_trinketcollector_resc"><![CDATA[爱因斯坦的头颅]]></entry>
+    <entry id="str_inventory_title_trinketcc_resc_1"><![CDATA[高级文凭]]></entry>
+    <entry id="str_inventory_title_trinketcc_resc_2"><![CDATA[侍者奖章]]></entry>
+    <entry id="str_inventory_set_title_cc_resc_combined12"><![CDATA[“医疗之道”]]></entry>
+	<entry id="str_inventory_title_trinketsunward_resc"><![CDATA[“10”（针灸用针）]]></entry>
+	
+<!--Dog Barrel Estate Item rules and barks  --> 
+	<entry id="buff_rule_data_tooltip_resc_barrel_1_fx"><![CDATA[{colour_start|resc_blue}小酌一口白兰地能让你马上暖和起来！{colour_end}+10暴击概率（1回合）]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_resc_barrel_1"><![CDATA[圣伯纳德修道士善终服务用白兰地（428年陈酿)]]></entry>
+	
+	<entry id="str_inventory_title_estateresc_barrel_1"><![CDATA[圣伯纳德修道士善终服务用白兰地（极度古老）]]></entry>
+
+	<entry id="str_inventory_description_estateresc_barrel_1"><![CDATA[{colour_start|resc_blue}小酌一口稀有白兰地能让你马上暖和起来！{colour_end}+25暴击概率（1回合）]]></entry>
+			
+	<entry id="resc_drink_barrel_1"><![CDATA[这酒劲真大！]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[准备行动！]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[干杯!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[敬倒下者！]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[敬荣耀！！]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[为了团队！]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[这是最棒的白兰地!]]></entry>
+	
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[这桶白兰地是拿来让搜救者取暖的！]]></entry>
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[修道士们开始从生产白兰地之中获利。]]></entry>
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[这应该会增强我们的攻击！]]></entry>
+	
+<!--Other Classes Drink Brandy Barks-->
+	<entry id="abomination+resc_drink_barrel_1"><![CDATA[这酒劲真大！]]></entry>
+	<entry id="antiquarian+resc_drink_barrel_1"><![CDATA[准备行动！]]></entry>
+	<entry id="arbalest+resc_drink_barrel_1"><![CDATA[这能强化我的准头！]]></entry>
+	<entry id="bounty_hunter+resc_drink_barrel_1"><![CDATA[顶级的白兰地！谢了。]]></entry>
+	<entry id="crusader+resc_drink_barrel_1"><![CDATA[它暖了我的胃！]]></entry>
+	<entry id="grave_robber+resc_drink_barrel_1"><![CDATA[别介意我这样喝！]]></entry>
+	<entry id="hellion+resc_drink_barrel_1"><![CDATA[敬胜利！！]]></entry>
+	<entry id="highwayman+resc_drink_barrel_1"><![CDATA[干杯！]]></entry>
+	<entry id="houndmaster+resc_drink_barrel_1"><![CDATA[敬猎犬们！]]></entry>
+	<entry id="jester+resc_drink_barrel_1"><![CDATA[一杯不伤身！]]></entry>
+	<entry id="leper+resc_drink_barrel_1"><![CDATA[我感觉到了力量!]]></entry>
+	<entry id="man_at_arms+resc_drink_barrel_1"><![CDATA[那才是一杯极好的白兰地！]]></entry>
+	<entry id="occultist+resc_drink_barrel_1"><![CDATA[它增强了我的力量！]]></entry>
+	<entry id="plague_doctor+resc_drink_barrel_1"><![CDATA[比药还管用!]]></entry>
+	<entry id="vestal+resc_drink_barrel_1"><![CDATA[不全像红酒……]]></entry>
+	<entry id="shieldbreaker+resc_drink_barrel_1"><![CDATA[敬未来！]]></entry>
+	<entry id="musketeer+resc_drink_barrel_1"><![CDATA[*咳嗽*那。酒。劲。儿。太。大。了！]]></entry>
+	<entry id="flagellant+resc_drink_barrel_1"><![CDATA[它能缓和我的痛苦!]]></entry>
+	<entry id="harlot+resc_drink_barrel_1"><![CDATA[让我们开始派对吧！]]></entry>
+	<entry id="barbarian+resc_drink_barrel_1"><![CDATA[甚至比啤酒好喝！]]></entry>
+	<entry id="shadow_walker+resc_drink_barrel_1"><![CDATA[敬狩猎！]]></entry>
+	<entry id="picaroon+resc_drink_barrel_1"><![CDATA[一杯配得上大海的饮料！]]></entry>
+
+<!--RESC Quirk 1-->
+	<entry id="str_quirk_name_RESC_quirk_1"><![CDATA[高级医疗培训]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_1_x"><![CDATA[{colour_start|resc_blue}细致的学习和精心的奉献提高了你的治疗技能。{colour_end}]]></entry>
+	
+<!--RESC Quirk 2-->
+	<entry id="str_quirk_name_RESC_quirk_2"><![CDATA[修士之慧]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_2_x"><![CDATA[{colour_start|resc_blue}圣伯纳德僧侣安宁院急救训练。{colour_end}]]></entry>
+	
+<!--RESC Quirk 3-->
+	<entry id="str_quirk_name_RESC_quirk_3"><![CDATA[修士之体]]></entry>
+	<entry id="buff_rule_data_tooltip_stay_away"><![CDATA[滚开！]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_3_x"><![CDATA[{colour_start|resc_blue}圣伯纳德安宁院修道士的训练提高了灵活性。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_4_x"><![CDATA[{colour_start|notable}额外奖励棍杖训练：{colour_end} “滚开！”技能：增加{colour_start|stun}眩晕{colour_end}技能概率]]></entry>
+	
+	<entry id="RESC_bark_staff_trigger"><![CDATA[我现在明白修道士们的意思了。]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[我的棍杖训练获得了提升。]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[一个持握曲柄杖的新方法会很有帮助。]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[四两拨千斤。]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[如果我打的地方正确的话，实验对象可能会眩晕。]]></entry>
+
+<!--RESC Quirk 4-->
+	<entry id="str_quirk_name_RESC_quirk_4"><![CDATA[成功压力]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_5_x"><![CDATA[{colour_start|resc_blue}你对成功的压力阻碍了你的的情绪。{colour_end}]]></entry>
+	
+<!--RESC Quirk 5-->
+	<entry id="str_quirk_name_RESC_quirk_5"><![CDATA[牧羊人]]></entry>
+	<entry id="buff_rule_data_tooltip_herding_tactics"><![CDATA[群攻策略]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_8_x"><![CDATA[{colour_start|resc_blue}数小时的训练带来了显著的效果。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_9_x"><![CDATA[{colour_start|notable}额外奖励控犬训练：{colour_end}“群攻策略”技能：增加{colour_start|mark}标记{colour_end}技能概率]]></entry>
+		
+	<entry id="RESC_bark_herd_trigger"><![CDATA[把它们逼到一块去！]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[辨认头领。]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[现在聚拢！]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[这样控制敌人就更容易了。]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[如果我们保持严密的阵型，我们就能掌控局势。]]></entry>
+		
+<!--RESC Quirk 6-->
+	<entry id="str_quirk_name_RESC_quirk_6"><![CDATA[优秀猎人]]></entry>
+	<entry id="buff_rule_data_tooltip_follow_the_track"><![CDATA[跟随踪迹！]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_6_x"><![CDATA[{colour_start|resc_blue}老狗还是能学出新把戏。{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_7_x"><![CDATA[{colour_start|notable}额外奖励猎犬狩猎：{colour_end} “跟随踪迹！”技能：增加{colour_start|bleed}流血{colour_end}技能概率]]></entry>
+			
+<!--RESC Quirk 7-->
+	<entry id="str_quirk_name_RESC_quirk_7"><![CDATA[医疗助手]]></entry>
+	<entry id="buff_rule_data_tooltip_follow_the_track"><![CDATA[跟随踪迹！]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_10_x"><![CDATA[{colour_start|resc_blue}你在病房的兼职工作为你分发了一笔津贴。{colour_end}]]></entry>
+	
+<!--RESC Quirk 8-->
+	<entry id="str_quirk_name_RESC_quirk_8"><![CDATA[医学研究者]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_11_x"><![CDATA[{colour_start|resc_blue}你在病房的行为学研究研究员职位分发了一小笔津贴。{colour_end}]]></entry>
+	
+<!--RESC Quirk 9-->
+	<entry id="str_quirk_name_RESC_quirk_9"><![CDATA[噩梦病患]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_12_x"><![CDATA[{colour_start|resc_blue}你是一个糟糕的病患！这或许将花费额外的费用！{colour_end}]]></entry>
+	
+<!--RESC Trinket Custom Tip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_13_x"><![CDATA[如果闪避：+10%%防御（2回合）]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_14_x"><![CDATA[被击中时：攻击者-40%%{colour_start|stun}眩晕{colour_end}抗性（2回合）]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_15_x"><![CDATA[概率{colour_start|stun}眩晕{colour_end}攻击者]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_16_x"><![CDATA[攻击命中：概率-15%% {colour_start|stress}防御{colour_end}、-15%%{colour_start|bleed}流血{colour_end}抗性（2回合）]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_17_x"><![CDATA[{colour_start|resc_blue}群攻策略{colour_end}+{colour_start|resc_blue}跟随踪迹！：{colour_end}+20%%伤害、+15%%精准]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_18_x"><![CDATA[+20%%{colour_start|buff}最大生命值{colour_end} 如果{colour_start|resc_blue}修道士的白兰地{colour_end}在物品栏中]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_19_x"><![CDATA[{colour_start|notable}这个来自故乡的项圈增强了一只猎犬的狩猎能力{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_20_x"><![CDATA[{colour_start|notable}每根针头有一个医学用途{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_21_x"><![CDATA[被击中时：-5%%{colour_start|notable}被暴击几率{colour_end}（2回合）]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_22_x"><![CDATA[{colour_start|debuff}1根不明的针头感觉在发热{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_23_x"><![CDATA[{colour_start|notable}任何人都可以在这个健康文摘里学到东西，{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_24_x"><![CDATA[{colour_start|notable}但这很复杂而且让人分心{colour_end}]]></entry>
+		
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[现在猎犬们知道攻击哪里能让流跟多血了!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[猎犬们已经进化了它们的狩猎策略！]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[高山教会了猎犬们如何狩猎！]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[是渴望一次优秀狩猎的气味!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[无处可逃！]]></entry>
+
+<!--Party Names -->
+	<entry id="party_name_222700"><![CDATA[全方位覆盖]]></entry>
+	<entry id="party_name_222701"><![CDATA[狩猎协会]]></entry>
+	<entry id="party_name_222702"><![CDATA[掠尸者]]></entry>
+	<entry id="party_name_222703"><![CDATA[毒液收集者]]></entry>
+	<entry id="party_name_222704"><![CDATA[医者契约：眩晕专家]]></entry>
+	<entry id="party_name_222705"><![CDATA[兽群]]></entry>
+	<entry id="party_name_222706"><![CDATA[阿努比斯的黑手套]]></entry>
+	<entry id="party_name_222707"><![CDATA[白银天使]]></entry>
+	<entry id="party_name_222708"><![CDATA[医者契约：战斗女祭司]]></entry>
+	<entry id="party_name_222709"><![CDATA[医者契约：九头蛇医者]]></entry>
+	<entry id="party_name_222710"><![CDATA[睿智旅者]]></entry>
+	<entry id="party_name_222711"><![CDATA[追血者工会]]></entry>
+	<entry id="party_name_222712"><![CDATA[爱与死亡的使者]]></entry>
+	<entry id="party_name_222713"><![CDATA[大侦探]]></entry>
+	<entry id="party_name_222714"><![CDATA[崇高的标志]]></entry>
+	<entry id="party_name_222715"><![CDATA[六人主力]]></entry>
+	<entry id="party_name_222716"><![CDATA[周日午后的狩猎俱乐部]]></entry>
+	<entry id="party_name_222717"><![CDATA[3条狗、3位男人、2位医生]]></entry>
+	<entry id="party_name_222718"><![CDATA[星随舞动]]></entry>
+	<entry id="party_name_222719"><![CDATA[蓝星同伴]]></entry>
+	<entry id="party_name_222720"><![CDATA[侦察单位]]></entry>
+	<entry id="party_name_222721"><![CDATA[血染途路]]></entry>
+	<entry id="party_name_222722"><![CDATA[幸存者]]></entry>
+	<entry id="party_name_222723"><![CDATA[疾风猎犬]]></entry>
+	<entry id="party_name_222724"><![CDATA[x]]></entry>	
+	<entry id="party_name_222725"><![CDATA[x]]></entry>		
+		
+<!--Camping Skill Names -->
+    <entry id="camping_skill_name_resc_1"><![CDATA[猎犬守夜]]></entry>
+    <entry id="camping_skill_name_resc_2"><![CDATA[强化培训]]></entry>
+    <entry id="camping_skill_name_resc_3"><![CDATA[施用敷药]]></entry>
+    <entry id="camping_skill_name_resc_4"><![CDATA[侍者使命]]></entry>
+    <entry id="camping_skill_name_resc_5"><![CDATA[医学研究]]></entry>
+    <entry id="camping_skill_name_resc_6"><![CDATA[猎犬吠叫]]></entry>
+    <entry id="camping_skill_name_resc_7"><![CDATA[空气中的气味]]></entry>
+	
+<!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_RESC_Herbs_of_the_Wild_Camp"><![CDATA[搜索{colour_start|notable}草药{colour_end}]]></entry>
+  <entry id="camping_skill_effect_loot_random_RESC_supplies_bonus"><![CDATA[搜索{colour_start|notable}补给{colour_end}]]></entry>
+	
+<!--Camping Skill Barks -->
+    <entry id="str_bark_resc_1"><![CDATA[猎犬们坐立不安；它们感觉到了正包围着我们的危险。]]></entry>
+    <entry id="str_bark_resc_1"><![CDATA[猎犬似乎被空气中的某种东西惊动了。]]></entry>
+    <entry id="str_bark_resc_1"><![CDATA[我记得那次在山上……]]></entry>
+	<entry id="str_bark_resc_1"><![CDATA[你要保持健康才能在紧要关头大放异彩。]]></entry>
+	
+	<entry id="str_bark_resc_2"><![CDATA[练习时间到。这只是睡觉前的基本活动。]]></entry>
+    <entry id="str_bark_resc_2"><![CDATA[来一次小小的练习不？]]></entry>
+    <entry id="str_bark_resc_2"><![CDATA[保养武器很重要。]]></entry>
+	<entry id="str_bark_resc_2"><![CDATA[军事化的指令训练……]]></entry>
+ 
+	<entry id="str_bark_resc_3"><![CDATA[让我来处理你的伤吧。]]></entry>
+    <entry id="str_bark_resc_3"><![CDATA[这可以减轻疼痛。]]></entry>
+    <entry id="str_bark_resc_3"><![CDATA[这个技巧会让你更好受一些的。]]></entry>
+ <entry id="str_bark_resc_3"><![CDATA[把这个药膏直接敷在发炎的肌肉上。]]></entry>
+	
+	<entry id="str_bark_resc_4"><![CDATA[去休息吧，我会保持清醒来监视康复的情况。]]></entry>
+    <entry id="str_bark_resc_4"><![CDATA[今晚去休息吧，猎犬们会站岗的。]]></entry>
+    <entry id="str_bark_resc_4"><![CDATA[明早你们会感觉好些的……]]></entry>
+	<entry id="str_bark_resc_4"><![CDATA[这可能是我们在此地区最后一次休息了，好好利用它吧。]]></entry>
+	 
+	<entry id="str_bark_resc_5"><![CDATA[生理学是将身体各部分作为一个整体的研究。]]></entry>
+    <entry id="str_bark_resc_5"><![CDATA[生物化学是研究活体结构中的化学物质。]]></entry>
+    <entry id="str_bark_resc_5"><![CDATA[解剖学是研究身体各部分之间的关系。]]></entry>
+	<entry id="str_bark_resc_5"><![CDATA[看来我对最新医学发现的研读已经落后了！]]></entry>
+	 
+	<entry id="str_bark_resc_6"><![CDATA[保持你的警觉。]]></entry>
+    <entry id="str_bark_resc_6"><![CDATA[这些猎犬们会让我们保持警惕。]]></entry>
+    <entry id="str_bark_resc_6"><![CDATA[猎犬们很紧张！]]></entry>
+	<entry id="str_bark_resc_6"><![CDATA[你们和猎犬们一起守夜的时候用的要反应迅速！]]></entry>
+	 
+	<entry id="str_bark_resc_7"><![CDATA[猎犬会警示我们任何的危险。]]></entry>
+    <entry id="str_bark_resc_7"><![CDATA[我们有搜寻迷路之人的经验。]]></entry>
+    <entry id="str_bark_resc_7"><![CDATA[强烈的气味或许可以让我们洞察前方有何物。]]></entry>
+	<entry id="str_bark_resc_7"><![CDATA[它们有时喜欢去自己探路！]]></entry>
+	
+<!--Strings from the Master XCEL Sheet GO HERE -->
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[这污秽的浓汤会杀了我们的！]]></entry>
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[别让她把猎犬们给煮了！]]></entry>
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[快点！猎犬会溺死的！]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[猎犬们现在对它的新主人忠心耿耿!]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[我会用我的知识来协助我的女王。]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[我们不会再关心团队了。]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[这只不过是精神控制的一种形式。原谅我！]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[猎犬们和我都被魅惑了！]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[这就像一场噩梦，我却不能醒来！]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[马上放了我们！]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[猎犬们不喜欢被拴着！]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[铁链会吓坏猎犬们的！]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[我曾是一位军医。]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[我的使命是救死扶伤和施以援手。]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[我医术也无法欺骗死亡。]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[就算是我老练的医术也欺骗不了死神]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[晚安……朋友们。]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[照顾好猎犬们……拜托了。]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[频发的幻觉会引起焦虑！]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[我应该待在病床上的！]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[我今天的体征不太好！]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[即使是我的身体也背叛了我。]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[我知道这支队伍不想我在这。]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[我无法相信任何人，甚至无法相信我自己！]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[死亡……一件礼物……]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[死亡是我工作的唯一陪伴。]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[我终于可以过上我一生都在拒绝的生活了。]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[要花好几年才能学会医疗的技巧！]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[你们所有人促成了我的失败！]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[我的死将对你们来说如影随形……如果你们能活下来的话……]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[我再也不会去治疗他人了！]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[我浪费自己的生命去治疗他人。]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[如果我死了，谁又来照顾你们呢？]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[人生苦短，医技学起来却太久。]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[病患大多都是蠢货！]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[毕竟……死亡是无法战胜的。]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[我的病人在从我这里偷东西！]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[古鲁兹，阿丽娜……照顾好队伍……]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[古鲁兹，阿丽娜……把我的药拿给我……]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[劫匪们会找到我吗？]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[一切都变成了白色……就像无边无际的雪山……]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[我们就是一片雪地里的黑点！]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[强盗们还在跟踪我吗？]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[古鲁兹藏好你的脚印，否则他们会找到我们的。]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[阿丽娜你制造了太多噪音，闭嘴！]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[我的大部分病人都酗酒、嗑药或极其讨厌。]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[我们可以打开所有的气体罐然后溜走。]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[让我们看看我能承受多少这种痛苦！]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[别那么软弱。我可是在军队里训练过的。]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[我为什么要治疗你？]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[我从军这么多年，从没见过这么可悲的队伍。]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[我的药可不够救那么多人。]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[我需要先保护猎犬们。]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[医者当先自医。]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[我救不了这些病人或者护士！]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[有那么多人丧生在雪崩当中！]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[每个帮助别人的人都已经死了……]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[这声惊雷让我想起了雪崩！]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[那些公羊们已经追了我们好几年了。]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[也许我应该去当一位牙医？]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[我有耐心。我会学习你们的事迹。]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[我会从这次经历中吸取教训！]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[我们在书写今天，也就是科学的明天！]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[一副健康的躯体和一个坚强的灵魂！]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[科学将引导我们！]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[我们将直面雪崩，并战胜它！]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[我可接受过医学技艺的教育!]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[科学将战胜一切！]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[我头脑清醒，而我的记忆清晰！]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[我能握住生命的天平！]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[我感觉药物就在我血管之中流动！]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[我感觉意就像我毕业的时候！]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[病终可医！]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[我是解药，我是生命，我是治愈！]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[我的身体感觉到比以往任何时候都要健康！]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[我心身统一！]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[人体是存于世间最好的实验室！]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[第一次的，我的身体处于完美的状态！]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[我的医生培训是无价的！]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[我可以治愈我们！]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[我们会回复如初！]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[科学会治疗你的！]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[有了正确的刺激，身体就能做出令人难以置信的壮举！]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[我能增强你的美德！]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[我很好奇！]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[心神归一！]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[我们的队伍即是一个生机勃勃的整体！]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[我就像一位圣伯纳德一样强大！]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[我所有的训练把我带到了这里！]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[我的药能治愈一切！]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[我的医学训练束缚了我。]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[我因为帮助别人而要冒着得病的危险。]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[我恐怕我帮助不了所有人。]]></entry>
+<entry id="rescuer+str_bark_stress_paranoid"><![CDATA[科学让我失望了。]]></entry>
+<entry id="rescuer+str_bark_stress_paranoid"><![CDATA[你们在尝试除掉猎犬们！]]></entry>
+<entry id="rescuer+str_bark_stress_masochistic"><![CDATA[这让我感到紧张。]]></entry>
+<entry id="rescuer+str_bark_stress_masochistic"><![CDATA[这对我们不起作用。]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[爱并不是一种药物。]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[你们认为我所有的训练都是徒劳的吗？]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[你们根本不懂如何进行急救！]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[我是医生，所以请给我相当水平的治疗。]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[你应该尊重我。]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[我是一位内科医生，所以请相应地对待我。]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[我无法战胜死亡。]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[死亡是敌人，而它的力量却更胜一筹。]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[不停的和死神开战对立是很累的。]]></entry>
+<entry id="rescuer+str_bark_stress_irrational"><![CDATA[我不明白我们为什么要来这里！]]></entry>
+<entry id="rescuer+str_bark_stress_irrational"><![CDATA[我们走吧。我们跑吧。我们需要现在就离开！]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[我必须远离这片战争之地。]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[那些公羊在追我们，我必须躲起来。]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[雪崩太过绝望了，以至于无法回味。]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[他们是冲着我来的，那群强盗，来自那座高山上的医院！]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[别伤害我的猎犬们！]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[猎犬们！不！不要再回来了。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[你们竟敢打我的猎犬！你们会后悔的。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[我们已经接近极限了。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[我想猎犬们不会再待多久了。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[让我仔细看一下他们。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[让我走近一点，古鲁兹因为年龄已经快瞎了。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[要是我是个爱猫的人就好了！]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[我该养只猫的。]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[我母亲警告我过我，我不会找爱情的。]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[这是你想要的位置吗，阿丽娜？]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[搞定我，我大限将至。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[我再也没法拥有其他的小猎狗了。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[如果我要死了，至少我会看到是什么会杀了我。]]></entry>
+<entry id="rescuer+str_change_pos_back_depressed"><![CDATA[这支队伍真是存的让人心碎！]]></entry>
+<entry id="rescuer+str_change_pos_back_depressed"><![CDATA[如果我要死了，至少我不会是第一个。]]></entry>
+<entry id="rescuer+str_change_pos_fwd_selfish"><![CDATA[医生应该先上！]]></entry>
+<entry id="rescuer+str_change_pos_fwd_selfish"><![CDATA[我需要在这照顾你们所有人。]]></entry>
+<entry id="rescuer+str_change_pos_back_selfish"><![CDATA[别挡我的路，猎犬们需要散一下步。]]></entry>
+<entry id="rescuer+str_change_pos_back_selfish"><![CDATA[你们都应该是我的护卫！你们还想有什么意图？]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[死亡是事物的自然秩序！]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[太多了。我看得够多了。]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[我做不到！这太危险了！]]></entry>
+<entry id="rescuer+str_ignore_command_paranoid"><![CDATA[护士们，她们纠缠着我，她们的灵魂原谅我了吗？]]></entry>
+<entry id="rescuer+str_ignore_command_paranoid"><![CDATA[就像走入了一条雪崩的道路。]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[难道医生不值得拥有最好的食物、最好的床、最好的一切吗?]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[别指望这三个人能帮忙多久！]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[我想我得自力更生了……]]></entry>
+<entry id="rescuer+str_ignore_command_depressed"><![CDATA[我猜就算是穷尽我的知识也无法治愈大部分的小病。]]></entry>
+<entry id="rescuer+str_ignore_command_depressed"><![CDATA[我想在这种情况下我的经验是不够的]]></entry>
+<entry id="rescuer+str_ignore_command_irrational"><![CDATA[我可以杀了你，就像治好你一样容易。]]></entry>
+<entry id="rescuer+str_ignore_command_irrational"><![CDATA[你确定吗要这样做吗，古鲁兹？]]></entry>
+<entry id="rescuer+str_random_command_paranoid"><![CDATA[我的手术刀在被某些人嫉妒。]]></entry>
+<entry id="rescuer+str_random_command_paranoid"><![CDATA[我得自己想办法了。]]></entry>
+<entry id="rescuer+str_random_command_masochistic"><![CDATA[看啊各位！痛苦在揭示……在启发……]]></entry>
+<entry id="rescuer+str_random_command_masochistic"><![CDATA[有时候，痛苦是不可避免的! ]]></entry>
+<entry id="rescuer+str_random_command_abusive"><![CDATA[检查一下我的反应！]]></entry>
+<entry id="rescuer+str_random_command_abusive"><![CDATA[做我猎犬们的练习对象吧。]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[猎犬们已经受够了不断的命令！]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[就像你只身在雪地里……]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[我要确保我的血不会洒在雪地里。]]></entry>
+<entry id="rescuer+str_random_command_depressed"><![CDATA[鲜血与骸骨，鲜血与骸骨!]]></entry>
+<entry id="rescuer+str_random_command_depressed"><![CDATA[我恐怕我的头脑也需要治疗了。]]></entry>
+<entry id="rescuer+str_random_command_irrational"><![CDATA[支撑坚持不了多久的。]]></entry>
+<entry id="rescuer+str_random_command_irrational"><![CDATA[那只公羊会发现我们并毁灭我们的！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_fearful"><![CDATA[急救药物就是一种对时间的浪费。]]></entry>
+<entry id="rescuer+str_bark_stress_camp_fearful"><![CDATA[我恐怕我用完了的药物。]]></entry>
+<entry id="rescuer+str_bark_stress_camp_paranoid"><![CDATA[你们听到了那个了吗？！我们被跟踪了！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_paranoid"><![CDATA[我们在雪地里留下了脚印，他们会找到我们的！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_masochistic"><![CDATA[如果你能公开对痛苦的体验，那我就不必在这里了。]]></entry>
+<entry id="rescuer+str_bark_stress_camp_masochistic"><![CDATA[如果你们放任痛苦的话，它就能成为你们的盟友。]]></entry>
+<entry id="rescuer+str_bark_stress_camp_abusive"><![CDATA[医学界对人类一直怀恨在心！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_abusive"><![CDATA[如果不是我，你们都会死的！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[你们知道吗，我的同伴们也需要一个靠近火的地方。]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[我们三个马上就要离开。你们真是太麻烦了！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[我打赌我的同伴们在这次任务中都比你们有用！]]></entry>
+<entry id="rescuer+str_bark_stress_camp_depressed"><![CDATA[我怀念北方漫长的日子。还有天空……]]></entry>
+<entry id="rescuer+str_bark_stress_camp_depressed"><![CDATA[我从冰天雪地中救了如此多人的性命，但谁又会来就我？]]></entry>
+<entry id="rescuer+str_bark_stress_camp_irrational"><![CDATA[古鲁兹，你是从我背包里偷药的那个家伙吗？]]></entry>
+<entry id="rescuer+str_bark_stress_camp_irrational"><![CDATA[阿丽娜，做条好狗，然后带些松露来就着我们的饭吧。]]></entry>
+<entry id="rescuer+str_mark_self_masochistic"><![CDATA[带走我吧，但别伤害我的队伍！]]></entry>
+<entry id="rescuer+str_mark_self_masochistic"><![CDATA[来注意我吧，给我来点能让我大开眼界的痛苦吧！]]></entry>
+<entry id="rescuer+str_mark_self_depressed"><![CDATA[你们最好也把我搞定，我不认为我能承受更多了……]]></entry>
+<entry id="rescuer+str_mark_self_depressed"><![CDATA[我们已经完蛋了，我希望这一切能快点结束！]]></entry>
+<entry id="rescuer+str_mark_self_irrational"><![CDATA[在这！你们看到我了吗！]]></entry>
+<entry id="rescuer+str_mark_self_irrational"><![CDATA[古鲁兹、阿丽娜，我们来玩接抛游戏吧！]]></entry>
+<entry id="rescuer+str_attack_friendly_paranoid"><![CDATA[你想带走我的猎犬们！]]></entry>
+<entry id="rescuer+str_attack_friendly_paranoid"><![CDATA[停止那样，古鲁兹！]]></entry>
+<entry id="rescuer+str_attack_friendly_abusive"><![CDATA[是你让我的工作变得比原本更加困难！]]></entry>
+<entry id="rescuer+str_attack_friendly_abusive"><![CDATA[你的愚蠢帮助不了任何人！]]></entry>
+<entry id="rescuer+str_attack_friendly_irrational"><![CDATA[阿丽，松口！]]></entry>
+<entry id="rescuer+str_attack_friendly_irrational"><![CDATA[你们之中的两个人在互相演戏。停下。]]></entry>
+<entry id="rescuer+str_attack_self_masochistic"><![CDATA[我需要清醒的头脑……通过痛苦……]]></entry>
+<entry id="rescuer+str_attack_self_masochistic"><![CDATA[放开我，我不会治疗你的！]]></entry>
+<entry id="rescuer+str_attack_self_depressed"><![CDATA[要是我能在战地医院拯救所有人就好了！]]></entry>
+<entry id="rescuer+str_attack_self_depressed"><![CDATA[退下！你抓到我了！]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[我得把你的爪子修剪一下了。]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[嘿。冷静下来姑娘们！]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[有老鼠在我的外套里！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[现在我们都没法离开了！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[如果我们现在不除掉他们，他们会找到并杀了我们的！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[如果我们现在不对付他们，他们会回来并撕咬我们的后背！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[我必须要为他们的死报仇，我不会离开的！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[我救不了他们全部！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[我们是要逃跑吗？我们会像兔子一样被猎杀的……]]></entry>
+<entry id="rescuer+str_block_combat_retreat_masochistic"><![CDATA[我们不能离开，他们的攻击性行为有我所需要的答案！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_masochistic"><![CDATA[我们需要的答案在我们的血管里流淌着！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[等一下！古鲁兹想继续战斗！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[等等，阿丽娜还不想放弃！]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[现在我觉得，他们不是我们的敌人！]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[我害怕我的一生之中失去更多的人。]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[注意！]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[猎犬们不要！停下！]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[什么？谁在那里？！]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[古鲁兹，你为什么要咬我?]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[阿丽娜，停下！你伤到我了……]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[我看到了宠物墓地……]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[看看你们逼我做了什么！]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[我还像要更多！]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[你为什么要离开山峰？]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[我在这里做什么啊？我不属于这里。]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[我们必须停止苦痛。]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[我看见了某些事物，我需要重新调整认知！]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[我看见了一场噩梦……在一场梦之中……有一只奇异的凶兽。]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[我梦见那头凶兽又找到了我们。]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[我远没有救了我的那个搜救者强壮。]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[我恐怕我对这个队伍来说就是个负担。]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[我变老了……变迟缓了……]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[从山顶开始他们就一直跟着我。]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[山口就是他们等我们的地方！]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[我的视线因为雪光而变得模糊……]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[我必须回到那座山上，那阵风中，那场雪中……]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[南方的这里太热了。]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[我想念伟大的北方。]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[暴风雪模糊了我的视野……]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[是风不让我瞄准的！]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[是雪干的！我看到了一些东西！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[这没什么好骄傲的……]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[你看要用那个来保护我们吗？]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[我的狗都比那下狠……]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[众神再上，你就是个蠢货！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[一只狗崽都比你打得更重！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[你就像条狗一样闻东西！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[你必须打的更用力才能打破冰面。]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[切破脓包。]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[接正骨骼！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_fearful"><![CDATA[一切都结束了，我们会溃败的！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_fearful"><![CDATA[我们会被埋在没有标名的坟墓里……]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_paranoid"><![CDATA[你是故意失败的吗？！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_paranoid"><![CDATA[看起来你希望他们活着，并且你在希望我们去死！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_abusive"><![CDATA[看看你干了些什么！我们不能浪费我们的机会！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_abusive"><![CDATA[你瞎了吗？看来你是故意失手的！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_selfish"><![CDATA[下次你最好听我的！]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_selfish"><![CDATA[我们需要像一个团队一样合作！]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[恐怕那样还不够……]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[你需要集中精神……]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[有只凶兽在追赶你吗？就像我们一样。]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[你在干扰我们对痛苦的讨论……]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[你觉得血液流入你的血管里了吗？]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[别再抚摸猎犬们了！]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[你不认为我是个好医生，不是吗？]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[对猎犬们放尊重点。]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[无力！如一只新生的狗崽一样无力！]]></entry>
+<entry id="rescuer+str_comment_ally_missed_fearful"><![CDATA[一次挥舞，接着便是一次失误！]]></entry>
+<entry id="rescuer+str_comment_ally_missed_paranoid"><![CDATA[宗教就比科学更强大吗？]]></entry>
+<entry id="rescuer+str_block_move_fearful"><![CDATA[医学难道不如魔法强大？]]></entry>
+<entry id="rescuer+str_block_move_fearful"><![CDATA[我恐怕如果我们换个位置我就帮不上忙了……]]></entry>
+<entry id="rescuer+str_block_move_paranoid"><![CDATA[这个不寻常地方有什么特别的？]]></entry>
+<entry id="rescuer+str_block_move_paranoid"><![CDATA[你为什么想要到这个位置？你在隐瞒什么吗？]]></entry>
+<entry id="rescuer+str_block_move_masochistic"><![CDATA[你不能把我从痛苦中带离。]]></entry>
+<entry id="rescuer+str_block_move_masochistic"><![CDATA[这份痛苦想让我待在这里。]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[让我给你看看我对待病人的恶劣态度！]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[你知道吗，这里是我的地盘！]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[你想要在这里做什么？毫无好处……]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[我们对医学还有很多不了解的地方。]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[我识病不识人。]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[我是个医生，但我也是个骗子。]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[再等一下，让我明晰那种痛苦。]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[我不需要那个。]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[我不想要那个，不管怎样谢了。]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[那将是对有用资源的一次浪费……]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[请把那个留给其他人。]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[我不认为那会有帮助。]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[我们需要为应付下次袭击节省物资。]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[不行，我不能给你我的白兰地秘方。]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[你想试图用它来买我的帽子吗？]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[不！这就像雪崩一样……]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[红色的雪，血中混杂着鲜血。]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[到处都是血，我受不了这样了！]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[很难从这个世界上看到其他的通路了。]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[修道士们会为我的行为难过的吧。]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[我记不起他们所有人的脸了。]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[如果你敢对我设陷阱，你就会变成狗粮！]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[你想用我做肉盾，好让你逃跑吗？]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[你在试图妨碍我的工作吗？]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[不如冲着我来吧！]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[死后就不会有痛苦了。]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[我要到这里来。]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[看来我对死亡的了解不比你多！]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[你们谁也不懂得欣赏我！]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[不管你待在什么地方，你都是个废物！]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[它是冲着我们来的！]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[喂，别再玩弄猎犬们了。]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[我不可能救你们所有人。]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[拜托，注意点猎犬们。]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[我只是需要一点时间。]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[给我一点时间。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[这怎会帮到我们？]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[这可能就是我们的终结！]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[让我看看。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[这可能是我的猎犬们能吃的东西。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[我也应该受到如此款待！]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[那我们呢？我们的那一部分呢？]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[这会促进我了解自己的痛苦。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[痛苦就是痛苦，不管它是来自何处的。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[刀割、针刺、锤砸，但这种痛苦并没有名字。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[古鲁兹快看，这就是我所想要讨论的。]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[阿丽娜，你想看看那是什么东西吗?]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[阿丽娜、古鲁兹，你们两个都得学学这个。]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[痛苦在等待着我！]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[生命对每个人都保有秘密，痛苦就是其中之一。]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[我还能在哪里体验到像这样的东西？]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[就如雪崩一样……快到无法逃脱。]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[让我看一下。]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[猎犬们愚蠢撞入那个里面了！]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[猎犬们闻到这里有某种东西。]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[停下！猎犬门！这是个陷阱！]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[为了团队我踏入了这个陷阱！]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[我记得雪崩的声音！]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[我需要亲自来处理这个。]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[我不觉得那会管用。]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[为了治愈伤痛，必将有人前去了解它。]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[痛苦是我研究的一部分。]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[痛苦使我头脑保持尖锐！]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[不要对牛弹琴了……]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[你的努力有什么意义？我们全都已经完蛋了……]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[你的意图是好的……但却毫无意义。]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[阿丽娜不想让你治疗我。]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[但我才是医生，我应该是治疗你的那个人。]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[阿丽娜、古鲁兹，住手，我们需要治疗。]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[那有什么用？你想让我被杀，不是吗？]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[我不相信你的方法，它们听起来并不科学。]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[你真的认为这会有用吗，还是你只是想把我当作测试对象？]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[别打扰我和痛苦相处！]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[别想麻痹我的感官，我需要这种疼痛！]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[你就像雪一样，你麻木了我的身体来阻挡痛苦。]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[没有改善的可能……没有尝试的意义。]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[你只是在兜圈子……只是在追逐你自己的尾巴。]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[我们就像是在黑夜之中吠叫的猎犬们……]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[你想对我的猎犬们做什么？]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[猎犬们看群里不喜欢它，而我相信它们。]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[你吓到我的猎犬们了，住手！]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[古鲁兹，帮我站稳脚跟！]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[阿丽娜，撑住我！]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[我头晕！]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[如果我们还磨磨蹭蹭的话，猎犬们会变得很不安的！]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[我马上就需要喂食猎犬们了。]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[让我们在药效耗尽之前快点结束吧！]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_smite"><![CDATA[你会为那一击付出代价的！]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_curse"><![CDATA[一个你会后悔的诅咒！]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_judgement"><![CDATA[我的药比邪物更强大。]]></entry>
+<entry id="rescuer+str_monster_attack_light_fuse"><![CDATA[又将是一场大规模的屠杀！]]></entry>
+<entry id="rescuer+str_monster_attack_light_fuse"><![CDATA[阻止他！你们必须阻止他！]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[看一下这些书吧，也许你也可以学点知识的。]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[我可以向你保证，你不会死在这里，你会寿终正寝，在平和之中，在你的床上。]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[你的生命体征在尖叫着“生命”，甚至连死神都能听到它们。]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[你现在感觉好些了吗？]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[现在你准备好再次战斗了！]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[站起来，你会没事的！]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[认识到胜利就在慎重之人的脚步前方。]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[战斗就是混乱，如果你能带来秩序，那么你就已经赢了。]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[你最大的优势是毅力，而不是力量。]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[就算是医生也无法逃脱……]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[我就在死神办事处的等候室里！]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[我感觉好冷……就像被埋在雪里一样！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[我不能，这可能会警醒怪物！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[不，把火熄了，这会泄露我们的位置！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[我不能死在这里，然后留下猎犬们孤苦伶仃！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[我知道你们都想要我的药，但是你们不会拥有它们的]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[喔！你想绑架我的猎犬们？！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[我知道发生了什么。你以为我不能战斗？]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_masochistic"><![CDATA[痛苦扩展了你的眼界，这也是知识的一种形式。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_masochistic"><![CDATA[专注于苦痛。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_abusive"><![CDATA[让我休息一下吧。你们在这方面真是糟糕。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_abusive"><![CDATA[我能从一位初次礼拜护士那里得到更好的照顾。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[我自己来可能会更好。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[我宁愿用正确的方式处理它。不管怎样谢谢你了。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[我不这么认为。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_depressed"><![CDATA[到头来这一切都不值得。]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_depressed"><![CDATA[医院里可不是这样的做！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_irrational"><![CDATA[我记得莎莉！]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_irrational"><![CDATA[弗雷德不该死的。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_paranoid"><![CDATA[你看到一只大公羊了吗？他在跟踪我。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_paranoid"><![CDATA[我知道你其实并不想让我和猎犬们来这里。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_masochistic"><![CDATA[我不行被治好。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_masochistic"><![CDATA[我需要感觉到它，以知道我还活着。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_abusive"><![CDATA[别去疗养院。他们会把你关起来的。你疯了！]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_abusive"><![CDATA[害怕一个小小的针头？]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_depressed"><![CDATA[最终人们都会放弃，因为他们不会为了活下去而战斗。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_depressed"><![CDATA[没用的。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_irrational"><![CDATA[我只相信科学。]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_irrational"><![CDATA[你看到了那个了吗？那是一只大公羊吗？]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[你们在食物里放了什么？！]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[你们把我当成一只人型豚鼠？]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[你是不是想毒害我，然后我必须得使用我的药？]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[你吃了什么能影响你们的身体。]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[人们低估了营养的重要性！]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[我无法真正治愈任何疾病。]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[把我的那份分给猎犬们，我不能吃。]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[我不饿，不管怎样谢谢你了。]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[这些野营用干粮缺乏恰当的营养。]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[这没用的，公羊很快就会找到我们的。]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[这里有什么我们能狩猎的东西吗？]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[有东西在跟着我们！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[我是一位搜救者！我会帮助那些有需要的人们！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[我的猎犬们是忠实的伙伴！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[我会帮助那些不幸的旅行者们！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[科学再一次胜利了！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[团队合作将走向胜利！]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[观察、学习、应用！]]></entry>
+		
+	</language>
+</root>

@@ -1,0 +1,316 @@
+//RESC: Virtue Effect
+effect: .name "RESC_virtue_heal_stress_party" .target "target"  .chance 100% .healstress 4 .on_hit true .on_miss false .queue true
+
+effect: .name "RESC_virtue_heal_stress_self" .target "target"  .chance 100% .healstress 6 .on_hit true .on_miss false .queue true
+
+effect: .name "RESC_virtue_heal_rec" .target "target" .chance 100% .duration 3 .on_hit true .on_miss true .queue true .buff_ids RESC_virtue_heal_rec_buff
+
+effect: .name "RESC_virtue_heal_recb" .target "target" .chance 100% .duration 3 .on_hit true .on_miss true .queue true .buff_ids RESC_virtue_heal_rec_buffb
+
+effect: .name "RESC_virtue_death_resist" .target "target" .chance 100% .duration 2 .on_hit true .on_miss true .queue true .buff_ids RESC_virtue_death_resist_buff
+
+effect: .name "RESC_virtue_drip_heal" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .can_crit_heal true .on_hit true .on_miss true .queue true
+
+effect: .name "RESC_virtue_normal_heal" .target "target" .heal 4 .can_crit_heal true .on_hit true .on_miss false .queue true
+
+effect: .name "RESC_virtue_death_resistb" .target "target" .chance 100% .duration 3 .on_hit true .on_miss true .queue true .buff_ids RESC_virtue_death_resist_buffb
+
+//RESC: Deaths Door Effect
+effect: .name "rescuer_death_door_enter2" .target "performer" .chance 70% .dotHpHeal 3 .duration 2 .can_crit_heal true .on_hit true .on_miss false .queue true
+
+//RESC: Low Health Bonus
+effect: .name "rescuer_low_health_enter1" .target "performer" .chance 100% .duration 2 .on_hit true .on_miss true .queue true .buff_ids rescuer_low_health_enter1_buff
+
+//RESC: Death Effect
+effect: .name "rescuer_parting_gift" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .can_crit_heal true	.on_hit true .on_miss false .queue true
+
+//RESC: Trinket Effects
+effect: .name "RESC_magazine_cure" .target "target" .chance 2% .remove_vampire 1 .on_hit true .on_miss true .queue true
+
+
+effect: .name "RESC_trinket_book_critcal_chance" .target "target" .chance 250% .duration 2 .on_hit true .on_miss false .queue true .buff_ids RESC_trinket_book_critcal_chance_buff .has_description false
+
+effect: .name "RESC_trinket_heal_one" .target "target" .chance 75% .heal 1 .can_crit_heal true .on_hit true .on_miss false .queue true .crit_doesnt_apply_to_roll true .has_description false
+
+effect: .name "RESC_trinket_improvised_bleed_cure" .target "performer" .chance 100% .duration 3 .on_hit true .on_miss false .queue true .buff_ids RESC_trinket_improvised_bleed_cure_buff .has_description true
+
+effect: .name "RESC_trinket_com_protect_buff_miss" .target "target" .chance 300% .duration 3 .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true .has_description false
+
+effect: .name "RESC_trinket_com_stun_up" .target "performer" .chance 300% .duration 3 .on_hit true .on_miss false .queue true .buff_ids RESC_trinket_com_stun_up_buff .has_description false
+
+effect: .name "RESC_trinket_com_stun_attacker" .target "performer" .chance 50%  .stun 1 .on_hit true .on_miss false .queue true .has_description false .crit_doesnt_apply_to_roll true
+
+effect: .name "RESC_trinket_collar_bite_protection" .target "target" .chance 120% .duration 3 .combat_stat_buff 1 .protection_rating_add -15% .on_hit true .on_miss true .queue true  .has_description false
+
+effect: .name "RESC_trinket_collar_bite_bleed" .target "target" .chance 120% .duration 3 .on_hit true .on_miss false .queue true .buff_ids RESC_trinket_collar_bite_bleed_buff  .has_description false
+
+
+//RESC: Trigger Quirk 3 on Staff down to 4
+effect: .name "RESC_quirk_trigger_staff"  .target "performer" .chance 4% .bark RESC_bark_staff_trigger .disease "RESC_quirk_3" .healstress 7 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
+
+//RESC: Trigger Quirk 5 on Herd down to 4
+effect: .name "RESC_quirk_trigger_herd"  .target "performer" .chance 2% .bark RESC_bark_herd_trigger .disease "RESC_quirk_5" .healstress 7 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
+
+//RESC: Trigger Quirk 6 on Herd down to 4
+effect: .name "RESC_quirk_trigger_bloody"  .target "performer" .chance 3% .bark RESC_bark_bloody_trigger .disease "RESC_quirk_6" .healstress 7 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
+
+//RESC: On Crit
+effect: .name "RESC_on_crit_heal" .target "performer" .chance 140% .buff_ids RESC_on_crit_heal_buff .buff_source_type bsrc_crit .duration 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "RESC_on_crit_stress" .target "performer" .chance 140% .buff_ids RESC_on_crit_stress_buff .buff_source_type bsrc_crit .duration 2 .on_hit true .on_miss false  .queue true .apply_once true
+  //RESC: not used
+effect: .name "RESC_on_crit_hunting_hounds_others" .target "performer_group_other" .chance 140% .duration 1 .combat_stat_buff 1 .attack_rating_add 3% .crit_chance_add 2% .on_hit true .on_miss false .queue true  .apply_once true
+  //RESC: not used
+effect: .name "RESC_on_crit_hunting_hounds_self" .target "performer" .chance 140% .duration 2 .combat_stat_buff 1 .attack_rating_add 3% .crit_chance_add 2% .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "RESC_on_crit_stress_release_party" .target "performer_group" .chance 50% .healstress 2 .on_hit true .on_miss false .queue true
+
+
+//RESC: supply items: Barrel NEW based on bone
+effect: .name "resc_barrel_1" .target "performer" .item 1 .duration 1 .chance 100% .combat_stat_buff 1 .crit_chance_add 25% .damage_low_multiply 25%  .damage_high_multiply 25% .bark resc_drink_barrel_1 
+
+//RESC: supply items: Barrel OLD NOT USED
+effect: .name "resc_barrel_1_NOT_USED" .target "performer" .skill_instant true .duration 1 .item 1 .chance 100% .buff_ids resc_barrel_effect_1A resc_barrel_effect_1B resc_barrel_effect_1C .on_hit true .on_miss false .queue false .bark resc_drink_barrel_1
+
+
+// First Aid
+effect: .name "RESC_firstaid_stress_heal_A" .target "performer" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "RESC_firstaid_stress_heal_B" .target "performer" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "RESC_firstaid_stress_heal_C" .target "performer" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "RESC_firstaid_stress_heal_D" .target "performer" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "RESC_firstaid_stress_heal_E" .target "performer" .chance 100% .healstress 7	.on_hit true .on_miss false .queue true
+
+effect: .name "RESC_stun_resist_A" .target "performer" .chance 100% .buff_ids RESC_stun_resist_A_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_stun_resist_B" .target "performer" .chance 100% .buff_ids RESC_stun_resist_B_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_stun_resist_C" .target "performer" .chance 100% .buff_ids RESC_stun_resist_C_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_stun_resist_D" .target "performer" .chance 100% .buff_ids RESC_stun_resist_D_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_stun_resist_E" .target "performer" .chance 100% .buff_ids RESC_stun_resist_E_buff .duration 2 .on_hit true .on_miss false  .queue true
+
+effect: .name "RESC_bandage_A" .target "target" .chance 60% .cure_bleed 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_bandage_B" .target "target" .chance 65% .cure_bleed 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_bandage_C" .target "target" .chance 70% .cure_bleed 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_bandage_D" .target "target" .chance 75% .cure_bleed 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_bandage_E" .target "target" .chance 80% .cure_bleed 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+
+effect: .name "RESC_antivenom_A" .target "target" .chance 20% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_antivenom_B" .target "target" .chance 25% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_antivenom_C" .target "target" .chance 30% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_antivenom_D" .target "target" .chance 35% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+effect: .name "RESC_antivenom_E" .target "target" .chance 40% .cure_poison 1 .on_hit true .on_miss false  .queue true .individual_target_actor_rolls true
+
+effect: .name "RESC_clear_horror_A" .target "target" .chance 40% .clearDotStress 1  .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "RESC_clear_horror_B" .target "target" .chance 45% .clearDotStress 1  .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "RESC_clear_horror_C" .target "target" .chance 50% .clearDotStress 1  .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "RESC_clear_horror_D" .target "target" .chance 55% .clearDotStress 1  .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "RESC_clear_horror_E" .target "target" .chance 60% .clearDotStress 1  .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+
+effect: .name "RESC_death_A" .target "target" .duration 2 .chance 100% .buff_ids RESC_death_A_buff .on_hit true .on_miss false  .queue true
+effect: .name "RESC_death_B" .target "target" .duration 2 .chance 100% .buff_ids RESC_death_B_buff .on_hit true .on_miss false  .queue true
+effect: .name "RESC_death_C" .target "target" .duration 2 .chance 100% .buff_ids RESC_death_C_buff .on_hit true .on_miss false  .queue true
+effect: .name "RESC_death_D" .target "target" .duration 2 .chance 100% .buff_ids RESC_death_D_buff .on_hit true .on_miss false  .queue true
+effect: .name "RESC_death_E" .target "target" .duration 2 .chance 100% .buff_ids RESC_death_E_buff .on_hit true .on_miss false  .queue true
+
+//Nitrous Oxide
+
+effect: .name "RESC_heal_stress_A" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_heal_stress_B" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_heal_stress_C" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_heal_stress_D" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 7	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_heal_stress_E" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 8	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "RESC_self_stun_A" .target "performer" .chance 90% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_self_stun_B" .target "performer" .chance 94% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_self_stun_C" .target "performer" .chance 98% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_self_stun_D" .target "performer" .chance 102% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_self_stun_E" .target "performer" .chance 106% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "RESC_oxide_tooltip_1" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_oxide_tooltip_1_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_oxide_tooltip_1B" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_oxide_tooltip_1B_buff" .on_hit true .on_miss false .has_description true
+
+// WORKING VERSION previously used DGM changed to ACC
+effect: .name "RESC_Riposte_AXX"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -10%  .damage_high_multiply -10%  .crit_chance_add 3% .riposte_effect "RESC_riposte_bleed_A"
+
+// Herding Tactics Riposte and Rispote effect 
+
+//herd quirk debuff chance
+effect: .name "RESC_debuff_A" .target "target" .chance -100% .buff_ids RESC_quirk_mark_as_debuff_1 .duration 2 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "RESC_debuff_B" .target "target" .chance -100% .buff_ids RESC_quirk_mark_as_debuff_1 .duration 2 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "RESC_debuff_C" .target "target" .chance -100% .buff_ids RESC_quirk_mark_as_debuff_1 .duration 2 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "RESC_debuff_D" .target "target" .chance -100% .buff_ids RESC_quirk_mark_as_debuff_1 .duration 2 .on_hit true .on_miss false .queue true .has_description true
+effect: .name "RESC_debuff_E" .target "target" .chance -100% .buff_ids RESC_quirk_mark_as_debuff_1 .duration 2 .on_hit true .on_miss false .queue true .has_description true
+
+
+// Riposte 1
+effect: .name "RESC_Riposte_A"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .attack_rating_add 6%  .crit_chance_add 1% .apply_once true .riposte_effect "RESC_riposte_bleed_A"
+effect: .name "RESC_Riposte_B"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true  .attack_rating_add 8%  .crit_chance_add 2% .apply_once true .riposte_effect "RESC_riposte_bleed_B"
+effect: .name "RESC_Riposte_C"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true  .attack_rating_add 10%  .crit_chance_add 3% .apply_once true .riposte_effect "RESC_riposte_bleed_C"
+effect: .name "RESC_Riposte_D"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true  .attack_rating_add 12%  .crit_chance_add 4% .apply_once true .riposte_effect "RESC_riposte_bleed_D"
+effect: .name "RESC_Riposte_E"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true  .attack_rating_add 14%  .crit_chance_add 5% .apply_once true .riposte_effect "RESC_riposte_bleed_E"
+
+// Riposte Effect Bleed
+effect: .name "RESC_riposte_bleed_A" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 2 .duration 2 .crit_chance_add 1% .apply_once true .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "RESC_riposte_bleed_B" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 2 .duration 2 .crit_chance_add 2% .apply_once true .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "RESC_riposte_bleed_C" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 3 .duration 2 .crit_chance_add 3% .apply_once true .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "RESC_riposte_bleed_D" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 2 .crit_chance_add 4% .apply_once true .on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "RESC_riposte_bleed_E" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 4 .duration 2 .crit_chance_add 5% .apply_once true .on_hit true .on_miss false .can_apply_on_death true .queue true
+
+// Riposte 2 spiders
+effect: .name "RESC_Riposte_Spider_A"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .apply_once true .riposte_effect "RESC_riposte_spider_buff_A"  .has_description false
+effect: .name "RESC_Riposte_Spider_B"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .apply_once true .riposte_effect "RESC_riposte_spider_buff_B"  .has_description false
+effect: .name "RESC_Riposte_Spider_C"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .apply_once true .riposte_effect "RESC_riposte_spider_buff_C"  .has_description false
+effect: .name "RESC_Riposte_Spider_D"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true  .apply_once true .riposte_effect "RESC_riposte_spider_buff_D" .has_description false
+effect: .name "RESC_Riposte_Spider_E"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .apply_once true .riposte_effect "RESC_riposte_spider_buff_E" .has_description false
+
+// Riposte Effect Spiders
+effect: .name "RESC_riposte_spider_buff_A" .target "performer" .chance 100% .monsterType "spider" .combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200% .crit_chance_add 11% .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+effect: .name "RESC_riposte_spider_buff_B" .target "performer" .chance 100% .monsterType "spider" .combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200% .crit_chance_add 13% .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+effect: .name "RESC_riposte_spider_buff_C" .target "performer" .chance 100% .monsterType "spider" .combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200% .crit_chance_add 15% .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+effect: .name "RESC_riposte_spider_buff_D" .target "performer" .chance 100% .monsterType "spider" .combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200% .crit_chance_add 17% .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+effect: .name "RESC_riposte_spider_buff_E" .target "performer" .chance 100% .monsterType "spider" .combat_stat_buff 1 .damage_low_multiply 200%	.damage_high_multiply 200% .crit_chance_add 19% .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+
+// OLD not actully working linked to buffs
+effect: .name "RESC_riposte_spider_buff_X" .target "performer" .chance 100% .skill_instant true .buff_ids RESC_riposte_spider_lowB_buff RESC_riposte_spider_highB_buff RESC_riposte_spider_critB_buff .duration 2 .on_hit true .on_miss false .apply_once true  .queue true
+
+// ToolTip for rispote spider effect
+effect: .name "RESC_herding_tooltip_A2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_A2_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_B2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_B2_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_C2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_C2_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_D2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_D2_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_E2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_E2_buff" .on_hit true .on_miss false .has_description true
+
+// ToolTip for rispote bleed effect
+effect: .name "RESC_herding_tooltip_A" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_A_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_B" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_B_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_C" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_C_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_D" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_D_buff" .on_hit true .on_miss false .has_description true
+effect: .name "RESC_herding_tooltip_E" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_herding_tooltip_E_buff" .on_hit true .on_miss false .has_description true
+
+
+// Motivate (in code called catharsis)
+
+effect: .name "RESC_refresh_uses_1" .target "target" .chance 200% .refreshes_skill_uses true .on_hit true .on_miss true .apply_once false
+
+effect: .name "RESC_motivate_tooltip_1" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_motivate_tooltip_1_buff" .on_hit true .on_miss false .has_description true
+
+effect: .name "RESC_motivate_tooltip_2" .target "performer" .chance 100% .skill_instant true .buff_ids	"RESC_motivate_tooltip_2_buff" .on_hit true .on_miss false .has_description true
+
+effect: .name "RESC_motivate_healing_up_A" .target "performer" .chance 100% .buff_ids RESC_motivate_healing_up_A_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_healing_up_B" .target "performer" .chance 100% .buff_ids RESC_motivate_healing_up_B_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_healing_up_C" .target "performer" .chance 100% .buff_ids RESC_motivate_healing_up_C_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_healing_up_D" .target "performer" .chance 100% .buff_ids RESC_motivate_healing_up_D_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_healing_up_E" .target "performer" .chance 100% .buff_ids RESC_motivate_healing_up_E_buff .duration 2 .on_hit true .on_miss false  .queue true
+
+effect: .name "RESC_motivate_stress_up_A" .target "performer" .chance 100% .buff_ids RESC_motivate_stress_up_A_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_stress_up_B" .target "performer" .chance 100% .buff_ids RESC_motivate_stress_up_B_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_stress_up_C" .target "performer" .chance 100% .buff_ids RESC_motivate_stress_up_C_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_stress_up_D" .target "performer" .chance 100% .buff_ids RESC_motivate_stress_up_D_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_stress_up_E" .target "performer" .chance 100% .buff_ids RESC_motivate_stress_up_E_buff .duration 2 .on_hit true .on_miss false  .queue true
+
+effect: .name "RESC_motivate_virtue_up_party_A" .target "performer_group_other" .chance 100% .buff_ids RESC_motivate_virtue_up_party_A_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_virtue_up_party_B" .target "performer_group_other" .chance 100% .buff_ids RESC_motivate_virtue_up_party_B_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_virtue_up_party_C" .target "performer_group_other" .chance 100% .buff_ids RESC_motivate_virtue_up_party_C_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_virtue_up_party_D" .target "performer_group_other" .chance 100% .buff_ids RESC_motivate_virtue_up_party_D_buff .duration 2 .on_hit true .on_miss false  .queue true
+effect: .name "RESC_motivate_virtue_up_party_E" .target "performer_group_other" .chance 100% .buff_ids RESC_motivate_virtue_up_party_E_buff .duration 2 .on_hit true .on_miss false  .queue true
+
+effect: .name "RESC_motivate_virtue_up_self_A" .target "performer" .chance 100% .buff_ids RESC_motivate_virtue_up_self_A_buff .duration 3 .on_hit true .on_miss false  .queue true .has_description false
+effect: .name "RESC_motivate_virtue_up_self_B" .target "performer" .chance 100% .buff_ids RESC_motivate_virtue_up_self_B_buff .duration 3 .on_hit true .on_miss false  .queue true .has_description false
+effect: .name "RESC_motivate_virtue_up_self_C" .target "performer" .chance 100% .buff_ids RESC_motivate_virtue_up_self_C_buff .duration 3 .on_hit true .on_miss false  .queue true .has_description false
+effect: .name "RESC_motivate_virtue_up_self_D" .target "performer" .chance 100% .buff_ids RESC_motivate_virtue_up_self_D_buff .duration 3 .on_hit true .on_miss false  .queue true .has_description false
+effect: .name "RESC_motivate_virtue_up_self_E" .target "performer" .chance 100% .buff_ids RESC_motivate_virtue_up_self_E_buff .duration 3 .on_hit true .on_miss false  .queue true .has_description false
+
+effect: .name "RESC_crit_A"  .target "performer_group" .chance 100% .combat_stat_buff 1 .duration 2 .crit_chance_add 2%  .on_hit true .on_miss true .queue true
+effect: .name "RESC_crit_B"  .target "performer_group" .chance 100% .combat_stat_buff 1 .duration 2 .crit_chance_add 3% .on_hit true .on_miss true .queue true
+effect: .name "RESC_crit_C"  .target "performer_group" .chance 100% .combat_stat_buff 1 .duration 2 .crit_chance_add 4% .on_hit true .on_miss true .queue true
+effect: .name "RESC_crit_D"  .target "performer_group" .chance 100% .combat_stat_buff 1 .duration 2 .crit_chance_add 5% .on_hit true .on_miss true .queue true
+effect: .name "RESC_crit_E"  .target "performer_group" .chance 100% .combat_stat_buff 1 .duration 2 .crit_chance_add 6% .on_hit true .on_miss true .queue true
+
+effect: .name "RESC_Stress_Heal_A" .target "performer" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true
+effect: .name "RESC_Stress_Heal_B" .target "performer" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "RESC_Stress_Heal_C" .target "performer" .chance 100% .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "RESC_Stress_Heal_D" .target "performer" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "RESC_Stress_Heal_E" .target "performer" .chance 100% .healstress 7	.on_hit true .on_miss false .queue true
+
+
+// Tonic Mix
+
+effect: .name "RESC_tonicmix_stress_heal_A" .target "performer" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_tonicmix_stress_heal_B" .target "performer" .chance 100% .healstress 2	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_tonicmix_stress_heal_C" .target "performer" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_tonicmix_stress_heal_D" .target "performer" .chance 100% .healstress 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "RESC_tonicmix_stress_heal_E" .target "performer" .chance 100% .healstress 4	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "RESC_clear_stun_A" .target "performer_group_other" .chance 60% .unstun 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .apply_once true
+effect: .name "RESC_clear_stun_B" .target "performer_group_other" .chance 65% .unstun 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .apply_once true
+effect: .name "RESC_clear_stun_C" .target "performer_group_other" .chance 70% .unstun 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .apply_once true
+effect: .name "RESC_clear_stun_D" .target "performer_group_other" .chance 75% .unstun 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .apply_once true
+effect: .name "RESC_clear_stun_E" .target "performer_group_other" .chance 80% .unstun 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true .apply_once true
+
+effect: .name "RESC_clear_bleed_A" .target "performer_group" .chance 40% .cure_bleed 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true 
+effect: .name "RESC_clear_bleed_B" .target "performer_group" .chance 45% .cure_bleed 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true 
+effect: .name "RESC_clear_bleed_C" .target "performer_group" .chance 50% .cure_bleed 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true 
+effect: .name "RESC_clear_bleed_D" .target "performer_group" .chance 55% .cure_bleed 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+effect: .name "RESC_clear_bleed_E" .target "performer_group" .chance 60% .cure_bleed 1 .on_hit true .on_miss false .queue true .individual_target_actor_rolls true
+
+// Stay Away 
+//at lvl 5 push expands to push 3
+effect: .name "RESC_Push_A" .target "target"  .push 2     .chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "RESC_Push_B" .target "target"  .push 2     .chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "RESC_Push_C" .target "target"  .push 2     .chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "RESC_Push_D" .target "target"  .push 2     .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "RESC_Push_E" .target "target"  .push 3     .chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+//accuracy bonus vs marked
+effect: .name "RESC_accuracy_marked_A" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_accuracy_marked_buff_A .has_description false
+effect: .name "RESC_accuracy_marked_B" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_accuracy_marked_buff_B .has_description false
+effect: .name "RESC_accuracy_marked_C" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_accuracy_marked_buff_C .has_description false
+effect: .name "RESC_accuracy_marked_D" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_accuracy_marked_buff_D .has_description false
+effect: .name "RESC_accuracy_marked_E" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_accuracy_marked_buff_E .has_description false
+
+//crit bonus vs stunned
+effect: .name "RESC_crit_stun_A" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_stun_buff_A .has_description true
+effect: .name "RESC_crit_stun_B" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_stun_buff_B .has_description true
+effect: .name "RESC_crit_stun_C" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_stun_buff_C .has_description true
+effect: .name "RESC_crit_stun_D" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_stun_buff_D .has_description true
+effect: .name "RESC_crit_stun_E" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_stun_buff_E .has_description true
+
+//bonus damage vs stunned
+effect: .name "RESC_crit_damage_stun_A" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_damage_stun_low_buff_A resc_crit_damage_stun_high_buff_A .has_description false
+effect: .name "RESC_crit_damage_stun_B" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_damage_stun_low_buff_B resc_crit_damage_stun_high_buff_B .has_description false
+effect: .name "RESC_crit_damage_stun_C" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_damage_stun_low_buff_C resc_crit_damage_stun_high_buff_C .has_description false
+effect: .name "RESC_crit_damage_stun_D" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_damage_stun_low_buff_D resc_crit_damage_stun_high_buff_D .has_description false
+effect: .name "RESC_crit_damage_stun_E" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_crit_damage_stun_low_buff_E resc_crit_damage_stun_high_buff_E .has_description false
+
+//stun bonus vs marked
+effect: .name "RESC_stun_marked_A" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_stun_marked_buff_A
+effect: .name "RESC_stun_marked_B" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_stun_marked_buff_B
+effect: .name "RESC_stun_marked_C" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_stun_marked_buff_C
+effect: .name "RESC_stun_marked_D" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_stun_marked_buff_D
+effect: .name "RESC_stun_marked_E" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_stun_marked_buff_E
+
+effect: .name "RESC_stun_A" .target "target" .chance 0%  .stun 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "RESC_stun_B" .target "target" .chance 0%  .stun 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "RESC_stun_C" .target "target" .chance 0%  .stun 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "RESC_stun_D" .target "target" .chance 0%  .stun 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "RESC_stun_E" .target "target" .chance 0%  .stun 1 .on_hit true .on_miss false .queue true .has_description false
+
+// Follow the Track 
+//damage bonus vs bleeding
+effect: .name "RESC_damage_bleeding_A" .target "performer" .chance 100%	 .keyStatus "bleeding"  .combat_stat_buff 1 .damage_low_multiply 34%  .damage_high_multiply 34%  .on_hit true .on_miss false
+effect: .name "RESC_damage_bleeding_B" .target "performer" .chance 100%	 .keyStatus "bleeding"  .combat_stat_buff 1 .damage_low_multiply 38%  .damage_high_multiply 38%	.on_hit true .on_miss false
+effect: .name "RESC_damage_bleeding_C" .target "performer" .chance 100%	 .keyStatus "bleeding"  .combat_stat_buff 1 .damage_low_multiply 42%  .damage_high_multiply 42%  .on_hit true .on_miss false
+effect: .name "RESC_damage_bleeding_D" .target "performer" .chance 100%	 .keyStatus "bleeding"  .combat_stat_buff 1 .damage_low_multiply 46%  .damage_high_multiply 46%  .on_hit true .on_miss false
+effect: .name "RESC_damage_bleeding_E" .target "performer" .chance 100%	 .keyStatus "bleeding"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50% .on_hit true .on_miss false
+
+//bleed bonus vs marked
+effect: .name "RESC_bleed_marked_A" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_bleed_chance_buff_A
+effect: .name "RESC_bleed_marked_B" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_bleed_chance_buff_B
+effect: .name "RESC_bleed_marked_C" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_bleed_chance_buff_C
+effect: .name "RESC_bleed_marked_D" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_bleed_chance_buff_D
+effect: .name "RESC_bleed_marked_E" .target "performer" .chance 100% .on_hit true .on_miss false .queue false .skill_instant true .buff_ids resc_bleed_chance_buff_E
+
+//bleed attack
+effect: .name "RESC_bleed_A" .target "target" .chance 0%  .dotBleed 2 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description true
+effect: .name "RESC_bleed_B" .target "target" .chance 0%  .dotBleed 2 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description true
+effect: .name "RESC_bleed_C" .target "target" .chance 0%  .dotBleed 3 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description true
+effect: .name "RESC_bleed_D" .target "target" .chance 0%  .dotBleed 3 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description true
+effect: .name "RESC_bleed_E" .target "target" .chance 0%  .dotBleed 4 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description true

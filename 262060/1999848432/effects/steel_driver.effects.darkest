@@ -1,0 +1,132 @@
+//Steel Diver 
+
+//Crit Effects
+effect: .name "on_crit_SD" .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SD_crit" .duration 2 .on_hit true .on_miss false .apply_once true
+
+
+//Moves
+effect: .name "SD Husk Killer 1" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "husk" .combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "SD Husk Killer 2" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "husk" .combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "SD Husk Killer 3" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "husk" .combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "SD Husk Killer 4" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "husk" .combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "SD Husk Killer 5" .target "performer" .chance 100% .curio_result_type "positive" .monsterType "husk" .combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+effect: .name "Steamroller Stun 1" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steamroller Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steamroller Stun 3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steamroller Stun 4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Steamroller Stun 5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Steamroller Move 1" .target "target" .curio_result_type "negative" .chance 100% .push 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Steamroller Move 2" .target "target" .curio_result_type "negative" .chance 110% .push 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Steamroller Move 3" .target "target" .curio_result_type "negative" .chance 120% .push 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Steamroller Move 4" .target "target" .curio_result_type "negative" .chance 130% .push 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Steamroller Move 5" .target "target" .curio_result_type "negative" .chance 140% .push 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Driver Bring The Thunder 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 6% .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "Driver Bring The Thunder 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 7% .protection_rating_add 23%	.on_hit true .on_miss true .queue true
+effect: .name "Driver Bring The Thunder 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 8% .protection_rating_add 26%	.on_hit true .on_miss true .queue true
+effect: .name "Driver Bring The Thunder 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 9% .protection_rating_add 30%	.on_hit true .on_miss true .queue true
+effect: .name "Driver Bring The Thunder 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .crit_chance_add 10% .protection_rating_add 33%	.on_hit true .on_miss true .queue true
+
+effect: .name "Driver Recon Stress 1" .target "performer" .curio_result_type "negative" .chance 100% .stress 4		.on_hit true .on_miss true	.queue true
+effect: .name "Driver Recon Stress 2" .target "performer" .curio_result_type "negative" .chance 100% .stress 5		.on_hit true .on_miss true	.queue true
+effect: .name "Driver Recon Stress 3" .target "performer" .curio_result_type "negative" .chance 100% .stress 6		.on_hit true .on_miss true	.queue true
+effect: .name "Driver Recon Stress 4" .target "performer" .curio_result_type "negative" .chance 100% .stress 7		.on_hit true .on_miss true	.queue true
+effect: .name "Driver Recon Stress 5" .target "performer" .curio_result_type "negative" .chance 100% .stress 8		.on_hit true .on_miss true	.queue true
+
+effect: .name "Driver Conductor Health 1" .target "performer" .chance 100% .health_damage 2 .on_hit true .on_miss true .queue true 
+effect: .name "Driver Conductor Health 2" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss true .queue true 
+effect: .name "Driver Conductor Health 3" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss true .queue true 
+
+effect: .name "SD Aegis" .target "performer" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
+
+effect: .name "SD Strike Buff 1" .target "performer" .chance 100% .duration 6 .buff_ids "sd_strike_1l" "sd_strike_1h" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "SD Strike Buff 2" .target "performer" .chance 100% .duration 6 .buff_ids "sd_strike_2l" "sd_strike_2h" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "SD Strike Buff 3" .target "performer" .chance 100% .duration 6 .buff_ids "sd_strike_3l" "sd_strike_3h" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "SD Strike Buff 4" .target "performer" .chance 100% .duration 6 .buff_ids "sd_strike_4l" "sd_strike_4h" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "SD Strike Buff 5" .target "performer" .chance 100% .duration 6 .buff_ids "sd_strike_5l" "sd_strike_5h" .on_hit true .on_miss false .apply_once true .queue true
+
+//Summon
+effect: .name "Summon SD Tnt 1" .target "performer"  .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sd_tnt_A .summon_chances 1.0  .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true .summon_rank_is_previous_monster_class false .summon_limits 3 
+effect: .name "Summon SD Tnt 2" .target "performer"  .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sd_tnt_B .summon_chances 1.0  .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true .summon_rank_is_previous_monster_class false .summon_limits 3
+effect: .name "Summon SD Tnt 3" .target "performer"  .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sd_tnt_C .summon_chances 1.0  .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true .summon_rank_is_previous_monster_class false .summon_limits 3
+effect: .name "Summon SD Tnt 4" .target "performer"  .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sd_tnt_D .summon_chances 1.0  .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true .summon_rank_is_previous_monster_class false .summon_limits 3
+effect: .name "Summon SD Tnt 5"	.target "performer"  .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters sd_tnt_E .summon_chances 1.0  .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true .summon_rank_is_previous_monster_class false .summon_limits 3
+
+effect: .name "Tnt 1A" .target "performer_group_other" .chance 100% .health_damage 3  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Tnt 1B" .target "performer_group_other" .chance 100% .health_damage 4  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Tnt 1C" .target "performer_group_other" .chance 100% .health_damage 5  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Tnt 1D" .target "performer_group_other" .chance 100% .health_damage 6  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Tnt 1E" .target "performer_group_other" .chance 100% .health_damage 7  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Tnt 2A" .target "performer_group_other" .chance 50% .health_damage 1  .damage_type unknown .damage_source_type hero .on_hit true .on_miss true .queue true .apply_once true
+
+
+
+effect: .name "SD Tnt Tooltip 1" .target "performer" .skill_instant true .chance 100% .buff_ids sd_tnt_tooltip_1 sd_tnt_tooltip_6 .on_hit true .on_miss false .apply_once true
+effect: .name "SD Tnt Tooltip 2" .target "performer" .skill_instant true .chance 100% .buff_ids sd_tnt_tooltip_2 sd_tnt_tooltip_7 .on_hit true .on_miss false .apply_once true
+effect: .name "SD Tnt Tooltip 3" .target "performer" .skill_instant true .chance 100% .buff_ids sd_tnt_tooltip_3 sd_tnt_tooltip_8 .on_hit true .on_miss false .apply_once true
+effect: .name "SD Tnt Tooltip 4" .target "performer" .skill_instant true .chance 100% .buff_ids sd_tnt_tooltip_4 sd_tnt_tooltip_9 .on_hit true .on_miss false .apply_once true
+effect: .name "SD Tnt Tooltip 5" .target "performer" .skill_instant true .chance 100% .buff_ids sd_tnt_tooltip_5 sd_tnt_tooltip_10 .on_hit true .on_miss false .apply_once true
+
+effect: .name "SD Tnt Explode Blight 1" .target "target" .chance 100% .buff_ids "sd_tnt_blight_resist_1" "sd_tnt_acc_1" .on_hit true .on_miss true .queue true
+effect: .name "SD Tnt Explode Blight 2" .target "target" .chance 110% .buff_ids "sd_tnt_blight_resist_2" "sd_tnt_acc_2" .on_hit true .on_miss true .queue true
+effect: .name "SD Tnt Explode Blight 3" .target "target" .chance 120% .buff_ids "sd_tnt_blight_resist_3" "sd_tnt_acc_3" .on_hit true .on_miss true .queue true
+effect: .name "SD Tnt Explode Blight 4" .target "target" .chance 130% .buff_ids "sd_tnt_blight_resist_4" "sd_tnt_acc_4" .on_hit true .on_miss true .queue true
+effect: .name "SD Tnt Explode Blight 5" .target "target" .chance 140% .buff_ids "sd_tnt_blight_resist_5" "sd_tnt_acc_5" .on_hit true .on_miss true .queue true
+
+//Actor Dot
+effect: .name "Crystal Dot 1" .target target .chance 100% .actor_dot sd_conductor_1 .on_hit true .on_miss false .queue true .has_description false 
+effect: .name "Crystal Dot 2" .target target .chance 100% .actor_dot sd_conductor_2 .on_hit true .on_miss false .queue true .has_description false 
+effect: .name "Crystal Dot 3" .target target .chance 100% .actor_dot sd_conductor_3 .on_hit true .on_miss false .queue true .has_description false 
+effect: .name "Crystal Dot 4" .target target .chance 100% .actor_dot sd_conductor_4 .on_hit true .on_miss false .queue true .has_description false 
+effect: .name "Crystal Dot 5" .target target .chance 100% .actor_dot sd_conductor_5 .on_hit true .on_miss false .queue true .has_description false 
+
+effect: .name "Crystal Dot Tooltip 1" .target "performer" .skill_instant true .chance 100% .buff_ids conductor_tooltip_1 conductor_tooltip_6 .on_hit true .on_miss false .apply_once true
+effect: .name "Crystal Dot Tooltip 2" .target "performer" .skill_instant true .chance 100% .buff_ids conductor_tooltip_2 conductor_tooltip_7 .on_hit true .on_miss false .apply_once true
+effect: .name "Crystal Dot Tooltip 3" .target "performer" .skill_instant true .chance 100% .buff_ids conductor_tooltip_3 conductor_tooltip_8 .on_hit true .on_miss false .apply_once true
+effect: .name "Crystal Dot Tooltip 4" .target "performer" .skill_instant true .chance 100% .buff_ids conductor_tooltip_4 conductor_tooltip_9 .on_hit true .on_miss false .apply_once true
+effect: .name "Crystal Dot Tooltip 5" .target "performer" .skill_instant true .chance 100% .buff_ids conductor_tooltip_5 conductor_tooltip_10 .on_hit true .on_miss false .apply_once true
+
+effect: .name "Gestation 1A" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 1B" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 1C" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 1D" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 1E" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Gestation 2A" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 2B" .target "performer" .chance 100% .health_damage 3 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 2C" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 2D" .target "performer" .chance 100% .health_damage 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Gestation 2E" .target "performer" .chance 100% .health_damage 5 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Cracking 3A" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Cracking 3B" .target "performer" .chance 100% .health_damage 6 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Cracking 3C" .target "performer" .chance 100% .health_damage 8 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Cracking 3D" .target "performer" .chance 100% .health_damage 8 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Cracking 3E" .target "performer" .chance 100% .health_damage 10 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Cracking Debuff 3A" .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -15% .speed_rating_add -1 .on_hit true .on_miss true .queue true
+effect: .name "Cracking Debuff 3B" .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -20% .speed_rating_add -2 .on_hit true .on_miss true .queue true
+effect: .name "Cracking Debuff 3C" .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -20% .speed_rating_add -2 .on_hit true .on_miss true .queue true
+effect: .name "Cracking Debuff 3D" .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -25% .speed_rating_add -3 .on_hit true .on_miss true .queue true
+effect: .name "Cracking Debuff 3E" .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -25% .speed_rating_add -3 .on_hit true .on_miss true .queue true
+
+effect: .name "SD CD TT" .target "performer" .chance 100% .skill_instant true .buff_ids "sd_cd_tt" .on_hit true .on_miss false .apply_once true
+
+effect: .name "SD CD" .target "performer" .chance 0% .dotBleed 1 .duration 1 .has_description false
+
+effect: .name "SD CD Debuff" .target "performer" .chance 100% .buff_ids "sd_cd_debuff" "sd_cd_debuff_tt" .on_hit true .on_miss false .has_description false
+
+//Trinkets
+effect: .name "SD Picture Buff" .target "performer" .chance 100% .duration 4 .combat_stat_buff 1 .protection_rating_add 10% .speed_rating_add 2 .on_hit true .on_miss true .queue true
+effect: .name "SD Heart Stressheal" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss true .queue true
+
+//Virtues 
+effect: .name "SD Dynamic Riposte"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true
+effect: .name "SD Resilient Aegis" .target target .chance 100% .health_damage_blocks 1 .on_hit true .on_miss true .queue true 

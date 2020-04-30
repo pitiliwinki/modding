@@ -1,0 +1,91 @@
+effect: .name "Seraph Clear Marked Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss false .has_description false
+
+effect: .name "Vindicate Marked DMG 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vindicate Marked DMG 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%	.on_hit true .on_miss false .has_description false
+effect: .name "Vindicate Marked DMG 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vindicate Marked DMG 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vindicate Marked DMG 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150% .on_hit true .on_miss false .has_description false
+
+effect: .name "Vindicate Tooltip 1" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vindicate Tooltip 2" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%	.on_hit true .on_miss false
+effect: .name "Vindicate Tooltip 3" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vindicate Tooltip 4" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vindicate Tooltip 5" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150% .on_hit true .on_miss false
+
+effect: .name "Ignite Marked DMG 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false .has_description false
+effect: .name "Ignite Marked DMG 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%	.on_hit true .on_miss false .has_description false
+effect: .name "Ignite Marked DMG 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false .has_description false
+effect: .name "Ignite Marked DMG 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false .has_description false
+effect: .name "Ignite Marked DMG 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200% .on_hit true .on_miss false .has_description false
+
+effect: .name "Ignite Tooltip 1".target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false
+effect: .name "Ignite Tooltip 2".target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%	.on_hit true .on_miss false
+effect: .name "Ignite Tooltip 3".target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false
+effect: .name "Ignite Tooltip 4".target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200%  .on_hit true .on_miss false
+effect: .name "Ignite Tooltip 5".target "performer" .chance 100%	.curio_result_type "positive" .monsterType "seraphtooltip"  .combat_stat_buff 1 .damage_low_multiply 200%  .damage_high_multiply 200% .on_hit true .on_miss false
+
+effect: .name "Ignite Torch" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 4	.on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Vengeance Marked DMG 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vengeance Marked DMG 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%	.on_hit true .on_miss false .has_description false
+effect: .name "Vengeance Marked DMG 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vengeance Marked DMG 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false .has_description false
+effect: .name "Vengeance Marked DMG 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150% .on_hit true .on_miss false .has_description false
+
+effect: .name "Vengeance Tooltip 1" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "vengeancetooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vengeance Tooltip 2" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "vengeancetooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%	.on_hit true .on_miss false
+effect: .name "Vengeance Tooltip 3" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "vengeancetooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vengeance Tooltip 4" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "vengeancetooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150%  .on_hit true .on_miss false
+effect: .name "Vengeance Tooltip 5" .target "performer" .chance 100%	.curio_result_type "positive" .monsterType "vengeancetooltip"  .combat_stat_buff 1 .damage_low_multiply 150%  .damage_high_multiply 150% .on_hit true .on_miss false
+
+effect: .name "Vengeance Clear Guarded" .target "performer" .chance 100% .clearguarded 1 .on_hit true .on_miss true .has_description false
+effect: .name "Vengeance Break Guard" .target performer .chance 100% .clearguarding 1 .buff_ids "seraph_block_guard" .duration 3 .on_hit true .on_miss true .queue true
+
+effect: .name "Vengeance Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .torch_increase 10 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .queue true
+effect: .name "Vengeance Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .torch_increase 10 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%  .queue true
+effect: .name "Vengeance Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .torch_increase 10 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%  .queue true
+effect: .name "Vengeance Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .torch_increase 10 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0%  .queue true
+effect: .name "Vengeance Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .torch_increase 10 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .crit_chance_add 0% .queue true
+
+effect: .name "Visage Stress 1" .target "performer_group_other" .chance 100% .dotStress 1 .duration 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Visage Stress 2" .target "performer_group_other" .chance 100% .dotStress 1 .duration 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Visage Stress 3" .target "performer_group_other" .chance 100% .dotStress 1 .duration 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Visage Stress 4" .target "performer_group_other" .chance 100% .dotStress 1 .duration 6 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Visage Stress 5" .target "performer_group_other" .chance 100% .dotStress 1 .duration 6 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Intervention PROT Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids seraph_intervention_prot_1 seraph_virtue_1 .duration 4  .clearDotStress 1	.on_hit true .on_miss true .queue true
+effect: .name "Intervention PROT Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids seraph_intervention_prot_2 seraph_virtue_2 .duration 4  .clearDotStress 1	.on_hit true .on_miss true .queue true
+effect: .name "Intervention PROT Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids seraph_intervention_prot_3 seraph_virtue_3 .duration 4  .clearDotStress 1	.on_hit true .on_miss true .queue true
+effect: .name "Intervention PROT Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids seraph_intervention_prot_4 seraph_virtue_4 .duration 4  .clearDotStress 1	.on_hit true .on_miss true .queue true
+effect: .name "Intervention PROT Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids seraph_intervention_prot_5 seraph_virtue_5 .duration 4  .clearDotStress 1	.on_hit true .on_miss true .queue true
+
+effect: .name "Intervention Stress Heal 1"  .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Intervention Stress Heal 2"  .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Intervention Stress Heal 3"  .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Intervention Stress Heal 4"  .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+effect: .name "Intervention Stress Heal 5"  .target "target" .curio_result_type "positive" .chance 100% .clearDotStress 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Cauterize Bleed Cure" .target "target" .curio_result_type "positive" .chance 100% .cure_bleed 1	.on_hit true .on_miss false
+
+effect: .name "Cauterize Buff 1" .target "target" .chance 100% .buff_ids CAUTERIZE_BLEED_RESIST_BUFF_1 CAUTERIZE_SPD_BUFF_1 CAUTERIZE_STRESS_DEBUFF .on_hit true .queue true
+effect: .name "Cauterize Buff 2" .target "target" .chance 100% .buff_ids CAUTERIZE_BLEED_RESIST_BUFF_2 CAUTERIZE_SPD_BUFF_2 CAUTERIZE_STRESS_DEBUFF .on_hit true .queue true
+effect: .name "Cauterize Buff 3" .target "target" .chance 100% .buff_ids CAUTERIZE_BLEED_RESIST_BUFF_3 CAUTERIZE_SPD_BUFF_3 CAUTERIZE_STRESS_DEBUFF .on_hit true .queue true
+effect: .name "Cauterize Buff 4" .target "target" .chance 100% .buff_ids CAUTERIZE_BLEED_RESIST_BUFF_4 CAUTERIZE_SPD_BUFF_4 CAUTERIZE_STRESS_DEBUFF .on_hit true .queue true
+effect: .name "Cauterize Buff 5" .target "target" .chance 100% .buff_ids CAUTERIZE_BLEED_RESIST_BUFF_5 CAUTERIZE_SPD_BUFF_5 CAUTERIZE_STRESS_DEBUFF .on_hit true .queue true
+
+effect: .name "Cauterize Stress 1" .target "target" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+effect: .name "Cauterize Stress 2" .target "target" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+effect: .name "Cauterize Stress 3" .target "target" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+effect: .name "Cauterize Stress 4" .target "target" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+effect: .name "Cauterize Stress 5" .target "target" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+
+effect: .name "Cauterize Torch" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 3	.on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Brand Torch" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 3	.on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Brand Debuff 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add -1 .duration 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Brand Debuff 2" .target "target" .curio_result_type "positive" .chance 110% .combat_stat_buff 1 .speed_rating_add -2 .duration 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Brand Debuff 3" .target "target" .curio_result_type "positive" .chance 120% .combat_stat_buff 1 .speed_rating_add -2 .duration 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Brand Debuff 4" .target "target" .curio_result_type "positive" .chance 130% .combat_stat_buff 1 .speed_rating_add -3 .duration 3	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Brand Debuff 5" .target "target" .curio_result_type "positive" .chance 140% .combat_stat_buff 1 .speed_rating_add -3 .duration 3	.on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "on_crit_seraph"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_seraph" .duration 3 .on_hit true .on_miss false .apply_once true

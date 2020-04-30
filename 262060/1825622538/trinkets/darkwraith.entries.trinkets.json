@@ -1,0 +1,264 @@
+{
+   "entries":
+   [
+
+	  {
+         "id" : "darkwraith_head_collector",
+         "buffs" : 
+         [	
+			"DW_tooltip_Trinket_Head",
+			"DW_TRINKET_PROT_DD",
+			"DW_TRINKET_HEAD",
+			
+			
+			
+			"TRINKET_Head_Disease",
+			"TRINKET_Head_Blight",
+			"TRINKET_Head_Bleed",
+			"TRINKET_Head_Debuff",
+			"TRINKET_Head_Stun",
+			"TRINKET_Head_Move",
+
+			"TRINKET_HEAD_Stress"
+         ],
+         "hero_class_requirements":
+         [],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+    },
+	
+	 {
+         "id" : "darkwraith_mask",
+         "buffs" : 
+         [
+			"DW_tooltip_Trinket_Mask",
+			
+			"DW_tooltip_Trinket_Head",
+			
+			
+			"TRINKET_Head_Disease",
+			"TRINKET_Head_Blight",
+			"TRINKET_Head_Bleed",
+			"TRINKET_Head_Debuff",
+			"TRINKET_Head_Stun",
+			"TRINKET_Head_Move",
+			
+			"DW_TRINKET_Claw_DMGREC_Mask",
+			"DW_TRINKET_Wall_DMGREC_Mask",
+			"DW_TRINKET_Bomb_DMGREC_Mask",
+			"DW_TRINKET_DB",
+			"DW_TRINKET_MAXHP"
+         ],
+         "hero_class_requirements":
+         [
+		 "darkwraith"
+		 ],
+         "rarity" : "very_rare",
+         "price" : 20000,
+         "limit" : 1,
+         "origin_dungeon" : ""},
+	  {
+         "id" : "darkwraith_plating",
+         "buffs" : 
+         [
+			 "DW_tooltip_Trinket_Plating_Scaling",
+			 "DW_TRINKET_Plate_Move",
+			 "DW_TRINKET_Plate_DMGREC_00",
+			 "DW_TRINKET_Plate_DMGREC_10",
+			 "DW_TRINKET_Plate_DMGREC_20",
+			 "DW_TRINKET_Plate_DMGREC_30",
+			 "DW_TRINKET_Plate_DMGREC_40",
+			 "DW_TRINKET_Plate_DMGREC_60",
+			 "DW_TRINKET_Plate_DMGREC_70",
+			 "DW_TRINKET_Plate_DMGREC_80",
+			 "DW_TRINKET_Plate_DMGREC_90",
+			
+			 "DW_TRINKET_Plate_DEF"
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	 {
+         "id" : "darkwraith_gem",
+         "buffs" : 
+         [
+			 "DW_tooltip_Trinket_Gem_Scaling",
+			 "TRINKET_DW_Pierce_Dark_90",
+			 "TRINKET_DW_Pierce_Dark_80",
+			 "TRINKET_DW_Pierce_Dark_70",
+			 "TRINKET_DW_Pierce_Dark_60",
+			 "TRINKET_DW_Pierce_Dark_50",
+			 "TRINKET_DW_Pierce_Dark_40",
+			 "TRINKET_DW_Pierce_Dark_30",
+			 "TRINKET_DW_Pierce_Dark_20",
+			 "TRINKET_DW_Pierce_Dark_10",
+			 "TRINKET_DW_Pierce_Dark_00",
+			"DW_TRINKET_Torchdec"
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "rarity" : "common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	 
+	  
+	  {
+         "id" : "darkwraith_bomb",
+         "buffs" : 
+         [
+		 
+		"DW_tooltip_Trinket_Bomb",
+		"DW_TRINKET_Firebomb_DMGREC",
+		"DW_TRINKET_Firebomb_BLEED",
+		"DW_TRINKET_Firebomb_DMGH",
+		"DW_TRINKET_Firebomb_DMGL",
+		"DW_TRINKET_Firebomb_MOVE"
+		 ],
+         "hero_class_requirements":
+         [
+		 "darkwraith"
+		 ],
+         "rarity" : "uncommon",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		 "DW Shrapnel Bleed"
+		 ] 
+		},
+	  {
+         "id" : "darkwraith_book",
+         "buffs" : 
+         [
+			"DW_TRINKET_Shaddow_heal",
+			"DW_TRINKET_Shaddow_Res"
+			
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "rarity" : "uncommon",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		 "DW Shadows Stealthbuff",
+		 "DW Shadows TT 2"]
+		},
+		 
+	  
+	  {
+         "id" : "darkwraith_serpent_book",
+         "buffs" : 
+         [
+			"DW_TRINKET_Seal_DMGREC",
+			"DW_tooltip_Trinket_Grasp",
+			"DW_tooltip_Trinket_GraspII",
+			"TRINKET_WR_STRESSDOT_BUFF"
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "rarity" : "rare",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "darkwraith_cc_eye",
+         "buffs" : 
+         [
+			"TRINKET_EYE_IGNORESTEALTH",
+			"DW_tooltip_Trinket_Eye_Scaling",
+			
+			"TRINKET_DW_ACC_Dark_00",
+			"TRINKET_DW_ACC_Dark_10",
+			"TRINKET_DW_ACC_Dark_20",
+			"TRINKET_DW_ACC_Dark_30",
+			"TRINKET_DW_ACC_Dark_40",
+			"TRINKET_DW_ACC_Dark_50",
+			"TRINKET_DW_ACC_Dark_60",
+			"TRINKET_DW_ACC_Dark_70",
+			"TRINKET_DW_ACC_Dark_80",
+			"TRINKET_DW_ACC_Dark_90",
+			"TRINKET_DW_Stress_Dark_00",
+			"TRINKET_DW_Stress_Dark_10",
+			"TRINKET_DW_Stress_Dark_20",
+			"TRINKET_DW_Stress_Dark_30",
+			"TRINKET_DW_Stress_Dark_40",
+			"TRINKET_DW_Stress_Dark_50",
+			"TRINKET_DW_Stress_Dark_60",
+			"TRINKET_DW_Stress_Dark_70",
+			"TRINKET_DW_Stress_Dark_80",
+			"TRINKET_DW_Stress_Dark_90"
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "set_id" : "cc_darkwraith",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      
+	  {
+         "id" : "darkwraith_cc_claw",
+         "buffs" : 
+         [		
+			"DW_tooltip_Trinket_Claw_Bleed",
+			"DW_TRINKET_Claw_DMGREC",
+			"DW_TRINKET_Claw_CRT",
+			
+			"DW_TRINKET_Claw_BLEED"
+         ],
+         "hero_class_requirements":
+         ["darkwraith"],
+         "set_id" : "cc_darkwraith",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		  "attack_skill_additional_effects":
+        [
+            "DW Claw Bleed"
+        ]
+      },
+	   {
+         "id" : "darkwraith_sword",
+         "buffs" : 
+         [	
+		 "TRINKET_com_DW_NOFlask",
+		 "TRINKET_com_DW_Flask_DMGH",
+		 "TRINKET_com_DW_Flask_DMGL",
+		 
+			"DW_TRINKET_perfectionist_D"
+		 ],
+         "hero_class_requirements":
+         [
+			"darkwraith"
+         ],
+         "rarity" :"comet",
+         "shard" : 65,
+         "limit" : 1,
+		  "kill_performer_additional_effects":
+        [
+          "DW Sword OnKill"
+        ],
+		"attack_skill_additional_effects":
+		[
+		"DW Blade Bark" 
+		]
+     }
+
+   ]
+}

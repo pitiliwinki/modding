@@ -1,0 +1,120 @@
+effect: .name "sisters_crit_buff"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "SCHOLAR_CRIT" "WARRIOR_CRIT" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//Exhaust
+effect: .name "Scholar Exhaust" .target "performer" .chance 100% .buff_ids "SISTERS_DESTRESS_TRESPASS" "SISTERS_DESTRESS_SHROUD" "SISTERS_DESTRESS_CRIMSON_DANCE" "SISTERS_STRESS_WEEDOUT" "SISTERS_STRESS_BLOSSOM" "SISTERS_STRESS_BRIAR_CURSE" "SISTERS_STRESS_SCHOLARNEW" "SISTERS_DESTRESS_WARRIORNEW" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "Warrior Exhaust" .target "performer" .chance 100% .buff_ids "SISTERS_STRESS_TRESPASS" "SISTERS_STRESS_SHROUD" "SISTERS_STRESS_CRIMSON_DANCE" "SISTERS_DESTRESS_WEEDOUT" "SISTERS_DESTRESS_BLOSSOM" "SISTERS_DESTRESS_BRIAR_CURSE" "SISTERS_STRESS_WARRIORNEW" "SISTERS_DESTRESS_SCHOLARNEW" .duration 4 .on_hit true .on_miss true .queue true .apply_once true .has_description false
+
+effect: .name "Scholar Exhaust Tooltip" .target "performer" .chance 100% .buff_ids "SISTERS_DESTRESS_SCHOLAR" "SISTERS_STRESS_WARRIOR" .duration 1 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Warrior Exhaust Tooltip" .target "performer" .chance 100% .buff_ids "SISTERS_DESTRESS_WARRIOR" "SISTERS_STRESS_SCHOLAR" .duration 1 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Sister Self Stress" .target "performer" .curio_result_type "negative" .chance 100% .stress 4	.on_hit true .on_miss true	.queue true .apply_once true
+effect: .name "Sister Self Stress Hidden" .target "performer" .curio_result_type "negative" .chance 100% .stress 4	.on_hit true .on_miss true	.queue true .apply_once true .has_description false
+
+effect: .name "Hidden Stress Tooltip" .target "performer" .skill_instant true .buff_ids CRIMSON_DANCE_TOOLTIP_2 .on_hit true .on_miss false .queue false .apply_once true
+
+//Possession
+effect: .name "switch_mode_scholar_self" .target "performer" .set_mode scholar .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "switch_mode_warrior_self" .target "performer" .set_mode warrior .chance 100% .on_hit true .on_miss false .queue false
+
+effect: .name "scholar_debuff" .target "performer" .chance 100% .buff_ids SCHOLAR_DODGE_DEBUFF SCHOLAR_SPD_DEBUFF .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "warrior_buff" .target "performer" .chance 100% .buff_ids WARRIOR_DODGE_BUFF WARRIOR_SPD_DEBUFF .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+
+
+effect: .name "possession_self_stress_1" .target "performer" .curio_result_type "negative" .chance 100% .healstress 3	.on_hit true .on_miss false	.queue true
+effect: .name "possession_self_stress_2" .target "performer" .curio_result_type "negative" .chance 100% .healstress 4	.on_hit true .on_miss false	.queue true
+effect: .name "possession_self_stress_3" .target "performer" .curio_result_type "negative" .chance 100% .healstress 5	.on_hit true .on_miss false	.queue true
+effect: .name "possession_self_stress_4" .target "performer" .curio_result_type "negative" .chance 100% .healstress 6	.on_hit true .on_miss false	.queue true
+effect: .name "possession_self_stress_5" .target "performer" .curio_result_type "negative" .chance 100% .healstress 7	.on_hit true .on_miss false	.queue true
+
+effect: .name "possession_horror" .target "performer_group_other" .curio_result_type "negative" .chance 100% .stress 2	.on_hit true .on_miss false	.queue true
+
+effect: .name "possession_scholar_tooltip" .target "performer" .buff_ids SISTERS_DESTRESS_WARRIOR SISTERS_STRESS_SCHOLAR .on_hit false .on_miss true .queue false .apply_once true
+effect: .name "possession_warrior_tooltip" .target "performer" .buff_ids SISTERS_DESTRESS_SCHOLAR SISTERS_STRESS_WARRIOR .on_hit false .on_miss true .queue false .apply_once true
+
+effect: .name possession_scholar_bark 	.target performer .chance 33% .bark possession_scholar_bark .on_hit true .on_miss true .queue true
+effect: .name possession_warrior_bark 	.target performer .chance 33% .bark possession_warrior_bark .on_hit true .on_miss true .queue true
+
+//Weed Out
+effect: .name "Weed Out Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Weed Out Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Weed Out Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Weed Out Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Weed Out Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Weed Out Bonus 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 15%	.on_hit true .on_miss false
+effect: .name "Weed Out Bonus 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 17%	.on_hit true .on_miss false
+effect: .name "Weed Out Bonus 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 20%	.on_hit true .on_miss false
+effect: .name "Weed Out Bonus 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 22%	.on_hit true .on_miss false
+effect: .name "Weed Out Bonus 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 25%	.on_hit true .on_miss false
+
+
+//Blossom
+effect: .name "Sisters Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Sisters Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Sisters Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
+effect: .name "Sisters Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3	.on_hit true .on_miss true
+effect: .name "Sisters Healdot 5" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3	.on_hit true .on_miss true
+
+effect: .name "Sisters Stress Heal 1" .target "target" .curio_result_type "positive" .chance 100% .healstress 8	.on_hit true .on_miss false .queue true
+effect: .name "Sisters Stress Heal 2" .target "target" .curio_result_type "positive" .chance 100% .healstress 9	.on_hit true .on_miss false .queue true
+effect: .name "Sisters Stress Heal 3" .target "target" .curio_result_type "positive" .chance 100% .healstress 10	.on_hit true .on_miss false .queue true
+effect: .name "Sisters Stress Heal 4" .target "target" .curio_result_type "positive" .chance 100% .healstress 11 .on_hit true .on_miss false .queue true
+effect: .name "Sisters Stress Heal 5" .target "target" .curio_result_type "positive" .chance 100% .healstress 12	.on_hit true .on_miss false .queue true
+
+effect: .name "Blossom Destealth" .target "performer" .chance 100% .unstealth 1 .on_hit true .on_miss false
+
+//Rose Thorns
+effect: .name "Sisters Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true
+effect: .name "Sisters Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true
+effect: .name "Sisters Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true
+effect: .name "Sisters Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true
+effect: .name "Sisters Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4  .on_hit true .on_miss true
+
+effect: .name "Sisters Riposte Exhaust 1" .target "performer" .chance 100% .buff_ids "SCHOLAR_DMGL_DEBUFF" "SCHOLAR_DMGH_DEBUFF" "BRAMBLE_PROT_BUFF1" "BRAMBLE_BLEEDSKILL_BUFF1" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sisters Riposte Exhaust 2" .target "performer" .chance 100% .buff_ids "SCHOLAR_DMGL_DEBUFF" "SCHOLAR_DMGH_DEBUFF" "BRAMBLE_PROT_BUFF2" "BRAMBLE_BLEEDSKILL_BUFF2" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sisters Riposte Exhaust 3" .target "performer" .chance 100% .buff_ids "SCHOLAR_DMGL_DEBUFF" "SCHOLAR_DMGH_DEBUFF" "BRAMBLE_PROT_BUFF3" "BRAMBLE_BLEEDSKILL_BUFF3" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sisters Riposte Exhaust 4" .target "performer" .chance 100% .buff_ids "SCHOLAR_DMGL_DEBUFF" "SCHOLAR_DMGH_DEBUFF" "BRAMBLE_PROT_BUFF4" "BRAMBLE_BLEEDSKILL_BUFF4" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Sisters Riposte Exhaust 5" .target "performer" .chance 100% .buff_ids "SCHOLAR_DMGL_DEBUFF" "SCHOLAR_DMGH_DEBUFF" "BRAMBLE_PROT_BUFF5" "BRAMBLE_BLEEDSKILL_BUFF5" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Bramble Tooltip" .target "performer" .buff_ids BRAMBLE_TOOLTIP .on_hit false .on_miss true .queue false
+
+//Trespass
+effect: .name "Trespass Marked Bonus 1" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .crit_chance_add 200%	 .on_hit true .on_miss false .has_description false
+effect: .name "Trespass Marked Bonus 2" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .crit_chance_add 200%	 .on_hit true .on_miss false .has_description false
+effect: .name "Trespass Marked Bonus 3" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .crit_chance_add 200%	 .on_hit true .on_miss false .has_description false
+effect: .name "Trespass Marked Bonus 4" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .crit_chance_add 200%	 .on_hit true .on_miss false .has_description false
+effect: .name "Trespass Marked Bonus 5" .target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .crit_chance_add 200%	 .on_hit true .on_miss false .has_description false
+
+effect: .name "Trespass Marked Tooltip" .target "performer" .skill_instant true .buff_ids TRESPASS_TOOLTIP .on_hit true .on_miss false .queue false .apply_once true
+
+//Shroud
+effect: .name "Shroud Healdot 1" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Shroud Healdot 2" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3	.on_hit true .on_miss true
+effect: .name "Shroud Healdot 3" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 4	.on_hit true .on_miss true
+effect: .name "Shroud Healdot 4" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 4	.on_hit true .on_miss true
+effect: .name "Shroud Healdot 5" .target "performer" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 5	.on_hit true .on_miss true
+
+effect: .name "Shroud Stealth" .target "performer" .chance 100% .stealth 1 .untag 1 .on_hit true .on_miss false .duration 3
+
+effect: .name "Shroud Clear Mark" .target "performer" .chance 100% .untag 1	.on_hit true .on_miss true
+
+effect: .name "Shroud Buff 1" .target "performer" .chance 100% .buff_ids "SHROUD_BLIGHTSKILL_BUFF1" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Shroud Buff 2" .target "performer" .chance 100% .buff_ids "SHROUD_BLIGHTSKILL_BUFF2" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Shroud Buff 3" .target "performer" .chance 100% .buff_ids "SHROUD_BLIGHTSKILL_BUFF3" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Shroud Buff 4" .target "performer" .chance 100% .buff_ids "SHROUD_BLIGHTSKILL_BUFF4" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Shroud Buff 5" .target "performer" .chance 100% .buff_ids "SHROUD_BLIGHTSKILL_BUFF5" .duration 4 .on_hit true .on_miss true .queue true .apply_once true
+
+//1K Cuts
+effect: .name "1K Cuts Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "1K Cuts Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "1K Cuts Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "1K Cuts Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "1K Cuts Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "1K Cuts Bonus 1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 45%	.damage_high_multiply 45%	.on_hit true .on_miss false .apply_once true
+effect: .name "1K Cuts Bonus 2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 52%	.damage_high_multiply 52%	.on_hit true .on_miss false .apply_once true
+effect: .name "1K Cuts Bonus 3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 60%	.damage_high_multiply 60%	.on_hit true .on_miss false .apply_once true
+effect: .name "1K Cuts Bonus 4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 67%	.damage_high_multiply 67%	.on_hit true .on_miss false .apply_once true
+effect: .name "1K Cuts Bonus 5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 75%	.damage_high_multiply 75%	.on_hit true .on_miss false .apply_once true
+
+effect: .name "1K Cuts Tooltip" .target "performer" .skill_instant true .buff_ids CRIMSON_DANCE_TOOLTIP_1 .on_hit true .on_miss false .queue false .apply_once true

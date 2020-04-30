@@ -1,0 +1,2765 @@
+{
+   "buffs":
+   [
+
+	 
+
+	    {
+         "id" : "VV_Noctural_Court_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_Noctural_Court_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Court_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_Noctural_Court_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  
+	  {
+         "id" : "VV_Noctural_Court_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_Noctural_Court_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  
+	  
+	  
+	    {
+         "id" : "VV_Noctural_75_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_S1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_75_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_S2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_75_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_S3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_75_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_D1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	 {
+         "id" : "VV_Noctural_75_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_D2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_75_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Noctural_50_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_D3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	 
+	    {
+         "id" : "VV_Noctural_Court_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_Noctural_Court_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.30,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_Noctural_Court_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.40,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_Farm_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.40,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_Noctural_75_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_50_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_T1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  
+	 
+	  
+	  {
+         "id" : "VV_Noctural_75_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_50_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_T2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  
+	  {
+         "id" : "VV_Noctural_75_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_50_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_T3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	    {
+         "id" : "VV_ECHO_75_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_ECHO_75_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_ECHO_75_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_75_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  	   {
+         "id" : "VV_ECHO_75_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_Court_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Court_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Court_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Court_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_ECHO_Court_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_Farm_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_ECHO_75_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_C1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_75_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_C2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_75_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_C3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_75_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_C4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_75_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_ECHO_50_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_25_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_ECHO_00_C5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Court_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Farm_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Flock_Court_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Farm_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Flock_Court_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Farm_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Flock_Court_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.16,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Farm_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.16,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Flock_Court_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Flock_Farm_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_C1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_C2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_C3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_C4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_C5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADDOW_Court_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Farm_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Court_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Farm_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Court_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Farm_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Court_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Farm_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	   {
+         "id" : "VV_SHADDOW_Court_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_SHADDOW_Farm_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_SHADOW_75_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_D1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_D2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_D3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_D4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_75_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_SHADOW_50_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_25_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+		  "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_SHADOW_00_D5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "VV_Court_dark_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  
+	   {
+         "id" : "VV_Court_dark_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         }
+      },
+	  {
+         "id" : "VV_Farm_dark_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	  {
+         "id" : "VV_Farm_dark_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         }
+      },
+	    {
+         "id" : "VV_Court_dark_DMGH_T",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  
+	   {
+         "id" : "VV_Court_dark_DMGL_T",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Farm_dark_DMGH_T",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Farm_dark_DMGL_T",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_dark_DMGH_75",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 70,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "VV_dark_DMGH_50",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "VV_dark_DMGH_25",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 
+	  {
+         "id" : "VV_dark_DMGH_00",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "VV_dark_DMGL_75",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 
+	  {
+         "id" : "VV_dark_DMGL_50",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "VV_dark_DMGL_25",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	 
+	  {
+         "id" : "VV_dark_DMGL_00",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      }
+	   
+	  
+	  
+	  
+	  
+	 
+
+	 
+	 
+   ]
+}

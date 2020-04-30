@@ -1,0 +1,45 @@
+{
+   "entries":
+   [
+	   {
+         "id" : "cc_resc_1",
+         "buffs" : 
+         [
+		 "RESC_trinket_cc_healing",
+		 "RESC_trinket_cc_death"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "set_id" : "cc_resc_combined12",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "kill_all_monsters_additional_effects":
+        [
+            
+        ]
+      },
+      {
+         "id" : "cc_resc_2",
+         "buffs" : 
+         [
+			"RESC_trinket_cc_bleed_chance",
+			"RESC_trinket_cc_bleed_amount",
+			"RESC_trinket_cc_ignore_prot"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "set_id" : "cc_resc_combined12",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      }
+	  
+   ]
+}

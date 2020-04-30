@@ -1,0 +1,90 @@
+effect: .name thrall_low_hp_reaction .target performer .buff_ids  .stress 3 .on_hit true .on_miss true .queue true
+
+effect: .name "on_crit_thrall"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "on_crit_thrall_dmgl" "on_crit_thrall_dmgh" "on_crit_thrall_stress" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//Maim
+effect: .name "Maim Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Maim Push 1A" .target "target"  .push 1     .chance 90%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Push 1B" .target "target"  .push 1	  .chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Push 1C" .target "target"  .push 1     .chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Push 1D" .target "target"  .push 1     .chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Maim Push 1E" .target "target"  .push 1     .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+
+//Gore
+effect: .name "Gore Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gore Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gore Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gore Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gore Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Gore Stun Self 1" .target "performer" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Gore Stun Self 2" .target "performer" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Gore Stun Self 3" .target "performer" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Gore Stun Self 4" .target "performer" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Gore Stun Self 5" .target "performer" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Gore Self Debuff" .target "performer" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "gore_stun_resist_debuff"  .on_hit true .on_miss false .apply_once true .queue true
+
+//Indomitable
+effect: .name "Indomitable Will Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.05	.on_hit true .on_miss false .queue false .source_heal_type hero_skill .apply_once true
+effect: .name "Indomitable Will Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.05	.on_hit true .on_miss false	.queue false .source_heal_type hero_skill .apply_once true
+effect: .name "Indomitable Will Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.05	.on_hit true .on_miss false	.queue false .source_heal_type hero_skill .apply_once true
+effect: .name "Indomitable Will Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.05	.on_hit true .on_miss false .queue false .source_heal_type hero_skill .apply_once true
+effect: .name "Indomitable Will Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.05	.on_hit true .on_miss false .queue false .source_heal_type hero_skill .apply_once true
+
+effect: .name "Indomitable Stress Heal 1"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "Indomitable Stress Heal 2"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "Indomitable Stress Heal 3"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 7	.on_hit true .on_miss false .queue true
+effect: .name "Indomitable Stress Heal 4"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 8	.on_hit true .on_miss false .queue true
+effect: .name "Indomitable Stress Heal 5"  .target "performer" .curio_result_type "positive" .chance 100%  .healstress 10	.on_hit true .on_miss false .queue true
+
+effect: .name "Indomitable Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids "indomitable_deathblowresist_buff_1" "INDOMITABLE_STRESS_BUFF1"  .on_hit true .on_miss false .apply_once true
+effect: .name "Indomitable Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids "indomitable_deathblowresist_buff_2" "INDOMITABLE_STRESS_BUFF2"  .on_hit true .on_miss false .apply_once true
+effect: .name "Indomitable Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids "indomitable_deathblowresist_buff_3" "INDOMITABLE_STRESS_BUFF3"  .on_hit true .on_miss false .apply_once true
+effect: .name "Indomitable Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids "indomitable_deathblowresist_buff_4" "INDOMITABLE_STRESS_BUFF4" .on_hit true .on_miss false .apply_once true
+effect: .name "Indomitable Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_ids "indomitable_deathblowresist_buff_5" "INDOMITABLE_STRESS_BUFF5"  .on_hit true .on_miss false .apply_once true
+
+//Animosity
+effect: .name "Torment Mark Self" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Torment Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -60%  .damage_high_multiply -60% .apply_once true
+effect: .name "Torment Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -60%  .damage_high_multiply -60% .apply_once true
+effect: .name "Torment Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -55%  .damage_high_multiply -55% .apply_once true
+effect: .name "Torment Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -55%  .damage_high_multiply -55% .apply_once true
+effect: .name "Torment Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% .apply_once true
+
+effect: .name "Torment Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "torment_stress_debuff" "torment_bleedskill_buff1" .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "Torment Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "torment_stress_debuff" "torment_bleedskill_buff2" .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "Torment Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "torment_stress_debuff" "torment_bleedskill_buff3" .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "Torment Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "torment_stress_debuff" "torment_bleedskill_buff4" .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "Torment Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "torment_stress_debuff" "torment_bleedskill_buff5" .duration 3 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Torment Bleed" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+//Savagery
+effect: .name "Savagery Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "savagery_dmgh_buff_1" "savagery_dmgl_buff_1" "savagery_stress_debuff" .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .queue true
+effect: .name "Savagery Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "savagery_dmgh_buff_2" "savagery_dmgl_buff_2" "savagery_stress_debuff" .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .queue true
+effect: .name "Savagery Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "savagery_dmgh_buff_3" "savagery_dmgl_buff_3" "savagery_stress_debuff" .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .queue true
+effect: .name "Savagery Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "savagery_dmgh_buff_4" "savagery_dmgl_buff_4" "savagery_stress_debuff" .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .queue true
+effect: .name "Savagery Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "savagery_dmgh_buff_5" "savagery_dmgl_buff_5" "savagery_stress_debuff" .on_hit true .on_miss true .duration 1 .buff_duration_type combat_end .queue true
+
+//Trample
+effect: .name "Trample Push 2A" .target "target"  .push 2     .chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Trample Push 2B" .target "target"  .push 2	  .chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Trample Push 2C" .target "target"  .push 2     .chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Trample Push 2D" .target "target"  .push 2     .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Trample Push 2E" .target "target"  .push 2     .chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Trample Clear Corpse" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true .apply_once true
+
+//Tremors
+effect: .name "Tremors Shuffle 1" .target "target" .shuffletarget	.chance 110% .on_hit true .on_miss false 	.apply_once true .can_apply_on_death true
+effect: .name "Tremors Shuffle 2" .target "target" .shuffletarget	.chance 120% .on_hit true .on_miss false	.apply_once true .can_apply_on_death true
+effect: .name "Tremors Shuffle 3" .target "target" .shuffletarget	.chance 130% .on_hit true .on_miss false	.apply_once true .can_apply_on_death true
+effect: .name "Tremors Shuffle 4" .target "target" .shuffletarget	.chance 140% .on_hit true .on_miss false	.apply_once true .can_apply_on_death true
+effect: .name "Tremors Shuffle 5" .target "target" .shuffletarget	.chance 150% .on_hit true .on_miss false	.apply_once true .can_apply_on_death true

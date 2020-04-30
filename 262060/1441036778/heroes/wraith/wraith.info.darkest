@@ -1,0 +1,72 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 70% .move 30% .debuff 30% .death_blow 67% .trap 30%
+crit: .effects "on_crit_crit"
+weapon: .name "wraith_weapon_0" .atk 0% .dmg 4 7 .crit 8% .spd 5
+weapon: .name "wraith_weapon_1" .atk 0% .dmg 5 8 .crit 9% .spd 5 .upgradeRequirementCode 0
+weapon: .name "wraith_weapon_2" .atk 0% .dmg 6 9 .crit 10% .spd 6 .upgradeRequirementCode 1
+weapon: .name "wraith_weapon_3" .atk 0% .dmg 7 10 .crit 11% .spd 6 .upgradeRequirementCode 2
+weapon: .name "wraith_weapon_4" .atk 0% .dmg 8 11 .crit 12% .spd 7 .upgradeRequirementCode 3
+armour: .name "wraith_armour_0" .def 5% .prot 0 .hp 18 .spd 0
+armour: .name "wraith_armour_1" .def 10% .prot 0 .hp 21 .spd 0 .upgradeRequirementCode 0
+armour: .name "wraith_armour_2" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 1
+armour: .name "wraith_armour_3" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 2
+armour: .name "wraith_armour_4" .def 25% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "phantom_strike" .level 0 .type "melee" .atk 95% .dmg -20% .crit 2% .launch 1234 .target 12 .is_crit_valid True .effect "WRAITH_PHANTOMSTRIKE_POSBUFF_1" "WRAITH_EVI_BLEED_AMOUNT_BUFF_1" "WRAITH_QUEST_DMGRCV_DBF_BUILD_1" .generation_guaranteed true
+combat_skill: .id "phantom_strike" .level 1 .type "melee" .atk 100% .dmg -15% .crit 2% .launch 1234 .target 12 .is_crit_valid True .effect "WRAITH_PHANTOMSTRIKE_POSBUFF_2" "WRAITH_EVI_BLEED_AMOUNT_BUFF_2" "WRAITH_QUEST_DMGRCV_DBF_BUILD_2"
+combat_skill: .id "phantom_strike" .level 2 .type "melee" .atk 105% .dmg -10% .crit 3% .launch 1234 .target 12 .is_crit_valid True .effect "WRAITH_PHANTOMSTRIKE_POSBUFF_3" "WRAITH_EVI_BLEED_AMOUNT_BUFF_3" "WRAITH_QUEST_DMGRCV_DBF_BUILD_3" 
+combat_skill: .id "phantom_strike" .level 3 .type "melee" .atk 110% .dmg -5% .crit 3% .launch 1234 .target 12 .is_crit_valid True .effect "WRAITH_PHANTOMSTRIKE_POSBUFF_4" "WRAITH_EVI_BLEED_AMOUNT_BUFF_4" "WRAITH_QUEST_DMGRCV_DBF_BUILD_4"
+combat_skill: .id "phantom_strike" .level 4 .type "melee" .atk 115% .dmg 0% .crit 4% .launch 1234 .target 12 .is_crit_valid True .effect "WRAITH_PHANTOMSTRIKE_POSBUFF_5" "WRAITH_EVI_BLEED_AMOUNT_BUFF_5" "WRAITH_QUEST_DMGRCV_DBF_BUILD_5"
+
+combat_skill: .id "eviscerate" .level 0 .type "melee" .atk 100% .dmg -10% .crit 0% .move 0 2 .launch 1234 .target 12 .is_crit_valid False .ignore_guard true .effect "WRAITH_EVI_DEBUFF_1" "WRAITH_EVI_BASE_BLEED_1" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_EVI_QUEST_DMG_BUFF"
+combat_skill: .id "eviscerate" .level 1 .type "melee" .atk 105% .dmg -5% .crit 0% .move 0 2 .launch 1234 .target 12 .is_crit_valid False .ignore_guard true .effect "WRAITH_EVI_DEBUFF_2" "WRAITH_EVI_BASE_BLEED_2" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_EVI_QUEST_DMG_BUFF"
+combat_skill: .id "eviscerate" .level 2 .type "melee" .atk 110% .dmg 0% .crit 0% .move 0 2 .launch 1234 .target 12 .is_crit_valid False .ignore_guard true .effect "WRAITH_EVI_DEBUFF_3" "WRAITH_EVI_BASE_BLEED_3" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_EVI_QUEST_DMG_BUFF"
+combat_skill: .id "eviscerate" .level 3 .type "melee" .atk 115% .dmg 5% .crit 0% .move 0 2 .launch 1234 .target 12 .is_crit_valid False .ignore_guard true .effect "WRAITH_EVI_DEBUFF_4" "WRAITH_EVI_BASE_BLEED_4" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_EVI_QUEST_DMG_BUFF"
+combat_skill: .id "eviscerate" .level 4 .type "melee" .atk 120% .dmg 10% .crit 0% .move 0 2 .launch 1234 .target 12 .is_crit_valid False .ignore_guard true .effect "WRAITH_EVI_DEBUFF_5" "WRAITH_EVI_BASE_BLEED_5" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_EVI_QUEST_DMG_BUFF"
+
+combat_skill: .id "sinister_flurry" .level 0 .type "ranged" .atk 75% .dmg -75% .crit 1% .launch 12 .target ~123 .is_crit_valid True .effect "WRAITH_SINFLU_BLEEDKILL_1" "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_1" "WRAITH_SFLURRY_RIPOSTE_1"
+combat_skill: .id "sinister_flurry" .level 1 .type "ranged" .atk 80% .dmg -75% .crit 1% .launch 12 .target ~123 .is_crit_valid True .effect "WRAITH_SINFLU_BLEEDKILL_2" "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_2" "WRAITH_SFLURRY_RIPOSTE_2"
+combat_skill: .id "sinister_flurry" .level 2 .type "ranged" .atk 85% .dmg -75% .crit 2% .launch 12 .target ~123 .is_crit_valid True .effect "WRAITH_SINFLU_BLEEDKILL_3" "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_3" "WRAITH_SFLURRY_RIPOSTE_3"
+combat_skill: .id "sinister_flurry" .level 3 .type "ranged" .atk 90% .dmg -75% .crit 2% .launch 12 .target ~123 .is_crit_valid True .effect "WRAITH_SINFLU_BLEEDKILL_4" "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_4" "WRAITH_SFLURRY_RIPOSTE_4"
+combat_skill: .id "sinister_flurry" .level 4 .type "ranged" .atk 95% .dmg -75% .crit 3% .launch 12 .target ~123 .is_crit_valid True .effect "WRAITH_SINFLU_BLEEDKILL_5" "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_5" "WRAITH_SFLURRY_RIPOSTE_5"
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg -75% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
+
+combat_skill: .id "devious_ambush" .level 0 .type "melee" .atk 90% .dmg -20% .crit 4% .move 0 3 .launch 34 .target 1234 .is_crit_valid True .ignore_guard true .effect "WRAITH_DEV_STUNKILL_1" "WRAITH_DEV_BLIGHTKILL_1" "WRAITH_DEV_PUSH_1" "WRAITH_DEVSTUN" "WRAITH_EVI_BLEED_AMOUNT_BUFF_1" "WRAITH_DEV_QUEST_CRIT_BUFF"
+combat_skill: .id "devious_ambush" .level 1 .type "melee" .atk 95% .dmg -15% .crit 4% .move 0 3 .launch 34 .target 1234 .is_crit_valid True .ignore_guard true .effect "WRAITH_DEV_STUNKILL_2" "WRAITH_DEV_BLIGHTKILL_2" "WRAITH_DEV_PUSH_2" "WRAITH_DEVSTUN" "WRAITH_EVI_BLEED_AMOUNT_BUFF_2" "WRAITH_DEV_QUEST_CRIT_BUFF"
+combat_skill: .id "devious_ambush" .level 2 .type "melee" .atk 100% .dmg -10% .crit 5% .move 0 3 .launch 34 .target 1234 .is_crit_valid True .ignore_guard true .effect "WRAITH_DEV_STUNKILL_3" "WRAITH_DEV_BLIGHTKILL_3" "WRAITH_DEV_PUSH_3" "WRAITH_DEVSTUN" "WRAITH_EVI_BLEED_AMOUNT_BUFF_3" "WRAITH_DEV_QUEST_CRIT_BUFF"
+combat_skill: .id "devious_ambush" .level 3 .type "melee" .atk 105% .dmg -5% .crit 5% .move 0 3 .launch 34 .target 1234 .is_crit_valid True .ignore_guard true .effect "WRAITH_DEV_STUNKILL_4" "WRAITH_DEV_BLIGHTKILL_4" "WRAITH_DEV_PUSH_4" "WRAITH_DEVSTUN" "WRAITH_EVI_BLEED_AMOUNT_BUFF_4" "WRAITH_DEV_QUEST_CRIT_BUFF"
+combat_skill: .id "devious_ambush" .level 4 .type "melee" .atk 110% .dmg 0% .crit 6% .move 0 3 .launch 34 .target 1234 .is_crit_valid True .ignore_guard true .effect "WRAITH_DEV_STUNKILL_5" "WRAITH_DEV_BLIGHTKILL_5" "WRAITH_DEV_PUSH_5" "WRAITH_DEVSTUN" "WRAITH_EVI_BLEED_AMOUNT_BUFF_5" "WRAITH_DEV_QUEST_CRIT_BUFF"
+
+combat_skill: .id "soul_harvest" .level 0 .type "melee" .atk 100% .dmg 0% .crit 0% .move 2 0 .launch 1234 .target 34 .is_crit_valid False .ignore_stealth true .effect "WRAITH_HARVEST_BLIGHT_1" "WRAITH_HARVEST_INITSUB" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_HARVEST_QUEST_MAXHP_BUFF" "WRAITH_HARVEST_INIT_TOOLTIP"
+combat_skill: .id "soul_harvest" .level 1 .type "melee" .atk 105% .dmg 5% .crit 0% .move 2 0 .launch 1234 .target 34 .is_crit_valid False .ignore_stealth true .effect "WRAITH_HARVEST_BLIGHT_2" "WRAITH_HARVEST_INITSUB" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_HARVEST_QUEST_MAXHP_BUFF" "WRAITH_HARVEST_INIT_TOOLTIP"
+combat_skill: .id "soul_harvest" .level 2 .type "melee" .atk 110% .dmg 10% .crit 0% .move 2 0 .launch 1234 .target 34 .is_crit_valid False .ignore_stealth true .effect "WRAITH_HARVEST_BLIGHT_3" "WRAITH_HARVEST_INITSUB" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_HARVEST_QUEST_MAXHP_BUFF" "WRAITH_HARVEST_INIT_TOOLTIP"
+combat_skill: .id "soul_harvest" .level 3 .type "melee" .atk 115% .dmg 15% .crit 0% .move 2 0 .launch 1234 .target 34 .is_crit_valid False .ignore_stealth true .effect "WRAITH_HARVEST_BLIGHT_4" "WRAITH_HARVEST_INITSUB" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_HARVEST_QUEST_MAXHP_BUFF" "WRAITH_HARVEST_INIT_TOOLTIP"
+combat_skill: .id "soul_harvest" .level 4 .type "melee" .atk 120% .dmg 20% .crit 0% .move 2 0 .launch 1234 .target 34 .is_crit_valid False .ignore_stealth true .effect "WRAITH_HARVEST_BLIGHT_5" "WRAITH_HARVEST_INITSUB" "WRAITH_MARK_SELF" "WRAITH_DISABLE_MARK_SKILLS" "WRAITH_HARVEST_QUEST_MAXHP_BUFF" "WRAITH_HARVEST_INIT_TOOLTIP"
+
+combat_skill: .id "scatter_dread" .level 0 .type "ranged" .atk 85% .dmg -30% .crit 5% .launch 34 .target ~23 .is_crit_valid True .ignore_stealth true .effect "WRAITH_SCATDREAD_DEBUFF_1" "WRAITH_SCATDREAD_SHUFFLE_1" "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_1"
+combat_skill: .id "scatter_dread" .level 1 .type "ranged" .atk 90% .dmg -25% .crit 5% .launch 34 .target ~23 .is_crit_valid True .ignore_stealth true .effect "WRAITH_SCATDREAD_DEBUFF_2" "WRAITH_SCATDREAD_SHUFFLE_2" "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_2"
+combat_skill: .id "scatter_dread" .level 2 .type "ranged" .atk 95% .dmg -20% .crit 6% .launch 34 .target ~23 .is_crit_valid True .ignore_stealth true .effect "WRAITH_SCATDREAD_DEBUFF_3" "WRAITH_SCATDREAD_SHUFFLE_3" "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_3"
+combat_skill: .id "scatter_dread" .level 3 .type "ranged" .atk 100% .dmg -15% .crit 6% .launch 34 .target ~23 .is_crit_valid True .ignore_stealth true .effect "WRAITH_SCATDREAD_DEBUFF_4" "WRAITH_SCATDREAD_SHUFFLE_4" "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_4"
+combat_skill: .id "scatter_dread" .level 4 .type "ranged" .atk 105% .dmg -10% .crit 7% .launch 34 .target ~23 .is_crit_valid True .ignore_stealth true .effect "WRAITH_SCATDREAD_DEBUFF_5" "WRAITH_SCATDREAD_SHUFFLE_5" "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_5" 
+
+combat_skill: .id "grim_shade" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .move 3 0 .launch 1234 .target .is_crit_valid True .effect "WRAITH_GRIM_STEALTH" "WRAITH_GRIMSHADE_BUFFS_1" "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF" .generation_guaranteed true
+combat_skill: .id "grim_shade" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .move 3 0 .launch 1234 .target .is_crit_valid True .effect "WRAITH_GRIM_STEALTH" "WRAITH_GRIMSHADE_BUFFS_2" "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF"
+combat_skill: .id "grim_shade" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .move 3 0 .launch 1234 .target .is_crit_valid True .effect "WRAITH_GRIM_STEALTH" "WRAITH_GRIMSHADE_BUFFS_3" "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF"
+combat_skill: .id "grim_shade" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .move 3 0 .launch 1234 .target .is_crit_valid True .effect "WRAITH_GRIM_STEALTH" "WRAITH_GRIMSHADE_BUFFS_4" "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF"
+combat_skill: .id "grim_shade" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .move 3 0 .launch 1234 .target .is_crit_valid True .effect "WRAITH_GRIM_STEALTH" "WRAITH_GRIMSHADE_BUFFS_5" "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF"
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
+
+tag: .id "wraith"
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "house_of_the_yellow_hand"
+
+activity_modifier: .override_valid_activity_ids bar gambling brothel treatment disease_treatment .override_stress_removal_amount_low 40 .override_stress_removal_amount_high 80
+quirk_modifier: .incompatible_class_ids enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless meditator calm nymphomania
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+incompatible_party_member: .id wraith_limit .hero_tag wraith
+incompatible_party_member: .id wraith_religion_1 .hero_tag highwayman
+controlled: .target_rank 1
+id_index: .index 668
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+extra_battle_loot: .code "wraith_soul_collect" .count 1
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

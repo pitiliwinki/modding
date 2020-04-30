@@ -1,0 +1,69 @@
+{
+   "buffs":
+   [
+	  {
+         "id" : "E_lightstress_75",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.0909,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 76,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "E_lightstress_50",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1091,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 51,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "E_lightstress_25",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.0593,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "E_lightstress_0",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.0741,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description" : false
+      }
+   ]
+}

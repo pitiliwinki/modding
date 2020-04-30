@@ -1,0 +1,32 @@
+{
+   "entries":
+   [
+		{
+         "id" : "com_resc_1",
+         "buffs" : 
+         [
+			"RESC_trinket_com_stun",
+			"RESC_trinket_com_stress",
+			"RESC_trinket_com_hp",
+			"RESC_quirk_tooltip_13",
+			"RESC_quirk_tooltip_14",
+			"RESC_quirk_tooltip_15"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "comet",
+         "shard" : 85,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+         [
+             "RESC_trinket_com_protect_buff_miss",
+			 "RESC_trinket_com_stun_attacker",
+			 "RESC_trinket_com_stun_up"
+         ]
+		 
+      }
+   ]
+}

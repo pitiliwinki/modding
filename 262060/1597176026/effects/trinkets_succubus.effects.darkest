@@ -1,0 +1,57 @@
+//"Warrior of Sunlight effects"
+//--------------------------------------------------------------------------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Trinket Effects
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Skullring
+effect: .name "skullring_heal" .target "target" .curio_result_type "positive"  .chance 100% .heal_percent 0.10	.on_hit true .on_miss false .has_description false 
+effect: .name "on_kill_reg" .target "performer" .curio_result_type "positive"  .chance 100% .dotHpHeal	1 .duration 2 .on_hit true .on_miss false .has_description false 
+effect: .name "Succ Tooltip Reaper" .target "performer" .curio_result_type "positive" .skill_instant true .chance 100% .buff_ids "succ_TT_Reapers"  .on_hit true .on_miss false
+
+// Tagring (unused)
+effect: .name "Earring Tag" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 2	.on_hit true .on_miss false .queue true .apply_once false .has_description true
+
+// Remove DMG from Transformation 
+effect: .name "Succ Trinket remove transform DMG" 	.target "performer_group_other" .chance 500% .buff_ids Succ_Triknet_transform_zero_dmg1 Succ_Triknet_transform_zero_dmg2 .skill_instant true .duration 1 .buff_duration_type before_turn .on_hit true .on_miss false .apply_once true  .has_description false .queue true 
+effect: .name "Succ Trinket remove transform HEAL" 	.target "performer" .chance 500% .buff_ids Succ_Triknet_transform_zero_dmg_Heal .skill_instant false .duration 1 .buff_duration_type before_turn .on_hit true .on_miss false .apply_once true  .has_description false .queue true 
+
+//Veil
+//------------------------------------------
+
+effect: .name "Succ_StealthSelf" .target "performer" .curio_result_type "positive"  .chance 100% .stealth 1 .duration 2 .on_hit true .on_miss false
+
+// Magic
+// Magic Damage
+effect: .name "Succ Veil Magic Damage" .target "target" .curio_result_type "positive" .chance 100% .health_damage 4  .on_hit true .on_miss false .queue true .has_description false .apply_once true
+effect: .name "Succ Veil Magic 5" .target "target" .curio_result_type "positive" .chance 100%   .health_damage 2  .on_hit true .on_miss false .queue true .has_description false .apply_once false 	.can_apply_on_death true
+effect: .name "Succ Veil Magic 4" .target "target" .curio_result_type "positive" .chance 6% 	.health_damage 4  .on_hit true .on_miss false .queue true .has_description false .apply_once false  	.can_apply_on_death true
+effect: .name "Succ Veil Magic 3" .target "target" .curio_result_type "positive" .chance 20% 	.health_damage 2  .on_hit true .on_miss false .queue true .has_description false .apply_once false 	.can_apply_on_death true
+effect: .name "Succ Veil Magic 2" .target "target" .curio_result_type "positive" .chance 30% 	.health_damage 1  .on_hit true .on_miss false .queue true .has_description false .apply_once false 	.can_apply_on_death true
+effect: .name "Succ Veil Magic 1" .target "target" .curio_result_type "positive" .chance 40% 	.health_damage 1  .on_hit true .on_miss false .queue true .has_description false .apply_once false 	.can_apply_on_death true
+effect: .name "Succ Tooltip Magic" .target "target" .curio_result_type "negative" .skill_instant true .chance 100% .buff_ids succ_tooltip_magic .on_hit true .on_miss false
+
+//Cluster Scythe
+//------------------------------------------
+effect: .name "Tooltip ScytheX" .target "target" .curio_result_type "negative" .skill_instant true .chance 100% .buff_ids "succ_TRINKET_Scythe_Debuff_1" "succ_TRINKET_Scythe_Debuff_2" .on_hit true .on_miss true
+
+effect: .name "Summon ClusterX" .target "target" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters cluster_crystal_A .summon_chances 1.0 .summon_limits 1 .summon_ranks 1234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false
+effect: .name "Tooltip Scythe" .target "target" .curio_result_type "negative" .skill_instant true .chance 00% .buff_ids "succ_TT_Cluster_1" .on_hit true .on_miss true
+
+
+//Cluster Enemy
+effect: .name "Cluster Heal Hero 1"        	.target "target" .curio_result_type "positive" .chance 100% .heal 4 	   	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Hero 2"        	.target "target" .curio_result_type "positive" .chance 25%  .heal 5 	   	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Hero 3"        	.target "target" .curio_result_type "positive" .chance 10%  .heal 4 	   	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Stress Hero 1" 	.target "target" .curio_result_type "positive" .chance 100% .healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Stress Hero 2" 	.target "target" .curio_result_type "positive" .chance 60% 	.healstress 2	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Stress Hero 3" 	.target "target" .curio_result_type "positive" .chance 20% 	.healstress 4	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Heal Stress Hero 4" 	.target "target" .curio_result_type "positive" .chance 4% 	.healstress 6	.on_hit true .on_miss false .queue true
+effect: .name "Cluster Stress Hero" 		.target "target" .curio_result_type "positive" .chance 100% .stress 15 		.on_hit true .on_miss false .queue true
+effect: .name "Cluster Stress Hero AOE" 	.target "target" .curio_result_type "positive" .chance 100% .stress 6 		.on_hit true .on_miss false .queue true
+//Test lines 
+//###################################
+
+//Class mod by CarnifexX --------------------------------------------------

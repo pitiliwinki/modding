@@ -1,0 +1,17 @@
+display: .size 1
+enemy_type: .id "man"
+enemy_type: .id "talonbrigands"
+stats: .hp 14 .def 18.75% .prot 0 .spd 1 .stun_resist 20% .poison_resist 20% .bleed_resist 20% .debuff_resist 20% .move_resist 20%
+skill: .id "weeping_pleads" .type "ranged" .atk 111.25% .dmg 0 0 .crit 0%  .effect "Damsel Stress Single 2" .launch 4321 .target 1234 .is_crit_valid False
+skill: .id "tormented_wails" .type "ranged" .atk 111.25% .dmg 0 0 .crit 0%  .effect "Damsel Stress AOE 2" .launch 4321 .target ~1234 .is_crit_valid False
+skill: .id "hostage_situation" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "Clear Guard Performer" "Clear Guard Target" "Orgiastic Guard" .launch 4321 .target @4321 .self_target_valid False .is_crit_valid False
+skill: .id "maidens_gratitude" .type "ranged" .atk 102.5% .dmg 0 0 .crit 0%  .effect "kill_self_queued" "Damsel Stress Heal" .launch 4321 .target .is_crit_valid False
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id talon_damsel_B
+skill_reaction: .was_hit_performer_effects "Damsel Hit Stress 2" .was_killed_by_hero_effects "Damsel Killed Horror" "Damsel Death Bark"
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False .can_relieve_stress_from_killing_blow False .can_relieve_stress_from_crit False
+wave_spawning: .prefers_front True
+spawn: .effects Talon_Damsel_Tooltip
+loot: .raid_finish_quirk_class_id mark_flock

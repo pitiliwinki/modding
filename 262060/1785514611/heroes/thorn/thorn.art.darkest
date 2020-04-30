@@ -1,0 +1,27 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "thorn_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "thorn_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "thorn_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "thorn_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "thorn_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "thorn_armour_0" .icon "eqp_armour_0.png"
+armour: .name "thorn_armour_1" .icon "eqp_armour_1.png"
+armour: .name "thorn_armour_2" .icon "eqp_armour_2.png"
+armour: .name "thorn_armour_3" .icon "eqp_armour_3.png"
+armour: .name "thorn_armour_4" .icon "eqp_armour_4.png"
+
+
+combat_skill: .id "thrust" .icon "two" .anim "thrust" .fx "thrust_fx" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "listen" .icon "eight" .anim "listen" .fx "listen_fx" .targchestfx "listen_targfx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "wilt" .icon "three" .anim "wilt" .fx "wilt_fx" .targchestfx "wilt_targfx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "gash" .icon "four" .anim "gash" .fx "gash_fx" .targchestfx "gash_targfx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .area_pos_offset 50 0 .target_area_pos_offset 50 0
+combat_skill: .id "dare" .icon "five" .anim "dare" .fx "dare_fx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .can_display_performer_selection_after_turn false
+combat_skill: .id "blossom" .icon "six" .anim "blossom" .fx "blossom_fx" .targchestfx "blossom_targfx" .condensed_tooltip_stats true  .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1  .can_display_performer_selection_after_turn false
+combat_skill: .id "hearken" .icon "seven" .anim "hearken" .fx "hearken_fx" .targchestfx "hearken_targfx" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1  .can_display_performer_selection_after_turn false
+
+combat_move_skill: .id "stance" .icon "one" .anim "attack_transform" .fx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .nil true .can_display_performer_selection_after_turn false
+riposte_skill: .id "riposte1" .anim "riposte" .fx "riposte_fx" 
+
+act_out_display: .attack_friendly_anim "thrust" .attack_friendly_fx "thrust_fx" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "thorn_riposte1_offensive"

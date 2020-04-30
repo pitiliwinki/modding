@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="koreana">
+  
+<!--~~~~~~~~~~-->
+<!--voivode -->
+<!--~~~~~~~~~~-->
+	<entry id="str_vo_town_recruit_voivode_0"><![CDATA[Beware nightfall, for he watches and waits for those who stray from torchlight.]]></entry>
+	<entry id="str_vo_town_event_idle_resolve_level_voivode"><![CDATA[Beware nightfall, for he watches and waits for those who stray from torchlight.]]></entry>
+	<entry id="str_vo_town_event_first_voivode"><![CDATA[Beware nightfall, for he watches and waits for those who stray from torchlight.]]></entry>
+
+
+ <!--Skills -->
+    <entry id="hero_class_name_voivode"><![CDATA[백작]]></entry>
+    <entry id="combat_skill_name_voivode_vv_transform"><![CDATA[변신]]></entry>
+    <entry id="combat_skill_name_voivode_bats"><![CDATA[박쥐떼]]></entry>
+    <entry id="combat_skill_name_voivode_darkform"><![CDATA[그림자 기생]]></entry>
+    <entry id="combat_skill_name_voivode_souleater"><![CDATA[영혼의 연회]]></entry>
+    <entry id="combat_skill_name_voivode_batform"><![CDATA[교묘한 비행]]></entry>
+    <entry id="combat_skill_name_voivode_echolocate"><![CDATA[음파 탐지]]></entry>
+    <entry id="combat_skill_name_voivode_hypnosis"><![CDATA[복종하라!]]></entry>
+    <entry id="combat_skill_name_voivode_move"><![CDATA[이동]]></entry>
+	<entry id="combat_skill_name_voivode_VV_Mist"><![CDATA[거짓 형태]]></entry>
+	
+
+    <entry id="upgrade_tree_name_voivode.vv_transform"><![CDATA[변신]]></entry>
+    <entry id="upgrade_tree_name_voivode.bats"><![CDATA[박쥐떼]]></entry>
+    <entry id="upgrade_tree_name_voivode.darkform"><![CDATA[그림자 기생]]></entry>
+    <entry id="upgrade_tree_name_voivode.souleater"><![CDATA[영혼의 연회]]></entry>
+    <entry id="upgrade_tree_name_voivode.batform"><![CDATA[교묘한 비행]]></entry>
+    <entry id="upgrade_tree_name_voivode.force_guard"><![CDATA[음파 탐지]]></entry>
+    <entry id="upgrade_tree_name_voivode.hypnosis"><![CDATA[복종하라!]]></entry>
+	
+ 
+   
+<!--Blacksmith-->	
+	<entry id="voivode_weapon_0"><![CDATA[High Manners]]></entry>
+	<entry id="voivode_weapon_1"><![CDATA[Essence of Vileness]]></entry>
+    <entry id="voivode_weapon_2"><![CDATA[Bestial Claw]]></entry>
+    <entry id="voivode_weapon_3"><![CDATA[Twisted Claw]]></entry>
+    <entry id="voivode_weapon_4"><![CDATA["Wings of Malice"]]></entry>
+    <entry id="upgrade_tree_name_voivode.weapon"><![CDATA[Predator's Wings]]></entry>
+    <entry id="voivode_armour_0"><![CDATA[Fine Doublet]]></entry>
+    <entry id="voivode_armour_1"><![CDATA[Governor's Jerkin]]></entry> 
+    <entry id="voivode_armour_2"><![CDATA[Ornate Costume]]></entry>
+    <entry id="voivode_armour_3"><![CDATA[Heretical Silk]]></entry>
+    <entry id="voivode_armour_4"><![CDATA["Tunic of the Moroii"]]></entry>
+    <entry id="upgrade_tree_name_voivode.armour"><![CDATA[Noble Clothing]]></entry>
+<!--Guild/BS Text-->	
+	<entry id="action_verbose_body_guild_voivode"><![CDATA[He is in command of the shadows themselves. His covenant with the dark allows him to command swarms of flying vermin, or to bend the mind of the weak to his will. In sinister anticipation he merges with the shadows, striking unseen from the dark. In his Strigoi form, he becomes a lethal nocturnal predator, hunting his prey to feed on their very souls.]]></entry>
+    <entry id="action_verbose_body_blacksmith_voivode"><![CDATA[A terrible nature hides behind eyes of noble origin, exquisite manners, expensive jewelry and permanent delusions of grandeur. He can transmute his hands into clawed wings. These allow him to fly over his prey, dive down in the right moment, ravaging them with supernatural ferocity.]]></entry>
+   
+	
+<!--CAMPING -->	
+	<entry id="action_verbose_body_camping_trainer_voivode"><![CDATA[Feared by the religious, the Dark Shepert can call upon the creatures of the night. He can transfere is curse by sharing his very essence with his disciples. In his malignance he impales the bodies of the fallen, to terrify anyone who dares to approach.]]></entry>
+	<!--Skill Names-->
+	<entry id="camping_skill_name_voivode_camp_1"><![CDATA[UNHOLY BAPTISM]]></entry>
+	<entry id="camping_skill_name_voivode_camp_2"><![CDATA[LINEAGE]]></entry> 
+    <entry id="camping_skill_name_voivode_camp_3"><![CDATA[CHILDREN OF THE NIGHT]]></entry>
+    <entry id="camping_skill_name_voivode_camp_4"><![CDATA[AWAY FROM ME!]]></entry>    
+	<entry id="camping_skill_name_voivode_camp_5"><![CDATA[IMPALE THE FALLEN]]></entry>
+
+	<!--Custom Tooltips-->
+	<entry id="camping_skill_effect_loot_vv_bleed_tooltip"><![CDATA[{colour_start|bleed}Bleed{colour_end} 4 pts/rd for 3 rds]]></entry>
+    <entry id="camping_skill_effect_loot_vv_dark_tooltip"><![CDATA[{colour_start|skill_unselectable}Removed if Torch above 25{colour_end}]]></entry>
+	<entry id="camping_skill_effect_loot_VV_CAMP_CHALICE"><![CDATA[Produce {colour_start|notable}Eternal Goblet{colour_end}]]></entry>
+	
+	<!--CAMPING Barks-->	
+		<entry id="voivode+str_bark_rest"><![CDATA[Why doesn't anyone want to sleep near me?]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Let the night embrace us all.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[I'll keep watch. I'm a night owl, not so good in the daytime.]]></entry>
+        <entry id="voivode+str_bark_rest"><![CDATA[There was a time when I drank in golden goblets. It almost hurts to remember them.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Last night I met a wonderful and elegant girl. I think she will be buried tomorrow.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Your conversation is so boring...]]></entry>  
+		<entry id="voivode+str_bark_rest"><![CDATA[Go ahead, sleep my cattle, there is nothing to fear]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[I hope there are more enemies to fight. I haven't satiated my appetite yet.]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[I don't think that fire keeps me warm...]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Dont eat like animals! Mind your manners peasants!]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[Anyone wants to share a drink with me?]]></entry>
+		<entry id="voivode+str_bark_rest"><![CDATA[When your grandfather was young I was already ancient.]]></entry>
+
+		<!--Babtism-->	
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[There is no poison or sword that can break this flesh.]]></entry>
+        <entry id="voivode+str_bark_voivode_camp_1"><![CDATA[We don't want to waste all that precious vitality, do we now?]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[I have forgotten what pain feels like.]]></entry>		
+		<entry id="voivode+str_bark_voivode_camp_4"><![CDATA[...Which is poured out for many for the forgiveness of sins...]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[Do not be afraid, it's just a sip...]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[I will be your chalice.]]></entry>	
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[Your god is the one who gives you to drink!]]></entry>
+        <entry id="voivode+str_bark_voivode_camp_1"><![CDATA[You haven't tasted anything like this. I guarantee it...]]></entry>				
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[Embrace the dark. Let us cavort with the shadows of the night.]]></entry>
+      
+		<!--LINEAGE-->	
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[Your praiseworthy feats have instilled fear in the enemy. I can smell it from here ...]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[Our mission is coming to an end, victory is near and with it will come our reward!]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[Don't worry, The shadows are my allies, and they will protect us.]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[I'm sure you can handle it all! May the Dark be within you]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[If you feel your god doesn't watch over you, you may always come to me.]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[Do not fear death, come... Rest your head on my shoulder and close your eyes.]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[You don't have to be afraid of me. I know what it is to be... different.]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_2"><![CDATA[It's admirable how you have fought, for such a... limited creature.]]></entry>	
+		 <!--Children of the night-->	
+		<entry id="voivode+str_bark_voivode_camp_3"><![CDATA[Look, the full moon rises in the sky...]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_3"><![CDATA[The children of the night, what sweet music they play...]]></entry>  
+		<entry id="voivode+str_bark_voivode_camp_1"><![CDATA[Come to me, my siblings. Hearken to my call!]]></entry>
+        <!--Away from me !-->	
+		<entry id="voivode+str_bark_voivode_camp_4"><![CDATA[At my age the pain of others exudes certain... beauty.]]></entry>        
+		<entry id="voivode+str_bark_voivode_camp_4"><![CDATA[MOVE THAT FILTH AWAY FROM ME!!]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_4"><![CDATA[I thought we agreed to put away those things!!]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_4"><![CDATA[Don't put your faith in such trinkets of deceit!]]></entry>
+        <entry id="voivode+str_bark_voivode_camp_4"><![CDATA[HSSSSS! STAY BACK!]]></entry>	
+        <entry id="voivode+str_bark_voivode_camp_4"><![CDATA[Behold the fragility of your idols!!]]></entry>	
+        <entry id="voivode+str_bark_voivode_camp_4"><![CDATA[HAHAHAHA...You have to have faith for this to work on me!]]></entry>	
+		<!--Impale the fallen-->	
+		<entry id="voivode+str_bark_voivode_camp_5"><![CDATA[UP! RAISE IT UP! This one was still alive.]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_5"><![CDATA[Does it smell good up there? HAHAHAHAHA!]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_5"><![CDATA[I'll make a forest with our enemies...]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_5"><![CDATA[Let the agony of them be seen from a distance! Let them know who they face!]]></entry>
+		<entry id="voivode+str_bark_voivode_camp_5"><![CDATA[FEar cuts deeper than their swords!]]></entry>
+
+
+<!--Supply / Eternal Goblet-->	
+	<entry id="str_inventory_description_estatevv_chalice"><![CDATA[The Voivode's essence. Use to cure 
+	{colour_start|debuff}Mortality Debuffs{colour_end} and {colour_start|disease}Diseases{colour_end}.
+	Become {colour_start|voivode_colour}Darkspawn{colour_end}.]]></entry>	
+	<entry id="str_inventory_title_estatevv_chalice"><![CDATA[Eternal Goblet]]></entry>
+
+	<entry id="str_inventory_description_estatevv_chalice_dummy"><![CDATA[This is not supposed to drop.]]></entry>	
+	<entry id="str_inventory_title_estatevv_chalice_dummy"><![CDATA[Strange Goblet]]></entry>
+
+
+
+ <!--Events -->	
+	
+    <entry id="town_event_title_bonus_recruit_voivode"><![CDATA[On Leather Wings]]></entry>
+    <entry id="town_event_description_bonus_recruit_voivode"><![CDATA[A plague of strange bats has come from afar. These creatures seem to follow an unnatural course. With luck, at dawn they will be gone... they are just animals, aren't they?]]></entry>
+   
+    <entry id="town_event_title_idle_resolve_level_voivode"><![CDATA[Grim Influence]]></entry>
+    <entry id="town_event_description_idle_resolve_level_voivode"><![CDATA[A thick and hazy mist has engulfed the hamlet.
+	The bells have rung, the curfew has begun. The abbots locked themself in the transept.
+	Only the most wicked of creatures roam the alleys this night]]></entry>
+	
+	<entry id="town_event_title_first_voivode"><![CDATA[Sympathy for the Devil]]></entry>
+    <entry id="town_event_description_first_voivode"><![CDATA[In the middle of the mist, a prominent foreigner arrives at the Tavern. His manners seem refined, his presence imposing and his intentions... dark.]]></entry>
+	
+	<entry id="town_event_title_lock_brothel_voivode"><![CDATA[A Macabre Incident]]></entry>
+    <entry id="town_event_description_lock_brothel_voivode"><![CDATA[A well-known prostitute has been found lifeless. Her withered body rests in the cold shadows of the alleyway.
+Whatever murdered her wasn't human.]]></entry>
+
+	<entry id="town_event_title_bonus_Prince_of_Darkness"><![CDATA[Prince of Darkness]]></entry>
+    <entry id="town_event_description_bonus_Prince_of_Darkness"><![CDATA[The Dark Prince has risen. His most loyal and experienced servants, side with the hamlet against a greater common evil, for now ...]]></entry>
+	
+
+<!--Reactions --> 
+	<!--Monster Skills --> 
+	<entry id="voivode+str_monster_attack_unholy_smite"><![CDATA[I am the one who commands the undead, you fool!]]></entry>
+	<entry id="voivode+str_monster_attack_unholy_judgement"><![CDATA[I am very familiar with these energies...]]></entry>
+	<entry id="voivode+str_monster_attack_unholy_curse"><![CDATA[Cursing a cursed man? How droll.]]></entry>
+	<entry id="voivode+str_control_before_turn_siren"><![CDATA[These waters are my home now!]]></entry>
+	<entry id="voivode+str_control_before_turn_siren"><![CDATA[These waters are my home now!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[My eyes clear!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[I shall obey to my queen!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[Listen my spawns. You shall bow to the queen!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[Wicked witch! You shall listen my commands now!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[Wicked witch! Teach me that trick!]]></entry>
+    <entry id="voivode+str_control_return_siren"><![CDATA[I know a succubus who knows a similar trick!]]></entry>
+	<entry id="voivode+str_monster_user_selected_targets_kill_pill"><![CDATA[I'm dying? But ...I was promised pleasure?!]]></entry>  
+	<entry id="voivode+str_monster_user_selected_targets_kill_pill"><![CDATA[You are nothing compared to the darkness I return to !!!]]></entry>  
+  
+  <!--Deathdoor --> 
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[I never thought this moment would come. Killing Death itself, how ironic...]]></entry>
+	<entry id="voivode+str_bark_deathsdoor"><![CDATA[Death is my companion, you just bring us closer together!]]></entry>
+	<entry id="voivode+str_bark_deathsdoor"><![CDATA[Not me! Kill them first!]]></entry>
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[Fool. Do you think my death can save you from me? I ALWAYS return.]]></entry>
+    <entry id="voivode+str_bark_deathsdoor"><![CDATA[Never thought this moment would come. Killing Death itself, how ironic...]]></entry>
+	<!--Crit by Hero -->
+	<entry id="voivode+str_critbyhero"><![CDATA[Your soul smells like honey and nuts...]]></entry>
+    <entry id="voivode+str_critbyhero"><![CDATA[Your vitality makes me salivate...]]></entry>
+ 	<entry id="voivode+str_critbyhero"><![CDATA[I will be satisfied with your life!]]></entry>
+	<entry id="voivode+str_critbyhero"><![CDATA[You don't know who you are facing, do you?]]></entry>
+	<entry id="voivode+str_critbyhero"><![CDATA[Kneel before me!]]></entry>
+	<entry id="voivode+str_critbyhero"><![CDATA[I have not lived this long to be cowed by the likes of you!]]></entry>
+	<entry id="voivode+str_critbyhero"><![CDATA[Don't you recognize death when it stares you in the face?]]></entry>
+	<entry id="voivode+str_critbyhero"><![CDATA[HAHAHAHAHA.... SUFFER!]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}BEHOLD THE TRUE POWER!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}KNEEL BEFORE THE MASTER!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}I AM THE TERROR THAT NESTS IN YOUR NIGHTMARES!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}I AM THE NIGHT!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}I FEAST ON YOU!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}YOU WILL NOTHING BUT FOOD FOR THE IMMORTAL!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_critbyhero"><![CDATA[{colour_start|voivode_colour}QUAIL BEFORE ME!{colour_end}]]></entry>
+
+<!--Party Limit -->	
+	<entry id="str_incompatible_party_member_voivode_religion"><![CDATA[The dead should not leave their graves...]]></entry>
+    <entry id="str_incompatible_party_member_voivode_religion"><![CDATA[I refuse to travel with that wicked thing!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_religion"><![CDATA[The Patron of the Dark! I won't travvel with thee]]></entry>
+    <entry id="str_incompatible_party_member_voivode_religion"><![CDATA[I will not serve with this... creature.]]></entry>
+	<entry id="str_incompatible_party_voivode_religion"><![CDATA[Poor idiot. How easy it is to deceive you with promises of salvation.]]></entry>
+    <entry id="str_incompatible_party_voivode_religion"><![CDATA[I can't stand the ramblings of that ridiculous puppet.]]></entry>
+    <entry id="str_incompatible_party_voivode_religion"><![CDATA["The Flame" what a hopeless endevour to believe in such illusion]]></entry>
+	<entry id="str_incompatible_party_member_voivode_limit"><![CDATA[And share all those innocent lives with you? Never.]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[This is MY cattle. Find your own herd!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[I am the true master!]]></entry>
+    <entry id="str_incompatible_party_member_voivode_limit"><![CDATA[I don't intend on treating you as an equal...]]></entry>
+	
+	<entry id="voivode+str_override_invalid_rejection"><![CDATA[Poor idiot. How easy it is to deceive you with promises of salvation.]]></entry>
+	<entry id="voivode+str_override_invalid_rejection"><![CDATA[I can't stand the psalms of that ridiculous puppet.]]></entry>
+	<entry id="voivode+str_override_invalid_rejection"><![CDATA[Just being near this place makes me nauseous...]]></entry>
+
+<!--Town Barks--> 
+	<entry id="voivode+str_stagecoach_idle"><![CDATA[What a pitifull place! I had a hamlet surrounded by impenatratable walls!]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[I deserve more than serving with this mortal scum!]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[ake me your ally and i make you my slace !]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Well, this place is...underwhelming.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[May I introduce myself, Radu, pleasure to met another lord.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Gold and glory await? Peh, I am after something beyond this.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[I was once lord of such place myself.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Look twice, I am not like the usual scum you see lurking around here.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Fools! You think you can find glory or salvation in this place ?]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Hepfully the journy did not damage my excelent clothingg to much.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[I knew your ancestor, what a man of unsuspected exelence.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[This place - what a beatiful nightmare!]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[I got the message your ancestor, my old friend perished. Le me be of of assitance to bring his town to former glory.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[You are diferent from your ancestor. Your eyes have not seen what he has, I can feel it!]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[I wass already old when this hamlet was nothing but wilderness.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[A shame someone like me relies on such mundane transpaortation.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[Your ancestor was a man of exelent manners, unlike you.]]></entry>
+    <entry id="voivode+str_stagecoach_idle"><![CDATA[The last time I visited this place was in a much better shape.]]></entry>
+    <entry id="voivode+str_stagecoach_roster_full_rejection"><![CDATA[Your barracks are full! Make place for me, or send away one of these worthless slaves you maintain]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[Prepare my thralls i am ready to feast!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[I shall be a soldier against corruption!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[There is nothing to fear for me They will fear me!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[I am not IN danger, I am THE danger!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[I was born for this.]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[Go bring me more disciples. They need to learn the truth!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[I am the dark!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[Anything is better than sitting around this dump.]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[Send me out! I didn't feast for ages!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[Prepare the thralls, I wish to hunt!]]></entry>
+    <entry id="voivode+str_roster_list_low_stress_bark"><![CDATA[What a beatiuful clear night to hunt!]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[My old bones can hardly bear this any more ...]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[I dont need consolations, i need to FEAST!]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[A-alright, I can do one more run.]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[Pff, better treat me more apropriate this time!]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[Fine i will join you pesky mortals.]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[Give this old man a week of rest]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[Would you kindly pick someone else]]></entry>
+    <entry id="voivode+str_roster_list_medium_stress_bark"><![CDATA[I knew this would not be easy.]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[P-please not again!]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I can't - I won't  go back!]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[There is something terrible here, I can feel it!]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I can't get the horrible images out of my head...]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I need respite!]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[A lord like me needs some rest after the curretn efforts !]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I am in no shape to go back out there.]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[The horrors I've seen. I do not know if I can handle any more.]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I need to do something to take my mind off of this.]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[Drink, god, or dice. I care not what as long as it distracts me.]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[Not another expedition -anything but that!]]></entry>
+    <entry id="voivode+str_roster_list_high_stress_bark"><![CDATA[I just cannot bear the thought of going back down there.]]></entry>
+    <entry id="voivode+str_roster_list_fearful_bark"><![CDATA[I...cannot...go back.]]></entry>
+    <entry id="voivode+str_roster_list_fearful_bark"><![CDATA[The next mission could mean my doom! I-I'm not ready.]]></entry>
+    <entry id="voivode+str_roster_list_fearful_bark"><![CDATA[No...please don't send me.]]></entry>
+    <entry id="voivode+str_roster_list_fearful_bark"><![CDATA[Send some of my spawns! I cannot bear this!]]></entry>
+    <entry id="voivode+str_roster_list_paranoid_bark"><![CDATA[They want to burn me for what i am!]]></entry>
+    <entry id="voivode+str_roster_list_paranoid_bark"><![CDATA[They want to drive a flock through my heart! I can smell their fear!]]></entry>
+    <entry id="voivode+str_roster_list_paranoid_bark"><![CDATA[Do NOT cast your gaze upon me! I know your foul intent!]]></entry>
+    <entry id="voivode+str_roster_list_depressed_bark"><![CDATA[My flesh is immortal my pain eternal ...]]></entry>
+    <entry id="voivode+str_roster_list_depressed_bark"><![CDATA[This night is darker than what lies within me]]></entry>
+    <entry id="voivode+str_roster_list_depressed_bark"><![CDATA[The future only holds death and bloodshed...]]></entry>
+    <entry id="voivode+str_roster_list_selfish_bark"><![CDATA[Some of that gold should be coming back to me, for my efforts!]]></entry>
+    <entry id="voivode+str_roster_list_selfish_bark"><![CDATA[Tailor me new clothes, worthy of alord like me!]]></entry>
+    <entry id="voivode+str_roster_list_selfish_bark"><![CDATA[This is the thanks for haring my royal presence with you!?]]></entry>
+    <entry id="voivode+str_roster_list_abusive_bark"><![CDATA[Foolish peasants. Arre you not aware i am a lord!]]></entry>
+    <entry id="voivode+str_roster_list_abusive_bark"><![CDATA[Give me a bite of yours! I need to be ready!]]></entry>
+    <entry id="voivode+str_roster_list_abusive_bark"><![CDATA[Mewling lambs - all of you!]]></entry>
+    <entry id="voivode+str_roster_list_masochistic_bark"><![CDATA[Send me back down! I RELISH THE PAIN!]]></entry>
+    <entry id="voivode+str_roster_list_masochistic_bark"><![CDATA[Hahaha each scar is a beatiful memory!]]></entry>
+    <entry id="voivode+str_roster_list_masochistic_bark"><![CDATA[HAHAHAHA, sweet pain my brother !]]></entry>
+    <entry id="voivode+str_roster_list_irrational_bark"><![CDATA[Ha ha ha! Hee hee!]]></entry>
+    <entry id="voivode+str_roster_list_irrational_bark"><![CDATA[It writhes, it flips, but yet it says nothing!]]></entry>
+    <entry id="voivode+str_roster_list_irrational_bark"><![CDATA[One thousand eyes - staring, blinking! They want me back!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[<glug glug>]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[More wine, sir!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[Delicious, satisfying - MORE!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[What a refreshing time to be amongst mortals]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[Drink! The wine will never stop I promise!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[Fill up the goblets! This night goes on me!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[Ahhh, it's so good when it hits your lips!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[I don't need a glass. I have my own goblet!]]></entry>
+    <entry id="voivode+str_roster_list_bar_bark"><![CDATA[May I offer you a sip of a special wine?]]></entry>
+    <entry id="voivode+str_roster_list_gambling_bark"><![CDATA[Roll those dice again. This one is mine!]]></entry>
+    <entry id="voivode+str_roster_list_gambling_bark"><![CDATA[I'm all in!  What a rush!]]></entry>
+    <entry id="voivode+str_roster_list_gambling_bark"><![CDATA[If you cheat on me i will take anything back after your death!]]></entry>
+    <entry id="voivode+str_roster_list_gambling_bark"><![CDATA[Flip that card - Dog's Moon it is!]]></entry>
+    <entry id="voivode+str_roster_list_brothel_bark"><![CDATA[Prepare yourself for immortal indurance!]]></entry>
+    <entry id="voivode+str_roster_list_brothel_bark"><![CDATA[I-incredible!]]></entry>
+    <entry id="voivode+str_roster_list_brothel_bark"><![CDATA[I'm not THAT flexible!]]></entry>
+    <entry id="voivode+str_roster_list_brothel_bark"><![CDATA[IDo not be afraid, my hunger is of a diferent nature tonight]]></entry>
+    <entry id="voivode+str_roster_list_brothel_bark"><![CDATA[The taste of fresh youth ...]]></entry>
+
+   
+    <entry id="voivode+str_roster_list_treatment_bark"><![CDATA[The room...it spins!]]></entry>
+    <entry id="voivode+str_roster_list_treatment_bark"><![CDATA[I know, I know. This is for mine own good.]]></entry>
+    <entry id="voivode+str_roster_list_treatment_bark"><![CDATA[Are you sure you cn lock me in ?]]></entry>
+    <entry id="voivode+str_roster_list_treatment_bark"><![CDATA[You cannot cure what lies within me!]]></entry>
+    <entry id="voivode+str_roster_list_treatment_bark"><![CDATA[Unlock this door!  I am cured - or am I?!]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[Curing me?! HAHAAHAHA!]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[These leeches share a familiar hunger]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[I am not sick this is part of what I am !]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[A pitfiful mortal disease overcomes smeone like me, how shameful]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[What lies withing me cannot be cured with your mortal aparatas!]]></entry>
+    <entry id="voivode+str_roster_list_disease_treatment_bark"><![CDATA[You cannot cure death himself! HAHAHAHA!]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[This quest is beyond my experience.]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[Not even I would delve into such darkness!]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[This is suicide send one of my spawns instead!]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[My old bones cannot handle this task an more !]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[I wouldn't last a minute!]]></entry>
+    <entry id="voivode+str_quest_too_hard"><![CDATA[I refuse! Sacrifice a slave instead of me!]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[I won't waste my talents on that trivial errand.]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[This quest is beneath my experience.]]></entry>
+	<entry id="voivode+str_quest_too_easy"><![CDATA[Who you sthink you are ending on such a mundane mission ?!]]></entry>
+	<entry id="voivode+str_quest_too_easy"><![CDATA[This task is for the weak and mortals!]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[Hah - such mundane play is nothin for someone of my exelence!]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[This is no apropriate task for someone of my status.]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[Feh - I am beyond this. Send one of my spawns instead]]></entry>
+    <entry id="voivode+str_quest_too_easy"><![CDATA[I a a lord, I will not run such meaningless errands]]></entry>
+
+
+
+<!--Strigoi Barks--> 	
+	<entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}SKREEEEECH!{colour_end}]]></entry>    
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}GRAAAGGHHH!{colour_end}]]></entry>  
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}SHHHHHAAARG!{colour_end}]]></entry>    
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}YHAAAAAARG!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}GRRRRRRR...{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}RAAAAAAAAAH!{colour_end}]]></entry>
+    <entry id="voivode+str_strigo_bark"><![CDATA[{colour_start|voivode_colour}REEEEEEEE!!!{colour_end}]]></entry>
+	
+<!--Affliction Virtue --> 
+
+		 <entry id="voivode+str_afflicted_fearful">						<![CDATA[악! 빛이다! 날 태우고있어!]]></entry>	    
+	     <entry id="voivode+str_afflicted_paranoid">						<![CDATA[네놈들의 진짜 임무는 날 파괴하는 것이렸다! 난 알고있어! 네놈들의 애처로운 속임수에는 속지 않아!]]></entry>	     
+	     <entry id="voivode+str_afflicted_depressed">						<![CDATA[네게 아름다운 비명을 질러주리라!]]></entry>	    
+	     <entry id="voivode+str_afflicted_abusive">							<![CDATA[이건 모두 네놈들 탓이야! 멍청한 녀석들...]]></entry>	    
+	     <entry id="voivode+str_afflicted_selfish">							<![CDATA[흐흐흐, 목자는 양들의 명령에 복종하지 않으니...]]></entry>	     
+	     <entry id="voivode+str_afflicted_hopeless">							<![CDATA[내 존재는 끝나지 않을 저주야...]]></entry>	    
+	     <entry id="voivode+str_afflicted_irrational">						<![CDATA[나는 원천이다. 계시와 생명이다!]]></entry>	   
+	     <entry id="voivode+str_virtued_stalwart">							<![CDATA[어서, 저 쥐들의 눈에서 공포를 볼 수 있어!]]></entry>	    
+	     <entry id="voivode+str_virtued_courageous">						<![CDATA[무릎을 꿇고, 주인의 명령에 따르라!]]></entry>	    
+	     <entry id="voivode+str_virtued_focused">							<![CDATA[악마는 악마가 잘 아는 법이지. 그리고 나이가 더 많으면, 더 많이 아는 법이라네.]]></entry>	    
+	     <entry id="voivode+str_virtued_powerful">							<![CDATA[하하하하하하하... 그게 네가 할 수 있는 전부인가?]]></entry>	   
+	     <entry id="voivode+str_virtued_prosperous">						<![CDATA[내 너희를 승리로 이끄리라, 옛날에 그러했던 것 처럼.]]></entry>	    
+	     <entry id="voivode+str_virtued_vigorous">							<![CDATA[너흰 날 죽일 수 없어! 나는 영원하다!]]></entry>		 
+	     <entry id="voivode+str_stress_heal_self_stalwart">					<![CDATA[가장 최악은, 내가 살아돌아온 것이지.]]></entry>	   
+	     <entry id="voivode+str_stress_heal_party_courageous">				<![CDATA[어둠을 두려워하지 말게. 어둠은 우리의 편이니.]]></entry>	    
+	     <entry id="voivode+str_buff_random_party_member_focused">			<![CDATA[일어서게, 용기를 내어 싸우게! 그렇지 않으면 내 분노를 알게 될테니!]]></entry>
+		 <entry id="voivode+str_buff_party_powerful">						<![CDATA[내 명령에 따라... 공격!]]></entry>
+	     <entry id="voivode+str_buff_party_powerful">						<![CDATA[놈들의 뼈와 살을 분리하리라!]]></entry>
+	     <entry id="voivode+str_heal_self_vigorous">						<![CDATA[하! 방금 내 폐를 뚫었지만, 난 아무것도 느껴지지 않는군!]]></entry>
+	     <entry id="voivode+str_heal_self_vigorous">						<![CDATA[네 이름이 새겨진 쇠꼬챙이가 있지...]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[괴물이다. 난 괴물이다!]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[난 고귀한 존재였다... 내가 무슨 짓을 한거지?]]></entry>
+	     <entry id="voivode+str_bark_stress_hopeless">						<![CDATA[역겨운 농담같군. 난 이 저주를 받아 죽음의 자비를 받을 수 없게 되었단 말이다.]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[새벽이 다가온다. 난 돌아가야 해!]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[불빛은 날 버렸어. 하지만 넌 그걸 가지고 있어!]]></entry>
+	     <entry id="voivode+str_bark_stress_paranoid">						<![CDATA[빌어먹을 빛! 빛이 너무 많아!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[내 상처에서 피 안나오게 조심해!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[이 빌어먹을 존재를 끝내라!]]></entry>
+	     <entry id="voivode+str_bark_stress_depressed">					<![CDATA[난 단지 고통으로 가득 찬 껍데기일 뿐이야...]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[주둥이 닥치고 내 말에 따라!]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[난 멍청이들에게 둘려싸여있어...]]></entry>
+	     <entry id="voivode+str_bark_stress_abusive">						<![CDATA[정말인가?... 근데 왜 내가 네 의견에 신경을 써야 하지?]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[너희들과 팀을 짠건 실수였어!]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[일은 반드시 내 뜻대로 해!]]></entry>
+	     <entry id="voivode+str_bark_stress_selfish">						<![CDATA[난 내가 스스로 편하다고 생각하는 일을 할 것이다.]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[그거... 그거 마늘이야?]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[저 상징! 타들어가고있어! 얼어붙고있어!]]></entry>
+	     <entry id="voivode+str_bark_stress_fearful">						<![CDATA[저 틈새에서 빛이 새어나온다! 새벽이 다가오고 있어!]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[그리고 죽음은 우리의 몸에 영광으오 뒤덮일 것이다.]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[어둠이 모든 것에서 넘쳐흐른다...]]></entry>
+	     <entry id="voivode+str_bark_stress_irrational">					<![CDATA[난 널 다시 태어나게 할 아버지이다!]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[그 상징 나한테서 치워!]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[그거 십자가인가?...아아아아악!]]></entry>
+	     <entry id="voivode+str_change_pos_back_fearful">					<![CDATA[놈들에게서 마늘 냄새가 나고있어!]]></entry>
+	     <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[네게 등을 맡기지 않을것이다...]]></entry>
+	     <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[네놈의 의도는 뻔하다!]]></entry>
+		 <entry id="voivode+str_change_pos_back_paranoid">					<![CDATA[네 함정에 빠지지 않으리라.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[날 내벼려둬!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[죽음이 날 의무로 이끄는구나!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_depressed">				<![CDATA[내가 살아있다고 느끼게 할만한 무언가를 원해!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[죽음이 나로부터 숨어드는구나!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[내가 목숨을 빼앗은 이들의 목소리가 들려와...]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_irrational">					<![CDATA[그리고 바다는 붉게 물드리라...]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[안되, 이렇게는...]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[우리가 왜 싸우고 있는거지? 이건 말도 안돼!]]></entry>
+	     <entry id="voivode+str_change_pos_back_irrational">				<![CDATA[난 세상의 그림자일 뿐이야...]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[네 머리를 가지겠다! ]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[내가 하겠다.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_hopeless">					<![CDATA[오, 누가 농담하는건가. 날 공격하는 것은 무의미해.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[여긴 내가 있을 곳이 아니야.]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[여기서 명령을 내리는 사람은 나야!]]></entry>
+	     <entry id="voivode+str_change_pos_fwd_selfish">					<![CDATA[어떻게 해야 하는지 내가 전부 보여줘야만 하는건가?]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[더러운 일은 네가 해야지!]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[난 널 위해 위험을 무릅쓰지 않을것이다.]]></entry>
+	     <entry id="voivode+str_change_pos_back_selfish">					<![CDATA[내 자리를 맡아주게. 결국 넌 소모품일 뿐이니까.]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[갈증이 내 몸속을 태우고 있어!]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[이 속이 텅 빈 몸뚱이에서 생명이 빠져나가고 있어...]]></entry>
+	     <entry id="voivode+str_ignore_command_fearful">					<![CDATA[난 약해지고, 늙어가고있어...]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[이제야 모든게 분명해지는군, 적은 바로 너야!]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[내 명령을 어기면 우리 모두 파멸할 것이다!]]></entry>
+	     <entry id="voivode+str_ignore_command_paranoid">					<![CDATA[잠깐만... 내가 왜 널 신경써야 하지?]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[아니라고 말했을텐데!]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[내게 명령하는 넌 대체 누구냐?]]></entry>
+	     <entry id="voivode+str_ignore_command_selfish">					<![CDATA[닥쳐. 내 마음대로 하겠다.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[서로 죽여라. 난 쇼를 즐길것이다.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[새빨간 피는 마치... 최면같군.]]></entry>
+	     <entry id="voivode+str_ignore_command_hopeless">					<![CDATA[나는 죽음의 향기를 즐긴다.]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[내 힘이 날 버렸어!]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[내 운명은 너에게 속하지 않는다!]]></entry>
+	     <entry id="voivode+str_ignore_command_irrational">					<![CDATA[어둠이 우리를 광기의 비명 사이로 감싸안고있어!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[나한테 이래라 저라래 할 사람은 없다!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[내가 모범을 보이지!]]></entry>
+	     <entry id="voivode+str_random_command_paranoid">					<![CDATA[배신자들의 명령은 받지 않는다!]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[나는 내 종말을 갈망하고있다!]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[오라! 이 저주받은 몸을 끝장내라!]]></entry>
+	     <entry id="voivode+str_random_command_depressed">				<![CDATA[내게 구원은 없다!]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[진정한 어둠의 힘을 느껴라!]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[그딴 불쌍한 조언은 그걸 필요로 하는 이들에게나 해라!]]></entry>
+	     <entry id="voivode+str_random_command_abusive">					<![CDATA[네 결단력 부족 때문에 우린 불명예를 안게 되었다!]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[이 해충들 중 가치있는 적수는 하나도 없군.]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[내 지도자는 나야!]]></entry>
+	     <entry id="voivode+str_random_command_selfish">					<![CDATA[입 닥치고 어떻게 되는지 봐! ]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[전투의 가치는 피로 측정되는 법이다.]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[네 비명소리를 듣고싶구나!]]></entry>
+	     <entry id="voivode+str_random_command_hopeless">					<![CDATA[물고기처럼 내장을 뽑아주마!]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[쉬이이이 ... 조용히!]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[전에도 이런 삶을 살았지... 이제 어떻게 끝나는지 알게 되겠군.]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[내가 정말 너희의 의도를 믿었다고 생각하는건가?]]></entry>
+	     <entry id="voivode+str_random_command_irrational">					<![CDATA[난 어떻게 해야 할지 알고있다...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[어쩌면 넌 친구 보다는 음식으로 더 유용할지도 모르겠군.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[어서... 쉬도록해... 내가 잘 지켜볼테니...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_fearful">					<![CDATA[너희들의 생명이라면, 내 갈증을 풀 수 있을 것이다.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[난 잠들지 않는다. 내 심장이 나무 말뚝에 뚫리지 않기 위해...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[기도할 생각따윈 하지 말아라. 네 목소리가 아주 잘 들리니까.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[넌 우리 뒤에 남겨진 쥐새끼들과 다를게 없어.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_paranoid">					<![CDATA[내가 지금 당장 널 끝장내지 말아야 할 이유를 대봐.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[난 너를 정확한 죽음으로 인도할 운명이니라.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[내 편이 되어 너희 모두를 비난하리라.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_depressed">				<![CDATA[이 임무는 우리 모두를 지옥으로 데려갈거야!]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[그런 멍청할 말 계속 하고있을건가?]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[우리에게 그 혓바닥을 잘라내는 호의를 보여주겠나?]]></entry>
+             <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[어젯밤에 난 아름답고 우아한 소녀를 만났다네. 그리고 그녀는, 내일 땅 속에 묻힐 것이라네...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_abusive">					<![CDATA[어서, 쉬도록 하게. 자네가 꺠어나지 않기를 빌지.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[널 죽일 수 없는 건 또 다른 지옥의 처벌인 듯 하군.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[주변에 온통 멍청이들 뿐이야...]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_selfish">					<![CDATA[네가 그 일을 감당할 수 없는건 명백해.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[상처를 치료하려 애쓰지 말게. 결국엔 절단해야 할테니.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[사냥꾼들이 배고픈 눈으로 자네를 쳐다보는군... 왜 그런지 이해하네.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_hopeless">				<![CDATA[제발, 자네의 고통을 억누르려 하지 말게.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[희망따윈 없어... 너에게는.]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[우리는 붉게 물든 달로 안내를 받고있다!]]></entry>
+	     <entry id="voivode+str_bark_stress_camp_irrational">				<![CDATA[난 내 혈관을 잘랐지만, 그곳에선 오직 먼지만이 흩날릴 뿐이었어.]]></entry>
+	     <entry id="voivode+str_mark_self_depressed">						<![CDATA[어서! 내게 오라!]]></entry>
+	     <entry id="voivode+str_mark_self_depressed">						<![CDATA[이 생기없는 심장을 꿰뚫어라!]]></entry>
+	     <entry id="voivode+str_mark_self_hopeless">						<![CDATA[마지막으로 통증을 느낀지가 언제인지...]]></entry>
+	     <entry id="voivode+str_mark_self_hopeless">						<![CDATA[감히 날 대적하다니!]]></entry>
+	     <entry id="voivode+str_mark_self_irrational">						<![CDATA[이 길고 긴 터널의 끝이 보이는군...]]></entry>
+	     <entry id="voivode+str_mark_self_irrational">						<![CDATA[영원한 주인에게 봉사하라!]]></entry>
+	     <entry id="voivode+str_attack_friendly_paranoid">					<![CDATA[내게 가까이 오지마!]]></entry>
+	     <entry id="voivode+str_attack_friendly_paranoid">					<![CDATA[네 잘못 때문에 우리가 여기까지 온거야!]]></entry>
+	     <entry id="voivode+str_attack_friendly_abusive">					<![CDATA[넌 일을 잘 하는 법을 배워야겠군...]]></entry>
+	     <entry id="voivode+str_attack_friendly_abusive">					<![CDATA[차라리 죽는게 더 유용할거야!]]></entry>
+	     <entry id="voivode+str_attack_friendly_irrational">				<![CDATA[너희의 임무는 날 끝장내는 것이다!]]></entry>
+	     <entry id="voivode+str_attack_friendly_irrational">                <![CDATA[네 목소리는 남겨진 자들의 목소리가 될 것이다!]]></entry>
+             <entry id="voivode+str_attack_friendly_fearful">					<![CDATA[넌 가축에 불과해.]]></entry>
+	     <entry id="voivode+str_attack_friendly_fearful">                  <![CDATA[너로 축제를 벌이리라!]]></entry>
+	     <entry id="voivode+str_attack_self_depressed">					<![CDATA[난 불행으로 가득한 껍데기에 불과해.]]></entry>
+	     <entry id="voivode+str_attack_self_depressed">					<![CDATA[날 살아있게 만들어줄 무언가를 원한다!]]></entry>
+	     <entry id="voivode+str_attack_self_hopeless">					<![CDATA[내 내장을 어떻게 하기라도 할텐가?]]></entry>
+	     <entry id="voivode+str_attack_self_hopeless">					<![CDATA[고통보다 더 달콤한 기쁨은 없지.]]></entry>
+	     <entry id="voivode+str_attack_self_irrational">					<![CDATA[오직 고통만이 우리를 자유롭게 하리라!]]></entry>
+	     <entry id="voivode+str_attack_self_irrational">					<![CDATA[나는 내 자신의 적이다!]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_paranoid">				<![CDATA[겁쟁이들에게 희망은 없다!]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_paranoid">				<![CDATA[어딜가시려고 그러나?]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_hopeless">			<![CDATA[...그래서 최선은 언제 다 할 셈이지?]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_hopeless">			<![CDATA[아직 충분히 고통받지 않았나보군...]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_depressed">			<![CDATA[만약 내가 실패하면, 너 또한 실패하는거야!]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_depressed">			<![CDATA[우린 아무데도 가지 않을 것이다.]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_irrational">			<![CDATA[어둠의 품을 거부하지 말아라.]]></entry>
+	     <entry id="voivode+str_block_combat_retreat_irrational">			<![CDATA[태양이, 우리 모두에게서 지는구나.]]></entry>
+	     <entry id="voivode+str_comment_self_hit_fearful">					<![CDATA[이런 배고픔은 참을 수가 없어!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_fearful">					<![CDATA[굶주림이 날 집어삼키는구나!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_paranoid">					<![CDATA[죄책감이 날 죄어오는구나!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_paranoid">					<![CDATA[걱정말게, 자네의 더러운 일은 내가 할 수 있으니...]]></entry>
+	     <entry id="voivode+str_comment_self_hit_selfish">					<![CDATA[네가 말한게 이게 맞나?]]></entry>
+	     <entry id="voivode+str_comment_self_hit_selfish">					<![CDATA[어떻게 하는지 보여주지...]]></entry>
+	     <entry id="voivode+str_comment_self_hit_depressed">				<![CDATA[죽는데는 누구의 도움도 필요없어!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_depressed">				<![CDATA[내게 죽음을 허하라!]]></entry>
+	     <entry id="voivode+str_comment_self_hit_irrational">				<![CDATA[이야아아아아악!! ]]></entry>
+	     <entry id="voivode+str_comment_self_hit_irrational">				<![CDATA[어둠이 만물에 깃드리라...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_fearful">				<![CDATA[네 영혼의 냄새는 정말... 두렵군.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_fearful">				<![CDATA[그보다, 난 뭔가를 먹어야해.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_paranoid">				<![CDATA[그런 만족감을 줄 생각은 없는데.]]></entry>
+	     <entry id="voivode+str_comment_self_missed_paranoid">				<![CDATA[난 분명히 그런건 없는데...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_depressed">			<![CDATA[이 몸에는 생명따윈 남아있지 않아!]]></entry>
+	     <entry id="voivode+str_comment_self_missed_depressed">			<![CDATA[상관없다...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_irrational">			<![CDATA[난 세상의 그림자일뿐...]]></entry>
+	     <entry id="voivode+str_comment_self_missed_irrational">			<![CDATA[주사위는 던져졌다... 널 위해서.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_selfish">			<![CDATA[날 죽이지 못하면 죽는건 너일 것이다!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_selfish">			<![CDATA[네 어리석음 때문에 죽을 생각은 없어!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_abusive">			<![CDATA[제대로 하는 법을 가르쳐주지, 잡종.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_abusive">			<![CDATA[네 실수는 바로잡아야 마땅해!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_irrational">		<![CDATA[내 발밑까지 기어와라, 필멸자!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_hit_irrational">		<![CDATA[네 영혼은 날 섬길 것이다!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_fearful">		<![CDATA[넌 이 일을 하기엔 너무 나약해!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_fearful">		<![CDATA[그 힘은 널 버렸다!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[네 의도를 알고있다... 배신자.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[진짜 적은 너였군...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_abusive">		<![CDATA[하하하하하하하!]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_abusive">		<![CDATA[네가 대하고 있는 건 더 큰 존재이다.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_selfish">		<![CDATA[넌 네 그 음침한 동굴 속에 계속 있어야 했어...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_selfish">		<![CDATA[예상대로군...]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_irrational">		<![CDATA[나를 섬지기 않는 자에겐 영광이 없다.]]></entry>
+	     <entry id="voivode+str_comment_ally_attack_missed_irrational">		<![CDATA[오직 나만이 지렁이와 파리를 물리칠 수 있다.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_fearful">					<![CDATA[그게 바로 내가 먹어야 할 힘이야! ]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_fearful">					<![CDATA[너의 생명을 나와 공유하라!]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_paranoid">					<![CDATA[흠... 순전히 공연이로군.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_paranoid">					<![CDATA[내 영향력을 보여주리라...]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_depressed">				<![CDATA[피가 흐르게 놔두어라...]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_depressed">				<![CDATA[이게 진짜인가?]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_abusive">					<![CDATA[어서, 그냥 긁힌거라고.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_abusive">					<![CDATA[네 고통에 찬 몸짓은 꽤나 재미있군.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_irrational">				<![CDATA[그 어께에 머리가 남아있질 않겠군.]]></entry>
+	     <entry id="voivode+str_comment_ally_hit_irrational">				<![CDATA[이것이 종말의 시작이다.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_fearful">				<![CDATA[넌 불멸의 삶을 유지하는데 꽤나 유용하겠어!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_fearful">				<![CDATA[많은 전투가 내 식욕을 곧구는군.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[내게 맡겼어야지!]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_paranoid">				<![CDATA[흐음... 쉽군.]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_irrational">			<![CDATA[달이 태양을 삼키리라... 영원히]]></entry>
+	     <entry id="voivode+str_comment_ally_missed_irrational">			<![CDATA[내 목에 쥐가 있어!]]></entry>
+	     <entry id="voivode+str_block_move_fearful">						<![CDATA[네가 어딜 가던지... 난 널 주시하고 있다.]]></entry>
+	     <entry id="voivode+str_block_move_fearful">						<![CDATA[제발, 내가 좀 더 가까이서 네 냄새를 맡을 수 있게 해줘.]]></entry>
+	     <entry id="voivode+str_block_move_paranoid">						<![CDATA[도망칠 생각을 하고있나?]]></entry>
+	     <entry id="voivode+str_block_move_paranoid">						<![CDATA[허튼 생각은 네 마음에서 지워내라.]]></entry>
+	     <entry id="voivode+str_block_move_depressed">					<![CDATA[고통을 피하지 말아라!]]></entry>
+	     <entry id="voivode+str_block_move_depressed">					<![CDATA[(가학적이고 위협적인 미소)]]></entry>
+	     <entry id="voivode+str_block_move_abusive">						<![CDATA[(격렬하고 위협적인 시선)]]></entry>
+	     <entry id="voivode+str_block_move_abusive">						<![CDATA[가만히 있거라, 이 비참한 생명아!]]></entry>
+	     <entry id="voivode+str_block_move_irrational">						<![CDATA[어딜 가든지, 네 그림자는 널 쫓아가리라.]]></entry>
+	     <entry id="voivode+str_block_move_irrational">						<![CDATA[두들겨 맞은 개처럼 달려가는 네 모습이 참으로 재밌군.]]></entry>
+	     <entry id="voivode+str_block_item_paranoid">						<![CDATA[종교에 관심이 있나?]]></entry>
+	     <entry id="voivode+str_block_item_paranoid">						<![CDATA[네가 십자가를 찾고 있다는 걸 알고있어, 이 배신자! ]]></entry>
+	     <entry id="voivode+str_block_item_depressed">					<![CDATA[그딴건 필요없어.]]></entry>
+	     <entry id="voivode+str_block_item_depressed">					<![CDATA[그렇게 해도 내 굶주림에서 널 구하지는 못할 것이다.]]></entry>
+	     <entry id="voivode+str_block_item_hopeless">						<![CDATA[그것은 너의 괴로움도, 나의 기쁨도 막지 못할 것이다.]]></entry>
+	     <entry id="voivode+str_block_item_hopeless">						<![CDATA[네 표정은 네가 느끼는 고통을 내게 상기시켜주는구나.]]></entry>
+	     <entry id="voivode+str_block_item_irrational">						<![CDATA[그딴 속임수들을 믿지는 말아라.]]></entry>
+	     <entry id="voivode+str_block_item_irrational">						<![CDATA[그 무엇도 네가 해충의 먹이가 되는 걸 막을 수는 없다.]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[저 불빛 내게서 멀리 치워버려!]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[내가 네 속임수에 넘어갈 듯 싶으냐?]]></entry>
+	     <entry id="voivode+str_block_heal_paranoid">						<![CDATA[난 네 값싼 속임수 따위는 믿지 않아.]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[내가 고뇌를 즐기게 내버려둬...]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[도움은 필요없다.]]></entry>
+	     <entry id="voivode+str_block_heal_depressed">					<![CDATA[하. 다시 생각해봐.]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[이미 죽은 것은 치료할 수 없지.]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[침착해. 다른 때였다면 죽었을거다...]]></entry>
+	     <entry id="voivode+str_block_heal_hopeless">						<![CDATA[싸울 때는 식욕이 돌지.]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[저 불빛은 마치 태양처럼 날 태우고 있어... 꺼버려!]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[날 속이려 드는 놈들에게 집중하리라.]]></entry>
+	     <entry id="voivode+str_block_heal_irrational">						<![CDATA[그 어떤 것도 내 뼈에서 살을 발라낼 수는 없을 것이다.]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[내게 가까이 오지마!]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[네가 날 도우려는 의도가 아니라는 걸 알고있다.]]></entry>
+	     <entry id="voivode+str_block_buff_paranoid">						<![CDATA[내가 볼 수 있는 곳에 손을 두어라, 벌레야!]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[내 몸에는 생명이 남아있질 않아..]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[나는 내 종말을 갈망해왔다.]]></entry>
+	     <entry id="voivode+str_block_buff_masochist">						<![CDATA[내가 고통받으며 혼자 있게 해줘...]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[정말로, 난 이게 즐겁다구.]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[내 힘은 오직 적들의 고통에서 나온다.]]></entry>
+	     <entry id="voivode+str_block_buff_sadist">						<![CDATA[난 맨 몸으로 저들을 마주할 것이다.]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[늑대를 막아낼 수 있는 쥐가 없구나.]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[(어색한 침묵)]]></entry>
+	     <entry id="voivode+str_block_buff_irrational">						<![CDATA[틀림없군... 넌 뭘 하려고 한거지?]]></entry>
+		 
+		 
+
+<!--Glossary--> 
+	<entry id="str_glossary_term_101"><![CDATA[  - {colour_start|voivode_colour}Darkness{colour_end}]]></entry>
+	<entry id="str_glossary_term_definition_101"><![CDATA[Each point of missign {colour_start|wos_rarity} Torchlight{colour_end} equals 1 point of {colour_start|voivode_colour}Darkness{colour_end}]]></entry>
+
+	<entry id="str_glossary_term_102"><![CDATA[  - {colour_start|voivode_colour}Darkbrood{colour_end}]]></entry>
+	<entry id="str_glossary_term_definition_102"><![CDATA[x]]></entry>
+	
+	<entry id="str_glossary_term_103"><![CDATA[  - {colour_start|voivode_colour}Darkspawn{colour_end}]]></entry>
+	<entry id="str_glossary_term_definition_103"><![CDATA[x]]></entry>
+	
+	<entry id="str_glossary_term_104"><![CDATA[  - {colour_start|voivode_colour}Darkspawn - Frenzy{colour_end}]]></entry>
+	<entry id="str_glossary_term_definition_104"><![CDATA[x]]></entry>
+	
+	<entry id="str_glossary_term_105"><![CDATA[  - {colour_start|voivode_colour}Darkbrood{colour_end} - {colour_start|notable}Cleansing{colour_end}]]></entry>
+	<entry id="str_glossary_term_definition_105"><![CDATA[x]]></entry>
+   
+   
+   
+   
+   <!--Skill Barks -->	
+	<entry id="Flock_bark"><![CDATA[The creatures of the night are under my command!]]></entry>
+	<entry id="Flock_bark"><![CDATA[Don't leave a drop of blood on their bodies!]]></entry>
+	<entry id="Flock_bark"><![CDATA[A cloud of wings and fangs will be your tomb!]]></entry>
+	<entry id="Flock_bark"><![CDATA[Fly, my brothers, fly and feast!]]></entry>
+	<entry id="Obey_bark"><![CDATA[Crawl under my feet, insect!]]></entry>
+	<entry id="Obey_bark"><![CDATA[Your master commands you!]]></entry>
+	<entry id="Obey_bark"><![CDATA[Bow down under my will!]]></entry>
+	<entry id="Obey_bark"><![CDATA[Kneel before thine new master!]]></entry>
+	<entry id="Obey_bark"><![CDATA[It is pointless to resist...]]></entry>
+	<entry id="Obey_bark"><![CDATA[Your will is weaker than your appearance !]]></entry>
+	<entry id="Obey_bark"><![CDATA[Come, walk towards me, slowly.]]></entry>
+	<entry id="Obey_bark"><![CDATA[Crouch before my feet, maggot!]]></entry>
+	<entry id="Obey_bark"><![CDATA[OBEY !!!]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[Darkness, shadow and gloom. bring our foes their DOOM!]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[The shadows will be our sword...]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[They can not see me... but I can see them...]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[Let them approach me...]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[I will be closer to you than your own shaddow]]></entry>
+	<entry id="Shadowplay_bark"><![CDATA[Fear not the dark my friend]]></entry>
+	<entry id="Shadowplay_bark_target"><![CDATA[Where did all these shadows come from?]]></entry>
+	<entry id="Shadowplay_bark_target"><![CDATA[The shadows moves under under my feet!]]></entry>
+	<entry id="Shadowplay_bark_target"><![CDATA[Where is the old man ?!]]></entry>
+	<entry id="Shadowplay_bark_target"><![CDATA[And suddenly the dark ...]]></entry>
+	<entry id="Shadowplay_bark_target"><![CDATA[And suddenly the dark ...]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[Such a maligent creature!]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[What a cruel twist of events!]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[I knew he was hiding something!]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[This is his true face!]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[How can he keep his warderobe on ?]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[Raaah away with that thing !]]></entry>
+	<entry id="VV_Tranform_Bark"><![CDATA[Tis tiwsted thing is none of us !]]></entry>
+	
+   
+  <!--Shadowplay Class Barks -->	
+   
+	<entry id="voivode+Shadowplay_bark_target"><![CDATA[How did two of us get in one party ?! Wicked Magic !]]></entry>
+	<entry id="vestal+Shadowplay_bark_target"><![CDATA[How did two of us get in one party ?! Wicked Magic !]]></entry>
+	<entry id="paladin+Shadowplay_bark_target"><![CDATA[How did two of us get in one party ?! Wicked Magic !]]></entry>
+	<entry id="exorcist+Shadowplay_bark_target"><![CDATA[How did two of us get in one party ?! Wicked Magic !]]></entry>
+	<entry id="warrior_of_sunlight+Shadowplay_bark_target"><![CDATA[How did two of us get in one party ?! Wicked Magic !]]></entry>
+	
+	<entry id="darkwraith+Shadowplay_bark_target"><![CDATA[Where did all these shadows come from?]]></entry>
+	<entry id="darkwraith+Shadowplay_bark_target"><![CDATA[Neat little trick can you teach that to me]]></entry>
+	<entry id="darkwraith+Shadowplay_bark_target"><![CDATA[Ohh a Strigoi. Centuries I last seen a living one]]></entry>
+	<entry id="darkwraith+Shadowplay_bark_target"><![CDATA[Radu is that neccesary? Im immortal no need to guard me]]></entry>
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[How kind of you Radu. I might reward your old bones later ...]]></entry>
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[You know i can pick who guards me myself. But thanks]]></entry>
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[Hide in the shadows old man. Not anyone cn be like me]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[The dark is part of the cycle]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[No man but a beast, lurking in the dark]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[The beast within you is different from mine ...]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[My eyes can see past your darkness. 
+	I see the beast within]]></entry>
+	
+	<entry id="abomination+Shadowplay_bark_target"><![CDATA[You also bear a curse, though your no brother ...]]></entry>
+	<entry id="abomination+Shadowplay_bark_target"><![CDATA[You can understand my burder]]></entry>
+	<entry id="abomination+Shadowplay_bark_target"><![CDATA[Look how they shunned me! Keep your distance from them]]></entry>
+	<entry id="crusader+Shadowplay_bark_target"><![CDATA[The flame can not tolerate such evil play!]]></entry>
+	<entry id="crusader+Shadowplay_bark_target"><![CDATA[Remind yourself, we are only allies in battle!]]></entry>
+	<entry id="crusader+Shadowplay_bark_target"><![CDATA[After this is over, remind me to purge you wicked creature!]]></entry>
+	<entry id="leper+Shadowplay_bark_target"><![CDATA[Two wicked kings ... One common evil]]></entry>
+	<entry id="leper+Shadowplay_bark_target"><![CDATA[You were a lord like me, dont put yourself in my service!]]></entry>
+	<entry id="leper+Shadowplay_bark_target"><![CDATA[Wich dark times. I need the service of another wicked king!]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[That is different of anything what i've seen. Thouhg strangly akin]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[Use this again! What a phenomenal display for research!]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[I see what you do! And I learn ...]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[Intriguing. I could never could call the one you serve]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[Your god is no stranger to me.]]></entry>
+	<entry id="occultist+Shadowplay_bark_target"><![CDATA[I can see through the dark veil !]]></entry>
+	<entry id="grave_robber+Shadowplay_bark_target"><![CDATA[Advanced darkness !!!]]></entry>
+	<entry id="grave_robber+Shadowplay_bark_target"><![CDATA[These shadows are deeper than anything I could hide in !]]></entry>
+	<entry id="grave_robber+Shadowplay_bark_target"><![CDATA[What ? Wasn't i supposed to do that ?]]></entry>
+	<entry id="jester+Shadowplay_bark_target"><![CDATA[*laughs meniacly* What a beatifull trick !]]></entry>
+	<entry id="jester+Shadowplay_bark_target"><![CDATA[*sings* fear of the dark !!!]]></entry>
+	<entry id="jester+Shadowplay_bark_target"><![CDATA[*sings* welcome o the black parade !!!]]></entry>
+	<entry id="jester+Shadowplay_bark_target"><![CDATA[I can hear the Hells Bells ring!!!]]></entry>
+	<entry id="jester+Shadowplay_bark_target"><![CDATA[*sings* I am a man who walks alone
+And when I'm walking a dark road !!!]]></entry>
+	<entry id="houndmaster+Shadowplay_bark_target"><![CDATA[Calm down doggo! There's nothing to fear]]></entry>
+	<entry id="houndmaster+Shadowplay_bark_target"><![CDATA[*dog barks wildly* 
+	Shhht calm down what are oyu barking at ?]]></entry>
+	
+	
+	
+	<entry id="lamia+Shadowplay_bark_target"><![CDATA[Wich is your true form? Ask my mirror]]></entry>
+	<entry id="lamia+Shadowplay_bark_target"><![CDATA[Wich is your true form? Ask my mirror]]></entry>
+
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[How kind of you Radu. I might reward your old bones later ...]]></entry>
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[You know i can pick who guards me myself. But thanks]]></entry>
+	<entry id="succubus+Shadowplay_bark_target"><![CDATA[Hide in the shadows old man. Not anyone cn be like me]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[The dark is part of the cycle]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[No man but a beast, lurking in the dark]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[The beast within you is different from mine ...]]></entry>
+	<entry id="beastmaster+Shadowplay_bark_target"><![CDATA[My eyes can see past your darkness. 
+	I see the beast within]]></entry>
+
+
+  </language>
+</root>

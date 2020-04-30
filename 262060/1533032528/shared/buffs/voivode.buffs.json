@@ -1,0 +1,605 @@
+{
+   "buffs":
+   [	
+
+	{
+         "id" : "VV_chalice_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : -9.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QuirkEvolution_2_to_Rage_Death",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness_2",
+         "amount" : -90000,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description": false
+      },
+	    {
+         "id" : "QuirkEvolution_Rage_to_2_Death",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Rage_of_Darkness",
+         "amount" : 90000,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description": false
+      },
+	   {
+         "id" : "CRT_Darkspawn_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         }
+      },
+	  {
+         "id" : "CRT_Darkspawn_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	  {
+         "id" : "CRT_Darkspawn_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         }
+      },
+	  
+   
+   {
+         "id" : "vv_lifesteal_rec_other",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	   {
+         "id" : "vv_lifesteal_Scaling_1",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -0.70,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  {
+         "id" : "vv_lifesteal_Scaling_2",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -0.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  {
+         "id" : "vv_lifesteal_Scaling_3",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -0.60,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  {
+         "id" : "vv_lifesteal_Scaling_4",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -0.55,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  {
+         "id" : "vv_lifesteal_Scaling_5",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  
+	  
+	    {
+         "id" : "vv_lifesteal_Vegetation",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vegetation"
+         },
+         "has_description" : false
+      },
+	  
+	  {
+         "id" : "vv_lifesteal_Carpentry",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "carpentry"
+         },
+         "has_description" : false
+      },
+   
+	  {
+         "id" : "vv_lifesteal_Iron",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ironwork"
+         },
+         "has_description" : false
+      },
+   
+	 {
+         "id" : "vv_lifesteal_Stone",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ironwork"
+         },
+         "has_description" : false
+      },
+		 {
+         "id" : "vv_lifesteal_pyre",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pyre"
+         },
+         "has_description" : false
+      },
+	   {
+         "id" : "vv_lifesteal_crockery",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cauldron"
+         },
+         "has_description" : false
+      },
+	   {
+         "id" : "vv_lifesteal_Thatchery",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -10.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "thatchery"
+         },
+         "has_description" : false
+      },
+		
+	 
+	  
+
+	{
+         "id" : "VV_Block_Guard_while_Guarding",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "guard",
+         "amount" : 1,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description" : true	 
+      },
+	  
+	   
+	 
+	  
+	  
+	  
+	  {
+         "id" : "CAMPING_VV_DARKBUFF_20",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_VV_DARKBUFF_40",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CAMPING_VV_ResolveD",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "CAMPING_VV_DARKBUFF_SCOUT_50",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "vv_campingBLEED",
+         "stat_type" : "hp_dot_bleed",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "Camp_QuirkEvolution_1_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -50,
+         "remove_if_not_active" : true,
+		 "duration_type" : "quest_end",
+		 "duration" : 2,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "VV_Camp_DMGH_Darkspawn_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         }
+      },
+	    {
+         "id" : "VV_Camp_DMGH_Darkspawn_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+        "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         }
+      },
+	    {
+         "id" : "VV_Camp_DMGH_Darkspawn_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	    {
+         "id" : "VV_Camp_DMGH_Darkspawn_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         }
+      },
+	  {
+         "id" : "VV_Camp_DMGL_Darkspawn_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         }
+      },
+	    {
+         "id" : "VV_Camp_DMGL_Darkspawn_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	    {
+         "id" : "VV_Camp_DMGL_Darkspawn_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+		 "duration_type" : "combat_end",
+		 "duration" : 4,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         }
+      },
+	   
+	  {
+         "id" : "town_event_strigo_2B",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	  {
+         "id" : "town_event_strigo_3B",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : true
+      },
+	  
+	  {
+         "id" : "Town_Event_QuirkEvolution_1_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -70,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "town_event_strigo_1",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : -3.00,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description": false
+      },
+	 {
+         "id" : "town_event_strigo_2",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.00,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "town_event_strigo_3",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.00,
+		 "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      }
+	 
+
+	 
+	 
+   ]
+}

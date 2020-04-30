@@ -1,0 +1,239 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "RESC_quirk_1",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+		 
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_healing_up",
+			"RESC_quirk_healingrec_up",
+			"RESC_quirk_tooltip_1"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : false
+      },
+	  
+      {
+         "id" : "RESC_quirk_2",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [  
+
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_cure_bleed_chance",
+			"RESC_quirk_cure_blight_chance",
+			"RESC_quirk_tooltip_2"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	  {
+         "id" : "RESC_quirk_3",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+		 "RESC_quirk_6"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_speed_up",
+			"RESC_quirk_crit_up",
+			"RESC_quirk_stunning_staff",
+			"RESC_quirk_tooltip_3",
+			"RESC_quirk_tooltip_4"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	  {
+         "id" : "RESC_quirk_4",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_stresshealing_down",
+			"RESC_quirk_stressrec_up",
+			"RESC_quirk_tooltip_5"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	    {
+         "id" : "RESC_quirk_5",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_stess_down",
+			"RESC_quirk_stun_resist_up",
+			"RESC_quirk_mark_trigger",
+			"RESC_quirk_damlow_up2",
+			"RESC_quirk_damhigh_up2",
+			"RESC_quirk_tooltip_8",
+			"RESC_quirk_tooltip_9"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	  {
+         "id" : "RESC_quirk_6",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+		 "RESC_quirk_3"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_damlow_up",
+			"RESC_quirk_damhigh_up",
+			"RESC_quirk_bleeding_bite",
+			"RESC_quirk_tooltip_6",
+			"RESC_quirk_tooltip_7"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	   {
+         "id" : "RESC_quirk_7",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [  
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_cost_down_medical",
+			"RESC_quirk_tooltip_10"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	  
+	  {
+         "id" : "RESC_quirk_8",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [ 
+		 "RESC_quirk_9"		 
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_cost_down_treatment",
+			"RESC_quirk_tooltip_11"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+	   {
+         "id" : "RESC_quirk_9",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 1,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [ 
+		 "RESC_quirk_8"		 
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+			"RESC_quirk_cost_up_treatment",
+			"RESC_quirk_tooltip_12"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

@@ -1,0 +1,343 @@
+//"Voivode"
+//--------------------------------------------------------------------------------------------------------------------------------------
+###########################################################################################################################
+// General Effects
+###########################################################################################################################
+
+// Crt Effect
+effect: .name "VV_on_crit_DarkDMG" 	.target "performer"   				.chance 160% .buff_ids  vv_tooltip_dmg_scaling_A VV_Court_dark_DMGH VV_Farm_dark_DMGH VV_Court_dark_DMGL VV_Farm_dark_DMGL  .duration 2 .on_hit true .on_miss false .buff_source_type bsrc_crit .apply_once true
+effect: .name "VV_on_crit_DarkDMG" 	.target "performer"   				.chance 160% .buff_ids  VV_dark_DMGH_75 VV_dark_DMGH_50 VV_dark_DMGH_25 VV_dark_DMGH_00  VV_dark_DMGL_00 VV_dark_DMGL_25 VV_dark_DMGL_50 VV_dark_DMGL_75 .duration 2 .on_hit true .on_miss false .buff_source_type bsrc_crit .apply_once true
+effect: .name "VV_on_crit_CRT_DS" 	.target "performer_group_other"   	.chance 160% .buff_ids  "CRT_Darkspawn_2" "CRT_Darkspawn_3" "CRT_Darkspawn_1" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_crit .apply_once true
+
+//Thrall Quirk 
+effect: .name "VV Thrall Quirk" .target "target"  .chance 100% .disease VV_quirk_1 .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .has_description false
+
+//Death effect 
+effect: .name "Voivodes Last Rage" .target "target"  .chance 100% .buff_ids "VV_QuirkEvolution_2_to_Rage_Death" "QuirkEvolution_Rage_to_2_Death"  "vv_tooltip_vv_master_death" .on_hit true .on_miss true .buff_duration_type quest_end  .duration 1 
+
+//Torch Decrease
+effect: .name "VV Dark 1" .target "global" .chance 100%  .torch_decrease 5	.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "VV Dark 2" .target "global" .chance 100%  .torch_decrease 10	.on_hit true .on_miss true .apply_once true .queue true
+effect: .name "VV Dark 3" .target "global" .chance 100%  .torch_decrease 15 .on_hit true .on_miss true .apply_once true .queue true
+
+// Barks
+//----------------------------------------------------------------------------------------------------------
+effect: .name "Shadowplay_bark_target" 	.target "performer" 			.chance 20% .bark Shadowplay_bark .on_hit true .on_miss true .queue true
+effect: .name "Shadowplay_bark" 		.target "performer" 			.chance 15% .bark Shadowplay_bark .on_hit true .on_miss true .queue true
+effect: .name "Obey_bark" 				.target "performer" 			.chance 10% .bark Obey_bark .on_hit true .on_miss true .queue true
+effect: .name "Flock_bark" 				.target "performer" 			.chance 10% .bark Flock_bark .on_hit true .on_miss true .queue true
+effect: .name "VV_Tranform_Bark" 		.target "performer_group_other" .chance 10% .bark VV_Tranform_Bark .on_hit true .on_miss true .queue true .individual_target_actor_rolls true
+
+
+// Darkspawn
+effect: .name "VV_DS_ACT_OUT_Heal_1"		.target "performer"  .duration 2 .chance 100% .combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10% .heal_percent 0.15 .on_hit true 
+effect: .name "VV_DS_ACT_OUT_Heal_2"		.target "performer"  .duration 2 .chance 100% .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .heal_percent 0.25  .on_hit true
+effect: .name "VV_DS_ACT_OUT_Stealth_1"		.target "performer"  .duration 2 .chance 100% .combat_stat_buff 1  .stealth 1 .heal_percent 0.10  .on_hit true .duration 2
+effect: .name "VV_DS_ACT_OUT_Stealth_2"		.target "performer"  .duration 2 .chance 100% .stealth 1  .on_hit true .duration 2 
+effect: .name "VV_DS_ACT_OUT_Stealth_3"		.target "performer"  .duration 2 .chance 100% .combat_stat_buff 1  .stealth 1 .healstress 3  .on_hit true .duration 2 
+effect: .name "VV_DS_ACT_OUT_Stress_Party"		.target "performer_group_other"  .duration 1 .chance 100% .combat_stat_buff 1  .stress 5  .on_hit true .duration 1 .queue true
+effect: .name "VV_DS_ACT_OUT_Buff_Party"		.target "target"  .duration 2 .chance 100% .buff_ids VV_Act_Out_Darkspawn_Frenzy  .on_hit true  .queue true
+effect: .name "VV_DS_ACT_OUT_Buff_Target"		.target "target"  .duration 2 .chance 100% .buff_ids VV_Act_Out_Darkspawn_Frenzy_DeBuff VV_Act_Out_Darkspawn_Frenzy_Buff  .on_hit true  .queue true
+#########################################################################################################################################################################################################################################################################################################################################################################
+// Skill Effects
+#########################################################################################################################################################################################################################################################################################################################################################################
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Transformation
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Transform 	(Stress Allies clear guard stealth riposte) 
+// Retransform 	(Stress Heal Allies) 
+// As Strigoi:	+DODGE, +SPD, -Tranform Stress per 25 Darkness
+//-----------------------------------------
+
+//Transform -- Human > Strigoi
+// Buffs Speed as long as in Strigo
+effect: .name "switch_mode_strigo_self" 			.target "performer" .set_mode strigo .remove_vampire 1  .clearguarding 1 .clear_riposte 1 .unstealth 1 .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "switch_mode_strigo_self_hidden" 		.target "performer" .set_mode strigo .remove_vampire 1  .clearguarding 1 .clear_riposte 1 .unstealth 1 .chance 100% .on_hit true .on_miss false .queue false .has_description false .apply_once true 
+
+//Transform -- Strigoi > Human
+effect: .name "switch_mode_human_self" 				.target "performer" .set_mode human .remove_vampire 1 	.chance 100% .on_hit true .on_miss false .queue false
+effect: .name "switch_mode_human_self_hidden" 		.target "performer" .set_mode human .remove_vampire 1 	.chance 100% .on_hit true .on_miss false .queue false .has_description false .apply_once true
+
+// Stress
+effect: .name "VV Stress 1" 			.target "performer"  			.chance 100% .stress 5   	.on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV Stress 2" 			.target "performer"  			.chance 100% .stress 6   	.on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV Stress 3" 			.target "performer"  			.chance 100% .stress 7   	.on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV Stress 4" 			.target "performer"  			.chance 100% .stress 8   	.on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV Stress 5" 			.target "performer"  			.chance 100% .stress 9  	.on_hit true .on_miss false .queue true .apply_once true .has_description true 
+
+effect: .name "VV Stress Party 1" 		.target "performer_group_other" .chance 100% .stress 3  	.on_hit true .on_miss false .queue true  .has_description true 
+effect: .name "VV Stress Party 2" 		.target "performer_group_other" .chance 100% .stress 4  	.on_hit true .on_miss false .queue true  .has_description true 
+effect: .name "VV Stress Party 3" 		.target "performer_group_other" .chance 100% .stress 5  	.on_hit true .on_miss false .queue true  .has_description true 
+effect: .name "VV Stress Party 4" 		.target "performer_group_other" .chance 100% .stress 6  	.on_hit true .on_miss false .queue true  .has_description true 
+effect: .name "VV Stress Party 5" 		.target "performer_group_other" .chance 100% .stress 7  	.on_hit true .on_miss false .queue true  .has_description true 
+	
+// Stressheal 
+effect: .name "VV HealStress 1" 		.target "performer"  			.chance 100% .healstress 6   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress 2" 		.target "performer"  			.chance 100% .healstress 7   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress 3" 		.target "performer"  			.chance 100% .healstress 8   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress 4" 		.target "performer"  			.chance 100% .healstress 9   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress 5" 		.target "performer"  			.chance 100% .healstress 10  .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+
+effect: .name "VV HealStress Party 1" 	.target "performer_group_other" .chance 100% .healstress 2   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress Party 2" 	.target "performer_group_other" .chance 100% .healstress 3   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress Party 3" 	.target "performer_group_other" .chance 100% .healstress 4   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress Party 4" 	.target "performer_group_other" .chance 100% .healstress 5   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+effect: .name "VV HealStress Party 5" 	.target "performer_group_other" .chance 100% .healstress 6   .on_hit true .on_miss false .queue true .apply_once true .has_description true 
+
+
+// Apply SPD & DODGE Bonus in Darkness (invisible)
+//SOURCE: Nonspecified
+effect: .name "VV Strigo Mode Nocturnal 1 TT" 		.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  "vv_tooltip_transform_A_Panel"    														.duration 1 .duartion_type "combat_end" .on_hit true .has_description false 
+effect: .name "VV Strigo Mode Nocturnal 1" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_D1 VV_Noctural_25_D1 VV_Noctural_50_D1 VV_Noctural_75_D1 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 1" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_S1 VV_Noctural_25_S1 VV_Noctural_50_S1 VV_Noctural_75_S1 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 1" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_Court_D1 VV_Noctural_Court_S1 VV_Noctural_Farm_D1 VV_Noctural_Farm_S1 	.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+effect: .name "VV Strigo Mode Nocturnal 2 TT" 		.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  "vv_tooltip_transform_A_Panel" 														.duration 1 .duartion_type "combat_end" .on_hit true .has_description false 
+effect: .name "VV Strigo Mode Nocturnal 2" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_D1 VV_Noctural_25_D1 VV_Noctural_50_D1 VV_Noctural_75_D1 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 2" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_S1 VV_Noctural_25_S1 VV_Noctural_50_S1 VV_Noctural_75_S1 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 2" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_Court_D1 VV_Noctural_Court_S1 VV_Noctural_Farm_D1 VV_Noctural_Farm_S1  	.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+effect: .name "VV Strigo Mode Nocturnal 3 TT" 		.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  "vv_tooltip_transform_B_Panel"  														.duration 1 .duartion_type "combat_end" .on_hit true .has_description false 
+effect: .name "VV Strigo Mode Nocturnal 3" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_D2 VV_Noctural_25_D2 VV_Noctural_50_D2 VV_Noctural_75_D2 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 3" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_S2 VV_Noctural_25_S2 VV_Noctural_50_S2 VV_Noctural_75_S2 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 3" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_Court_D1 VV_Noctural_Court_S2 VV_Noctural_Farm_D2 VV_Noctural_Farm_S2  	.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+effect: .name "VV Strigo Mode Nocturnal 4 TT" 		.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  "vv_tooltip_transform_B_Panel"  														.duration 1 .duartion_type "combat_end" .on_hit true .has_description false 
+effect: .name "VV Strigo Mode Nocturnal 4" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_D2 VV_Noctural_25_D2 VV_Noctural_50_D2 VV_Noctural_75_D2 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 4" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_S2 VV_Noctural_25_S2 VV_Noctural_50_S2 VV_Noctural_75_S2 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 4" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_Court_D2 VV_Noctural_Court_S2 VV_Noctural_Farm_D2 VV_Noctural_Farm_S2  	.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+effect: .name "VV Strigo Mode Nocturnal 5 TT" 		.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  "vv_tooltip_transform_C_Panel"  														.duration 1 .duartion_type "combat_end" .on_hit true .has_description false 
+effect: .name "VV Strigo Mode Nocturnal 5" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_D3 VV_Noctural_25_D3 VV_Noctural_50_D3 VV_Noctural_75_D3 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 5" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_00_S3 VV_Noctural_25_S3 VV_Noctural_50_S3 VV_Noctural_75_S3 				.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal 5" 			.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids  VV_Noctural_Court_D3 VV_Noctural_Court_S3 VV_Noctural_Farm_D3 VV_Noctural_Farm_S3  	.duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+// Apply less Transform stress (invisible)
+effect: .name "VV Strigo Mode Nocturnal Stress 1" 	.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids VV_Noctural_75_T1 VV_Noctural_50_T1 VV_Noctural_25_T1 VV_Noctural_00_T1  VV_Noctural_Farm_T1  VV_Noctural_Court_T1 .duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal Stress 2" 	.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids VV_Noctural_75_T2 VV_Noctural_50_T2 VV_Noctural_25_T2 VV_Noctural_00_T2  VV_Noctural_Farm_T2  VV_Noctural_Court_T2 .duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+effect: .name "VV Strigo Mode Nocturnal Stress 3" 	.target "performer" .chance 100% .buff_duration_type combat_end .buff_ids VV_Noctural_75_T3 VV_Noctural_50_T3 VV_Noctural_25_T3 VV_Noctural_00_T3  VV_Noctural_Farm_T3  VV_Noctural_Court_T3 .duration 1 .duartion_type "combat_end" .on_hit true .has_description false .buff_source_type bsrc_notspecified
+
+// Cleanse SOURCE: Nonspecified on Retransform
+effect: .name "VV Strigo Mode Nocturnal R" 			.target "performer" .chance 100% .steal_buff_source_type bsrc_notspecified .on_hit true .has_description false 
+
+// Tooltip
+effect: .name "VV Tooltip Trans 1" 					.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_transform_0" "vv_tooltip_transform_A"  .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Trans 2" 					.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_transform_0" "vv_tooltip_transform_B"  .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Trans 3" 					.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_transform_0" "vv_tooltip_transform_C"  .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Trans 4" 					.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_transform_0" "vv_tooltip_transform_D" .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Trans 5" 					.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_transform_0" "vv_tooltip_transform_E"  .on_hit true .on_miss false .has_description true
+
+// Enables Cooldowns and Block effects
+effect: .name "VV phantom tag" 						.target "performer"   .tag 1  .chance 0% .on_hit true .on_miss false .queue false .duration 1 .has_description false
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Flock Of Bats
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Bleed, + CRT scaling per Darkness
+//-----------------------------------------
+
+//Bleed
+effect: .name "Voivode Bleed 1" 		.target "target"  .chance 100%   .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true 
+effect: .name "Voivode Bleed 2" 		.target "target"  .chance 110%   .dotBleed 2 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Voivode Bleed 3" 		.target "target"  .chance 120%   .dotBleed 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Voivode Bleed 4" 		.target "target"  .chance 130%   .dotBleed 3 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "Voivode Bleed 5" 		.target "target"  .chance 140%   .dotBleed 4 .duration 3	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+// Crt scales with Darkness (invisible)
+effect: .name "VV Bats DARKSCALING 1" 	.target "performer" .chance 100% .skill_instant true	 .buff_ids	"VV_SHADOW_00_C1" "VV_SHADOW_25_C1" "VV_SHADOW_50_C1" "VV_SHADOW_75_C1" "VV_Flock_Farm_C1" "VV_Flock_Court_C1" .on_hit true .on_miss false .has_description false
+effect: .name "VV Bats DARKSCALING 2" 	.target "performer" .chance 100% .skill_instant true	 .buff_ids	"VV_SHADOW_00_C2" "VV_SHADOW_25_C2" "VV_SHADOW_50_C2" "VV_SHADOW_75_C2" "VV_Flock_Farm_C2" "VV_Flock_Court_C2" .on_hit true .on_miss false .has_description false
+effect: .name "VV Bats DARKSCALING 3" 	.target "performer" .chance 100% .skill_instant true	 .buff_ids	"VV_SHADOW_00_C3" "VV_SHADOW_25_C3" "VV_SHADOW_50_C3" "VV_SHADOW_75_C3" "VV_Flock_Farm_C3" "VV_Flock_Court_C3" .on_hit true .on_miss false .has_description false
+effect: .name "VV Bats DARKSCALING 4" 	.target "performer" .chance 100% .skill_instant true	 .buff_ids	"VV_SHADOW_00_C4" "VV_SHADOW_25_C4" "VV_SHADOW_50_C4" "VV_SHADOW_75_C4" "VV_Flock_Farm_C4" "VV_Flock_Court_C4" .on_hit true .on_miss false .has_description false
+effect: .name "VV Bats DARKSCALING 5" 	.target "performer" .chance 100% .skill_instant true	 .buff_ids	"VV_SHADOW_00_C5" "VV_SHADOW_25_C5" "VV_SHADOW_50_C5" "VV_SHADOW_75_C5" "VV_Flock_Farm_C5" "VV_Flock_Court_C5" .on_hit true .on_miss false .has_description false
+
+// Tooltip
+effect: .name "VV Tooltip Bat 1" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	vv_tooltip_vv_bat_crt_scaling_A .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Bat 2" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	vv_tooltip_vv_bat_crt_scaling_B .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Bat 3" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	vv_tooltip_vv_bat_crt_scaling_C .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Bat 4" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	vv_tooltip_vv_bat_crt_scaling_D .on_hit true .on_miss false .has_description true
+effect: .name "VV Tooltip Bat 5" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	vv_tooltip_vv_bat_crt_scaling_E .on_hit true .on_miss false .has_description true
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Hypnosis
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Pull 1 Target/ Stun Target
+//-----------------------------------------
+
+//Weak Stun
+effect: .name "VV Weak Stun 1" 			.target "target"  .chance  90%  .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "VV Weak Stun 2" 			.target "target"  .chance 100%  .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "VV Weak Stun 3" 			.target "target"  .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "VV Weak Stun 4" 			.target "target"  .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "VV Weak Stun 5" 			.target "target"  .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+
+//Pull Effect
+effect: .name "VV Pull 2A" 				.target "target" .pull 2 .chance 110% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "VV Pull 2B" 				.target "target" .pull 2 .chance 120% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "VV Pull 2C" 				.target "target" .pull 2 .chance 130% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "VV Pull 2D" 				.target "target" .pull 2 .chance 140% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "VV Pull 2E" 				.target "target" .pull 2 .chance 150% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "VV Pull 2F" 				.target "target" .pull 2 .chance 160% .on_hit true .on_miss false .can_apply_on_death true
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Shadowplay
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Guard Target, Activate Riposte , +Dodge per Darkness, Stealth Self 
+// On Dodge Riposte: -60% base DMG , cannot miss
+// Cannot be recast while active
+//-----------------------------------------
+
+//VV ProtectMe 
+effect: .name "VV Protect ClearGuardsTarget" 	.target "target"    .chance 100% .clearguarding 1 .clearguarded 1  .on_hit true .on_miss true .duration 3 .has_description false
+effect: .name "VV Protect Guard" 				.target "target"    .chance 100% .guard 1 						   .on_hit true .on_miss true .duration 3
+
+//Riposte Effect + Clear Guards performer (invisible)
+effect: .name "VV Riposte 1"  			.target "performer"  .chance 100% .clearguarding 1 .clearguarded 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 0%  .crit_chance_add 1% .damage_low_multiply 0%  .damage_high_multiply 0% .has_description false .riposte_effect  
+effect: .name "VV Riposte 2"  			.target "performer"  .chance 100% .clearguarding 1 .clearguarded 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 0%  .crit_chance_add 2% .damage_low_multiply 0%  .damage_high_multiply 0% .has_description false .riposte_effect  
+effect: .name "VV Riposte 3"  			.target "performer"  .chance 100% .clearguarding 1 .clearguarded 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 0%  .crit_chance_add 3%  .damage_low_multiply 0%  .damage_high_multiply 0% .has_description false .riposte_effect  
+effect: .name "VV Riposte 4"  			.target "performer"  .chance 100% .clearguarding 1 .clearguarded 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 0%  .crit_chance_add 4%  .damage_low_multiply 0%  .damage_high_multiply 0% .has_description false .riposte_effect  
+effect: .name "VV Riposte 5"  			.target "performer"  .chance 100% .clearguarding 1 .clearguarded 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .attack_rating_add 0%  .crit_chance_add 5%  .damage_low_multiply 0%  .damage_high_multiply 0% .has_description false .riposte_effect  
+
+//Stealth  + Tooltip
+effect: .name "VV DF Tooltip Riposte 0" .target "performer" .chance 100%  	 		 .buff_ids	 "vv_tooltip_Riposte_T"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 1
+effect: .name "VV DF Tooltip Riposte 1" .target "performer" .chance 100%  .stealth 1 .buff_ids	 "vv_tooltip_Riposte_1"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 3
+effect: .name "VV DF Tooltip Riposte 2" .target "performer" .chance 100%  .stealth 1 .buff_ids	 "vv_tooltip_Riposte_2"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 3
+effect: .name "VV DF Tooltip Riposte 3" .target "performer" .chance 100%  .stealth 1 .buff_ids   "vv_tooltip_Riposte_3"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 3
+effect: .name "VV DF Tooltip Riposte 4" .target "performer" .chance 100%  .stealth 1 .buff_ids	 "vv_tooltip_Riposte_4"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 3
+effect: .name "VV DF Tooltip Riposte 5" .target "performer" .chance 100%  .stealth 1 .buff_ids	 "vv_tooltip_Riposte_5"  .on_hit true .on_miss false .has_description true .brsc riposte .duration 3
+
+// Dodge scaling + Disable Guards (invisible)
+effect: .name "VV DODGE DARKSCALING 1" .target "performer" .chance 100% 	 .buff_ids	"VV_SHADOW_00_D1" "VV_SHADOW_25_D1" "VV_SHADOW_50_D1" "VV_SHADOW_75_D1" "VV_SHADDOW_Court_D1" "VV_SHADDOW_Farm_D1" "VV_Block_Guard_while_Guarding" .on_hit true .on_miss false .has_description false .duration 3
+effect: .name "VV DODGE DARKSCALING 2" .target "performer" .chance 100% 	 .buff_ids	"VV_SHADOW_00_D2" "VV_SHADOW_25_D2" "VV_SHADOW_50_D2" "VV_SHADOW_75_D2" "VV_SHADDOW_Court_D2" "VV_SHADDOW_Farm_D2" "VV_Block_Guard_while_Guarding" .on_hit true .on_miss false .has_description false .duration 3
+effect: .name "VV DODGE DARKSCALING 3" .target "performer" .chance 100% 	 .buff_ids	"VV_SHADOW_00_D3" "VV_SHADOW_25_D3" "VV_SHADOW_50_D3" "VV_SHADOW_75_D3" "VV_SHADDOW_Court_D3" "VV_SHADDOW_Farm_D3" "VV_Block_Guard_while_Guarding" .on_hit true .on_miss false .has_description false .duration 3
+effect: .name "VV DODGE DARKSCALING 4" .target "performer" .chance 100% 	 .buff_ids	"VV_SHADOW_00_D4" "VV_SHADOW_25_D4" "VV_SHADOW_50_D4" "VV_SHADOW_75_D4" "VV_SHADDOW_Court_D4" "VV_SHADDOW_Farm_D4" "VV_Block_Guard_while_Guarding" .on_hit true .on_miss false .has_description false .duration 3
+effect: .name "VV DODGE DARKSCALING 5" .target "performer" .chance 100% 	 .buff_ids	"VV_SHADOW_00_D5" "VV_SHADOW_25_D5" "VV_SHADOW_50_D5" "VV_SHADOW_75_D5" "VV_SHADDOW_Court_D5" "VV_SHADDOW_Farm_D5" "VV_Block_Guard_while_Guarding" .on_hit true .on_miss false .has_description false .duration 3
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Souleater
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Ignore Armour
+// Heal % of max HP
+//-----------------------------------------
+
+// Lifesteal (prevents healing vs other Voivodes)
+//effect: .name "VV Drain Preventheal Allies" .target performer_group_other .chance 100% .skill_instant true .buff_ids vv_lifesteal_rec_other .on_hit true .on_miss false .apply_once true .has_description false
+
+// Lifedrain Amount (invisible)
+effect: .name "VV Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "vv_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false
+effect: .name "VV Lifedrain Scaling 2" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "vv_lifesteal_Scaling_2" .on_hit true .on_miss false .has_description false
+effect: .name "VV Lifedrain Scaling 3" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "vv_lifesteal_Scaling_3" .on_hit true .on_miss false .has_description false
+effect: .name "VV Lifedrain Scaling 4" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "vv_lifesteal_Scaling_4" .on_hit true .on_miss false .has_description false
+effect: .name "VV Lifedrain Scaling 5" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "vv_lifesteal_Scaling_5" .on_hit true .on_miss false .has_description false
+
+//NO Heal vs: Carpentry, Crockery, Vegetation, Stonework (including Gargoyles), Ironwork, Thatchery, Pyre, 
+effect: .name "VV Lifedrain Type" .target "performer"  .skill_instant true .chance 100% .buff_ids vv_lifesteal_Vegetation  vv_lifesteal_Iron vv_lifesteal_Carpentry vv_lifesteal_Stone vv_lifesteal_pyre vv_lifesteal_crockery vv_lifesteal_Thatchery .on_hit true .on_miss false .has_description false
+
+//Tooltip 
+effect: .name "VV Full Tooltip 1" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_feast_A" .on_hit true .on_miss false .has_description true
+effect: .name "VV Full Tooltip 2" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_feast_B" .on_hit true .on_miss false .has_description true
+effect: .name "VV Full Tooltip 3" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_feast_C" .on_hit true .on_miss false .has_description true
+effect: .name "VV Full Tooltip 4" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_feast_D" .on_hit true .on_miss false .has_description true
+effect: .name "VV Full Tooltip 5" 		.target "performer" .chance 100% .skill_instant true	 .buff_ids	"vv_tooltip_feast_E" .on_hit true .on_miss false .has_description true
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Batform
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Back 3; Heal Stress
+// Buff: DMGvBleed, CRTvMarked, SPD
+//-----------------------------------------
+
+//Push Effect: "Push 2"
+effect: .name "VV Push 2A" 				.target "target" .push 2 .chance 100% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+effect: .name "VV Push 2B" 				.target "target" .push 2 .chance 110% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+effect: .name "VV Push 2C" 				.target "target" .push 2 .chance 120% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+effect: .name "VV Push 2D" 				.target "target" .push 2 .chance 130% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+effect: .name "VV Push 2E" 				.target "target" .push 2 .chance 140% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+effect: .name "VV Push 2F" 				.target "target" .push 2 .chance 150% .on_hit true .on_miss false .can_apply_on_death true .queue false .individual_target_actor_rolls	true 
+
+//"Stun"
+effect: .name "VV stun 1" 				.target "target" .stun 1 .chance 80% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+effect: .name "VV stun 2" 				.target "target" .stun 1 .chance 90% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+effect: .name "VV stun 3" 				.target "target" .stun 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+effect: .name "VV stun 4" 				.target "target" .stun 1 .chance 110% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+effect: .name "VV stun 5" 				.target "target" .stun 1 .chance 120% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+effect: .name "VV stun 6" 				.target "target" .stun 1 .chance 130% .on_hit true .on_miss false .can_apply_on_death true .queue true .individual_target_actor_rolls	true 
+
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+//Echolocation
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Free Action: Mark enemy Party (%based); ignore stealth; Buff Acc /target hit
+//-----------------------------------------
+
+//Debuff Target per increasing Darkness
+effect: .name "VV Echo EXPOSE TT 1X" 	.target "performer" .chance 100% .buff_ids vv_tooltip_dodge_scaling_A	vv_tooltip_crit_scaling_A   .skill_instant true  .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "VV Echo EXPOSE TT 1" 	.target "target" 	.chance 100% .buff_ids vv_tooltip_dodge_scaling_A	vv_tooltip_crit_scaling_A   .duration 3 .on_hit true .on_miss false  .has_description true
+effect: .name "VV Echo EXPOSE 1" 		.target "target"  	.chance 100% .buff_ids VV_ECHO_75_D1 VV_ECHO_25_D1 VV_ECHO_50_D1 VV_ECHO_00_D1	VV_ECHO_Farm_D1  VV_ECHO_Court_D1 .duration 3 .on_hit true .on_miss false  .has_description false
+effect: .name "VV Echo EXPOSE 1" 		.target "target"  	.chance 100% .buff_ids VV_ECHO_75_C1 VV_ECHO_25_C1 VV_ECHO_50_C1 VV_ECHO_00_C1	VV_ECHO_Court_C1 VV_ECHO_Farm_C1 .duration 3 .on_hit true .on_miss false  .has_description false
+
+effect: .name "VV Echo EXPOSE TT 2X" 	.target "performer" .chance 100% .buff_ids vv_tooltip_dodge_scaling_B	vv_tooltip_crit_scaling_B   .skill_instant true .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "VV Echo EXPOSE TT 2" 	.target "target" 	.chance 110% .buff_ids vv_tooltip_dodge_scaling_B	vv_tooltip_crit_scaling_B   .duration 3 .on_hit true .on_miss false  .has_description true
+effect: .name "VV Echo EXPOSE 2" 		.target "target"  	.chance 110% .buff_ids VV_ECHO_75_D2 VV_ECHO_25_D2 VV_ECHO_50_D2 VV_ECHO_00_D2	VV_ECHO_Farm_D2  VV_ECHO_Court_D2 .duration 3 .on_hit true .on_miss false  .has_description false
+effect: .name "VV Echo EXPOSE 2" 		.target "target"  	.chance 110% .buff_ids VV_ECHO_75_C2 VV_ECHO_25_C2 VV_ECHO_50_C2 VV_ECHO_00_C2	VV_ECHO_Court_C2 VV_ECHO_Farm_C2 .duration 3 .on_hit true .on_miss false  .has_description false
+
+effect: .name "VV Echo EXPOSE TT 3X" 	.target "performer" .chance 100% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_C   .skill_instant true .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "VV Echo EXPOSE TT 3" 	.target "target" 	.chance 120% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_C   .duration 3 .on_hit true .on_miss false  .has_description true
+effect: .name "VV Echo EXPOSE 3" 		.target "target"  	.chance 120% .buff_ids VV_ECHO_75_D3 VV_ECHO_25_D3 VV_ECHO_50_D3 VV_ECHO_00_D3	VV_ECHO_Farm_D3  VV_ECHO_Court_D3 .duration 3 .on_hit true .on_miss false  .has_description false
+effect: .name "VV Echo EXPOSE 3" 		.target "target"  	.chance 120% .buff_ids VV_ECHO_75_C3 VV_ECHO_25_C3 VV_ECHO_50_C3 VV_ECHO_00_C3	VV_ECHO_Court_C3 VV_ECHO_Farm_C3 .duration 3 .on_hit true .on_miss false  .has_description false
+
+effect: .name "VV Echo EXPOSE TT 4X" 	.target "performer" .chance 100% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_D   .skill_instant true .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "VV Echo EXPOSE TT 4" 	.target "target" 	.chance 130% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_D   .duration 3 .on_hit true .on_miss false  .has_description true
+effect: .name "VV Echo EXPOSE 4" 		.target "target"  	.chance 130% .buff_ids VV_ECHO_75_D4 VV_ECHO_25_D4 VV_ECHO_50_D4 VV_ECHO_00_D4	VV_ECHO_Farm_D4  VV_ECHO_Court_D4 .duration 3 .on_hit true .on_miss false  .has_description false
+effect: .name "VV Echo EXPOSE 4" 		.target "target"  	.chance 130% .buff_ids VV_ECHO_75_C4 VV_ECHO_25_C4 VV_ECHO_50_C4 VV_ECHO_00_C4	VV_ECHO_Court_C4 VV_ECHO_Farm_C4 .duration 3 .on_hit true .on_miss false  .has_description false
+
+effect: .name "VV Echo EXPOSE TT 5X" 	.target "performer" .chance 100% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_E   .skill_instant true .on_hit true .on_miss false .apply_once true .has_description true
+effect: .name "VV Echo EXPOSE TT 5" 	.target "target" 	.chance 140% .buff_ids vv_tooltip_dodge_scaling_C	vv_tooltip_crit_scaling_E   .duration 3 .on_hit true .on_miss false  .has_description true
+effect: .name "VV Echo EXPOSE 5" 		.target "target"  	.chance 140% .buff_ids VV_ECHO_75_D5 VV_ECHO_25_D5 VV_ECHO_50_D5 VV_ECHO_00_D5  VV_ECHO_Farm_D5  VV_ECHO_Court_D5	.duration 3 .on_hit true .on_miss false  .has_description false
+effect: .name "VV Echo EXPOSE 5" 		.target "target"  	.chance 140% .buff_ids VV_ECHO_75_C5 VV_ECHO_25_C5 VV_ECHO_50_C5 VV_ECHO_00_C5	VV_ECHO_Court_C5 VV_ECHO_Farm_C5 .duration 3 .on_hit true .on_miss false  .has_description false
+
+#########################################################################################################################################################################################################################################################################################################################################################################
+// Item effects
+#########################################################################################################################################################################################################################################################################################################################################################################
+
+// Chalice
+//effect: .name "vv_chalice" .target "performer" .item 1  .chance 200% .remove_vampire 1 .buff_ids "VV_chalice_disease" .disease VV_quirk_1 .bark become_darkbrood_bark  .heal_percent 0.25 .stress 15 .duration 1 .steal_buff_source_type bsrc_deathsdoor_recovery 
+effect: .name "vv_chalice" .target "performer" .item 1  .chance 200%  .disease VV_quirk_1 .use_item_type estate .use_item_id "vv_chalice_dummy" .heal_percent 0.25 .stress 15 .steal_buff_source_type bsrc_deathsdoor_recovery .queue true .initiative_change -1 
+effect: .name "vv_chalice_dummy" .target "performer" .item 1  .chance 200%  .remove_vampire 1 .buff_ids "VV_chalice_disease" .bark become_darkbrood_bark .queue false .duration 1
+
+// Chalice used on Spawn
+effect: .name "VV_chalice_rage_L"		.target "performer" .item 1 .duration 1  .chance 100% .bark VV_Scar_chalice_bark .stress 5
+effect: .name "VV_chalice_rage_1"		.target "performer" .item 1 .duration 13 .chance 100% .combat_stat_buff 1 .speed_rating_add 1 .damage_low_multiply 10% .damage_high_multiply 10% .heal_percent 0.35 .healstress 10	.steal_buff_source_type bsrc_deathsdoor_recovery 	.bark VV_chalice_rage_bark_1 .queue true .initiative_change -1
+effect: .name "VV_chalice_rage_2" 		.target "performer" .item 1 .duration 13 .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .damage_low_multiply 10% .damage_high_multiply 10% .heal_percent 0.5  .healstress 20	.steal_buff_source_type bsrc_deathsdoor_recovery	.bark VV_chalice_rage_bark_2 .queue true .initiative_change -1
+effect: .name "VV_chalice_rage_3" 		.target "performer" .item 1 .duration 13 .chance 100% .combat_stat_buff 1 .speed_rating_add 5 .damage_low_multiply 15  .damage_high_multiply 15% .heal_percent 0.75 .healstress 30  .steal_buff_source_type bsrc_deathsdoor_recovery	.bark VV_chalice_rage_bark_3 .queue true .initiative_change -1
+
+// Holy Water used on Darkspawn
+effect: .name "VV_holy_water_cleansing" .target "performer" .item 1 .duration 30 .chance 100% .stress 20 .buff_ids "HOLYWATER_QuirkEvolution_light_to_0"   .bark VV_holywater_cleansing_bark_0 .queue true
+effect: .name "VV_holy_water_rage_1" 	.target "performer" .item 1 .duration 10 .chance 100% .stress 30  .dotStress 1 .dotPoison 1 .buff_ids SPD-5 BLIGHTRESIST-40  .bark VV_holywater_cleansing_bark_1 .queue true
+effect: .name "VV_holy_water_rage_2" 	.target "performer" .item 1 .duration 10 .chance 100% .stress 12  .dotStress 2 .dotPoison 2 .buff_ids SPD-5 BLIGHTRESIST-40  .bark VV_holywater_cleansing_bark_2 .queue true
+effect: .name "VV_holy_water_rage_3" 	.target "performer" .item 1 .duration 10 .chance 100% .stress 20  .dotStress 3 .dotPoison 3 .buff_ids SPD-5 BLIGHTRESIST-40   .bark VV_holywater_cleansing_bark_3 .queue true 
+
+// Holy Water used on Darkspawn
+effect: .name "VV_torch_rage_L" 		.target "performer" .torch_increase 25 .item 1 .duration 2 .chance 100% .healstress 05  .queue true .bark VV_torch_quirk_bark_cleansing 
+effect: .name "VV_torch_rage_1" 		.target "performer" .torch_increase 20 .item 1 .duration 2 .chance 100% .stress 05  	.queue true .bark VV_torch_quirk_bark_1 
+effect: .name "VV_torch_rage_2" 		.target "performer" .torch_increase 15 .item 1 .duration 2 .chance 100% .stress 10  	.queue true .bark VV_torch_quirk_bark_2
+effect: .name "VV_torch_rage_3" 		.target "performer" .torch_increase 10 .item 1 .duration 2 .chance 100% .stress 15  	.queue true .bark VV_torch_quirk_bark_3
+
+// The Blood used on Darkspawn
+effect: .name "VV_blood_rage_1" 		.target "performer"  .item 1 .buff_duration_type "quest_end" .duration 1 .chance 100% .stress 5   .buff_ids THEBLOOD_QuirkEvolution_1_to_2 .queue true .bark VV_DS_BLOOD_bark
+effect: .name "VV_blood_rage_2" 		.target "performer"  .item 1 .duration 10 .chance 100% .stress 10  .buff_ids THEBLOOD_QuirkEvolution_Rage_to_2 .queue true 
+effect: .name "VV_blood_rage_3" 		.target "performer"  .item 1 .duration 10 .chance 100% .stress 15  .buff_ids THEBLOOD_QuirkEvolution_Rage_to_2 .queue true .bark VV_FR_BLOOD_bark
+
+// Antivenom/ Laudanum on Cleansing
+effect: .name "VV_laudanum_cleansing" 	.target "performer" .item 1 .duration 1 .chance 100% .heal_percent 25   .bark VV_holywater_cleansing_bark_antivenom .queue true
+effect: .name "VV_antivenom_cleansing" 	.target "performer" .item 1  .duration 1 .chance 100% .healstress 25    .bark VV_holywater_cleansing_bark_laudanum .queue true
+
+
+#####################################################################################################################################################################################################################################################################################################################################################################
+TESING // UNUSED EFFECTS
+#####################################################################################################################################################################################################################################################################################################################################################################
+
+

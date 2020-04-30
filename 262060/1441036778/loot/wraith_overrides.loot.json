@@ -1,0 +1,17 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "wraith_soul_collect",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 30, "data" : { }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "wraith_soul_torment", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "supply", "id" : "wraith_soul_placid", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "wraith_soul_ambi", "amount" : 1 }}
+         ]
+      }
+   ]
+}

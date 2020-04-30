@@ -1,0 +1,34 @@
+{
+   "entries":
+   [
+		{
+         "id" : "sunward_resc",
+         "buffs" : 
+         [
+			"RESC_trinket_si_healing_rec",
+			"RESC_trinket_si_stress_rec",
+			"RESC_trinket_si_resist_stun",
+			"RESC_trinket_si_resist_move",
+			"RESC_trinket_si_resist_poison",
+			"RESC_trinket_si_resist_bleed",
+			"RESC_trinket_si_resist_disease",
+			"RESC_trinket_si_resist_debuff",
+			"RESC_trinket_si_resist_death",
+			"RESC_quirk_tooltip_22",
+			"RESC_quirk_tooltip_20"
+         ],
+         "hero_class_requirements":
+         [
+		 "rescuer"
+         ],
+         "rarity" : "sakura",
+		 "price" : 8000,
+         "limit" : 1,
+         "origin_dungeon" : "ship",
+		  "kill_performer_additional_effects":
+         [
+		 "RESC_trinket_heal_one"
+         ]
+      }
+   ]
+}

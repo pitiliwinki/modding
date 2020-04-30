@@ -1,0 +1,184 @@
+{
+   "entries":
+   [
+      
+      {
+         "id" : "driver_kerchief",
+         "buffs" : 
+         [
+			"driver_kerchief_stress",
+			"driver_kerchief_speed"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 3,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "driver_spike",
+         "buffs" : 
+         [
+			"driver_spike_acc",
+			"driver_spike_crit"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "driver_detonator",
+         "buffs" : 
+         [
+			"driver_detonator_dmg_l",
+			"driver_detonator_dmg_h",
+			"driver_trinket_stress",
+			"driver_detonator_stun"
+			
+			
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "driver_dynamite",
+         "buffs" : 
+         [
+			"driver_dynamite_dmg_l",
+			"driver_dynamite_dmg_h",
+			"driver_dynamite_acc",
+			"driver_dynamite_prot"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+	   {
+         "id" : "driver_store_coin",
+         "buffs" : 
+         [
+			"driver_coin_shard",
+			"driver_coin_healing"
+			
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "driver_picture",
+         "buffs" : 
+         [
+			"driver_trinket_stress_2"
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "crimson_court",
+         "price" : 50000,
+		 "set_id": "cc_steel_driver",
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+        [
+          "SD Picture Buff"
+        ]
+
+      },
+	  {
+         "id" : "driver_broken_hammer",
+         "buffs" : 
+         [
+			"driver_hammer_dmg_l",
+			"driver_hammer_dmg_h",
+			"driver_hammer_crit_1",
+			"driver_hammer_crit_2",
+			"driver_trinket_stress_2"
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "crimson_court",
+         "price" : 50000,
+		 "set_id": "cc_steel_driver",
+         "limit" : 1,
+         "origin_dungeon" : ""
+
+      },
+	  {
+         "id" : "driver_heart",
+         "buffs" : 
+         [
+			"driver_com_dmg_rec",
+			"driver_com_dmg_rec_2",
+			"driver_com_tooltip_1",
+			"driver_com_tooltip_2",
+			"driver_com_stress_1",
+			"driver_com_stress_2",
+			"driver_com_stress_3",
+			"driver_com_db"
+         ],
+         "hero_class_requirements":
+         [
+            "steel_driver"
+         ],
+         "rarity" : "comet",
+         "shard" : 120,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+        [
+          "SD Heart Stressheal"
+        ]
+
+      },
+	  {
+			"id" : "otsuchi_sd",
+			"buffs" : 
+			[
+				"driver_otsuchi_melee_l",
+				"driver_otsuchi_melee_h",
+				"driver_otsuchi_stunchance",
+				"driver_otsuchi_attack"
+			],
+			"hero_class_requirements":
+			[
+			"steel_driver"
+			],
+			"rarity" : "sakura",
+			"price" : 30000,
+			"limit" : 1,
+			"origin_dungeon" : "ship"
+		}
+     
+   ]
+}

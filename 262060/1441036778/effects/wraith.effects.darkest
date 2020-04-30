@@ -1,0 +1,170 @@
+// Wraith Effects
+
+// Artificial Cooldown For EVI/HARVEST
+effect: .name "WRAITH_MARK_SELF" .target "performer" .curio_result_type "positive" .chance 100% .tag 1 .combat_stat_buff 1 .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_DISABLE_MARK_SKILLS" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "WRAITH_DISABLE_TAG" .duration 3 .on_hit true .on_miss false .queue true .apply_once true
+
+// Reaping Evisceration Amplification For Multiple Skills
+effect: .name "WRAITH_EVI_BLEED_AMOUNT_BUFF_1" .target "performer" .chance 100% .buff_ids "EVI_BLEED_AMOUNT_1" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_BLEED_AMOUNT_BUFF_2" .target "performer" .chance 100% .buff_ids "EVI_BLEED_AMOUNT_2" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_BLEED_AMOUNT_BUFF_3" .target "performer" .chance 100% .buff_ids "EVI_BLEED_AMOUNT_3" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_BLEED_AMOUNT_BUFF_4" .target "performer" .chance 100% .buff_ids "EVI_BLEED_AMOUNT_4" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_BLEED_AMOUNT_BUFF_5" .target "performer" .chance 100% .buff_ids "EVI_BLEED_AMOUNT_5" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_1" .target "performer" .chance 100% .buff_ids "EVI_RIPOSTE_BLEED_AMOUNT_1" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_2" .target "performer" .chance 100% .buff_ids "EVI_RIPOSTE_BLEED_AMOUNT_2" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_3" .target "performer" .chance 100% .buff_ids "EVI_RIPOSTE_BLEED_AMOUNT_3" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_4" .target "performer" .chance 100% .buff_ids "EVI_RIPOSTE_BLEED_AMOUNT_4" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_5" .target "performer" .chance 100% .buff_ids "EVI_RIPOSTE_BLEED_AMOUNT_5" .on_hit true .on_miss false .queue true .apply_once true
+
+
+// PHANTOM STRIKE
+effect: .name "WRAITH_PHANTOMSTRIKE_POSBUFF_1" .target "performer" .chance 100% .buff_ids "PHANTOMSTRIKE_DEF_1" "PHANTOMSTRIKE_ACC_1" "PHANTOMSTRIKE_CRIT_1" "PHANTOMSTRIKE_DMGH_1" "PHANTOMSTRIKE_DMGL_1" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_PHANTOMSTRIKE_POSBUFF_2" .target "performer" .chance 100% .buff_ids "PHANTOMSTRIKE_DEF_2" "PHANTOMSTRIKE_ACC_2" "PHANTOMSTRIKE_CRIT_2" "PHANTOMSTRIKE_DMGH_2" "PHANTOMSTRIKE_DMGL_2" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_PHANTOMSTRIKE_POSBUFF_3" .target "performer" .chance 100% .buff_ids "PHANTOMSTRIKE_DEF_3" "PHANTOMSTRIKE_ACC_3" "PHANTOMSTRIKE_CRIT_3" "PHANTOMSTRIKE_DMGH_3" "PHANTOMSTRIKE_DMGL_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_PHANTOMSTRIKE_POSBUFF_4" .target "performer" .chance 100% .buff_ids "PHANTOMSTRIKE_DEF_4" "PHANTOMSTRIKE_ACC_4" "PHANTOMSTRIKE_CRIT_4" "PHANTOMSTRIKE_DMGH_4" "PHANTOMSTRIKE_DMGL_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_PHANTOMSTRIKE_POSBUFF_5" .target "performer" .chance 100% .buff_ids "PHANTOMSTRIKE_DEF_5" "PHANTOMSTRIKE_ACC_5" "PHANTOMSTRIKE_CRIT_5" "PHANTOMSTRIKE_DMGH_5" "PHANTOMSTRIKE_DMGL_5" .duration 3 .on_hit true .on_miss false .queue true
+
+// Phantom Strike Quest Dmg Rcv Building
+effect: .name "WRAITH_QUEST_DMGRCV_DBF_BUILD_1" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_BLIGHT_AMOUNT_1" "WRAITH_PHANTOM_DMGRCV_BUILD" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_QUEST_DMGRCV_DBF_BUILD_2" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_BLIGHT_AMOUNT_2" "WRAITH_PHANTOM_DMGRCV_BUILD" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_QUEST_DMGRCV_DBF_BUILD_3" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_BLIGHT_AMOUNT_3" "WRAITH_PHANTOM_DMGRCV_BUILD" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_QUEST_DMGRCV_DBF_BUILD_4" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_BLIGHT_AMOUNT_4" "WRAITH_PHANTOM_DMGRCV_BUILD" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_QUEST_DMGRCV_DBF_BUILD_5" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_BLIGHT_AMOUNT_5" "WRAITH_PHANTOM_DMGRCV_BUILD" .on_hit true .on_miss false .queue true
+
+
+// REAPING EVISCERATION
+effect: .name "WRAITH_EVI_BASE_BLEED_1" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_EVI_BASE_BLEED_2" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_EVI_BASE_BLEED_3" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_EVI_BASE_BLEED_4" .target "target" .curio_result_type "negative" .chance 150%  .dotBleed 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_EVI_BASE_BLEED_5" .target "target" .curio_result_type "negative" .chance 160%  .dotBleed 1 .duration 1	.on_hit true .on_miss false .queue true .can_apply_on_death true
+
+effect: .name "WRAITH_EVI_DEBUFF_1" .target "target" .chance 120% .buff_ids "WRAITH_EVI_DMGRCV_DEBUFF_1" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_EVI_DEBUFF_2" .target "target" .chance 130% .buff_ids "WRAITH_EVI_DMGRCV_DEBUFF_2" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_EVI_DEBUFF_3" .target "target" .chance 140% .buff_ids "WRAITH_EVI_DMGRCV_DEBUFF_3" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_EVI_DEBUFF_4" .target "target" .chance 150% .buff_ids "WRAITH_EVI_DMGRCV_DEBUFF_4" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_EVI_DEBUFF_5" .target "target" .chance 160% .buff_ids "WRAITH_EVI_DMGRCV_DEBUFF_5" .on_hit true .on_miss false .queue true
+
+// Reaping Evisceration Quest Damage Building And Reflect
+effect: .name "WRAITH_EVI_QUEST_DMG_BUFF" .target "performer" .chance 100% .buff_ids "WRAITH_EVI_DMGH_BUILD" "WRAITH_EVI_DMGL_BUILD" .on_hit true .on_miss false .queue true
+
+
+// SINISTER FLURRY
+// Sinister Flurry Buff With Reflect And Bleed Building
+effect: .name "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_1" .target "performer" .chance 100% .buff_ids "WRAITH_SINFLU_RIPOSTE_DMGH_1" "WRAITH_SINFLU_RIPOSTE_DMGL_1" "WRAITH_SINFLU_FLURRY_DMGH_1" "WRAITH_SINFLU_FLURRY_DMGL_1" EVI_BLEED_AMOUNT_1 "WRAITH_SINFLU_REFL_BUILD" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_2" .target "performer" .chance 100% .buff_ids "WRAITH_SINFLU_RIPOSTE_DMGH_2" "WRAITH_SINFLU_RIPOSTE_DMGL_2" "WRAITH_SINFLU_FLURRY_DMGH_2" "WRAITH_SINFLU_FLURRY_DMGL_2" EVI_BLEED_AMOUNT_2 "WRAITH_SINFLU_REFL_BUILD" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_3" .target "performer" .chance 100% .buff_ids "WRAITH_SINFLU_RIPOSTE_DMGH_3" "WRAITH_SINFLU_RIPOSTE_DMGL_3" "WRAITH_SINFLU_FLURRY_DMGH_3" "WRAITH_SINFLU_FLURRY_DMGL_3" EVI_BLEED_AMOUNT_3 "WRAITH_SINFLU_REFL_BUILD" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_4" .target "performer" .chance 100% .buff_ids "WRAITH_SINFLU_RIPOSTE_DMGH_4" "WRAITH_SINFLU_RIPOSTE_DMGL_4" "WRAITH_SINFLU_FLURRY_DMGH_4" "WRAITH_SINFLU_FLURRY_DMGL_4" EVI_BLEED_AMOUNT_4 "WRAITH_SINFLU_REFL_BUILD" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_5" .target "performer" .chance 100% .buff_ids "WRAITH_SINFLU_RIPOSTE_DMGH_5" "WRAITH_SINFLU_RIPOSTE_DMGL_5" "WRAITH_SINFLU_FLURRY_DMGH_5" "WRAITH_SINFLU_FLURRY_DMGL_5" EVI_BLEED_AMOUNT_5 "WRAITH_SINFLU_REFL_BUILD" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "WRAITH_SINFLU_BLEEDKILL_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "WRAITH_SINFLU_BLEEDKILL_2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "WRAITH_SINFLU_BLEEDKILL_3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "WRAITH_SINFLU_BLEEDKILL_4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "WRAITH_SINFLU_BLEEDKILL_5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+
+// Sinister Flurry Riposte
+effect: .name "WRAITH_SFLURRY_RIPOSTE_1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .riposte_effect "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_1" "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_1" .apply_once true
+effect: .name "WRAITH_SFLURRY_RIPOSTE_2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .riposte_effect "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_2" "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_2" .apply_once true
+effect: .name "WRAITH_SFLURRY_RIPOSTE_3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .riposte_effect "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_3" "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_3" .apply_once true
+effect: .name "WRAITH_SFLURRY_RIPOSTE_4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .riposte_effect "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_4" "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_4" .apply_once true
+effect: .name "WRAITH_SFLURRY_RIPOSTE_5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3  .on_hit true .on_miss true .riposte_effect "WRAITH_SINFLU_BUFF_AND_REFLQACC_BUILD_5" "WRAITH_EVI_RIPOSTE_BLEED_AMOUNT_BUFF_5" .apply_once true
+
+
+// DEVIOUS AMBUSH
+effect: .name "WRAITH_DEV_PUSH_1" .target "target"  .push 2   .chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_DEV_PUSH_2" .target "target"  .push 2	  .chance 110%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_DEV_PUSH_3" .target "target"  .push 2   .chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_DEV_PUSH_4" .target "target"  .push 2   .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_DEV_PUSH_5" .target "target"  .push 2   .chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "WRAITH_DEVSTUN" .target "target" .curio_result_type "negative" .chance 0% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "WRAITH_DEV_STUNKILL_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 15% .damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_STUNKILL_2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 20% .damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_STUNKILL_3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 25% .damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_STUNKILL_4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 30% .damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_STUNKILL_5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "stunned"	.combat_stat_buff 1	.damage_low_multiply 35% .damage_high_multiply 35%	.on_hit true .on_miss false
+
+effect: .name "WRAITH_DEV_BLIGHTKILL_1"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 15%	.damage_high_multiply 15%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_BLIGHTKILL_2"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 20%	.damage_high_multiply 20%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_BLIGHTKILL_3"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 25%	.damage_high_multiply 25%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_BLIGHTKILL_4"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "WRAITH_DEV_BLIGHTKILL_5"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "poisoned"	.combat_stat_buff 1 .damage_low_multiply 35%	.damage_high_multiply 35%	.on_hit true .on_miss false
+
+// Devious Ambush Crit Building
+effect: .name "WRAITH_DEV_QUEST_CRIT_BUFF" .target "performer" .chance 100% .buff_ids "WRAITH_DEV_CRIT_BUILD" .on_hit true .on_miss false .queue true
+
+
+// SOUL HARVEST
+effect: .name "WRAITH_HARVEST_DEBUFF_1" .target "target" .chance 120% .buff_ids "WRAITH_HARVEST_MAXHP_DEBUFF_1" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_HARVEST_DEBUFF_2" .target "target" .chance 130% .buff_ids "WRAITH_HARVEST_MAXHP_DEBUFF_2" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_HARVEST_DEBUFF_3" .target "target" .chance 140% .buff_ids "WRAITH_HARVEST_MAXHP_DEBUFF_3" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_HARVEST_DEBUFF_4" .target "target" .chance 150% .buff_ids "WRAITH_HARVEST_MAXHP_DEBUFF_4" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_HARVEST_DEBUFF_5" .target "target" .chance 160% .buff_ids "WRAITH_HARVEST_MAXHP_DEBUFF_5" .on_hit true .on_miss false .queue true
+
+effect: .name "WRAITH_HARVEST_INITSUB" .target "target" .initiative_change -5 .apply_once true .on_hit true .on_miss true .queue true .has_description false
+effect: .name "WRAITH_HARVEST_INIT_TOOLTIP" .target "performer" .chance 100% .skill_instant true .buff_ids "WRAITH_INIT_TOOLTIP" .on_hit true .on_miss false .apply_once true
+
+effect: .name "WRAITH_HARVEST_BLIGHT_1" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_HARVEST_BLIGHT_2" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_HARVEST_BLIGHT_3" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_HARVEST_BLIGHT_4" .target "target" .curio_result_type "negative" .chance 150%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true .can_apply_on_death true
+effect: .name "WRAITH_HARVEST_BLIGHT_5" .target "target" .curio_result_type "negative" .chance 160%  .dotPoison 1 .duration 3 .on_hit true .on_miss false .queue true .can_apply_on_death true
+
+// Soul Harvest Quest Maximum Health Building
+effect: .name "WRAITH_HARVEST_QUEST_MAXHP_BUFF" .target "performer" .chance 100% .buff_ids "WRAITH_HARVEST_MAXHPBUILD" .on_hit true .on_miss false .queue true
+
+
+// SCATTERING DREAD
+effect: .name "WRAITH_SCATDREAD_SHUFFLE_1" .target "target" .chance 100% .unstealth 1 .dotShuffle 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_SCATDREAD_SHUFFLE_2" .target "target" .chance 110% .unstealth 1 .dotShuffle 1 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_SCATDREAD_SHUFFLE_3" .target "target" .chance 120% .unstealth 1 .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_SCATDREAD_SHUFFLE_4" .target "target" .chance 130% .unstealth 1 .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "WRAITH_SCATDREAD_SHUFFLE_5" .target "target" .chance 140% .unstealth 1 .dotShuffle 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "WRAITH_SCATDREAD_DEBUFF_1" .target "target" .chance 100% .buff_ids "WRAITH_SCATDREAD_ACC_DEBUFF_1" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SCATDREAD_DEBUFF_2" .target "target" .chance 110% .buff_ids "WRAITH_SCATDREAD_ACC_DEBUFF_2" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SCATDREAD_DEBUFF_3" .target "target" .chance 120% .buff_ids "WRAITH_SCATDREAD_ACC_DEBUFF_3" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SCATDREAD_DEBUFF_4" .target "target" .chance 130% .buff_ids "WRAITH_SCATDREAD_ACC_DEBUFF_4" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SCATDREAD_DEBUFF_5" .target "target" .chance 140% .buff_ids "WRAITH_SCATDREAD_ACC_DEBUFF_5" .duration 4 .on_hit true .on_miss false .queue true
+
+// Scattering Dread Quest Dodge Building
+effect: .name "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_1" .target "performer" .chance 100% .buff_ids "WRAITH_SCATDREAD_SPD_BUFF_1" "WRAITH_HARVEST_BLIGHT_AMOUNT_1" "WRAITH_SCATDREAD_ACC_BUILD" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_2" .target "performer" .chance 100% .buff_ids "WRAITH_SCATDREAD_SPD_BUFF_2" "WRAITH_HARVEST_BLIGHT_AMOUNT_2" "WRAITH_SCATDREAD_ACC_BUILD" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_3" .target "performer" .chance 100% .buff_ids "WRAITH_SCATDREAD_SPD_BUFF_3" "WRAITH_HARVEST_BLIGHT_AMOUNT_3" "WRAITH_SCATDREAD_ACC_BUILD" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_4" .target "performer" .chance 100% .buff_ids "WRAITH_SCATDREAD_SPD_BUFF_4" "WRAITH_HARVEST_BLIGHT_AMOUNT_4" "WRAITH_SCATDREAD_ACC_BUILD" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "WRAITH_SCATDREAD_QUEST_DBF_ACC_BUFF_5" .target "performer" .chance 100% .buff_ids "WRAITH_SCATDREAD_SPD_BUFF_5" "WRAITH_HARVEST_BLIGHT_AMOUNT_5" "WRAITH_SCATDREAD_ACC_BUILD" .on_hit true .on_miss false .apply_once true .queue true
+
+
+// GRIM SHADE
+effect: .name "WRAITH_GRIM_STEALTH" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+
+effect: .name "WRAITH_GRIMSHADE_BUFFS_1" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DMGH_1" "WRAITH_GRIMSHADE_DMGL_1" "WRAITH_GRIMSHADE_CRIT_1" "GRIMSHADE_PROTPEN_1" "DEV_STUNSKILLCHANCE_1" "WRAITH_HARVEST_BLIGHT_AMOUNT_1" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_GRIMSHADE_BUFFS_2" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DMGH_2" "WRAITH_GRIMSHADE_DMGL_2" "WRAITH_GRIMSHADE_CRIT_2" "GRIMSHADE_PROTPEN_2" "DEV_STUNSKILLCHANCE_2" "WRAITH_HARVEST_BLIGHT_AMOUNT_2" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_GRIMSHADE_BUFFS_3" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DMGH_3" "WRAITH_GRIMSHADE_DMGL_3" "WRAITH_GRIMSHADE_CRIT_3" "GRIMSHADE_PROTPEN_3" "DEV_STUNSKILLCHANCE_3" "WRAITH_HARVEST_BLIGHT_AMOUNT_3" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_GRIMSHADE_BUFFS_4" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DMGH_4" "WRAITH_GRIMSHADE_DMGL_4" "WRAITH_GRIMSHADE_CRIT_4" "GRIMSHADE_PROTPEN_4" "DEV_STUNSKILLCHANCE_4" "WRAITH_HARVEST_BLIGHT_AMOUNT_4" .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "WRAITH_GRIMSHADE_BUFFS_5" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DMGH_5" "WRAITH_GRIMSHADE_DMGL_5" "WRAITH_GRIMSHADE_CRIT_5" "GRIMSHADE_PROTPEN_5" "DEV_STUNSKILLCHANCE_5" "WRAITH_HARVEST_BLIGHT_AMOUNT_5" .on_hit true .on_miss false .queue true .apply_once true
+
+// Grim Shade Quest Dodge Building
+effect: .name "WRAITH_GRIMSHADE_QUEST_DODGE_BUFF" .target "performer" .chance 100% .buff_ids "WRAITH_GRIMSHADE_DODGEBUILD" .on_hit true .on_miss false .queue true
+
+
+// SOUL EFFECTS
+effect: .name "WRAITH_SOUL_TORMENT_1" .target "performer" .item 1 .duration 66 .chance 100% .stress 15 .buff_ids "WRAITH_SOULTORMENT_ARPEN_1" "WRAITH_SOULTORMENT_BLEEDR_1" "WRAITH_SOULTORMENT_BLIGHTR_1" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SOUL_TORMENT_2" .target "performer" .item 1 .duration 66 .chance 100% .stress 10 .buff_ids "WRAITH_SOULTORMENT_ARPEN_2" "WRAITH_SOULTORMENT_BLEEDR_2" "WRAITH_SOULTORMENT_BLIGHTR_2" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SOUL_TORMENT_3" .target "performer" .item 1 .duration 66 .chance 100% .stress 5 .buff_ids "WRAITH_SOULTORMENT_ARPEN_3" "WRAITH_SOULTORMENT_BLEEDR_3" "WRAITH_SOULTORMENT_BLIGHTR_3" .on_hit true .on_miss false .queue true
+
+effect: .name "WRAITH_SOUL_PLACID_1" .target "performer" .item 1 .duration 66 .chance 100% .stress 15 .buff_ids "WRAITH_SOULPLACID_REFLECT_1" "WRAITH_SOULPLACID_STUNR_1" "WRAITH_SOULPLACID_STRESS_RESIST_1" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SOUL_PLACID_2" .target "performer" .item 1 .duration 66 .chance 100% .stress 10 .buff_ids "WRAITH_SOULPLACID_REFLECT_2" "WRAITH_SOULPLACID_STUNR_2" "WRAITH_SOULPLACID_STRESS_RESIST_2" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SOUL_PLACID_3" .target "performer" .item 1 .duration 66 .chance 100% .stress 5 .buff_ids "WRAITH_SOULPLACID_REFLECT_3" "WRAITH_SOULPLACID_STUNR_3" "WRAITH_SOULPLACID_STRESS_RESIST_3" .on_hit true .on_miss false .queue true
+
+effect: .name "WRAITH_SOUL_AMBI_1" .target "performer" .item 1 .duration 66 .chance 100% .stress 15 .buff_ids "WRAITH_SOULAMBI_DMGRCV_1" "WRAITH_SOULAMBI_DISEASE_RESIST_1" "WRAITH_SOULAMBI_DEBUFFR_1" .on_hit true .on_miss false .queue true 
+effect: .name "WRAITH_SOUL_AMBI_2" .target "performer" .item 1 .duration 66 .chance 100% .stress 10 .buff_ids "WRAITH_SOULAMBI_DMGRCV_2" "WRAITH_SOULAMBI_DISEASE_RESIST_2" "WRAITH_SOULAMBI_DEBUFFR_2" .on_hit true .on_miss false .queue true
+effect: .name "WRAITH_SOUL_AMBI_3" .target "performer" .item 1 .duration 66 .chance 100% .stress 5 .buff_ids "WRAITH_SOULAMBI_DMGRCV_3" "WRAITH_SOULAMBI_DISEASE_RESIST_3" "WRAITH_SOULAMBI_DEBUFFR_3" .on_hit true .on_miss false .queue true
+
+
+// WEAPON EFFECTS
+effect: .name "Intangible Effect" .target "performer" .chance 20% .buff_ids "WRAITH_INTANGIBLE_EFFECT" .duration 2 .on_hit true .on_miss false .queue true .apply_once true

@@ -1,0 +1,15 @@
+display: .size 1
+enemy_type: .id "beast"
+enemy_type: .id "unholy"
+enemy_type: .id "talonbrigands"
+stats: .hp 10 .def 20% .prot 0 .spd 9 .stun_resist 10% .poison_resist 80% .bleed_resist 30% .debuff_resist 10% .move_resist 0%
+skill: .id "vile_vomit" .type "ranged" .atk 92.5% .dmg 1 1 .crit 14%  .effect "Blight 1" "Vomit Disease" "Stress 1" .launch 4321 .target 1234 .move 1 0
+skill: .id "corpse_committee" .type "ranged" .atk 102.5% .dmg 0 0 .crit 0%  .effect "Talon Vulture Summon A" .launch 4321 .target .is_crit_valid False
+personality: .prefskill -1
+loot: .code "C" .count 1
+loot: .code "FALC_FEATHER" .count 1
+loot: .code "FALC_TRINKET_RARE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id talon_vulture_A
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
+loot: .raid_finish_quirk_class_id mark_flock

@@ -1,0 +1,2229 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "apostate_condemn_dmg_received_1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_condemn_dmg_received_2",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_condemn_dmg_received_3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_condemn_dmg_received_4",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_condemn_dmg_received_5",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dd_dodge_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dd_dodge_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.18,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dd_dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.21,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dd_dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.23,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dd_dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.25,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_borrowed_time_cooldown",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_apocryphal_texts_cooldown",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "stress",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "apostate_mode"
+         }
+      },
+      {
+         "id" : "apostate_1rd_cooldown_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_1rd_Cooldown_TT",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_last_rites_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Last_Rites_TT_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_last_rites_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Last_Rites_TT_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_last_rites_tooltip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Last_Rites_TT_3",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_last_rites_tooltip_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Last_Rites_TT_4",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_last_rites_tooltip_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Last_Rites_TT_5",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_reduce_healing",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_block_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_unblock_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_pain_blocker",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_pain_unblocker",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_crit_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_crit_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.09,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_crit_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_low_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_high_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_low_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_high_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_low_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.40,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_high_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_low_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.45,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_high_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.45,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_low_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_party_buff_dmg_high_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_acc_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_acc_buff_vs_summon",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "apostate_summon_type"
+         }
+      },
+      {
+         "id" : "apostate_stunchance_debuff",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_poisonchance_debuff",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_buff_resistance",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "corpse"
+         }
+      },
+      {
+         "id" : "apostate_negate_buff_resistance_vs_summon",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "apostate_summon_type"
+         }
+      },
+      {
+         "id" : "apostate_stunchance_buff_from_enemy",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_poisonchance_buff_from_enemy",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_dmg_received",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_crit_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_crit_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.03,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_crit_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_crit_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_crit_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_acc_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_acc_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.06,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_acc_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_acc_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_buff_acc_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_on_crit_crit_protection",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_free_action_tooltip_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_FreeAction",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_all_heroes_tooltip_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_AllHeroes",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_extra_action_tooltip_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_EA",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_destroy_corpse_tooltip_buff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Destroy_Corpse_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_destroy_corpse_tooltip_buff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Destroy_Corpse_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_torch_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Torch_TT",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "aposate_tenebrosity_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.3333,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenebrosity"
+         }
+      },
+      {
+         "id" : "aposate_tenebrosity_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.3333,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenebrosity"
+         }
+      },
+      {
+         "id" : "apostate_suffer_damage_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Suffer_Damage_1",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_suffer_damage_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Suffer_Damage_2",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_suffer_damage_tooltip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Suffer_Damage_3",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_suffer_damage_tooltip_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Suffer_Damage_4",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_suffer_damage_tooltip_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Suffer_Damage_5",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_self_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Self_Buff",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_debuff_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Debuff_1",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_debuff_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Debuff_2",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_debuff_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Debuff_3",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_debuff_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Debuff_4",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_tenebrosity_tooltip_debuff_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Tenebrosity_TT_Debuff_5",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_healing_block_buff",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "heal",
+         "amount" : 1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_incite_healing_reduce_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_camping_sustain_flesh_maxHP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.1,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_camping_sustain_flesh_prot",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_camping_sustain_flesh_prot_extra",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.1,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_camping_stress_received_buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket1_stressH",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket1_acc_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket2_scouting",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket2_party_surprise",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket2_stress_debuff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket3_blight_skill",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket3_blight_amount",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket3_stun_skill",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket3_speed_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket4_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket4_crit_vs_wounded",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket4_dodge_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket5_maxHP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket5_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket5_deathblow_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket5_custom_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_trinket5_custom_tooltip",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_trinket_set_bonus",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_set_bonus_custom_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Set_Bonus_Summon_TT",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_custom_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_CC_Trinket_Text_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_custom_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_CC_Trinket_Text_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_custom_tooltip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_CC_Trinket_Text_3",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_stress_vs_vamps",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_vampire",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_bleed_blocker",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 3.0,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_damagelow",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_cc_trinket_damagehigh",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_reflect",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_dodge_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_damagelow",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.3,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_damagehigh",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.3,
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_custom_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_CoM_Trinket_Text_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_com_trinket_custom_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_CoM_Trinket_Text_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_90",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.9,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_80",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.8,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_70",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.7,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_60",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_40",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_30",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.3,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_20",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.2,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_10",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.1,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_prot_dd",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_90",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.9,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_80",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.8,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_70",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.7,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_60",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.6,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_50",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_40",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.4,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_30",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.3,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_20",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.2,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_10",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.1,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_crit_rec_dd",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_head_trinket_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_custom_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Bishops_Head_Trinket_Text_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_bishops_head_trinket_custom_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Bishops_Head_Trinket_Text_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_dmg_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_dmg_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_move_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 6,
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Dance_Trinket_Text_1",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dance_trinket_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Dance_Trinket_Text_2",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_disable_bleed_skills",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "bleed",
+         "amount" : 20,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false,
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "apostate_disable_blight_skills",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "poison",
+         "amount" : 20,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false,
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "apostate_enable_bleed_skills",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "bleed",
+         "amount" : -30,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "apos_summ"
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_enable_blight_skills",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "poison",
+         "amount" : -30,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "apos_summ"
+         },
+         "has_description": false
+      },
+      {
+         "id" : "town_event_apostate_reduce_healing_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Event_Reduce_Healing",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "town_event_apostate_reduce_healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "town_event_apostate_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.3,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "town_event_apostate_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.3,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "town_event_apostate_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_deathblow_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_dmg_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_dmg_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_reduce_healing",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description": false
+      },
+      {
+         "id" : "apostate_dolores_head_aegis_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Dolores_Head_Trinket_Aegis_Text",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_dolores_head_healing_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Apostate_Dolores_Head_Trinket_Healing_Text",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_DD_pain_blocker",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "apostate_DD_pain_unblocker",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}

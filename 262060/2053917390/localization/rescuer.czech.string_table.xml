@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="czech">
+	<entry id="hero_class_name_rescuer"><![CDATA[Rescuer]]></entry>
+	<!--Original Rescuer Character Design and Art by Selafio. Coding and Sounds by Dem -->
+		
+<!--Extra Names -->
+	<entry id="hero_name_einstein"><![CDATA[Einstein]]></entry>
+	<entry id="hero_name_alina"><![CDATA[Alina]]></entry>
+	<entry id="hero_name_gurutz"><![CDATA[Gurutz]]></entry>
+
+<!--Enemy Type--> 
+	<entry id="enemy_type_name_spider"><![CDATA[Spider]]></entry>
+	<entry id="buff_rule_data_tooltip_spider"><![CDATA[Spider]]></entry>
+		
+<!--First RESC Subtitle -->
+	<entry id="str_vo_bad_recruit_rescuer_0"><![CDATA[Always be on guard, the hazards of life and battle can fell a careless hero.]]></entry>
+
+<!--Dungeon Sunward Isles -->
+	<entry id="buff_rule_data_tooltip_ship"><![CDATA[Sunward Isles]]></entry>
+	<entry id="trinket_rarity_sakura"><![CDATA[Sunward]]></entry>
+
+<!--District RESC Race Track -->
+    <entry id="str_race_track_title"><![CDATA[Racetrack]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_district_tooltip_x"><![CDATA[{colour_start|notable}Herding Tactics:{colour_end} +20%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_district_tooltip2_x"><![CDATA[While exploring {colour_start|pet_cemetery}Pet Cemetery:{colour_end} +20%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	<entry id="str_race_track_buff_curio_buff0"><![CDATA[Scourging curios heal 5 {colour_start|stress}Stress{colour_end}]]></entry>
+	
+<!--HotW Missing String Coral Lantern Trinket -->
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[{colour_start|surprised}Ambush Chance{colour_end}]]></entry>
+	
+<!--Trinket Label -->
+	<entry id="str_inventory_set_title_resc_ale_label"><![CDATA[{colour_start|notable}These field notes can provide assistance{colour_end}]]></entry>
+	
+<!--Missing Effect Strings -->
+	<entry id="effect_tooltip_cure_bleed"><![CDATA[Cure {colour_start|bleed}Bleed{colour_end}]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
+	<entry id="effect_tooltip_cure_poison"><![CDATA[Cure {colour_start|blight}Blight{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_disease_treatment"><![CDATA[Treatment Ward]]></entry>
+	<entry id="buff_rule_data_tooltip_treatment"><![CDATA[Medical Ward]]></entry>
+	
+<!--Missing Bleed Duration Received String -->
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration Received]]></entry>
+	
+<!--Missing Cure Bleed and poison Chance String -->
+	<entry id="buff_stat_tooltip_cure_bleed_chance"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Cure Chance]]></entry>
+	<entry id="buff_stat_tooltip_cure_blight_chance"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Cure Chance]]></entry>
+	<entry id="buff_stat_tooltip_cure_poison_chance"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Cure Chance]]></entry>
+	
+<!--Missing Blight Resist String -->
+	<entry id="buff_stat_tooltip_resistance_poison"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} Resist]]></entry>
+	
+<!--Missing Death Resist String -->
+	<entry id="buff_stat_tooltip_resistance_death"><![CDATA[%+d%% {colour_start|stress}Death Blow{colour_end} Resist]]></entry>
+	
+<!--Custom Virtue Protectorate-->
+    <entry id="str_virtue_name_protectorateb"><![CDATA[Protectorate]]></entry>
+	<entry id="str_virtued_protectorateb"><![CDATA[As a team, we will conquer!]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[I shall protect us!]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[Discipline and strength!]]></entry>
+    <entry id="rescuer+str_virtued_protectorateb"><![CDATA[Invicta!]]></entry>
+	
+	<entry id="str_stress_heal_party_protectorateb"><![CDATA[Work together!]]></entry>
+	<entry id="str_buff_party_protectorateb"><![CDATA[Stand close together, we'll be protected!]]></entry>
+	<entry id="str_heal_self_protectorateb"><![CDATA[Let me catch my breath!]]></entry>
+	<entry id="rescuer+str_heal_self_protectorateb"><![CDATA[I shall drink from the mysterious liquid!]]></entry>
+	
+<!--Custom Virtue Medical-->
+    <entry id="str_virtue_name_medical"><![CDATA[Humanitarian]]></entry>
+	<entry id="str_virtued_medical"><![CDATA[Together as a team!]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[My medical training will aid us!]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[I can keep us alive!]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[I will tend your wounds!]]></entry>
+    <entry id="rescuer+str_virtued_medical"><![CDATA[A Doctor can help!]]></entry>
+	<entry id="rescuer+str_virtued_medical"><![CDATA[I am a Rescuer!]]></entry>
+	
+	<entry id="str_stress_heal_party_medical"><![CDATA[Laughing gas will help!]]></entry>
+	<entry id="str_stress_heal_party_medical"><![CDATA[Just relax a bit!]]></entry>
+	<entry id="str_stress_heal_self_medical"><![CDATA[I know I can do it!]]></entry>
+	<entry id="str_stress_heal_self_medical"><![CDATA[Now pay attention!]]></entry>
+	<entry id="str_buff_random_party_member_medical"><![CDATA[This will enhance you!]]></entry>
+	<entry id="str_buff_random_party_member_medical"><![CDATA[You will benefit!!]]></entry>
+	<entry id="str_heal_self_medical"><![CDATA[I need to protect the group!]]></entry>
+	<entry id="str_heal_self_medical"><![CDATA[Hounds, get ready for action!]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[We won't die so easily]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[We'll fight to the end!]]></entry>
+	<entry id="str_buff_party_medical"><![CDATA[Together a team!]]></entry>
+	
+<!--Town Descriptions -->
+	<entry id="action_verbose_body_blacksmith_rescuer"><![CDATA[The Rescuer wears a thick winter coat made of Pyrenean wool. The coat has been passed down through generations of Rescuers. As a symbolic gesture to the healing arts, the coat is continually repaired and restored, never replaced. His crook is made of a single straight and elastic tree branch which serves as an extension of his arm. If the Rescuer finds himself cornered, he can use his weapon to push enemies away.]]></entry>
+	<entry id="action_verbose_body_guild_rescuer"><![CDATA[Growing up in the Monks of St. Bernard Hospice, the Rescuer had a privileged education. The Monks taught him how to recognize the healing properties of plants and minerals, and secrets of the shepherd. Later, in university, he sharpened his medical knowledge with the latest discoveries in pharmacology, where he learned how to synthesize laughing gas, and administer it safely. For his reputation and expertise he was granted the title 'Médecin-Chef'.]]></entry>
+	<entry id="action_verbose_body_camping_trainer_rescuer"><![CDATA[Trained in herbal and traditional medicine, the Rescuer can turn plants into powerful healing medicine. His knowledge of shepherding helps him maintain the body and spirits of his four-legged companions. At camp, he can focus on studying, looking for Herbs, or teaching combat techniques. When needed, the Rescuer will sacrifice sleep and stamina to ensure the recovery of his party. The Hounds, who help him survive in the wild, can serve as watch guards or help energize the team. ]]></entry>
+		
+<!--Town Event: RESC -->
+    <entry id="town_event_title_first_rescuer"><![CDATA[Rejoice for the Rescuer ...]]></entry>
+    <entry id="town_event_description_first_rescuer"><![CDATA[With the arrival of spring, the snow melts, and the alpine pass clears. A sturdy man accompanied by two friendly dogs descends from the mountain with three villagers thought to be dead! The Hamlet celebrates!]]></entry>
+	
+<!--CUSTOM TOOL TIPS -->
+	<!--Bleed Chance tip -->
+		<entry id="buff_stat_tooltip_bleed_chance"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Chance]]></entry>
+	<!--Virtue Chance -->
+		<entry id="buff_stat_tooltip_resolve_check_percent"><![CDATA[%+d%% {colour_start|virtue}Virtue{colour_end} Chance]]></entry>
+		
+	<!--Stun Chance tip -->
+		<entry id="buff_stat_tooltip_stun_chance"><![CDATA[%+d%% {colour_start|stun}Stun{colour_end} Chance]]></entry>
+		
+	<!--Bleed Amount tip -->
+		<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+		
+	<!--RESC Party Restrictions-->
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[There will be too many pups!]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[The pack will become too unruly!]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[Sorry, that isn't going work!]]></entry>
+	<entry id="str_incompatible_party_member_rescuer_restriction"><![CDATA[He's the worst! I'm a much better doctor! No, thank you.]]></entry>
+
+	<entry id="rescuer+str_incompatible_party_succubus_restriction"><![CDATA[Sorry, that Priestess makes the dogs uncomfortable.]]></entry>
+	<entry id="rescuer+str_incompatible_party_succubus_restriction"><![CDATA[Her energy seems dark. I won't travel with that Priestess.]]></entry>
+	<entry id="rescuer+str_incompatible_party_member_succubus_restriction"><![CDATA[We won't travel with her!]]></entry>
+	<entry id="succubus+str_incompatible_party_member_succubus_restriction"><![CDATA[Those hounds hate me!]]></entry>
+	<entry id="str_incompatible_party_member_succubus_restriction"><![CDATA[We are not a good match!]]></entry>
+	
+<!--SKILL ToolTip Motivate Custom -->
+	<entry id="effect_refresh_skill_uses"><![CDATA[{colour_start|notable}Refresh{colour_end} "Uses Per Battle" Skill Limits]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_motivate_tooltip_1_buff_x"><![CDATA[{colour_start|resc_blue}{colour_start|notable}Refresh{colour_end} hypnosis can't target self{colour_end}]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_RESC_motivate_tooltip_2_buff_x"><![CDATA[{colour_start|resc_blue}Enhanced {colour_start|healhp}Healing{colour_end} & {colour_start|stress}Stress{colour_end} Skills Next Turn Only{colour_end}]]></entry>
+	
+<!--SKILL ToolTip Oxide -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_oxide_tooltip_1_buff_x"><![CDATA[{colour_start|resc_blue}Laughing Gas can relax the group,{colour_end} ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_oxide_tooltip_1B_buff_x"><![CDATA[{colour_start|resc_blue}but risks {colour_start|stun}Self Stun{colour_end} dizziness{colour_end} ]]></entry>
+	
+<!--SKILL ToolTip Herding Bleed Custom -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_A_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|bleed}Bleed{colour_end} {colour_start|neutral}(100%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_B_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|bleed}Bleed{colour_end} {colour_start|neutral}(110%% base){colour_end} 2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_C_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|bleed}Bleed{colour_end} {colour_start|neutral}(120%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_D_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|bleed}Bleed{colour_end} {colour_start|neutral}(130%% base){colour_end} 3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_E_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|bleed}Bleed{colour_end} {colour_start|neutral}(140%% base){colour_end} 4 pts/rd for 2 rds]]></entry>
+	
+<!--SKILL ToolTip Herding Spider Custom -->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_A2_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|spider_blue}Spider Hunter:{colour_end} Double DMG vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_B2_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|spider_blue}Spider Hunter:{colour_end} Double DMG vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_C2_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|spider_blue}Spider Hunter:{colour_end} Double DMG vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_D2_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|spider_blue}Spider Hunter:{colour_end} Double DMG vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_herding_tooltip_E2_buff_x"><![CDATA[{colour_start|riposte}Riposte:{colour_end} {colour_start|spider_blue}Spider Hunter:{colour_end} Double DMG vs. {colour_start|spider_blue}Spiders{colour_end}]]></entry>
+	
+<!--Skills Rule Strings -->
+	<entry id="buff_rule_data_tooltip_firstaid"><![CDATA[{colour_start|notable}First Aid{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_nitrous"><![CDATA[{colour_start|notable}Nitrous Oxide{colour_end}]]></entry>
+
+<!--Skills -->
+	<entry id="combat_skill_name_rescuer_firstaid"><![CDATA[First Aid]]></entry>
+	<entry id="combat_skill_name_rescuer_tonic_mix"><![CDATA[Tonic Mix]]></entry>
+	<entry id="combat_skill_name_rescuer_nitrous_oxide"><![CDATA[Nitrous Oxide]]></entry>
+	<entry id="combat_skill_name_rescuer_herding_tactics"><![CDATA[Herding Tactics]]></entry>
+    <entry id="combat_skill_name_rescuer_catharsis"><![CDATA[Motivational Hypnosis]]></entry>
+    <entry id="combat_skill_name_rescuer_stay_away"><![CDATA[Stay Away!]]></entry>
+    <entry id="combat_skill_name_rescuer_follow_the_track"><![CDATA[Follow the Track!]]></entry>
+    <entry id="combat_skill_name_rescuer_move"><![CDATA[Move]]></entry>
+
+    <entry id="upgrade_tree_name_rescuer.firstaid"><![CDATA[First Aid]]></entry>
+	<entry id="upgrade_tree_name_rescuer.tonic_mix"><![CDATA[Tonic Mix]]></entry>
+	<entry id="upgrade_tree_name_rescuer.nitrous_oxide"><![CDATA[Nitrous Oxide]]></entry>
+    <entry id="upgrade_tree_name_rescuer.herding_tactics"><![CDATA[Herding Tactics]]></entry>
+    <entry id="upgrade_tree_name_rescuer.catharsis"><![CDATA[Motivational Hypnosis]]></entry>
+    <entry id="upgrade_tree_name_rescuer.stay_away"><![CDATA[Stay Away!]]></entry>
+    <entry id="upgrade_tree_name_rescuer.follow_the_track"><![CDATA[Follow the Track!]]></entry>
+
+<!--Weapons -->
+	<entry id="rescuer_weapon_0"><![CDATA[Rudimentary Crook]]></entry>
+	<entry id="rescuer_weapon_1"><![CDATA[Refined Crook]]></entry>
+    <entry id="rescuer_weapon_2"><![CDATA[Traveling Crook]]></entry>
+    <entry id="rescuer_weapon_3"><![CDATA[Service Crook]]></entry>
+    <entry id="rescuer_weapon_4"><![CDATA["Secret of the Shepherd
+"]]></entry>
+    <entry id="upgrade_tree_name_rescuer.weapon"><![CDATA[Crook]]></entry>
+   	<entry id="rescuer_armour_0"><![CDATA[Travelers Set]]></entry>
+   	<entry id="rescuer_armour_1"><![CDATA[Reinforced Set]]></entry> 
+   	<entry id="rescuer_armour_2"><![CDATA[Winter Set]]></entry>
+   	<entry id="rescuer_armour_3"><![CDATA[Service Set]]></entry>
+   	<entry id="rescuer_armour_4"><![CDATA["The 100 Winters"]]></entry>
+    <entry id="upgrade_tree_name_rescuer.armour"><![CDATA[Traveler Set]]></entry>
+						
+	<entry id="rescuer+str_monster_user_selected_targets_kill_pill"><![CDATA[Even a doctor cannot escape death!]]></entry>
+			
+<!--RESC Trinkets -->
+	<entry id="str_inventory_title_trinketresc1"><![CDATA[Stethoscope ]]></entry>
+    <entry id="str_inventory_title_trinketresc2"><![CDATA[Gas Canister]]></entry>
+    <entry id="str_inventory_title_trinketresc3"><![CDATA[Feathered Dog Toy ]]></entry>
+    <entry id="str_inventory_title_trinketresc4"><![CDATA[Surgical Instruments]]></entry>
+    <entry id="str_inventory_title_trinketresc5"><![CDATA[Improvised Orthopedics Guide]]></entry>
+	<entry id="str_inventory_title_trinketresc6"><![CDATA[Pyrenean Wool Dog Collar]]></entry>
+    <entry id="str_inventory_title_trinketresc7"><![CDATA[Barry’s Barrel]]></entry>
+	 <entry id="str_inventory_title_trinketresc8"><![CDATA[Healer's Guide Monthly]]></entry>
+	 <entry id="str_inventory_title_trinketresc9"><![CDATA[Penta-Dimensional Anatomy by Emmanuel Mascopoulos]]></entry>
+
+<!--RESC COM + CC Trinkets + Collectors Head + Sunward Isle --> 
+	<entry id="str_inventory_title_trinketcom_resc_1"><![CDATA[Hypercubic Respirator]]></entry>
+    <entry id="str_inventory_title_trinketcollector_resc"><![CDATA[Einstein's Head]]></entry>
+    <entry id="str_inventory_title_trinketcc_resc_1"><![CDATA[Advanced Diploma]]></entry>
+    <entry id="str_inventory_title_trinketcc_resc_2"><![CDATA[Service Decoration]]></entry>
+    <entry id="str_inventory_set_title_cc_resc_combined12"><![CDATA["The Healing Way"]]></entry>
+	<entry id="str_inventory_title_trinketsunward_resc"><![CDATA["The 10" (Acupuncture Needles)]]></entry>
+	
+<!--Dog Barrel Estate Item rules and barks  --> 
+	<entry id="buff_rule_data_tooltip_resc_barrel_1_fx"><![CDATA[{colour_start|resc_blue}A swig brandy will warm you up fast!{colour_end} +10 CRIT Chance (1 Rd)]]></entry>
+	
+	<entry id="buff_rule_data_tooltip_resc_barrel_1"><![CDATA[Monks of St. Bernard's Hospice Brandy (yr 428)]]></entry>
+	
+	<entry id="str_inventory_title_estateresc_barrel_1"><![CDATA[Monks of St. Bernard's Hospice Brandy (Extra Old)]]></entry>
+
+	<entry id="str_inventory_description_estateresc_barrel_1"><![CDATA[{colour_start|resc_blue}A swig of rare brandy warms you up!{colour_end} +25 CRIT Chance (1 Rd)]]></entry>
+			
+	<entry id="resc_drink_barrel_1"><![CDATA[This has a kick!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[Ready for Action!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[Cheers!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[To the fallen!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[To Honor!!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[For the team!]]></entry>
+	<entry id="resc_drink_barrel_1"><![CDATA[This is the best Brandy!]]></entry>
+	
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[This brandy was used to keep Rescuers warm!]]></entry>
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[The monks started profiting from brandy production.]]></entry>
+	<entry id="rescuer+resc_drink_barrel_1"><![CDATA[This may enhance our attack!]]></entry>
+	
+<!--Other Classes Drink Brandy Barks-->
+	<entry id="abomination+resc_drink_barrel_1"><![CDATA[This has a kick!]]></entry>
+	<entry id="antiquarian+resc_drink_barrel_1"><![CDATA[Ready for action!]]></entry>
+	<entry id="arbalest+resc_drink_barrel_1"><![CDATA[This will enhance my aim!]]></entry>
+	<entry id="bounty_hunter+resc_drink_barrel_1"><![CDATA[Top shelf brandy! Thanks]]></entry>
+	<entry id="crusader+resc_drink_barrel_1"><![CDATA[It warms my belly!]]></entry>
+	<entry id="grave_robber+resc_drink_barrel_1"><![CDATA[Don't mind if I do!]]></entry>
+	<entry id="hellion+resc_drink_barrel_1"><![CDATA[To victory!!]]></entry>
+	<entry id="highwayman+resc_drink_barrel_1"><![CDATA[Cheers!]]></entry>
+	<entry id="houndmaster+resc_drink_barrel_1"><![CDATA[To the hounds!]]></entry>
+	<entry id="jester+resc_drink_barrel_1"><![CDATA[One drink can't hurt!]]></entry>
+	<entry id="leper+resc_drink_barrel_1"><![CDATA[I feel strong!]]></entry>
+	<entry id="man_at_arms+resc_drink_barrel_1"><![CDATA[Now that's an excellent Brandy!]]></entry>
+	<entry id="occultist+resc_drink_barrel_1"><![CDATA[This enhances my power!]]></entry>
+	<entry id="plague_doctor+resc_drink_barrel_1"><![CDATA[Better than medicine!]]></entry>
+	<entry id="vestal+resc_drink_barrel_1"><![CDATA[Not exactly wine...]]></entry>
+	<entry id="shieldbreaker+resc_drink_barrel_1"><![CDATA[To the future!]]></entry>
+	<entry id="musketeer+resc_drink_barrel_1"><![CDATA[*cough* That. Is. So. Strong!]]></entry>
+	<entry id="flagellant+resc_drink_barrel_1"><![CDATA[It soothes my pain!]]></entry>
+	<entry id="harlot+resc_drink_barrel_1"><![CDATA[Let's start the party!]]></entry>
+	<entry id="barbarian+resc_drink_barrel_1"><![CDATA[Even better than ale!]]></entry>
+	<entry id="shadow_walker+resc_drink_barrel_1"><![CDATA[To the hunt!]]></entry>
+	<entry id="picaroon+resc_drink_barrel_1"><![CDATA[A drink worthy of the sea!]]></entry>
+
+<!--RESC Quirk 1-->
+	<entry id="str_quirk_name_RESC_quirk_1"><![CDATA[Advanced Medical Training]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_1_x"><![CDATA[{colour_start|resc_blue}Careful study and dedication have enhanced your healing skills.{colour_end}]]></entry>
+	
+<!--RESC Quirk 2-->
+	<entry id="str_quirk_name_RESC_quirk_2"><![CDATA[Monks’ Mind]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_2_x"><![CDATA[{colour_start|resc_blue}Monks of St. Bernard Hospice first aid conditioning.{colour_end}]]></entry>
+	
+<!--RESC Quirk 3-->
+	<entry id="str_quirk_name_RESC_quirk_3"><![CDATA[Monks’ Body]]></entry>
+	<entry id="buff_rule_data_tooltip_stay_away"><![CDATA[Stay Away!]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_3_x"><![CDATA[{colour_start|resc_blue}Monks of St. Bernard Hospice conditioning enhances agility.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_4_x"><![CDATA[{colour_start|notable}Bonus Staff Training:{colour_end} “Stay Away!” Skill: Gains {colour_start|stun}Stun{colour_end} Chance]]></entry>
+	
+	<entry id="RESC_bark_staff_trigger"><![CDATA[I now undertand what the Monks meant.]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[My staff training has advanced.]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[A new way to handle the crook will be helpful.]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[Agility and speed can overcome brute strength.]]></entry>
+	<entry id="RESC_bark_staff_trigger"><![CDATA[If I land it correctly, the subject may be stunned.]]></entry>
+
+<!--RESC Quirk 4-->
+	<entry id="str_quirk_name_RESC_quirk_4"><![CDATA[Presure to Suceed]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_5_x"><![CDATA[{colour_start|resc_blue}You allow the pressure of success to hinder your mood.{colour_end}]]></entry>
+	
+<!--RESC Quirk 5-->
+	<entry id="str_quirk_name_RESC_quirk_5"><![CDATA[Herding Master]]></entry>
+	<entry id="buff_rule_data_tooltip_herding_tactics"><![CDATA[Herding Tactics]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_8_x"><![CDATA[{colour_start|resc_blue}Hours of practice brings focused results.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_9_x"><![CDATA[{colour_start|notable}Bonus Hound Control:{colour_end} “Herding Tactics” Skill: Gains {colour_start|mark}Mark{colour_end} Chance]]></entry>
+		
+	<entry id="RESC_bark_herd_trigger"><![CDATA[Keep them together!]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[Identify the lead.]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[Stay close now!]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[It will be easier to control the enemy.]]></entry>
+	<entry id="RESC_bark_herd_trigger"><![CDATA[If we stay organized we can stay in charge.]]></entry>
+		
+<!--RESC Quirk 6-->
+	<entry id="str_quirk_name_RESC_quirk_6"><![CDATA[Expert Hunter]]></entry>
+	<entry id="buff_rule_data_tooltip_follow_the_track"><![CDATA[Follow the Track!]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_6_x"><![CDATA[{colour_start|resc_blue}Old dogs can still learn new tricks.{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_7_x"><![CDATA[{colour_start|notable}Bonus Hound Hunting:{colour_end} “Follow the Track!” Skill: Gains {colour_start|bleed}Bleed{colour_end} Chance]]></entry>
+			
+<!--RESC Quirk 7-->
+	<entry id="str_quirk_name_RESC_quirk_7"><![CDATA[Medical Assistant]]></entry>
+	<entry id="buff_rule_data_tooltip_follow_the_track"><![CDATA[Follow the Track!]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_10_x"><![CDATA[{colour_start|resc_blue}A stipend is paid for your part time help at the Medical Ward facilities.{colour_end}]]></entry>
+	
+<!--RESC Quirk 8-->
+	<entry id="str_quirk_name_RESC_quirk_8"><![CDATA[Medical Researcher]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_11_x"><![CDATA[{colour_start|resc_blue}Your behavorial research fellowship at the Treatment Ward pays a small stipend.{colour_end}]]></entry>
+	
+<!--RESC Quirk 9-->
+	<entry id="str_quirk_name_RESC_quirk_9"><![CDATA[Nightmare Patient]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_12_x"><![CDATA[{colour_start|resc_blue}You're a terrible patient! Extra costs may be incurred!{colour_end}]]></entry>
+	
+<!--RESC Trinket Custom Tip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_13_x"><![CDATA[If Dodged: +10%% Protect (2 Rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_14_x"><![CDATA[When Hit: Attacker -40%% {colour_start|stun}Stun{colour_end} Resist (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_15_x"><![CDATA[Chance to {colour_start|stun}Counter Stun{colour_end} Attacker]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_16_x"><![CDATA[On Attack Hit: Chance -15%% {colour_start|stress}PROT{colour_end}, -15%% {colour_start|bleed}Bleed{colour_end} Resist (2 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_17_x"><![CDATA[{colour_start|resc_blue}Herding Tactics{colour_end} + {colour_start|resc_blue}Follow the Tracks:{colour_end} +20%% DMG, +15%% ACC]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_18_x"><![CDATA[+20%% {colour_start|buff}Max HP{colour_end} if {colour_start|resc_blue}Monks Brandy{colour_end} in inventory]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_19_x"><![CDATA[{colour_start|notable}This collar from home enhances a hound's hunting{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_20_x"><![CDATA[{colour_start|notable}Each of the needles has a medical property{colour_end}]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_21_x"><![CDATA[When Hit: -5%% {colour_start|notable}CRITs Received{colour_end} (2 rds)]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_22_x"><![CDATA[{colour_start|debuff}1 unidentified needle feels hot{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_23_x"><![CDATA[{colour_start|notable}Anyone can learn from this health digest,{colour_end}]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_RESC_quirk_tooltip_24_x"><![CDATA[{colour_start|notable}but it's complicated and distracting{colour_end}]]></entry>
+		
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[The Hounds know where to strike for more blood!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[The dogs have evolved their hunting tactics!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[The Mountains taught the dogs how to hunt!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[Scent is keen for a good hunt!]]></entry>
+	<entry id="RESC_bark_bloody_trigger"><![CDATA[There's nowhere left to run!]]></entry>
+
+<!--Party Names -->
+	<entry id="party_name_222700"><![CDATA[Total Coverage]]></entry>
+	<entry id="party_name_222701"><![CDATA[Hunting Society]]></entry>
+	<entry id="party_name_222702"><![CDATA[Body Snatchers]]></entry>
+	<entry id="party_name_222703"><![CDATA[Venom Collectors]]></entry>
+	<entry id="party_name_222704"><![CDATA[Healer Covenant: Stun Specialists]]></entry>
+	<entry id="party_name_222705"><![CDATA[The Pack]]></entry>
+	<entry id="party_name_222706"><![CDATA[Black Glove of Anubis]]></entry>
+	<entry id="party_name_222707"><![CDATA[Silver Angels]]></entry>
+	<entry id="party_name_222708"><![CDATA[Healer Covenant: Battle Priestess]]></entry>
+	<entry id="party_name_222709"><![CDATA[Healer Covenant: Hydra Healers]]></entry>
+	<entry id="party_name_222710"><![CDATA[The Wise Travelers]]></entry>
+	<entry id="party_name_222711"><![CDATA[Blood Trackers Guild]]></entry>
+	<entry id="party_name_222712"><![CDATA[Emissaries of Love & Death]]></entry>
+	<entry id="party_name_222713"><![CDATA[The Detectives]]></entry>
+	<entry id="party_name_222714"><![CDATA[Marked for Greatness]]></entry>
+	<entry id="party_name_222715"><![CDATA[The 6 Who Carry On]]></entry>
+	<entry id="party_name_222716"><![CDATA[Sunday Afternoon Hunt Club]]></entry>
+	<entry id="party_name_222717"><![CDATA[3 Dogs, 3 Men, 2 Doctors]]></entry>
+	<entry id="party_name_222718"><![CDATA[Dancing with the Stars]]></entry>
+	<entry id="party_name_222719"><![CDATA[Blue Star Company]]></entry>
+	<entry id="party_name_222720"><![CDATA[Recon Unit]]></entry>
+	<entry id="party_name_222721"><![CDATA[Blood in the Path]]></entry>
+	<entry id="party_name_222722"><![CDATA[Survivors]]></entry>
+	<entry id="party_name_222723"><![CDATA[Hounds of Wind]]></entry>
+	<entry id="party_name_222724"><![CDATA[x]]></entry>	
+	<entry id="party_name_222725"><![CDATA[x]]></entry>		
+		
+<!--Camping Skill Names -->
+    <entry id="camping_skill_name_resc_1"><![CDATA[Canine Vigil]]></entry>
+    <entry id="camping_skill_name_resc_2"><![CDATA[Reinforce Training]]></entry>
+    <entry id="camping_skill_name_resc_3"><![CDATA[Apply Poultice]]></entry>
+    <entry id="camping_skill_name_resc_4"><![CDATA[Vocation of Service]]></entry>
+    <entry id="camping_skill_name_resc_5"><![CDATA[Medical Studies]]></entry>
+    <entry id="camping_skill_name_resc_6"><![CDATA[Hound Howl]]></entry>
+    <entry id="camping_skill_name_resc_7"><![CDATA[Scent in the Air]]></entry>
+	
+<!--HotW Camping Skill Custom tooltip-->
+ <entry id="camping_skill_effect_loot_RESC_Herbs_of_the_Wild_Camp"><![CDATA[Search for {colour_start|notable}Herbs{colour_end}]]></entry>
+  <entry id="camping_skill_effect_loot_random_RESC_supplies_bonus"><![CDATA[Search for {colour_start|notable}Supplies{colour_end}]]></entry>
+	
+<!--Camping Skill Barks -->
+    <entry id="str_bark_resc_1"><![CDATA[The dogs are restless; they sense danger surrounding us.]]></entry>
+    <entry id="str_bark_resc_1"><![CDATA[The hounds seem agitated by something in the air]]></entry>
+    <entry id="str_bark_resc_1"><![CDATA[I remember that time on the mountain ...]]></entry>
+	<entry id="str_bark_resc_1"><![CDATA[You have to stay healthly to perform well in dangerous situations.]]></entry>
+	
+	<entry id="str_bark_resc_2"><![CDATA[Time to practice. Just the basics before going to sleep]]></entry>
+    <entry id="str_bark_resc_2"><![CDATA[A little sparring practice?]]></entry>
+    <entry id="str_bark_resc_2"><![CDATA[Weapsons are important to maintain.]]></entry>
+	<entry id="str_bark_resc_2"><![CDATA[Military training dictates ...]]></entry>
+ 
+	<entry id="str_bark_resc_3"><![CDATA[Let me tend to your injuries.]]></entry>
+    <entry id="str_bark_resc_3"><![CDATA[This can relieve soreness.]]></entry>
+    <entry id="str_bark_resc_3"><![CDATA[This technique will make you feel better.]]></entry>
+ <entry id="str_bark_resc_3"><![CDATA[Place this poultice directly on the inflamed muscle.]]></entry>
+	
+	<entry id="str_bark_resc_4"><![CDATA[Try to rest, I'll stay awake to monitor the treatments.]]></entry>
+    <entry id="str_bark_resc_4"><![CDATA[Rest tonight. The hounds will stand guard.]]></entry>
+    <entry id="str_bark_resc_4"><![CDATA[You'll feel better in the morning ...]]></entry>
+	<entry id="str_bark_resc_4"><![CDATA[This could be the last rest in a bit, make good use of it.]]></entry>
+	 
+	<entry id="str_bark_resc_5"><![CDATA[Physiology is the study of body parts as a whole.]]></entry>
+    <entry id="str_bark_resc_5"><![CDATA[Biochemistry is the study of living structure chemicals.]]></entry>
+    <entry id="str_bark_resc_5"><![CDATA[Anatomy is the study of the relationship between body parts.]]></entry>
+	<entry id="str_bark_resc_5"><![CDATA[I’m falling behind reading the latest medical studies!]]></entry>
+	 
+	<entry id="str_bark_resc_6"><![CDATA[Stay on your toes.]]></entry>
+    <entry id="str_bark_resc_6"><![CDATA[They dogs will keep us alert.]]></entry>
+    <entry id="str_bark_resc_6"><![CDATA[The hounds are nervous!]]></entry>
+	<entry id="str_bark_resc_6"><![CDATA[You need to be quick to stay up with the hounds!]]></entry>
+	 
+	<entry id="str_bark_resc_7"><![CDATA[The hounds will  alert us to any danger.]]></entry>
+    <entry id="str_bark_resc_7"><![CDATA[We have experienced finding lost people.]]></entry>
+    <entry id="str_bark_resc_7"><![CDATA[Strong scents may grant us insight into what lies ahead.]]></entry>
+	<entry id="str_bark_resc_7"><![CDATA[They like to explore on their own sometimes!]]></entry>
+	
+<!--Strings from the Master XCEL Sheet GO HERE -->
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[This filthy soup will kill us!]]></entry>
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[Don't let her boil the hounds!]]></entry>
+<entry id="rescuer+str_prisoner_damage_cauldron_full"><![CDATA[Hurry! The hounds will drown!]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[The hounds are now loyal to the mistress!]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[I will use my knowledge to aid the Queen.]]></entry>
+<entry id="rescuer+str_control_before_turn_siren"><![CDATA[We do not care about the party anymore.]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[It was merely a form of mind control. Forgive me!]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[The hounds and I were bewitched!]]></entry>
+<entry id="rescuer+str_control_return_siren"><![CDATA[It was like a nightmare, I could not wake up!]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[Unleash us at once!]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[The dogs don’t like being leashed!]]></entry>
+<entry id="rescuer+str_prisoner_damage_drowned_anchored"><![CDATA[Chains will terrify the hounds!]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[I used to be a military doctor.]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[My purpose is to heal and help]]></entry>
+<entry id="rescuer+str_bark_hp_heal_dot"><![CDATA[All my years of training will bring us good results ]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[My medical training can't cheat death.]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[Good night... friends]]></entry>
+<entry id="rescuer+str_heart_attack"><![CDATA[Take care of the dogs... please]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[Recurring phenomena will elicit apprehension!]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[I should have stayed in bed!]]></entry>
+<entry id="rescuer+str_heart_attack_fearful"><![CDATA[My vital signs weren't good today]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[Even my own body betrays me ]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[I knew this team didn't want me here]]></entry>
+<entry id="rescuer+str_heart_attack_paranoid"><![CDATA[I can't trust anybody, not even myself ]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[Death... a gift...]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[Death was my only companion in my work]]></entry>
+<entry id="rescuer+str_heart_attack_masochistic"><![CDATA[I can finally live what I've been preventing all my life]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[It takes years to learn the craft of healing!]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[You all made me fail!]]></entry>
+<entry id="rescuer+str_heart_attack_abusive"><![CDATA[My death will follow you all... if you survive...]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[I don't about healing others anymore!]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[I've wasted my life helping others.]]></entry>
+<entry id="rescuer+str_heart_attack_selfish"><![CDATA[If I die who's going to take care of you all?]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[Life is short, the healing craft so long to learn.]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[Patients are mostly idiots!]]></entry>
+<entry id="rescuer+str_heart_attack_depressed"><![CDATA[Death was unbeatable... after all ]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[My patients are stealing from me!]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[Gurutz, Alina... take care of the team...]]></entry>
+<entry id="rescuer+str_heart_attack_irrational"><![CDATA[Gurutz, Alina... give me my medicine...]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[Will the brigands find me?]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[Everything is turning white... just endless snowy hills]]></entry>
+<entry id="rescuer+str_afflicted_fearful"><![CDATA[We are black dots in a snowfield ]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[Are the brigands still following me?]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[Gurutz cover your steps or they will find us]]></entry>
+<entry id="rescuer+str_afflicted_paranoid"><![CDATA[Alina you're making too much noise, shut up!]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[Most of my patients are drunk, high or obnoxious.]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[We can open all the gas canisters and drift away]]></entry>
+<entry id="rescuer+str_afflicted_masochistic"><![CDATA[Let's see how much I can endure this pain]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[Don't be so weak. I was trained in the military.]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[Why should I heal you?]]></entry>
+<entry id="rescuer+str_afflicted_abusive"><![CDATA[In all my years in the army, I never saw such a pathetic team]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[My medicine is not enough for all of us]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[I need to protect the hounds first.]]></entry>
+<entry id="rescuer+str_afflicted_selfish"><![CDATA[A Healer must heal himself first.]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[I could not save the patients or the nurses!]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[So many perished in the avalanche!]]></entry>
+<entry id="rescuer+str_afflicted_depressed"><![CDATA[Everyone who helps other dies...]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[Thunder reminds me of the avalanche!]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[Those Rams have been chasing us for years.]]></entry>
+<entry id="rescuer+str_afflicted_irrational"><![CDATA[Maybe I should have become a Dentist?]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[I am patient. I will learn your story.]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[I will learn from this experience!]]></entry>
+<entry id="rescuer+str_virtued_stalwart"><![CDATA[We are writing today, the science of tomorrow ]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[A healthly body and a strong spirit!]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[Science will guide us!]]></entry>
+<entry id="rescuer+str_virtued_courageous"><![CDATA[We will face the avalanche and prevail!]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[I am trained in the healing arts!]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[Science overcomes anything!]]></entry>
+<entry id="rescuer+str_virtued_focused"><![CDATA[My mind is clear, and my memory shines!]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[I can hold life in the balance!]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[I can feel the medicine running through my veins!]]></entry>
+<entry id="rescuer+str_virtued_powerful"><![CDATA[I feel like when I graduated!]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[Sickness can be cured!]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[I am cured, I am alive, I am ready!]]></entry>
+<entry id="rescuer+str_virtued_vigorous"><![CDATA[My body feels healthier than ever!]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[I am in tune with my body!]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[The human body is the best laboratory in existence ]]></entry>
+<entry id="rescuer+str_stress_heal_self_stalwart"><![CDATA[For the first time, my body is in perfect condition!]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[My medical knowledge will save us!]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[My training as a doctor is invaluable!]]></entry>
+<entry id="rescuer+str_stress_heal_party_courageous"><![CDATA[I can patch us up!]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[Science will aid you!]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[With the right stimulus, the body can make incredible feats!]]></entry>
+<entry id="rescuer+str_buff_random_party_member_focused"><![CDATA[I can enhance your virtues!]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[I am inquisitive]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[The heart and the mind work together!]]></entry>
+<entry id="rescuer+str_buff_party_powerful"><![CDATA[Our team is a living organism]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[I am powerful like a Saint Bernard!]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[All my training has brought me here]]></entry>
+<entry id="rescuer+str_heal_self_vigorous"><![CDATA[My medicine can cure anything!]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[I am shackled to my medical training.]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[I risk getting diseases by helpful others.]]></entry>
+<entry id="rescuer+str_bark_stress_fearful"><![CDATA[I am afraid I won't be able to help everyone.]]></entry>
+<entry id="rescuer+str_bark_stress_paranoid"><![CDATA[Science has let me down.]]></entry>
+<entry id="rescuer+str_bark_stress_paranoid"><![CDATA[You're going to try to get rid of the hounds!]]></entry>
+<entry id="rescuer+str_bark_stress_masochistic"><![CDATA[This is making me nervous.]]></entry>
+<entry id="rescuer+str_bark_stress_masochistic"><![CDATA[This isn't working for us.]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[Love is not a medicine]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[Do you think all my training was for nothing?]]></entry>
+<entry id="rescuer+str_bark_stress_abusive"><![CDATA[You don't know how to apply first aid!]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[I am Physician, treat me accordingly.]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[You should treat me with respect.]]></entry>
+<entry id="rescuer+str_bark_stress_selfish"><![CDATA[As a Healer, I am due honor and respect.]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[I cannot defeat Death.]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[Death is the enermy, and he has superior forces.]]></entry>
+<entry id="rescuer+str_bark_stress_depressed"><![CDATA[It is tiring to always wage war against death.]]></entry>
+<entry id="rescuer+str_bark_stress_irrational"><![CDATA[I don't understand why we are here!]]></entry>
+<entry id="rescuer+str_bark_stress_irrational"><![CDATA[Let's go. Let's run. We need to leave now!]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[I must leave this field of battle.]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[The Ram is chasing us, I must hide.]]></entry>
+<entry id="rescuer+str_change_pos_back_fearful"><![CDATA[The avalanche is too depressing to relive.]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[They are coming for me, the brigands, from the mountain hospital!]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[Don't hurt the hounds!]]></entry>
+<entry id="rescuer+str_change_pos_back_paranoid"><![CDATA[Hounds! No! Don't move back.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[I dare you to hit the hounds! You'll regret it.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[We are near a breaking point.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_masochistic"><![CDATA[I don't think the hounds will stay much longer.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[Let me get a closer look at them.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[I need to get closer, Gurutz is getting blind with age]]></entry>
+<entry id="rescuer+str_change_pos_fwd_irrational"><![CDATA[If only I were a cat person!]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[I should've gotten a cat.]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[My mother warned me, I wouldn’t find love.]]></entry>
+<entry id="rescuer+str_change_pos_back_irrational"><![CDATA[Is this the position you want, Alina?]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[Take me, my time has come.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[I'll never have another puppy hound.]]></entry>
+<entry id="rescuer+str_change_pos_fwd_depressed"><![CDATA[If I'm going to die, at least I'll see what will kill me]]></entry>
+<entry id="rescuer+str_change_pos_back_depressed"><![CDATA[This team is heartbreakingly stupid!]]></entry>
+<entry id="rescuer+str_change_pos_back_depressed"><![CDATA[If I'm going to die, at least I won't be the first one ]]></entry>
+<entry id="rescuer+str_change_pos_fwd_selfish"><![CDATA[The Doctor should go first!]]></entry>
+<entry id="rescuer+str_change_pos_fwd_selfish"><![CDATA[I need to be here to take care of you all]]></entry>
+<entry id="rescuer+str_change_pos_back_selfish"><![CDATA[Get out of my way, the Hounds need a walk.]]></entry>
+<entry id="rescuer+str_change_pos_back_selfish"><![CDATA[You all should be my shields! what other purpose do you have?]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[Death is the natural order of things!]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[It's too much. I've seen too much.]]></entry>
+<entry id="rescuer+str_ignore_command_fearful"><![CDATA[I can't do it, it's too  dangerous ]]></entry>
+<entry id="rescuer+str_ignore_command_paranoid"><![CDATA[The nurses, wil they haunt me, did their spirits forgive me?]]></entry>
+<entry id="rescuer+str_ignore_command_paranoid"><![CDATA[It would be like walking in the way of an avalanche ]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[Don't Doctors deserve the best food, the best beds, the best of everything?]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[Don't count on the three of helping for a long time!]]></entry>
+<entry id="rescuer+str_ignore_command_selfish"><![CDATA[I guess I'm by myself...]]></entry>
+<entry id="rescuer+str_ignore_command_depressed"><![CDATA[All my education and I still can't cure most ailments.]]></entry>
+<entry id="rescuer+str_ignore_command_depressed"><![CDATA[I guess all my experience is not enough in this situation ]]></entry>
+<entry id="rescuer+str_ignore_command_irrational"><![CDATA[I can kill you as easily as curing you.]]></entry>
+<entry id="rescuer+str_ignore_command_irrational"><![CDATA[Are you sure about this, Gurutz?]]></entry>
+<entry id="rescuer+str_random_command_paranoid"><![CDATA[My surgical knives are envied by others.]]></entry>
+<entry id="rescuer+str_random_command_paranoid"><![CDATA[I'll have to figure it out by myself ]]></entry>
+<entry id="rescuer+str_random_command_masochistic"><![CDATA[Everybody look! Pain is revealing... enlightening...]]></entry>
+<entry id="rescuer+str_random_command_masochistic"><![CDATA[Sometimes, pain is inevitable! ]]></entry>
+<entry id="rescuer+str_random_command_abusive"><![CDATA[Check my reflexes!]]></entry>
+<entry id="rescuer+str_random_command_abusive"><![CDATA[Be the practice mate of my hounds]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[The dogs are fed up with the constant orders!]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[Just like when you're alone in the snow...]]></entry>
+<entry id="rescuer+str_random_command_selfish"><![CDATA[I have to make sure that my blood won't be spilled in the snow]]></entry>
+<entry id="rescuer+str_random_command_depressed"><![CDATA[Blood and bones, blood and bones.]]></entry>
+<entry id="rescuer+str_random_command_depressed"><![CDATA[I fear my mind needs treatment too]]></entry>
+<entry id="rescuer+str_random_command_irrational"><![CDATA[Stiches will not last forever.]]></entry>
+<entry id="rescuer+str_random_command_irrational"><![CDATA[That Ram will find us and destory us!]]></entry>
+<entry id="rescuer+str_bark_stress_camp_fearful"><![CDATA[Emergency medicine has been a waste of time.]]></entry>
+<entry id="rescuer+str_bark_stress_camp_fearful"><![CDATA[I'm afraid I'm running out of medicine]]></entry>
+<entry id="rescuer+str_bark_stress_camp_paranoid"><![CDATA[Did you hear that?! we're being followed]]></entry>
+<entry id="rescuer+str_bark_stress_camp_paranoid"><![CDATA[We're leaving steps in the snow, they will find us!]]></entry>
+<entry id="rescuer+str_bark_stress_camp_masochistic"><![CDATA[If you were to open to the experience of pain, i wouldn't have to be here]]></entry>
+<entry id="rescuer+str_bark_stress_camp_masochistic"><![CDATA[Pain can be your ally if you let it]]></entry>
+<entry id="rescuer+str_bark_stress_camp_abusive"><![CDATA[The medical profession has a grudge against the human race!]]></entry>
+<entry id="rescuer+str_bark_stress_camp_abusive"><![CDATA[You would all be dead if it wasn't for me ]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[You know, my companions need a place near the fire too]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[The three of us will be leaving soon. You're just too much trouble!]]></entry>
+<entry id="rescuer+str_bark_stress_camp_selfish"><![CDATA[I bet my companions habe been more useful than you in this mission]]></entry>
+<entry id="rescuer+str_bark_stress_camp_depressed"><![CDATA[I miss the long days of the north. And the sky …]]></entry>
+<entry id="rescuer+str_bark_stress_camp_depressed"><![CDATA[I saved so many lives from the freezing snow, but who will save ME?]]></entry>
+<entry id="rescuer+str_bark_stress_camp_irrational"><![CDATA[Gurutz are you the one stealing the medicine from my backpack? ]]></entry>
+<entry id="rescuer+str_bark_stress_camp_irrational"><![CDATA[Alina, be a good dog and bring some truffles to accompany our meals]]></entry>
+<entry id="rescuer+str_mark_self_masochistic"><![CDATA[Take me, but do not harm my party!]]></entry>
+<entry id="rescuer+str_mark_self_masochistic"><![CDATA[Pay attention to me, bring me the pain that will open my eyes ]]></entry>
+<entry id="rescuer+str_mark_self_depressed"><![CDATA[You might as well take me, I don't think I can carry on anymore …]]></entry>
+<entry id="rescuer+str_mark_self_depressed"><![CDATA[We're already doomed, I want thisto finish!]]></entry>
+<entry id="rescuer+str_mark_self_irrational"><![CDATA[Over here! Do you see me!]]></entry>
+<entry id="rescuer+str_mark_self_irrational"><![CDATA[Gurutz, Alina, let's play fetch! ]]></entry>
+<entry id="rescuer+str_attack_friendly_paranoid"><![CDATA[You wish to take away my dogs!]]></entry>
+<entry id="rescuer+str_attack_friendly_paranoid"><![CDATA[Stop that Gurutz!]]></entry>
+<entry id="rescuer+str_attack_friendly_abusive"><![CDATA[You're making my job more difficult than it should be ]]></entry>
+<entry id="rescuer+str_attack_friendly_abusive"><![CDATA[You're stupidity is not helping anybody!]]></entry>
+<entry id="rescuer+str_attack_friendly_irrational"><![CDATA[Ali, get down!]]></entry>
+<entry id="rescuer+str_attack_friendly_irrational"><![CDATA[The two of you are acting up. Stop it.]]></entry>
+<entry id="rescuer+str_attack_self_masochistic"><![CDATA[I need to clearmy mind... with pain]]></entry>
+<entry id="rescuer+str_attack_self_masochistic"><![CDATA[Get off of me, no treat for you!!]]></entry>
+<entry id="rescuer+str_attack_self_depressed"><![CDATA[If only I could have saved everyone at the field hospital!]]></entry>
+<entry id="rescuer+str_attack_self_depressed"><![CDATA[Get down! You're scratching me.]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[I have to get your claws trimmed.]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[Hey. Calm down girls!]]></entry>
+<entry id="rescuer+str_attack_self_irrational"><![CDATA[There's a rat inside my coat! ]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[We can't leave now!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[They will find us and kill us if we don't get rid of them]]></entry>
+<entry id="rescuer+str_block_combat_retreat_paranoid"><![CDATA[They will come back and bite our behinds if we don't deal with them now!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[I must avenge their deaths, I'm not leaving!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[I could not save them all!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_depressed"><![CDATA[Are we gonna run? we will he be hunted down like rabbits...]]></entry>
+<entry id="rescuer+str_block_combat_retreat_masochistic"><![CDATA[We can't leave, their agression has answers that I need!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_masochistic"><![CDATA[The answers that we need are running through our veins ]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[Wait! Gurutz wants to keep fighting! ]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[Wait, Alina doesn't want to give up yet!]]></entry>
+<entry id="rescuer+str_block_combat_retreat_irrational"><![CDATA[Now that I think about it, they are not our enemies! ]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[I am afraid to lose more people in my life.]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[Pay attention!]]></entry>
+<entry id="rescuer+str_comment_self_hit_fearful"><![CDATA[Hounds no! Stop it!]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[What was that?! Who's there?!]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[Gurutz, why are you biting me?]]></entry>
+<entry id="rescuer+str_comment_self_hit_paranoid"><![CDATA[Aline, stop! you're hurting me...]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[I had a vision of Pet Cemetery …]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[Look what you're making me do!]]></entry>
+<entry id="rescuer+str_comment_self_hit_selfish"><![CDATA[I want more!]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[Why did you leave the mountain?]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[What am I doing down here, I don't belong here.]]></entry>
+<entry id="rescuer+str_comment_self_hit_masochistic"><![CDATA[We must stop the pain.]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[I'm seeing things, I need cognitive readjusting! ]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[I saw a Nightmare … in a dream … a strange beast.]]></entry>
+<entry id="rescuer+str_comment_self_hit_irrational"><![CDATA[I dreamed that beast found us again.]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[I am not as strong as the Rescuer who saved me]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[I'm afraid I'm a burden to this team ]]></entry>
+<entry id="rescuer+str_comment_self_missed_fearful"><![CDATA[I'm becoming old... and slow...]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[They've been following me since the summit.]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[The pass of the mountain is where they will wait for us!]]></entry>
+<entry id="rescuer+str_comment_self_missed_paranoid"><![CDATA[My vision is getting blurry because of the snow shinning ]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[I must get back to the mountain, the wind, the snow …]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[It's too warm here in the south.]]></entry>
+<entry id="rescuer+str_comment_self_missed_masochistic"><![CDATA[I miss the great north.]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[The blizzard blurs my vision]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[The wind doesn't let me aim properly ]]></entry>
+<entry id="rescuer+str_comment_self_missed_irrational"><![CDATA[It was made of snow! I'm seeing  things!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[Nothing to be proud of...]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[Are you going to defend us with that?]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_selfish"><![CDATA[My dogs hit harder than that...]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[By the gods, you are a fool!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[A puppy can hit harder than you!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_abusive"><![CDATA[You smell like the dogs!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[You have to hit harder to break the ice]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[Lance the boil.]]></entry>
+<entry id="rescuer+str_comment_ally_attack_hit_irrational"><![CDATA[Set the bone!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_fearful"><![CDATA[This is over, we'll be crushed!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_fearful"><![CDATA[We'll be buried in unmarked tombs...]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_paranoid"><![CDATA[Are you failing on purpose?!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_paranoid"><![CDATA[Seems to me that you want THEM to live, and want US to die]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_abusive"><![CDATA[Look what you're doing! we can't waste our opportunities! ]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_abusive"><![CDATA[Are you blind? it seems that youre missing on purpose! ]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_selfish"><![CDATA[You better listen to me next time!]]></entry>
+<entry id="rescuer+str_comment_ally_attack_missed_selfish"><![CDATA[We need to work as a team!]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[I'm afraid that won't be enough...]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[You need to pay attention]]></entry>
+<entry id="rescuer+str_comment_ally_hit_fearful"><![CDATA[Do you have a beast chasing you? Like we do.]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[You're interfering in our pain exchange...]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[Do you feel the blood pumping in your veins?]]></entry>
+<entry id="rescuer+str_comment_ally_hit_masochistic"><![CDATA[Stop petting the dogs!]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[You don't think I'm a good Doctor do you?]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[Treat the hounds with some respect.]]></entry>
+<entry id="rescuer+str_comment_ally_hit_abusive"><![CDATA[Weak! weak as a newborn puppy! ]]></entry>
+<entry id="rescuer+str_comment_ally_missed_fearful"><![CDATA[A swing and a miss!]]></entry>
+<entry id="rescuer+str_comment_ally_missed_paranoid"><![CDATA[Is religion stronger than science?]]></entry>
+<entry id="rescuer+str_block_move_fearful"><![CDATA[Is medical science less powerful than magic?]]></entry>
+<entry id="rescuer+str_block_move_fearful"><![CDATA[I'm afraid I won't be able to help if we switch positions...]]></entry>
+<entry id="rescuer+str_block_move_paranoid"><![CDATA[What is so special about this particular spot?]]></entry>
+<entry id="rescuer+str_block_move_paranoid"><![CDATA[Why do you want this position? are you hiding something?]]></entry>
+<entry id="rescuer+str_block_move_masochistic"><![CDATA[You can't take me away from this pain]]></entry>
+<entry id="rescuer+str_block_move_masochistic"><![CDATA[This pain want me to stay here!]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[Let me show you a bad bedside manner!]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[You know, this is MY spot!]]></entry>
+<entry id="rescuer+str_block_move_abusive"><![CDATA[What are you gonna do here? good for nothing...]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[There is so much we don't undertand about medicine.]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[I know diseases but I don’t know people.]]></entry>
+<entry id="rescuer+str_block_item_paranoid"><![CDATA[I am a Doctor, but I am a fraud.]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[Just a minute, let me understand this pain]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[I don't need that.]]></entry>
+<entry id="rescuer+str_block_item_masochistic"><![CDATA[I don't want that, thanks anyway.]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[It would be a waste of useful resources...]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[Save that for the others please.]]></entry>
+<entry id="rescuer+str_block_item_depressed"><![CDATA[I don’t agree that would be helpful.]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[We need to save supplies for the attack.]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[No, I can't  give you the secret recipe of my brandy ]]></entry>
+<entry id="rescuer+str_block_item_irrational"><![CDATA[Are you trying to buy my hat with that?]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[No!, this is like the avalanche...]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[Red snow, snow mixed with blood]]></entry>
+<entry id="rescuer+str_comment_move_fearful"><![CDATA[There's blood everywhere, I can't handle this!]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[It's hard to watch another pass from this world.]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[The Monks would be saddened by my behavior.]]></entry>
+<entry id="rescuer+str_comment_move_paranoid"><![CDATA[I can't remember all their faces.]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[If you trip on me, you'll become dog food!]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[Do you want to use me as shield to cover your escape?]]></entry>
+<entry id="rescuer+str_comment_move_selfish"><![CDATA[Are you trying to obstruct my job?]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[Come for me instead!]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[There will be no pain after death.]]></entry>
+<entry id="rescuer+str_comment_move_masochistic"><![CDATA[I need to step here.]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[I don’t know more about death than you do!]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[None of you appreciate me!]]></entry>
+<entry id="rescuer+str_comment_move_abusive"><![CDATA[You'll be useless no matter what spot you are in]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[It is coming for us!]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[Hey, stop playing around hounds.]]></entry>
+<entry id="rescuer+str_comment_move_depressed"><![CDATA[I wont be able to save you all.]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[Pay attention dogs, please.]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[I need a just a moment.]]></entry>
+<entry id="rescuer+str_comment_move_irrational"><![CDATA[Give me a minute.]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[How will this aid us?]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[This could be end of us!]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_fearful"><![CDATA[Let me take a look and see.]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[This may be something my hounds can eat.]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[I deserve a treat too!]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_selfish"><![CDATA[What about us? what's our part?]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[Will provide understanding of my own pain ]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[Pain is pain, it doesn't matter where it comes from ]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_masochistic"><![CDATA[The blade cuts, the needle stings, the hammer smashes, but this pain has no name]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[Gurutz look, this is what I was talking about ]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[Alina, do you want to see what's that thing?]]></entry>
+<entry id="rescuer+str_comment_curio_interaction_irrational"><![CDATA[Alina, Gurutz, you both have to learn about this]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[Pain was waiting for me]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[Life keeps secrets from everybody, pain is one of them]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_masochistic"><![CDATA[Where else can I experience something like this? ]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[Just like avalanche... too quick to escape ]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[Let me take a look.]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_depressed"><![CDATA[The hounds blundered into that one!]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[The Hounds smell something here.]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[Stop! Hounds! It's a trap!]]></entry>
+<entry id="rescuer+str_comment_trap_triggered_irrational"><![CDATA[I'll step into this for the group!]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[I remember the sound of the avalanche!]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[I need to attend to this myself.]]></entry>
+<entry id="rescuer+str_block_heal_paranoid"><![CDATA[I don't think that will work.]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[To heal pain, one must know it]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[Pain is my matter of study]]></entry>
+<entry id="rescuer+str_block_heal_masochistic"><![CDATA[Pain keeps my mind sharp]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[Don't throw pearls to the pigs...]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[What's the point in your efforts? we're all doomed already...]]></entry>
+<entry id="rescuer+str_block_heal_depressed"><![CDATA[Your intentions are good... but pointless ]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[Alina doesn't want you to heal me]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[But I am the doctor, I should be the one healing you ]]></entry>
+<entry id="rescuer+str_block_heal_irrational"><![CDATA[Alina, Gurutz, stop it, we need medical attention ]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[What does that do? do you want to get me killed, don't you?]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[I don't trust your methods, they don't seem scientific ]]></entry>
+<entry id="rescuer+str_block_buff_paranoid"><![CDATA[Do you really think this will help, or you're using me as test subject? ]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[Don't interfere with my pain!]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[Don't try to numb my senses, I need this pain!]]></entry>
+<entry id="rescuer+str_block_buff_masochistic"><![CDATA[You're just like snow, you numb my body to block the pain]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[There's no possible improvement... there's no point in trying ]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[You're just running in circles... just following your own tail ]]></entry>
+<entry id="rescuer+str_block_buff_depressed"><![CDATA[we're dogs barking at the darkness of the night ]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[What are you trying to do to my dog?]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[The hounds don't seem to like it, and I trust them ]]></entry>
+<entry id="rescuer+str_block_buff_irrational"><![CDATA[You're scaring my dogs, stop it!]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[Gurutz, help me hold my position!]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[Alina, hold me!]]></entry>
+<entry id="rescuer+str_combat_knockback"><![CDATA[My head is spinning!]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[The hounds will get agitated if we dally!]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[I'll need to feed the hounds soon.]]></entry>
+<entry id="rescuer+str_combat_wastingtime"><![CDATA[Let's finish before the effect of the medicine runs out]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_smite"><![CDATA[You'll pay for that smite!]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_curse"><![CDATA[A curse that you will regret!]]></entry>
+<entry id="rescuer+str_monster_attack_unholy_judgement"><![CDATA[My medicine is stronger than evil.]]></entry>
+<entry id="rescuer+str_monster_attack_light_fuse"><![CDATA[Another wholesale slaughter!]]></entry>
+<entry id="rescuer+str_monster_attack_light_fuse"><![CDATA[Stop him! You must stop him.]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[Take a look at these books, maybe you can learn too]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[I can assure you, you'll die here, you'll die at advance age, in peace, in your bed]]></entry>
+<entry id="rescuer+str_bark_encourage"><![CDATA[Your vital signs are screaming "life" even death can hear them]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[Do you feel better now?]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[Now you are ready to fight again!]]></entry>
+<entry id="rescuer+str_bark_first_aid"><![CDATA[Stand up, you'll be fine]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[Realize that victory lies in calculating one's steps]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[Battle is chaos, if you bring order, you already won]]></entry>
+<entry id="rescuer+str_bark_pep_talk"><![CDATA[Your bigger advantage is perseverance, not strength ]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[Even doctors can't escape …]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[I am in the waiting room of Death's office!]]></entry>
+<entry id="rescuer+str_bark_deathsdoor"><![CDATA[I feel the cold... It's like being buried in snow!]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[I can't, it might alert the monsters!]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[Noooo, put the fire off, is going to betray our position]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_fearful"><![CDATA[I can't die here and leave the dogs alone]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[I know you all want my medicines, but you won't have them]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[Oh! you want to kidnap my dogs?!]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_paranoid"><![CDATA[I know what's happening. You think I can't fight?]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_masochistic"><![CDATA[Pain opens your eyes, it's a form of knowledge ]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_masochistic"><![CDATA[Focus on the pain.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_abusive"><![CDATA[Give me a break. You are terrible at that.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_abusive"><![CDATA[I could get better care from a first week Nun.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[I've have a better chance on my own.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[I'd prefer to take care of it the right way. Thank you anyway.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_selfish"><![CDATA[I don't think so.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_depressed"><![CDATA[It's not worth it in the end.]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_depressed"><![CDATA[That is NOT how it was done at the hospital]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_irrational"><![CDATA[I remember Sally!]]></entry>
+<entry id="rescuer+str_block_camping_skill_performer_irrational"><![CDATA[ Fred did not deserve to die.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_paranoid"><![CDATA[Did you see a large ram? He is following me.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_paranoid"><![CDATA[I know you don't really want me and hounds here.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_masochistic"><![CDATA[I don’t want to be cured.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_masochistic"><![CDATA[I need to feel it to know I am alive.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_abusive"><![CDATA[Don't go to the Sanitarium. They will lock you up. You're crazy!]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_abusive"><![CDATA[Afraid of a little needle?]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_depressed"><![CDATA[In the end people give up, they don't fight to live.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_depressed"><![CDATA[It won't help.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_irrational"><![CDATA[I only belive in science.]]></entry>
+<entry id="rescuer+str_block_camping_skill_target_irrational"><![CDATA[Did you see that? Was is a large Ram?]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[What did you put in the food?!]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[Are you using me as a human Guinea pig?]]></entry>
+<entry id="rescuer+str_block_camping_meal_paranoid"><![CDATA[Do you want to poison me so I have to use my medicines?]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[What you eat can affect your body.]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[People underestimate the importance of nutrition!]]></entry>
+<entry id="rescuer+str_block_camping_meal_masochistic"><![CDATA[I can't cure anything truly.]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[Give my share to the hounds, I cannot eat.]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[I'm not hungry for that, thanks anyway.]]></entry>
+<entry id="rescuer+str_block_camping_meal_depressed"><![CDATA[These camp meals lack proper nutrition.]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[There's no use, the Ram will find us soon.]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[Isn't there anything we could hunt?]]></entry>
+<entry id="rescuer+str_block_camping_meal_irrational"><![CDATA[Something is following us!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[I am a Rescuer! I aid those in need!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[My hounds are loyal companions!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[I will assist luckless travelers!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[Science triumphs again!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[Teamwork will lead to victory!]]></entry>
+<entry id="rescuer+str_critbyhero"><![CDATA[Observe, learn, apply!]]></entry>
+		
+	</language>
+</root>

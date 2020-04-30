@@ -1,0 +1,1338 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "scraw_ifdead_STRESSRECOVERY_A",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.09,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  
+	  {
+         "id" : "scraw_ifdead_SPD_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -0.45,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  
+      {
+         "id" : "scraw_ifdead_DOD_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.45,
+         "duration" : 5,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+       "id" : "scraw_guard_COOL_A",
+       "stat_type" : "disable_combat_skill_attribute",
+       "stat_sub_type" : "guard",
+       "amount" : 1.0,
+       "remove_on_battle_complete" : true,       
+       "remove_if_not_active" : false,
+       "rule_type" : "always",
+       "is_false_rule" : false,
+       "rule_data" : {
+          "float" : 0,
+          "string" : ""
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+       "id" : "scraw_bleed_COOL_A",
+       "stat_type" : "disable_combat_skill_attribute",
+       "stat_sub_type" : "bleed",
+       "amount" : 1.0,
+       "remove_on_battle_complete" : true,       
+       "remove_if_not_active" : false,
+       "rule_type" : "always",
+       "is_false_rule" : false,
+       "rule_data" : {
+          "float" : 0,
+          "string" : ""
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+         "id" : "Scraw_Less_Crit_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.50,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+      {
+         "id" : "Scraw_Buff_DEBUFFSKILL_A",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "duration" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Buff_DEBUFFSKILL_B",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "duration" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Buff_DEBUFFSKILL_C",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "duration" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Buff_DEBUFFSKILL_D",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "duration" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Buff_DEBUFFSKILL_E",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.09,
+         "duration" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  {
+         "id" : "Scraw_Disease_Acc_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.05,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Crit_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.01,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgLow_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgHigh_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Dod_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_HP_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.10,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_SPD_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  {
+         "id" : "Scraw_Disease_Acc_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.10,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Crit_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.03,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgLow_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgHigh_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Dod_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.10,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_HP_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_SPD_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  {
+         "id" : "Scraw_Disease_Acc_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Crit_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.05,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgLow_C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgHigh_C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Dod_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_HP_C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_SPD_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -5,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  {
+         "id" : "Scraw_Disease_Acc_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Crit_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.07,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgLow_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgHigh_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Dod_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.20,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_HP_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_SPD_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -7,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  {
+         "id" : "Scraw_Disease_Acc_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Crit_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : -0.09,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgLow_E",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.35,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_DmgHigh_E",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.35,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_Dod_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_HP_E",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Disease_SPD_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -9,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+         "id" : "Scraw_CawStress_A",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.20,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_CawStress_B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.30,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_CawStress_C",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.40,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_CawStress_D",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.50,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_CawStress_E",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.60,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+         "id" : "Scraw_FlutterStress_A",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.10,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlutterStress_B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.15,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlutterStress_C",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.20,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlutterStress_D",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.25,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlutterStress_E",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.30,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+         "id" : "Scraw_FlightStress_A",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.40,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlightStress_B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.50,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlightStress_C",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.60,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlightStress_D",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.70,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_FlightStress_E",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.80,
+         "duration" : 9,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+
+      {
+         "id" : "Scraw_Protect_STRESSDMG_A",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.01,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Protect_STRESSDMG_B",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.02,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Protect_STRESSDMG_C",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Protect_STRESSDMG_D",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_Protect_STRESSDMG_E",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+
+	  
+      {
+         "id" : "Scraw_camping_GuardDurationBuff_IfHpAbove",
+         "stat_type" : "guard_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.66,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Scraw_camping_GuardDurationBuff_IfHpBelow",
+         "stat_type" : "guard_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.33,
+            "string" : ""
+         }
+      },
+	  
+      {
+         "id" : "Scraw_campingScoutingBuff_IfWeald",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         }
+      },
+      {
+         "id" : "Scraw_campingScoutingBuff_IfCove",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cove"
+         }
+      },
+      {
+         "id" : "Scraw_campingScoutingBuff_IfCrypts",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crypts"
+         }
+      },
+      {
+         "id" : "Scraw_campingScoutingBuff_IfWarrens",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "warrens"
+         }
+      },
+	  
+
+      {
+         "id" : "Scraw_campingHEAL_test",
+         "stat_type" : "hp_dot_heal",
+         "stat_sub_type" : "",
+         "amount" : 5,
+         "duration_type" : "before_turn",
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+
+	  {
+         "id" : "Scraw_tooltip_Disease_BUFFID_A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_disease_STRING",
+         "amount" : -0.15,
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_Disease_BUFFID_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_disease_STRING",
+         "amount" : -0.25,
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_Disease_BUFFID_C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_disease_STRING",
+         "amount" : -0.35,
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_Disease_BUFFID_D",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_disease_STRING",
+         "amount" : -0.45,
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_Disease_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_disease_STRING",
+         "amount" : -0.55,
+         "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "Scraw_tooltip_Protect_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_protect_STRING",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_ProtectOthers_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_protectothers_STRING",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "Scraw_tooltip_BleedInstant_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_bleedinstant_STRING",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "Scraw_tooltip_Forward_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_forward_STRING",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scraw_tooltip_Backward_BUFFID_E",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "scraw_backward_STRING",
+         "amount" : 1,
+         "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	  
+   ]
+}

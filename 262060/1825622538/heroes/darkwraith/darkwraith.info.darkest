@@ -1,0 +1,98 @@
+//Stats
+//-----------------------------------------------------------------------------------------
+
+resistances: .stun 30% .poison 10% .bleed 60% .disease 40% .move 40% .debuff 30% .death_blow 73% .trap 30%
+
+crit: .effects DW_on_crit_deathdamage
+
+weapon: .name "darkwraith_weapon_0" .atk 0% .dmg  6   9 .crit 4.0% .spd 4
+weapon: .name "darkwraith_weapon_1" .atk 0% .dmg  7  10 .crit 5.0% .spd 5 .upgradeRequirementCode 0
+weapon: .name "darkwraith_weapon_2" .atk 0% .dmg  8  11 .crit 6.0% .spd 5 .upgradeRequirementCode 1
+weapon: .name "darkwraith_weapon_3" .atk 0% .dmg  9  13 .crit 7.0% .spd 6 .upgradeRequirementCode 2
+weapon: .name "darkwraith_weapon_4" .atk 0% .dmg 10  15 .crit 8.0% .spd 6 .upgradeRequirementCode 3
+armour: .name "darkwraith_armour_0" .def 0%  .prot 0 .hp 16 .spd 0
+armour: .name "darkwraith_armour_1" .def 5%  .prot 0 .hp 20 .spd 0 .upgradeRequirementCode 0
+armour: .name "darkwraith_armour_2" .def 10% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 1
+armour: .name "darkwraith_armour_3" .def 15% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 2
+armour: .name "darkwraith_armour_4" .def 20% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 3
+
+//Skills
+//-----------------------------------------------------------------------------------------
+combat_skill: .id "darksword" 	 .level 0 .type "melee" .atk 85%  .dmg 0% .crit 1% .launch 21 .target 12 .effect  "Dark DamageH 0-50" "Dark DamageL 0-50" "Dark DamageH 50-100" "Dark DamageL 50-100" "Wraith Light 1" "Dark Damage TT 1" .is_crit_valid True .valid_modes dw_standart dw_grasp .generation_guaranteed true 
+combat_skill: .id "darksword" 	 .level 1 .type "melee" .atk 90%  .dmg 0% .crit 2% .launch 21 .target 12 .effect  "Dark DamageH 0-50" "Dark DamageL 0-50" "Dark DamageH 50-100" "Dark DamageL 50-100" "Wraith Light 1" "Dark Damage TT 1" .is_crit_valid True .valid_modes dw_standart dw_grasp
+combat_skill: .id "darksword" 	 .level 2 .type "melee" .atk 95%  .dmg 0% .crit 3% .launch 21 .target 12 .effect  "Dark DamageH 0-50" "Dark DamageL 0-50" "Dark DamageH 50-100" "Dark DamageL 50-100" "Wraith Light 2" "Dark Damage TT 2" .is_crit_valid True .valid_modes dw_standart dw_grasp
+combat_skill: .id "darksword" 	 .level 3 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 21 .target 12 .effect  "Dark DamageH 0-50" "Dark DamageL 0-50" "Dark DamageH 50-100" "Dark DamageL 50-100" "Wraith Light 2" "Dark Damage TT 2" .is_crit_valid True .valid_modes dw_standart dw_grasp
+combat_skill: .id "darksword" 	 .level 4 .type "melee" .atk 110% .dmg 0% .crit 5% .launch 21 .target 12 .effect  "Dark DamageH 0-50" "Dark DamageL 0-50" "Dark DamageH 50-100" "Dark DamageL 50-100" "Wraith Light 3" "Dark Damage TT 3" .is_crit_valid True .valid_modes dw_standart dw_grasp 
+
+combat_skill: .id "undying_rage" .level 0 .type "melee" .atk 75% .dmg -65% .crit 9%  .launch 21 .target 12  .effect "Wraith Tooltip Free" "Wraith Tooltip 1" "DW SelfDmg 1" .dw_standart_effects "DW_switch_mode"  "DW_switch_mode_reset" .dw_grasp_effects. "DW_switch_mode_reset" "DW_switch_mode" is_crit_valid True .is_continue_turn true  .ignore_protection true .per_turn_limit 1 .valid_modes dw_standart dw_grasp
+combat_skill: .id "undying_rage" .level 1 .type "melee" .atk 80% .dmg -65% .crit 10% .launch 21 .target 12  .effect "Wraith Tooltip Free" "Wraith Tooltip 2" "DW SelfDmg 2" .dw_standart_effects "DW_switch_mode"  "DW_switch_mode_reset" .dw_grasp_effects. "DW_switch_mode_reset" "DW_switch_mode" is_crit_valid True .is_continue_turn true  .ignore_protection true .per_turn_limit 1 .valid_modes dw_standart dw_grasp
+combat_skill: .id "undying_rage" .level 2 .type "melee" .atk 85% .dmg -65% .crit 11% .launch 21 .target 12  .effect "Wraith Tooltip Free" "Wraith Tooltip 3" "DW SelfDmg 3" .dw_standart_effects "DW_switch_mode"  "DW_switch_mode_reset" .dw_grasp_effects. "DW_switch_mode_reset" "DW_switch_mode" is_crit_valid True .is_continue_turn true  .ignore_protection true .per_turn_limit 1 .valid_modes dw_standart dw_grasp
+combat_skill: .id "undying_rage" .level 3 .type "melee" .atk 90% .dmg -65% .crit 12% .launch 21 .target 12  .effect "Wraith Tooltip Free" "Wraith Tooltip 4" "DW SelfDmg 4" .dw_standart_effects "DW_switch_mode"  "DW_switch_mode_reset" .dw_grasp_effects. "DW_switch_mode_reset" "DW_switch_mode" is_crit_valid True .is_continue_turn true  .ignore_protection true .per_turn_limit 1 .valid_modes dw_standart dw_grasp
+combat_skill: .id "undying_rage" .level 4 .type "melee" .atk 95% .dmg -65% .crit 13% .launch 21 .target 12  .effect "Wraith Tooltip Free" "Wraith Tooltip 5" "DW SelfDmg 5" .dw_standart_effects "DW_switch_mode"  "DW_switch_mode_reset" .dw_grasp_effects. "DW_switch_mode_reset" "DW_switch_mode" is_crit_valid True .is_continue_turn true  .ignore_protection true .per_turn_limit 1 .valid_modes dw_standart dw_grasp
+
+combat_skill: .id "death_grasp"  .level 0 .required_performer_hp_range  0.60 100 .launch 432 .target .is_crit_valid False .nil false .dw_standart_effects "Wraith_Tooltip_immo 1" "Summon Bonewall 1"  "DW Grasp Debuff" "DW Wall Bark" .valid_modes dw_standart   .is_stall_invalidating false
+combat_skill: .id "death_grasp"  .level 1 .required_performer_hp_range  0.55 100 .launch 432 .target .is_crit_valid False .nil false .dw_standart_effects "Wraith_Tooltip_immo 1" "Summon Bonewall 2"  "DW Grasp Debuff" "DW Wall Bark" .valid_modes dw_standart   .is_stall_invalidating false
+combat_skill: .id "death_grasp"  .level 2 .required_performer_hp_range  0.50 100 .launch 432 .target .is_crit_valid False .nil false .dw_standart_effects "Wraith_Tooltip_immo 3" "Summon Bonewall 3"  "DW Grasp Debuff" "DW Wall Bark" .valid_modes dw_standart   .is_stall_invalidating false
+combat_skill: .id "death_grasp"  .level 3 .required_performer_hp_range  0.45 100 .launch 432 .target .is_crit_valid False .nil false .dw_standart_effects "Wraith_Tooltip_immo 4" "Summon Bonewall 4"  "DW Grasp Debuff" "DW Wall Bark" .valid_modes dw_standart   .is_stall_invalidating false
+combat_skill: .id "death_grasp"  .level 4 .required_performer_hp_range  0.40 100 .launch 432 .target .is_crit_valid False .nil false .dw_standart_effects "Wraith_Tooltip_immo 5" "Summon Bonewall 5"  "DW Grasp Debuff" "DW Wall Bark" .valid_modes dw_standart   .is_stall_invalidating false
+
+combat_skill: .id "firebomb" 	 .level 0 .type "ranged" .atk 85%  .dmg -85% .crit 0% .launch 1 .target ~1234 .rank_damage_modifiers 0.00 0.00 0.50 0.50 .is_crit_valid true .ignore_stealth false .effect  "Wraith Bomb Tooltip 1" "DW AllyDmg 1" .valid_modes dw_standart dw_grasp
+combat_skill: .id "firebomb" 	 .level 1 .type "ranged" .atk 90%  .dmg -85% .crit 0% .launch 1 .target ~1234 .rank_damage_modifiers 0.00 0.00 0.50 0.50 .is_crit_valid true .ignore_stealth false .effect  "Wraith Bomb Tooltip 2" "DW AllyDmg 2" .valid_modes dw_standart dw_grasp
+combat_skill: .id "firebomb" 	 .level 2 .type "ranged" .atk 95%  .dmg -80% .crit 0% .launch 1 .target ~1234 .rank_damage_modifiers 0.00 0.00 0.50 0.50 .is_crit_valid true .ignore_stealth false .effect  "Wraith Bomb Tooltip 3" "DW AllyDmg 3" .valid_modes dw_standart dw_grasp
+combat_skill: .id "firebomb" 	 .level 3 .type "ranged" .atk 100% .dmg -80% .crit 0% .launch 1 .target ~1234 .rank_damage_modifiers 0.00 0.00 0.50 0.50 .is_crit_valid true .ignore_stealth false .effect  "Wraith Bomb Tooltip 4" "DW AllyDmg 4" .valid_modes dw_standart dw_grasp
+combat_skill: .id "firebomb" 	 .level 4 .type "ranged" .atk 105% .dmg -75% .crit 0% .launch 1 .target ~1234 .rank_damage_modifiers 0.00 0.00 0.50 0.50 .is_crit_valid true .ignore_stealth false .effect  "Wraith Bomb Tooltip 5" "DW AllyDmg 5" .valid_modes dw_standart dw_grasp
+
+combat_skill: .id "reaper_seal"  .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid false  .can_miss true .nil true .effect "Wraith Light 6" "Wraith Tooltip Corpse 1" "Corpseplosion 1" "Corpseplosion Stress 1" "DW_corpse_clean" .valid_modes dw_standart dw_grasp
+combat_skill: .id "reaper_seal"  .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid false  .can_miss true .nil true .effect "Wraith Light 6" "Wraith Tooltip Corpse 2" "Corpseplosion 2" "Corpseplosion Stress 1" "DW_corpse_clean" .valid_modes dw_standart dw_grasp
+combat_skill: .id "reaper_seal"  .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid false  .can_miss true .nil true .effect "Wraith Light 6" "Wraith Tooltip Corpse 3" "Corpseplosion 3" "Corpseplosion Stress 1" "DW_corpse_clean" .valid_modes dw_standart dw_grasp
+combat_skill: .id "reaper_seal"  .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid false  .can_miss true .nil true .effect "Wraith Light 6" "Wraith Tooltip Corpse 4" "Corpseplosion 4" "Corpseplosion Stress 1" "DW_corpse_clean" .valid_modes dw_standart dw_grasp
+combat_skill: .id "reaper_seal"  .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target ~1234 .is_crit_valid false  .can_miss true .nil true .effect "Wraith Light 6" "Wraith Tooltip Corpse 5" "Corpseplosion 5" "Corpseplosion Stress 1" "DW_corpse_clean" .valid_modes dw_standart dw_grasp
+
+combat_skill: .id "lifedrain" 	 .level 0 .type "ranged" .atk 85%  .dmg -65% .crit -0% .launch 123 .target 123 .is_crit_valid true .damage_heal_base_class_ids darkwraith bone_wall .effect "DW Drain Balance" "DW HPB 1" "Wraith Tooltip Steal 1" "DW Man Killer 1" "DW HPD 1" .ignore_protection false .valid_modes dw_standart dw_grasp  .ignore_protection true .is_stall_invalidating false
+combat_skill: .id "lifedrain" 	 .level 1 .type "ranged" .atk 90%  .dmg -65% .crit -0% .launch 123 .target 123 .is_crit_valid true .damage_heal_base_class_ids darkwraith bone_wall .effect "DW Drain Balance" "DW HPB 2" "Wraith Tooltip Steal 2" "DW Man Killer 2" "DW HPD 2" .ignore_protection false .valid_modes dw_standart dw_grasp  .ignore_protection true .is_stall_invalidating false
+combat_skill: .id "lifedrain" 	 .level 2 .type "ranged" .atk 95%  .dmg -65% .crit -0% .launch 123 .target 123 .is_crit_valid true .damage_heal_base_class_ids darkwraith bone_wall .effect "DW Drain Balance" "DW HPB 3" "Wraith Tooltip Steal 3" "DW Man Killer 3" "DW HPD 3" .ignore_protection false .valid_modes dw_standart dw_grasp  .ignore_protection true .is_stall_invalidating false
+combat_skill: .id "lifedrain" 	 .level 3 .type "ranged" .atk 100% .dmg -65% .crit -0% .launch 123 .target 123 .is_crit_valid true .damage_heal_base_class_ids darkwraith bone_wall .effect "DW Drain Balance" "DW HPB 4" "Wraith Tooltip Steal 4" "DW Man Killer 4" "DW HPD 4" .ignore_protection false .valid_modes dw_standart dw_grasp  .ignore_protection true .is_stall_invalidating false
+combat_skill: .id "lifedrain" 	 .level 4 .type "ranged" .atk 105% .dmg -65% .crit -0% .launch 123 .target 123 .is_crit_valid true .damage_heal_base_class_ids darkwraith bone_wall .effect "DW Drain Balance" "DW HPB 5" "Wraith Tooltip Steal 5" "DW Man Killer 5" "DW HPD 5" .ignore_protection false .valid_modes dw_standart dw_grasp  .ignore_protection true .is_stall_invalidating false
+
+combat_skill: .id "grim_reflection" .level 0 .launch 4321 .target .is_crit_valid False .effect "DW Cooldown TT" "Wraith Healdot 1" "DW Cooldown 1" .valid_modes dw_standart dw_grasp .is_stall_invalidating false
+combat_skill: .id "grim_reflection" .level 1 .launch 4321 .target .is_crit_valid False .effect "DW Cooldown TT" "Wraith Healdot 2" "DW Cooldown 1" .valid_modes dw_standart dw_grasp .is_stall_invalidating false
+combat_skill: .id "grim_reflection" .level 2 .launch 4321 .target .is_crit_valid False .effect "DW Cooldown TT" "Wraith Healdot 3" "DW Cooldown 1" .valid_modes dw_standart dw_grasp .is_stall_invalidating false
+combat_skill: .id "grim_reflection" .level 3 .launch 4321 .target .is_crit_valid False .effect "DW Cooldown TT" "Wraith Healdot 4" "DW Cooldown 1" .valid_modes dw_standart dw_grasp .is_stall_invalidating false
+combat_skill: .id "grim_reflection" .level 4 .launch 4321 .target .is_crit_valid False .effect "DW Cooldown TT" "Wraith Healdot 5" "DW Cooldown 1" .valid_modes dw_standart dw_grasp .is_stall_invalidating false
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .ignore_guard true .ignore_protection true 
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321 .effect "DW_switch_mode_reset" 
+
+//Misc
+//-----------------------------------------------------------------------------------------
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "darkwraith"
+tag: .id "cursed_ground"
+
+//extra_curio_loot:  .code "DW_TRINKETS" .count 1
+//extra_battle_loot: .code "DW_TRINKETS" .count 1
+
+//Modes
+mode: .id dw_standart .is_raid_default true
+mode: .id dw_grasp   .battle_complete_combat_skill_id move .stress_damage_per_turn 7
+//.valid_modes dw_standart dw_grasp
+
+activity_modifier: .override_valid_activity_ids flagellation meditation bar gambling treatment disease_treatment .override_stress_removal_amount_low 70 .override_stress_removal_amount_high 100
+quirk_modifier: .incompatible_class_ids  nymphomania love_interest  god_fearing  deviant_tastes  witness faithless warrior_of_light winded  diurnal tanatophobia lygophobia photomania dud_hitter early_riser night_blindness tuckered_out fear_of_unholy satanophobia anemic thick_blooded wos_quirk_1 wos_quirk_2 wos_quirk_3 wos_quirk_4
+
+incompatible_party_member: .id darkwraith_religion .hero_tag vestal
+incompatible_party_member: .id darkwraith_limit .hero_tag darkwraith
+
+controlled: .target_rank 1
+id_index: .index 420420420
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 0 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0
+
+//Death Door 
+//-----------------------------------------------------------------------------------------
+
+//hp_reaction: .hp_ratio 0.40 .is_under true .effects 
+deaths_door: .buffs  DW_HPRECOVERY_DD DW_DD_DMGLBUFF DW_DD_DMGHBUFF DW_DD_PROTBUFF Rage_DeathDoor_BUFF DW_DD_SPDBUFF DW_Aura .recovery_buffs  DW_RE_Resolve DW_RECOVERY_MAXHP DW_RECOVERY_DMGHBUFF  DW_RECOVERY_DMGLBUFF DW_RECOVERY_SPDBUFF   .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff DW_RE_Resolve DW_RECOVERY_MAXHP RECOVERY_DMGHBUFF		.enter_effects darkwraith_death_door_enter  Wraith_Riposte_death_door_enter  darkwraith_death_door_enter_stress Wraith_Light_death_door_enter DW_death_door_enter_TT_2 DW_death_door_enter_TT .enter_effect_round_cooldown 6
+death_reaction: .target_allies true .target_enemies true .effects "Wraiths Last Curse"
+death_reaction: .effects "Wraith_Light_death"

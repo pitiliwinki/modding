@@ -1,0 +1,30 @@
+display: .size 1
+enemy_type: .id "unholy"
+enemy_type: .id "man"
+enemy_type: .id "talonbrigands"
+stats: .hp 179 .def 34% .prot 0.1 .spd 10 .stun_resist 97.5% .poison_resist 147.5% .bleed_resist 87.5% .debuff_resist 97.5% .move_resist 97.5%
+skill: .id "they_circle_above" .type "ranged" .valid_modes "birds" "nobirds" .atk 202.5% .dmg 0 0 .crit 0%  .effect "Rank Target Enemy 1" "switch_mode_nobirds_self" .launch 4321 .target 1234 .extra_targets_count 1 .extra_targets_chance 0.4 .is_crit_valid False .ignore_stealth true .can_miss False .is_knowledgeable False
+skill: .id "waking_feast" .type "ranged" .valid_modes "birds" "nobirds" .atk 116.25% .dmg 6 13 .crit 18.75%  .effect "Clear Enemy Rank Target" "Talon Mother Waking Feast Stumble 5" "Talon Mother Waking Feast Stress 5" "switch_mode_birds_self" .launch 1234 .target 1234 .extra_targets_count 3 .extra_targets_chance 1 .ignore_stealth true .can_be_riposted false .is_knowledgeable False
+skill: .id "call_the_flock" .type "ranged" .valid_modes "birds" "nobirds" .atk 0% .dmg 0 0 .crit 0%  .effect "Talon Mother Summon B3" "Talon Mother Summon C3" .launch 4321 .target  .is_crit_valid False .is_knowledgeable False
+skill: .id "carrion_renewal" .type "melee" .valid_modes "birds" "nobirds" .atk 0% .dmg 0 0 .crit 0%  .launch 43 .target @123 .heal 11 19 .effect "Talon Mother Carrion Self DMG 5" .self_target_valid False .is_crit_valid False
+skill: .id "pluck_to_the_bone" .type "melee" .valid_modes "birds" "nobirds" .atk 0% .dmg 0 0 .crit 0%  .launch 4321 .target .effect "Talon Mother Corpse Heal 5" "Talon Mother Corpse Devour" .is_crit_valid False
+skill: .id "prey_on_the_weak" .type "melee" .valid_modes "birds" "nobirds" .atk 0% .dmg 0 0 .crit 0%  .launch 4321 .target @1234 .effect "kill_target" "Talon Mother Corpse Heal 5" "Talon Mother Prey Horror 5" "Talon Mother Corpse Devour" .self_target_valid False .is_crit_valid False .is_knowledgeable False
+
+skill: .id "grave_marker" .type "ranged" .valid_modes "birds" "nobirds" .atk 106.25% .dmg 11 17 .crit 18.75%  .effect "Mark Target" .launch 34 .target 1234
+skill: .id "fatal_gouge" .type "melee" .valid_modes "birds" "nobirds" .atk 106.25% .dmg 11 17 .crit 18.75%  .effect "Talon Mother Bleed 5" .launch 1234 .target 123
+skill: .id "deathtouch" .type "melee" .valid_modes "birds" "nobirds" .atk 116.25% .dmg 2 3 .crit 10.75%  .effect "Talon Mother Bleed 5" "Talon Mother Blight 5" .launch 12 .target 12
+
+personality: .prefskill -1
+loot: .code "B" .count 3
+loot: .code "T" .count 1
+loot: .code "TALON_MOTHER_TRINKET" .count 1
+loot: .code "TALON_MOTHER_TRINKET_EXTRA" .count 1
+loot: .code "falc_mother_lore" .count 1
+loot: .code "FALC_MOTHER_FEATHER" .count 1
+initiative: .number_of_turns_per_round 2
+monster_brain: .id talon_mother
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise True .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+battle_backdrop: .background_name "flashback_falconer_ambush" .animation "flashback_falconer_ambush_animation" .isFlat False
+mode: .id birds .is_raid_default true
+mode: .id nobirds

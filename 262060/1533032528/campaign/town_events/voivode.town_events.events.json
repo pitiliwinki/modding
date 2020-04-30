@@ -1,0 +1,201 @@
+{
+    "events": [
+        {
+            "id": "first_voivode",
+            "base_chance": 10.0,
+            "per_not_rolled_additional_chance": 10.0,
+            "cooldown": 0,
+            "is_unique" : true,
+            "priority":"higher",            
+            "requirements": {
+                "minimum_week": 5,
+                "dead_heroes": 0,
+                "hero_level_counts": [ ],
+                "upgrades_purchased": [ ],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [ ],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "voivode",
+                    "number_data": 1.0
+                }
+            ],
+            "custom_frame_id" : "darkspawn_event_hero"
+        },
+		 {
+            "id": "idle_resolve_level_voivode",
+            "base_chance": 3.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "cooldown": 20,
+            "requirements": {
+                "minimum_week": 25,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "town_event_idle_resolve_level_voivode",
+            "sprite_attachment": "statue",
+            "data": [
+				{
+                    "type": "activity_lock",
+                    "string_data": "prayer",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "idle_resolve_level",
+                    "string_data": "voivode",
+                    "number_data": 1.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "Town_Event_QuirkEvolution_1_to_2",
+                    "number_data": 0.0
+                }
+				
+            ],
+            "custom_frame_id" : "darkspawn_event"
+        },
+        {
+            "id": "bonus_recruit_voivode",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 0,
+            "is_unique": true,
+            "requirements": {
+                "minimum_week": 11,
+                "dead_heroes": 0,
+                "hero_level_counts": [ ],
+                "upgrades_purchased": [ ],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [ ],
+            "tone": "neutral",
+             "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "voivode",
+                    "number_data": 1.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_1, hatred_of_man, nocturnal, lurker, sensitive_to_light, dark_temptation, paranormania",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_1, nocturnal, night_owl, sensitive_to_light, phengophobia, dark_temptation, faithless",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_2, slayer_of_man, night_owl, phengophobia, faithless, paranormania",
+                    "number_data": 0.0
+                }
+            ],
+            "custom_frame_id" : "darkspawn_event_hero"
+        },
+		{
+            "id": "lock_brothel_voivode",
+            "base_chance": 1.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 15,
+            "requirements": {
+                "minimum_week": 20,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "bad",
+            "sprite": "town_event_lock_brothel_voivode",
+            "sprite_attachment": "tavern",
+            "data": [  
+				{
+                    "type": "activity_lock",
+                    "string_data": "brothel",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "Town_Event_QuirkEvolution_1_to_2",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "vv_tooltip_vv_town_event_food",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_1",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_2",
+                    "number_data": 0.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_strigo_3",
+                    "number_data": 0.0
+                }
+				
+              
+            ],
+            "custom_frame_id" : "darkspawn_event"
+        },
+	
+		{
+            "id": "bonus_Prince_of_Darkness",
+            "base_chance": 5.0,
+			"per_not_rolled_additional_chance": 10.0,
+            "cooldown": 30,
+            "is_unique": false,
+            "requirements": {
+                "minimum_week": 50,
+                "dead_heroes": 0,
+                "hero_level_counts": [
+                    {
+                        "level": 5,
+                        "count": 2
+                    }
+                ],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+				
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_2, night_owl, lurker, nocturnal, phengophobia, faithless, paranormania, sensitive_to_light",
+                    "number_data": 5.0
+                },
+				{
+                    "type": "quirked_recruit",
+                    "string_data": "VV_quirk_2, night_owl, lurker, nocturnal, phengophobia, faithless, paranormania, sensitive_to_light",
+                    "number_data": 5.0
+                }
+				
+            ],
+            "custom_frame_id" : "darkspawn_event_hero"
+        }
+		
+		
+    ]
+}

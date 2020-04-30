@@ -1,0 +1,7 @@
+commonfx: .deathfx death_medium
+skill: .id "vile_vomit" .anim "attack_ranged" .fx "vile_vomit" .targchestfx "vomit_target" .area_pos_offset -150 0
+skill: .id "corpse_committee" .anim "attack_summon" .fx "corpse_committee"
+
+defending_area_pos_offset: .offset 50 0
+
+rendering: .sort_position_z_rank_override -4

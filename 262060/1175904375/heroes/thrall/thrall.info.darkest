@@ -1,0 +1,79 @@
+resistances: .stun 50% .poison 40% .bleed 30% .disease 40% .move 60% .debuff 40% .death_blow 67% .trap 10%
+crit: .effects "on_crit_thrall"
+weapon: .name "thrall_weapon_0" .atk 0% .dmg 7 14 .crit 0% .spd 0
+weapon: .name "thrall_weapon_1" .atk 0% .dmg 8 16 .crit 1% .spd 0 .upgradeRequirementCode 0
+weapon: .name "thrall_weapon_2" .atk 0% .dmg 9 18 .crit 2% .spd 1 .upgradeRequirementCode 1
+weapon: .name "thrall_weapon_3" .atk 0% .dmg 10 20 .crit 3% .spd 1 .upgradeRequirementCode 2
+weapon: .name "thrall_weapon_4" .atk 0% .dmg 12 24 .crit 4% .spd 2 .upgradeRequirementCode 3
+armour: .name "thrall_armour_0" .def 0% .prot 0 .hp 37 .spd 0
+armour: .name "thrall_armour_1" .def 5% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 0
+armour: .name "thrall_armour_2" .def 10% .prot 0 .hp 51 .spd 0 .upgradeRequirementCode 1
+armour: .name "thrall_armour_3" .def 15% .prot 0 .hp 58 .spd 0 .upgradeRequirementCode 2
+armour: .name "thrall_armour_4" .def 20% .prot 0 .hp 65 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "maim" .level 0 .type "melee" .atk 75% .dmg 0% .crit 0% .launch 12 .target 12 .is_crit_valid True  .effect "Maim Bleed 1" "Maim Push 1A"  .generation_guaranteed true
+combat_skill: .id "maim" .level 1 .type "melee" .atk 80% .dmg 0% .crit 1% .launch 12 .target 12 .is_crit_valid True  .effect "Maim Bleed 2" "Maim Push 1B" 
+combat_skill: .id "maim" .level 2 .type "melee" .atk 85% .dmg 0% .crit 2% .launch 12 .target 12 .is_crit_valid True  .effect "Maim Bleed 3" "Maim Push 1C" 
+combat_skill: .id "maim" .level 3 .type "melee" .atk 90% .dmg 0% .crit 3% .launch 12 .target 12 .is_crit_valid True  .effect "Maim Bleed 4" "Maim Push 1D" 
+combat_skill: .id "maim" .level 4 .type "melee" .atk 95% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True  .effect "Maim Bleed 5" "Maim Push 1E" 
+combat_skill: .id "gore" .level 0 .type "melee" .atk 75% .dmg 25% .crit 5% .launch 1 .target 1 .is_crit_valid True  .effect "Hero Strong Stun 1" "Gore Stun Self 1" "Gore Bleed 1" "Gore Self Debuff"
+combat_skill: .id "gore" .level 1 .type "melee" .atk 80% .dmg 25% .crit 6% .launch 1 .target 1 .is_crit_valid True  .effect "Hero Strong Stun 2" "Gore Stun Self 2" "Gore Bleed 2" "Gore Self Debuff"
+combat_skill: .id "gore" .level 2 .type "melee" .atk 85% .dmg 25% .crit 7% .launch 1 .target 1 .is_crit_valid True  .effect "Hero Strong Stun 3" "Gore Stun Self 3" "Gore Bleed 3" "Gore Self Debuff"
+combat_skill: .id "gore" .level 3 .type "melee" .atk 90% .dmg 25% .crit 8% .launch 1 .target 1 .is_crit_valid True  .effect "Hero Strong Stun 4" "Gore Stun Self 4" "Gore Bleed 4" "Gore Self Debuff"
+combat_skill: .id "gore" .level 4 .type "melee" .atk 95% .dmg 25% .crit 9% .launch 1 .target 1 .is_crit_valid True  .effect "Hero Strong Stun 5" "Gore Stun Self 5" "Gore Bleed 5" "Gore Self Debuff"
+combat_skill: .id "indomitable_will" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .is_crit_valid True  .effect "Indomitable Will Heal 1" "Indomitable Stress Heal 1" "Indomitable Buff 1" .is_stall_invalidating false
+combat_skill: .id "indomitable_will" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .is_crit_valid True  .effect "Indomitable Will Heal 2" "Indomitable Stress Heal 2" "Indomitable Buff 2" .is_stall_invalidating false
+combat_skill: .id "indomitable_will" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .is_crit_valid True  .effect "Indomitable Will Heal 3" "Indomitable Stress Heal 3" "Indomitable Buff 3" .is_stall_invalidating false
+combat_skill: .id "indomitable_will" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .is_crit_valid True  .effect "Indomitable Will Heal 4" "Indomitable Stress Heal 4" "Indomitable Buff 4" .is_stall_invalidating false
+combat_skill: .id "indomitable_will" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 1234 .target .is_crit_valid True  .effect "Indomitable Will Heal 5" "Indomitable Stress Heal 5" "Indomitable Buff 5" .is_stall_invalidating false
+combat_skill: .id "torment" .level 0 .type "ranged" .atk 100% .dmg -95% .crit -8% .launch 12 .target ~1234 .is_crit_valid True  .effect "Torment Mark Self" "Torment Buff 1" "Torment Riposte 1" .is_stall_invalidating false
+combat_skill: .id "torment" .level 1 .type "ranged" .atk 105% .dmg -95% .crit -7% .launch 12 .target ~1234 .is_crit_valid True  .effect "Torment Mark Self" "Torment Buff 2" "Torment Riposte 2" .is_stall_invalidating false
+combat_skill: .id "torment" .level 2 .type "ranged" .atk 110% .dmg -95% .crit -6% .launch 12 .target ~1234 .is_crit_valid True  .effect "Torment Mark Self" "Torment Buff 3" "Torment Riposte 3" .is_stall_invalidating false
+combat_skill: .id "torment" .level 3 .type "ranged" .atk 115% .dmg -95% .crit -5% .launch 12 .target ~1234 .is_crit_valid True  .effect "Torment Mark Self" "Torment Buff 4" "Torment Riposte 4" .is_stall_invalidating false
+combat_skill: .id "torment" .level 4 .type "ranged" .atk 120% .dmg -95% .crit -4% .launch 12 .target ~1234 .is_crit_valid True  .effect "Torment Mark Self" "Torment Buff 5" "Torment Riposte 5" .is_stall_invalidating false
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 1 .launch 4321
+combat_skill: .id "savagery" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target .is_crit_valid False  .effect "Savagery Buff 1" .is_stall_invalidating false
+combat_skill: .id "savagery" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target .is_crit_valid False  .effect "Savagery Buff 2" .is_stall_invalidating false
+combat_skill: .id "savagery" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target .is_crit_valid False  .effect "Savagery Buff 3" .is_stall_invalidating false
+combat_skill: .id "savagery" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target .is_crit_valid False  .effect "Savagery Buff 4" .is_stall_invalidating false
+combat_skill: .id "savagery" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target .is_crit_valid False  .effect "Savagery Buff 5" .is_stall_invalidating false
+combat_skill: .id "trample" .level 0 .type "melee" .atk 75% .dmg -45% .crit -2% .move 0 3 .launch 4 .target ~123 .is_crit_valid True  .effect "Trample Push 2A" "Trample Clear Corpse"
+combat_skill: .id "trample" .level 1 .type "melee" .atk 80% .dmg -45% .crit -1% .move 0 3 .launch 4 .target ~123 .is_crit_valid True  .effect "Trample Push 2B" "Trample Clear Corpse"
+combat_skill: .id "trample" .level 2 .type "melee" .atk 85% .dmg -45% .crit 0% .move 0 3 .launch 4 .target ~123 .is_crit_valid True  .effect "Trample Push 2C" "Trample Clear Corpse"
+combat_skill: .id "trample" .level 3 .type "melee" .atk 90% .dmg -45% .crit 1% .move 0 3 .launch 4 .target ~123 .is_crit_valid True  .effect "Trample Push 2D" "Trample Clear Corpse"
+combat_skill: .id "trample" .level 4 .type "melee" .atk 95% .dmg -45% .crit 2% .move 0 3 .launch 4 .target ~123 .is_crit_valid True  .effect "Trample Push 2E" "Trample Clear Corpse"
+combat_skill: .id "tremors" .level 0 .type "ranged" .atk 95% .dmg -75% .crit -4% .launch 1234 .target ?1234 .is_crit_valid True  .effect "Hero Strong Stun 1" "Tremors Shuffle 1"
+combat_skill: .id "tremors" .level 1 .type "ranged" .atk 100% .dmg -75% .crit -3% .launch 1234 .target ?1234 .is_crit_valid True  .effect "Hero Strong Stun 2" "Tremors Shuffle 2"
+combat_skill: .id "tremors" .level 2 .type "ranged" .atk 105% .dmg -75% .crit -2% .launch 1234 .target ?1234 .is_crit_valid True  .effect "Hero Strong Stun 3" "Tremors Shuffle 3"
+combat_skill: .id "tremors" .level 3 .type "ranged" .atk 110% .dmg -75% .crit -1% .launch 1234 .target ?1234 .is_crit_valid True  .effect "Hero Strong Stun 4" "Tremors Shuffle 4"
+combat_skill: .id "tremors" .level 4 .type "ranged" .atk 115% .dmg -75% .crit 0% .launch 1234 .target ?1234 .is_crit_valid True  .effect "Hero Strong Stun 5" "Tremors Shuffle 5"
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 80% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True  .effect "Torment Bleed" 
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "amphitheater"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 1333
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+extra_battle_loot: .code "THRALL_JOURNAL" .count 1
+extra_curio_loot: .code "THRALL_JOURNAL" .count 1
+hp_reaction: .hp_ratio 0.95 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.9 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.85 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.8 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.75 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.7 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.65 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.6 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.55 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.5 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.45 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.4 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.35 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.3 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.25 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.2 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.15 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.1 .is_under true .effects thrall_low_hp_reaction
+hp_reaction: .hp_ratio 0.05 .is_under true .effects thrall_low_hp_reaction
+overstressed_modifier: .override_trait_type_ids thrallferocious .override_trait_type_chances 1.0
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

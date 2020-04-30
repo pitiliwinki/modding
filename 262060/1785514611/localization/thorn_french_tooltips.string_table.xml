@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="french">
+ 
+	<!--
+		To translators : 
+	There are a lot of duplicates, spaces and returns to line, please be sure to keep everything in place to ensure a good display :) 
+	Also, there are a lot of basic effects described here, please fit as much as possible to what already exists in base game.
+		Thanks for your work!	
+	-->
+
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[Soins de {colour_start|stress}stress{colour_end} reçus provenant d'effets %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[Durée de {colour_start|bleed}saignement{colour_end} %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[Renvoi des dégâts : %d%%]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}Malus sur cible :{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[Autres ennemis :]]></entry>
+
+    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[Défensive]]></entry>
+    <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_defensive"><![CDATA[
+	{colour_start|specificclass}Disponible dans les deux poses{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Défensive]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}Défensive:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}Offensive:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}Déstabilisé:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
+	{colour_start|specificclass}Pose Offensive uniquement{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
+	{colour_start|specificclass}Pose Défensive uniquement{colour_end}
+	
+	]]></entry>
+
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s si PAS en mode %s]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Déstabilisé lorsque touché]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[Passe en pose : Offensive
+	Active la {colour_start|riposte}riposte{colour_end}
+	{colour_start|riposte}Riposte{colour_end}: DMG %d%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Annule les effets Défensifs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}Déstabilisé{colour_end} lorsque touché :]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Annule la {colour_start|riposte}Riposte{colour_end}
+	{colour_start|stress}Stress{colour_end} +5]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Passe en pose : Défensive
+	Annule les effets Offensifs
+	{colour_start|notable}Continue le Tour{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Passe en pose : Offensive
+	Réactive la {colour_start|riposte}Riposte{colour_end}
+	{colour_start|notable}Continue le Tour{colour_end}]]></entry>	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[DMG -50%%
+	{colour_start|stun}Étourdissement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[Chances d'{colour_start|stun}étourdissement{colour_end} +%d%% vs {colour_start|mark}Marque{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[DMG +%d%% vs {colour_start|mark}Marque{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[{colour_start|stealth}Sortie de furtivité{colour_end}
+	PRÉ -5 {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[{colour_start|stealth}Sortie de furtivité{colour_end}
+	PRÉ -6 {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[{colour_start|stealth}Sortie de furtivité{colour_end}
+	PRÉ -7 {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[{colour_start|stealth}Sortie de furtivité{colour_end}
+	PRÉ -8 {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[{colour_start|stealth}Sortie de furtivité{colour_end}
+	PRÉ -10 {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[Si gardé : Destruction de garde
+	Chances de crits reçus +5%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[Si gardé : Destruction de garde
+	Chances de crits reçus +6%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[Si gardé : Destruction de garde
+	Chances de crits reçus +7%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[Si gardé : Destruction de garde
+	Chances de crits reçus +8%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[Si gardé : Destruction de garde
+	Chances de crits reçus +10%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 4 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 5 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 6 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +25%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +33%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +50%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltSpeed"><![CDATA[Sur soi :
+	VIT +%d]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Dure un tour{colour_end}]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -20%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -23%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -26%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -30%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -33%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 3 trs]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[Alliés {colour_start|guard}protégeant{colour_end} ou {colour_start|guard}protégés{colour_end} :
+	{colour_start|healhp}Soigne{colour_end} %d PV]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Marque{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}Dure jusqu'à la fin de la garde{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearkendmg"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -200%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearkenacc"><![CDATA[{colour_start|riposte}Riposte{colour_end}: PRÉ -%d%%]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Réduit fortement les chances d'embuscade nocturne]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[Quand attaque touche : Annule la {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[Pas de stress supplémentaire selon le niveau de luminosité]]></entry>
+
+  </language>
+
+</root>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <language id="english">
+  
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+
+  </language>
+ <language id="french">
+
+ 	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>	
+	
+  </language>
+ <language id="russian">
+ 	
+	<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% снятие {colour_start|stress}стресса{colour_end} если ничем не занят.]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% снятие {colour_start|stress}стресса{colour_end} от критических попаданий]]></entry>
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s пр. не %d%%]]></entry>
+	
+	
+	<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Другие враги:]]></entry>
+
+
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Стригой]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Человек]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Стригой]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[Как стригой:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Скорость горения факела{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% {colour_start|quirk_positive}Усиливающие освещение{colour_end} способности]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|stealth}Снижающие освещение{colour_end} способности]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Факел]]></entry>
+	
+	<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+
+	
+  </language>
+ <language id="polish">
+  
+  <entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+  </language>
+ <language id="czech">
+  
+  <entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	
+	
+  </language>
+ <language id="italian">
+   
+ <entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	
+	
+  </language>
+ <language id="schinese">
+ 
+   
+ <entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+   
+   <!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}压力{colour_end}治疗 (闲置于小镇时)]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}压力{colour_end}治疗造成量 (因暴击)]]></entry>
+<!-- Skill tooltips -->
+    <entry id="effect_tooltip_target_group_other"><![CDATA[其他敌人:]]></entry>
+  
+
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[火把]]></entry>
+    
+   
+<!-- Mode tooltips -->
+    <entry id="buff_rule_data_tooltip_strigo"><![CDATA[斯特里戈伊]]></entry>
+    <entry id="buff_rule_data_tooltip_human"><![CDATA[人类]]></entry>
+    <entry id="actor_mode_name_strigo"><![CDATA[斯特里戈伊]]></entry>
+    <entry id="str_skill_mode_info_strigo"><![CDATA[化身斯特里戈伊时:]]></entry>
+   
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% 亮度减少速率]]></entry>
+    <entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%+d%% 亮度增加量]]></entry>
+    <entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% 亮度减少量]]></entry>
+   
+   
+<!-- Skill Name tooltips -->
+    <entry id="buff_rule_data_tooltip_bats"><![CDATA[嗜血群蝠]]></entry>
+    <entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[斯特里戈伊变身]]></entry>
+    <entry id="buff_rule_data_tooltip_darkform"><![CDATA[影子戏法]]></entry>
+    <entry id="buff_rule_data_tooltip_souleater"><![CDATA[灵魂盛宴]]></entry>
+    <entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[服从我！]]></entry>
+
+   
+   
+  </language>
+ <language id="german">
+  
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stressheilung{colour_end} von KRITS]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lebensraub{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lebensraub{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Heilung{colour_end} durch Nahrung]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stressheilung{colour_end}wenn untätig im Dorf]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s gg nicht %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s gg nicht %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[Bei Monsterkill: Helden:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Hof{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Andere Gegner:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Fackel]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Fackel Brenngeschwindigkeit{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Fackel-Reduktions{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% KRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% GES Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Mensch]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Woiwod{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[Als Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Fledermausschwarm]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transformation]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Schattenspiel]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Seelenschmaus]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Gehorche!]]></entry>
+	
+  </language>
+ <language id="koreana">
+  
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[치명타로 {colour_start|stress}스트레스{colour_end}회복 %+d%%]]></entry>
+  	
+	<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+   <!---Rules--->
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[영지에서 아무것도 안하고 보내는 {colour_start|stress}스트레스{colour_end} 회복량 %+d%%]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>	
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs %d%% 제외]]></entry>
+	
+	<!-- Skill tooltips -->
+	<entry id="effect_tooltip_target_group_other"><![CDATA[다른 적들:]]></entry>
+	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[{colour_start|stress}공포{colour_end} 제거]]></entry>
+	<entry id="tray_icon_tooltip_hp_heal_dot_format"><![CDATA[턴당 체력 %d (%d 턴마다)]]></entry>
+	
+	<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_succubus"><![CDATA[서큐버스]]></entry>
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[박쥐떼]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[스트리고이 형태]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[그림자 기생]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[영혼의 연회]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[복종하라!]]></entry>
+	<entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[고무시키는 울음소리]]></entry>
+
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+	<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[스트리고이]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[인간]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[스트리고이]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[스트리고이:]]></entry>
+	
+	<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 지속{colour_end} %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 증가{colour_end} 기술의 증가량 %+d%% ]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[{colour_start|quirk_positive}횃불 밝기 감소{colour_end} 기술의 감소량 %+d%%]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[횃불]]></entry>
+	
+	
+  </language>
+ <language id="spanish">
+  
+	<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
+	
+<!---Heal and Stress Sources--->
+	<entry id="buff_stat_tooltip_stress_heal_percent_hero_crit"><![CDATA[%+d%% {colour_start|stress}Stress {colour_end}Healed on Crit]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_damage_heal"><![CDATA[%+d%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[%+d%% {colour_start|healhp}Healing{colour_end} when eating]]></entry>
+	<entry id="buff_stat_tooltip_stress_heal_received_percent_town_idle"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end}healing when idle in town for a week]]></entry>
+   
+<!---Rules--->
+	<entry id="buff_rule_tooltip_actorStatus_false"><![CDATA[{?string1}%s vs not %d%%]]></entry>
+	<entry id="buff_rule_tooltip_has_quirk_false"><![CDATA[%s if not %s]]></entry>
+	<entry id="trinket_kill_all_heroes_additional_effects"><![CDATA[On Kill: Party:]]></entry>	
+	<entry id="buff_rule_data_tooltip_courtyard"><![CDATA[{colour_start|crimson_court}Courtyard{colour_end}]]></entry>
+	<entry id="effect_tooltip_target_group_other"><![CDATA[Other Enemies:]]></entry>
+	<entry id="buff_rule_data_tooltip_torch"><![CDATA[Torch]]></entry>
+		
+<!--Light-->
+    <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% {colour_start|stun}Torch Burn Rate{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%+d%% {colour_start|trap}Torch Decrease{colour_end} Skills]]></entry>
+	
+<!---Combat Stat Multiply--->
+    <entry id="buff_stat_tooltip_combat_stat_multiply_crit_chance"><![CDATA[%+d%% CRT Mult.]]></entry>
+    <entry id="buff_stat_tooltip_combat_stat_multiply_speed_rating"><![CDATA[%+d%% SPD Mult.]]></entry>
+
+
+<!-- Mode tooltips -->
+	<entry id="buff_rule_data_tooltip_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
+	<entry id="buff_rule_data_tooltip_voivode"><![CDATA[{colour_start|notable}Voivode{colour_end}]]></entry>
+	<entry id="actor_mode_name_strigo"><![CDATA[Strigoi]]></entry>
+	<entry id="str_skill_mode_info_strigo"><![CDATA[As Strigoi:]]></entry>
+	
+<!-- Skill Name tooltips -->
+	<entry id="buff_rule_data_tooltip_bats"><![CDATA[Flock of Bats]]></entry>
+	<entry id="buff_rule_data_tooltip_vv_transform"><![CDATA[Transform]]></entry>
+	<entry id="buff_rule_data_tooltip_darkform"><![CDATA[Shadowplay]]></entry>
+	<entry id="buff_rule_data_tooltip_souleater"><![CDATA[Soulfeast]]></entry>
+	<entry id="buff_rule_data_tooltip_hypnosis"><![CDATA[Obey!]]></entry>
+	
+  </language>
+</root>

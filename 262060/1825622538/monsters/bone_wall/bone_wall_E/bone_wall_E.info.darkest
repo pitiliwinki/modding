@@ -1,0 +1,36 @@
+display: .size 1
+enemy_type: .id "unholy"
+enemy_type: .id "wall"
+
+
+stats: .hp 7 .def 0% .prot 15% .spd 0 .stun_resist 300% .poison_resist 0% .bleed_resist 300% .debuff_resist 300% .move_resist 300%
+
+skill: .id "wall_death" .type "melee" .atk 0% .dmg   .crit 0%   .launch 4321 .target  .is_crit_valid False .effect "DW_switch_mode_reset_2" "kill_self_queued" .is_knowledgeable False .can_miss false
+skill: .id "wall_reflect" 	.type "melee" .atk 0% .dmg   .crit 0%   .launch 4321 .target  .is_crit_valid False .effect "Wall Reflect 5" .is_knowledgeable False .can_miss false
+
+skill: .id "wall_explode" 	.type "melee" .atk 0% .dmg   .crit 0%   .launch 4321 .target  .is_crit_valid False .effect  "DW Wall Explode 5" .is_knowledgeable False .can_miss false .starting_cooldown 2
+
+riposte_skill: .id "riposte1" .level 0 .type "ranged" .atk 192.5% .launch 1234 .target 1234 .is_crit_valid True .effect  "DW Wall Explode 5" "kill_self_queued" .ignore_guard true .can_miss false
+
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 0
+
+monster_brain: .id bone_wall
+death_class:  .can_die_from_damage true 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise false .can_be_surprised false .always_surprise False .always_be_surprised False .is_valid_friendly_target False .can_relieve_stress_from_killing_blow False .can_be_missed False .can_be_summon_rank False .does_count_as_monster_size_for_monster_brain True .does_count_towards_stall_penalty False .can_relieve_stress_from_crit False 
+
+
+skill_reaction: .was_killed_by_hero_effects "DW_switch_mode_reset_target" "Wall Spawn ClearGuardsTarget"
+skill_reaction: .was_killed_all_heroes_effects "DW_switch_mode_reset_target" "Wall Spawn ClearGuardsTarget"
+life_time: .alive_round_limit 6.does_check_for_loot false
+spawn: .effects  "Wall Spawn Immo 3" "Wall Spawn ClearGuardsTarget" "Wall Spawn Guard" "Wall Spawn Immo" "DW_switch_mode_2"
+
+life_link: .base_class "darkwraith".does_spawn_loot false
+
+
+additional_effect: .is_valid_trinket_target true .is_valid_trinket_attacker true
+crit: .is_valid_effects_target false
+wave_spawning: .prefers_front True
+
+
+death_reaction: .target_allies true .target_enemies false .effects "DW_switch_mode_reset_target"

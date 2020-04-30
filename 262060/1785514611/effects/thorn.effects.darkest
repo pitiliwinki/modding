@@ -1,0 +1,283 @@
+//--------------------COMMON EFFECTS--------------------
+
+//effect: .name "Random Attack" .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
+
+effect: .name "Thorn_on_crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "Thorn_on_crit_acc" "Thorn_on_crit_dodge" .on_hit true .on_miss false .apply_once true
+
+effect: .name "PRE vs Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
+
+effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "switch End turn" .target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss true .has_description false .queue true
+
+
+
+//--------------------TRANSFORMATION--------------------
+
+effect: .name "Stance DefTT" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill TT Def A" "Stance Skill TT Def B" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance OffTT" .target "performer" .chance 100% .buff_ids "Offensive Skill ToolTip" "Stance Skill TT Off" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance ShckTT" .target "performer" .chance 100% .buff_ids "Shocked Skill ToolTip" "Stance Skill TT Shck" .on_hit false .on_miss true .skill_instant true
+
+//Transform -- Defensive to Offensive Effects
+
+effect: .name "switch to Offensive" .target "performer" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .queue true .has_description false
+
+//Transform -- Offensive to Shocked Effects
+
+effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .buff_source_type riposte .on_hit true .on_miss true .apply_once true
+effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .clear_riposte 1 .untag 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
+
+//Transform -- Shocked to Offensive Effects
+
+effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clear_riposte 1 .buff_ids "Offensive End ToolTip" .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
+effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .clear_riposte 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
+effect: .name "Offensive Riposte Shck SFX" .target "performer" .chance 100% .duration 1 .buff_ids "ShckToOff SFX" .buff_source_type hero_skill .on_hit true .on_miss true .queue true .has_description false
+
+//Transform -- Offensive to Defensive Effects
+
+effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .clear_riposte 1 .on_hit true .on_miss true .has_description false
+
+
+
+//--------------------BOTH MODES--------------------
+
+
+//Thrust
+
+effect: .name "Thrust Off 1" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 2" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 3" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 4" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80% .damage_high_multiply 80% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 5" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .skill_instant true .on_hit true .on_miss true .has_description false
+
+effect: .name "Thrust Def StunVsMark".target "performer" .chance 100% .keyStatus "tagged" .buff_type stun_chance .buff_amount 0.2 .on_hit true .on_miss false .has_description false
+
+effect: .name "Thrust Def".target "performer" .chance 100% .buff_ids "Thrust Defensive Dmg L" "Thrust Defensive Dmg H" .on_hit true .on_miss false .skill_instant true .has_description false
+
+effect: .name "Thrust Def Stun 1" .target "target" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 2" .target "target" .chance 100% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 3" .target "target" .chance 110% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 4" .target "target" .chance 120% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 5" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Thrust Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A1" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A2" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A3" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A4" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A5" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 5" .skill_instant true .on_hit false .on_miss true
+
+
+//Listen
+
+effect: .name "Listen Mark" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
+
+effect: .name "Listen Off Mode" .target "performer" .chance 100% .set_mode offensive .skill_instant true .on_hit true .on_miss true .has_description false
+
+effect: .name "Listen Def 1" .target "target" .chance 100% .unstealth 1 .buff_ids "Listen PRE 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 2" .target "target" .chance 110% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 3" .target "target" .chance 120% .unstealth 1 .buff_ids "Listen PRE 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 4" .target "target" .chance 130% .unstealth 1 .buff_ids "Listen PRE 4" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 5" .target "target" .chance 140% .unstealth 1 .buff_ids "Listen PRE 5" .on_hit true .on_miss false .has_description false
+
+effect: .name "Listen Off 1" .target "target" .chance 100% .clearguarded 1 .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 2" .target "target" .chance 110% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 3" .target "target" .chance 120% .clearguarded 1 .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 4" .target "target" .chance 130% .clearguarded 1 .buff_ids "Listen Crit 4" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 5" .target "target" .chance 140% .clearguarded 1 .buff_ids "Listen Crit 5" .on_hit true .on_miss false .has_description false
+
+effect: .name "Listen Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Listen Def ToolTip 1" "Offensive Skill ToolTip" "Listen Off ToolTip 1" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Listen Def ToolTip 2" "Offensive Skill ToolTip" "Listen Off ToolTip 2" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Listen Def ToolTip 3" "Offensive Skill ToolTip" "Listen Off ToolTip 3" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Listen Def ToolTip 4" "Offensive Skill ToolTip" "Listen Off ToolTip 4" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Listen Def ToolTip 5" "Offensive Skill ToolTip" "Listen Off ToolTip 5" .on_hit true .on_miss false .skill_instant true
+
+
+
+//--------------------DEFENSIVE--------------------
+
+
+//Blossom
+
+effect: .name "Blossom Prot 1" .target "performer" .chance 100% .buff_ids "Blossom Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 2" .target "performer" .chance 100% .buff_ids "Blossom Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 3" .target "performer" .chance 100% .buff_ids "Blossom Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 4" .target "performer" .chance 100% .buff_ids "Blossom Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 5" .target "performer" .chance 100% .buff_ids "Blossom Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
+
+effect: .name "Blossom Fake Prot 1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Fake Prot 2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Fake Prot 3" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 17% .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Fake Prot 4" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 21% .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Fake Prot 5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true .apply_once true
+
+effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .apply_once true
+
+effect: .name "Blossom Heal Buff" .target "performer" .chance 100% .buff_ids "Blossom Heal Debuff" "Blossom Heal Buff Guarding" "Blossom Heal Buff Guarded" .buff_source_type hero_skill .on_hit true .on_miss false .apply_once true .has_description false
+
+effect: .name "Blossom Heal Guard 1" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guard 2" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guard 3" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "Blossom Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 1" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 3" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+
+
+//hearken
+
+effect: .name "hearken Guard" .target "target" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true
+
+effect: .name "hearken StressHeal 1" .target "performer" .chance 100% .healstress 3 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 2" .target "performer" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 3" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 4" .target "performer" .chance 100% .healstress 6 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 5" .target "performer" .chance 100% .healstress 7 .on_hit true .on_miss false
+
+effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
+
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 1" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 1" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 2" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 2" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 3" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 3" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .has_description false
+
+effect: .name "hearken Mark" .target "target" .chance 100% .tag 1 .duration 3 .actor_dot ripdef_fx .on_hit true .on_miss false
+
+effect: .name "hearken Skill ToolTip A1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip A2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip A3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+
+effect: .name "hearken Skill ToolTip B" .target "performer" .chance 100% .buff_ids "hearken Skill ToolTip 1" "hearken Skill ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
+
+//--------------------OFFENSIVE--------------------
+
+
+//Wilt
+
+effect: .name "Wilt Off" .target "performer" .chance 100% .set_mode offensive .on_hit true .on_miss true .has_description false
+
+effect: .name "Wilt Speed 1" .target "performer" .chance 100% .buff_ids "Wilt Speed 1" .on_hit true .on_miss true .has_description false
+effect: .name "Wilt Speed 2" .target "performer" .chance 100% .buff_ids "Wilt Speed 2" .on_hit true .on_miss true .has_description false
+effect: .name "Wilt Speed 3" .target "performer" .chance 100% .buff_ids "Wilt Speed 3" .on_hit true .on_miss true .has_description false
+
+effect: .name "Wilt Debuff 1" .target "target_group_other" .chance 100% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
+effect: .name "Wilt Debuff 2" .target "target_group_other" .chance 110% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
+effect: .name "Wilt Debuff 3" .target "target_group_other" .chance 120% .buff_ids "Wilt Bleed Received 2" .on_hit true .on_miss false .has_description false
+effect: .name "Wilt Debuff 4" .target "target_group_other" .chance 130% .buff_ids "Wilt Bleed Received 2" .on_hit true .on_miss false .has_description false
+effect: .name "Wilt Debuff 5" .target "target_group_other" .chance 140% .buff_ids "Wilt Bleed Received 3" .on_hit true .on_miss false .has_description false
+
+effect: .name "Wilt Bleed 1" .target "target" .dotBleed 4 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 2" .target "target" .dotBleed 4 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 3" .target "target" .dotBleed 5 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 4" .target "target" .dotBleed 5 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 5" .target "target" .dotBleed 6 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+
+effect: .name "Wilt Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 1" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 1" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 2" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 2" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 3" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 3" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 4" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 4" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 5" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 5" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+
+
+//Gash
+
+effect: .name "switch to Gash" .target "performer" .set_mode gash .chance 100% .on_hit true .on_miss true .has_description false
+
+effect: .name "Gash Pierce" .target "performer" .chance 100% .buff_ids "Gash Pierce" .on_hit true .on_miss false .skill_instant true
+
+effect: .name "Gash Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 3" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 4" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 4" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 5" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 5" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+
+effect: .name "Gash Bleed 1" .target "target" .duration 3 .chance 100% .buff_ids "bleed_debuff_1" .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Gash Bleed 2" .target "target" .duration 3 .chance 110% .buff_ids "bleed_debuff_2" .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Gash Bleed 3" .target "target" .duration 3 .chance 120% .buff_ids "bleed_debuff_3" .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Gash Bleed 4" .target "target" .duration 3 .chance 130% .buff_ids "bleed_debuff_4" .on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "Gash Bleed 5" .target "target" .duration 3 .chance 140% .buff_ids "bleed_debuff_5" .on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+effect: .name "Gash Tray ToolTip 1" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 2" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 3" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 3" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 4" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 4" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 5" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 5" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+
+effect: .name "Gash Riposte Bleed 1" .target "target" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 2" .target "target" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 3" .target "target" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 4" .target "target" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 5" .target "target" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "Gash Skill ToolTip A1" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 1" .on_hit true .on_miss true .skill_instant true
+effect: .name "Gash Skill ToolTip A2" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 2" .on_hit true .on_miss true .skill_instant true
+effect: .name "Gash Skill ToolTip A3" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 3" .on_hit true .on_miss true .skill_instant true
+effect: .name "Gash Skill ToolTip A4" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 4" .on_hit true .on_miss true .skill_instant true
+effect: .name "Gash Skill ToolTip A5" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 5" .on_hit true .on_miss true .skill_instant true
+
+effect: .name "Gash Skill ToolTip B1" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B2" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B3" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B4" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B5" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+
+
+//Dare
+
+effect: .name "switch to Dare" .target "performer" .set_mode dare .chance 100% .on_hit true .on_miss true .has_description false
+
+effect: .name "Dare Self Mark" .target "performer" .tag 1 .duration 2 .on_hit true .on_miss true
+
+effect: .name "Dare Mark Clean" .target "performer_group_other" .untag 1 .on_hit true .on_miss true
+
+effect: .name "Dare Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 5%  .damage_high_multiply 5%  .crit_chance_add 5%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 6%  .on_hit true .on_miss true .has_description false 
+effect: .name "Dare Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 7%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 4" .target "performer" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 8%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 5" .target "performer" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 10% .on_hit true .on_miss true .has_description false
+
+effect: .name "Dare Riposte ToolTip 1" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 1" "Dare Riposte ToolTip DMGH 1" "Dare Riposte ToolTip crit 1" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 2" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 2" "Dare Riposte ToolTip DMGH 2" "Dare Riposte ToolTip crit 2" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 3" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 3" "Dare Riposte ToolTip DMGH 3" "Dare Riposte ToolTip crit 3" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 4" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 4" "Dare Riposte ToolTip DMGH 4" "Dare Riposte ToolTip crit 4" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 5" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 5" "Dare Riposte ToolTip DMGH 5" "Dare Riposte ToolTip crit 5" .on_hit false .on_miss true
+
+effect: .name "Dare Dodge 1" .target "performer" .chance 100% .buff_ids "Dare Dodge 1" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 2" .target "performer" .chance 100% .buff_ids "Dare Dodge 2" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 3" .target "performer" .chance 100% .buff_ids "Dare Dodge 3" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 4" .target "performer" .chance 100% .buff_ids "Dare Dodge 4" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 5" .target "performer" .chance 100% .buff_ids "Dare Dodge 5" .on_hit true .on_miss true .has_description false
+
+effect: .name "Dare Dodge ToolTip 1" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 1" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 2" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 2" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 3" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 3" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 4" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 4" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 5" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 5" "One Turn" .on_hit false .on_miss true
+
+effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% .buff_ids "Offensive Mode ToolTip" .on_hit false .on_miss true
+
+
+
+//--------------------TRINKETS--------------------
+
+
+effect: .name "T_Maingauche_Riposte" .target "performer" .chance 100% .buff_ids "T_Maingauche_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "T_Miss_Bleed" .target "target" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
+effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
+effect: .name "T_Signet_Riposte" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "T_Riposte_StressHeal" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "T_Block" .target performer .chance 50% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
+
+
+
+//--------------------VIRTUE/AFFLICTION----------------------
+
+
+effect: .name "FarseeingBlock" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
+effect: .name "FarseeingPartyBuff1" .target "target" .chance 100% .buff_ids "V_MarkedDmg_L" "V_MarkedDmg_H" .on_hit true .on_miss true .queue true
+effect: .name "FarseeingPartyBuff2" .target "target" .chance 100% .buff_ids "V_Crit" "V_PRE" .on_hit true .on_miss true .queue true
+effect: .name "AffliGuard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+

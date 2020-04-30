@@ -1,0 +1,87 @@
+resistances: .stun 40% .poison 20% .bleed 20% .disease 30% .move 40% .debuff 20% .death_blow 67% .trap 10%
+
+// Weapons, Armor, Crit
+weapon: .name "rogue_knight_weapon_0" .atk 0% .dmg  7 14 .crit 1% .spd 3
+weapon: .name "rogue_knight_weapon_1" .atk 0% .dmg  8 16 .crit 2% .spd 3 .upgradeRequirementCode 0
+weapon: .name "rogue_knight_weapon_2" .atk 0% .dmg 10 19 .crit 3% .spd 4 .upgradeRequirementCode 1
+weapon: .name "rogue_knight_weapon_3" .atk 0% .dmg 11 21 .crit 4% .spd 4 .upgradeRequirementCode 2
+weapon: .name "rogue_knight_weapon_4" .atk 0% .dmg 12 23 .crit 5% .spd 5 .upgradeRequirementCode 3
+
+armour: .name "rogue_knight_armour_0" .def  0% .prot 0 .hp 31 .spd 0
+armour: .name "rogue_knight_armour_1" .def  5% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 0
+armour: .name "rogue_knight_armour_2" .def 10% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 1
+armour: .name "rogue_knight_armour_3" .def 15% .prot 0 .hp 52 .spd 0 .upgradeRequirementCode 2
+armour: .name "rogue_knight_armour_4" .def 20% .prot 0 .hp 59 .spd 0 .upgradeRequirementCode 3
+
+crit: .effects "Sven Crit Buff"
+
+// Obliterate
+combat_skill: .id "sven_obliterate" .level 0 .type "melee" .atk  80% .dmg 0% .crit 1% .launch 12 .target 12 .effect .generation_guaranteed true
+combat_skill: .id "sven_obliterate" .level 1 .type "melee" .atk  85% .dmg 0% .crit 2% .launch 12 .target 12 .effect 
+combat_skill: .id "sven_obliterate" .level 2 .type "melee" .atk  90% .dmg 0% .crit 3% .launch 12 .target 12 .effect 
+combat_skill: .id "sven_obliterate" .level 3 .type "melee" .atk  95% .dmg 0% .crit 4% .launch 12 .target 12 .effect 
+combat_skill: .id "sven_obliterate" .level 4 .type "melee" .atk 100% .dmg 0% .crit 5% .launch 12 .target 12 .effect 
+
+// Helm Breaker
+combat_skill: .id "sven_helm_breaker" .level 0 .type "melee" .atk  80% .dmg -40% .crit 0% .launch 12 .target 12 .ignore_protection true .effect "Sven Breaker Debuff 1" "Sven Breaker Guard Break 1" "Sven Breaker Guard Break 2"
+combat_skill: .id "sven_helm_breaker" .level 1 .type "melee" .atk  85% .dmg -40% .crit 1% .launch 12 .target 12 .ignore_protection true .effect "Sven Breaker Debuff 2" "Sven Breaker Guard Break 1" "Sven Breaker Guard Break 2"
+combat_skill: .id "sven_helm_breaker" .level 2 .type "melee" .atk  90% .dmg -40% .crit 2% .launch 12 .target 12 .ignore_protection true .effect "Sven Breaker Debuff 3" "Sven Breaker Guard Break 1" "Sven Breaker Guard Break 2"
+combat_skill: .id "sven_helm_breaker" .level 3 .type "melee" .atk  95% .dmg -40% .crit 3% .launch 12 .target 12 .ignore_protection true .effect "Sven Breaker Debuff 4" "Sven Breaker Guard Break 1" "Sven Breaker Guard Break 2"
+combat_skill: .id "sven_helm_breaker" .level 4 .type "melee" .atk 100% .dmg -40% .crit 4% .launch 12 .target 12 .ignore_protection true .effect "Sven Breaker Debuff 5" "Sven Breaker Guard Break 1" "Sven Breaker Guard Break 2"
+
+// Storm Hammer
+combat_skill: .id "sven_storm_hammer" .level 0 .type "ranged" .atk  85% .dmg -100% .crit 0% .launch 1 .target ~12 .is_crit_valid False .effect "Sven Storm Hammer Tooltip 1" "Sven Storm Hammer DMG 1" "Sven Storm Hammer Stun 1" "Sven Storm Hammer Cooldown" "Sven Buff Cooldown Trigger" 
+combat_skill: .id "sven_storm_hammer" .level 1 .type "ranged" .atk  90% .dmg -100% .crit 0% .launch 1 .target ~12 .is_crit_valid False .effect "Sven Storm Hammer Tooltip 2" "Sven Storm Hammer DMG 2" "Sven Storm Hammer Stun 2" "Sven Storm Hammer Cooldown" "Sven Buff Cooldown Trigger" 
+combat_skill: .id "sven_storm_hammer" .level 2 .type "ranged" .atk  95% .dmg -100% .crit 0% .launch 1 .target ~12 .is_crit_valid False .effect "Sven Storm Hammer Tooltip 3" "Sven Storm Hammer DMG 3" "Sven Storm Hammer Stun 3" "Sven Storm Hammer Cooldown" "Sven Buff Cooldown Trigger" 
+combat_skill: .id "sven_storm_hammer" .level 3 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 1 .target ~12 .is_crit_valid False .effect "Sven Storm Hammer Tooltip 4" "Sven Storm Hammer DMG 4" "Sven Storm Hammer Stun 4" "Sven Storm Hammer Cooldown" "Sven Buff Cooldown Trigger" 
+combat_skill: .id "sven_storm_hammer" .level 4 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 1 .target ~12 .is_crit_valid False .effect "Sven Storm Hammer Tooltip 5" "Sven Storm Hammer DMG 5" "Sven Storm Hammer Stun 5" "Sven Storm Hammer Cooldown" "Sven Buff Cooldown Trigger" 
+
+// Great Cleave
+combat_skill: .id "sven_great_cleave" .level 0 .type "melee" .atk 75% .dmg 0% .crit -6% .launch 12 .target ~1234 .rank_damage_modifiers -0.85 -0.75 -0.65 -0.55 .effect "Sven Great Cleave Tooltip"
+combat_skill: .id "sven_great_cleave" .level 1 .type "melee" .atk 80% .dmg 0% .crit -5% .launch 12 .target ~1234 .rank_damage_modifiers -0.85 -0.75 -0.65 -0.55 .effect "Sven Great Cleave Tooltip"
+combat_skill: .id "sven_great_cleave" .level 2 .type "melee" .atk 85% .dmg 0% .crit -4% .launch 12 .target ~1234 .rank_damage_modifiers -0.85 -0.75 -0.65 -0.55 .effect "Sven Great Cleave Tooltip"
+combat_skill: .id "sven_great_cleave" .level 3 .type "melee" .atk 90% .dmg 0% .crit -3% .launch 12 .target ~1234 .rank_damage_modifiers -0.85 -0.75 -0.65 -0.55 .effect "Sven Great Cleave Tooltip"
+combat_skill: .id "sven_great_cleave" .level 4 .type "melee" .atk 95% .dmg 0% .crit -2% .launch 12 .target ~1234 .rank_damage_modifiers -0.85 -0.75 -0.65 -0.55 .effect "Sven Great Cleave Tooltip"
+
+// Warcry
+combat_skill: .id "sven_warcry" .level 0 .launch 1234 .target @~1234 .move 0 1 .effect "Sven Warcry Tooltip 1" "Sven Warcry Buff 1" "Sven Warcry Self Buff 1" "Sven Warcry Cooldown" "Sven Warcry Cooldown Trigger" "Sven Buff Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_warcry" .level 1 .launch 1234 .target @~1234 .move 0 1 .effect "Sven Warcry Tooltip 2" "Sven Warcry Buff 2" "Sven Warcry Self Buff 2" "Sven Warcry Cooldown" "Sven Warcry Cooldown Trigger" "Sven Buff Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_warcry" .level 2 .launch 1234 .target @~1234 .move 0 1 .effect "Sven Warcry Tooltip 3" "Sven Warcry Buff 3" "Sven Warcry Self Buff 3" "Sven Warcry Cooldown" "Sven Warcry Cooldown Trigger" "Sven Buff Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_warcry" .level 3 .launch 1234 .target @~1234 .move 0 1 .effect "Sven Warcry Tooltip 4" "Sven Warcry Buff 4" "Sven Warcry Self Buff 4" "Sven Warcry Cooldown" "Sven Warcry Cooldown Trigger" "Sven Buff Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_warcry" .level 4 .launch 1234 .target @~1234 .move 0 1 .effect "Sven Warcry Tooltip 5" "Sven Warcry Buff 5" "Sven Warcry Self Buff 5" "Sven Warcry Cooldown" "Sven Warcry Cooldown Trigger" "Sven Buff Cooldown Trigger" .is_stall_invalidating false
+
+// God's Strength
+combat_skill: .id "sven_gods_strength" .level 0 .launch 1234 .target .per_battle_limit 1 .effect "Sven Strength Instants 1" "Sven Strength Instants A" "Sven Strength Instants B" "Sven Strength Buff 1" "Sven Strength Heal 1" "Sven Buff Cooldown Trigger" .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "sven_gods_strength" .level 1 .launch 1234 .target .per_battle_limit 1 .effect "Sven Strength Instants 2" "Sven Strength Instants A" "Sven Strength Instants B" "Sven Strength Buff 2" "Sven Strength Heal 2" "Sven Buff Cooldown Trigger" .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "sven_gods_strength" .level 2 .launch 1234 .target .per_battle_limit 1 .effect "Sven Strength Instants 3" "Sven Strength Instants A" "Sven Strength Instants B" "Sven Strength Buff 3" "Sven Strength Heal 3" "Sven Buff Cooldown Trigger" .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "sven_gods_strength" .level 3 .launch 1234 .target .per_battle_limit 1 .effect "Sven Strength Instants 4" "Sven Strength Instants A" "Sven Strength Instants B" "Sven Strength Buff 4" "Sven Strength Heal 4" "Sven Buff Cooldown Trigger" .refresh_after_each_wave true .is_stall_invalidating false
+combat_skill: .id "sven_gods_strength" .level 4 .launch 1234 .target .per_battle_limit 1 .effect "Sven Strength Instants 5" "Sven Strength Instants A" "Sven Strength Instants B" "Sven Strength Buff 5" "Sven Strength Heal 5" "Sven Buff Cooldown Trigger" .refresh_after_each_wave true .is_stall_invalidating false
+
+// Black King Bar
+combat_skill: .id "sven_black_king_bar" .level 0 .launch 1234 .target .per_turn_limit 1 .is_continue_turn true .effect "Sven BKB Tooltip 1" "Sven BKB 1" "Sven BKB Clear Debuffs" "Sven BKB Cooldown" "Sven BKB Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_black_king_bar" .level 1 .launch 1234 .target .per_turn_limit 1 .is_continue_turn true .effect "Sven BKB Tooltip 2" "Sven BKB 2" "Sven BKB Clear Debuffs" "Sven BKB Cooldown" "Sven BKB Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_black_king_bar" .level 2 .launch 1234 .target .per_turn_limit 1 .is_continue_turn true .effect "Sven BKB Tooltip 3" "Sven BKB 3" "Sven BKB Clear Debuffs" "Sven BKB Cooldown" "Sven BKB Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_black_king_bar" .level 3 .launch 1234 .target .per_turn_limit 1 .is_continue_turn true .effect "Sven BKB Tooltip 4" "Sven BKB 4" "Sven BKB Clear Debuffs" "Sven BKB Cooldown" "Sven BKB Cooldown Trigger" .is_stall_invalidating false
+combat_skill: .id "sven_black_king_bar" .level 4 .launch 1234 .target .per_turn_limit 1 .is_continue_turn true .effect "Sven BKB Tooltip 5" "Sven BKB 5" "Sven BKB Clear Debuffs" "Sven BKB Cooldown" "Sven BKB Cooldown Trigger" .is_stall_invalidating false
+
+// Move
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 1234
+
+// Riposte (for Pets mod)
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg -40% .crit 0% .launch 1234 .target 1234 
+
+// Tags
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "sven"
+tag: .id "outsiders_bonfire"
+
+// Affliction, Death's Door, Etc.
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+incompatible_party_member: .id sven_limit .hero_tag sven
+
+// Misc
+controlled: .target_rank 3
+id_index: .index 7271
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

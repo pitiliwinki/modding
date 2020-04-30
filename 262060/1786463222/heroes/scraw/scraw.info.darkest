@@ -1,0 +1,113 @@
+resistances: .stun 55% .poison 200% .bleed 55% .disease 200% .move 55% .debuff 30% .death_blow -200% .trap -200%
+crit: .effects "on_crit_scrawmoreturn"
+crit: .effects "on_crit_scrawlesscrit"
+weapon: .name "scraw_weapon_0" .atk 0% .dmg 6 10 .crit 0.0% .spd 7
+weapon: .name "scraw_weapon_1" .atk 0% .dmg 7 12 .crit 0.0% .spd 7 .upgradeRequirementCode 0
+weapon: .name "scraw_weapon_2" .atk 0% .dmg 9 14 .crit 0.0% .spd 8 .upgradeRequirementCode 1
+weapon: .name "scraw_weapon_3" .atk 0% .dmg 11 16 .crit 0.0% .spd 8 .upgradeRequirementCode 2
+weapon: .name "scraw_weapon_4" .atk 0% .dmg 12 18 .crit 0.0% .spd 9 .upgradeRequirementCode 3
+armour: .name "scraw_armour_0" .def 40% .prot 0 .hp 75 .spd 0
+armour: .name "scraw_armour_1" .def 45% .prot 0 .hp 95 .spd 0 .upgradeRequirementCode 0
+armour: .name "scraw_armour_2" .def 51% .prot 0 .hp 115 .spd 0 .upgradeRequirementCode 1
+armour: .name "scraw_armour_3" .def 57% .prot 0 .hp 135 .spd 0 .upgradeRequirementCode 2
+armour: .name "scraw_armour_4" .def 63% .prot 0 .hp 154 .spd 0 .upgradeRequirementCode 3
+
+//Peck (Peck)
+combat_skill: .id "CombatSkill_scraw_A" .level 0 .type "melee" .atk 88% .dmg 0% .crit 16% .move 0 4 .ignore_stealth true .launch 4321 .target ?1234 .is_crit_valid True .effect "AllyCrow_Bleed_01" "AllyCrow_BleedInstant_TT_05" "AllyCrow_Bleed_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_A" .level 1 .type "melee" .atk 93% .dmg 0% .crit 18% .move 0 4 .ignore_stealth true .launch 4321 .target ?1234 .is_crit_valid True .effect "AllyCrow_Bleed_02" "AllyCrow_BleedInstant_TT_05" "AllyCrow_Bleed_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_A" .level 2 .type "melee" .atk 98% .dmg 0% .crit 20% .move 0 4 .ignore_stealth true .launch 4321 .target ?1234 .is_crit_valid True .effect "AllyCrow_Bleed_03" "AllyCrow_BleedInstant_TT_05" "AllyCrow_Bleed_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_A" .level 3 .type "melee" .atk 103% .dmg 0% .crit 22% .move 0 4 .ignore_stealth true .launch 4321 .target ?1234 .is_crit_valid True .effect "AllyCrow_Bleed_04" "AllyCrow_BleedInstant_TT_05" "AllyCrow_Bleed_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_A" .level 4 .type "melee" .atk 108% .dmg 0% .crit 24% .move 0 4 .ignore_stealth true .launch 4321 .target ?1234 .is_crit_valid True .effect "AllyCrow_Bleed_05" "AllyCrow_BleedInstant_TT_05" "AllyCrow_Bleed_COOLDOWN" .valid_modes mode_scraw
+
+//Caw (Caw)
+combat_skill: .id "CombatSkill_scraw_B" .level 0 .type "ranged" .atk 88% .dmg -90% .crit 2% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .nil true .effect "AllyCrow_CawStress_01" "AllyCrow_MoreStress_01" "Scraw_Caw_stress_01" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_B" .level 1 .type "ranged" .atk 93% .dmg -88% .crit 4% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .nil true .effect "AllyCrow_CawStress_02" "AllyCrow_MoreStress_02" "Scraw_Caw_stress_02" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_B" .level 2 .type "ranged" .atk 98% .dmg -85% .crit 6% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .nil true .effect "AllyCrow_CawStress_03" "AllyCrow_MoreStress_03" "Scraw_Caw_stress_03" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_B" .level 3 .type "ranged" .atk 103% .dmg -82% .crit 8% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .nil true .effect "AllyCrow_CawStress_04" "AllyCrow_MoreStress_04" "Scraw_Caw_stress_04" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_B" .level 4 .type "ranged" .atk 108% .dmg -80% .crit 9% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .nil true .effect "AllyCrow_CawStress_05" "AllyCrow_MoreStress_05" "Scraw_Caw_stress_05" .valid_modes mode_scraw
+
+//Flutter (Call the Murder)
+combat_skill: .id "CombatSkill_scraw_C" .level 0 .type "ranged" .atk 88% .dmg -90% .crit 2% .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .nil true .effect "AllyCrow_FlutterStress_01" "AllyCrow_MoreStress_01" "AllyCrow_Self_Speed_02" "Scraw_Flutter_stress_01" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_C" .level 1 .type "ranged" .atk 93% .dmg -88% .crit 4% .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .nil true .effect "AllyCrow_FlutterStress_02" "AllyCrow_MoreStress_02" "AllyCrow_Self_Speed_02" "Scraw_Flutter_stress_02" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_C" .level 2 .type "ranged" .atk 98% .dmg -85% .crit 6% .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .nil true .effect "AllyCrow_FlutterStress_03" "AllyCrow_MoreStress_03" "AllyCrow_Self_Speed_03" "Scraw_Flutter_stress_03" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_C" .level 3 .type "ranged" .atk 103% .dmg -82% .crit 8% .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .nil true .effect "AllyCrow_FlutterStress_04" "AllyCrow_MoreStress_04" "AllyCrow_Self_Speed_03" "Scraw_Flutter_stress_04" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_C" .level 4 .type "ranged" .atk 108% .dmg -80% .crit 9% .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .nil true .effect "AllyCrow_FlutterStress_05" "AllyCrow_MoreStress_05" "AllyCrow_Self_Speed_04" "Scraw_Flutter_stress_05" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+
+//Distract (Regurgitate)
+combat_skill: .id "CombatSkill_scraw_D" .level 0 .type "ranged" .atk 88% .dmg -90% .crit 2% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .effect "AllyCrow_disease_TT_01" "AllyCrow_Distract_01" "AllyCrow_LessAcc_01" "AllyCrow_LessCri_01" "AllyCrow_LessDmg_01" "AllyCrow_LessDod_01" "AllyCrow_LessHea_01" "AllyCrow_LessSpd_01" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_D" .level 1 .type "ranged" .atk 93% .dmg -88% .crit 4% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .effect "AllyCrow_disease_TT_02" "AllyCrow_Distract_02" "AllyCrow_LessAcc_02" "AllyCrow_LessCri_02" "AllyCrow_LessDmg_02" "AllyCrow_LessDod_02" "AllyCrow_LessHea_02" "AllyCrow_LessSpd_02" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_D" .level 2 .type "ranged" .atk 98% .dmg -85% .crit 6% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .effect "AllyCrow_disease_TT_03" "AllyCrow_Distract_03" "AllyCrow_LessAcc_03" "AllyCrow_LessCri_03" "AllyCrow_LessDmg_03" "AllyCrow_LessDod_03" "AllyCrow_LessHea_03" "AllyCrow_LessSpd_03" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_D" .level 3 .type "ranged" .atk 103% .dmg -82% .crit 8% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .effect "AllyCrow_disease_TT_04" "AllyCrow_Distract_04" "AllyCrow_LessAcc_04" "AllyCrow_LessCri_04" "AllyCrow_LessDmg_04" "AllyCrow_LessDod_04" "AllyCrow_LessHea_04" "AllyCrow_LessSpd_04" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_D" .level 4 .type "ranged" .atk 108% .dmg -80% .crit 9% .ignore_stealth true .launch 4321 .target 1234 .is_crit_valid True .effect "AllyCrow_disease_TT_05" "AllyCrow_Distract_05" "AllyCrow_LessAcc_05" "AllyCrow_LessCri_05" "AllyCrow_LessDmg_05" "AllyCrow_LessDod_05" "AllyCrow_LessHea_05" "AllyCrow_LessSpd_05" .valid_modes mode_scraw
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 3 3 .launch 4321
+
+//Escape (Shrieking Flight)
+combat_skill: .id "CombatSkill_scraw_E" .level 0 .type "ranged" .atk 136% .dmg -90% .crit 2% .required_performer_hp_range 0 0.25 .can_be_riposted false .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .per_battle_limit 1 .nil true .effect "AllyCrow_ShriekStress_01" "stealth_self" "AllyCrow_Clear_Guarded_Target" "AllyCrow_MoreStress_01" "Scraw_Shriek_stress_01" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_E" .level 1 .type "ranged" .atk 141% .dmg -88% .crit 4% .required_performer_hp_range 0 0.25 .can_be_riposted false .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .per_battle_limit 1 .nil true .effect "AllyCrow_ShriekStress_02" "stealth_self" "AllyCrow_Clear_Guarded_Target" "AllyCrow_MoreStress_02" "Scraw_Shriek_stress_02" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_E" .level 2 .type "ranged" .atk 146% .dmg -85% .crit 6% .required_performer_hp_range 0 0.25 .can_be_riposted false .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .per_battle_limit 1 .nil true .effect "AllyCrow_ShriekStress_03" "stealth_self" "AllyCrow_Clear_Guarded_Target" "AllyCrow_MoreStress_03" "Scraw_Shriek_stress_03" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_E" .level 3 .type "ranged" .atk 151% .dmg -82% .crit 8% .required_performer_hp_range 0 0.25 .can_be_riposted false .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .per_battle_limit 1 .nil true .effect "AllyCrow_ShriekStress_04" "stealth_self" "AllyCrow_Clear_Guarded_Target" "AllyCrow_MoreStress_04" "Scraw_Shriek_stress_04" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_E" .level 4 .type "ranged" .atk 156% .dmg -80% .crit 9% .required_performer_hp_range 0 0.25 .can_be_riposted false .move 4 0 .ignore_stealth true .launch 4321 .target ~1234 .is_crit_valid True .per_battle_limit 1 .nil true .effect "AllyCrow_ShriekStress_05" "stealth_self" "AllyCrow_Clear_Guarded_Target" "AllyCrow_MoreStress_05" "Scraw_Shriek_stress_05" "Scraw_Backward_TT_05" .valid_modes mode_scraw
+
+
+//Support 1 (Protect The Nest)
+combat_skill: .id "CombatSkill_scraw_F" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .move 0 4 .required_performer_hp_range 0.25 1 .self_target_valid true .launch 4321 .target @~4321 .is_crit_valid False .per_battle_limit 5 .effect "AllyCrow_Clear_Guard_Performer" "AllyCrow_Clear_Guard_Target" "AllyCrow_Protect_Guard_05" "scraw_ifdead_dod_01" "AllyCrow_protectothers_TT_05" "AllyCrow_protect_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_F" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .move 0 4 .required_performer_hp_range 0.25 1 .self_target_valid true .launch 4321 .target @~4321 .is_crit_valid False .per_battle_limit 5 .effect "AllyCrow_Clear_Guard_Performer" "AllyCrow_Clear_Guard_Target" "AllyCrow_Protect_Guard_05" "scraw_ifdead_dod_01" "AllyCrow_protectothers_TT_05" "AllyCrow_protect_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_F" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .move 0 4 .required_performer_hp_range 0.25 1 .self_target_valid true .launch 4321 .target @~4321 .is_crit_valid False .per_battle_limit 5 .effect "AllyCrow_Clear_Guard_Performer" "AllyCrow_Clear_Guard_Target" "AllyCrow_Protect_Guard_05" "scraw_ifdead_dod_01" "AllyCrow_protectothers_TT_05" "AllyCrow_protect_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_F" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .move 0 4 .required_performer_hp_range 0.25 1 .self_target_valid true .launch 4321 .target @~4321 .is_crit_valid False .per_battle_limit 5 .effect "AllyCrow_Clear_Guard_Performer" "AllyCrow_Clear_Guard_Target" "AllyCrow_Protect_Guard_05" "scraw_ifdead_dod_01" "AllyCrow_protectothers_TT_05" "AllyCrow_protect_COOLDOWN" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_F" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .move 0 4 .required_performer_hp_range 0.25 1 .self_target_valid true .launch 4321 .target @~4321 .is_crit_valid False .per_battle_limit 5 .effect "AllyCrow_Clear_Guard_Performer" "AllyCrow_Clear_Guard_Target" "AllyCrow_Protect_Guard_05" "scraw_ifdead_dod_01" "AllyCrow_protectothers_TT_05" "AllyCrow_protect_COOLDOWN" .valid_modes mode_scraw
+
+//Support 2 (Swallow)
+combat_skill: .id "CombatSkill_scraw_G" .level 0 .type "melee" .can_crit_heal false .atk 0% .dmg 0% .crit 0% .move 0 4 .self_target_valid true .launch 4321 .target  .is_crit_valid False .per_battle_limit 3 .effect "AllyCrow_clear_corpses" "AllyCrow_Healdot_01" "AllyCrow_Horror_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_G" .level 1 .type "melee" .can_crit_heal false .atk 0% .dmg 0% .crit 0% .move 0 4 .self_target_valid true .launch 4321 .target  .is_crit_valid False .per_battle_limit 3 .effect "AllyCrow_clear_corpses" "AllyCrow_Healdot_02" "AllyCrow_Horror_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_G" .level 2 .type "melee" .can_crit_heal false .atk 0% .dmg 0% .crit 0% .move 0 4 .self_target_valid true .launch 4321 .target  .is_crit_valid False .per_battle_limit 3 .effect "AllyCrow_clear_corpses" "AllyCrow_Healdot_03" "AllyCrow_Horror_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_G" .level 3 .type "melee" .can_crit_heal false .atk 0% .dmg 0% .crit 0% .move 0 4 .self_target_valid true .launch 4321 .target  .is_crit_valid False .per_battle_limit 3 .effect "AllyCrow_clear_corpses" "AllyCrow_Healdot_04" "AllyCrow_Horror_05" .valid_modes mode_scraw
+combat_skill: .id "CombatSkill_scraw_G" .level 4 .type "melee" .can_crit_heal false .atk 0% .dmg 0% .crit 0% .move 0 4 .self_target_valid true .launch 4321 .target  .is_crit_valid False .per_battle_limit 3 .effect "AllyCrow_clear_corpses" "AllyCrow_Healdot_05" "AllyCrow_Horror_05" .valid_modes mode_scraw
+
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "scraw"
+tag: .id "scrawtag"
+tag: .id "scrawnesttag"
+tag: .id "shrieker"
+tag: .id "eldritch"
+tag: .id "beast"
+tag: .id "boss"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff .enter_effects scraw_ifdead_dod_01 .enter_effect_round_cooldown 1
+controlled: .target_rank 1
+
+id_index: .index 201906172229
+mode: .id mode_scraw .is_raid_default true .bark_override_id scraw+str_scraw_bark
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+overstressed_modifier: .override_trait_type_ids fearful .override_trait_type_chances 1.0
+activity_modifier: .override_valid_activity_ids disease_treatment treatment
+
+hp_reaction: .hp_ratio 0.99 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.89 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.79 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.69 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.59 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.50 .is_under true .effects scraw_ifdead_spd_01
+hp_reaction: .hp_ratio 0.49 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.39 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.29 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.19 .is_under true .effects AllyCrow_StressHeal_Passive_01
+hp_reaction: .hp_ratio 0.09 .is_under true .effects AllyCrow_StressHeal_Passive_01
+death_reaction: .target_allies true .target_enemies false .effects "scraw_ifdead_Disease_01"
+death_reaction: .target_allies false .target_enemies true .effects "scraw_ifdead_Debuff_01"
+
+extra_battle_loot: .code "SCRAW_LOOT_T" .count 1
+extra_curio_loot: .code "SCRAW_LOOT_NONE" .count 1
+extra_stack_limit: .id scraw_gold
+extra_shard_bonus: .amount 0.09
+
+quirk_modifier: .incompatible_class_ids alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler improved_balance meditator calm nymphomania zoophobia fear_of_beast hatred_of_beast slayer_of_beast
+generation: .is_generation_enabled true .number_of_positive_quirks_min 0 .number_of_positive_quirks_max 1 .number_of_negative_quirks_min 4 .number_of_negative_quirks_max 5 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 5 .number_of_cards_in_deck 0 .card_chance 0.0
+incompatible_party_member: .id scraw_limit .hero_tag scraw
+incompatible_party_member: .id scrawfear_librarian .hero_tag librarian
+
+
+
+
+

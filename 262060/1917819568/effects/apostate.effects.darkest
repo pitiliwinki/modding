@@ -1,0 +1,162 @@
+
+effect: .name "Apostate_On_Crit_Effect" .target "performer_group" .chance 100% .buff_source_type bsrc_crit .buff_ids "apostate_on_crit_crit_protection" .duration 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Apostate_Darkness" .target "global" .chance 100% .torch_decrease 5 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Apostate_Darkness_No_TT" .target "global" .chance 100% .torch_decrease 5 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+effect: .name "Apostate_Condemn_Pull_1" .target "target" .pull 2 .chance 100% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Apostate_Condemn_Pull_2" .target "target" .pull 2 .chance 110% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Apostate_Condemn_Pull_3" .target "target" .pull 2 .chance 120% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Apostate_Condemn_Pull_4" .target "target" .pull 2 .chance 130% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Apostate_Condemn_Pull_5" .target "target" .pull 2 .chance 140% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Apostate_Condemn_SPD_Debuff_1" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_SPD_Debuff_2" .target "target" .chance 110% .duration 3 .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_SPD_Debuff_3" .target "target" .chance 120% .duration 3 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_SPD_Debuff_4" .target "target" .chance 130% .duration 3 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_SPD_Debuff_5" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .speed_rating_add -4 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_DMG_Rec_1" .target "target" .chance 100% .buff_ids "apostate_condemn_dmg_received_1" .duration 3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_DMG_Rec_2" .target "target" .chance 110% .buff_ids "apostate_condemn_dmg_received_2" .duration 3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_DMG_Rec_3" .target "target" .chance 120% .buff_ids "apostate_condemn_dmg_received_3" .duration 3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_DMG_Rec_4" .target "target" .chance 130% .buff_ids "apostate_condemn_dmg_received_4" .duration 3 .on_hit true .on_miss false
+effect: .name "Apostate_Condemn_DMG_Rec_5" .target "target" .chance 140% .buff_ids "apostate_condemn_dmg_received_5" .duration 3 .on_hit true .on_miss false
+
+effect: .name "Apostate_Last_Rites_TT_All_Heroes" .target "performer" .skill_instant true .buff_ids "apostate_all_heroes_tooltip_buff" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_TT_Rank_1" .target "performer" .skill_instant true .buff_ids "apostate_last_rites_tooltip_1" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_TT_Rank_2" .target "performer" .skill_instant true .buff_ids "apostate_last_rites_tooltip_2" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_TT_Rank_3" .target "performer" .skill_instant true .buff_ids "apostate_last_rites_tooltip_3" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_TT_Rank_4" .target "performer" .skill_instant true .buff_ids "apostate_last_rites_tooltip_4" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_TT_Rank_5" .target "performer" .skill_instant true .buff_ids "apostate_last_rites_tooltip_5" .on_hit false .on_miss true
+effect: .name "Apostate_Last_Rites_Block_Stress_Heal" .target "target" .chance 100% .buff_ids "apostate_block_stress_heal" .buff_source_type "bsrc_notspecified" .buff_is_clear_debuff_valid false .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Unblock_Stress_Heal" .target "target" .chance 100% .buff_ids "apostate_unblock_stress_heal" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Heal_Stress_1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Heal_Stress_2" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Heal_Stress_3" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Heal_Stress_4" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Last_Rites_Heal_Stress_5" .target "target" .chance 100% .healstress 8 .on_hit true .on_miss true .has_description false
+
+effect: .name "Apostate_All_Heroes_TT" .target "target" .chance 100% .buff_ids "apostate_all_heroes_tooltip_buff" .on_hit false .on_miss true
+effect: .name "Apostate_Free_Action_TT" .target "performer" .skill_instant true .chance 100% .buff_ids "apostate_free_action_tooltip_buff" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Harm_TT_1" .target "target" .chance 100% .buff_ids "apostate_suffer_damage_tooltip_1" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Harm_TT_2" .target "target" .chance 100% .buff_ids "apostate_suffer_damage_tooltip_2" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Harm_TT_3" .target "target" .chance 100% .buff_ids "apostate_suffer_damage_tooltip_3" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Harm_TT_4" .target "target" .chance 100% .buff_ids "apostate_suffer_damage_tooltip_4" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Harm_TT_5" .target "target" .chance 100% .buff_ids "apostate_suffer_damage_tooltip_5" .on_hit false .on_miss true
+effect: .name "Apostate_Target_Pain_Block" .target "target" .chance 100% .buff_ids "apostate_pain_blocker" .buff_source_type "bsrc_notspecified" .buff_is_clear_debuff_valid false .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Target_Pain_Unblock" .target "target" .chance 100% .buff_ids "apostate_pain_unblocker" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Apocryphal_Texts_1" .target "target" .chance 100% .buff_ids "apostate_party_buff_dmg_low_1" "apostate_party_buff_crit_1" "apostate_party_buff_dmg_high_1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true
+effect: .name "Apostate_Apocryphal_Texts_2" .target "target" .chance 100% .buff_ids "apostate_party_buff_dmg_low_2" "apostate_party_buff_crit_2" "apostate_party_buff_dmg_high_2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true
+effect: .name "Apostate_Apocryphal_Texts_3" .target "target" .chance 100% .buff_ids "apostate_party_buff_dmg_low_3" "apostate_party_buff_crit_3" "apostate_party_buff_dmg_high_3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true
+effect: .name "Apostate_Apocryphal_Texts_4" .target "target" .chance 100% .buff_ids "apostate_party_buff_dmg_low_4" "apostate_party_buff_crit_4" "apostate_party_buff_dmg_high_4" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true
+effect: .name "Apostate_Apocryphal_Texts_5" .target "target" .chance 100% .buff_ids "apostate_party_buff_dmg_low_5" "apostate_party_buff_crit_5" "apostate_party_buff_dmg_high_5" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true
+effect: .name "Apostate_Apocryphal_Texts_Fake_Stress" .target "performer" .chance 0% .stress 1 .on_hit false .on_miss true .queue true .apply_once true .has_description false
+effect: .name "Apostate_Apocryphal_Texts_Cooldown" .target "target" .chance 100% .buff_ids "apostate_apocryphal_texts_cooldown" .buff_source_type "bsrc_notspecified" .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Target_Harm_1" .target "target" .chance 100% .health_damage 2 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Target_Harm_2" .target "target" .chance 100% .health_damage 2 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Target_Harm_3" .target "target" .chance 100% .health_damage 3 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Target_Harm_4" .target "target" .chance 100% .health_damage 3 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Target_Harm_5" .target "target" .chance 100% .health_damage 4 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Apocryphal_Texts_Bark" .target "performer_group_other" .chance 20% .bark "Apo_Apoc_Texts" .on_hit true .on_miss false .queue true .apply_once true .individual_target_actor_rolls true .has_description false
+
+effect: .name "Apostate_Borrowed_Time_Aegis" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Dodge_1" .target "target" .chance 100% .buff_ids "apostate_dd_dodge_1" .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Dodge_2" .target "target" .chance 100% .buff_ids "apostate_dd_dodge_2" .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Dodge_3" .target "target" .chance 100% .buff_ids "apostate_dd_dodge_3" .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Dodge_4" .target "target" .chance 100% .buff_ids "apostate_dd_dodge_4" .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Dodge_5" .target "target" .chance 100% .buff_ids "apostate_dd_dodge_5" .on_hit true .on_miss true
+effect: .name "Apostate_Borrowed_Time_Cooldown_TT" .target "target" .chance 100% .buff_ids "apostate_1rd_cooldown_TT" .on_hit false .on_miss true
+effect: .name "Apostate_Borrowed_Time_Fake_Mark" .target "performer" .chance 0% .tag 1 .duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Borrowed_Time_Cooldown" .target "performer" .chance 100% .buff_ids "apostate_borrowed_time_cooldown" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .has_description false
+
+effect: .name "Apostate_Tenebrosity_Pain_Block" .target "performer_group" .chance 100% .buff_ids "apostate_pain_blocker" .buff_source_type "bsrc_notspecified" .buff_is_clear_debuff_valid false .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Tenebrosity_Pain_Unblock" .target "performer_group" .chance 100% .buff_ids "apostate_pain_unblocker" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Tenebrosity_Harm_Party_1" .target "performer_group" .chance 100% .health_damage 2 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_Tenebrosity_Harm_Party_2" .target "performer_group" .chance 100% .health_damage 2 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_Tenebrosity_Harm_Party_3" .target "performer_group" .chance 100% .health_damage 3 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_Tenebrosity_Harm_Party_4" .target "performer_group" .chance 100% .health_damage 3 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_Tenebrosity_Harm_Party_5" .target "performer_group" .chance 100% .health_damage 4 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_Tenebrosity_Self_Buff" .target "performer" .chance 100% .duration 4 .buff_ids "aposate_tenebrosity_damage_low" "aposate_tenebrosity_damage_high" .on_hit true .on_miss false .apply_once true .queue true .has_description false
+effect: .name "Apostate_Tenebrosity_Custom_TT_1" .target "performer" .skill_instant true .buff_ids "apostate_tenebrosity_tooltip_self_buff" "apostate_tenebrosity_tooltip_debuff_1" .on_hit false .on_miss true
+effect: .name "Apostate_Tenebrosity_Custom_TT_2" .target "performer" .skill_instant true .buff_ids "apostate_tenebrosity_tooltip_self_buff" "apostate_tenebrosity_tooltip_debuff_2" .on_hit false .on_miss true
+effect: .name "Apostate_Tenebrosity_Custom_TT_3" .target "performer" .skill_instant true .buff_ids "apostate_tenebrosity_tooltip_self_buff" "apostate_tenebrosity_tooltip_debuff_3" .on_hit false .on_miss true
+effect: .name "Apostate_Tenebrosity_Custom_TT_4" .target "performer" .skill_instant true .buff_ids "apostate_tenebrosity_tooltip_self_buff" "apostate_tenebrosity_tooltip_debuff_4" .on_hit false .on_miss true
+effect: .name "Apostate_Tenebrosity_Custom_TT_5" .target "performer" .skill_instant true .buff_ids "apostate_tenebrosity_tooltip_self_buff" "apostate_tenebrosity_tooltip_debuff_5" .on_hit false .on_miss true
+
+effect: .name "Apostate_EA_Effect" .target "target" .chance 100% .initiative_change 1 .on_hit true .on_miss true
+effect: .name "Apostate_EA_TT" .target "target" .chance 100% .buff_ids "apostate_extra_action_tooltip_buff" .on_hit false .on_miss true
+effect: .name "Apostate_Incite_Heal_Block" .target "target" .chance 100% .buff_ids "apostate_incite_healing_block_buff" .duration 2 .buff_is_clear_debuff_valid false .on_hit true .on_miss true
+effect: .name "Apostate_Incite_Heal_Reduce" .target "target" .chance 100% .buff_ids "apostate_incite_healing_reduce_buff" .buff_source_type "bsrc_notspecified" .duration 2 .buff_is_clear_debuff_valid false .on_hit true .on_miss true .has_description false
+effect: .name "Apostate_Incite_Heal_Rec_Debuff" .target "target" .chance 100% .duration 5 .buff_ids "apostate_reduce_healing" .buff_is_clear_debuff_valid false .on_hit true .on_miss true
+effect: .name "Apostate_Incite_DMG_Rec" .target "target" .chance 100% .duration 5 .buff_ids "apostate_incite_dmg_received" .buff_is_clear_debuff_valid false .on_hit true .on_miss true
+effect: .name "Apostate_Incite_Buff_1" .target "target" .chance 100% .duration 1 .buff_ids "apostate_incite_buff_acc_1" "apostate_incite_buff_crit_1" .on_hit true .on_miss false
+effect: .name "Apostate_Incite_Buff_2" .target "target" .chance 100% .duration 1 .buff_ids "apostate_incite_buff_acc_2" "apostate_incite_buff_crit_2" .on_hit true .on_miss false
+effect: .name "Apostate_Incite_Buff_3" .target "target" .chance 100% .duration 1 .buff_ids "apostate_incite_buff_acc_3" "apostate_incite_buff_crit_3" .on_hit true .on_miss false
+effect: .name "Apostate_Incite_Buff_4" .target "target" .chance 100% .duration 1 .buff_ids "apostate_incite_buff_acc_4" "apostate_incite_buff_crit_4" .on_hit true .on_miss false
+effect: .name "Apostate_Incite_Buff_5" .target "target" .chance 100% .duration 1 .buff_ids "apostate_incite_buff_acc_5" "apostate_incite_buff_crit_5" .on_hit true .on_miss false
+
+// Just debuffing accuracy against "non-corpse" isn't enough, because attacks are guaranteed to land on some enemies! (barrels / pews / mushrooms...)
+// So, additionally, we debuff ourselves with -stun & -blight chance, then have the ENEMY (de)buff us back to normal again
+// This buff from the enemy rolls against our debuff resist, but if we're attacking a non-corpse we gain 1000% debuff resistance
+// Therefore, if we're attacking a non-corpse we'll resist the "debuff" that makes the skill have a chance to succeed
+effect: .name "Apostate_Debuff_From_Self" .target "performer" .skill_instant true .buff_ids "apostate_acc_buff_vs_summon" "apostate_acc_debuff" "apostate_stunchance_debuff" "apostate_poisonchance_debuff" "apostate_buff_resistance" "apostate_negate_buff_resistance_vs_summon" .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Buff_From_Enemy" .target "target" .chance 300% .swap_source_and_target true .buff_ids "apostate_stunchance_buff_from_enemy" "apostate_poisonchance_buff_from_enemy" .buff_source_type "bsrc_notspecified" .duration 1 .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_Destroy_Corpse" .target "target" .chance 100% .kill_enemy_types "corpse" "apostate_summon_type" .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Apostate_Destroy_Corpse_TT" .target "performer" .skill_instant true .buff_ids "apostate_destroy_corpse_tooltip_buff_1" "apostate_destroy_corpse_tooltip_buff_2" .on_hit false .on_miss true
+effect: .name "Apostate_Corpse_Blight_1" .target "target_group_other" .chance 120%  .dotPoison 2 .duration 3 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Blight_2" .target "target_group_other" .chance 130%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Blight_3" .target "target_group_other" .chance 140%  .dotPoison 3 .duration 3 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Blight_4" .target "target_group_other" .chance 150%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Blight_5" .target "target_group_other" .chance 160%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Stun_1" .target "target_group_other" .chance 60%  .stun 1 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Stun_2" .target "target_group_other" .chance 70%  .stun 1 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Stun_3" .target "target_group_other" .chance 80%  .stun 1 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Stun_4" .target "target_group_other" .chance 90%  .stun 1 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Corpse_Stun_5" .target "target_group_other" .chance 100% .stun 1 .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
+effect: .name "Apostate_Torch_TT" .target "performer" .skill_instant true .buff_ids "apostate_torch_TT" .on_hit false .on_miss true
+
+
+// TRINKETS
+effect: .name "Apostate_trinket_maxhp_effect" .target "target" .buff_ids "apostate_trinket5_maxHP" .duration -1 .buff_source_type "bsrc_trinket" .on_hit true .on_miss false .has_description false
+effect: .name "Apostate_trinket_debuff_enemy" .target "target" .chance 140% .buff_ids "apostate_trinket5_debuff" .duration 2 .on_hit true .on_miss false
+
+effect: .name "Apostate_cc_trinket_bleed_blocker" .target "performer" .skill_instant true .buff_ids "apostate_cc_trinket_bleed_blocker" .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_cc_trinket_bleed" .target "performer" .chance 300%  .dotBleed 1 .duration 3 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+effect: .name "Apostate_cc_trinket_buffs" .target "target" .buff_ids "apostate_cc_trinket_damagelow" "apostate_cc_trinket_damagehigh" .buff_source_type "bsrc_trinket_additional_effect" .on_hit true .on_miss false .has_description false
+
+effect: .name "Apostate_com_trinket_blight_enemy" .target "performer" .chance 140% .dotPoison 2 .duration 3 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_com_trinket_buffs" .target "target" .chance 500% .buff_ids "apostate_com_trinket_crit" "apostate_com_trinket_damagelow" "apostate_com_trinket_damagehigh" .buff_source_type "bsrc_trinket_additional_effect" .on_hit true .on_miss false .apply_once true .has_description false
+
+effect: .name "Apostate_bishops_head_trinket_mark_self" .target "performer" .chance 100% .tag 1 .duration 4 .on_hit true .on_miss true .queue true
+
+effect: .name "Apostate_dance_trinket_buff" .target "performer" .buff_ids "apostate_dance_trinket_dmg_low" "apostate_dance_trinket_dmg_high" .buff_source_type "bsrc_trinket_additional_effect" .on_hit true .on_miss true .apply_once true
+effect: .name "Apostate_dance_trinket_forward" .target "performer" .pull 1 .chance 300% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false
+effect: .name "Apostate_dance_trinket_move_resist" .target "performer" .buff_ids "apostate_dance_trinket_move_resist" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Apostate_dance_trinket_back" .target "performer" .push 1 .chance 300% .on_hit true .on_miss true .apply_once true .can_apply_on_death true .has_description false
+
+effect: .name "Apostate_dolores_head_aegis" .target "performer" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_dolores_head_pain_block" .target "performer" .chance 100% .buff_ids "apostate_DD_pain_blocker" .buff_source_type "bsrc_notspecified" .buff_is_clear_debuff_valid false .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_dolores_head_pain" .target "performer" .chance 100% .health_damage 50 .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Apostate_dolores_head_pain_unblock" .target "performer" .chance 100% .buff_ids "apostate_DD_pain_unblocker" .buff_source_type "bsrc_notspecified" .on_hit true .on_miss false .apply_once true .has_description false
+
+
+// TRINKET SUMMON EFFECTS
+// The skeleton's good skills have a dummy bleed & blight associated with them
+// The skeleton is summoned with bleed and blight skills disabled by default
+// One set trinket re-enables blight, the other re-enables bleed,
+// so when we have both parts of the set the skeleton is allowed to use his good skills again!
+effect: .name "apostate_summon_skeleton" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters "apostate_summon_A" .summon_chances 1 .summon_limits 1 .summon_ranks 4 .on_hit true .on_miss false .apply_once true .has_description true .queue true .summon_rank_is_previous_monster_class false .summon_does_roll_initiatives 1
+effect: .name "apostate_summon_enable_bleed" .target "target_enemy_group" .chance 1020%  .buff_ids "apostate_enable_bleed_skills" .on_hit true .on_miss false .can_apply_on_death true .queue true .duration -1 .buff_source_type "bsrc_notspecified"
+effect: .name "apostate_summon_enable_blight" .target "target_enemy_group" .chance 1020%  .buff_ids "apostate_enable_blight_skills" .on_hit true .on_miss false .can_apply_on_death true .queue true .duration -1 .buff_source_type "bsrc_notspecified"
+effect: .name "apostate_disable_skills" .target "performer" .chance 1020%  .buff_ids "apostate_disable_bleed_skills" "apostate_disable_blight_skills" .on_hit true .on_miss false .can_apply_on_death true .duration -1 .buff_source_type "bsrc_notspecified"
+
+effect: .name "apostate_dummy_bleed" .target "target" .chance 0% .dotBleed 2 .duration 3 .on_hit false .on_miss true .has_description false
+effect: .name "apostate_dummy_blight" .target "target" .chance 0% .dotPoison 2 .duration 3 .on_hit false .on_miss true .has_description false
+effect: .name "apostate_summon_push" .target "performer" .push 3 .chance 1000% .on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "apo_skele_dmg_1" .target "target" .chance 100% .health_damage 5 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_2" .target "target" .chance 50% .health_damage 2 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_3" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_1_strong" .target "target" .chance 100% .health_damage 7 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_2_strong" .target "target" .chance 50% .health_damage 3 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_3_strong" .target "target" .chance 50% .health_damage 2 .on_hit true .on_miss false
+effect: .name "apo_skele_dmg_4_strong" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false
+
+effect: .name "apostate_stun" .target "target" .chance 130% .stun 1 .on_hit true .on_miss false .queue true

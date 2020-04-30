@@ -1,0 +1,46 @@
+ {
+	"monster_brains" : [
+        {
+            "id": "sd_tnt",
+            "skill_cooldowns": [
+			],
+            "skill_selection_desires": [
+			
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "sd_tnt_explode"
+                    }
+                }
+				
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires":[
+
+				{
+                    "type": "death",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": true,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "combat_skill_id_override": "sd_tnt_explode"
+                    }
+                }
+            ]
+		}	
+	]
+}

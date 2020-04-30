@@ -1,0 +1,80 @@
+{
+    "events": [
+        {
+            "id": "embark_party_buff_apostates",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 20,
+            "requirements": {
+                "minimum_week": 12,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0,
+                "finished_plot_quests":[
+                    "plot_kill_necromancer_1"
+                ]
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "bad",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_apostate_reduce_healing_tooltip",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_apostate_reduce_healing",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_apostate_damage_low",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_apostate_damage_high",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "town_event_apostate_crit",
+                    "number_data": 0.0
+                }
+            ]
+        },
+        {
+            "id": "bonus_recruit_apostate_necromancer_dead",
+            "base_chance": 0.0,
+            "per_not_rolled_additional_chance": 0.0,
+            "is_unique": true,
+            "priority": "highest",
+            "cooldown": 0,
+            "requirements": {
+                "minimum_week": 0,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0,
+                "finished_plot_quests":[
+                    "plot_kill_necromancer_1"
+                ]
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "apostate",
+                    "number_data": 3.0
+                }
+            ]
+        }
+    ]
+}

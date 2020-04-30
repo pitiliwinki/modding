@@ -1,0 +1,56 @@
+resistances: .stun 40% .poison 20% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 67% .trap 20%
+crit: .effects "cataphract_on_crit_flat_heal"
+weapon: .name "cataphract_weapon_0" .atk 0% .dmg 4 10 .crit 3% .spd 3
+weapon: .name "cataphract_weapon_1" .atk 0% .dmg 5 11 .crit 4% .spd 3 .upgradeRequirementCode 0
+weapon: .name "cataphract_weapon_2" .atk 0% .dmg 6 12 .crit 5% .spd 4 .upgradeRequirementCode 1
+weapon: .name "cataphract_weapon_3" .atk 0% .dmg 7 13 .crit 6% .spd 4 .upgradeRequirementCode 2
+weapon: .name "cataphract_weapon_4" .atk 0% .dmg 8 15 .crit 7% .spd 5 .upgradeRequirementCode 3
+armour: .name "cataphract_armour_0" .def 5% .prot 0 .hp 26 .spd 0
+armour: .name "cataphract_armour_1" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
+armour: .name "cataphract_armour_2" .def 15% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
+armour: .name "cataphract_armour_3" .def 20% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 2
+armour: .name "cataphract_armour_4" .def 25% .prot 0 .hp 48 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "spear_thrust" .level 0 .type "melee" .atk 90% .dmg -15% .crit 2% .move 0 1 .launch 321 .target 123 .is_crit_valid True .generation_guaranteed true
+combat_skill: .id "spear_thrust" .level 1 .type "melee" .atk 95% .dmg -15% .crit 3% .move 0 1 .launch 321 .target 123 .is_crit_valid True  
+combat_skill: .id "spear_thrust" .level 2 .type "melee" .atk 100% .dmg -15% .crit 4% .move 0 1 .launch 321 .target 123 .is_crit_valid True 
+combat_skill: .id "spear_thrust" .level 3 .type "melee" .atk 105% .dmg -15% .crit 5% .move 0 1 .launch 321 .target 123 .is_crit_valid True 
+combat_skill: .id "spear_thrust" .level 4 .type "melee" .atk 110% .dmg -15% .crit 6% .move 0 1 .launch 321 .target 123 .is_crit_valid True
+combat_skill: .id "tailwind" .level 0 .heal 1 2 .launch 1 .target @~1234 .is_crit_valid true .effect 
+combat_skill: .id "tailwind" .level 1 .heal 1 3 .launch 1 .target @~1234 .is_crit_valid true .effect 
+combat_skill: .id "tailwind" .level 2 .heal 1 4 .launch 1 .target @~1234 .is_crit_valid true .effect 
+combat_skill: .id "tailwind" .level 3 .heal 1 5 .launch 1 .target @~1234 .is_crit_valid true .effect 
+combat_skill: .id "tailwind" .level 4 .heal 2 6 .launch 1 .target @~1234 .is_crit_valid true .effect 
+combat_skill: .id "bannerman" .level 0 .heal 1 4 .launch 1 .target @4321 .is_crit_valid true .effect "cataphract_protection_1"
+combat_skill: .id "bannerman" .level 1 .heal 2 6 .launch 1 .target @4321 .is_crit_valid true .effect "cataphract_protection_2"
+combat_skill: .id "bannerman" .level 2 .heal 2 8 .launch 1 .target @4321 .is_crit_valid true .effect "cataphract_protection_3"
+combat_skill: .id "bannerman" .level 3 .heal 3 10 .launch 1 .target @4321 .is_crit_valid true .effect "cataphract_protection_4"
+combat_skill: .id "bannerman" .level 4 .heal 3 12 .launch 1 .target @4321 .is_crit_valid true .effect "cataphract_protection_5"
+combat_skill: .id "withdraw" .level 0 .type "ranged" .atk 90% .dmg -75% .crit 3% .move 3 0 .launch 1 .target ~1234 .is_crit_valid True  .effect "cataphract_withdraw_acc_1" "cataphract_withdraw_spd_1"
+combat_skill: .id "withdraw" .level 1 .type "ranged" .atk 95% .dmg -75% .crit 4% .move 3 0 .launch 1 .target ~1234 .is_crit_valid True  .effect "cataphract_withdraw_acc_2" "cataphract_withdraw_spd_2"
+combat_skill: .id "withdraw" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 5% .move 3 0 .launch 1 .target ~1234 .is_crit_valid True  .effect "cataphract_withdraw_acc_3" "cataphract_withdraw_spd_3"
+combat_skill: .id "withdraw" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 6% .move 3 0 .launch 1 .target ~1234 .is_crit_valid True  .effect "cataphract_withdraw_acc_4" "cataphract_withdraw_spd_4"
+combat_skill: .id "withdraw" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 7% .move 3 0 .launch 1 .target ~1234 .is_crit_valid True  .effect "cataphract_withdraw_acc_5" "cataphract_withdraw_spd_5"
+combat_skill: .id "stampede" .level 0 .type "ranged" .atk 90% .dmg -60% .crit 0% .move 1 0 .launch 432 .target ~1234 .is_crit_valid True 
+combat_skill: .id "stampede" .level 1 .type "ranged" .atk 95% .dmg -60% .crit 0% .move 1 0 .launch 432 .target ~1234 .is_crit_valid True 
+combat_skill: .id "stampede" .level 2 .type "ranged" .atk 100% .dmg -60% .crit 2% .move 1 0 .launch 432 .target ~1234 .is_crit_valid True  
+combat_skill: .id "stampede" .level 3 .type "ranged" .atk 105% .dmg -60% .crit 2% .move 1 0 .launch 432 .target ~1234 .is_crit_valid True  
+combat_skill: .id "stampede" .level 4 .type "ranged" .atk 110% .dmg -60% .crit 4% .move 1 0 .launch 432 .target ~1234 .is_crit_valid True  
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+combat_skill: .id "run_down" .level 0 .type "ranged" .atk 95% .dmg 10% .crit 3% .launch 4 .target 234 .is_crit_valid True .effect "cataphract_run_down_1" "cataphract_run_down_spd_1"
+combat_skill: .id "run_down" .level 1 .type "ranged" .atk 100% .dmg 10% .crit 4% .launch 4 .target 234 .is_crit_valid True .effect "cataphract_run_down_2" "cataphract_run_down_spd_2"
+combat_skill: .id "run_down" .level 2 .type "ranged" .atk 105% .dmg 10% .crit 4% .launch 4 .target 234 .is_crit_valid True .effect "cataphract_run_down_3" "cataphract_run_down_spd_3"
+combat_skill: .id "run_down" .level 3 .type "ranged" .atk 110% .dmg 10% .crit 5% .launch 4 .target 234 .is_crit_valid True .effect "cataphract_run_down_4" "cataphract_run_down_spd_4"
+combat_skill: .id "run_down" .level 4 .type "ranged" .atk 115% .dmg 10% .crit 5% .launch 4 .target 234 .is_crit_valid True .effect "cataphract_run_down_5" "cataphract_run_down_spd_4"
+combat_skill: .id "onslaught" .level 0 .type "melee" .atk 95% .dmg 30% .crit 5% .move 0 3 .launch 4 .target 234 .is_crit_valid True  
+combat_skill: .id "onslaught" .level 1 .type "melee" .atk 100% .dmg 30% .crit 8% .move 0 3 .launch 4 .target 234 .is_crit_valid True 
+combat_skill: .id "onslaught" .level 2 .type "melee" .atk 105% .dmg 30% .crit 11% .move 0 3 .launch 4 .target 234 .is_crit_valid True 
+combat_skill: .id "onslaught" .level 3 .type "melee" .atk 110% .dmg 30% .crit 14% .move 0 3 .launch 4 .target 234 .is_crit_valid True  
+combat_skill: .id "onslaught" .level 4 .type "melee" .atk 115% .dmg 30% .crit 17% .move 0 3 .launch 4 .target 234 .is_crit_valid True 
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "training_ring"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 17777
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 5 .card_chance 1.0

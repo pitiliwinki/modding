@@ -1,0 +1,257 @@
+{
+   "entries":
+   [
+      {
+         "id" : "apostate_common_trinket",
+         "buffs" :
+         [
+            "apostate_trinket1_stressH",
+            "apostate_trinket1_acc_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_common_flavour_set",
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "apostate_uncommon_trinket",
+         "buffs" :
+         [
+            "apostate_trinket2_scouting",
+            "apostate_trinket2_party_surprise",
+            "apostate_trinket2_stress_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_uncommon_flavour_set",
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 2,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "apostate_rare_trinket",
+         "buffs" :
+         [
+            "apostate_trinket3_blight_skill",
+            "apostate_trinket3_blight_amount",
+            "apostate_trinket3_stun_skill",
+            "apostate_trinket3_speed_debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_rare_flavour_set",
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "apostate_very_rare_trinket_1",
+         "buffs" :
+         [
+            "apostate_trinket4_acc",
+            "apostate_trinket4_dodge_debuff",
+            "apostate_trinket4_crit_vs_wounded"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_veryrare_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "crypts",
+         "kill_performer_additional_effects":
+         [
+             "apostate_summon_skeleton",
+             "apostate_summon_enable_bleed"
+         ]
+      },
+      {
+         "id" : "apostate_very_rare_trinket_2",
+         "buffs" :
+         [
+            "apostate_trinket5_deathblow_resist",
+            "apostate_trinket5_custom_tooltip"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_veryrare_set",
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "crypts",
+         "kill_performer_additional_effects":
+         [
+             "apostate_summon_skeleton",
+             "apostate_summon_enable_blight"
+         ],
+         "kill_all_heroes_additional_effects":
+         [
+            "Apostate_trinket_maxhp_effect"
+         ],
+         "attack_skill_additional_effects":
+         [
+             "Apostate_trinket_debuff_enemy"
+         ]
+      },
+      {
+         "id" : "apostate_cc_trinket",
+         "buffs" :
+         [
+            "apostate_cc_trinket_stress_vs_vamps",
+            "apostate_cc_trinket_custom_tooltip_1",
+            "apostate_cc_trinket_custom_tooltip_2",
+            "apostate_cc_trinket_custom_tooltip_3"
+         ],
+         "hero_class_requirements":
+         [
+            "apostate"
+         ],
+         "set_id" : "apostate_cc_flavour_set",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+         "friendly_skill_additional_effects":
+         [
+            "Apostate_cc_trinket_bleed_blocker",
+            "Apostate_cc_trinket_bleed",
+            "Apostate_cc_trinket_buffs"
+         ]
+      },
+      {
+        "id" : "apostate_com_trinket",
+        "buffs" :
+        [
+            "apostate_com_trinket_reflect",
+            "apostate_com_trinket_dodge_debuff",
+            "apostate_com_trinket_custom_tooltip_1",
+            "apostate_com_trinket_custom_tooltip_2"
+        ],
+        "hero_class_requirements":
+        [
+           "apostate"
+        ],
+        "set_id" : "apostate_com_flavour_set",
+        "rarity" : "comet",
+        "shard" : 20,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "was_hit_additional_effects":
+        [
+            "Apostate_com_trinket_blight_enemy",
+            "Apostate_com_trinket_buffs"
+        ]
+      },
+      {
+        "id" : "apostate_dolores_head_trinket",
+        "buffs" :
+        [
+            "apostate_dolores_head_deathblow_resist",
+            "apostate_dolores_head_dmg_low",
+            "apostate_dolores_head_dmg_high",
+            "apostate_dolores_head_crit",
+            "apostate_dolores_head_reduce_healing",
+            "apostate_dolores_head_aegis_tooltip",
+            "apostate_dolores_head_healing_tooltip"
+        ],
+        "hero_class_requirements":
+        [
+        ],
+        "set_id" : "apostate_dolores_head_flavour_set",
+        "rarity" : "collector",
+        "price" : 15000,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "attack_skill_additional_effects":
+        [
+           "Apostate_dolores_head_aegis",
+           "Apostate_dolores_head_pain_block",
+           "Apostate_dolores_head_pain",
+           "Apostate_dolores_head_pain_unblock"
+        ]
+      },
+      {
+        "id" : "apostate_bishops_head_trinket",
+        "buffs" :
+        [
+            "apostate_bishops_head_trinket_prot_90",
+            "apostate_bishops_head_trinket_prot_80",
+            "apostate_bishops_head_trinket_prot_70",
+            "apostate_bishops_head_trinket_prot_60",
+            "apostate_bishops_head_trinket_prot_50",
+            "apostate_bishops_head_trinket_prot_40",
+            "apostate_bishops_head_trinket_prot_30",
+            "apostate_bishops_head_trinket_prot_20",
+            "apostate_bishops_head_trinket_prot_10",
+            "apostate_bishops_head_trinket_prot_dd",
+            "apostate_bishops_head_trinket_crit_rec_90",
+            "apostate_bishops_head_trinket_crit_rec_80",
+            "apostate_bishops_head_trinket_crit_rec_70",
+            "apostate_bishops_head_trinket_crit_rec_60",
+            "apostate_bishops_head_trinket_crit_rec_50",
+            "apostate_bishops_head_trinket_crit_rec_40",
+            "apostate_bishops_head_trinket_crit_rec_30",
+            "apostate_bishops_head_trinket_crit_rec_20",
+            "apostate_bishops_head_trinket_crit_rec_10",
+            "apostate_bishops_head_trinket_crit_rec_dd",
+            "apostate_bishops_head_trinket_custom_tooltip_1",
+            "apostate_bishops_head_trinket_custom_tooltip_2",
+            "apostate_head_trinket_stress"
+        ],
+        "hero_class_requirements":
+        [
+        ],
+        "set_id" : "apostate_bishops_head_flavour_set",
+        "rarity" : "collector",
+        "price" : 15000,
+        "limit" : 1,
+        "origin_dungeon" : "",
+        "friendly_skill_additional_effects":
+        [
+           "Apostate_bishops_head_trinket_mark_self"
+        ]
+      },
+      {
+        "id" : "apostate_dance_trinket",
+        "buffs" :
+        [
+            "apostate_dance_trinket_stress",
+            "apostate_dance_trinket_tooltip_1",
+            "apostate_dance_trinket_tooltip_2"
+        ],
+        "hero_class_requirements":
+        [
+        ],
+        "set_id" : "apostate_dance_flavour_set",
+        "rarity" : "very_rare",
+        "price" : 25000,
+        "limit" : 2,
+        "origin_dungeon" : "",
+        "friendly_skill_additional_effects":
+        [
+           "Apostate_dance_trinket_buff",
+           "Apostate_dance_trinket_forward"
+        ],
+        "attack_skill_additional_effects":
+        [
+           "Apostate_dance_trinket_move_resist",
+           "Apostate_dance_trinket_back"
+        ]
+      }
+   ]
+}

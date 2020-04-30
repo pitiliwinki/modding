@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "id": "first_thorn",
+            "base_chance": 20.0,
+            "per_not_rolled_additional_chance": 20.0,
+            "cooldown": 0,
+            "is_unique" : true,
+            "priority":"higher",            
+            "requirements": {
+                "minimum_week": 5,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "thorn",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "pierce_darkness",
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.5,
+            "cooldown": 8,
+            "requirements": {
+                "minimum_week": 8,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "E_lightstress_75",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "E_lightstress_50",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "E_lightstress_25",
+                    "number_data": 0.0
+                },
+                {
+                    "type": "embark_party_buff",
+                    "string_data": "E_lightstress_0",
+                    "number_data": 0.0
+                },                
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "E_lightstress_ToolTip",
+                    "number_data": 0.0
+                }
+            ]
+        }
+    ]
+}

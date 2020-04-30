@@ -1,0 +1,27 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "succubus_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "succubus_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "succubus_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "succubus_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "succubus_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "succubus_armour_0" .icon "eqp_armour_0.png"
+armour: .name "succubus_armour_1" .icon "eqp_armour_1.png"
+armour: .name "succubus_armour_2" .icon "eqp_armour_2.png"
+armour: .name "succubus_armour_3" .icon "eqp_armour_3.png"
+armour: .name "succubus_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "cloak" 		  .icon "one" 	.anim "attack_transform" 										.condensed_tooltip_stats true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "silent_curse"  .icon "two" 	.anim "attack_curse" 				.targheadfx "curse_target"	.condensed_tooltip_stats true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "leeches" 	  .icon "three" .anim "attack_leeches"  			.targfx "leeches_target" 	.condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "my_hero" 	  .icon "four"  .anim "attack_my_hero"   
+combat_skill: .id "scythe"  	  .icon "five"  .anim "attack_scythe_2" 			.targfx "scythe_2_target" 	.targchestfx "blood_splatter"
+combat_skill: .id "scythe_aoe" 	  .icon "six" 	.anim "attack_harvest"  			.targfx "harvest_target"	.tarchestfx "blood_splatter" 
+combat_skill: .id "force_protect" .icon "seven" .anim "attack_protect_your_godess"  							.condensed_tooltip_stats true .condensed_tooltip_effects false 
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+act_out_display: .attack_friendly_anim "attack_scythe" .attack_friendly_fx "rake" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/succubus_rake"
+
+rendering: .sort_position_z_rank_override -5

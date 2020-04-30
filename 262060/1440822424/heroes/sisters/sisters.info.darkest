@@ -1,0 +1,72 @@
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 50% .death_blow 67% .trap 30%
+crit: .effects "sisters_crit_buff"
+weapon: .name "sisters_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 7
+weapon: .name "sisters_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 7 .upgradeRequirementCode 0
+weapon: .name "sisters_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 8 .upgradeRequirementCode 1
+weapon: .name "sisters_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 8 .upgradeRequirementCode 2
+weapon: .name "sisters_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 9 .upgradeRequirementCode 3
+armour: .name "sisters_armour_0" .def 8% .prot 0 .hp 23 .spd 0
+armour: .name "sisters_armour_1" .def 13% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
+armour: .name "sisters_armour_2" .def 18% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
+armour: .name "sisters_armour_3" .def 23% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "sisters_armour_4" .def 28% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "possession" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes scholar warrior .effect "possession_horror" "possession_self_stress_1" .scholar_effects switch_mode_warrior_self possession_warrior_tooltip possession_warrior_bark .warrior_effects switch_mode_scholar_self possession_scholar_tooltip possession_scholar_bark .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "possession" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes scholar warrior .effect "possession_horror" "possession_self_stress_2" .scholar_effects switch_mode_warrior_self possession_warrior_tooltip possession_warrior_bark .warrior_effects switch_mode_scholar_self possession_scholar_tooltip possession_scholar_bark .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "possession" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes scholar warrior .effect "possession_horror" "possession_self_stress_3" .scholar_effects switch_mode_warrior_self possession_warrior_tooltip possession_warrior_bark .warrior_effects switch_mode_scholar_self possession_scholar_tooltip possession_scholar_bark .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "possession" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes scholar warrior .effect "possession_horror" "possession_self_stress_4" .scholar_effects switch_mode_warrior_self possession_warrior_tooltip possession_warrior_bark .warrior_effects switch_mode_scholar_self possession_scholar_tooltip possession_scholar_bark .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+combat_skill: .id "possession" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes scholar warrior .effect "possession_horror" "possession_self_stress_5" .scholar_effects switch_mode_warrior_self possession_warrior_tooltip possession_warrior_bark .warrior_effects switch_mode_scholar_self possession_scholar_tooltip possession_scholar_bark .is_continue_turn true .per_turn_limit 1 .is_stall_invalidating false
+
+combat_skill: .id "weed_out" .level 0 .type "ranged" .atk 95% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .ignore_stealth true  .effect "Sister Self Stress Hidden" "Destealth" "Mark Target" "Weed Out Bonus 1" "Weed Out Blight 1" "Scholar Exhaust" "Hidden Stress Tooltip" .valid_modes scholar
+combat_skill: .id "weed_out" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .ignore_stealth true  .effect "Sister Self Stress Hidden" "Destealth" "Mark Target" "Weed Out Bonus 2" "Weed Out Blight 2" "Scholar Exhaust" "Hidden Stress Tooltip" .valid_modes scholar
+combat_skill: .id "weed_out" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Sister Self Stress Hidden" "Destealth" "Mark Target" "Weed Out Bonus 3" "Weed Out Blight 3" "Scholar Exhaust" "Hidden Stress Tooltip" .valid_modes scholar
+combat_skill: .id "weed_out" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .ignore_stealth true  .effect "Sister Self Stress Hidden" "Destealth" "Mark Target" "Weed Out Bonus 4" "Weed Out Blight 4" "Scholar Exhaust" "Hidden Stress Tooltip" .valid_modes scholar
+combat_skill: .id "weed_out" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 4321 .target 1234 .is_crit_valid False .ignore_stealth true  .effect "Sister Self Stress Hidden" "Destealth" "Mark Target" "Weed Out Bonus 5" "Weed Out Blight 5" "Scholar Exhaust" "Hidden Stress Tooltip" .valid_modes scholar
+
+combat_skill: .id "revitalize" .level 0 .launch 32 .target @1234  .is_crit_valid False  .effect "Sisters Healdot 1" "Sisters Stress Heal 1" "Blossom Destealth" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "revitalize" .level 1 .launch 32 .target @1234  .is_crit_valid False  .effect "Sisters Healdot 2" "Sisters Stress Heal 2" "Blossom Destealth" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "revitalize" .level 2 .launch 32 .target @1234  .is_crit_valid False  .effect "Sisters Healdot 3" "Sisters Stress Heal 3" "Blossom Destealth" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "revitalize" .level 3 .launch 32 .target @1234  .is_crit_valid False  .effect "Sisters Healdot 4" "Sisters Stress Heal 4" "Blossom Destealth" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "revitalize" .level 4 .launch 32 .target @1234  .is_crit_valid False  .effect "Sisters Healdot 5" "Sisters Stress Heal 5" "Blossom Destealth" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+combat_skill: .id "rose_thorns" .level 0 .type "melee" .atk 0% .dmg -100% .crit 0% .launch 4321 .target  .is_crit_valid False  .effect "Sisters Riposte 1" "Sisters Riposte Exhaust 1" "Bramble Tooltip" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "rose_thorns" .level 1 .type "melee" .atk 0% .dmg -100% .crit 0% .launch 4321 .target  .is_crit_valid False  .effect "Sisters Riposte 2" "Sisters Riposte Exhaust 2" "Bramble Tooltip" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "rose_thorns" .level 2 .type "melee" .atk 0% .dmg -100% .crit 0% .launch 4321 .target  .is_crit_valid False  .effect "Sisters Riposte 3" "Sisters Riposte Exhaust 3" "Bramble Tooltip" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "rose_thorns" .level 3 .type "melee" .atk 0% .dmg -100% .crit 0% .launch 4321 .target  .is_crit_valid False  .effect "Sisters Riposte 4" "Sisters Riposte Exhaust 4" "Bramble Tooltip" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+combat_skill: .id "rose_thorns" .level 4 .type "melee" .atk 0% .dmg -100% .crit 0% .launch 4321 .target  .is_crit_valid False  .effect "Sisters Riposte 5" "Sisters Riposte Exhaust 5" "Bramble Tooltip" "Sister Self Stress" "Scholar Exhaust" .is_stall_invalidating false .valid_modes scholar
+
+combat_skill: .id "trespass" .level 0 .type "melee" .atk 90% .dmg 0% .crit -1% .move 0 2 .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .ignore_guard true  .effect "Trespass Marked Tooltip" "Trespass Marked Bonus 1" "Sister Self Stress Hidden" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "trespass" .level 1 .type "melee" .atk 95% .dmg 0% .crit 0% .move 0 2 .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .ignore_guard true  .effect "Trespass Marked Tooltip" "Trespass Marked Bonus 2" "Sister Self Stress Hidden" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "trespass" .level 2 .type "melee" .atk 100% .dmg 0% .crit 1% .move 0 2 .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .ignore_guard true  .effect "Trespass Marked Tooltip" "Trespass Marked Bonus 3" "Sister Self Stress Hidden" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "trespass" .level 3 .type "melee" .atk 105% .dmg 0% .crit 2% .move 0 2 .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .ignore_guard true  .effect "Trespass Marked Tooltip" "Trespass Marked Bonus 4" "Sister Self Stress Hidden" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "trespass" .level 4 .type "melee" .atk 110% .dmg 0% .crit 3% .move 0 2 .launch 4321 .target 1234 .is_crit_valid True .ignore_protection true .ignore_guard true  .effect "Trespass Marked Tooltip" "Trespass Marked Bonus 5" "Sister Self Stress Hidden" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+
+combat_skill: .id "shroud" .level 0 .type "melee" .atk 95% .dmg -100% .crit 0% .move 3 0 .launch 321 .target  .is_crit_valid False  .effect "Shroud Healdot 1" "Shroud Stealth" "Shroud Buff 1" "Sister Self Stress" "Warrior Exhaust" .is_stall_invalidating false .valid_modes warrior .per_battle_limit 5 .refresh_after_each_wave true
+combat_skill: .id "shroud" .level 1 .type "melee" .atk 100% .dmg -100% .crit 0% .move 3 0 .launch 321 .target  .is_crit_valid False  .effect "Shroud Healdot 2" "Shroud Stealth" "Shroud Buff 2" "Sister Self Stress" "Warrior Exhaust" .is_stall_invalidating false .valid_modes warrior .per_battle_limit 5 .refresh_after_each_wave true
+combat_skill: .id "shroud" .level 2 .type "melee" .atk 105% .dmg -100% .crit 0% .move 3 0 .launch 321 .target  .is_crit_valid False  .effect "Shroud Healdot 3" "Shroud Stealth" "Shroud Buff 3" "Sister Self Stress" "Warrior Exhaust" .is_stall_invalidating false .valid_modes warrior .per_battle_limit 5 .refresh_after_each_wave true
+combat_skill: .id "shroud" .level 3 .type "melee" .atk 110% .dmg -100% .crit 0% .move 3 0 .launch 321 .target  .is_crit_valid False  .effect "Shroud Healdot 4" "Shroud Stealth" "Shroud Buff 4" "Sister Self Stress" "Warrior Exhaust" .is_stall_invalidating false .valid_modes warrior .per_battle_limit 5 .refresh_after_each_wave true
+combat_skill: .id "shroud" .level 4 .type "melee" .atk 115% .dmg -100% .crit 0% .move 3 0 .launch 321 .target  .is_crit_valid False  .effect "Shroud Healdot 5" "Shroud Stealth" "Shroud Buff 5" "Sister Self Stress" "Warrior Exhaust" .is_stall_invalidating false .valid_modes warrior .per_battle_limit 5 .refresh_after_each_wave true
+
+combat_skill: .id "one_thousand_cuts" .level 0 .type "melee" .atk 90% .dmg -25% .crit 1% .move 0 1 .launch 42 .target ~13 .is_crit_valid True .ignore_protection true  .effect "Sister Self Stress Hidden" "1K Cuts Bonus 1" "1K Cuts Tooltip" "1K Cuts Bleed 1" "Disorient 1" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "one_thousand_cuts" .level 1 .type "melee" .atk 95% .dmg -25% .crit 2% .move 0 1 .launch 42 .target ~13 .is_crit_valid True .ignore_protection true  .effect "Sister Self Stress Hidden" "1K Cuts Bonus 2" "1K Cuts Tooltip" "1K Cuts Bleed 2" "Disorient 2" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "one_thousand_cuts" .level 2 .type "melee" .atk 100% .dmg -25% .crit 3% .move 0 1 .launch 42 .target ~13 .is_crit_valid True .ignore_protection true  .effect "Sister Self Stress Hidden" "1K Cuts Bonus 3" "1K Cuts Tooltip" "1K Cuts Bleed 3" "Disorient 3" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "one_thousand_cuts" .level 3 .type "melee" .atk 105% .dmg -25% .crit 4% .move 0 1 .launch 42 .target ~13 .is_crit_valid True .ignore_protection true  .effect "Sister Self Stress Hidden" "1K Cuts Bonus 4" "1K Cuts Tooltip" "1K Cuts Bleed 4" "Disorient 4" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+combat_skill: .id "one_thousand_cuts" .level 4 .type "melee" .atk 110% .dmg -25% .crit 5% .move 0 1 .launch 42 .target ~13 .is_crit_valid True .ignore_protection true  .effect "Sister Self Stress Hidden" "1K Cuts Bonus 5" "1K Cuts Tooltip" "1K Cuts Bleed 5" "Disorient 5" "Warrior Exhaust" "Hidden Stress Tooltip" .valid_modes warrior
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .ignore_protection true
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "memorial_grounds"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 3
+id_index: .index 1335
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+overstressed_modifier: .override_trait_type_ids sistersdiscordant .override_trait_type_chances 1.0
+mode: .id scholar .is_raid_default true .affliction_combat_skill_id possession
+mode: .id warrior .affliction_combat_skill_id possession .battle_complete_combat_skill_id possession
+extra_battle_loot: .code "SISTERS_JOURNAL" .count 1
+extra_curio_loot: .code "SISTERS_JOURNAL" .count 1
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

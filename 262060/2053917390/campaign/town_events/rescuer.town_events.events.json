@@ -1,0 +1,31 @@
+{
+    "events": [
+        {
+            "id": "first_rescuer",
+            "base_chance": 15.0,
+            "per_not_rolled_additional_chance": 15.0,
+            "cooldown": 0,
+			"is_unique" : true,
+			"priority": "higher",
+            "requirements": {
+                "minimum_week": 3,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_first_rescuer",
+            "sprite_attachment": "nomad_wagon",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "rescuer",
+                    "number_data": 1.0
+                }
+            ]
+        }
+ 
+    ]
+}

@@ -1,0 +1,93 @@
+resistances: .stun 20% .poison 20% .bleed 60% .disease 50% .move 20% .debuff 50% .death_blow 67% .trap 20%
+crit: .effects "Apostate_On_Crit_Effect"
+
+weapon: .name "apostate_weapon_0" .atk 0% .dmg 4 8  .crit 1% .spd 6
+weapon: .name "apostate_weapon_1" .atk 0% .dmg 5 10 .crit 2% .spd 6 .upgradeRequirementCode 0
+weapon: .name "apostate_weapon_2" .atk 0% .dmg 6 11 .crit 3% .spd 7 .upgradeRequirementCode 1
+weapon: .name "apostate_weapon_3" .atk 0% .dmg 6 13 .crit 4% .spd 7 .upgradeRequirementCode 2
+weapon: .name "apostate_weapon_4" .atk 0% .dmg 7 14 .crit 5% .spd 8 .upgradeRequirementCode 3
+
+armour: .name "apostate_armour_0" .def 0% .prot 0 .hp 24 .spd 0
+armour: .name "apostate_armour_1" .def 5% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 0
+armour: .name "apostate_armour_2" .def 10% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 1
+armour: .name "apostate_armour_3" .def 15% .prot 0 .hp 39 .spd 0 .upgradeRequirementCode 2
+armour: .name "apostate_armour_4" .def 20% .prot 0 .hp 44 .spd 0 .upgradeRequirementCode 3
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 2 1 .launch 4321
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid true
+
+// Condemn (pull skill with strong debuffs)
+combat_skill: .id "condemn" .level 0 .type "ranged" .atk  90% .dmg -66% .crit 10% .launch 432 .target 1234 .effect "Apostate_Condemn_Pull_1" "Apostate_Condemn_SPD_Debuff_1" "Apostate_Condemn_DMG_Rec_1"
+combat_skill: .id "condemn" .level 1 .type "ranged" .atk  95% .dmg -66% .crit 11% .launch 432 .target 1234 .effect "Apostate_Condemn_Pull_2" "Apostate_Condemn_SPD_Debuff_2" "Apostate_Condemn_DMG_Rec_2"
+combat_skill: .id "condemn" .level 2 .type "ranged" .atk 100% .dmg -66% .crit 12% .launch 432 .target 1234 .effect "Apostate_Condemn_Pull_3" "Apostate_Condemn_SPD_Debuff_3" "Apostate_Condemn_DMG_Rec_3"
+combat_skill: .id "condemn" .level 3 .type "ranged" .atk 105% .dmg -66% .crit 13% .launch 432 .target 1234 .effect "Apostate_Condemn_Pull_4" "Apostate_Condemn_SPD_Debuff_4" "Apostate_Condemn_DMG_Rec_4"
+combat_skill: .id "condemn" .level 4 .type "ranged" .atk 110% .dmg -66% .crit 14% .launch 432 .target 1234 .effect "Apostate_Condemn_Pull_5" "Apostate_Condemn_SPD_Debuff_5" "Apostate_Condemn_DMG_Rec_5"
+
+// Last Rites (stress heal for those near death)
+combat_skill: .id "last_rites" .level 0 .launch 234 .target @~1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Last_Rites_TT_All_Heroes" "Apostate_Last_Rites_TT_Rank_1" "Apostate_Last_Rites_Block_Stress_Heal" "Apostate_Last_Rites_Heal_Stress_1" "Apostate_Last_Rites_Unblock_Stress_Heal" .is_stall_invalidating false
+combat_skill: .id "last_rites" .level 1 .launch 234 .target @~1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Last_Rites_TT_All_Heroes" "Apostate_Last_Rites_TT_Rank_2" "Apostate_Last_Rites_Block_Stress_Heal" "Apostate_Last_Rites_Heal_Stress_2" "Apostate_Last_Rites_Unblock_Stress_Heal" .is_stall_invalidating false
+combat_skill: .id "last_rites" .level 2 .launch 234 .target @~1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Last_Rites_TT_All_Heroes" "Apostate_Last_Rites_TT_Rank_3" "Apostate_Last_Rites_Block_Stress_Heal" "Apostate_Last_Rites_Heal_Stress_3" "Apostate_Last_Rites_Unblock_Stress_Heal" .is_stall_invalidating false
+combat_skill: .id "last_rites" .level 3 .launch 234 .target @~1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Last_Rites_TT_All_Heroes" "Apostate_Last_Rites_TT_Rank_4" "Apostate_Last_Rites_Block_Stress_Heal" "Apostate_Last_Rites_Heal_Stress_4" "Apostate_Last_Rites_Unblock_Stress_Heal" .is_stall_invalidating false
+combat_skill: .id "last_rites" .level 4 .launch 234 .target @~1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Last_Rites_TT_All_Heroes" "Apostate_Last_Rites_TT_Rank_5" "Apostate_Last_Rites_Block_Stress_Heal" "Apostate_Last_Rites_Heal_Stress_5" "Apostate_Last_Rites_Unblock_Stress_Heal" .is_stall_invalidating false
+
+// Apocryphal Texts (buff for those near death)
+combat_skill: .id "apocryphal_texts" .level 0 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_All_Heroes_TT" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_1" "Apostate_Target_Pain_Unblock" "Apostate_Apocryphal_Texts_1" "Apostate_Target_Harm_TT_1" "Apostate_Free_Action_TT" "Apostate_Apocryphal_Texts_Bark" .generation_guaranteed true
+combat_skill: .id "apocryphal_texts" .level 1 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_All_Heroes_TT" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_2" "Apostate_Target_Pain_Unblock" "Apostate_Apocryphal_Texts_2" "Apostate_Target_Harm_TT_2" "Apostate_Free_Action_TT" "Apostate_Apocryphal_Texts_Bark"
+combat_skill: .id "apocryphal_texts" .level 2 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_All_Heroes_TT" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_3" "Apostate_Target_Pain_Unblock" "Apostate_Apocryphal_Texts_3" "Apostate_Target_Harm_TT_3" "Apostate_Free_Action_TT" "Apostate_Apocryphal_Texts_Bark"
+combat_skill: .id "apocryphal_texts" .level 3 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_All_Heroes_TT" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_4" "Apostate_Target_Pain_Unblock" "Apostate_Apocryphal_Texts_4" "Apostate_Target_Harm_TT_4" "Apostate_Free_Action_TT" "Apostate_Apocryphal_Texts_Bark"
+combat_skill: .id "apocryphal_texts" .level 4 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_All_Heroes_TT" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_5" "Apostate_Target_Pain_Unblock" "Apostate_Apocryphal_Texts_5" "Apostate_Target_Harm_TT_5" "Apostate_Free_Action_TT" "Apostate_Apocryphal_Texts_Bark"
+combat_skill: .id "apocryphal_texts" .level 0 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Apocryphal_Texts_Fake_Stress" "Apostate_Apocryphal_Texts_Cooldown" .generation_guaranteed true
+combat_skill: .id "apocryphal_texts" .level 1 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Apocryphal_Texts_Fake_Stress" "Apostate_Apocryphal_Texts_Cooldown"
+combat_skill: .id "apocryphal_texts" .level 2 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Apocryphal_Texts_Fake_Stress" "Apostate_Apocryphal_Texts_Cooldown"
+combat_skill: .id "apocryphal_texts" .level 3 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Apocryphal_Texts_Fake_Stress" "Apostate_Apocryphal_Texts_Cooldown"
+combat_skill: .id "apocryphal_texts" .level 4 .launch 1234 .target @~1234 .refresh_after_each_wave true .is_continue_turn true .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Apocryphal_Texts_Fake_Stress" "Apostate_Apocryphal_Texts_Cooldown"
+
+
+// Borrowed Time (defensive cure for an ally)
+combat_skill: .id "borrowed_time" .level 0 .launch 1234 .target @1234  .valid_modes apostate_mode .effect "Apostate_Borrowed_Time_Aegis" "Apostate_Borrowed_Time_Dodge_1" "Cure" "Apostate_Borrowed_Time_Fake_Mark" "Apostate_Borrowed_Time_Cooldown" "Apostate_Borrowed_Time_Cooldown_TT" .is_stall_invalidating false
+combat_skill: .id "borrowed_time" .level 1 .launch 1234 .target @1234  .valid_modes apostate_mode .effect "Apostate_Borrowed_Time_Aegis" "Apostate_Borrowed_Time_Dodge_2" "Cure" "Apostate_Borrowed_Time_Fake_Mark" "Apostate_Borrowed_Time_Cooldown" "Apostate_Borrowed_Time_Cooldown_TT" .is_stall_invalidating false
+combat_skill: .id "borrowed_time" .level 2 .launch 1234 .target @1234  .valid_modes apostate_mode .effect "Apostate_Borrowed_Time_Aegis" "Apostate_Borrowed_Time_Dodge_3" "Cure" "Apostate_Borrowed_Time_Fake_Mark" "Apostate_Borrowed_Time_Cooldown" "Apostate_Borrowed_Time_Cooldown_TT" .is_stall_invalidating false
+combat_skill: .id "borrowed_time" .level 3 .launch 1234 .target @1234  .valid_modes apostate_mode .effect "Apostate_Borrowed_Time_Aegis" "Apostate_Borrowed_Time_Dodge_4" "Cure" "Apostate_Borrowed_Time_Fake_Mark" "Apostate_Borrowed_Time_Cooldown" "Apostate_Borrowed_Time_Cooldown_TT" .is_stall_invalidating false
+combat_skill: .id "borrowed_time" .level 4 .launch 1234 .target @1234  .valid_modes apostate_mode .effect "Apostate_Borrowed_Time_Aegis" "Apostate_Borrowed_Time_Dodge_5" "Cure" "Apostate_Borrowed_Time_Fake_Mark" "Apostate_Borrowed_Time_Cooldown" "Apostate_Borrowed_Time_Cooldown_TT" .is_stall_invalidating false
+
+// Tenebrosity (hurts allies, fucks up enemies)
+combat_skill: .id "tenebrosity" .level 0 .type "ranged" .atk 85%  .dmg -50% .crit 0% .launch 12 .target ~123 .is_crit_valid true .valid_modes apostate_mode .effect "Apostate_Darkness" "Apostate_Tenebrosity_Pain_Block" "Apostate_Tenebrosity_Harm_Party_1" "Apostate_Tenebrosity_Pain_Unblock" "Apostate_Tenebrosity_Self_Buff" "Apostate_Tenebrosity_Custom_TT_1"
+combat_skill: .id "tenebrosity" .level 1 .type "ranged" .atk 90%  .dmg -50% .crit 1% .launch 12 .target ~123 .is_crit_valid true .valid_modes apostate_mode .effect "Apostate_Darkness" "Apostate_Tenebrosity_Pain_Block" "Apostate_Tenebrosity_Harm_Party_2" "Apostate_Tenebrosity_Pain_Unblock" "Apostate_Tenebrosity_Self_Buff" "Apostate_Tenebrosity_Custom_TT_2"
+combat_skill: .id "tenebrosity" .level 2 .type "ranged" .atk 95%  .dmg -50% .crit 2% .launch 12 .target ~123 .is_crit_valid true .valid_modes apostate_mode .effect "Apostate_Darkness" "Apostate_Tenebrosity_Pain_Block" "Apostate_Tenebrosity_Harm_Party_3" "Apostate_Tenebrosity_Pain_Unblock" "Apostate_Tenebrosity_Self_Buff" "Apostate_Tenebrosity_Custom_TT_3"
+combat_skill: .id "tenebrosity" .level 3 .type "ranged" .atk 100% .dmg -50% .crit 3% .launch 12 .target ~123 .is_crit_valid true .valid_modes apostate_mode .effect "Apostate_Darkness" "Apostate_Tenebrosity_Pain_Block" "Apostate_Tenebrosity_Harm_Party_4" "Apostate_Tenebrosity_Pain_Unblock" "Apostate_Tenebrosity_Self_Buff" "Apostate_Tenebrosity_Custom_TT_4"
+combat_skill: .id "tenebrosity" .level 4 .type "ranged" .atk 105% .dmg -50% .crit 4% .launch 12 .target ~123 .is_crit_valid true .valid_modes apostate_mode .effect "Apostate_Darkness" "Apostate_Tenebrosity_Pain_Block" "Apostate_Tenebrosity_Harm_Party_5" "Apostate_Tenebrosity_Pain_Unblock" "Apostate_Tenebrosity_Self_Buff" "Apostate_Tenebrosity_Custom_TT_5"
+
+// Incite (give teammate an extra action, debuff them)
+combat_skill: .id "incite" .level 0 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_EA_Effect" "Apostate_EA_TT" "Apostate_Incite_Buff_1" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_1" "Apostate_Target_Pain_Unblock"
+combat_skill: .id "incite" .level 1 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_EA_Effect" "Apostate_EA_TT" "Apostate_Incite_Buff_2" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_2" "Apostate_Target_Pain_Unblock"
+combat_skill: .id "incite" .level 2 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_EA_Effect" "Apostate_EA_TT" "Apostate_Incite_Buff_3" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_3" "Apostate_Target_Pain_Unblock"
+combat_skill: .id "incite" .level 3 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_EA_Effect" "Apostate_EA_TT" "Apostate_Incite_Buff_4" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_4" "Apostate_Target_Pain_Unblock"
+combat_skill: .id "incite" .level 4 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_EA_Effect" "Apostate_EA_TT" "Apostate_Incite_Buff_5" "Apostate_Target_Pain_Block" "Apostate_Target_Harm_5" "Apostate_Target_Pain_Unblock"
+// define skill twice to get around the 8 effect limit!
+combat_skill: .id "incite" .level 0 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Incite_Heal_Block" "Apostate_Incite_Heal_Reduce" "Apostate_Incite_Heal_Rec_Debuff" "Apostate_Incite_DMG_Rec" "Apostate_Target_Harm_TT_1"
+combat_skill: .id "incite" .level 1 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Incite_Heal_Block" "Apostate_Incite_Heal_Reduce" "Apostate_Incite_Heal_Rec_Debuff" "Apostate_Incite_DMG_Rec" "Apostate_Target_Harm_TT_2"
+combat_skill: .id "incite" .level 2 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Incite_Heal_Block" "Apostate_Incite_Heal_Reduce" "Apostate_Incite_Heal_Rec_Debuff" "Apostate_Incite_DMG_Rec" "Apostate_Target_Harm_TT_3"
+combat_skill: .id "incite" .level 3 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Incite_Heal_Block" "Apostate_Incite_Heal_Reduce" "Apostate_Incite_Heal_Rec_Debuff" "Apostate_Incite_DMG_Rec" "Apostate_Target_Harm_TT_4"
+combat_skill: .id "incite" .level 4 .launch 43 .target @1234 .self_target_valid false .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Incite_Heal_Block" "Apostate_Incite_Heal_Reduce" "Apostate_Incite_Heal_Rec_Debuff" "Apostate_Incite_DMG_Rec" "Apostate_Target_Harm_TT_5"
+
+
+// Desecrate (destroys a corpse, inflicts stun & blight on remaining enemies)
+combat_skill: .id "desecrate" .level 0 .type "ranged" .nil true .atk 100% .dmg -100% .launch 1234 .target 1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Destroy_Corpse_TT" "Apostate_Debuff_From_Self" "Apostate_Buff_From_Enemy" "Apostate_Corpse_Blight_1" "Apostate_Corpse_Stun_1" "Apostate_Destroy_Corpse" "Apostate_Darkness_No_TT" "Apostate_Torch_TT"
+combat_skill: .id "desecrate" .level 1 .type "ranged" .nil true .atk 100% .dmg -100% .launch 1234 .target 1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Destroy_Corpse_TT" "Apostate_Debuff_From_Self" "Apostate_Buff_From_Enemy" "Apostate_Corpse_Blight_2" "Apostate_Corpse_Stun_2" "Apostate_Destroy_Corpse" "Apostate_Darkness_No_TT" "Apostate_Torch_TT"
+combat_skill: .id "desecrate" .level 2 .type "ranged" .nil true .atk 100% .dmg -100% .launch 1234 .target 1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Destroy_Corpse_TT" "Apostate_Debuff_From_Self" "Apostate_Buff_From_Enemy" "Apostate_Corpse_Blight_3" "Apostate_Corpse_Stun_3" "Apostate_Destroy_Corpse" "Apostate_Darkness_No_TT" "Apostate_Torch_TT"
+combat_skill: .id "desecrate" .level 3 .type "ranged" .nil true .atk 100% .dmg -100% .launch 1234 .target 1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Destroy_Corpse_TT" "Apostate_Debuff_From_Self" "Apostate_Buff_From_Enemy" "Apostate_Corpse_Blight_4" "Apostate_Corpse_Stun_4" "Apostate_Destroy_Corpse" "Apostate_Darkness_No_TT" "Apostate_Torch_TT"
+combat_skill: .id "desecrate" .level 4 .type "ranged" .nil true .atk 100% .dmg -100% .launch 1234 .target 1234 .is_crit_valid false .valid_modes apostate_mode .effect "Apostate_Destroy_Corpse_TT" "Apostate_Debuff_From_Self" "Apostate_Buff_From_Enemy" "Apostate_Corpse_Blight_5" "Apostate_Corpse_Stun_5" "Apostate_Destroy_Corpse" "Apostate_Darkness_No_TT" "Apostate_Torch_TT"
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "library"
+
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 4
+id_index: .index 2289
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+mode: .id apostate_mode .is_raid_default true
+quirk_modifier: .incompatible_class_ids precision_striker weak_grip slugger torn_rotator_cuff bad_healer hippocratic fast_healer gift_of_the_healer stout god_fearing witness
+activity_modifier: .override_valid_activity_ids meditation flagellation bar gambling brothel treatment disease_treatment
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 7 .card_chance 1.0
+

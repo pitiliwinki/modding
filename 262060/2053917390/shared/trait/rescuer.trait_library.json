@@ -1,0 +1,105 @@
+{
+   "traits":
+   [
+        {
+		"id" : "medical",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "none",
+         "curio_tag_chance" : 0,
+         "keep_loot" : false,
+		 "generate_chance_modifier" : 0.0,
+         "buff_ids" : 
+         [
+            "RESC_MEDICAL_06",
+            "RESC_MEDICAL_07",
+            "RESC_MEDICAL_01",
+            "RESC_MEDICAL_02",
+            "RESC_MEDICAL_03",
+            "RESC_MEDICAL_04",
+			"RESC_MEDICAL_05"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 50},
+			{ "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "RESC_virtue_heal_stress_party" }, "chance": 5},
+			{ "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "RESC_virtue_heal_stress_self" }, "chance": 5},
+			{ "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "RESC_virtue_heal_rec" }, "chance": 5},
+			{ "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "RESC_virtue_death_resistb" }, "chance": 5},
+			{ "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "RESC_virtue_drip_heal" }, "chance": 5},
+            { "id": "buff_party", "data": { "number_value": 0.0, "string_value": "RESC_virtue_death_resist" }, "chance": 5},
+			{ "id": "buff_party", "data": { "number_value": 0.0, "string_value": "RESC_virtue_heal_recb" }, "chance": 5},
+			{ "id": "buff_party", "data": { "number_value": 0.0,"string_value": "RESC_virtue_normal_heal" }, "chance": 5},
+			{ "id": "heal_self", "data": { "number_value": 0.20, "string_value": "" }, "chance": 5}			
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_move", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_heal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_buff", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_item", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0},
+            { "id": "comment_self_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_self_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_move", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_curio_interaction", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_trap_triggered", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0}
+		  ]
+       },
+      {
+		"id" : "protectorateb",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "none",
+         "curio_tag_chance" : 0,
+         "keep_loot" : false,
+		 "generate_chance_modifier" : 0.0,
+         "buff_ids" : 
+         [
+            "PROTECTORATE_06B",
+            "PROTECTORATE_07B",
+            "PROTECTORATE_01B",
+            "PROTECTORATE_02B",
+            "PROTECTORATE_03B",
+            "PROTECTORATE_04B",
+			"PROTECTORATE_05B"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 45},
+			{ "id": "stress_heal_party", "data": { "number_value": 0.1, "string_value": "HealStressVirtuedParty" }, "chance": 15},
+			{ "id": "buff_party", "data": { "number_value": 0.0, "string_value": "PowerfulPartyBuff" }, "chance": 15},
+            { "id": "heal_self", "data": { "number_value": 0.15, "string_value": "" }, "chance": 25}	 
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_move", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_heal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_buff", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_item", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0},
+            { "id": "comment_self_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_self_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_hit", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_move", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_curio_interaction", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_trap_triggered", "data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "block_effect", "data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0}
+		  ]
+       }
+   ]
+}

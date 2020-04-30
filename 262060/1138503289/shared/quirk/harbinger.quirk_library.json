@@ -1,0 +1,30 @@
+{
+   "quirks":
+   [
+      {
+         "id" : "harbinger_touch",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "physical",
+         "incompatible_quirks" : 
+         [
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "HARB_QUIRK_HARBINGERTOUCH_DISEASERESIST",
+			"HARB_QUIRK_HARBINGERTOUCH_DMGL",
+			"HARB_QUIRK_HARBINGERTOUCH_DMGH",
+			"HARB_QUIRK_HARBINGERTOUCH_CRIT"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

@@ -1,0 +1,1323 @@
+{
+   "buffs":
+   [
+   
+	
+	 {
+         "id" : "VV_trinket_chalice_MAXHP",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "VV_contract_MAXHP-Stack",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "VV_portrait_Block_Beast",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description" : false	 
+      },
+	  
+	
+	  {
+         "id" : "VV_portrait_Riposte",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true	 
+      },
+	 
+	  {
+         "id" : "TRINKET_portrait_bleeding",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "TRINKET_portrait_stunned",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  
+	
+	  
+	 
+	  
+	 
+	 
+	  {
+         "id" : "TRINKET_iron_Stress_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.20,
+		 "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_iron_Stress_2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_iron_STRESSH",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	 
+	 
+	   
+	  
+	   {
+         "id" : "VV_apple_lifesteal",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : true
+      },
+	  
+	  
+	    {
+         "id" : "VV_apple_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  
+	  
+	  
+	  {
+         "id" : "VV_apple_nohealing_food",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : -1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  
+	  
+	  {
+         "id" : "VV_maiden_Dark",
+         "stat_type" : "torch_decrease_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "VV_maiden_QuirkEvolution_1_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -5,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": true
+      },
+	   
+	   {
+         "id" : "VV_Court_Maiden_S",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description": false
+      },
+	  	{
+         "id" : "VV_Farm_Maiden_S",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description": false
+      },
+	  
+	   {
+         "id" : "VV_Noctural_75_StressRes",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_50_StressRes",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_25_StressRes",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_00_StressRes",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+
+	  
+	 
+	  {
+         "id" : "VV_Orb_Transform",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "tag",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "strigo"
+         },
+		 "has_description": false
+      },
+	 
+	  {
+         "id" : "TRINKET_orb_StrigoDMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "strigo"
+         }
+      },
+	  {
+         "id" : "TRINKET_orb_StrigoDMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "strigo"
+         }
+      },
+	  {
+         "id" : "TRINKET_orb_DEBUFF_25",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "VV_Orb_Transform_Stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "mode",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_vv_cc_coffin_Virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "TRINKET_vv_cc_coffin_OutOfCombat",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_vv_cc_coffin_idle",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "town_idle",
+         "amount" : 5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		  "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_vv_cc_coffin_camp",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_camp",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_vv_cc_coffin_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  
+	  {
+         "id" : "TRINKET_vv_cc_coffin_bar_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bar"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_vv_cc_coffin_brothel_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "brothel"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_vv_cc_coffin_gambling_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gambling"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_ring_bleed",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "TRINKET_ring_stun",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_ring_move",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  {
+         "id" : "TRINKET_vv_cc_bleeding_unholy",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_vv_cc_move_eldritch",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 5.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_vv_cc_disease_beast",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	    {
+         "id" : "TRINKET_vv_cc_Stress_Vamp",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "attacking_monster_type",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         }
+      },
+	   {
+         "id" : "TRINKET_vv_cc_stun_beast",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 5.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "has_description" : false
+      },
+	  
+	   {
+         "id" : "TRINKET_vv_cc_PROT_Vampire",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vampire"
+         },
+		 "has_description" : false
+      },
+	  
+	
+	  
+	  {
+         "id" : "VV_TRINKET_set_HUMAN",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "human"
+         }
+      },
+	  {
+         "id" : "VV_TRINKET_set_BEAST_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "strigo"
+         }
+      },
+	   {
+         "id" : "VV_TRINKET_set_BEAST_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "strigo"
+         }
+      },
+	  
+	 
+	  
+	   {
+         "id" : "TRINKET_com_Stress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 5,
+            "string" : ""
+         }
+      },
+	   
+	  {
+         "id" : "TRINKET_com_DARKBUFF_SCOUT",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "TRINKET_com_DARKBUFF_Surp",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+	  
+	 
+	  {
+         "id" : "TRINKET_com_burnrate",
+         "stat_type" : "torchlight_burn_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+	 
+	  {
+         "id" : "TRINKET_com_TorchStress",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "torch"
+         }
+      },
+	  {
+         "id" : "Fork_QuirkEvolution_1_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -50,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "Fork_CRT_Stressheal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "hero_crit",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TRINKET_fork_dotstress",
+         "stat_type" : "stress_dot",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.0,
+            "string" : ""	
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description" : false
+		},
+		 {
+         "id" : "TRINKET_Fork_CRT_above_25",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_Fork_CRT_above_50",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_75",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_100",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 100,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_125",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 125,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_150",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 150,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_175",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 175,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_Fork_CRT_above_190",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "stress_above",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 190,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	
+	  {
+         "id" : "TRINKET_CRT_VV_Quirk_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "VV_QuirkEvolution_2_to_Rage_Fork",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness_2",
+         "amount" : -1000000,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		"has_description": false
+      },
+	   {
+         "id" : "VV_QuirkEvolution_Rage_to_2_Fork",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Rage_of_Darkness",
+         "amount" : 1000000,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		"has_description": false
+      },
+		{
+         "id" : "TRINKET_head_quirk_Stress_L",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vv_quirk_light"
+         },
+		 "has_description": false
+      },
+	   {
+         "id" : "TRINKET_head_quirk_Stress_0",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "TRINKET_head_quirk_Stress_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	  {
+         "id" : "TRINKET_head_quirk_Stress_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_jar_quirk_Stress_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         }
+      },
+	  {
+         "id" : "TRINKET_jar_quirk_Stress_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_jar_quirk_Stress_0",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_jar_quirk_Stress_L",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vv_quirk_light"
+         },
+		 "has_description" : false
+      },
+	  
+	 {
+         "id" : "TRINKET_jar_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : -1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  
+	 
+	  
+	  {
+         "id" : "TRINKET_chalice_quirk_heal_1",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.00,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_chalice_quirk_heal_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_chalice_quirk_heal_1R",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_chalice_quirk_heal_2R",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.00,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	    {
+         "id" : "TRINKET_chalice_quirk_LifestealR",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : 5.00,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "strigo"
+         },
+		 "has_description" : false
+      },
+	 
+	  
+	   {
+         "id" : "TRINKET_maiden_quirk_heal_1",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.00,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_maiden_quirk_heal_2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	  
+	  {
+         "id" : "TRINKET_maiden_quirk_heal_1R",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 5.00,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+		  "remove_on_battle_complete" : false,
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_maiden_quirk_heal_2R",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -5.00,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+		  "remove_on_battle_complete" : false,
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description" : false
+      },
+	  
+	  
+	  
+	  
+	   
+	  {
+         "id" : "TRINKET_sunward_quirk_Buff_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         }
+      },
+	  {
+         "id" : "TRINKET_sunward_quirk_Buff_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness_2",
+		 "amount" : -9010,
+         "remove_if_not_active" : true,
+		 "remove_on_battle_complete" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_2"
+         },
+		 "has_description" : false,
+		 "is_clear_debuff_valid" : false
+      },
+	 
+	  
+	
+	  {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGH_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGH_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGH_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGL_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGL_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "TRINKET_VV_Sunward_Corspe_DMGL_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : "corpse"
+         },
+		 "has_description" : false
+      }
+	  
+	
+	  
+	  
+	 
+   ]
+}

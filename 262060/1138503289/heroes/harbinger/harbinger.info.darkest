@@ -1,0 +1,84 @@
+resistances: .stun 40% .poison 40% .bleed 40% .disease 40% .move 40% .debuff 40% .death_blow 67% .trap 10%
+crit: .effects "on_crit_stressresist"
+weapon: .name "harbinger_weapon_0" .atk 0% .dmg 5 9 .crit 4% .spd 4
+weapon: .name "harbinger_weapon_1" .atk 0% .dmg 6 11 .crit 4.5% .spd 4 .upgradeRequirementCode 0
+weapon: .name "harbinger_weapon_2" .atk 0% .dmg 7 13 .crit 5% .spd 5 .upgradeRequirementCode 1
+weapon: .name "harbinger_weapon_3" .atk 0% .dmg 8 15 .crit 5.5% .spd 5 .upgradeRequirementCode 2
+weapon: .name "harbinger_weapon_4" .atk 0% .dmg 9 17 .crit 6% .spd 6 .upgradeRequirementCode 3
+armour: .name "harbinger_armour_0" .def 0% .prot 0 .hp 35 .spd 0
+armour: .name "harbinger_armour_1" .def 5% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0
+armour: .name "harbinger_armour_2" .def 10% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 1
+armour: .name "harbinger_armour_3" .def 15% .prot 0 .hp 50 .spd 0 .upgradeRequirementCode 2
+armour: .name "harbinger_armour_4" .def 20% .prot 0 .hp 55 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "rime_strike" .level 0 .type "melee" .atk 100% .dmg 0% .crit 1% .launch 12 .target 12 .is_crit_valid True .valid_modes disparity .effect "toggle_decay" "harb_torch_burn_1" "harb_rime_shuffle_1" "harb_rime_speed_debuff_1" "harb_rime_mark" "harb_rime_self_mark"
+combat_skill: .id "rime_strike" .level 1 .type "melee" .atk 105% .dmg 0% .crit 1% .launch 12 .target 12 .is_crit_valid True .valid_modes disparity .effect "toggle_decay" "harb_torch_burn_2" "harb_rime_shuffle_2" "harb_rime_speed_debuff_2" "harb_rime_mark" "harb_rime_self_mark" 
+combat_skill: .id "rime_strike" .level 2 .type "melee" .atk 110% .dmg 0% .crit 2% .launch 12 .target 12 .is_crit_valid True .valid_modes disparity .effect "toggle_decay" "harb_torch_burn_3" "harb_rime_shuffle_3" "harb_rime_speed_debuff_3" "harb_rime_mark" "harb_rime_self_mark" 
+combat_skill: .id "rime_strike" .level 3 .type "melee" .atk 115% .dmg 0% .crit 2% .launch 12 .target 12 .is_crit_valid True .valid_modes disparity .effect "toggle_decay" "harb_torch_burn_4" "harb_rime_shuffle_4" "harb_rime_speed_debuff_4" "harb_rime_mark" "harb_rime_self_mark" 
+combat_skill: .id "rime_strike" .level 4 .type "melee" .atk 120% .dmg 0% .crit 3% .launch 12 .target 12 .is_crit_valid True .valid_modes disparity .effect "toggle_decay" "harb_torch_burn_5" "harb_rime_shuffle_5" "harb_rime_speed_debuff_5" "harb_rime_mark" "harb_rime_self_mark" 
+
+combat_skill: .id "glacial_charge" .level 0 .type "melee" .atk 90% .dmg 0% .crit 2% .move 0 3 .launch 1234 .target 123 .is_crit_valid True .valid_modes disparity .effect "toggle_frost" "harb_torch_burn_1" "harb_glacial_push_1" "harb_glacial_speed_debuff_1"
+combat_skill: .id "glacial_charge" .level 1 .type "melee" .atk 95% .dmg 0% .crit 2% .move 0 3 .launch 1234 .target 123 .is_crit_valid True .valid_modes disparity .effect "toggle_frost" "harb_torch_burn_2" "harb_glacial_push_2" "harb_glacial_speed_debuff_2"
+combat_skill: .id "glacial_charge" .level 2 .type "melee" .atk 100% .dmg 0% .crit 3% .move 0 3 .launch 1234 .target 123 .is_crit_valid True .valid_modes disparity .effect "toggle_frost" "harb_torch_burn_3" "harb_glacial_push_3" "harb_glacial_speed_debuff_3"
+combat_skill: .id "glacial_charge" .level 3 .type "melee" .atk 105% .dmg 0% .crit 3% .move 0 3 .launch 1234 .target 123 .is_crit_valid True .valid_modes disparity .effect "toggle_frost" "harb_torch_burn_4" "harb_glacial_push_4" "harb_glacial_speed_debuff_4"
+combat_skill: .id "glacial_charge" .level 4 .type "melee" .atk 110% .dmg 0% .crit 4% .move 0 3 .launch 1234 .target 123 .is_crit_valid True .valid_modes disparity .effect "toggle_frost" "harb_torch_burn_5" "harb_glacial_push_5" "harb_glacial_speed_debuff_5"
+
+combat_skill: .id "grimbane" .level 0 .type "melee" .atk  95% .dmg -20% .crit 0% .launch 12 .target 123 .is_crit_valid True .ignore_guard true .valid_modes decay .effect "toggle_disparity" "harb_grim_bleed_1" "harb_grim_blight_1" "harb_grimbane_buff_1"
+combat_skill: .id "grimbane" .level 1 .type "melee" .atk 100% .dmg -20% .crit 0% .launch 12 .target 123 .is_crit_valid True .ignore_guard true .valid_modes decay .effect "toggle_disparity" "harb_grim_bleed_2" "harb_grim_blight_2" "harb_grimbane_buff_2"
+combat_skill: .id "grimbane" .level 2 .type "melee" .atk 105% .dmg -20% .crit 0% .launch 12 .target 123 .is_crit_valid True .ignore_guard true .valid_modes decay .effect "toggle_disparity" "harb_grim_bleed_3" "harb_grim_blight_3" "harb_grimbane_buff_3"
+combat_skill: .id "grimbane" .level 3 .type "melee" .atk 110% .dmg -20% .crit 0% .launch 12 .target 123 .is_crit_valid True .ignore_guard true .valid_modes decay .effect "toggle_disparity" "harb_grim_bleed_4" "harb_grim_blight_4" "harb_grimbane_buff_4"
+combat_skill: .id "grimbane" .level 4 .type "melee" .atk 115% .dmg -20% .crit 0% .launch 12 .target 123 .is_crit_valid True .ignore_guard true .valid_modes decay .effect "toggle_disparity" "harb_grim_bleed_5" "harb_grim_blight_5" "harb_grimbane_buff_5"
+
+combat_skill: .id "overpower" .level 0 .type "melee" .atk  80% .dmg -60% .crit 4% .launch 123 .target ~12 .is_crit_valid True .valid_modes decay .effect "harb_overpower_riposte1" "harb_overpower_debuffs_1" "harb_overpower_shatterstun_buff_1"
+combat_skill: .id "overpower" .level 1 .type "melee" .atk  85% .dmg -60% .crit 4% .launch 123 .target ~12 .is_crit_valid True .valid_modes decay .effect "harb_overpower_riposte2" "harb_overpower_debuffs_2" "harb_overpower_shatterstun_buff_2"
+combat_skill: .id "overpower" .level 2 .type "melee" .atk  90% .dmg -60% .crit 5% .launch 123 .target ~12 .is_crit_valid True .valid_modes decay .effect "harb_overpower_riposte3" "harb_overpower_debuffs_3" "harb_overpower_shatterstun_buff_3"
+combat_skill: .id "overpower" .level 3 .type "melee" .atk  95% .dmg -60% .crit 5% .launch 123 .target ~12 .is_crit_valid True .valid_modes decay .effect "harb_overpower_riposte4" "harb_overpower_debuffs_4" "harb_overpower_shatterstun_buff_4"
+combat_skill: .id "overpower" .level 4 .type "melee" .atk 100% .dmg -60% .crit 6% .launch 123 .target ~12 .is_crit_valid True .valid_modes decay .effect "harb_overpower_riposte5" "harb_overpower_debuffs_5" "harb_overpower_shatterstun_buff_5"
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 105% .dmg -60% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .effect "harb_overpower_riposte_buff" "harb_overpower_riposte_debuff"
+
+combat_skill: .id "shatter" .level 0 .type "ranged" .atk  85% .dmg 0% .crit 0% .launch 12 .target 1234 .is_crit_valid True .ignore_protection true .valid_modes frost .effect "harb_shatter_buff_1" "harb_shatter_mark_killer_1" "harb_shatter_clear" "harb_shatter_stunchance"
+combat_skill: .id "shatter" .level 1 .type "ranged" .atk  90% .dmg 0% .crit 0% .launch 12 .target 1234 .is_crit_valid True .ignore_protection true .valid_modes frost .effect "harb_shatter_buff_2" "harb_shatter_mark_killer_2" "harb_shatter_clear" "harb_shatter_stunchance"
+combat_skill: .id "shatter" .level 2 .type "ranged" .atk  95% .dmg 0% .crit 0% .launch 12 .target 1234 .is_crit_valid True .ignore_protection true .valid_modes frost .effect "harb_shatter_buff_3" "harb_shatter_mark_killer_3" "harb_shatter_clear" "harb_shatter_stunchance"
+combat_skill: .id "shatter" .level 3 .type "ranged" .atk 100% .dmg 0% .crit 0% .launch 12 .target 1234 .is_crit_valid True .ignore_protection true .valid_modes frost .effect "harb_shatter_buff_4" "harb_shatter_mark_killer_4" "harb_shatter_clear" "harb_shatter_stunchance"
+combat_skill: .id "shatter" .level 4 .type "ranged" .atk 105% .dmg 0% .crit 0% .launch 12 .target 1234 .is_crit_valid True .ignore_protection true .valid_modes frost .effect "harb_shatter_buff_5" "harb_shatter_mark_killer_5" "harb_shatter_clear" "harb_shatter_stunchance"
+
+combat_skill: .id "tempest" .level 0 .type "ranged" .atk  90% .dmg -80% .crit 3% .per_battle_limit 2 .launch 1234 .target ~1234 .is_crit_valid True .valid_modes frost .effect "toggle_disparity" "harb_tempest_torch_burn_1" "harb_tempest_stun_1" "harb_tempest_buff_1"
+combat_skill: .id "tempest" .level 1 .type "ranged" .atk  95% .dmg -75% .crit 3% .per_battle_limit 2 .launch 1234 .target ~1234 .is_crit_valid True .valid_modes frost .effect "toggle_disparity" "harb_tempest_torch_burn_2" "harb_tempest_stun_2" "harb_tempest_buff_2"
+combat_skill: .id "tempest" .level 2 .type "ranged" .atk 100% .dmg -70% .crit 4% .per_battle_limit 2 .launch 1234 .target ~1234 .is_crit_valid True .valid_modes frost .effect "toggle_disparity" "harb_tempest_torch_burn_3" "harb_tempest_stun_3" "harb_tempest_buff_3"
+combat_skill: .id "tempest" .level 3 .type "ranged" .atk 105% .dmg -65% .crit 4% .per_battle_limit 2 .launch 1234 .target ~1234 .is_crit_valid True .valid_modes frost .effect "toggle_disparity" "harb_tempest_torch_burn_4" "harb_tempest_stun_4" "harb_tempest_buff_4"
+combat_skill: .id "tempest" .level 4 .type "ranged" .atk 110% .dmg -60% .crit 5% .per_battle_limit 2 .launch 1234 .target ~1234 .is_crit_valid True .valid_modes frost .effect "toggle_disparity" "harb_tempest_torch_burn_5" "harb_tempest_stun_5" "harb_tempest_buff_5"
+
+combat_skill: .id "mercurial_winter" .level 0 .per_battle_limit 2 .is_stall_invalidating false .launch 1234 .target .valid_modes disparity decay frost .disparity_effects "Mercurial Torch 1" "harb_winter_disparity_buff_1" .decay_effects "toggle_disparity" "Mercurial Torch 1" "harb_winter_decay_buff_1" "harb_winter_decay_stressheal_1" .frost_effects "toggle_disparity" "Mercurial Torch 1" "harb_winter_frost_buff_hot_1" 
+combat_skill: .id "mercurial_winter" .level 1 .per_battle_limit 2 .is_stall_invalidating false .launch 1234 .target .valid_modes disparity decay frost .disparity_effects "Mercurial Torch 2" "harb_winter_disparity_buff_2" .decay_effects "toggle_disparity" "Mercurial Torch 2" "harb_winter_decay_buff_2" "harb_winter_decay_stressheal_2" .frost_effects "toggle_disparity" "Mercurial Torch 2" "harb_winter_frost_buff_hot_2"
+combat_skill: .id "mercurial_winter" .level 2 .per_battle_limit 2 .is_stall_invalidating false .launch 1234 .target .valid_modes disparity decay frost .disparity_effects "Mercurial Torch 3" "harb_winter_disparity_buff_3" .decay_effects "toggle_disparity" "Mercurial Torch 3" "harb_winter_decay_buff_3" "harb_winter_decay_stressheal_3" .frost_effects "toggle_disparity" "Mercurial Torch 3" "harb_winter_frost_buff_hot_3"
+combat_skill: .id "mercurial_winter" .level 3 .per_battle_limit 2 .is_stall_invalidating false .launch 1234 .target .valid_modes disparity decay frost .disparity_effects "Mercurial Torch 4" "harb_winter_disparity_buff_4" .decay_effects "toggle_disparity" "Mercurial Torch 4" "harb_winter_decay_buff_4" "harb_winter_decay_stressheal_4" .frost_effects "toggle_disparity" "Mercurial Torch 4" "harb_winter_frost_buff_hot_4"
+combat_skill: .id "mercurial_winter" .level 4 .per_battle_limit 2 .is_stall_invalidating false .launch 1234 .target .valid_modes disparity decay frost .disparity_effects "Mercurial Torch 5" "harb_winter_disparity_buff_5" .decay_effects "toggle_disparity" "Mercurial Torch 5" "harb_winter_decay_buff_5" "harb_winter_decay_stressheal_5" .frost_effects "toggle_disparity" "Mercurial Torch 5" "harb_winter_frost_buff_hot_5"
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+tag: .id "harbinger"
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "outsiders_bonfire"
+
+activity_modifier: .override_valid_activity_ids meditation prayer treatment disease_treatment .override_stress_removal_amount_low 50 .override_stress_removal_amount_high 100
+quirk_modifier: .incompatible_class_ids alcoholism gambler love_interest enlightened god_fearing resolution known_cheat deviant_tastes flagellant unquiet_mind witness faithless bad_gambler skilled_gambler nymphomania
+
+death_reaction: .target_allies true .target_enemies false .effects "harbinger_death_effect"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+
+mode: .id disparity .is_raid_default true .battle_complete_combat_skill_id mercurial_winter
+mode: .id decay .battle_complete_combat_skill_id mercurial_winter
+mode: .id frost .battle_complete_combat_skill_id mercurial_winter
+
+incompatible_party_member: .id harbinger_limit .hero_tag harbinger
+incompatible_party_member: .id harbinger_religion_1 .hero_tag revenant
+incompatible_party_member: .id harbinger_religion_2 .hero_tag scourge
+incompatible_party_member: .id harbinger_religion_3 .hero_tag fury
+incompatible_party_member: .id harbinger_religion_4 .hero_tag crusader
+
+controlled: .target_rank 1
+id_index: .index 667
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+generation: .is_generation_enabled true .town_event_dependency "first_harbinger" .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 3 .card_chance 1.0
+

@@ -1,0 +1,115 @@
+// Voiboy
+//----------------------------------------------------------------------------------------------------------------------------
+//Stats
+resistances: .stun 40% .poison 20% .bleed 40% .disease 50% .move 30% .debuff 50% .death_blow 67% .trap -60%
+
+weapon: .name "voivode_weapon_0" .atk 0%  .dmg 5 7  .crit 5% .spd 4
+weapon: .name "voivode_weapon_1" .atk 0%  .dmg 6 8  .crit 6% .spd 4 .upgradeRequirementCode 0
+weapon: .name "voivode_weapon_2" .atk 0%  .dmg 7 9  .crit 7% .spd 5 .upgradeRequirementCode 1
+weapon: .name "voivode_weapon_3" .atk 0%  .dmg 8 10 .crit 8% .spd 5 .upgradeRequirementCode 2
+weapon: .name "voivode_weapon_4" .atk 0%  .dmg 9 12 .crit 9% .spd 6 .upgradeRequirementCode 3
+armour: .name "voivode_armour_0" .def 5%  .prot 0 .hp 23 .spd 0
+armour: .name "voivode_armour_1" .def 10% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 0
+armour: .name "voivode_armour_2" .def 15% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 1
+armour: .name "voivode_armour_3" .def 20% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 2
+armour: .name "voivode_armour_4" .def 25% .prot 0 .hp 43 .spd 0 .upgradeRequirementCode 3
+
+// Skills 
+//----------------------------------------------------------------------------------------------------------------------------
+
+// Transform Skill
+combat_skill: .id "vv_transform" .level 0   .launch 4321  .target  .is_crit_valid True .valid_modes human strigo .human_effects "switch_mode_strigo_self_hidden" "VV Tooltip Trans 1"  "VV Strigo Mode Nocturnal 1 TT" "VV Strigo Mode Nocturnal 1" "VV Strigo Mode Nocturnal Stress 1" "VV Stress Party 1" "VV_Tranform_Bark"  .strigo_effects  "VV HealStress 1" "switch_mode_human_self" "VV HealStress Party 1"    "VV Strigo Mode Nocturnal R" .effect "VV phantom tag" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "vv_transform" .level 1   .launch 4321  .target  .is_crit_valid True .valid_modes human strigo .human_effects "switch_mode_strigo_self_hidden" "VV Tooltip Trans 1"  "VV Strigo Mode Nocturnal 2 TT" "VV Strigo Mode Nocturnal 2" "VV Strigo Mode Nocturnal Stress 1" "VV Stress Party 2" "VV_Tranform_Bark"  .strigo_effects  "VV HealStress 2" "switch_mode_human_self" "VV HealStress Party 2"    "VV Strigo Mode Nocturnal R" .effect "VV phantom tag" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "vv_transform" .level 2   .launch 4321  .target  .is_crit_valid True .valid_modes human strigo .human_effects "switch_mode_strigo_self_hidden" "VV Tooltip Trans 2"  "VV Strigo Mode Nocturnal 3 TT" "VV Strigo Mode Nocturnal 3" "VV Strigo Mode Nocturnal Stress 2" "VV Stress Party 3" "VV_Tranform_Bark"  .strigo_effects  "VV HealStress 2" "switch_mode_human_self" "VV HealStress Party 3"    "VV Strigo Mode Nocturnal R" .effect "VV phantom tag" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "vv_transform" .level 3   .launch 4321  .target  .is_crit_valid True .valid_modes human strigo .human_effects "switch_mode_strigo_self_hidden" "VV Tooltip Trans 2"  "VV Strigo Mode Nocturnal 4 TT" "VV Strigo Mode Nocturnal 4" "VV Strigo Mode Nocturnal Stress 2" "VV Stress Party 4" "VV_Tranform_Bark"  .strigo_effects  "VV HealStress 4" "switch_mode_human_self" "VV HealStress Party 4"    "VV Strigo Mode Nocturnal R" .effect "VV phantom tag" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
+combat_skill: .id "vv_transform" .level 4   .launch 4321  .target  .is_crit_valid True .valid_modes human strigo .human_effects "switch_mode_strigo_self_hidden" "VV Tooltip Trans 3"  "VV Strigo Mode Nocturnal 5 TT" "VV Strigo Mode Nocturnal 5" "VV Strigo Mode Nocturnal Stress 3" "VV Stress Party 5" "VV_Tranform_Bark"  .strigo_effects  "VV HealStress 5" "switch_mode_human_self" "VV HealStress Party 5"    "VV Strigo Mode Nocturnal R" .effect "VV phantom tag" .is_continue_turn true .per_turn_limit 1 .per_battle_limit 4 .is_stall_invalidating false .refresh_after_each_wave true
+
+// Flock of Bats
+combat_skill: .id "bats" .level 0 .type "ranged" .atk 90% 	.dmg -50% .crit 9%  .launch 4321 .target 1234 .can_be_riposted false  .ignore_guard true .effect  "Voivode Bleed 1"  "VV Tooltip Bat 1" "VV Bats DARKSCALING 1" "Flock_bark" .valid_modes human
+combat_skill: .id "bats" .level 1 .type "ranged" .atk 95% 	.dmg -50% .crit 10%  .launch 4321 .target 1234 .can_be_riposted false  .ignore_guard true .effect  "Voivode Bleed 2"  "VV Tooltip Bat 2" "VV Bats DARKSCALING 2" "Flock_bark" .valid_modes human
+combat_skill: .id "bats" .level 2 .type "ranged" .atk 100% 	.dmg -50% .crit 11%  .launch 4321 .target 1234 .can_be_riposted false  .ignore_guard true .effect  "Voivode Bleed 3"  "VV Tooltip Bat 3" "VV Bats DARKSCALING 3" "Flock_bark" .valid_modes human
+combat_skill: .id "bats" .level 3 .type "ranged" .atk 105% 	.dmg -50% .crit 12%  .launch 4321 .target 1234 .can_be_riposted false  .ignore_guard true .effect  "Voivode Bleed 4"  "VV Tooltip Bat 4" "VV Bats DARKSCALING 4" "Flock_bark" .valid_modes human
+combat_skill: .id "bats" .level 4 .type "ranged" .atk 110% 	.dmg -50% .crit 13%  .launch 4321 .target 1234 .can_be_riposted false  .ignore_guard true .effect  "Voivode Bleed 5"  "VV Tooltip Bat 5" "VV Bats DARKSCALING 5" "Flock_bark" .valid_modes human
+
+/// Hypnosis
+combat_skill: .id "hypnosis" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 0% .is_crit_valid False .launch 43 .target 1234 .can_be_riposted false .effect  "VV Weak Stun 1" "VV Pull 2A" "Obey_bark" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hypnosis" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 0% .is_crit_valid False .launch 43 .target 1234 .can_be_riposted false .effect  "VV Weak Stun 2" "VV Pull 2B" "Obey_bark" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hypnosis" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 0% .is_crit_valid False .launch 43 .target 1234 .can_be_riposted false .effect  "VV Weak Stun 3" "VV Pull 2C" "Obey_bark" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hypnosis" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 0% .is_crit_valid False .launch 43 .target 1234 .can_be_riposted false .effect  "VV Weak Stun 4" "VV Pull 2D" "Obey_bark" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hypnosis" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 0% .is_crit_valid False .launch 43 .target 1234 .can_be_riposted false .effect  "VV Weak Stun 5" "VV Pull 2E" "Obey_bark" .valid_modes human .is_stall_invalidating false
+
+// Shadowplay
+combat_skill: .id "darkform" .level 0 .launch 432 .target @4321  .self_target_valid false .effect  "VV Dark 2" "VV Riposte 1" "VV DF Tooltip Riposte 0" "VV DF Tooltip Riposte 1" "VV Protect ClearGuardsTarget" "VV Protect Guard" "VV DODGE DARKSCALING 1"  "Shadowplay_bark_target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "darkform" .level 1 .launch 432 .target @4321  .self_target_valid false .effect  "VV Dark 2" "VV Riposte 2" "VV DF Tooltip Riposte 0" "VV DF Tooltip Riposte 2" "VV Protect ClearGuardsTarget" "VV Protect Guard" "VV DODGE DARKSCALING 2"  "Shadowplay_bark_target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "darkform" .level 2 .launch 432 .target @4321  .self_target_valid false .effect  "VV Dark 2" "VV Riposte 3" "VV DF Tooltip Riposte 0" "VV DF Tooltip Riposte 3" "VV Protect ClearGuardsTarget" "VV Protect Guard" "VV DODGE DARKSCALING 3"  "Shadowplay_bark_target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "darkform" .level 3 .launch 432 .target @4321  .self_target_valid false .effect  "VV Dark 2" "VV Riposte 4" "VV DF Tooltip Riposte 0" "VV DF Tooltip Riposte 4" "VV Protect ClearGuardsTarget" "VV Protect Guard" "VV DODGE DARKSCALING 4"  "Shadowplay_bark_target" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "darkform" .level 4 .launch 432 .target @4321  .self_target_valid false .effect  "VV Dark 2" "VV Riposte 5" "VV DF Tooltip Riposte 0" "VV DF Tooltip Riposte 5" "VV Protect ClearGuardsTarget" "VV Protect Guard" "VV DODGE DARKSCALING 5"  "Shadowplay_bark_target" .valid_modes human .is_stall_invalidating false
+
+// Riposte Skill
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 100% .dmg -50% .crit 0% .launch 1234 .target 1234 .is_crit_valid True .ignore_protection false .effect .can_miss true 
+
+// Soulfeast
+combat_skill: .id "souleater" .level 0 .type "melee" .atk 90%  .dmg -00% .crit 5% .damage_heal_base_class_ids voivode .launch 432 .target 123 .move 0 1 .ignore_protection true .effect "VV Lifedrain Type"  "VV Lifedrain Scaling 1"   "VV Full Tooltip 1" .valid_modes strigo
+combat_skill: .id "souleater" .level 1 .type "melee" .atk 95%  .dmg -00% .crit 6% .damage_heal_base_class_ids voivode .launch 432 .target 123 .move 0 1 .ignore_protection true .effect "VV Lifedrain Type"  "VV Lifedrain Scaling 2"   "VV Full Tooltip 2" .valid_modes strigo
+combat_skill: .id "souleater" .level 2 .type "melee" .atk 100% .dmg -00% .crit 7% .damage_heal_base_class_ids voivode .launch 432 .target 123 .move 0 1 .ignore_protection true .effect "VV Lifedrain Type"  "VV Lifedrain Scaling 3"   "VV Full Tooltip 3" .valid_modes strigo
+combat_skill: .id "souleater" .level 3 .type "melee" .atk 105% .dmg -00% .crit 8% .damage_heal_base_class_ids voivode .launch 432 .target 123 .move 0 1 .ignore_protection true .effect "VV Lifedrain Type"  "VV Lifedrain Scaling 4"   "VV Full Tooltip 4" .valid_modes strigo
+combat_skill: .id "souleater" .level 4 .type "melee" .atk 110% .dmg -00% .crit 9% .damage_heal_base_class_ids voivode .launch 432 .target 123 .move 0 1 .ignore_protection true .effect "VV Lifedrain Type"  "VV Lifedrain Scaling 5"   "VV Full Tooltip 5" .valid_modes strigo
+
+// Rising
+combat_skill: .id "batform" .level 0 .type "melee" .atk 90%  .dmg -70% .move 2 0 .crit 0% .launch 21 .target ~12 .is_crit_valid true .effect "VV stun 1" "VV Push 2A" .valid_modes strigo .is_stall_invalidating false
+combat_skill: .id "batform" .level 1 .type "melee" .atk 95%  .dmg -70% .move 2 0 .crit 1% .launch 21 .target ~12 .is_crit_valid true .effect "VV stun 2" "VV Push 2B" .valid_modes strigo .is_stall_invalidating false
+combat_skill: .id "batform" .level 2 .type "melee" .atk 100% .dmg -70% .move 2 0 .crit 2% .launch 21 .target ~12 .is_crit_valid true .effect "VV stun 3" "VV Push 2C" .valid_modes strigo .is_stall_invalidating false
+combat_skill: .id "batform" .level 3 .type "melee" .atk 105% .dmg -70% .move 2 0 .crit 3% .launch 21 .target ~12 .is_crit_valid true .effect "VV stun 4" "VV Push 2D" .valid_modes strigo .is_stall_invalidating false
+combat_skill: .id "batform" .level 4 .type "melee" .atk 110% .dmg -70% .move 2 0 .crit 4% .launch 21 .target ~12 .is_crit_valid true .effect "VV stun 5" "VV Push 2E" .valid_modes strigo .is_stall_invalidating false
+
+// Echolocation
+combat_skill: .id "echolocate" .level 0 .type "ranged" .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false .can_miss false .nil true .effect  "Destealth" "VV Echo EXPOSE TT 1" "VV Echo EXPOSE 1" .valid_modes strigo .ignore_stealth true .is_stall_invalidating true
+combat_skill: .id "echolocate" .level 1 .type "ranged" .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false .can_miss false .nil true .effect  "Destealth" "VV Echo EXPOSE TT 2" "VV Echo EXPOSE 2" .valid_modes strigo .ignore_stealth true  .is_stall_invalidating true
+combat_skill: .id "echolocate" .level 2 .type "ranged" .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false .can_miss false .nil true .effect  "Destealth" "VV Echo EXPOSE TT 3" "VV Echo EXPOSE 3" .valid_modes strigo .ignore_stealth true  .is_stall_invalidating true
+combat_skill: .id "echolocate" .level 3 .type "ranged" .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false .can_miss false .nil true .effect  "Destealth" "VV Echo EXPOSE TT 4" "VV Echo EXPOSE 4" .valid_modes strigo .ignore_stealth true  .is_stall_invalidating true
+combat_skill: .id "echolocate" .level 4 .type "ranged" .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .can_be_riposted false .can_miss false .nil true .effect  "Destealth" "VV Echo EXPOSE TT 5" "VV Echo EXPOSE 5" .valid_modes strigo .ignore_stealth true  .is_stall_invalidating true
+
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+
+
+
+// CRT Effect 
+crit: .effects  "VV_on_crit_DarkDMG" "VV_on_crit_CRT_DS"
+
+
+
+// Other
+//----------------------------------------------------------------------------------------------------------------------------
+
+//Tags
+tag: .id "heavy"
+tag: .id "non-religious"
+tag: .id "cursed_ground"
+tag: .id "a_voivode"
+
+//Refused to party
+incompatible_party_member: .id voivode_religion .hero_tag vv_incompatible
+incompatible_party_member: .id voivode_limit    .hero_tag a_voivode
+
+//Misc
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 4204209
+
+//Modes
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
+mode: .id human .is_raid_default true .affliction_combat_skill_id transform
+mode: .id strigo .bark_override_id str_strigo_bark  .battle_complete_combat_skill_id vv_transform .stress_damage_per_turn 13
+
+// Death
+death_reaction: .target_allies true .target_enemies false .effects "Voivodes Last Rage"
+
+//Loot 
+extra_stack_limit: .id voivode_chalice
+extra_curio_loot:  .code "T_VV_C" .count 1
+extra_battle_loot:  .code "T_VV_C" .count 0
+
+activity_modifier: .override_valid_activity_ids brothel bar gambling treatment disease_treatment .override_stress_removal_amount_low 70 .override_stress_removal_amount_high 100
+quirk_modifier: .incompatible_class_ids enlightened flagellant unquiet_mind witness faithless meditator god_fearing warrior_of_light diurnal fear_of_unholy lygophobia photomania early_riser night_blindness satanophobia spiritual VV_quirk_1 VV_quirk_2 disease_vampire_passive 
+
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 3 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

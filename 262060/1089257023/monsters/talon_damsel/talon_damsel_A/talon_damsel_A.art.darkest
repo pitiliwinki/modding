@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "weeping_pleads" .anim "attack_scream" .fx "scream" .targchestfx "stress_cloud"
+skill: .id "tormented_wails" .anim "attack_scream" .fx "scream" .targchestfx "stress_cloud" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+skill: .id "hostage_situation" .anim "attack_guard" .fx "hostage_situation" .targchestfx "shield_defend_target"
+skill: .id "maidens_gratitude" .anim "attack_thank" .fx "maidens_gratitude" .reset_source_stance false .hide_performer_health true

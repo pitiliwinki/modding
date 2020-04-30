@@ -1,0 +1,166 @@
+{
+   "traits":
+   [
+      {
+         "id" : "sd_unbreakable",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "All",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+		 "sd_virtue_resist_1",
+		 "sd_virtue_resist_2",
+		 "sd_virtue_resist_3",
+		 "sd_virtue_resist_4",
+		 "sd_virtue_resist_5",
+		 "sd_virtue_resist_6",
+		 "sd_unbreakable_prot",
+		 "sd_unbreakable_db",
+		 "sd_virt_stress"
+         ],
+         "combat_start_turn_act_outs":
+         [
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "comment_ally_hit", "data":{ "effect": "Guard 1" }, "chance": 0.25}
+         ]
+      },
+	  {
+         "id" : "sd_dynamic",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "All",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+		 "sd_virtue_resist_1",
+		 "sd_virtue_resist_2",
+		 "sd_virtue_resist_3",
+		 "sd_virtue_resist_4",
+		 "sd_virtue_resist_5",
+		 "sd_virtue_resist_6",
+		 "sd_dynamic_dmg_l",
+		 "sd_dynamic_dmg_h",
+		 "sd_dynamic_dodge",
+		 "sd_virt_stress"
+         ],
+         "combat_start_turn_act_outs":
+         [
+		    { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 3},
+            { "id": "mark_self", "data": { "number_value": 0.0, "string_value": "SD Dynamic Riposte" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+         ]
+      },
+	  {
+         "id" : "sd_resilient",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "All",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+		 "sd_virtue_resist_1",
+		 "sd_virtue_resist_2",
+		 "sd_virtue_resist_3",
+		 "sd_virtue_resist_4",
+		 "sd_virtue_resist_5",
+		 "sd_virtue_resist_6",
+		 "sd_resilient_crit",
+		 "sd_resilient_spd",
+		 "sd_virt_stress"
+         ],
+         "combat_start_turn_act_outs":
+         [
+		    { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 3},
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "SD Resilient Aegis" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+         ]
+      },
+	  {
+         "id" : "sd_possessed",
+         "is_generated": false,
+         "overstress_type": "affliction",
+         "curio_tag" : "All",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+		 "sd_affliction_resist_1",
+		 "sd_affliction_resist_2",
+		 "sd_affliction_resist_3",
+		 "sd_affliction_resist_4",
+		 "sd_affliction_resist_5",
+		 "sd_affliction_resist_6",
+		 "sd_possessed_dmg_l",
+		 "sd_possessed_dmg_h",
+		 "sd_possessed_acc",
+		 "sd_possessed_crit",
+		 "sd_aff_stressr",
+		 "sd_aff_stressh"
+         ],
+         "combat_start_turn_act_outs":
+         [
+		    { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 58.4},
+            { "id": "change_pos", "data": { "number_value": 0.0, "string_value": "" }, "chance": 8.3},
+            { "id": "random_command", "data": { "number_value": 0.0, "string_value": "" }, "chance": 8.3},
+            { "id": "attack_friendly", "data": { "number_value": 0.15,"string_value": "Stun 3" }, "chance": 16.7, "valid_hero_class_ids":["steel_driver"]},
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "Mark Self" }, "chance": 8.3}
+         ],
+         "reaction_act_outs":
+         [
+			{ "id": "block_heal", "data":{ "effect": "" }, "chance": 0.2},
+            { "id": "block_item", "data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0.5},
+			{ "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0.2},
+			{ "id": "block_camping_skill_target", "data":{ "effect": "" }, "chance": 0.2}
+		]
+      },
+	  {
+         "id" : "sd_haunted",
+         "is_generated": false,
+         "overstress_type": "affliction",
+         "curio_tag" : "All",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+		 "sd_affliction_resist_1",
+		 "sd_affliction_resist_2",
+		 "sd_affliction_resist_3",
+		 "sd_affliction_resist_4",
+		 "sd_affliction_resist_5",
+		 "sd_affliction_resist_6",
+		 "sd_haunted_crit_rec",
+		 "sd_haunted_db",
+		 "sd_haunted_dodge"
+         ],
+		  "combat_start_turn_act_outs":
+		[
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 58.4},
+            { "id": "change_pos", "data": { "number_value": 0.0, "string_value": "" }, "chance": 8.3},
+            { "id": "ignore_command", "data": { "number_value": 0.0, "string_value": "" }, "chance": 16.7},
+            { "id": "attack_self", "data": { "number_value": 0.15,"string_value": "" }, "chance": 8.3},
+            { "id": "mark_self", "data": { "number_value": 0.0, "string_value": "Mark Self" }, "chance": 8.3}
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_heal", "data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_buff", "data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_item", "data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_combat_retreat", "data":{ "effect": "" }, "chance": 0.2},
+			{ "id": "block_camping_meal", "data":{ "effect": "" }, "chance": 0.2},
+			{ "id": "block_move", "data":{ "effect": "" }, "chance": 0.2},
+			{ "id": "block_camping_skill_performer", "data":{ "effect": "" }, "chance": 0.25}
+		]
+	 }
+	]
+}

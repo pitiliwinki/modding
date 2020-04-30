@@ -1,0 +1,227 @@
+{
+   "entries":
+   [
+      {
+		 "id" : "dota_boots_of_speed",
+		 "buffs" : 
+		 [
+			"DotaBootsOfSpeed_SPD"
+		 ],
+		 "hero_class_requirements":
+		 [
+			"rogue_knight"
+		 ],
+		 "rarity" : "common",
+		 "price" : 7500,
+		 "limit" : 1,
+		 "origin_dungeon" : ""
+      },
+	  {
+         "id" : "dota_iron_branch",
+         "buffs" : 
+         [
+            "DotaIronBranch_DMGL",
+			"DotaIronBranch_DMGH",
+			"DotaIronBranch_MAXHP",
+			"DotaIronBranch_SPD",
+			"DotaIronBranch_ACC"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "dota_blink_dagger",
+         "buffs" : 
+         [
+            "DotaBlinkDagger_Tooltip",
+			"DotaBlinkDagger_SPD_FirstRound"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+             "Dota Blink Dagger Pull"
+         ]
+      },
+	  {
+         "id" : "dota_echo_sabre",
+         "buffs" : 
+         [
+            "DotaEchoSabre_ACC",
+			"DotaEchoSabre_Tooltip_1",
+            "DotaEchoSabre_Tooltip_2"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Dota Echo Sabre Init",
+			 "Dota Echo Sabre Debuff"
+         ]
+      },
+	  {
+         "id" : "dota_mask_of_madness",
+         "buffs" : 
+         [
+            "DotaMaskOfMadness_Tooltip_1",
+            "DotaMaskOfMadness_Tooltip_2",
+			"DotaMaskOfMadness_Disable"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Dota Mask of Madness Init",
+			 "Dota Mask of Madness Heal"
+         ]
+      },
+	  {
+         "id" : "dota_armlet_of_mordiggian",
+         "buffs" : 
+         [
+			"DotaArmlet_MAXHP",
+			"DotaArmlet_DMGL",
+			"DotaArmlet_DMGH",
+			"DotaArmlet_PROT",
+			"DotaArmlet_Tooltip"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "Dota Armlet Self Damage"
+         ]
+      },
+	  {
+         "id" : "dota_daedalus",
+         "buffs" : 
+         [
+            "DotaDaedalus_Tooltip",
+			"DotaDaedalus_DMGL",
+			"DotaDaedalus_DMGH",
+			"DotaDaedalus_CRIT"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "dota_vigil_signet",
+         "buffs" : 
+         [
+			"DotaVigilSignet_Tooltip",
+			"DotaVigilSignet_Cooldown",
+			"DotaVigilSignet_PROT",
+			"DotaVigilSignet_DODGE"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+         "set_id" : "cc_rogue_knight",
+		 "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+	  {
+         "id" : "dota_vigil_triumph",
+         "buffs" : 
+         [
+            "DotaVigilTriumph_Tooltip",
+			"DotaVigilTriumph_ACC",
+			"DotaVigilTriumph_SPD"
+         ],
+         "hero_class_requirements":
+         [
+            "rogue_knight"
+         ],
+		 "set_id" : "cc_rogue_knight",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "attack_skill_additional_effects":
+         [
+            "Dota Vigil Triumph Damage"
+         ]
+      },
+	  {
+         "id" : "dota_moon_shard",
+         "buffs" : 
+         [
+			"DotaMoonShard_IgnoreStealth",
+			"DotaMoonShard_Crit_VsStealth",
+			"DotaMoonShard_Scouting_TorchBelow25",
+			"DotaMoonShard_ACC_TorchBelow25",
+			"DotaMoonShard_ACC_Farm",
+			"DotaMoonShard_BlightRes"
+         ],
+         "hero_class_requirements":
+         [
+           "rogue_knight"
+         ],
+         "rarity" : "comet",
+         "shard" : 60,
+         "limit" : 1,
+         "origin_dungeon" : ""
+     },
+	 {
+		 "id" : "dota_belligerent_ram_helm",
+		 "buffs" : 
+		 [
+			"DotaRamHelm_Tooltip",
+			"DotaRamHelm_StunRes_Pos1",
+			"DotaRamHelm_MoveRes_Pos1",
+			"DotaRamHelm_PartySurprise"
+		 ],
+		 "hero_class_requirements":
+		 [
+		   "rogue_knight"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+		 "attack_skill_additional_effects":
+         [
+            "Dota Ram Helm Push"
+         ]
+	}
+   ]
+}

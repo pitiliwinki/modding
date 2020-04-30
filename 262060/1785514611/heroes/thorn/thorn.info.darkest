@@ -1,0 +1,153 @@
+resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 50% .death_blow 67% .trap -50%
+
+crit: .effects "Thorn_on_crit"
+
+weapon: .name "thorn_weapon_0" .atk 0%  .dmg 7  11 .crit 2% .spd 6
+weapon: .name "thorn_weapon_1" .atk 5%  .dmg 8  13 .crit 3% .spd 6 .upgradeRequirementCode 0
+weapon: .name "thorn_weapon_2" .atk 10% .dmg 9  14 .crit 4% .spd 7 .upgradeRequirementCode 1
+weapon: .name "thorn_weapon_3" .atk 15% .dmg 10 16 .crit 5% .spd 7 .upgradeRequirementCode 2
+weapon: .name "thorn_weapon_4" .atk 20% .dmg 11 17 .crit 6% .spd 8 .upgradeRequirementCode 3
+armour: .name "thorn_armour_0" .def 15% .prot 0% .hp 22 .spd 0
+armour: .name "thorn_armour_1" .def 20% .prot 0% .hp 27 .spd 0 .upgradeRequirementCode 0
+armour: .name "thorn_armour_2" .def 25% .prot 0% .hp 32 .spd 0 .upgradeRequirementCode 1
+armour: .name "thorn_armour_3" .def 30% .prot 0% .hp 37 .spd 0 .upgradeRequirementCode 2
+armour: .name "thorn_armour_4" .def 35% .prot 0% .hp 42 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "thrust" .level 0 .type "melee" .atk 70% .dmg 0% .crit 5% .launch 21 .target 123 .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 1" .offensive_effects "Thrust Off 1" .gash_effects "Thrust Off 1" .dare_effects "Thrust Off 1" .defensive_effects "Thrust Def Stun 1" "Thrust Def StunVsMark" "Thrust Def" .generation_guaranteed true
+combat_skill: .id "thrust" .level 1 .type "melee" .atk 70% .dmg 0% .crit 6% .launch 21 .target 123 .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 2" .offensive_effects "Thrust Off 2" .gash_effects "Thrust Off 2" .dare_effects "Thrust Off 2" .defensive_effects "Thrust Def Stun 2" "Thrust Def StunVsMark" "Thrust Def"
+combat_skill: .id "thrust" .level 2 .type "melee" .atk 70% .dmg 0% .crit 7% .launch 21 .target 123 .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 3" .offensive_effects "Thrust Off 3" .gash_effects "Thrust Off 3" .dare_effects "Thrust Off 3" .defensive_effects "Thrust Def Stun 3" "Thrust Def StunVsMark" "Thrust Def"
+combat_skill: .id "thrust" .level 3 .type "melee" .atk 70% .dmg 0% .crit 8% .launch 21 .target 123 .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 4" .offensive_effects "Thrust Off 4" .gash_effects "Thrust Off 4" .dare_effects "Thrust Off 4" .defensive_effects "Thrust Def Stun 4" "Thrust Def StunVsMark" "Thrust Def"
+combat_skill: .id "thrust" .level 4 .type "melee" .atk 70% .dmg 0% .crit 9% .launch 21 .target 123 .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 5" .offensive_effects "Thrust Off 5" .gash_effects "Thrust Off 5" .dare_effects "Thrust Off 5" .defensive_effects "Thrust Def Stun 5" "Thrust Def StunVsMark" "Thrust Def"
+combat_skill: .id "listen" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target 1234 .is_crit_valid false .ignore_stealth true .ignore_guard true .valid_modes defensive offensive gash dare .effect "Listen Mark" "Listen Skill ToolTip 1" .offensive_effects "Listen Off 1" .gash_effects "Listen Off Mode" "Listen Off 1" .dare_effects "Listen Off Mode" "Listen Off 1" .defensive_effects "Listen Def 1" .is_stall_invalidating false
+combat_skill: .id "listen" .level 1 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target 1234 .is_crit_valid false .ignore_stealth true .ignore_guard true .valid_modes defensive offensive gash dare .effect "Listen Mark" "Listen Skill ToolTip 2" .offensive_effects "Listen Off 2" .gash_effects "Listen Off Mode" "Listen Off 2" .dare_effects "Listen Off Mode" "Listen Off 2" .defensive_effects "Listen Def 2" .is_stall_invalidating false
+combat_skill: .id "listen" .level 2 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target 1234 .is_crit_valid false .ignore_stealth true .ignore_guard true .valid_modes defensive offensive gash dare .effect "Listen Mark" "Listen Skill ToolTip 3" .offensive_effects "Listen Off 3" .gash_effects "Listen Off Mode" "Listen Off 3" .dare_effects "Listen Off Mode" "Listen Off 3" .defensive_effects "Listen Def 3" .is_stall_invalidating false
+combat_skill: .id "listen" .level 3 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target 1234 .is_crit_valid false .ignore_stealth true .ignore_guard true .valid_modes defensive offensive gash dare .effect "Listen Mark" "Listen Skill ToolTip 4" .offensive_effects "Listen Off 4" .gash_effects "Listen Off Mode" "Listen Off 4" .dare_effects "Listen Off Mode" "Listen Off 4" .defensive_effects "Listen Def 4" .is_stall_invalidating false
+combat_skill: .id "listen" .level 4 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target 1234 .is_crit_valid false .ignore_stealth true .ignore_guard true .valid_modes defensive offensive gash dare .effect "Listen Mark" "Listen Skill ToolTip 5" .offensive_effects "Listen Off 5" .gash_effects "Listen Off Mode" "Listen Off 5" .dare_effects "Listen Off Mode" "Listen Off 5" .defensive_effects "Listen Def 5" .is_stall_invalidating false
+combat_skill: .id "wilt" .level 0 .type "ranged" .atk 85% .dmg -70% .crit 3% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 1" "Wilt Debuff 1" "Wilt Off" "Wilt Bleed 1" "Wilt Skill ToolTip 1"
+combat_skill: .id "wilt" .level 1 .type "ranged" .atk 85% .dmg -70% .crit 4% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 1" "Wilt Debuff 2" "Wilt Off" "Wilt Bleed 2" "Wilt Skill ToolTip 2"
+combat_skill: .id "wilt" .level 2 .type "ranged" .atk 85% .dmg -70% .crit 5% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 2" "Wilt Debuff 3" "Wilt Off" "Wilt Bleed 3" "Wilt Skill ToolTip 3"
+combat_skill: .id "wilt" .level 3 .type "ranged" .atk 85% .dmg -70% .crit 6% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 2" "Wilt Debuff 4" "Wilt Off" "Wilt Bleed 4" "Wilt Skill ToolTip 4"
+combat_skill: .id "wilt" .level 4 .type "ranged" .atk 85% .dmg -70% .crit 7% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 3" "Wilt Debuff 5" "Wilt Off" "Wilt Bleed 5" "Wilt Skill ToolTip 5"
+combat_skill: .id "gash" .level 0 .type "melee" .atk 70% .dmg -30% .crit 8%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 1" "Gash Tray ToolTip 1" "Gash Bleed 1" "Gash Skill ToolTip A1" "Gash Skill ToolTip B1"
+combat_skill: .id "gash" .level 1 .type "melee" .atk 70% .dmg -30% .crit 9%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 2" "Gash Tray ToolTip 2" "Gash Bleed 2" "Gash Skill ToolTip A2" "Gash Skill ToolTip B2"
+combat_skill: .id "gash" .level 2 .type "melee" .atk 70% .dmg -30% .crit 10% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 3" "Gash Tray ToolTip 3" "Gash Bleed 3" "Gash Skill ToolTip A3" "Gash Skill ToolTip B3"
+combat_skill: .id "gash" .level 3 .type "melee" .atk 70% .dmg -30% .crit 11% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 4" "Gash Tray ToolTip 4" "Gash Bleed 4" "Gash Skill ToolTip A4" "Gash Skill ToolTip B4"
+combat_skill: .id "gash" .level 4 .type "melee" .atk 70% .dmg -30% .crit 12% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 5" "Gash Tray ToolTip 5" "Gash Bleed 5" "Gash Skill ToolTip A5" "Gash Skill ToolTip B5"
+combat_skill: .id "dare" .level 0 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 1" "Dare Riposte ToolTip 1" "Dare Dodge 1" "Dare Dodge ToolTip 1" "Dare Skill ToolTip"
+combat_skill: .id "dare" .level 1 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 2" "Dare Riposte ToolTip 2" "Dare Dodge 2" "Dare Dodge ToolTip 2" "Dare Skill ToolTip"
+combat_skill: .id "dare" .level 2 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 3" "Dare Riposte ToolTip 3" "Dare Dodge 3" "Dare Dodge ToolTip 3" "Dare Skill ToolTip"
+combat_skill: .id "dare" .level 3 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 4" "Dare Riposte ToolTip 4" "Dare Dodge 4" "Dare Dodge ToolTip 4" "Dare Skill ToolTip"
+combat_skill: .id "dare" .level 4 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 5" "Dare Riposte ToolTip 5" "Dare Dodge 5" "Dare Dodge ToolTip 5" "Dare Skill ToolTip"
+combat_skill: .id "blossom" .level 0 .type "" .launch 432 .target @~1234 .self_target_valid false .valid_modes defensive .effect "Blossom Prot 1" "Blossom Fake Prot 1" "Blossom Self Heal 1" "Blossom Heal Buff" "Blossom Heal Guard 1" "Blossom Skill ToolTip 1" .is_stall_invalidating false
+combat_skill: .id "blossom" .level 1 .type "" .launch 432 .target @~1234 .self_target_valid false .valid_modes defensive .effect "Blossom Prot 2" "Blossom Fake Prot 2" "Blossom Self Heal 1" "Blossom Heal Buff" "Blossom Heal Guard 1" "Blossom Skill ToolTip 1" .is_stall_invalidating false
+combat_skill: .id "blossom" .level 2 .type "" .launch 432 .target @~1234 .self_target_valid false .valid_modes defensive .effect "Blossom Prot 3" "Blossom Fake Prot 3" "Blossom Self Heal 2" "Blossom Heal Buff" "Blossom Heal Guard 2" "Blossom Skill ToolTip 2" .is_stall_invalidating false
+combat_skill: .id "blossom" .level 3 .type "" .launch 432 .target @~1234 .self_target_valid false .valid_modes defensive .effect "Blossom Prot 4" "Blossom Fake Prot 4" "Blossom Self Heal 2" "Blossom Heal Buff" "Blossom Heal Guard 2" "Blossom Skill ToolTip 2" .is_stall_invalidating false
+combat_skill: .id "blossom" .level 4 .type "" .launch 432 .target @~1234 .self_target_valid false .valid_modes defensive .effect "Blossom Prot 5" "Blossom Fake Prot 5" "Blossom Self Heal 3" "Blossom Heal Buff" "Blossom Heal Guard 3" "Blossom Skill ToolTip 3" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 0 .type "" .self_target_valid false .launch 4321 .target @1234 .is_crit_valid false .valid_modes defensive .effect "hearken StressHeal 1" "Clear Guard Performer" "Clear Guard Target" "hearken Guard" "hearken Riposte Clear" "hearken Riposte 1" "hearken Skill ToolTip A1" .defensive_effects "hearken Skill ToolTip B" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 1 .type "" .self_target_valid false .launch 4321 .target @1234 .is_crit_valid false .valid_modes defensive .effect "hearken StressHeal 2" "Clear Guard Performer" "Clear Guard Target" "hearken Guard" "hearken Riposte Clear" "hearken Riposte 1" "hearken Skill ToolTip A1" .defensive_effects "hearken Skill ToolTip B" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 2 .type "" .self_target_valid false .launch 4321 .target @1234 .is_crit_valid false .valid_modes defensive .effect "hearken StressHeal 3" "Clear Guard Performer" "Clear Guard Target" "hearken Guard" "hearken Riposte Clear" "hearken Riposte 2" "hearken Skill ToolTip A2" .defensive_effects "hearken Skill ToolTip B" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 3 .type "" .self_target_valid false .launch 4321 .target @1234 .is_crit_valid false .valid_modes defensive .effect "hearken StressHeal 4" "Clear Guard Performer" "Clear Guard Target" "hearken Guard" "hearken Riposte Clear" "hearken Riposte 2" "hearken Skill ToolTip A2" .defensive_effects "hearken Skill ToolTip B" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 4 .type "" .self_target_valid false .launch 4321 .target @1234 .is_crit_valid false .valid_modes defensive .effect "hearken StressHeal 5" "Clear Guard Performer" "Clear Guard Target" "hearken Guard" "hearken Riposte Clear" "hearken Riposte 3" "hearken Skill ToolTip A3" .defensive_effects "hearken Skill ToolTip B" .is_stall_invalidating false
+
+combat_move_skill: .id "stance" .level 0 .launch 4321 .move 0 0 .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive" "Offensive Riposte" "Stance DefTT" "switch Add turn" "switch End turn" .is_continue_turn true
+combat_move_skill: .id "stance" .level 0 .launch 4321 .move 0 0 .is_crit_valid false .valid_modes shocked .shocked_effects "switch to Defensive" "switch to Offensive Shck" "Offensive Riposte Shck" "Offensive Riposte Shck SFX" "Stance ShckTT"
+combat_move_skill: .id "stance" .level 0 .launch 4321 .move 0 0 .is_crit_valid false .valid_modes offensive .offensive_effects "switch to Defensive" "Stance OffTT"
+combat_move_skill: .id "stance" .level 0 .launch 4321 .move 0 0 .is_crit_valid false .valid_modes gash .gash_effects "switch to Defensive" "Stance OffTT"
+combat_move_skill: .id "stance" .level 0 .launch 4321 .move 0 0 .is_crit_valid false .valid_modes dare .dare_effects "switch to Defensive" "Stance OffTT"
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 11% .launch 1234 .target 1234 
+
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "training_ring"
+incompatible_party_member: .id multiple_thorn .hero_tag thorn
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 1
+id_index: .index 177
+mode: .id defensive .is_raid_default true
+mode: .id offensive .battle_complete_combat_skill_id "stance"
+mode: .id gash .battle_complete_combat_skill_id "stance"
+mode: .id dare .battle_complete_combat_skill_id "stance"
+mode: .id shocked .battle_complete_combat_skill_id "stance"
+overstressed_modifier: .override_trait_type_ids farseeing blindness .override_trait_type_chances 1 3
+hp_reaction: .hp_ratio 0.987 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.975 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.962 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.950 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.937 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.925 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.912 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.900 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.887 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.875 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.862 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.850 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.837 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.825 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.812 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.800 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.787 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.775 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.762 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.750 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.737 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.725 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.712 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.700 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.687 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.675 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.662 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.650 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.637 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.625 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.612 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.600 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.587 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.575 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.562 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.550 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.537 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.525 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.512 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.500 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.487 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.475 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.462 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.450 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.437 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.425 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.412 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.400 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.387 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.375 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.362 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.350 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.337 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.325 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.312 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.300 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.287 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.275 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.262 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.250 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.237 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.225 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.212 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.200 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.187 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.175 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.162 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.150 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.137 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.125 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.112 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.100 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.087 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.075 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.062 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.050 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.037 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.025 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.012 .is_under true .effects "thorn hit received"
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

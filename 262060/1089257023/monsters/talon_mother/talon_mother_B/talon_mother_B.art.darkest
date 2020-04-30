@@ -1,0 +1,14 @@
+commonfx: .deathfx death_large_boss
+skill: .id "they_circle_above" .anim "attack_birds" .fx "waking_feast" .area_pos_offset 0 -75
+
+skill: .id "waking_feast" .anim "attack_summon" .fx "waking_feast" .targchestfx "waking_feast_target" .area_pos_offset 0 -75
+skill: .id "call_the_flock" .anim "attack_summon" .fx "call_the_flock" .area_pos_offset 0 -75
+skill: .id "carrion_renewal" .anim "attack_heal" .fx "carrion_renewal" .targfx "heal_target" .target_area_pos_offset -150 0
+skill: .id "pluck_to_the_bone" .anim "attack_summon" .fx "cycle_of_death" .targfx "battle_heal_target" .area_pos_offset 0 -75
+skill: .id "prey_on_the_weak" .anim "attack_summon" .fx "battle_heal_target" .targchestfx "waking_feast_target" .area_pos_offset 0 -75 .custom_target_anim attack_die .reset_target_stance false .can_display_performer_selection_after_turn false
+
+skill: .id "grave_marker" .anim "attack_ranged" .fx "grave_marker" .targchestfx "grave_marker_target" .area_pos_offset -200 0
+skill: .id "fatal_gouge" .anim "attack_melee" .fx "fatal_gouge" .targchestfx "blood_splatter" .area_pos_offset -200 0
+skill: .id "deathtouch" .anim "attack_hand" .fx "deathtouch" .targchestfx "blood_splatter" .area_pos_offset -100 0
+
+rendering: .sort_position_z_rank_override 4

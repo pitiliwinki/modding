@@ -1,0 +1,56 @@
+//Tailwind Dodge
+
+effect: .name "cataphract_dodge_1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 2%  .on_hit true .on_miss true
+effect: .name "cataphract_dodge_2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 2%  .on_hit true .on_miss true
+effect: .name "cataphract_dodge_3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 3%  .on_hit true .on_miss true
+effect: .name "cataphract_dodge_4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 4%  .on_hit true .on_miss true
+effect: .name "cataphract_dodge_5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .defense_rating_add 5%  .on_hit true .on_miss true
+
+//Bannerman Prot
+effect: .name "cataphract_protection_1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit true .on_miss true	.queue true
+effect: .name "cataphract_protection_2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .on_hit true .on_miss true	.queue true
+effect: .name "cataphract_protection_3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 14% .on_hit true .on_miss true	.queue true
+effect: .name "cataphract_protection_4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 16% .on_hit true .on_miss true	.queue true
+effect: .name "cataphract_protection_5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 18% .on_hit true .on_miss true	.queue true
+
+//Withdraw Acc Debuff
+effect: .name "cataphract_withdraw_acc_1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .attack_rating_add -6% .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_acc_2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .attack_rating_add -9% .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_acc_3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .attack_rating_add -12% .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_acc_4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .attack_rating_add -15% .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_acc_5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .attack_rating_add -18% .on_hit true .on_miss false
+
+//Withdraw Speed Debuff
+effect: .name "cataphract_withdraw_spd_1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_spd_2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_spd_3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -4 .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_spd_4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -5 .on_hit true .on_miss false
+effect: .name "cataphract_withdraw_spd_5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -6 .on_hit true .on_miss false
+
+//Run Down Dodge Debuff
+effect: .name "cataphract_run_down_1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -6% .on_hit true .on_miss false
+effect: .name "cataphract_run_down_2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -8% .on_hit true .on_miss false
+effect: .name "cataphract_run_down_3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false
+effect: .name "cataphract_run_down_4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -12% .on_hit true .on_miss false
+effect: .name "cataphract_run_down_5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .defense_rating_add -14% .on_hit true .on_miss false
+
+//Run Down Speed Buff
+effect: .name "cataphract_run_down_spd_1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss true
+effect: .name "cataphract_run_down_spd_2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss true
+effect: .name "cataphract_run_down_spd_3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true
+effect: .name "cataphract_run_down_spd_4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true
+effect: .name "cataphract_run_down_spd_5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true
+
+//Immolate Self-Stress
+effect: .name "cataphract selfstress 1" .target "performer" .curio_result_type "negative" .chance 100% .stress 2 .on_hit true .on_miss false .queue true
+effect: .name "cataphract selfstress 2" .target "performer" .curio_result_type "negative" .chance 100% .stress 3 .on_hit true .on_miss false .queue true
+effect: .name "cataphract selfstress 3" .target "performer" .curio_result_type "negative" .chance 100% .stress 4 .on_hit true .on_miss false .queue true
+
+//On Crit
+effect: .name "cataphract_on_crit_flat_heal"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "cataphract_on_crit_flat_heal" .duration 2	.on_hit true .on_miss false .apply_once true
+
+//Trinket Effect
+effect: .name "haunted_cubes_buff_heal" .target "target" .curio_result_type "positive" .buff_ids "haunted_cubes_buff_heal" .duration 2 .on_hit true .on_miss true .queue true .apply_once true
+
+//test virtue effects
+effect .name "Heal Stress 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 100 .on_hit true .on_miss false .queue true

@@ -1,0 +1,337 @@
+{
+   
+   "entries":
+   [
+   
+   {
+         "id" : "vv_sunward",
+         "buffs" : 
+         [
+			"vv_tooltip_TRINKET_Sunward_2",
+			"TRINKET_VV_Sunward_Corspe_DMGH_1",
+			"TRINKET_VV_Sunward_Corspe_DMGH_2",
+			"TRINKET_VV_Sunward_Corspe_DMGH_3",
+			"TRINKET_VV_Sunward_Corspe_DMGL_1",
+			"TRINKET_VV_Sunward_Corspe_DMGL_2",
+			"TRINKET_VV_Sunward_Corspe_DMGL_3"
+         
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "sakura",
+         "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+		 "kill_all_heroes_additional_effects":
+         [
+		  "TRINKET_VV_Sunward_TT",
+		  "TRINKET_VV_Sunward_Rage_Hidden"
+         ]
+      },  
+   {
+         "id" : "vv_jar",
+         "buffs" : 
+         [	
+			
+			"TRINKET_EATSASZERO",
+			"TRINKET_jar_disease",
+			"TRINKET_jar_quirk_Stress_1",
+			"TRINKET_jar_quirk_Stress_2",
+			"TRINKET_jar_quirk_Stress_0",	
+			"TRINKET_jar_quirk_Stress_L"	
+         ],
+         "hero_class_requirements":
+         [],
+         "rarity" : "madman",
+         "price" : 25000,
+         "limit" : 1,
+		 "origin_dungeon" : "",
+         "kill_performer_additional_effects":
+        [
+          "Jar OnKill"
+        ]
+      },  
+   {
+         "id" : "vv_head",
+         "buffs" : 
+         [
+			
+			"vv_tooltip_dmg_scaling_A",
+			"VV_dark_DMGH_75",
+			"VV_dark_DMGH_50",
+			"VV_dark_DMGH_25",
+			"VV_dark_DMGH_00", 
+			"VV_dark_DMGL_00",
+			"VV_dark_DMGL_25",
+			"VV_dark_DMGL_50",
+			"VV_dark_DMGL_75",
+			"VV_Farm_dark_DMGL_T",
+			"VV_Farm_dark_DMGH_T",
+			"VV_Court_dark_DMGH_T",
+			"VV_Court_dark_DMGL_T",
+			"Fork_QuirkEvolution_1_to_2",
+			"TRINKET_head_quirk_Stress_L",		
+			"TRINKET_head_quirk_Stress_0",		
+			"TRINKET_head_quirk_Stress_1",		
+			"TRINKET_head_quirk_Stress_2"		
+         ],
+         "hero_class_requirements":
+         [],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },  
+	 {
+         "id" : "vv_CoM",
+         "buffs" : 
+         [		
+			"TRINKET_com_burnrate",
+			"TRINKET_com_DARKBUFF_Surp",
+			"TRINKET_com_DARKBUFF_SCOUT",
+			"TRINKET_com_Stress",
+			"TRINKET_com_TorchStress"
+         ],
+         "hero_class_requirements":
+          ["voivode"],
+         "rarity" :"comet",
+         "shard" : 25,
+         "limit" : 1,
+		 "origin_dungeon" : ""
+     },
+	 {
+         "id" : "vv_CoM_2",
+         "buffs" : 
+         [	
+			"vv_tooltip_TRINKET_Fork_Evo_TT",
+			"VV_QuirkEvolution_2_to_Rage_Fork",
+			"VV_QuirkEvolution_Rage_to_2_Fork",
+			"TRINKET_CRT_VV_Quirk_3",
+			"vv_tooltip_TRINKET_StressScaling",
+			"TRINKET_Fork_CRT_above_190",
+			"TRINKET_Fork_CRT_above_175",
+			"TRINKET_Fork_CRT_above_150",
+			"TRINKET_Fork_CRT_above_125",
+			"TRINKET_Fork_CRT_above_100",
+			"TRINKET_Fork_CRT_above_75",
+			"TRINKET_Fork_CRT_above_50",
+			"TRINKET_Fork_CRT_above_25",
+			"Fork_CRT_Stressheal",
+			"vv_tooltip_TRINKET_horror",
+			"TRINKET_fork_dotstress"
+         ],
+         "hero_class_requirements":
+         [],
+         "rarity" :"comet",
+         "shard" : 40,
+         "limit" : 1, 
+		 "origin_dungeon" : ""
+     },
+	{
+         "id" : "vv_cc_book",
+         "buffs" : 
+         [ 	
+			"vv_tooltip_TRINKET_BLEEDUNHOLY_1",
+			"TRINKET_vv_cc_disease_beast",
+			"TRINKET_vv_cc_move_eldritch",
+			"TRINKET_vv_cc_Stress_Vamp",
+			"TRINKET_vv_cc_bleeding_unholy"
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "crimson_court",
+		 "set_id" : "cc_voivode",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+		 
+      },	
+	 {
+         "id" : "vv_cc_coffin",
+         "buffs" : 
+         [ 
+			"TRINKET_vv_cc_coffin_Virtue",
+			"TRINKET_vv_cc_coffin_OutOfCombat",
+			"vv_tooltip_TRINKET_coffin_Town",
+			"TRINKET_vv_cc_coffin_idle",
+			"TRINKET_vv_cc_coffin_camp",
+			"TRINKET_vv_cc_coffin_SPD",
+			
+			"TRINKET_vv_cc_coffin_bar_stress_heal",
+			"TRINKET_vv_cc_coffin_brothel_stress_heal",
+			"TRINKET_vv_cc_coffin_gambling_stress_heal"
+		
+         ],
+         "hero_class_requirements":
+          ["voivode"],
+         "rarity" : "crimson_court",
+		  "set_id" : "cc_voivode",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		  "kill_performer_additional_effects":
+        [
+          
+        ]
+      },
+	  {
+         "id" : "vv_contract",
+         "buffs" : 
+         [	
+			"VV_trinket_chalice_MAXHP",
+			"vv_tooltip_TRINKET_Goblet_Heal"
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+        [
+          "Contract OnKill"
+        ],
+		"kill_all_heroes_additional_effects":
+        [
+		  "TRINKET_Goblet_Heal_Debuff",
+		  "TRINKET_Goblet_Heal",
+		  "TRINKET_Goblet_Heal_Buff"
+        ]
+     }, 
+	 
+	 {
+    
+	"id" : "vv_orb",
+         "buffs" : 
+         [
+			 "TRINKET_orb_StrigoDMGH",
+			 "TRINKET_orb_StrigoDMGL",
+			 "TRINKET_orb_DEBUFF_25",
+			 "VV_Orb_Transform_Stress",
+			 "vv_disable_trans_Strigo_TT",
+			 "VV_Orb_Transform"
+			
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+     },
+	 {
+    
+	"id" : "vv_portrait",
+         "buffs" : 
+         [
+			"vv_disable_trans_TT",
+			"VV_portrait_Block_Beast",
+			"vv_tooltip_Portrait_Riposte",
+			"VV_portrait_Riposte"
+			
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+		"VV Portrait OnAttack" ,
+		"VV Portrait OnAttack TT"
+		]
+		 
+		 
+     },
+	  
+	  {
+    
+	"id" : "vv_apple",
+         "buffs" : 
+         [			
+			"VV_apple_lifesteal",
+			"VV_apple_disease",
+			"TRINKET_EATSASZERO"
+
+         ],
+         "hero_class_requirements": ["voivode"],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+     },
+	  {
+    
+	"id" : "vv_ring",
+         "buffs" : 
+         [
+			"TRINKET_ring_bleed",
+			"TRINKET_ring_stun",
+			"TRINKET_ring_move"
+			
+         ],
+         "hero_class_requirements":
+          ["voivode"],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+		 
+     },
+	  
+	 
+	 {
+    
+	"id" : "vv_maiden",
+         "buffs" : 
+         [
+			 "TRINKET_Maiden_Stress",
+			 "VV_Noctural_75_StressRes",
+			 "VV_Noctural_50_StressRes",
+			 "VV_Noctural_25_StressRes",
+			 "VV_Noctural_00_StressRes",
+			 "VV_Court_Maiden_S",
+			 "VV_Farm_Maiden_S",
+			 "VV_maiden_Dark"
+         ],
+         "hero_class_requirements":
+          ["voivode"],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+        [
+		
+		"TRINKET_Maiden_Heal_TT",
+		"TRINKET_Maiden_Heal_Debuff",
+		"TRINKET_Maiden_Heal",
+		"TRINKET_Maiden_Heal_Buff",
+		"VV Maiden Friendly Brood"
+		]
+		 
+     },
+	 {
+    
+		"id" : "vv_iron",
+         "buffs" : 
+         [
+		 "TRINKET_iron_Stress_1",
+		"TRINKET_iron_Stress_2",	
+		"TRINKET_iron_STRESSH"
+         ],
+         "hero_class_requirements":
+         ["voivode"],
+         "rarity" : "very_common",
+         "price" : 5000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+     }
+	 
+	 
+   ]
+}
+
+  
+

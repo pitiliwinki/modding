@@ -1,0 +1,132 @@
+//Duchess Effects
+
+//On Crit Self Heal
+effect: .name "Duchess Crit Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.15	.on_hit true .on_miss true .queue true
+
+
+//Mutilate Self Heal
+effect: .name "Duchess HealSelf 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Duchess HealSelf 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 4	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Duchess HealSelf 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 5	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Duchess HealSelf 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 6	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Duchess HealSelf 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 7	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Duchess HealSelf 6" .target "performer" .curio_result_type "positive" .chance 100% .heal 8	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+//Ravenous Attack Self Heal
+effect: .name "Duchess Attack Other Heal" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.20	.on_hit true .on_miss true .queue true
+
+//Iron Maiden
+
+//Protection Up
+effect: .name "Duchess Prot Up 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .protection_rating_add 15%	.buff_duration_type combat_end .on_hit true .on_miss true .queue true
+effect: .name "Duchess Prot Up 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .protection_rating_add 17%	.buff_duration_type combat_end .on_hit true .on_miss true .queue true
+effect: .name "Duchess Prot Up 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .protection_rating_add 20%	.buff_duration_type combat_end .on_hit true .on_miss true .queue true
+effect: .name "Duchess Prot Up 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .protection_rating_add 22%	.buff_duration_type combat_end .on_hit true .on_miss true .queue true
+effect: .name "Duchess Prot Up 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .protection_rating_add 25%	.buff_duration_type combat_end .on_hit true .on_miss true .queue true
+
+//Damage Reflect
+effect: .name "Duchess Crit Rec 1" .target "performer" .chance 100% .buff_ids duchess_crit_rec_10 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false queue true
+effect: .name "Duchess Crit Rec 2" .target "performer" .chance 100% .buff_ids duchess_crit_rec_13 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false queue true
+effect: .name "Duchess Crit Rec 3" .target "performer" .chance 100% .buff_ids duchess_crit_rec_17 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false queue true
+effect: .name "Duchess Crit Rec 4" .target "performer" .chance 100% .buff_ids duchess_crit_rec_21 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false queue true
+effect: .name "Duchess Crit Rec 5" .target "performer" .chance 100% .buff_ids duchess_crit_rec_25 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false queue true
+
+//Thirst for Power
+//Crit Up
+effect: .name "Duchess Crit Up 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add 3% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Up 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add 5% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Up 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add 7% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Up 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add 9% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Up 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add 12% .on_hit true .on_miss false .queue true
+
+//Healing Up
+effect: .name "Duchess Heal Up 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount 20% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Up 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount 25% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Up 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount 30% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Up 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount 35% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Up 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount 40% .on_hit true .on_miss false .queue true
+
+//Crit Down
+effect: .name "Duchess Crit Down 1" .target "target" .curio_result_type "negative" .chance 100% .duration 4 .combat_stat_buff 1 .crit_chance_add -6% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Down 2" .target "target" .curio_result_type "negative" .chance 110% .duration 4 .combat_stat_buff 1 .crit_chance_add -9% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Down 3" .target "target" .curio_result_type "negative" .chance 120% .duration 4 .combat_stat_buff 1 .crit_chance_add -11% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Down 4" .target "target" .curio_result_type "negative" .chance 130% .duration 4 .combat_stat_buff 1 .crit_chance_add -13% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Crit Down 5" .target "target" .curio_result_type "negative" .chance 140% .duration 4 .combat_stat_buff 1 .crit_chance_add -15% .on_hit true .on_miss false .queue true
+
+//Healing Down
+effect: .name "Duchess Heal Down 1" .target "target" .curio_result_type "negative" .chance 100% .duration 4 .buff_type hp_heal_received_percent .buff_amount -25% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Down 2" .target "target" .curio_result_type "negative" .chance 110% .duration 4 .buff_type hp_heal_received_percent .buff_amount -30% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Down 3" .target "target" .curio_result_type "negative" .chance 120% .duration 4 .buff_type hp_heal_received_percent .buff_amount -40% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Down 4" .target "target" .curio_result_type "negative" .chance 130% .duration 4 .buff_type hp_heal_received_percent .buff_amount -45% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Heal Down 5" .target "target" .curio_result_type "negative" .chance 140% .duration 4 .buff_type hp_heal_received_percent .buff_amount -50% .on_hit true .on_miss false .queue true
+
+//Noble Obligation
+//Crit Vuln Up
+effect: .name "Duchess Crit Vuln 1" .target "target" .curio_result_type "negative" .chance 100% .buff_type crit_received_chance .buff_amount 8%		.on_hit true .on_miss false
+effect: .name "Duchess Crit Vuln 2" .target "target" .curio_result_type "negative" .chance 110% .buff_type crit_received_chance .buff_amount 8%		.on_hit true .on_miss false
+effect: .name "Duchess Crit Vuln 3" .target "target" .curio_result_type "negative" .chance 120% .buff_type crit_received_chance .buff_amount 9%		.on_hit true .on_miss false
+effect: .name "Duchess Crit Vuln 4" .target "target" .curio_result_type "negative" .chance 130% .buff_type crit_received_chance .buff_amount 9%		.on_hit true .on_miss false
+effect: .name "Duchess Crit Vuln 5" .target "target" .curio_result_type "negative" .chance 140% .buff_type crit_received_chance .buff_amount 10%	.on_hit true .on_miss false
+
+//Castigate
+
+//Damage Down
+effect: .name "Duchess Damage Down 1" .target "target" .curio_result_type "negative" .chance 100% .duration 4 .combat_stat_buff 1 .damage_high_multiply -20% .damage_low_multiply -20% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Damage Down 2" .target "target" .curio_result_type "negative" .chance 110% .duration 4 .combat_stat_buff 1 .damage_high_multiply -26% .damage_low_multiply -26% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Damage Down 3" .target "target" .curio_result_type "negative" .chance 120% .duration 4 .combat_stat_buff 1 .damage_high_multiply -32% .damage_low_multiply -32% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Damage Down 4" .target "target" .curio_result_type "negative" .chance 130% .duration 4 .combat_stat_buff 1 .damage_high_multiply -38% .damage_low_multiply -38% .on_hit true .on_miss false .queue true
+effect: .name "Duchess Damage Down 5" .target "target" .curio_result_type "negative" .chance 140% .duration 4 .combat_stat_buff 1 .damage_high_multiply -50% .damage_low_multiply -50% .on_hit true .on_miss false .queue true
+
+//Riposte
+effect: .name "Duchess Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -40%  .crit_chance_add -10%
+effect: .name "Duchess Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -33%  .damage_high_multiply -33%  .crit_chance_add -7%
+effect: .name "Duchess Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -25%  .damage_high_multiply -25%  .crit_chance_add -3%
+effect: .name "Duchess Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -20%  .damage_high_multiply -20%  .crit_chance_add 0%
+effect: .name "Duchess Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2  .on_hit true .on_miss true .damage_low_multiply -15%  .damage_high_multiply -15%  .crit_chance_add 3%
+
+effect: .name "Duchess Clear Riposte" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true
+
+//Damage Taken Increased
+effect: .name "Duchess Damage Received 1" .target "performer" .chance 100% .buff_ids duchess_transform_vuln_1 .duration 4 .on_hit true .on_miss false queue true
+effect: .name "Duchess Damage Received 2" .target "performer" .chance 100% .buff_ids duchess_transform_vuln_3 .duration 4 .on_hit true .on_miss false queue true
+effect: .name "Duchess Damage Received 3" .target "performer" .chance 100% .buff_ids duchess_transform_vuln_5 .duration 4 .on_hit true .on_miss false queue true
+
+//DMG Up
+effect: .name "Duchess Beastform DMG 7" .target "performer" .chance 100% .buff_ids  duchess_dmg_l_up_7 duchess_dmg_h_up_7 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform DMG 12" .target "performer" .chance 100% .buff_ids duchess_dmg_l_up_12 duchess_dmg_h_up_12 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform DMG 16" .target "performer" .chance 100% .buff_ids duchess_dmg_l_up_16 duchess_dmg_h_up_16 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform DMG 20" .target "performer" .chance 100% .buff_ids duchess_dmg_l_up_20 duchess_dmg_h_up_20 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform DMG 25" .target "performer" .chance 100% .buff_ids duchess_dmg_l_up_25 duchess_dmg_h_up_25 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+
+//Speed Up
+effect: .name "Duchess Beastform Speed 1" .target "performer" .chance 100% .buff_ids duchess_transform_speed_1 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform Speed 2" .target "performer" .chance 100% .buff_ids duchess_transform_speed_2 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+effect: .name "Duchess Beastform Speed 3" .target "performer" .chance 100% .buff_ids duchess_transform_speed_3 .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true queue true
+
+
+
+//Transform -- Human > Beast Effects
+effect: .name "switch_mode_beast_self" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
+
+//Transform -- Beast > Human Effects
+effect: .name "switch_mode_human_self" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false
+
+//Stress Healing Up
+effect: .name "Duchess Humanform Stress Recovery 1" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_recovery_10 .duration 3 .on_hit true .on_miss true queue true  
+effect: .name "Duchess Humanform Stress Recovery 2" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_recovery_12 .duration 3 .on_hit true .on_miss true queue true  
+effect: .name "Duchess Humanform Stress Recovery 3" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_recovery_15 .duration 3 .on_hit true .on_miss true queue true  
+effect: .name "Duchess Humanform Stress Recovery 4" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_recovery_17 .duration 3 .on_hit true .on_miss true queue true  
+effect: .name "Duchess Humanform Stress Recovery 5" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_recovery_20 .duration 3 .on_hit true .on_miss true queue true  
+
+//Stress Received Debuff
+effect: .name "Duchess Beastform Stress Gain" .target "performer_group_other" .chance 100% .buff_ids duchess_stress_gain_10 .duration 3 .on_hit true .on_miss true queue true  
+
+//Trinkets
+effect: .name "Fencing Helm Aegis" .target "target" .chance 25% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true .has_description false
+
+effect: .name "Letter Crimson Curse" .target "performer" .curio_result_type "negative" .chance 20% .disease disease_vampire_passive	.on_hit true .on_miss true .crit_doesnt_apply_to_roll true .has_description false
+
+effect: .name "Vintage Resto 1" .target "performer_group_other" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true queue true .has_description false
+
+effect: .name "Vintage Steal Resto" .target "target_group_other" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .queue true
+

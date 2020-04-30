@@ -1,0 +1,213 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "collector_resc",
+         "buffs" : 
+         [
+			"RESC_trinket_head_healrec",
+			"RESC_trinket_head_stressheal",
+			"RESC_trinket_head_stresspenalty"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "collector",
+         "price" : 16500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "resc1",
+         "buffs" : 
+         [
+			"RESC_trinket_scope_healing",
+			"RESC_trinket_scope_speed"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "common",
+         "price" : 8000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "resc2",
+         "buffs" : 
+         [
+			"RESC_trinket_canister_stress",
+			"RESC_trinket_canister_blight_down"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "common",
+         "price" : 8000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "resc3",
+         "buffs" : 
+         [
+			"RESC_trinket_toy_speed",
+			"RESC_trinket_toy_crit",
+			"RESC_trinket_toy_bleed",
+			"RESC_trinket_toy_surprised"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "uncommon",
+         "price" : 11000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	 {
+         "id" : "resc4",
+         "buffs" : 
+         [
+			"RESC_trinket_decoration_disease",
+			"RESC_trinket_decoration_cure_bleed",
+			"RESC_trinket_decoration_defense"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "uncommon",
+         "price" : 11000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  {
+         "id" : "resc5",
+         "buffs" : 
+         [ 
+			"RESC_trinket_improvised_heal",
+			"RESC_trinket_improvised_bleed",
+			"RESC_trinket_improvised_stun",
+			"RESC_trinket_improvised_debuff",
+			"RESC_trinket_improvised_move"
+         ],
+         "hero_class_requirements":
+         [
+		 "rescuer"
+         ],
+		 "set_id" : "resc_ale_label",
+         "rarity" : "rare",
+         "price" : 22000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+        [
+            "RESC_trinket_improvised_bleed_cure"
+        ]
+      },
+      {
+         "id" : "resc6",
+         "buffs" : 
+         [
+			"RESC_trinket_collar_low",
+			"RESC_trinket_collar_high",
+			"RESC_trinket_collar_crit",
+			"RESC_trinket_collar_guard_block",
+			"RESC_trinket_collar_speed",
+			"RESC_quirk_tooltip_17",
+			"RESC_quirk_tooltip_16",
+			"RESC_quirk_tooltip_19"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "rare",
+         "price" : 19950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		  "attack_skill_additional_effects":
+        [
+            "RESC_trinket_collar_bite_protection",
+			"RESC_trinket_collar_bite_bleed"
+        ]
+      },
+      {    
+         "id" : "resc7",
+         "buffs" : 
+         [
+			"RESC_trinket_barrel_healing",
+			"RESC_trinket_barrel_blight",
+			"RESC_trinket_barrel_bleed",
+			"RESC_trinket_barrel_brandy_stun_bonus",
+			"RESC_trinket_barrel_brandy_bonus",
+			"RESC_quirk_tooltip_18"
+         ],
+         "hero_class_requirements":
+         [
+            "rescuer"
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+        [
+            
+        ]
+      },
+	  {    
+         "id" : "resc8",
+         "buffs" : 
+         [
+			"RESC_trinket_guide_health_max",
+			"RESC_trinket_guide_heal_rec",
+			"RESC_trinket_guide_disease_rec",
+			"RESC_trinket_guide_bleed",
+			"RESC_trinket_guide_crits_rec",
+			"RESC_trinket_guide_move",
+			"RESC_quirk_tooltip_23",
+			"RESC_quirk_tooltip_24"
+         ],
+         "hero_class_requirements":
+         [
+          
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+        [
+            
+        ]
+      },
+	    {    
+         "id" : "resc9",
+         "buffs" : 
+         [
+			"RESC_trinket_book_healing",
+			"RESC_trinket_book_bleed_chance",
+			"RESC_trinket_book_damage_low",
+			"RESC_trinket_book_damage_high",
+			"RESC_quirk_tooltip_21"
+         ],
+         "hero_class_requirements":
+         [
+          "rescuer"
+         ],
+         "rarity" : "very_rare",
+         "price" : 28950,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_additional_effects":
+        [
+           "RESC_trinket_book_critcal_chance"
+        ]
+      }
+
+   ]
+}

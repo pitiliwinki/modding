@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "whip_party" .anim "attack_melee" .fx "whip_single" .targchestfx "blood_splatter" .area_pos_offset -150 0 .target_area_pos_offset 150 0
+skill: .id "whip_single" .anim "attack_melee" .fx "whip_single" .targchestfx "blood_splatter"
+skill: .id "storm_of_talons" .anim "attack_ranged" .fx "storm" .area_pos_offset -150 0 .target_area_pos_offset 150 0

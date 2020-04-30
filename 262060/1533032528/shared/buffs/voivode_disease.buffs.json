@@ -1,0 +1,992 @@
+{
+   "buffs":
+   [   
+	  {
+         "id" : "VV_QUIRK_Diseaseresist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_SCAR_Resolve",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "disease",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	   {
+         "id" : "VV_SCAR_Diseaseresist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "VV_SCAR_DBresist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	 
+	 
+	  {
+         "id" : "VV_Quirk_DBresist_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "VV_Quirk_DBresist_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "VV_QUIRK_EATSASTWO",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	   {
+         "id" : "VV_QUIRK_EATSASTWO_hidden",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""			
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_QUIRK_EATSASTHREE",
+         "stat_type" : "food_consumption_percent",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  {
+         "id" : "VV_QUIRK_activity_meditation_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "meditation"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "VV_QUIRK_activity_prayer_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "prayer"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "VV_QUIRK_activity_flagellation_stress_heal",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "flagellation"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_activity_meditation_stress_heal2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.95,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "meditation"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "VV_QUIRK_activity_prayer_stress_heal2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.85,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "prayer"
+			}
+         ,
+		 "has_description" : false
+      },
+      {
+         "id" : "VV_QUIRK_activity_flagellation_stress_heal2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "flagellation"
+         },
+		 "has_description" : false
+      },
+	   
+	  {
+         "id" : "VV_QUIRK_StressBuff_Voivode",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vv_transform"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressBuff_Abom",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "transform"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressHeal_Succ",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unveil"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressBuff_Lamia_A",
+         "stat_type" : "stress_dot_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "the_veil"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressBuff_Lamia_B",
+         "stat_type" : "stress_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "the_veil"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressBuff_Sisters",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.70,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "possession"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_StressBuff_Werewolf",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.70,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "roar"
+         },
+		 "has_description" : false
+      },
+	   {
+         "id" : "VV_QUIRK_StressBuff_Darkwraith",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.70,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "reaper_seal"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_QUIRK_DMGBuff_Apostate",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tenebrosity"
+         },
+		 "has_description" : false
+      },
+
+
+	  
+	  {
+         "id" : "VV_Noctural_Disease_Court_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_Farm_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_75_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_50_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_25_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_00_S1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "VV_QUIRK_HighLight_Stress_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         }
+      },
+	  
+	  
+	  
+	  {
+         "id" : "VV_Noctural_Disease_50_S2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  
+	  {
+         "id" : "VV_Noctural_Disease_00_S2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  
+	  
+	  {
+         "id" : "VV_QUIRK_HighLight_Stress_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+	 
+	 {
+         "id" : "VV_Noctural_Disease_Court_S2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_Farm_S2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_00_S3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "VV_Noctural_Disease_DMGH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "VV_Noctural_Disease_DMGL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "VV_Noctural_Disease_DMGH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "VV_Noctural_Disease_DMGL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "VV_Noctural_Disease_SPD_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "VV_Noctural_Disease_ACC_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "VV_Noctural_Disease_ACC_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "VV_QUIRK_HighLight_Stress_3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         }
+      },
+	 {
+         "id" : "VV_Noctural_Disease_Court_S3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "VV_Noctural_Disease_Farm_S3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+		 "has_description" : false
+      },
+	  
+	 
+	    
+	  
+	  {
+         "id" : "QuirkEvolution_1_to_2_Dark_A",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_1_to_2_Dark_B",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -15,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_1_to_2_Dark_C",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -25,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_1_to_2_Light",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : 80,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_2_to_Rage_Darkness",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness_2",
+         "amount" : -9000,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_Rage_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Rage_of_Darkness",
+         "amount" : -9000,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_light_to_0_Dark_1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 25,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_light_to_0_Dark_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : 25,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_light_to_0_Light_1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_light_to_0_Light_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 75,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "QuirkEvolution_light_to_0_Light_3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 90,
+            "string" : ""
+         },
+		 "has_description": false
+      },
+	  {
+         "id" : "HOLYWATER_QuirkEvolution_light_to_0",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Cleansing_of_Darkness",
+         "amount" : -30,
+         "remove_if_not_active" : true,
+		 "duration_type": "round",
+		 "duration": 30,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "vv_quirk_light"
+         },
+		 "has_description": true,
+		 "is_clear_debuff_valid": false
+      },
+	   {
+         "id" : "THEBLOOD_QuirkEvolution_Rage_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Rage_of_Darkness",
+         "amount" : -9000,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : "VV_quirk_Rage"
+         },
+		 "has_description": true
+      },
+	  {
+         "id" : "THEBLOOD_QuirkEvolution_1_to_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "Quirk_of_Darkness",
+         "amount" : -20,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 10,
+            "string" : "VV_quirk_1"
+         },
+		 "has_description": true
+      },
+	   {
+         "id" : "VV_Cleansing_Blight",
+         "stat_type" : "hp_dot_poison",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	   {
+         "id" : "VV_Cleansing_Blight_OLOLO",
+         "stat_type" : "cure_poison_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false,
+		 "has_description": false
+      },
+	  
+	  {
+         "id" : "VV_Cleansing_Horror",
+         "stat_type" : "stress_dot",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "VV_Cleansing_DB",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "VV_Cleansing_DMGR",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "VV_Act_Out_Darkspawn_Frenzy",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3.00,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         }
+      },
+	  {
+         "id" : "VV_Act_Out_Darkspawn_Frenzy_Buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "VV_Act_Out_Darkspawn_Frenzy_DeBuff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "VV_quirk_Rage"
+         },
+		 "is_clear_debuff_valid": false
+      }
+	  
+	  
+	 
+	 
+   ]
+}

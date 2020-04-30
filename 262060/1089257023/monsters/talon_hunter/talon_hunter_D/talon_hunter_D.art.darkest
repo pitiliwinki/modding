@@ -1,0 +1,10 @@
+commonfx: .deathfx death_medium
+skill: .id "volley" .anim "attack_ranged" .fx "arrow_shot" .targchestfx "volley_fire_target" .area_pos_offset -150 0 .target_area_pos_offset 150 0
+skill: .id "killshot" .anim "attack_ranged" .fx "arrow_shot" .targheadfx "melee_target" .area_pos_offset -150 0
+skill: .id "retreat" .anim "attack_escape" .fx "escape" .area_pos_offset -50 0
+skill: .id "regroup" .anim "attack_escape" .fx "escape" .area_pos_offset -50 0 .reset_source_stance false .hide_performer_health true
+
+skill: .id "piercing_gaze" .anim "attack_gaze" .fx "piercing_gaze" .targchestfx "piercing_gaze_target" .area_pos_offset -200 0 .target_area_pos_offset 150 0
+skill: .id "dive_bomb" .anim "attack_dive" .fx "divebomb" .targchestfx "blood_splatter"
+skill: .id "nightstalker" .anim "attack_mark" .fx "nightstalker" .targchestfx "blood_splatter"
+skill: .id "fletcher" .anim "attack_fletch" .fx "fletch"

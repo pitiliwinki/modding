@@ -1,0 +1,8 @@
+commonfx: .deathfx death_medium
+skill: .id "wall_death" .anim "attack_wall_death"  .reset_source_stance true .hide_performer_health true 
+skill: .id "wall_explode" .anim "attack_transform"  .reset_source_stance true .hide_performer_health true 
+
+defending_area_pos_offset: .offset 0 30
+display_modifier: .disable_halos true .disabled_popup_text_types resist
+riposte_skill: .id "riposte1" .anim "attack_transform" .reset_source_stance false .hide_performer_health true 
+.show_spawn_fx false

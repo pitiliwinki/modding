@@ -1,0 +1,29 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "steel_driver_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "steel_driver_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "steel_driver_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "steel_driver_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "steel_driver_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "steel_driver_armour_0" .icon "eqp_armour_0.png"
+armour: .name "steel_driver_armour_1" .icon "eqp_armour_1.png"
+armour: .name "steel_driver_armour_2" .icon "eqp_armour_2.png"
+armour: .name "steel_driver_armour_3" .icon "eqp_armour_3.png"
+armour: .name "steel_driver_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "hammer_time" .icon "one" .anim "hammertime" .fx "hammertimeFX" .targchestfx "blood_splatter"
+combat_skill: .id "steamroller" .icon "two" .anim "steamroller" .fx "steamrollerFX" .targchestfx "blood_splatter"
+combat_skill: .id "strike_the_earth" .icon "three" .anim "striketheearth" .fx "striketheearthFX"
+combat_skill: .id "bring_the_thunder" .icon "four" .anim "bringthethunder" .fx "bringthethunderFX"
+combat_skill: .id "reconstruction_sd" .icon "five" .anim "reconstitute" .fx "reconstituteFX"	
+combat_skill: .id "crystalline_conductor" .icon "six" .anim "conductor" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "crystal_shrapnel" .icon "seven" .anim "shrapnel" .targfx "shrapnelFX"  .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+	
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+
+riposte_skill: .id "riposte1" .anim "hammertime" .fx "hammertimeFX" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "hammertime" .attack_friendly_fx "" 
+
+rendering: .sort_position_z_rank_override 6		

@@ -1,0 +1,3393 @@
+{
+   "buffs":
+   [
+       {
+         "id" : "RESC_test_buff",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.01,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "resc_barrel_effect_1A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "resc_barrel_effect_1B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+      {
+         "id" : "resc_barrel_effect_1C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "resc_bleed_chance_buff_A",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.00,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_bleed_chance_buff_B",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_bleed_chance_buff_C",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_bleed_chance_buff_D",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_bleed_chance_buff_E",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "RESC_motivate_tooltip_1_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_motivate_tooltip_1_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_motivate_tooltip_2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_motivate_tooltip_2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_on_crit_heal_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_on_crit_stress_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_stun_resist_A_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_stun_resist_B_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_stun_resist_C_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_stun_resist_D_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_stun_resist_E_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_A_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_A_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_B_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_B_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_C_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_C_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_D_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_D_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_E_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_E_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_oxide_tooltip_1_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_oxide_tooltip_1_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_oxide_tooltip_1B_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_oxide_tooltip_1B_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_bleed_amount_buff",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.66,
+		 "duration_type" : "combat_end",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_bleed_chance_buff",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_armor_pierce_chance",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_camp_stun_resist_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.06,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_camp_speed_down",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_camp_cure_bleed_chance",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_camp_cure_poison_chance",
+         "stat_type" : "cure_poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+		 "duration_type" : "combat_end",
+		 "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_camp_healing_up",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+		 "duration_type" : "combat_end",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	        {
+         "id" : "RESC_camp_dodge_up",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+		 "duration_type" : "combat_end",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	     {
+         "id" : "RESC_scouting_up",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "resc_accuracy_marked_buff_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_accuracy_marked_buff_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_accuracy_marked_buff_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_accuracy_marked_buff_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_accuracy_marked_buff_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_crit_stun_buff_A",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.42,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_stun_buff_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.44,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_stun_buff_C",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.46,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_stun_buff_D",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.48,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_stun_buff_E",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_low_buff_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_high_buff_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_low_buff_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_high_buff_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  	  {
+         "id" : "resc_crit_damage_stun_low_buff_C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_high_buff_C",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  	  {
+         "id" : "resc_crit_damage_stun_low_buff_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_high_buff_D",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  	  {
+         "id" : "resc_crit_damage_stun_low_buff_E",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_crit_damage_stun_high_buff_E",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stunned"
+         }
+      },
+	  {
+         "id" : "resc_stun_marked_buff_A",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_stun_marked_buff_B",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_stun_marked_buff_C",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_stun_marked_buff_D",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.55,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "resc_stun_marked_buff_E",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.65,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_A2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_A2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_B2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_B2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_C2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_C2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_D2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_D2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_herding_tooltip_E2_buff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_herding_tooltip_E2_buff_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_riposte_spider_lowA_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+      {
+         "id" : "RESC_riposte_spider_highA_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },	  
+	  {
+         "id" : "RESC_riposte_spider_lowB_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+      {
+         "id" : "RESC_riposte_spider_highB_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },	  
+	  {
+         "id" : "RESC_riposte_spider_lowC_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+      {
+         "id" : "RESC_riposte_spider_highC_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  {
+         "id" : "RESC_riposte_spider_lowD_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+      {
+         "id" : "RESC_riposte_spider_highD_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  	  {
+         "id" : "RESC_riposte_spider_lowE_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+      {
+         "id" : "RESC_riposte_spider_highE_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  {
+         "id" : "RESC_riposte_spider_critA_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.11,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  	  {
+         "id" : "RESC_riposte_spider_critB_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  	  {
+         "id" : "RESC_riposte_spider_critC_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  	  {
+         "id" : "RESC_riposte_spider_critD_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.14,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  	  {
+         "id" : "RESC_riposte_spider_critE_buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "spider"
+         }
+      },
+	  {
+         "id" : "RESC_death_A_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.04,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_B_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.05,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_C_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.06,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_D_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.07,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_E_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.08,
+		 "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_camp_1_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_camp_2_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_camp_3_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.03,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_death_camp_4_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.05,
+		 "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_healing_up_A_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.38,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_healing_up_B_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.41,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_healing_up_C_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.44,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_healing_up_D_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.47,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_healing_up_E_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_stress_up_A_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.28,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_stress_up_B_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.31,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_stress_up_C_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.34,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_stress_up_D_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.37,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_motivate_stress_up_E_buff",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_1_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_2_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_3_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_4_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_5_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_6",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_6_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_7",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_7_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_8",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_8_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_9",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_9_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_10",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_10_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_11",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_11_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "RESC_quirk_tooltip_12",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_12_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_13",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_13_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "RESC_quirk_tooltip_14",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_14_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  	  {
+         "id" : "RESC_quirk_tooltip_15",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_15_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	    {
+         "id" : "RESC_quirk_tooltip_16",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_16_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	    {
+         "id" : "RESC_quirk_tooltip_17",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_17_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	    {
+         "id" : "RESC_quirk_tooltip_18",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_18_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_19",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_19_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_20",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_20_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_21",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_21_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_22",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_22_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_23",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_23_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_tooltip_24",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_quirk_tooltip_24_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_district_tooltip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_district_tooltip_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_district_tooltip2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "RESC_district_tooltip2_x",
+         "amount" : 1.0,
+		 "duration" : 0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "allies"
+         }
+      },
+	  {
+         "id" : "RESC_district_stun_resist",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "pet_cemetery"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_healing_up",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_healingrec_up",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_quirk_virtue_up",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_speed_up",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_crit_up",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.02,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_stresshealing_down",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_stressrec_up",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_stunning_staff",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stay_away"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_bleeding_bite",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "follow_the_track"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_damlow_up",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_quirk_damhigh_up",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_quirk_mark_as_debuff_1",
+         "stat_type" : "tag",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_mark_trigger",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "herding_tactics"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_stun_resist_up",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_stess_down",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_damlow_up2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "herding_tactics"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_damhigh_up2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "herding_tactics"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_district_stress_heal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_district_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_district_herding_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "herding_tactics"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_district_herding_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "herding_tactics"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_quirk_cost_down_medical",
+         "stat_type" : "activity_side_effect_chance",
+         "stat_sub_type" : "add_currency",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "treatment"
+         }
+      },
+	  {
+         "id" : "RESC_quirk_cost_down_treatment",
+         "stat_type" : "activity_side_effect_chance",
+         "stat_sub_type" : "add_currency",
+         "amount" : 10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "disease_treatment"
+         }
+      },
+	    {
+         "id" : "RESC_quirk_cure_bleed_chance",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_cure_blight_chance",
+         "stat_type" : "cure_poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_quirk_cost_up_treatment",
+         "stat_type" : "activity_side_effect_chance",
+         "stat_sub_type" : "remove_currency",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_activity",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "disease_treatment"
+         }
+      },
+	  
+	  {
+         "id" : "RESC_virtue_bonus",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_virtue_bonus_med",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "duration_type" : "combat_end",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_motivate_virtue_up_party_A_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_party_B_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_party_C_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_party_D_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	   {
+         "id" : "RESC_motivate_virtue_up_party_E_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_motivate_virtue_up_self_A_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_self_B_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_self_C_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  	  {
+         "id" : "RESC_motivate_virtue_up_self_D_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_motivate_virtue_up_self_E_buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_trinket_head_healrec",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_head_stressheal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  {
+         "id" : "RESC_trinket_head_virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_head_stresspenalty",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	    {
+         "id" : "RESC_trinket_com_stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_com_stress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_com_hp",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	   {
+         "id" : "RESC_trinket_com_stun_up_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.40,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_death",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_virtue",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_bleed_chance",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_bleed_amount",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_cc_ignore_prot",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_crit",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_bleed_rec",
+         "stat_type" : "hp_dot_bleed_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_blight_rec",
+         "stat_type" : "hp_dot_poison_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_cc_emergency_heal",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 1.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_healing_rec",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_si_stress_rec",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_poison",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_si_resist_death",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_poison",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "posion",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_heal_rec",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_disease_rec",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_crits_rec",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_guide_health_max",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_scope_healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "firstaid"
+         }
+      },
+	      {
+         "id" : "RESC_trinket_scope_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_canister_stress",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "nitrous"
+         }
+      },
+	  {
+         "id" : "RESC_trinket_canister_blight_down",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_toy_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_toy_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_toy_bleed",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_toy_surprised",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_decoration_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_decoration_cure_bleed",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_decoration_defense",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_improvised_heal",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_improvised_bleed",
+         "stat_type" : "hp_dot_bleed_duration_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	    {
+         "id" : "RESC_trinket_decoration_disease",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	    {
+         "id" : "RESC_trinket_improvised_stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  {
+         "id" : "RESC_trinket_improvised_debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_improvised_move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_collar_guard_block",
+         "stat_type" : "guard_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_collar_crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stay_away"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_trinket_collar_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stay_away"
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "RESC_trinket_collar_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "stay_away"
+         },
+		 "has_description" : false
+      },
+	  {
+         "id" : "RESC_trinket_collar_speed",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -6,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_collar_bite_bleed_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_barrel_brandy_bonus",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_item_id",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "resc_barrel_1"
+         },
+		 "has_description" : false
+      },
+	  	  {
+         "id" : "RESC_trinket_barrel_brandy_stun_bonus",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : true
+      },
+	  {
+         "id" : "RESC_trinket_barrel_blight",
+         "stat_type" : "cure_poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  	  {
+         "id" : "RESC_trinket_barrel_bleed",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "rescuer_low_health_enter1_buff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_barrel_healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.60,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.20,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_improvised_bleed_cure_buff",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_book_healing",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_book_bleed_chance",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	   {
+         "id" : "RESC_trinket_book_damage_low",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "RESC_trinket_book_damage_high",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_trinket_book_critcal_chance_buff",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_01",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_02",
+         "stat_type" : "cure_bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_03",
+         "stat_type" : "cure_poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_04",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_05",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_06",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_MEDICAL_07",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "PROTECTORATE_05B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.13,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "PROTECTORATE_01B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "PROTECTORATE_02B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.35,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "PROTECTORATE_03B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+          "id" : "PROTECTORATE_04B",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "PROTECTORATE_06B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "PROTECTORATE_07B",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_virtue_heal_rec_buff",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_virtue_heal_rec_buffb",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_virtue_death_resist_buff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "RESC_virtue_death_resist_buffb",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	   
+
+	  
+	  
+   ]
+}

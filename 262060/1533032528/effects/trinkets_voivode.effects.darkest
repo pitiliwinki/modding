@@ -1,0 +1,45 @@
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Trinket Effects Voivode
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Goblet
+effect: .name "Contract OnKill" .target "performer"  .chance 100% .buff_ids "VV_contract_MAXHP-Stack" .heal_percent 0.10 .on_hit true .on_miss true .queue true .apply_once true .duration 35
+
+effect: .name "TRINKET_Goblet_Heal_Debuff" 	.target "target"  .chance 100%   .buff_ids "TRINKET_chalice_quirk_heal_1" "TRINKET_chalice_quirk_heal_2" .on_hit true .on_miss false .queue true .apply_once true .buff_source_type bsrc_notspecified .has_description false .duration 1 .duration_type before_turn
+effect: .name "TRINKET_Goblet_Heal" 		.target "target"  .chance 100%   .heal 5 .on_hit true .on_miss false .queue true .apply_once true	.has_description false
+effect: .name "TRINKET_Goblet_Heal_Buff" 	.target "target"  .chance 100%   .buff_ids "TRINKET_chalice_quirk_heal_1R" "TRINKET_chalice_quirk_heal_2R" "TRINKET_chalice_quirk_LifestealR" .on_hit true .on_miss false .queue true .apply_once true .buff_source_type bsrc_notspecified	.has_description false .duration 1 .duration_type before_turn
+
+// Sunward 
+effect: .name "TRINKET_VV_Sunward_Rage_Hidden" 	.target "target"  .chance 100%   .buff_ids  TRINKET_sunward_quirk_Buff_1  TRINKET_sunward_quirk_Buff_2 .on_hit true .on_miss false .queue true .apply_once true .has_description false .duration 1 
+effect: .name "TRINKET_VV_Sunward_Rage" 		.target "target"  .chance 100%   .buff_ids  .on_hit true .on_miss false .queue true .apply_once true .has_description true .duration 1 
+effect: .name "TRINKET_VV_Sunward_TT"  			.target "performer"  .chance 100%  .skill_instant true .buff_ids "vv_tooltip_TRINKET_Sunward" .on_hit true .on_miss false .queue true .apply_once true .duration 1
+
+
+// Bon Appetit 
+effect: .name "Jar OnKill" .target "target"  .chance 100%   .heal_percent 0.20 .on_hit true .on_miss false .queue true .apply_once true
+
+
+// Portrait
+effect: .name "VV Maiden Friendly Brood" .target "target"  .chance 150%   .buff_ids "VV_maiden_QuirkEvolution_1_to_2" .on_hit true .on_miss false .queue true .apply_once true .duration 1 .duration_type quest_end .has_description false
+
+
+effect: .name "TRINKET_Maiden_Heal_TT"  .target "performer"  .chance 100%  .skill_instant true .buff_ids vv_tooltip_TRINKET_Maiden_Heal .on_hit true .on_miss false .queue true .apply_once true .duration 1
+
+
+effect: .name "TRINKET_Maiden_Heal_Debuff" 	.target "target"  .chance 100%   .buff_ids "TRINKET_maiden_quirk_heal_1" "TRINKET_maiden_quirk_heal_2" .on_hit true .on_miss false .queue true .apply_once true .buff_source_type bsrc_notspecified .has_description false .duration 1 .duration_type before_turn
+effect: .name "TRINKET_Maiden_Heal" 		.target "target"  .chance 100%   .healstress 10 .on_hit true .on_miss false .queue true .apply_once true	.has_description false
+effect: .name "TRINKET_Maiden_Heal_Buff" 	.target "target"  .chance 100%   .buff_ids "TRINKET_maiden_quirk_heal_1R" "TRINKET_maiden_quirk_heal_2R" .on_hit true .on_miss false .queue true .apply_once true .buff_source_type bsrc_notspecified	.has_description false .duration 1 .duration_type before_turn
+
+
+
+
+// Portrait
+effect: .name "VV Portrait OnAttack" .target "target"  .chance 150%   .buff_ids "TRINKET_portrait_bleeding" "TRINKET_portrait_stunned" .on_hit true .on_miss false .queue true .apply_once true .duration 1 .duration_type combat_end .has_description false
+effect: .name "VV Portrait OnAttack TT" .target "performer"  .chance 100%   .skill_instant true .buff_ids "TRINKET_portrait_bleeding" "TRINKET_portrait_stunned" .on_hit true .on_miss false .queue true .apply_once true
+
+//Test lines 
+//###################################
+
+//Class mod by CarnifexX --------------------------------------------------
